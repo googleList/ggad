@@ -1,0 +1,70 @@
+{
+  "domain": "https://shumaojs.com/",
+  "updated": "2026-09-14",
+  "note": "当前版本基于站点业务、页面主题和公开搜索结果语义整理。后续应结合 Google Search Console 的 queries、clicks、impressions、ctr、position 继续调整。",
+  "clusters": [
+    {
+      "cluster": "Google Ads 开户代投",
+      "intent": "commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/google-ads.html",
+      "primaryKeywords": ["谷歌广告代投", "Google Ads 代投", "谷歌广告开户", "Google Ads 开户"],
+      "supportingKeywords": ["外贸谷歌推广", "Google 搜索广告代投", "谷歌广告账户资料", "Google Ads 投放咨询"],
+      "contentActions": ["服务页首屏保留开户与代投关键词", "增加搜索广告、PMax、购物广告等广告类型说明", "从相关文章持续内链到服务页"]
+    },
+    {
+      "cluster": "多平台广告代投",
+      "intent": "commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/managed-ads.html",
+      "primaryKeywords": ["广告代投", "广告开户代投", "广告代运营", "海外广告投放"],
+      "supportingKeywords": ["跨境电商广告投放", "外贸广告推广", "多平台广告管理", "广告预算优化"],
+      "contentActions": ["首页与导航保持多平台入口", "说明 Google、Meta、Facebook、X/Twitter 的适用场景", "避免违规承诺类词汇"]
+    },
+    {
+      "cluster": "Meta 与 Facebook 广告",
+      "intent": "commercial",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/meta-ads.html",
+      "primaryKeywords": ["Meta 广告代投", "Facebook 广告开户", "Facebook 广告代投"],
+      "supportingKeywords": ["Instagram 广告投放", "Facebook 线索广告", "Meta 广告素材测试", "跨境社媒广告"],
+      "contentActions": ["Meta/Facebook 页面避免内容重复", "用素材测试、线索表单、主页资产做差异化", "增加相关文章之间的内链"]
+    },
+    {
+      "cluster": "广告账户资料与审核准备",
+      "intent": "decision",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/account-guidance.html",
+      "primaryKeywords": ["广告平台开户资料", "广告账户审核资料", "Google Ads 企业验证资料"],
+      "supportingKeywords": ["广告账户主体一致性", "落地页合规检查", "隐私政策服务条款", "广告账户付款资料"],
+      "contentActions": ["强化企业主体、网站、付款资料一致性", "从合规页和联系页增加内链", "避免承诺审核通过"]
+    },
+    {
+      "cluster": "SEM 教程与搜索广告",
+      "intent": "informational",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-search-ads-guide.html",
+      "primaryKeywords": ["Google 搜索广告", "Google 搜索广告怎么投", "SEM 关键词匹配"],
+      "supportingKeywords": ["Google 广告费用", "搜索词报告优化", "否定词怎么设置", "转化追踪教程"],
+      "contentActions": ["继续加厚短文章", "用教程文章承接信息词", "在文章末尾引导到 Google Ads 服务页"]
+    },
+    {
+      "cluster": "建站与落地页",
+      "intent": "informational",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/landing-page-checklist.html",
+      "primaryKeywords": ["广告落地页检查", "外贸独立站投放", "广告投放网站要求"],
+      "supportingKeywords": ["建站信任页面", "移动端落地页优化", "隐私政策怎么写", "服务条款页面"],
+      "contentActions": ["补充案例型内容", "把建站文章内链到合规页和联系页", "突出页面透明度和转化入口"]
+    },
+    {
+      "cluster": "SEO 与 GEO",
+      "intent": "informational",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles.html",
+      "primaryKeywords": ["SEO 教程", "GEO 优化", "AI 搜索优化", "llms.txt"],
+      "supportingKeywords": ["Googlebot 是什么", "SEO 标题描述", "外贸网站 SEO", "AI 爬虫"],
+      "contentActions": ["文章栏目按 SEO、SEM、建站、GEO 继续扩展", "GEO 文章增加 FAQ 和实体信息", "保持原创或充分改写，避免低质量重复"]
+    }
+  ]
+}

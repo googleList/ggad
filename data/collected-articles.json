@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T15:12:58.407381+00:00",
+  "generatedAt": "2026-09-14T16:01:43.379360+00:00",
   "sourcesChecked": 2,
   "copyrightPolicy": "Collect metadata, short summaries, source links, and image reference URLs only. Do not republish full original text or download third-party images.",
   "items": [
@@ -43,7 +43,7 @@
         "本文集中讲 Ads Manager 本身：三层结构、第一个 campaign 如何设定、报表应该看甚么，以及哪些常見设定最容易出錯。我們自 2017 年起为香港及馬來西亞企业管理 Google Ads 及 Meta Ads ，以下会以实際管"
       ],
       "rewriteBrief": "围绕「Meta Ads Manager 教学 2026｜Campaign、Ad Set、Ad 设定与报表」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Meta Ads Manager 是甚么？、Meta Ads Manager 与 Boost Post 有甚么分別？、Campaign、Ad Set、Ad 三层有甚么分別？、Campaign：决定广告目标。",
-      "detailFetchedAt": "2026-09-14T15:12:54.316359+00:00"
+      "detailFetchedAt": "2026-09-14T16:01:25.985492+00:00"
     },
     {
       "id": "c06e2738d77f3d69",
@@ -85,7 +85,7 @@
         "答案： Lumina 按秒收费，720p 每秒 46 credits。一条 20 秒广告一鏡到尾生成收 920 credits，拆成三条 8 秒再剪起是 1,104，貴在多买了要剪走的片頭片尾。尾卡在 Canva 做，不另收生成费。"
       ],
       "rewriteBrief": "围绕「Seedance 2.5 AI 生成影片完整教学」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：你可以在香港用哪个 AI 工具生成影片？、为甚么有些 AI 生成影片一看就假？、一条 AI 生成影片实際要多少钱、用 AI 生成影片做广告的六个步驟。",
-      "detailFetchedAt": "2026-09-14T15:12:54.768859+00:00"
+      "detailFetchedAt": "2026-09-14T16:01:26.442036+00:00"
     },
     {
       "id": "902ac417864d3e0d",
@@ -127,7 +127,7 @@
         "Seedance 2.5 是 ByteDance 的影片生成模型，可以由文字或者参考图生成连聲音的短片，香港用户实際登入的平台是 BytePlus Lumina（ai.byteplus.com/lumina）。"
       ],
       "rewriteBrief": "围绕「Seedance 2.5 Lumina 香港实测｜HK$18 一条 AI 片」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Seedance 2.5 是甚么？香港如何使用？、即夢、Dreamina、Lumina，香港用哪个？、Lumina 收费怎樣計，一条片实際多少钱、Lumina 教学，由开户到出第一条片。",
-      "detailFetchedAt": "2026-09-14T15:12:56.231677+00:00"
+      "detailFetchedAt": "2026-09-14T16:01:26.880051+00:00"
     },
     {
       "id": "b6dc9d43520991a5",
@@ -169,7 +169,7 @@
         "这篇是完整的设定与管理教学：管理介面在哪里、每一栏该怎樣填、哪些写法会令档案被停用、成效报告怎樣看，以及香港商户最常遇到的幾种情況，截图全部來自我們自己的商家档案。"
       ],
       "rewriteBrief": "围绕「Google My Business 2026：Google 商家档案设定教学」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：由 Google My Business 到 Google 商家档案、管理介面在哪里、开设或认領商家档案、商家资料：最容易填錯的三栏。",
-      "detailFetchedAt": "2026-09-14T15:12:56.648153+00:00"
+      "detailFetchedAt": "2026-09-14T16:01:27.264722+00:00"
     },
     {
       "id": "5d94789c55365a7e",
@@ -211,7 +211,7 @@
         "我們在 Google Analytics 4（GA4）完整教学 讲过，Acquisition 报表是其中一个最直接看流量質素的地方。"
       ],
       "rewriteBrief": "围绕「GA4 Channel Grouping 教学：19 种官方预设渠道完整分析」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：甚么是 GA4 Channel Grouping？、GA4 流量來源如何分类、GA4 怎樣判斷一个工作階段屬于哪个渠道、Google Analytics 4 的 19 种预设渠道分組(Channel Grouping)。",
-      "detailFetchedAt": "2026-09-14T15:12:57.090862+00:00"
+      "detailFetchedAt": "2026-09-14T16:01:27.675945+00:00"
     },
     {
       "id": "596947455789c784",
@@ -251,7 +251,7 @@
         "Meta 广告主要投放在 Facebook 和 Instagram 的 feed，Demand Gen 就是 Google 这邊的对应，广告出现在用户因为興趣而滑的 feed 里。Google 說这些版面每月覆蓋約 30 億用户。有兩次改名"
       ],
       "rewriteBrief": "围绕「Demand Gen 广告完整教学 2026｜YouTube、Discover 及 Gmail 视覺广告指南」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Demand Gen 是甚么、Demand Gen 广告在哪些位置出现、Demand Gen vs Performance Max vs GDN、甚么时候適合使用 Demand Gen 广告？。",
-      "detailFetchedAt": "2026-09-14T15:12:57.526730+00:00"
+      "detailFetchedAt": "2026-09-14T16:01:28.069227+00:00"
     },
     {
       "id": "b06f196623f31d61",
@@ -293,7 +293,7 @@
         "本文会交替使用这幾个词，但讲的都是同一回事：在 Google 搜尋结果上，按点击付费、競价你目标客户正在搜尋的关键字。（Google Ads 也能投放 Display、YouTube、Performance Max 等，但本文聚焦在意图最高"
       ],
       "rewriteBrief": "围绕「Google 广告完整教学 2026｜Google Ads、SEM、关键字广告（附香港 CPC 实测）」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Google 广告、Google Ads、SEM、关键字广告有甚么分別？、SEM 是甚么？与 SEO 有甚么分別？、香港做搜尋广告，是否等于只做 Google？、SEM 收费如何計算？香港 CPC 大概多少钱？。",
-      "detailFetchedAt": "2026-09-14T15:12:57.965817+00:00"
+      "detailFetchedAt": "2026-09-14T16:01:28.471261+00:00"
     },
     {
       "id": "639562e7d9e71a1c",
@@ -335,7 +335,7 @@
         "由 2026 年 6 月起，Google Ads 内会出现遷移工具，将现有 Display campaign 转移至 Demand Gen，之后你将无法再新建獨立的 Display campaign，其餘符合条件的 Display camp"
       ],
       "rewriteBrief": "围绕「GDN 广告（Google 展示广告）完整教学｜格式、受众设定与优化」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Google 展示广告（GDN）在 2026 年是否即将停用？、如何知道哪些 Banner 广告是來自Google Display Network?、Google Display Network 運作原理、广告在GDN（Google Display Network) 的展现樣式/GDN广告范例。",
-      "detailFetchedAt": "2026-09-14T15:12:58.407359+00:00"
+      "detailFetchedAt": "2026-09-14T16:01:28.974484+00:00"
     },
     {
       "id": "891179e71f026c96",
@@ -351,7 +351,27 @@
       "summary": "把 GEO 和传统 SEO 摆在一起对比，2026 年悉尼市场的真实价格、机制差异、3 个月投放结果、决策框架一次说清。包含华人服务业、电商、出海品牌 3 类企业的具体预算分配建议。",
       "imageUrl": "https://horntech.com.au/assets/blog/ai-search-optimisation-sydney-hero.jpg",
       "imageAlt": "GEO vs SEO 悉尼 2026：AI 搜索优化和传统 SEO，华人企业到底投哪个",
-      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission."
+      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission.",
+      "detailTitle": "GEO vs SEO 悉尼 2026：AI 搜索优化和传统 SEO，华人企业到底投哪个",
+      "detailSummary": "把 GEO 和传统 SEO 摆在一起对比，2026 年悉尼市场的真实价格、机制差异、3 个月投放结果、决策框架一次说清。包含华人服务业、电商、出海品牌 3 类企业的具体预算分配建议。",
+      "outline": [
+        "为什么 2026 年悉尼企业开始把预算从 SEO 挪到 GEO",
+        "核心机制对比：GEO vs 传统 SEO 在 2026 怎么算分",
+        "价格对比：GEO 套餐 vs SEO 月费在悉尼 2026",
+        "投放结果对比：3 个月你能看见什么",
+        "实战对比：悉尼 CBD 移民中介从 SEO 切 GEO 的 90 天",
+        "哪种适合你：3 类悉尼华人企业的决策框架",
+        "常见问题",
+        "免费咨询：30 分钟 AI 搜索可见度诊断"
+      ],
+      "researchNotes": [
+        "多数悉尼华人企业以为 AI 搜索优化（GEO）是 SEO 的升级版，预算可以小调一下就完事。这个判断在 2024 年还成立，到 2026 年已经错得离谱。GEO 和传统 SEO 在 触发场景、计费模式、生效周期、可见度衡量方式 上几乎是两个",
+        "这篇把 GEO 和传统 SEO 摆在一起对比，价格、机制、ROI、决策框架四个维度全过一遍，帮你判断 2026 年下半年的搜索预算到底该怎么分。如果你想直接看 HornTech 的 AI 搜索优化套餐 ，链接已经放好；想先理清账再做决定，继",
+        "为什么 2026 年悉尼企业开始把预算从 SEO 挪到 GEO",
+        "2026 年最大的搜索行为变化不是 Google 又改算法，而是 用户问问题的入口换了 。一部分悉尼用户问\"悉尼最好的移民中介\"已经直接打开 ChatGPT 或 Perplexity，华人客户群里 Bing AI（Copilot）、Kimi"
+      ],
+      "rewriteBrief": "围绕「GEO vs SEO 悉尼 2026：AI 搜索优化和传统 SEO，华人企业到底投哪个」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：为什么 2026 年悉尼企业开始把预算从 SEO 挪到 GEO、核心机制对比：GEO vs 传统 SEO 在 2026 怎么算分、价格对比：GEO 套餐 vs SEO 月费在悉尼 2026、投放结果对比：3 个月你能看见什么。",
+      "detailFetchedAt": "2026-09-14T16:01:30.635228+00:00"
     },
     {
       "id": "71af354e3d9c01e9",
@@ -367,7 +387,33 @@
       "summary": "悉尼华人老板每周都在问的 14 个 AI 问题，配真实数字和诚实答案。从最便宜的起步方式、ChatGPT Plus 与定制 AI 怎么选、定制开发什么时候回本，到 AI 搜索优化、AUD 预算分档（$0 至 $250K）、自己招还是选澳洲本地 AI 公司、隐私法合规，再到未来 7...",
       "imageUrl": "https://horntech.com.au/assets/blog/sydney-sme-ai-questions-hero.jpg",
       "imageAlt": "悉尼中小企业 AI 实操指南 2026：花第一块钱前老板该问的 14 个问题",
-      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission."
+      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission.",
+      "detailTitle": "悉尼中小企业 AI 实操指南 2026：花第一块钱前老板该问的 14 个问题",
+      "detailSummary": "悉尼华人老板每周都在问的 14 个 AI 问题，配真实数字和诚实答案。从最便宜的起步方式、ChatGPT Plus 与定制 AI 怎么选、定制开发什么时候回本，到 AI 搜索优化、AUD 预算分档（$0 至 $250K）、自己招还是选澳洲本地 AI 公司、隐私法合规，再到未来 7 天的三步行动清单，全在这里。",
+      "outline": [
+        "\"在我公司里用 AI\" 在 2026 年到底是什么意思？",
+        "AI 真的会替换我公司里的人吗？",
+        "本周开始用 AI 最便宜的方式是什么？",
+        "ChatGPT Plus 还是定制 AI，先付哪个？",
+        "怎么判断我的悉尼公司需不需要定制 AI 开发？",
+        "什么是 \"AI 搜索优化\"，悉尼企业需要做吗？",
+        "悉尼小企业 2026 年 AI 预算大概应该是多少？",
+        "一个 AI 项目大概多久才会真的回本？",
+        "一个 AI 项目最容易在哪里翻车？",
+        "怎么衡量 AI 是不是真的有效？",
+        "AI 人才应该自己招，还是用澳洲本地 AI 公司？",
+        "用 AI 工具碰到客户数据，澳洲隐私法怎么办？",
+        "悉尼的 AI 顾问到底靠不靠谱，是不是大多数都在炒作？",
+        "这周我应该做的下一步是什么？"
+      ],
+      "researchNotes": [
+        "是的，2026 年悉尼绝大多数中小企业都应该在 AI 上花一点钱，问题只是花多少。合理范围在 AUD $0 到 AUD $250,000 一年之间，找到自己应该停在哪一档的唯一诚实办法，就是在被任何一场销售方案带节奏之前，先把下面这 14 ",
+        "\"在我公司里用 AI\" 在 2026 年到底是什么意思？",
+        "实际上是三件不同的事，大多数销售方案会把它们混在一起讲。第一种，团队日常用的消费级 AI 工具（ChatGPT、Claude、Copilot、Gemini），每个账号每月 AUD $20 到 AUD $200。第二种，挂在你已经在用的工作流",
+        "如果对方嘴里只说 \"AI\" 但不说清楚是上面哪一种，先把对话节奏放慢。三种 AI 的成本、风险和回本周期完全不同，混在一起谈大概率谈出错。"
+      ],
+      "rewriteBrief": "围绕「悉尼中小企业 AI 实操指南 2026：花第一块钱前老板该问的 14 个问题」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：\"在我公司里用 AI\" 在 2026 年到底是什么意思？、AI 真的会替换我公司里的人吗？、本周开始用 AI 最便宜的方式是什么？、ChatGPT Plus 还是定制 AI，先付哪个？。",
+      "detailFetchedAt": "2026-09-14T16:01:32.427994+00:00"
     },
     {
       "id": "5a406f076471cec2",
@@ -383,7 +429,28 @@
       "summary": "悉尼一家 24 人物流公司从胶带式运营系统切到定制 Claude agent 的完整 12 周建造笔记。AUD $180,000 预算到底花在哪里、上线后哪三件事崩了、90 天回报数字、以及四个判断你公司适不适合做定制 AI 的条件。",
       "imageUrl": "https://horntech.com.au/assets/blog/sydney-custom-ai-build-hero.jpg",
       "imageAlt": "悉尼定制 AI 开发实战：18 万澳元、12 周，一家物流公司怎么砍掉 30% 运营人头",
-      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission."
+      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission.",
+      "detailTitle": "悉尼定制 AI 开发实战：18 万澳元、12 周，一家物流公司怎么砍掉 30% 运营人头",
+      "detailSummary": "悉尼一家 24 人物流公司从胶带式运营系统切到定制 Claude agent 的完整 12 周建造笔记。AUD $180,000 预算到底花在哪里、上线后哪三件事崩了、90 天回报数字、以及四个判断你公司适不适合做定制 AI 的条件。",
+      "outline": [
+        "那封凌晨 11 点 14 分的邮件",
+        "原来的\"胶带式系统\"到底在哪里出血",
+        "三选一：买、招人、还是定制",
+        "12 周建造日志，时间到底花在哪里",
+        "上线之后哪里崩了，又是怎么修的",
+        "90 天之后的数字",
+        "你的悉尼企业适不适合做定制 AI",
+        "常见问题",
+        "聊聊定制 AI 适不适合你的业务"
+      ],
+      "researchNotes": [
+        "那封凌晨 11 点 14 分的邮件",
+        "悉尼一家 24 人的物流公司，创始人马库斯（化名）在 2026 年 1 月底的一个周二，凌晨 11 点 14 分给运营经理发了一封一句话的邮件： \"我们不能再这样下去了。\" 上一周，团队漏掉了一柜医疗设备的清关截止时间，原因是三个人在三个不",
+        "从 2025 年 Q3 开始，马库斯的 LinkedIn 收件箱里塞满了同一种推销： 找个 AI agent 帮你做就好了 。每一场 demo 看起来都很漂亮。但他越听越发现，没有一家咨询公司真正懂一家位于 Botany 的货代是怎么把一柜",
+        "这篇文章是马库斯接下来 12 周的真实建造笔记，记录这场运营事故是怎么变成一套定制 Claude agent 系统的，到底花了多少钱、上线之后什么地方崩了、如果重来一次他会怎么改。公司名和部分细节做了匿名处理，但数字和时间线没有动。"
+      ],
+      "rewriteBrief": "围绕「悉尼定制 AI 开发实战：18 万澳元、12 周，一家物流公司怎么砍掉 30% 运营人头」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：那封凌晨 11 点 14 分的邮件、原来的\"胶带式系统\"到底在哪里出血、三选一：买、招人、还是定制、12 周建造日志，时间到底花在哪里。",
+      "detailFetchedAt": "2026-09-14T16:01:34.208720+00:00"
     },
     {
       "id": "d7b3e3261c214d78",
@@ -399,7 +466,30 @@
       "summary": "悉尼大多数企业第一次选 Google Ads 顾问都会选错，不是市面上代理不行，是筛选时问的问题不对。9 步选型清单 + 2026 真实价位档（AUD $1,500 至 $10,000+）+ 5 个红旗信号 + 决定你能不能在分手时拿回账户的合同条款，全在这里。",
       "imageUrl": "https://horntech.com.au/assets/blog/sydney-google-ads-consultant-vetting-hero.jpg",
       "imageAlt": "悉尼怎么选 Google Ads 顾问 2026：9 步选型清单（附真实价位档）",
-      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission."
+      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission.",
+      "detailTitle": "悉尼怎么选 Google Ads 顾问 2026：9 步选型清单（附真实价位档）",
+      "detailSummary": "悉尼大多数企业第一次选 Google Ads 顾问都会选错，不是市面上代理不行，是筛选时问的问题不对。9 步选型清单 + 2026 真实价位档（AUD $1,500 至 $10,000+）+ 5 个红旗信号 + 决定你能不能在分手时拿回账户的合同条款，全在这里。",
+      "outline": [
+        "第 1 步：核实 Google Partner 状态（且别只看徽章）",
+        "第 2 步：审他自己投广告的账，别等他来审你的",
+        "第 3 步：要一份真实月报样本，不是销售 PPT",
+        "第 4 步：让他讲一个\"差的一周\"",
+        "第 5 步：确认转化追踪能力，不只是表面指标",
+        "第 6 步：问清楚你走之后账户归谁",
+        "第 7 步：他到底碰不碰 creative 和落地页",
+        "第 8 步：把价位档对上你的阶段",
+        "第 9 步：合同里要看 lock-in 和退出条款",
+        "常见问题",
+        "准备好和一个悉尼 Google Ads 顾问聊一聊？"
+      ],
+      "researchNotes": [
+        "悉尼大多数企业第一次选 Google Ads 顾问都会选错。不是因为市面上的代理不行，是因为筛选时问的问题不对。\"你有认证吗\"、\"给我看个案例\"，这两句几乎筛不掉任何人。",
+        "下面这份 9 步选型清单，来自 8 年间为悉尼服务业企业 做谷歌代投与广告管理 的实操经验，加上 30+ 次接手别人留下来的烂摊子复盘。每一步给一个具体问题、一个具体信号。签合同之前过一遍。如果你已经有合作的顾问，现在拿这份清单跑他一遍，再",
+        "第 1 步：核实 Google Partner 状态（且别只看徽章）",
+        "打开 官方 Google Partners 目录 ，搜对方公司名。如果不在 Partner 或 Premier Partner 列表，直接走人。如果在，看徽章上的三件事：认证细分（Search、Display、Shopping、Video）"
+      ],
+      "rewriteBrief": "围绕「悉尼怎么选 Google Ads 顾问 2026：9 步选型清单（附真实价位档）」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：第 1 步：核实 Google Partner 状态（且别只看徽章）、第 2 步：审他自己投广告的账，别等他来审你的、第 3 步：要一份真实月报样本，不是销售 PPT、第 4 步：让他讲一个\"差的一周\"。",
+      "detailFetchedAt": "2026-09-14T16:01:35.823076+00:00"
     },
     {
       "id": "f5764d15e680f7a1",
@@ -415,7 +505,31 @@
       "summary": "67%的澳洲企业同时投SEO和Google Ads。用这个7步框架决定先投哪个，预算怎么分配最划算。",
       "imageUrl": "https://horntech.com.au/assets/blog/seo-vs-google-ads-australia-decision.jpg",
       "imageAlt": "SEO还是Google Ads？澳洲企业7步选对营销渠道",
-      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission."
+      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission.",
+      "detailTitle": "SEO还是Google Ads？澳洲企业7步选对营销渠道",
+      "detailSummary": "67%的澳洲企业同时投SEO和Google Ads。用这个7步框架决定先投哪个，预算怎么分配最划算。",
+      "outline": [
+        "第1步：确定你的时间线",
+        "第2步：算清你的目标获客成本",
+        "第3步：审计你的现有数字资产",
+        "第4步：分析你客户的搜索行为",
+        "第5步：设定预算并分配",
+        "第6步：建立数据反馈闭环",
+        "第7步：承诺90天，然后复盘",
+        "常见问题",
+        "澳洲小企业选SEO还是Google Ads？",
+        "SEO和Google Ads预算怎么分？",
+        "可以同时做SEO和Google Ads吗？",
+        "SEO多久能替代Google Ads的流量？"
+      ],
+      "researchNotes": [
+        "澳洲企业2025年在数字广告上花了$124亿。Google拿走了47%。与此同时，澳洲53%的网站流量来自自然搜索，那个不用为每个点击付费的渠道。",
+        "两个渠道。一个主宰付费，一个主宰免费。在错误的时机把钱投进错误的渠道，每一块钱都是浪费。这个框架告诉你怎么决定。",
+        "两个渠道都在投但不确定比例对不对？ 免费获取渠道审计 ，我们会分析你的现有数据，告诉你预算该往哪边调。",
+        "这是最重要的变量，也是大多数企业搞错的地方。Google Ads启动48小时内就能产生询盘。SEO最快3-6个月才能看到效果。如果你需要下周就有收入，答案是Google Ads，没有讨论空间。"
+      ],
+      "rewriteBrief": "围绕「SEO还是Google Ads？澳洲企业7步选对营销渠道」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：第1步：确定你的时间线、第2步：算清你的目标获客成本、第3步：审计你的现有数字资产、第4步：分析你客户的搜索行为。",
+      "detailFetchedAt": "2026-09-14T16:01:37.411290+00:00"
     },
     {
       "id": "dffe906717a1a51d",
@@ -431,7 +545,29 @@
       "summary": "大多数澳洲Shopify店铺在Google上隐身。Shopify SEO优势、局限性，以及和WooCommerce的正面对比。",
       "imageUrl": "https://horntech.com.au/assets/blog/shopify-seo-australia-ecommerce.jpg",
       "imageAlt": "Shopify SEO澳洲指南：你的店铺能在Google上排上去吗？",
-      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission."
+      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission.",
+      "detailTitle": "Shopify SEO澳洲指南：你的店铺能在Google上排上去吗？",
+      "detailSummary": "大多数澳洲Shopify店铺在Google上隐身。Shopify SEO优势、局限性，以及和WooCommerce的正面对比。",
+      "outline": [
+        "Shopify在SEO上做对了什么",
+        "Shopify在SEO上的短板",
+        "Shopify SEO vs WooCommerce SEO：正面对比",
+        "怎么弥补Shopify的SEO短板",
+        "什么时候该考虑从Shopify迁出",
+        "常见问题",
+        "Shopify做SEO好用吗？",
+        "WooCommerce的SEO比Shopify好吗？",
+        "Shopify SEO多久见效？",
+        "需要找代理还是自己做？"
+      ],
+      "researchNotes": [
+        "大多数Shopify代理不会告诉你的事：让开店变得简单的平台，同时让排名变得出奇困难。不是不可能，但比应有的难度大，而且原因跟你的产品和内容无关。",
+        "Shopify占了澳洲电商店铺的40%以上。其中大多数在Google上隐身。能排上去的那些，是因为找到了绕过Shopify SEO限制的方法--这正是这篇指南要讲的。",
+        "你的Shopify店铺自然流量上不去？ 免费获取Shopify SEO审计 ，我们会找出具体卡在哪里。",
+        "公平地说，Shopify的技术基础比大多数平台的开箱体验好。移动端优先的响应式模板。CDN托管，页面加载不到2秒。自动生成XML Sitemap。全站强制SSL。URL结构还算干净。大多数页面自动生成Canonical标签。"
+      ],
+      "rewriteBrief": "围绕「Shopify SEO澳洲指南：你的店铺能在Google上排上去吗？」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Shopify在SEO上做对了什么、Shopify在SEO上的短板、Shopify SEO vs WooCommerce SEO：正面对比、怎么弥补Shopify的SEO短板。",
+      "detailFetchedAt": "2026-09-14T16:01:39.922576+00:00"
     },
     {
       "id": "6f687c3681e15eb5",
@@ -447,7 +583,28 @@
       "summary": "一家墨尔本物理治疗诊所8个月烧$6,400零转化。重构广告账户后，$2,400带回$87,000营收。完整复盘和操作指南。",
       "imageUrl": "https://horntech.com.au/assets/blog/google-ads-melbourne-clinic-success.jpg",
       "imageAlt": "墨尔本Google Ads：$2,400广告费如何带回$87,000营收",
-      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission."
+      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission.",
+      "detailTitle": "墨尔本Google Ads：$2,400广告费如何带回$87,000营收",
+      "detailSummary": "一家墨尔本物理治疗诊所8个月烧$6,400零转化。重构广告账户后，$2,400带回$87,000营收。完整复盘和操作指南。",
+      "outline": [
+        "烧掉$6,400的三个致命错误",
+        "重建：我们具体做了什么",
+        "三个月的真实数据",
+        "墨尔本和悉尼的Google Ads有什么不同",
+        "常见问题",
+        "墨尔本Google Ads每月花多少钱？",
+        "墨尔本小企业投Google Ads值得吗？",
+        "怎么找靠谱的墨尔本Google Ads代理？",
+        "Google Ads在墨尔本多久能出效果？"
+      ],
+      "researchNotes": [
+        "大多数Google Ads建议以\"设好预算\"和\"选好关键词\"开头。这就像告诉人\"跑快点\"就能赢马拉松。技术上没错，实际上没用。",
+        "2025年底，一家墨尔本物理治疗诊所找到我们。之前通过一个本地自由职业者跑了8个月Google Ads。月花费$800。广告带来的新病人数：零。不是少，是零。",
+        "诊所老板是个有15年临床经验的物理治疗师，已经认定Google Ads对墨尔本allied health行业没用。竞争太激烈，费用太高，大型连锁医院把预算全占了。她准备取消一切，把这$800/月投到Instagram上。",
+        "我们只要了一样东西：48小时的Google Ads账户访问权限。看到的是一个反面教材：一个广告组，\"physiotherapy\"广泛匹配，没有否定关键词，广告指向首页，没装转化追踪。8个月花了$6,400，连一个人有没有点过电话号码都不知道"
+      ],
+      "rewriteBrief": "围绕「墨尔本Google Ads：$2,400广告费如何带回$87,000营收」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：烧掉$6,400的三个致命错误、重建：我们具体做了什么、三个月的真实数据、墨尔本和悉尼的Google Ads有什么不同。",
+      "detailFetchedAt": "2026-09-14T16:01:41.698224+00:00"
     },
     {
       "id": "cd889dc49cfe4a90",
@@ -463,7 +620,29 @@
       "summary": "2026年悉尼网站设计$3,000-$60,000+。按项目类型拆解报价，告诉你每个价位买到什么，怎么把预算花得最值。",
       "imageUrl": "https://horntech.com.au/assets/blog/web-design-cost-sydney-office.jpg",
       "imageAlt": "悉尼网站设计多少钱？2026年完整报价拆解",
-      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission."
+      "usage": "Use as topic research and cite the source. Do not republish full text or download the image without permission.",
+      "detailTitle": "悉尼网站设计多少钱？2026年完整报价拆解",
+      "detailSummary": "2026年悉尼网站设计$3,000-$60,000+。按项目类型拆解报价，告诉你每个价位买到什么，怎么把预算花得最值。",
+      "outline": [
+        "按项目类型的悉尼报价一览",
+        "钱到底花在了哪里",
+        "悉尼公司 vs 自由职业者 vs 海外团队",
+        "上线后的持续费用",
+        "怎么把预算花得最值",
+        "常见问题",
+        "悉尼做一个网站要多少钱？",
+        "为什么悉尼网站设计这么贵？",
+        "应该找悉尼本地公司还是海外外包？",
+        "上线后还有哪些持续费用？"
+      ],
+      "researchNotes": [
+        "悉尼最贵的网站不是那个花了$50,000的。而是那个花了$5,000但一个询盘都没产生的。$5,000没了，加上它什么都不做的每一个月你损失的机会成本。",
+        "大多数悉尼企业把网站设计的思路搞反了。他们问\"网站多少钱\"，但真正该问的是\"我的网站应该产生多少营收，需要多少投入来实现\"。换个问法，评估报价的方式完全不同。",
+        "这篇指南展示悉尼真实报价，钱到底花在了哪里，以及怎么判断$5,000的报价是划算还是陷阱。",
+        "想知道你的项目具体要多少钱？ 免费获取建站评估 ，我们会对标悉尼市场行情给你一个固定报价。"
+      ],
+      "rewriteBrief": "围绕「悉尼网站设计多少钱？2026年完整报价拆解」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：按项目类型的悉尼报价一览、钱到底花在了哪里、悉尼公司 vs 自由职业者 vs 海外团队、上线后的持续费用。",
+      "detailFetchedAt": "2026-09-14T16:01:43.379344+00:00"
     }
   ],
   "topicIdeas": [

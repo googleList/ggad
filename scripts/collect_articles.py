@@ -19,7 +19,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
-from urllib.parse import urljoin, urlparse
+from urllib.parse import quote, urljoin, urlparse, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 
@@ -86,8 +86,17 @@ TRADITIONAL_TO_SIMPLIFIED = str.maketrans({
 })
 
 
+def encode_url(url: str) -> str:
+    """urllib requires ASCII request paths, so encode Chinese slugs before fetching."""
+    parts = urlsplit(url)
+    path = quote(parts.path, safe="/%")
+    query = quote(parts.query, safe="=&%:/?+-_.~,")
+    fragment = quote(parts.fragment, safe="=&%:/?+-_.~,")
+    return urlunsplit((parts.scheme, parts.netloc, path, query, fragment))
+
+
 def fetch(url: str, timeout: int = 25) -> str:
-    request = Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml"})
+    request = Request(encode_url(url), headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml"})
     with urlopen(request, timeout=timeout) as response:
         charset = response.headers.get_content_charset() or "utf-8"
         return response.read().decode(charset, errors="replace")

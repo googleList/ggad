@@ -1,0 +1,20 @@
+{
+  "generatedFor": "weekly competitor article monitoring",
+  "copyrightPolicy": "Collect metadata, short summaries, source links, and image reference URLs only. Do not republish full original text or download third-party images.",
+  "sources": [
+    {
+      "name": "Kick Ads 中文博客",
+      "url": "https://www.kickads.co/zh/blog",
+      "market": "Hong Kong / Malaysia",
+      "language": "zh-Hant",
+      "topic": "Google Ads, Meta Ads, tracking, AI search"
+    },
+    {
+      "name": "HornTech 中文博客",
+      "url": "https://horntech.com.au/zh/blog/",
+      "market": "Australia",
+      "language": "zh",
+      "topic": "SEO, Google Ads, GEO, web design, AI"
+    }
+  ]
+}

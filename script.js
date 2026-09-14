@@ -1,5 +1,89 @@
 document.documentElement.classList.add("js");
 
+const createIcon = (name) => {
+  const icon = document.createElement("i");
+  icon.className = `ti ti-${name}`;
+  icon.setAttribute("aria-hidden", "true");
+  icon.dataset.siteIcon = "";
+  return icon;
+};
+
+const addIcon = (target, name) => {
+  if (!target || target.querySelector(":scope > [data-site-icon]")) {
+    return;
+  }
+  target.prepend(createIcon(name));
+};
+
+const getIconForHref = (href) => {
+  if (!href) return "circle";
+  if (href.includes("google-ads")) return "brand-google";
+  if (href.includes("meta-ads")) return "brand-meta";
+  if (href.includes("facebook-ads")) return "brand-facebook";
+  if (href.includes("x-ads")) return "brand-x";
+  if (href.includes("managed-ads")) return "ad-2";
+  if (href.includes("account-guidance")) return "id";
+  if (href.includes("articles")) return "article";
+  if (href.includes("nav")) return "tools";
+  if (href.includes("compliance")) return "shield-check";
+  if (href.includes("contact") || href.includes("t.me")) return "brand-telegram";
+  if (href.includes("company")) return "building-store";
+  if (href.includes("privacy")) return "lock";
+  if (href.includes("terms")) return "file-certificate";
+  if (href.includes("index") || href === "/" || href === "#top") return "home";
+  return "external-link";
+};
+
+const getIconForText = (text) => {
+  const value = (text || "").trim().toLowerCase();
+  if (value.includes("google")) return "brand-google";
+  if (value.includes("meta")) return "brand-meta";
+  if (value.includes("facebook")) return "brand-facebook";
+  if (value.includes("twitter") || value.includes("x/")) return "brand-x";
+  if (value.includes("开户")) return "id";
+  if (value.includes("资料")) return "file-description";
+  if (value.includes("合规") || value.includes("政策") || value.includes("审核")) return "shield-check";
+  if (value.includes("落地页") || value.includes("建站")) return "world-www";
+  if (value.includes("转化") || value.includes("追踪") || value.includes("数据")) return "chart-line";
+  if (value.includes("关键词") || value.includes("搜索")) return "search";
+  if (value.includes("素材") || value.includes("创意")) return "photo";
+  if (value.includes("预算") || value.includes("费用")) return "coin";
+  if (value.includes("文章") || value.includes("教程")) return "book-2";
+  if (value.includes("工具")) return "tools";
+  if (value.includes("联系") || value.includes("咨询")) return "message-circle";
+  if (value.includes("主体") || value.includes("企业") || value.includes("公司")) return "building-store";
+  return "circle-check";
+};
+
+const decorateIcons = () => {
+  document.querySelectorAll(".nav > a, .legal-nav a, .nav-dropdown-menu a").forEach((link) => {
+    addIcon(link, getIconForHref(link.getAttribute("href") || ""));
+  });
+
+  document.querySelectorAll(".nav-drop-toggle").forEach((button) => addIcon(button, "speakerphone"));
+
+  document.querySelectorAll(".button").forEach((button) => {
+    const href = button.getAttribute("href") || "";
+    addIcon(button, href.includes("t.me") ? "brand-telegram" : getIconForText(button.textContent));
+  });
+
+  document.querySelectorAll(".section-head h2, .tool-column section h2, .legal-content section > h2").forEach((heading) => {
+    addIcon(heading, getIconForText(heading.textContent));
+  });
+
+  document.querySelectorAll(".keyword-card strong, .platform-card strong, .principle-card strong, .service-card h3, .step-card h3, .fact-card strong, .resource-card strong, .article-card h3 a, .ad-type-card h3").forEach((heading) => {
+    const cardLink = heading.closest("a");
+    const href = cardLink ? cardLink.getAttribute("href") || "" : "";
+    addIcon(heading, href ? getIconForHref(href) : getIconForText(heading.textContent));
+  });
+
+  document.querySelectorAll(".tool-side-nav a").forEach((link) => {
+    addIcon(link, getIconForText(link.textContent));
+  });
+};
+
+decorateIcons();
+
 const revealItems = document.querySelectorAll("[data-reveal]");
 const showIfInView = (item) => {
   const rect = item.getBoundingClientRect();
@@ -232,8 +316,14 @@ const closeNavDropdowns = (exceptDropdown) => {
 
 navDropdowns.forEach((dropdown) => {
   const button = dropdown.querySelector(".nav-drop-toggle");
+  const menu = dropdown.querySelector(".nav-dropdown-menu");
   if (!button) {
     return;
+  }
+
+  if (menu && !menu.id) {
+    menu.id = `nav-menu-${Math.random().toString(36).slice(2, 8)}`;
+    button.setAttribute("aria-controls", menu.id);
   }
 
   dropdown.addEventListener("click", (event) => {
@@ -246,9 +336,20 @@ navDropdowns.forEach((dropdown) => {
     button.setAttribute("aria-expanded", String(isOpen));
     closeNavDropdowns(dropdown);
   });
+
+  dropdown.querySelectorAll(".nav-dropdown-menu a").forEach((link) => {
+    link.addEventListener("click", () => {
+      dropdown.classList.remove("is-open");
+      button.setAttribute("aria-expanded", "false");
+    });
+  });
 });
 
-document.addEventListener("click", () => closeNavDropdowns());
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".nav-dropdown")) {
+    closeNavDropdowns();
+  }
+});
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     closeNavDropdowns();

@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.46.0/dist/tabler-icons.min.css");
+
 :root {
   --ink: #17202a;
   --muted: #5b6875;
@@ -58,6 +60,75 @@ button:focus-visible,
 summary:focus-visible {
   outline: 3px solid rgba(15, 95, 159, 0.32);
   outline-offset: 3px;
+}
+
+.ti {
+  flex: 0 0 auto;
+  color: currentColor;
+  font-size: 1.08em;
+  line-height: 1;
+}
+
+.nav a,
+.nav-drop-toggle,
+.legal-nav a,
+.button,
+.text-link,
+.section-head h2,
+.keyword-card strong,
+.platform-card strong,
+.principle-card strong,
+.service-card h3,
+.step-card h3,
+.fact-card strong,
+.resource-card strong,
+.article-card h3 a,
+.ad-type-card h3,
+.tool-side-nav a,
+.tool-column section h2,
+.legal-content section > h2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.button .ti,
+.nav .ti,
+.legal-nav .ti {
+  font-size: 1.02em;
+}
+
+.section-head h2 .ti,
+.tool-column section h2 .ti,
+.legal-content section > h2 .ti {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(15, 95, 159, 0.18);
+  border-radius: 50%;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: 18px;
+}
+
+.keyword-card strong .ti,
+.platform-card strong .ti,
+.principle-card strong .ti,
+.service-card h3 .ti,
+.step-card h3 .ti,
+.fact-card strong .ti,
+.resource-card strong .ti,
+.article-card h3 a .ti,
+.ad-type-card h3 .ti {
+  display: inline-grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: 16px;
 }
 
 .site-header,
@@ -140,6 +211,7 @@ summary:focus-visible {
   position: relative;
   display: inline-flex;
   align-items: center;
+  min-height: 40px;
 }
 
 .nav-dropdown::before {
@@ -187,7 +259,9 @@ summary:focus-visible {
   left: 50%;
   z-index: 40;
   display: grid;
+  gap: 2px;
   min-width: 230px;
+  max-width: calc(100vw - 32px);
   padding: 10px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -200,6 +274,19 @@ summary:focus-visible {
   transition: opacity 160ms ease, transform 160ms ease, visibility 160ms ease;
 }
 
+.nav-dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  background: #fff;
+  transform: translateX(-50%) rotate(45deg);
+}
+
 .nav-dropdown:hover .nav-dropdown-menu,
 .nav-dropdown:focus-within .nav-dropdown-menu,
 .nav-dropdown.is-open .nav-dropdown-menu {
@@ -210,7 +297,10 @@ summary:focus-visible {
 }
 
 .nav-dropdown-menu a {
-  padding: 9px 10px;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 10px 11px;
   border-radius: 6px;
   color: var(--ink);
   line-height: 1.35;
@@ -964,17 +1054,6 @@ html.js [data-reveal].is-visible {
   gap: 10px;
 }
 
-.legal-content section > h2::before {
-  content: "";
-  flex: 0 0 auto;
-  width: 12px;
-  height: 12px;
-  border: 3px solid rgba(15, 95, 159, 0.22);
-  border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 0 5px var(--accent-soft);
-}
-
 .legal-content a {
   color: var(--accent);
   font-weight: 900;
@@ -1003,7 +1082,7 @@ html.js [data-reveal].is-visible {
 
 .legal-cta {
   margin-top: 24px;
-  padding: 24px;
+  padding: clamp(28px, 4vw, 44px);
   border: 1px solid rgba(15, 95, 159, 0.18);
   border-radius: var(--radius);
   background: var(--soft);
@@ -1011,6 +1090,7 @@ html.js [data-reveal].is-visible {
 
 .legal-content .legal-cta {
   border-top: 1px solid rgba(15, 95, 159, 0.18);
+  padding: clamp(28px, 4vw, 44px);
 }
 
 .legal-cta h2 {
@@ -1678,6 +1758,7 @@ html.js [data-reveal].is-visible {
     position: relative;
     display: grid;
     align-items: start;
+    width: 100%;
   }
 
   .nav-dropdown::before {
@@ -1687,7 +1768,9 @@ html.js [data-reveal].is-visible {
   .nav-dropdown-menu {
     position: static;
     display: none;
-    min-width: 230px;
+    width: 100%;
+    min-width: 0;
+    max-width: none;
     margin-top: 8px;
     box-shadow: none;
     opacity: 1;
@@ -1695,8 +1778,10 @@ html.js [data-reveal].is-visible {
     visibility: visible;
   }
 
-  .nav-dropdown:hover .nav-dropdown-menu,
-  .nav-dropdown:focus-within .nav-dropdown-menu,
+  .nav-dropdown-menu::before {
+    display: none;
+  }
+
   .nav-dropdown.is-open .nav-dropdown-menu {
     display: grid;
     transform: none;
@@ -1746,9 +1831,13 @@ html.js [data-reveal].is-visible {
 
   .legal-content {
     width: 340px;
-    max-width: calc(100vw - 36px);
-    margin-left: 18px;
-    margin-right: 18px;
+    max-width: calc(100vw - 44px);
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .legal-content .legal-cta {
+    padding: 24px;
   }
 
   .hero,

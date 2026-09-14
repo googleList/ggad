@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-labelledby="title desc">
+  <title id="title">昆明振润达商贸有限公司标志</title>
+  <desc id="desc">蓝色方形企业标志，含振润达首字母结构化图形。</desc>
+  <defs>
+    <linearGradient id="zrdBlue" x1="10" y1="8" x2="62" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1674b8"/>
+      <stop offset="1" stop-color="#0a436f"/>
+    </linearGradient>
+    <linearGradient id="zrdLight" x1="19" y1="18" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d8efff"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="64" height="64" rx="14" fill="url(#zrdBlue)"/>
+  <path d="M19 21h34v7H31.6l20.7 19.4h-9.8L21.7 28H19v-7Z" fill="url(#zrdLight)"/>
+  <path d="M19 34.5h7v16.8h-7V34.5Zm32-2.1h7v18.9h-7V32.4Z" fill="#ffffff"/>
+  <path d="M34.8 21H53v7H42.2l-7.4-7Z" fill="#bfe0ff" opacity=".86"/>
+  <rect x="4.8" y="4.8" width="62.4" height="62.4" rx="13.2" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="1.6"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Social ads thumbnail</title>
+  <desc id="desc">Promoted social content card illustration.</desc>
+  <rect width="720" height="420" fill="#f4f8fb"/>
+  <rect x="104" y="54" width="512" height="312" rx="22" fill="#fff" stroke="#dce7ef"/>
+  <circle cx="156" cy="112" r="26" fill="#0f5f9f"/>
+  <rect x="198" y="94" width="152" height="16" rx="8" fill="#0a436f"/>
+  <rect x="198" y="124" width="96" height="14" rx="7" fill="#7fb4d6"/>
+  <rect x="142" y="174" width="436" height="94" rx="14" fill="#e1f0fb"/>
+  <path d="M180 314h68M302 314h68M424 314h68" stroke="#d7e8f2" stroke-width="16" stroke-linecap="round"/>
+  <path d="M454 201l34 26 62-70" fill="none" stroke="#207a59" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

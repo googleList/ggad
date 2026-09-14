@@ -1,0 +1,45 @@
+# 振润达
+
+昆明振润达商贸有限公司是一家独立广告咨询机构，提供 Google Ads、Meta、Facebook、X/Twitter 等多平台广告投放咨询、平台开户资料指导、广告代投管理、落地页检查、SEO、SEM 和 GEO 内容优化建议。
+
+本网站不代表 Google、Meta、Facebook、X/Twitter 或其他广告平台官方机构；不销售广告账户，不代持广告账户，不提供违反平台审核规则的服务。
+
+## 核心页面
+
+- [首页](index.html)：公司服务概览、服务范围、合作流程和基础说明。
+- [服务范围](index.html#scope)：说明广告咨询、开户注册资料指导、账户结构规划、落地页检查和数据复盘。
+- [公司介绍](company.html)：昆明振润达商贸有限公司的主体信息和业务定位。
+- [合规边界](compliance.html)：说明独立咨询机构身份、账户归属、资料真实性和服务边界。
+- [联系我们](contact.html)：提供 Telegram 咨询入口。
+
+## 广告服务页面
+
+- [Google 开户代投](google-ads.html)：Google Ads 账户资料指导、搜索广告、展示广告、Performance Max 和转化追踪建议。
+- [Meta 开户代投](meta-ads.html)：Meta 广告资料准备、素材测试、受众策略和数据复盘建议。
+- [Facebook 开户代投](facebook-ads.html)：Facebook 线索广告、主页资料、表单设置和销售跟进建议。
+- [X/Twitter 开户代投](x-ads.html)：X/Twitter 广告账户资料、受众内容和投放测试建议。
+- [多平台开户代投](managed-ads.html)：多平台广告投放管理、预算拆分和跨渠道复盘。
+- [开户资料指导](account-guidance.html)：企业主体、网站、政策页面、支付资料和品牌素材准备清单。
+
+## 代表文章
+
+- [llms.txt 是什么？完整了解 AI 搜索时代的网站内容索引文件](articles/llms-txt-ai-search-guide.html)：说明 llms.txt 的作用、适用场景、文件结构、上线步骤和 GEO 关系。
+- [Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响](articles/googlebot-ai-crawlers-seo-geo.html)：说明搜索爬虫和 AI 爬虫如何读取网站。
+- [Google 搜索广告完整指南：关键词、结构和上线前准备](articles/google-search-ads-guide.html)：说明搜索广告的关键词、账户结构、文案、追踪和上线准备。
+- [Google 搜索广告费用怎么算？预算、点击和服务费说明](articles/google-search-ads-cost-guide.html)：说明广告预算、点击成本、转化成本和服务费构成。
+- [Google Ads 和 Meta Ads 怎么选？投放场景对比](articles/google-ads-vs-meta-ads-guide.html)：比较搜索需求和兴趣触达两类广告平台。
+- [广告代理商怎么选？签约前要看的 6 个指标](articles/how-to-choose-advertising-agency.html)：说明选择广告服务商时应关注的账户归属、数据透明和服务边界。
+- [SEO 课程怎么选？2026 年自学路径和资源清单](articles/seo-course-learning-path.html)：说明 SEO 学习路径、课程选择和企业团队学习重点。
+
+## 工具与资源
+
+- [工具导航](nav.html)：整理广告投放、SEO、SEM、建站、数据分析和内容制作常用工具。
+- [每周资源](ad-learning.html)：整理广告投放技巧、教程和学习资料。
+- [文章列表](articles.html)：SEO、SEM、建站、GEO 四类文章入口。
+
+## 政策页面
+
+- [隐私政策](privacy.html)：说明网站访问和咨询过程中涉及的信息处理方式。
+- [服务条款](terms.html)：说明咨询服务边界、用户责任和网站使用条款。
+
+最后更新：2026-09-11。

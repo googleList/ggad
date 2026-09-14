@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Keyword strategy article thumbnail</title>
+  <desc id="desc">Keyword grouping and search intent illustration.</desc>
+  <rect width="720" height="420" fill="#f3f8fb"/>
+  <rect x="60" y="70" width="600" height="280" rx="20" fill="#fff" stroke="#dce7ef"/>
+  <rect x="102" y="108" width="360" height="42" rx="21" fill="#e1f0fb"/>
+  <circle cx="128" cy="129" r="10" fill="#0f5f9f"/>
+  <rect x="154" y="121" width="240" height="16" rx="8" fill="#0f5f9f"/>
+  <rect x="102" y="178" width="214" height="58" rx="10" fill="#0f5f9f"/>
+  <rect x="346" y="178" width="214" height="58" rx="10" fill="#207a59"/>
+  <rect x="102" y="264" width="214" height="58" rx="10" fill="#7fb4d6"/>
+  <rect x="346" y="264" width="214" height="58" rx="10" fill="#5b6875"/>
+  <path d="M316 207h30M453 236v28M316 293h30" stroke="#17202a" stroke-width="8" stroke-linecap="round"/>
+</svg>

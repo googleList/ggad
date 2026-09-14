@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Performance Max thumbnail</title>
+  <desc id="desc">Multi-channel advertising illustration.</desc>
+  <rect width="720" height="420" fill="#f3f8fb"/>
+  <circle cx="360" cy="210" r="72" fill="#0f5f9f"/>
+  <circle cx="178" cy="128" r="54" fill="#e1f0fb" stroke="#7fb4d6" stroke-width="8"/>
+  <circle cx="542" cy="128" r="54" fill="#e1f0fb" stroke="#7fb4d6" stroke-width="8"/>
+  <circle cx="178" cy="292" r="54" fill="#e1f0fb" stroke="#7fb4d6" stroke-width="8"/>
+  <circle cx="542" cy="292" r="54" fill="#e1f0fb" stroke="#7fb4d6" stroke-width="8"/>
+  <path d="M228 150l78 34M492 150l-78 34M228 270l78-34M492 270l-78-34" stroke="#0a436f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M328 212h64M360 180v64" stroke="#fff" stroke-width="14" stroke-linecap="round"/>
+</svg>

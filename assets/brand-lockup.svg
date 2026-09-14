@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="96" viewBox="0 0 520 96" role="img" aria-labelledby="title desc">
+  <title id="title">昆明振润达商贸有限公司横版 Logo</title>
+  <desc id="desc">用于网页页眉、页脚和对外材料的企业横版标识。</desc>
+  <defs>
+    <linearGradient id="zrdBlue" x1="10" y1="8" x2="78" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1674b8"/>
+      <stop offset="1" stop-color="#0a436f"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="80" height="80" rx="16" fill="url(#zrdBlue)"/>
+  <path d="M27 30h42v8H43.1l25.3 24H56.6L31.2 38H27v-8Z" fill="#fff"/>
+  <path d="M27 46h8v19h-8V46Zm40-2h8v21h-8V44Z" fill="#d8efff"/>
+  <text x="108" y="43" fill="#17202a" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="25" font-weight="800">昆明振润达商贸有限公司</text>
+  <text x="108" y="70" fill="#5b6875" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" font-weight="700">外贸跨境广告代投咨询 · 独立广告咨询机构</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Video ads thumbnail</title>
+  <desc id="desc">Video advertising player and timeline illustration.</desc>
+  <rect width="720" height="420" fill="#f2f7fb"/>
+  <rect x="70" y="62" width="580" height="296" rx="20" fill="#fff" stroke="#dce7ef"/>
+  <rect x="112" y="104" width="496" height="196" rx="16" fill="#0a436f"/>
+  <path d="M338 164l86 46-86 46z" fill="#fff"/>
+  <rect x="134" y="322" width="318" height="14" rx="7" fill="#d7e8f2"/>
+  <rect x="134" y="322" width="152" height="14" rx="7" fill="#0f5f9f"/>
+  <circle cx="286" cy="329" r="18" fill="#207a59"/>
+  <path d="M488 322h78" stroke="#7fb4d6" stroke-width="14" stroke-linecap="round"/>
+</svg>

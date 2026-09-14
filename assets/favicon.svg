@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">振润达图标</title>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1674b8"/>
+      <stop offset="1" stop-color="#0a436f"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="13" fill="url(#bg)"/>
+  <path d="M16 19h32v7H28.9l19.3 18H38.1L18.8 26H16v-7Z" fill="#fff"/>
+  <path d="M16 32h7v15h-7V32Zm31-1.8h7V47h-7V30.2Z" fill="#d8efff"/>
+</svg>

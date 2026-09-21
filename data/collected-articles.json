@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T16:05:11.387039+00:00",
+  "generatedAt": "2026-09-21T06:39:35.040931+00:00",
   "sourcesChecked": 2,
   "copyrightPolicy": "Collect metadata, short summaries, source links, and image reference URLs only. Do not republish full original text or download third-party images.",
   "items": [
@@ -43,7 +43,7 @@
         "本文集中讲 Ads Manager 本身：三层结构、第一个 campaign 如何设定、报表应该看甚么，以及哪些常見设定最容易出錯。我們自 2017 年起为香港及馬來西亞企业管理 Google Ads 及 Meta Ads ，以下会以实際管"
       ],
       "rewriteBrief": "围绕「Meta Ads Manager 教学 2026｜Campaign、Ad Set、Ad 设定与报表」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Meta Ads Manager 是甚么？、Meta Ads Manager 与 Boost Post 有甚么分別？、Campaign、Ad Set、Ad 三层有甚么分別？、Campaign：决定广告目标。",
-      "detailFetchedAt": "2026-09-14T16:05:06.916245+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:27.750682+00:00"
     },
     {
       "id": "c06e2738d77f3d69",
@@ -85,7 +85,7 @@
         "答案： Lumina 按秒收费，720p 每秒 46 credits。一条 20 秒广告一鏡到尾生成收 920 credits，拆成三条 8 秒再剪起是 1,104，貴在多买了要剪走的片頭片尾。尾卡在 Canva 做，不另收生成费。"
       ],
       "rewriteBrief": "围绕「Seedance 2.5 AI 生成影片完整教学」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：你可以在香港用哪个 AI 工具生成影片？、为甚么有些 AI 生成影片一看就假？、一条 AI 生成影片实際要多少钱、用 AI 生成影片做广告的六个步驟。",
-      "detailFetchedAt": "2026-09-14T16:05:07.135117+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:28.047465+00:00"
     },
     {
       "id": "902ac417864d3e0d",
@@ -127,7 +127,7 @@
         "Seedance 2.5 是 ByteDance 的影片生成模型，可以由文字或者参考图生成连聲音的短片，香港用户实際登入的平台是 BytePlus Lumina（ai.byteplus.com/lumina）。"
       ],
       "rewriteBrief": "围绕「Seedance 2.5 Lumina 香港实测｜HK$18 一条 AI 片」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Seedance 2.5 是甚么？香港如何使用？、即夢、Dreamina、Lumina，香港用哪个？、Lumina 收费怎樣計，一条片实際多少钱、Lumina 教学，由开户到出第一条片。",
-      "detailFetchedAt": "2026-09-14T16:05:07.415734+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:28.284655+00:00"
     },
     {
       "id": "b6dc9d43520991a5",
@@ -169,7 +169,7 @@
         "这篇是完整的设定与管理教学：管理介面在哪里、每一栏该怎樣填、哪些写法会令档案被停用、成效报告怎樣看，以及香港商户最常遇到的幾种情況，截图全部來自我們自己的商家档案。"
       ],
       "rewriteBrief": "围绕「Google My Business 2026：Google 商家档案设定教学」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：由 Google My Business 到 Google 商家档案、管理介面在哪里、开设或认領商家档案、商家资料：最容易填錯的三栏。",
-      "detailFetchedAt": "2026-09-14T16:05:07.509224+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:28.514726+00:00"
     },
     {
       "id": "5d94789c55365a7e",
@@ -211,7 +211,7 @@
         "我們在 Google Analytics 4（GA4）完整教学 讲过，Acquisition 报表是其中一个最直接看流量質素的地方。"
       ],
       "rewriteBrief": "围绕「GA4 Channel Grouping 教学：19 种官方预设渠道完整分析」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：甚么是 GA4 Channel Grouping？、GA4 流量來源如何分类、GA4 怎樣判斷一个工作階段屬于哪个渠道、Google Analytics 4 的 19 种预设渠道分組(Channel Grouping)。",
-      "detailFetchedAt": "2026-09-14T16:05:07.619119+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:28.726677+00:00"
     },
     {
       "id": "596947455789c784",
@@ -251,7 +251,7 @@
         "Meta 广告主要投放在 Facebook 和 Instagram 的 feed，Demand Gen 就是 Google 这邊的对应，广告出现在用户因为興趣而滑的 feed 里。Google 說这些版面每月覆蓋約 30 億用户。有兩次改名"
       ],
       "rewriteBrief": "围绕「Demand Gen 广告完整教学 2026｜YouTube、Discover 及 Gmail 视覺广告指南」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Demand Gen 是甚么、Demand Gen 广告在哪些位置出现、Demand Gen vs Performance Max vs GDN、甚么时候適合使用 Demand Gen 广告？。",
-      "detailFetchedAt": "2026-09-14T16:05:08.008563+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:28.995231+00:00"
     },
     {
       "id": "b06f196623f31d61",
@@ -290,10 +290,10 @@
         "本文目錄",
         "Google Ads Search campaign（香港一般称为 SEM 或关键字广告）按 click 收费，广告会在用户搜尋相关产品或服务时出现在 Google Search。在香港做 SEM 其实就是做 Google 广告： Stat",
         "答案： 这幾个叫法其实指向同一件事。 Google Ads 是 Google 的广告平台（前身 Google AdWords）；在上面投放的搜尋广告，中文常叫 关键字广告 或 搜尋广告 ，坊间也叫 Google 广告 ；而 SEM（搜尋引擎",
-        "本文会交替使用这幾个词，但讲的都是同一回事：在 Google 搜尋结果上，按点击付费、競价你目标客户正在搜尋的关键字。（Google Ads 也能投放 Display、YouTube、Performance Max 等，但本文聚焦在意图最高"
+        "本文会交替使用这幾个词，但讲的都是同一回事：在 Google 搜尋结果上，按点击付费、競价你目标客户正在搜尋的关键字。（Google Ads 也能投放 Display 、 YouTube 、 Performance Max 等，但本文聚焦在"
       ],
       "rewriteBrief": "围绕「Google 广告完整教学 2026｜Google Ads、SEM、关键字广告（附香港 CPC 实测）」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Google 广告、Google Ads、SEM、关键字广告有甚么分別？、SEM 是甚么？与 SEO 有甚么分別？、香港做搜尋广告，是否等于只做 Google？、SEM 收费如何計算？香港 CPC 大概多少钱？。",
-      "detailFetchedAt": "2026-09-14T16:05:08.175251+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:29.262664+00:00"
     },
     {
       "id": "639562e7d9e71a1c",
@@ -335,7 +335,7 @@
         "由 2026 年 6 月起，Google Ads 内会出现遷移工具，将现有 Display campaign 转移至 Demand Gen，之后你将无法再新建獨立的 Display campaign，其餘符合条件的 Display camp"
       ],
       "rewriteBrief": "围绕「GDN 广告（Google 展示广告）完整教学｜格式、受众设定与优化」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Google 展示广告（GDN）在 2026 年是否即将停用？、如何知道哪些 Banner 广告是來自Google Display Network?、Google Display Network 運作原理、广告在GDN（Google Display Network) 的展现樣式/GDN广告范例。",
-      "detailFetchedAt": "2026-09-14T16:05:08.316492+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:29.553988+00:00"
     },
     {
       "id": "329aeb4752f34379",
@@ -376,7 +376,7 @@
         "答案： 2026 年大多数账户都应该以 Smart Bidding（智能競价）为主。只要转换追踪准確、转换量足夠，自動競价的表现幾乎都好过手動，因为系統可以按每一次競投的成交機会即时調整出价，人手根本做不到。手動競价现时主要留給数据不足、或"
       ],
       "rewriteBrief": "围绕「Google Ads 競价策略完整指南 2026｜手動 vs 自動、tCPA／tROAS 如何选」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：競价策略一览、手動还是自動？2026 年应该如何选择？、以「转换」为目标的自動策略、以「转换价值 / ROAS」为目标的自動策略。",
-      "detailFetchedAt": "2026-09-14T16:05:08.464722+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:29.741773+00:00"
     },
     {
       "id": "40784da9165ba4f5",
@@ -418,7 +418,7 @@
         "答案： 最常用 YouTube 广告的有三类生意，做品牌认知的大品牌、追转换和 ROAS 的电商，还有做名单开发（Lead Generation）的服务型公司。漏斗頂部要用低成本接觸新客户，YouTube 做得特別好。"
       ],
       "rewriteBrief": "围绕「YouTube 广告完整攻略 2026｜格式、收费、投放与优化」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：YouTube 广告適合甚么类型的生意？、YouTube 广告收费如何計算？要预多少预算？、YouTube 广告三大好處、只为「认真观看」的观众付费。",
-      "detailFetchedAt": "2026-09-14T16:05:08.605324+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:29.948372+00:00"
     },
     {
       "id": "2016ca7229d0d06f",
@@ -460,7 +460,7 @@
         "沒有分別，三个都是 digital marketing 的中文說法，只是地區用字不一樣。香港的正式写法是「数碼營销」，日常也会听到「网上營销」和「数碼推广」；台灣写「数位行销」或「网路行销」；内地多写「数字營销」或「网络營销」。搜尋时用哪个"
       ],
       "rewriteBrief": "围绕「数碼營销 Digital Marketing 入門：46 个必懂术语」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：数碼營销、网上營销、数位行销有甚么分別？、数碼營销有哪些手法？、数碼營销相比傳統營销有甚么好處？、常見英文營销用语，香港中文怎樣說。",
-      "detailFetchedAt": "2026-09-14T16:05:08.806565+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:30.258085+00:00"
     },
     {
       "id": "3e77812c406ff953",
@@ -495,7 +495,7 @@
         "先讲官方怎樣說，下面的引述都对照过 Google 自己那份 Grow your business with broad match and Smart Bidding 文件，不是憑印象写，因为这套說法已經变成 Recommendations"
       ],
       "rewriteBrief": "围绕「Google Ads Broad Match 配 Smart Bidding 是否有效？第一方数据实测（2026）」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Google 对 broad match 配 Smart Bidding 究竟讲了甚么、我們的第一方数据显示甚么、Broad match 甚么时候真的有效、怎樣控制好 broad match。",
-      "detailFetchedAt": "2026-09-14T16:05:09.041881+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:30.507493+00:00"
     },
     {
       "id": "fcfbc7cd779f3dd8",
@@ -534,7 +534,7 @@
         "2026 年值得留意： 回应式多媒体广告是视覺广告格式，现时已經納入 Demand Gen 。Google 正逐步停用獨立的 Display campaign 类型，把这批投放转去 Demand Gen，所以往后你会在 Demand Gen"
       ],
       "rewriteBrief": "围绕「Google 回应式多媒体广告完整指南」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Google 回应式多媒体广告是甚么？、Google 回应式多媒体广告有甚么好處、自動配搭不同素材組合、系統自動缩放和优化广告。",
-      "detailFetchedAt": "2026-09-14T16:05:09.146841+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:30.781934+00:00"
     },
     {
       "id": "bb7635d22a69f9d4",
@@ -576,7 +576,7 @@
         "生成式引擎优化，就是把内容做到令生成式 AI 系統願意擷取、信任，并在答案里引用你。答案引擎优化（AEO）讲的是很接近的事，爭取成为某条问题的直接答案，不论介面是 AI 概览、featured snippet 还是语音助理。实際操作上兩者幾"
       ],
       "rewriteBrief": "围绕「Google AI 概览优化（GEO）完整教学 2026｜如何令内容被 AI 概览、ChatGPT、Perplexity 引用」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：甚么是生成式引擎优化（GEO）、AI 概览（AI Overview）与 AI 助理如何决定引用哪些出處、如何令内容被 Google AI 概览（AI Overview）引用、把答案放到最前。",
-      "detailFetchedAt": "2026-09-14T16:05:09.271259+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:31.100613+00:00"
     },
     {
       "id": "38bce73236d13893",
@@ -613,7 +613,7 @@
         "之后你去哪个网站，都会見到 booking.com 的广告，这就是 remarketing 定位方法在運作，原理其实很簡单。你浏览 booking.com 的时候，浏览器会留下 cookies，記錄你在网站上看过甚么；广告商建立 remar"
       ],
       "rewriteBrief": "围绕「Google Remarketing 广告教学｜原理、设定及好處」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Remarketing 与 GDN 的关係、为甚么要用Remarketing？、方法1：用 Google Analytics 4 设定 Google Ads Audience List、如何定義Audience List。",
-      "detailFetchedAt": "2026-09-14T16:05:09.405090+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:31.403089+00:00"
     },
     {
       "id": "d808dca7b5a4732b",
@@ -644,7 +644,7 @@
         "你最多可以在 Performance Max Campaigns 中新增 50 个搜尋主题"
       ],
       "rewriteBrief": "围绕「Performance Max 搜尋主题教学｜设定及最佳实踐」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：甚么时候使用「搜尋主题」最有效？、添加搜尋主题时的注意事项、常見问题。",
-      "detailFetchedAt": "2026-09-14T16:05:09.538415+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:31.598712+00:00"
     },
     {
       "id": "e991c625e4462a90",
@@ -680,7 +680,7 @@
         "PMax 和傳統广告系列最大的分別在控制權。做搜尋广告，你自己选关键字、自己写广告、逐个关键字看成效；PMax 就把这些决定全部交給機器学习，你給的是方向，即目标、素材和受众讯号，而不是逐项指令。好處是开得快、省人手，代价是透明度低，成效实"
       ],
       "rewriteBrief": "围绕「Performance Max 完整指南 2026｜Google Ads PMax 广告的优勢、陷阱与最佳实踐」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：甚么是 Performance Max？、Performance Max 在 2026 有甚么新变化？、PMax 有三个陷阱要小心、电商和 lead-gen 应该怎樣分配 PMax 和搜尋的预算？。",
-      "detailFetchedAt": "2026-09-14T16:05:09.691608+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:31.824681+00:00"
     },
     {
       "id": "426008a4be949eaf",
@@ -715,7 +715,7 @@
         "Meta 在 2024 年底公佈 Threads 月活躍用户突破 3 億，之后一直增长，也是历來增长最快的社交平台之一。"
       ],
       "rewriteBrief": "围绕「Threads 广告教学 2026：收费、实测成效与投放攻略」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Threads 广告实際有多少人用？、Threads 广告如何運作？、Threads 广告怎樣收费？、香港商家现在应该投 Threads 广告吗？。",
-      "detailFetchedAt": "2026-09-14T16:05:09.793651+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:31.957310+00:00"
     },
     {
       "id": "3c367ad44c67d5af",
@@ -749,7 +749,7 @@
         "Performance Max 剛推出时，Google 購物广告的成效往往較好，因为那时的 Performance Max 像个黑盒，广告在哪裏出现、素材怎樣組合都看不到，可用的数据也很有限。局面改变，是因为 Google 逐步打开这个黑盒"
       ],
       "rewriteBrief": "围绕「Performance Max vs Google 購物广告：电商实测数据比較」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：購物广告一度領先，后來 Performance Max 反超、Performance Max 广告和 Google 購物广告如何運作、为何电商多数由 Performance Max 勝出、我們 2026 年电商账户跑出來的数据。",
-      "detailFetchedAt": "2026-09-14T16:05:09.904495+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:32.458254+00:00"
     },
     {
       "id": "2a9c1f4ac0e7ab64",
@@ -787,7 +787,7 @@
         "Instagram 靠畫面帶動，香港的 IG 用户比 Facebook 那邊年輕，手機不离手。广告跑得好不好，很大程度看素材夠不夠好看，所以在 IG 上做得起的生意，多数本身就上鏡、有嚮往感，以下幾类通常較合適。"
       ],
       "rewriteBrief": "围绕「IG 广告教学 2026：版位格式、专屬玩法与收费」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：IG 广告適合哪类生意？、Instagram 有哪些广告格式和版位、Instagram 有哪些专屬玩法、IG 广告的漏斗实際怎樣跑。",
-      "detailFetchedAt": "2026-09-14T16:05:09.964276+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:32.716654+00:00"
     },
     {
       "id": "a16c453405f7d230",
@@ -824,7 +824,7 @@
         "先讲機制，下面的說法都对照过 Google 官方那份 AI Max 說明文件 ，不是憑印象写。"
       ],
       "rewriteBrief": "围绕「Google Ads AI Max 搜尋广告：是否真的更好？第一方数据拆解」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Google Ads AI Max 搜尋广告到底是甚么、官方說法 vs 我們的第一方数据、AI Max 甚么时候贏、甚么时候稀釋、如果你是 Exact-only 广告主。",
-      "detailFetchedAt": "2026-09-14T16:05:10.219884+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:32.880557+00:00"
     },
     {
       "id": "72d39408eb9067f0",
@@ -864,7 +864,7 @@
         "「Facebook 广告」这个叫法其实不夠准確。你在 Meta 广告管理员（Ads Manager）建立一个 campaign，广告会同时出现在下面幾种版位："
       ],
       "rewriteBrief": "围绕「Facebook 广告收费 2026：香港预算、投放设定与成效指南」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Meta 广告在 2026 年覆蓋甚么、账户结构要先分清 Business Manager 和广告管理员、2026 年的 Campaign Objectives、iOS 14.5 之后的受众定位。",
-      "detailFetchedAt": "2026-09-14T16:05:10.448298+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:33.134479+00:00"
     },
     {
       "id": "b84aae233cbed3da",
@@ -901,7 +901,7 @@
         "Google Ads 做的是意图捕捉（demand capture），Meta Ads 做的是需求制造（demand generation）。"
       ],
       "rewriteBrief": "围绕「Google Ads vs Meta Ads：香港中小企该选哪个？」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Google Ads 捕捉意图，Meta Ads 制造需求、甚么情況下应该用哪一邊、Google Ads 和 Meta Ads 逐项比較、电商该选哪个（用 first-party 数据佐证）。",
-      "detailFetchedAt": "2026-09-14T16:05:10.567724+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:33.301291+00:00"
     },
     {
       "id": "c7f2fa91aa28c0de",
@@ -943,7 +943,7 @@
         "Google 的中文介面把 matching 譯做「比对」，内地资料多数写「匹配」，本文統一用「配对」，三者指同一件事。"
       ],
       "rewriteBrief": "围绕「Google 广告关键字配对教学｜广泛、词組、完全配对怎樣选」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：关键字和搜尋字词有何分別（Keyword Vs Search Term）、关键字配对邏輯是怎樣運作、3 种关键字配对、广泛配对 (Broad Match)。",
-      "detailFetchedAt": "2026-09-14T16:05:10.660581+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:33.530550+00:00"
     },
     {
       "id": "0bf6b27f85a3fcd1",
@@ -984,7 +984,7 @@
         "GA4 会把用户在你网站或 App 上的每一个互動都記錄成「事件」，浏览页面、捲動、点击、下载、提交表单全部計算在内。你再从中挑出对生意最重要的行为，标記成「关键事件」，用來衡量成效，亦作为广告出价的依据。"
       ],
       "rewriteBrief": "围绕「Google Analytics 4（GA4）完整教学 2026｜设定、关键事件、连结 Google Ads」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：甚么是 GA4？、GA4 与 Universal Analytics 有甚么分別？、GA4 在 2024-2026 有甚么新变化？、六个步驟设定好 GA4（2026）。",
-      "detailFetchedAt": "2026-09-14T16:05:10.963942+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:33.758651+00:00"
     },
     {
       "id": "1cd8fd30afe18b11",
@@ -1023,7 +1023,7 @@
         "答案： Google 購物广告是以产品为单位的广告，会在搜尋结果直接显示商品图片、价格、商店名称和評分。它不靠你競投关键字，而是靠你上载到 Google Merchant Center 的产品目錄（feed），由 Google 自動配对相关"
       ],
       "rewriteBrief": "围绕「Google 購物广告完整攻略 2026｜设定、产品目錄与 PMax 取捨」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：甚么是 Google 購物广告、購物广告会在哪里出现、为甚么电商该用購物广告、产品目錄（Feed）决定購物广告的成效。",
-      "detailFetchedAt": "2026-09-14T16:05:11.023626+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:33.952780+00:00"
     },
     {
       "id": "19b66c4c09e08d0e",
@@ -1065,7 +1065,7 @@
         "一般來說， 文字广告 即回应式搜尋广告（Responsive Search Ad），可提供最多 15 个标题（headlines）和 4 个描述（descriptions），并会从中显示最多 3 个标题和 2 个描述；而其他額外资讯則称为广"
       ],
       "rewriteBrief": "围绕「11 个提升 Google 广告 CTR 的广告元素（Assets）」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：甚么是广告元素（广告額外资讯）？、为甚么广告額外资讯十分重要（它如何影響广告排名 Ad Rank 及 CTR）？、如何设定广告元素（广告額外资讯）？、11个重要的广告元素。",
-      "detailFetchedAt": "2026-09-14T16:05:11.116120+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:34.445619+00:00"
     },
     {
       "id": "3603db78516872c4",
@@ -1107,7 +1107,7 @@
         "舉个实際例子。Terrence 为公司物色營销顧问服务找了幾星期，先点了 Display 广告進入 kickads.co，看了幾篇文章；一星期后在 Facebook 見到数碼營销的广告，第二次進入 kickads.co；再过兩日收到 kic"
       ],
       "rewriteBrief": "围绕「Google 广告归因模型：DDA 还是 Last Click？」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：Google 归因模型改動了甚么（2023-2026）、1. 甚么是 Rule-Based Attribution Model（以規則为准归因模式）？、(i) First Interaction Attribution（最初互動归因）、甚么时候应该用 First Interaction Attribution（最初互動归因）。",
-      "detailFetchedAt": "2026-09-14T16:05:11.234242+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:34.736977+00:00"
     },
     {
       "id": "79297ac2b210262b",
@@ -1139,7 +1139,7 @@
         "下文先讲 UA 和 GA4 的转换差在哪里，再逐项拆解常見成因，你就会明白 GA 和 Google Ads 的数字为甚么要分开兩邊看。"
       ],
       "rewriteBrief": "围绕「GA4 转换数字比 Google Ads 低？原因与解决方法」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：GA4 vs UA、Google Ads 和 GA4 的数字为甚么有落差、怎樣把兩邊的转换数字拉近、常見问题。",
-      "detailFetchedAt": "2026-09-14T16:05:11.321267+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:34.849572+00:00"
     },
     {
       "id": "48215e6c2c1ea200",
@@ -1174,7 +1174,7 @@
         "这篇文章会教你用 GA4 和 GTM 追踪訪客在网站上的互動，先讲 GA4 的四类事件，再逐步示范怎樣设定一个自訂事件。"
       ],
       "rewriteBrief": "围绕「用GA4及GTM设定Event Tracking完整教学」写一篇原创简体中文文章。保留核心主题和信息结构，但换成本网站的服务语境，加入外贸、跨境电商、开户资料、落地页合规和转化追踪案例。可参考的结构：GA4 事件、#1 自動收集事件 (Automatically Collected Event)、#2 加强型評估事件 （Enhanced Measurement Event)、#3 建议事件 (Recommended Event)。",
-      "detailFetchedAt": "2026-09-14T16:05:11.386976+00:00"
+      "detailFetchedAt": "2026-09-21T06:39:35.040846+00:00"
     },
     {
       "id": "710c3c1962ba625b",

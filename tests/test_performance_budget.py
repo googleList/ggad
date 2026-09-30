@@ -33,8 +33,24 @@ class PerformanceBudgetTests(unittest.TestCase):
         root = Path(temp.name)
         root.joinpath("styles.css").write_text(css, encoding="utf-8")
         root.joinpath("script.js").write_text(BASE_JS, encoding="utf-8")
-        root.joinpath("index.html").write_text(html, encoding="utf-8")
+        root.joinpath("index.html").write_text(
+            '<script src="script.js" defer></script>' + html, encoding="utf-8"
+        )
         return root
+
+    def test_versioned_local_script_name_passes(self) -> None:
+        root = self.fixture('<img src="logo.svg" alt="Brand">')
+        root.joinpath("script.js").rename(root / "site-v2.js")
+        root.joinpath("index.html").write_text(
+            '<script src="site-v2.js" defer></script><img src="logo.svg" alt="Brand">',
+            encoding="utf-8",
+        )
+        self.assertEqual(audit(root), [])
+
+    def test_missing_referenced_script_fails(self) -> None:
+        root = self.fixture('<img src="logo.svg" alt="Brand">')
+        root.joinpath("script.js").unlink()
+        self.assertTrue(any("is missing" in error for error in audit(root)))
 
     def test_valid_external_image_passes(self) -> None:
         root = self.fixture(

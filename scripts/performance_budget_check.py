@@ -36,6 +36,19 @@ class ImageParser(HTMLParser):
         self.images.append({key.lower(): value or "" for key, value in attrs})
 
 
+class ScriptParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.sources: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "script":
+            return
+        values = {key.lower(): value or "" for key, value in attrs}
+        if values.get("src"):
+            self.sources.append(values["src"])
+
+
 def html_files(root: Path) -> list[Path]:
     return sorted(
         path
@@ -49,19 +62,42 @@ def css_block(css: str, selector: str) -> str:
     return match.group("body") if match else ""
 
 
+def local_script_paths(root: Path) -> set[Path]:
+    paths: set[Path] = set()
+    for page in html_files(root):
+        parser = ScriptParser()
+        parser.feed(page.read_text(encoding="utf-8"))
+        for source in parser.sources:
+            parsed = urlparse(source)
+            if parsed.scheme or parsed.netloc:
+                continue
+            candidate = (page.parent / parsed.path).resolve()
+            try:
+                candidate.relative_to(root.resolve())
+            except ValueError:
+                continue
+            paths.add(candidate)
+    return paths
+
+
 def audit(root: Path = ROOT) -> list[str]:
     errors: list[str] = []
     css_path = root / "styles.css"
-    js_path = root / "script.js"
 
     if css_path.stat().st_size > MAX_CSS_BYTES:
         errors.append(
             f"styles.css exceeds {MAX_CSS_BYTES} bytes ({css_path.stat().st_size} bytes)"
         )
-    if js_path.stat().st_size > MAX_JS_BYTES:
-        errors.append(
-            f"script.js exceeds {MAX_JS_BYTES} bytes ({js_path.stat().st_size} bytes)"
-        )
+    script_paths = local_script_paths(root)
+    if not script_paths:
+        errors.append("no local JavaScript asset is referenced by an HTML page")
+    for js_path in sorted(script_paths):
+        if not js_path.is_file():
+            errors.append(f"referenced JavaScript asset is missing: {js_path.name}")
+        elif js_path.stat().st_size > MAX_JS_BYTES:
+            errors.append(
+                f"{js_path.name} exceeds {MAX_JS_BYTES} bytes ({js_path.stat().st_size} bytes)"
+            )
 
     css = css_path.read_text(encoding="utf-8")
     if re.search(r"@import\s", css, flags=re.IGNORECASE):
@@ -75,10 +111,11 @@ def audit(root: Path = ROOT) -> list[str]:
         ):
             errors.append(f"{selector} does not reserve a stable image box")
 
-    js = js_path.read_text(encoding="utf-8")
-    if "iconStylesheet.media = \"print\"" not in js:
+    existing_scripts = [path for path in script_paths if path.is_file()]
+    combined_js = "\n".join(path.read_text(encoding="utf-8") for path in existing_scripts)
+    if existing_scripts and "iconStylesheet.media = \"print\"" not in combined_js:
         errors.append("icon stylesheet is no longer loaded with the non-blocking media pattern")
-    if "iconStylesheet.media = \"all\"" not in js:
+    if existing_scripts and "iconStylesheet.media = \"all\"" not in combined_js:
         errors.append("icon stylesheet does not switch to all media after loading")
 
     for page in html_files(root):
@@ -115,9 +152,13 @@ def audit(root: Path = ROOT) -> list[str]:
 
 def main() -> int:
     errors = audit()
+    scripts = local_script_paths(ROOT)
+    script_summary = ", ".join(
+        f"{path.name} {path.stat().st_size} bytes" for path in sorted(scripts) if path.is_file()
+    ) or "none"
     print(
         f"Performance budgets: styles.css {ROOT.joinpath('styles.css').stat().st_size} bytes, "
-        f"script.js {ROOT.joinpath('script.js').stat().st_size} bytes."
+        f"JavaScript {script_summary}."
     )
     for error in errors:
         print(f"ERROR: {error}")

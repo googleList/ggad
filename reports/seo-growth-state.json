@@ -50,7 +50,8 @@
     "canonical-article-organization-entity-linking",
     "truthful-article-date-integrity-gate",
     "merchant-listing-schema-remediation",
-    "github-pages-recovery-and-legacy-url-verification"
+    "github-pages-recovery-and-legacy-url-verification",
+    "us-hk-search-terms-and-negative-keywords-cluster"
   ],
   "repositorySync": {
     "checkedAt": "2026-09-30",
@@ -79,6 +80,7 @@
     "Validate impressions, clicks, and assisted enquiries for the new US and Hong Kong account-audit guides",
     "Validate impressions, clicks, and assisted enquiries for the new US and Hong Kong landing-page guides",
     "Validate impressions, clicks, and assisted enquiries for the new US and Hong Kong monthly-reporting guides",
+    "Validate impressions, clicks, and query themes for the new US and Hong Kong search-terms and negative-keyword guides",
     "Create a truthful case-study evidence template for future portfolio and directory use",
     "Review whether future US and Hong Kong content pairs qualify for reciprocal hreflang before publishing",
     "Run field and lab Core Web Vitals checks when PageSpeed is available",

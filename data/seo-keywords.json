@@ -100,6 +100,28 @@
       "primaryKeywords": ["SEO 教程", "GEO 优化", "AI 搜索优化", "llms.txt"],
       "supportingKeywords": ["Googlebot 是什么", "SEO 标题描述", "外贸网站 SEO", "AI 爬虫"],
       "contentActions": ["文章栏目按 SEO、SEM、建站、GEO 继续扩展", "GEO 文章增加 FAQ 和实体信息", "保持原创或充分改写，避免低质量重复"]
+    },
+    {
+      "cluster": "US Google Ads search terms and negative keywords",
+      "market": "US",
+      "language": "en-US",
+      "intent": "informational-commercial",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-usa.html",
+      "primaryKeywords": ["Google Ads search terms report", "Google Ads negative keywords", "negative keywords for lead generation"],
+      "supportingKeywords": ["search term optimization", "negative keyword match types", "PPC irrelevant leads", "Google Ads query quality"],
+      "contentActions": ["Validate US impressions and query wording in Search Console", "Connect search-query themes to qualified-lead feedback", "Link the guide from the US service, audit, and reporting cluster"]
+    },
+    {
+      "cluster": "香港 Google Ads 搜尋字詞及排除關鍵字",
+      "market": "HK",
+      "language": "zh-Hant-HK",
+      "intent": "informational-commercial",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
+      "primaryKeywords": ["Google Ads 搜尋字詞", "Google Ads 排除關鍵字", "香港 Google Ads 關鍵字"],
+      "supportingKeywords": ["搜尋字詞報告", "否定關鍵字", "關鍵字配對方式", "香港搜尋廣告優化"],
+      "contentActions": ["使用香港 Search Console 查詢驗證繁體中文用詞", "按中英文及有效查詢質素整理搜尋主題", "由香港服務、帳戶審核及月度報告內容建立內鏈"]
     }
   ]
 }

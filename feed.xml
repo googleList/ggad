@@ -5,8 +5,26 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Ads search terms and negative keywords for US lead generation</title>
+      <link>https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-usa.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-usa.html</guid>
+      <description>A practical framework for reviewing queries, choosing exclusions, and connecting search-term decisions to qualified-lead feedback.</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>en-US</dc:language>
+    </item>
+    <item>
+      <title>香港 Google Ads 搜尋字詞及排除關鍵字指南</title>
+      <link>https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-hong-kong.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-hong-kong.html</guid>
+      <description>以香港中英文搜尋行為、配對方式及有效查詢資料檢視搜尋字詞與排除關鍵字。</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-Hant-HK</dc:language>
+    </item>
     <item>
       <title>Google Ads monthly reporting for US businesses</title>
       <link>https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html</link>

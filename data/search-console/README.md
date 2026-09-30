@@ -30,3 +30,5 @@ Outputs:
 - `reports/search-console-priorities.md`
 
 The score ranks observed opportunities. It does not predict traffic or rankings.
+
+For initial property verification, sitemap submission, and priority URL inspection, follow `reports/search-console-indexing-runbook-2026-09-30.md`. Confirm that the selected property is `sc-domain:shumaojs.com`; do not upload this site's sitemap under another domain property.

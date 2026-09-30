@@ -78,10 +78,21 @@ class PerformanceBudgetTests(unittest.TestCase):
         root = self.fixture(
             '<img src="https://images.unsplash.com/photo-1?w=1200" '
             'srcset="https://images.unsplash.com/photo-1?w=480 480w, '
+            'https://images.unsplash.com/photo-1?w=640 640w, '
             'https://images.unsplash.com/photo-1?w=1200 1200w" sizes="100vw" '
             'alt="Team planning" width="1200" height="800" decoding="async">'
         )
         self.assertEqual(audit(root), [])
+
+    def test_unsplash_image_requires_mid_mobile_candidate(self) -> None:
+        root = self.fixture(
+            '<img src="https://images.unsplash.com/photo-1?w=1200" '
+            'srcset="https://images.unsplash.com/photo-1?w=480 480w, '
+            'https://images.unsplash.com/photo-1?w=1200 1200w" sizes="100vw" '
+            'alt="Team planning" width="1200" height="800" decoding="async">'
+        )
+        errors = audit(root)
+        self.assertTrue(any("560-700px mobile candidate" in error for error in errors))
 
     def test_blocking_css_import_fails(self) -> None:
         root = self.fixture('<img src="logo.svg" alt="Brand">', '@import url("x.css");\n' + BASE_CSS)

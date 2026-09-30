@@ -142,6 +142,15 @@ def audit(root: Path = ROOT) -> list[str]:
                 errors.append(
                     f"{relative}: Unsplash image {src!r} needs responsive srcset and sizes"
                 )
+            elif parsed.netloc == "images.unsplash.com":
+                widths = {
+                    int(width)
+                    for width in re.findall(r"\s(\d+)w(?:,|$)", image.get("srcset", ""))
+                }
+                if not any(560 <= width <= 700 for width in widths):
+                    errors.append(
+                        f"{relative}: Unsplash image {src!r} needs a 560-700px mobile candidate"
+                    )
             if image.get("fetchpriority", "").lower() == "high" and image.get(
                 "loading", ""
             ).lower() == "lazy":

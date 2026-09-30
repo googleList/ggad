@@ -51,7 +51,8 @@
     "truthful-article-date-integrity-gate",
     "merchant-listing-schema-remediation",
     "github-pages-recovery-and-legacy-url-verification",
-    "us-hk-search-terms-and-negative-keywords-cluster"
+    "us-hk-search-terms-and-negative-keywords-cluster",
+    "production-mobile-lcp-source-sizing-follow-up"
   ],
   "repositorySync": {
     "checkedAt": "2026-09-30",
@@ -66,7 +67,7 @@
     "googleSearchConsole": false,
     "ga4": false,
     "cloudflareAnalytics": false,
-    "pageSpeedInsights": "API returned HTTP 429 on 2026-09-29. Lighthouse 12.8.2 mobile lab baselines were captured for the homepage, US page, and Hong Kong page; candidate responsive-image runs improved transfer size and directional LCP, but field CWV remains unavailable.",
+    "pageSpeedInsights": "The PageSpeed API connection timed out on 2026-09-30, so field CWV remains unavailable. Lighthouse 13.5.0 production mobile lab runs measured the US page at score 100 and 0.99s LCP and the Hong Kong page at score 90 and 3.27s LCP. After adding a 640px image candidate, the Hong Kong page measured score 96 and 2.27s LCP with CLS 0; these are directional lab results, not field data.",
     "productionSitemap": "reachable with 55 URLs on 2026-09-30; retired account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html all return HTTP 404"
   },
   "nextPriorities": [

@@ -57,7 +57,8 @@
     "canonical-service-provider-entity-linking",
     "us-hk-google-ads-bidding-and-budget-cluster",
     "localized-budget-pacing-calculators",
-    "homepage-ultrawide-hero-layout-repair"
+    "homepage-ultrawide-hero-layout-repair",
+    "us-hk-budget-cluster-contextual-internal-links"
   ],
   "repositorySync": {
     "checkedAt": "2026-09-30",

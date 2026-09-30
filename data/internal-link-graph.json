@@ -69,30 +69,6 @@
       "orphan": false
     },
     {
-      "path": "/articles/google-ads-bidding-budget-hong-kong.html",
-      "title": "香港 Google Ads 出價策略及廣告預算指南",
-      "inlinks": 2,
-      "inlinkSources": [
-        "/articles.html",
-        "/google-ads-agency-hong-kong.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-bidding-budget-usa.html",
-      "title": "Google Ads Bidding and Budget Guide for US Lead Generation",
-      "inlinks": 2,
-      "inlinkSources": [
-        "/articles.html",
-        "/google-ads-management-usa.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
       "path": "/articles/google-ads-cost-hong-kong.html",
       "title": "香港 Google Ads 收費：廣告預算與管理費指南 | 振潤達",
       "inlinks": 2,
@@ -100,7 +76,7 @@
         "/articles.html",
         "/google-ads-agency-hong-kong.html"
       ],
-      "outlinks": 7,
+      "outlinks": 8,
       "clickDepth": 2,
       "orphan": false
     },
@@ -136,7 +112,7 @@
         "/articles.html",
         "/google-ads-management-usa.html"
       ],
-      "outlinks": 7,
+      "outlinks": 8,
       "clickDepth": 2,
       "orphan": false
     },
@@ -401,6 +377,34 @@
       "orphan": false
     },
     {
+      "path": "/articles/google-ads-bidding-budget-hong-kong.html",
+      "title": "香港 Google Ads 出價策略及廣告預算指南",
+      "inlinks": 4,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-cost-hong-kong.html",
+        "/articles/google-ads-monthly-reporting-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-bidding-budget-usa.html",
+      "title": "Google Ads Bidding and Budget Guide for US Lead Generation",
+      "inlinks": 4,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-management-cost-usa.html",
+        "/articles/google-ads-monthly-reporting-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
       "path": "/articles/google-ads-monthly-reporting-hong-kong.html",
       "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
       "inlinks": 4,
@@ -410,7 +414,7 @@
         "/articles/google-ads-bidding-budget-hong-kong.html",
         "/articles/google-ads-search-terms-negative-keywords-hong-kong.html"
       ],
-      "outlinks": 8,
+      "outlinks": 9,
       "clickDepth": 2,
       "orphan": false
     },
@@ -424,7 +428,7 @@
         "/articles/google-ads-bidding-budget-usa.html",
         "/articles/google-ads-search-terms-negative-keywords-usa.html"
       ],
-      "outlinks": 8,
+      "outlinks": 9,
       "clickDepth": 2,
       "orphan": false
     },

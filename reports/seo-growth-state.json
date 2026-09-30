@@ -8,9 +8,10 @@
   "goalIsGuaranteed": false,
   "lastRunAt": "2026-09-30",
   "deployment": {
-    "status": "blocked",
-    "reason": "The remote history has been reconciled with an ours-strategy merge that preserves the clean advertising-consulting tree, but local Git credentials still authenticate as lg-list without push access to googleList/ggad.",
-    "localCommit": "current local main; run git rev-parse --short HEAD for the immutable id"
+    "status": "deployed",
+    "reason": "GitHub write access was restored. Commit 4577e98 is on origin/main and the Pages deployment serves the homepage and versioned JavaScript with HTTP 200.",
+    "localCommit": "4577e98",
+    "verifiedAt": "2026-09-30"
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -48,27 +49,26 @@
     "article-headline-h1-consistency-gate",
     "canonical-article-organization-entity-linking",
     "truthful-article-date-integrity-gate",
-    "merchant-listing-schema-remediation"
+    "merchant-listing-schema-remediation",
+    "github-pages-recovery-and-legacy-url-verification"
   ],
   "repositorySync": {
     "checkedAt": "2026-09-30",
-    "localHead": "current local main; run git rev-parse --short HEAD for the immutable id",
-    "remoteHead": "2af5606",
-    "localOnlyCommits": 38,
+    "localHead": "4577e98",
+    "remoteHead": "4577e98",
+    "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
-    "status": "reconciled-pending-push",
-    "safeAction": "Grant googleList/ggad write access to the current Git identity or authenticate Git as googleList, then push local main. The push is now a fast-forward update."
+    "status": "synchronized",
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file."
   },
   "dataAccess": {
     "googleSearchConsole": false,
     "ga4": false,
     "cloudflareAnalytics": false,
     "pageSpeedInsights": "API returned HTTP 429 on 2026-09-29. Lighthouse 12.8.2 mobile lab baselines were captured for the homepage, US page, and Hong Kong page; candidate responsive-image runs improved transfer size and directional LCP, but field CWV remains unavailable.",
-    "productionSitemap": "reachable with 53 URLs on 2026-09-29; sitemap parity does not cover legacy storefront URLs that remain live outside the sitemap"
+    "productionSitemap": "reachable with 55 URLs on 2026-09-30; retired account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html all return HTTP 404"
   },
   "nextPriorities": [
-    "Restore push access for the googleList GitHub account and deploy the reconciled clean main branch",
-    "After deployment, verify that account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html return 404 or 410",
     "Export Google Search Console country, query, and page data into the local data/search-console directory",
     "Validate indexing and impressions for the two market landing pages",
     "Collect permission for genuine case studies and client references before directory submissions",

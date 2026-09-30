@@ -6,12 +6,12 @@
   "targetEndAt": "2026-12-26",
   "sprintGoal": "1000 average daily Google organic visits",
   "goalIsGuaranteed": false,
-  "lastRunAt": "2026-09-30",
+  "lastRunAt": "2026-10-01",
   "deployment": {
     "status": "deployed",
-    "reason": "Commit 1e156ce is on origin/main. Both localized bidding guides return HTTP 200 with the expected canonicals, and production sitemap.xml and feed.xml include both URLs.",
-    "localCommit": "1e156ce",
-    "verifiedAt": "2026-09-30"
+    "reason": "Content commit 341a2b8 is on origin/main. Both enhanced-conversions-for-leads guides return HTTP 200 with their expected canonicals and reciprocal hreflang, and production articles.html, sitemap.xml, and feed.xml include both URLs.",
+    "localCommit": "341a2b8",
+    "verifiedAt": "2026-10-01"
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -62,9 +62,9 @@
     "us-hk-enhanced-conversions-for-leads-cluster"
   ],
   "repositorySync": {
-    "checkedAt": "2026-09-30",
-    "localHead": "1e156ce",
-    "remoteHead": "1e156ce",
+    "checkedAt": "2026-10-01",
+    "localHead": "341a2b8",
+    "remoteHead": "341a2b8",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
@@ -76,7 +76,7 @@
     "ga4": false,
     "cloudflareAnalytics": false,
     "pageSpeedInsights": "The PageSpeed API connection timed out on 2026-09-30, so field CWV remains unavailable. Lighthouse 13.5.0 production mobile lab runs measured the US page at score 100 and 0.99s LCP and the Hong Kong page at score 90 and 3.27s LCP. After adding a 640px image candidate, the Hong Kong page measured score 96 and 2.27s LCP with CLS 0; these are directional lab results, not field data.",
-    "productionSitemap": "reachable with 59 URLs on 2026-09-30; the two bidding-guide URLs are present in production sitemap.xml and feed.xml; retired account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html all return HTTP 404",
+    "productionSitemap": "reachable with 61 URLs on 2026-10-01; the two enhanced-conversions-for-leads URLs are present in production sitemap.xml and feed.xml; retired account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html were previously verified as HTTP 404",
     "protocolCanonicalization": "blocked: http://shumaojs.com/ returns HTTP 200 with an HTTP final URL instead of a permanent redirect to HTTPS; requires Cloudflare or origin configuration"
   },
   "nextPriorities": [

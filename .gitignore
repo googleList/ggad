@@ -1,0 +1,15 @@
+# Generated Python caches
+__pycache__/
+*.py[cod]
+
+# Local audit output and raw Lighthouse reports
+.audit-shots/
+reports/lighthouse/raw/
+reports/psi-*-live.json
+
+# Raw Search Console exports may contain commercially sensitive query data
+data/search-console/*.csv
+
+# Local editor and OS metadata
+.DS_Store
+Thumbs.db

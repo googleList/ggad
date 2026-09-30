@@ -104,6 +104,11 @@ class PerformanceBudgetTests(unittest.TestCase):
         errors = audit(root)
         self.assertTrue(any("does not reserve a stable image box" in error for error in errors))
 
+    def test_bounded_hero_cannot_use_viewport_width_column(self) -> None:
+        css = BASE_CSS + "\n.hero { grid-template-columns: 1fr minmax(320px, 42vw); }"
+        errors = audit(self.fixture('<img src="logo.svg" alt="Brand">', css))
+        self.assertTrue(any("bounded container" in error for error in errors))
+
 
 if __name__ == "__main__":
     unittest.main()

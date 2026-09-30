@@ -1088,7 +1088,7 @@ summary:focus-visible {
 .hero {
   min-height: calc(100dvh - 72px);
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 42vw);
+  grid-template-columns: minmax(0, 1.12fr) minmax(360px, 0.88fr);
   gap: clamp(28px, 5vw, 76px);
   align-items: start;
   width: calc(100% - 36px);
@@ -2864,6 +2864,17 @@ body {
   clip-path: inset(0 -100vmax);
 }
 
+#top > .hero .hero-visual {
+  width: 100%;
+  max-width: 520px;
+  justify-self: end;
+}
+
+#top > .hero .photo-frame img {
+  aspect-ratio: 4 / 3;
+  object-position: center;
+}
+
 .hero h1 span:first-child {
   color: var(--accent-deep);
 }
@@ -2916,6 +2927,11 @@ body {
 }
 
 @media (max-width: 980px) {
+  #top > .hero .hero-visual {
+    max-width: none;
+    justify-self: stretch;
+  }
+
   #principles .principles,
   #process .steps,
   .industry-grid,

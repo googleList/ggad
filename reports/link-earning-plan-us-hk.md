@@ -32,6 +32,8 @@ Build verifiable authority for Shumao through relevant agency profiles, original
 - Agency selection guide: https://shumaojs.com/articles/how-to-choose-advertising-agency.html
 - Account ownership and compliance guidance: https://shumaojs.com/compliance.html
 - Marketing tool directory: https://shumaojs.com/nav.html
+- US bidding and budget guide with pacing calculator: https://shumaojs.com/articles/google-ads-bidding-budget-usa.html
+- Hong Kong bidding and budget guide with HKD pacing calculator: https://shumaojs.com/articles/google-ads-bidding-budget-hong-kong.html
 
 ## Submission gate
 

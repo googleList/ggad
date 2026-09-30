@@ -111,6 +111,13 @@ def audit(root: Path = ROOT) -> list[str]:
         ):
             errors.append(f"{selector} does not reserve a stable image box")
 
+    hero_block = css_block(css, ".hero")
+    hero_columns = re.search(r"grid-template-columns\s*:\s*([^;]+)", hero_block)
+    if hero_columns and re.search(r"\b\d+(?:\.\d+)?vw\b", hero_columns.group(1)):
+        errors.append(
+            ".hero grid columns must be sized from the bounded container, not the viewport"
+        )
+
     existing_scripts = [path for path in script_paths if path.is_file()]
     combined_js = "\n".join(path.read_text(encoding="utf-8") for path in existing_scripts)
     if existing_scripts and "iconStylesheet.media = \"print\"" not in combined_js:

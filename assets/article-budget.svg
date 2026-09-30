@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Budget planning thumbnail</title>
+  <desc id="desc">Budget pacing chart illustration.</desc>
+  <rect width="720" height="420" fill="#eef7fb"/>
+  <rect x="72" y="62" width="576" height="296" rx="20" fill="#fff" stroke="#dce7ef"/>
+  <path d="M134 292h456" stroke="#d7e8f2" stroke-width="10" stroke-linecap="round"/>
+  <rect x="154" y="226" width="54" height="66" rx="8" fill="#7fb4d6"/>
+  <rect x="246" y="184" width="54" height="108" rx="8" fill="#0f5f9f"/>
+  <rect x="338" y="146" width="54" height="146" rx="8" fill="#207a59"/>
+  <rect x="430" y="202" width="54" height="90" rx="8" fill="#7fb4d6"/>
+  <path d="M156 154c80 38 140-62 218-10 56 38 102 18 160-36" fill="none" stroke="#0a436f" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="534" cy="108" r="14" fill="#0a436f"/>
+</svg>

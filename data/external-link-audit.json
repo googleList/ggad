@@ -1,0 +1,1990 @@
+{
+  "generatedAt": "2026-09-29",
+  "method": "GET requests with redirects; 401/403/405/406/409/418/429/451 and 5xx are unverified, not broken.",
+  "hosts": [],
+  "summary": {
+    "checked": 192,
+    "ok": 161,
+    "broken": 0,
+    "review": 3,
+    "unverified": 28
+  },
+  "links": [
+    {
+      "url": "https://ads.google.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://business.google.com/en-all/google-ads/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ads.google.com/home/tools/keyword-planner/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://business.google.com/en-all/ad-tools/keyword-planner/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ads.tiktok.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ads.tiktok.com/business/en?tt4b_lang_redirect=1",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ads.x.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://business.x.com/en/advertising",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://adsector.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://adsector.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ahrefs.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ahrefs.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ahrefs.com/blog/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ahrefs.com/blog/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://alsoasked.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://alsoasked.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://analytics.google.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://analytics.google.com/analytics/web/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://answerthepublic.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://answerthepublic.com/en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://app.buzzsumo.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://app.buzzsumo.com/login",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://audiense.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.audiense.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://backlinko.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://backlinko.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://blog.google/products/ads-commerce/ai-max-testing-planning-tools/",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://blog.google/products/ads-commerce/ai-max-testing-planning-tools/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-july-2026/",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://blog.google/products/ads-commerce/demand-gen-drop-july-2026/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://clarity.microsoft.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://clarity.microsoft.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://contentmarketinginstitute.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://contentmarketinginstitute.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://developers.google.com/search",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://developers.google.com/search",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/snippet?hl=zh-cn",
+      "sources": [
+        "articles/seo-title-meta-basics.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://developers.google.com/search/docs/appearance/snippet?hl=zh-cn",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/title-link?hl=zh-cn",
+      "sources": [
+        "articles/seo-title-meta-basics.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://developers.google.com/search/docs/appearance/title-link?hl=zh-cn",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ecomhunt.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ecomhunt.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://elevenlabs.io/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://elevenlabs.io/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://firefly.adobe.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://firefly.adobe.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://gemini.google.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://gemini.google.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://hootsuite.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.hootsuite.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://hunter.io/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://hunter.io/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "sources": [
+        "google-ads-management-usa.html",
+        "index.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=1200&q=82",
+      "sources": [
+        "google-ads-agency-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=1200&q=82",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
+      "sources": [
+        "google-ads-agency-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=82",
+      "sources": [
+        "google-ads-management-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=82",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=82",
+      "sources": [
+        "index.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=82",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://keywordseverywhere.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://keywordseverywhere.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://keywordtool.io/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://keywordtool.io/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://klear.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.meltwater.com/en/capabilities/influencer-marketing?utm_source=direct&utm_medium=klear",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://kwfinder.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://mangools.com/kwfinder/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://lookerstudio.google.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://datastudio.google.com/overview",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://mailchimp.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://mailchimp.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://majestic.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://majestic.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://merchants.google.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://business.google.com/en-all/merchant-center/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://mixpanel.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://mixpanel.com/home/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://monitorbacklinks.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.seoptimer.com/monitor-backlinks/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://moz.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://moz.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://pagespeed.web.dev/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://pagespeed.web.dev/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://pika.art/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://pika.art/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://piktochart.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://piktochart.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ppchero.com/black-friday-2026/",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ppchero.com/black-friday-2026/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ppchero.com/getting-a-pipeline-you-can-defend-to-finance/",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ppchero.com/getting-a-pipeline-you-can-defend-to-finance/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ppchero.com/google-ads-target-bid-strategy-changes/",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ppchero.com/google-ads-target-bid-strategy-changes/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ppchero.com/how-to-build-a-google-ads-dailing-pacing-script/",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ppchero.com/how-to-build-a-google-ads-dailing-pacing-script/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ppchero.com/performance-max-brand-leak-audit/",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ppchero.com/performance-max-brand-leak-audit/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ppchero.com/reddit-is-where-search-social-collide-is-your-paid-strategy-ready-for-the-impact/",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ppchero.com/reddit-is-where-search-social-collide-is-your-paid-strategy-ready-for-the-impact/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://ppchero.com/the-silver-lining-of-august-17-how-googles-bidding-change-solves-budget-scaling-fluctuations/",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://ppchero.com/the-silver-lining-of-august-17-how-googles-bidding-change-solves-budget-scaling-fluctuations/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://runwayml.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://runway.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://search.google.com/search-console/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://search.google.com/search-console/about",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://search.google.com/test/rich-results",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://search.google.com/test/rich-results",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://serpstat.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://serpstat.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://smallseotools.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://smallseotools.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://snov.io/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://snov.io/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/adspolicy/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/adspolicy/answer/6008942?visit_id=639262385276261729-3570896362&rd=1",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/adspolicy/answer/6086450?hl=en",
+      "sources": [
+        "google-ads-agency-checklist-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/adspolicy/answer/6086450?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/adspolicy/answer/6086450?hl=zh-Hant",
+      "sources": [
+        "google-ads-agency-checklist-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/adspolicy/answer/6086450?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/adspolicy/answer/6368661?hl=zh-Hans",
+      "sources": [
+        "articles/website-trust-pages.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/adspolicy/answer/6368661?hl=zh-Hans",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/10486536?hl=zh-Hans",
+      "sources": [
+        "articles/google-budget-pacing.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/10486536?hl=zh-Hans",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/10724896?hl=zh-Hans",
+      "sources": [
+        "articles/performance-max-basics.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/10724896?hl=zh-Hans",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/13258081?hl=en",
+      "sources": [
+        "articles/google-ads-conversion-tracking-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/13258081?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/13738234?hl=zh-Hans",
+      "sources": [
+        "articles/search-terms-optimization.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/13738234?hl=zh-Hans",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/14086?hl=en",
+      "sources": [
+        "articles/google-ads-landing-page-checklist-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/14086?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/14086?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-landing-page-checklist-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/14086?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/14528221?hl=zh-Hans",
+      "sources": [
+        "articles/performance-max-basics.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/14528221?hl=zh-Hans",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/14662970?hl=zh-HK",
+      "sources": [
+        "articles/google-ads-conversion-tracking-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/14662970?hl=zh-HK",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/156066?hl=en",
+      "sources": [
+        "articles/google-ads-account-audit-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/156066?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/156066?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-account-audit-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/156066?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/16305123?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-account-access-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/16305123?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/17046805?hl=en",
+      "sources": [
+        "articles/google-ads-account-audit-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/17046805?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/17046805?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-account-audit-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/17046805?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/1722054?hl=en",
+      "sources": [
+        "articles/google-ads-conversion-tracking-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/1722054?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/1722054?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-conversion-tracking-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/1722054?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/2404036?hl=en",
+      "sources": [
+        "articles/google-ads-monthly-reporting-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/2404036?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/2404036?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-monthly-reporting-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/2404036?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/2472708?hl=en",
+      "sources": [
+        "articles/google-ads-monthly-reporting-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/2472708?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/2472708?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-monthly-reporting-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/2472708?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/3123169?hl=en",
+      "sources": [
+        "articles/google-ads-monthly-reporting-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/3123169?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/3123169?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-monthly-reporting-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/3123169?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/3416396?hl=en",
+      "sources": [
+        "articles/google-ads-account-audit-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/3416396?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/3416396?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-account-audit-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/3416396?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/3448398?hl=en",
+      "sources": [
+        "articles/google-ads-account-audit-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/3448398?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/3448398?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-account-audit-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/3448398?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/6139186?hl=en",
+      "sources": [
+        "articles/google-ads-account-ownership-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/6139186?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/6139186?hl=zh-HK",
+      "sources": [
+        "articles/google-ads-account-access-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/6139186?hl=zh-HK",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/6201327?hl=en",
+      "sources": [
+        "articles/google-ads-monthly-reporting-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/6201327?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/6201327?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-monthly-reporting-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/6201327?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/6366720?hl=en",
+      "sources": [
+        "articles/google-ads-management-cost-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/6366720?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/7012522?hl=en",
+      "sources": [
+        "articles/google-ads-conversion-tracking-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/7012522?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/7012522?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-conversion-tracking-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/7012522?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/7268503?hl=en",
+      "sources": [
+        "articles/google-ads-account-ownership-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/7268503?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/7456532?hl=en",
+      "sources": [
+        "articles/google-ads-account-ownership-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/7456532?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/7456532?hl=zh-HK",
+      "sources": [
+        "articles/google-ads-account-access-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/7456532?hl=zh-HK",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/7543502?hl=en",
+      "sources": [
+        "articles/google-ads-landing-page-checklist-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/7543502?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/7543502?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-landing-page-checklist-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/7543502?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/9978556?hl=en",
+      "sources": [
+        "articles/google-ads-account-ownership-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/9978556?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/9978556?hl=zh-HK",
+      "sources": [
+        "articles/google-ads-account-access-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/9978556?hl=zh-HK",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://t.me/qichuanggg",
+      "sources": [
+        "ad-learning.html",
+        "articles.html",
+        "articles/conversion-tracking-basics.html",
+        "articles/facebook-lead-ads.html",
+        "articles/geo-ai-search-basics.html",
+        "articles/geo-brand-entity-pages.html",
+        "articles/google-ads-account-access-hong-kong.html",
+        "articles/google-ads-account-audit-hong-kong.html",
+        "articles/google-ads-account-audit-usa.html",
+        "articles/google-ads-account-ownership-usa.html",
+        "articles/google-ads-basics.html",
+        "articles/google-ads-conversion-tracking-hong-kong.html",
+        "articles/google-ads-conversion-tracking-usa.html",
+        "articles/google-ads-cost-hong-kong.html",
+        "articles/google-ads-landing-page-checklist-hong-kong.html",
+        "articles/google-ads-landing-page-checklist-usa.html",
+        "articles/google-ads-management-cost-usa.html",
+        "articles/google-ads-monthly-reporting-hong-kong.html",
+        "articles/google-ads-monthly-reporting-usa.html",
+        "articles/google-ads-vs-meta-ads-guide.html",
+        "articles/google-budget-pacing.html",
+        "articles/google-search-ads-cost-guide.html",
+        "articles/google-search-ads-guide.html",
+        "articles/google-search-keywords.html",
+        "articles/googlebot-ai-crawlers-seo-geo.html",
+        "articles/how-to-choose-advertising-agency.html",
+        "articles/landing-page-checklist.html",
+        "articles/llms-txt-ai-search-guide.html",
+        "articles/meta-creative-testing.html",
+        "articles/performance-max-basics.html",
+        "articles/remarketing-basics.html",
+        "articles/search-terms-optimization.html",
+        "articles/sem-keyword-match-guide.html",
+        "articles/sem-landing-tracking.html",
+        "articles/seo-content-cluster.html",
+        "articles/seo-course-learning-path.html",
+        "articles/seo-title-meta-basics.html",
+        "articles/website-speed-mobile.html",
+        "articles/website-trust-pages.html",
+        "company.html",
+        "compliance.html",
+        "contact.html",
+        "facebook-ads.html",
+        "google-ads-agency-checklist-hong-kong.html",
+        "google-ads-agency-checklist-usa.html",
+        "google-ads-agency-hong-kong.html",
+        "google-ads-management-usa.html",
+        "google-ads.html",
+        "index.html",
+        "managed-ads.html",
+        "meta-ads.html",
+        "nav.html",
+        "privacy.html",
+        "services.html",
+        "terms.html",
+        "x-ads.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://t.me/qichuanggg",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://tagmanager.google.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://accounts.google.com/v3/signin/identifier?continue=https://tagmanager.google.com/&followup=https://tagmanager.google.com/&passive=1209600&service=analytics&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1963487908:1790641734546745",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://thieve.co/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://thieve.co/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://tinypng.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://tinypng.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://trends.google.com/trends/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://trends.google.com/trends/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://validator.schema.org/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://validator.schema.org/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://wix.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.wix.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://woocommerce.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://woocommerce.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://wordpress.org/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://wordpress.org/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://writesonic.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://writesonic.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.alibaba.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.alibaba.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.amazon.com/bestsellers",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/bestsellers",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.aweber.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.aweber.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.beautiful.ai/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.beautiful.ai/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.blogger.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.blogger.com/about/?bpli=1",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.brandwatch.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.brandwatch.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.brevo.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.brevo.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.builtwith.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://builtwith.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.capcut.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.capcut.com/zh-tw/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.copy.ai/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.copy.ai/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.deepcrawl.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.lumar.io/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.deepl.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.deepl.com/en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.descript.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.descript.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.easel.ly/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.easel.ly/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.fireflies.ai/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://fireflies.ai/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.frase.io/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.frase.io/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.freelancer.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.freelancer.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.grammarly.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.grammarly.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.hubspot.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.hubspot.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.instagram.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.jasper.ai/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.jasper.ai/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.link-assistant.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.link-assistant.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.linkedin.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.linkedin.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.linkedin.com/campaignmanager/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.linkedin.com/campaignmanager/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.notion.so/product/ai",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.notion.com/product/ai",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.pinterest.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.pinterest.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.prlog.org/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.prlog.org/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.prnewswire.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.reddit.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.reddit.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.remove.bg/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.remove.bg/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.screamingfrog.co.uk/seo-spider/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.screamingfrog.co.uk/seo-spider/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.searchenginejournal.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.searchenginejournal.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.semrush.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.semrush.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.semrush.com/blog/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.semrush.com/blog/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.shopify.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.shopify.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.similarweb.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.similarweb.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.sistrix.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.sistrix.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.spyfu.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.spyfu.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.ssllabs.com/ssltest/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.ssllabs.com/ssltest/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.surferseo.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://surferseo.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.thinkwithgoogle.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://business.google.com/en-all/think/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.traackr.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.traackr.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.tumblr.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.tumblr.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.venngage.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://venngage.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.woorank.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.woorank.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://www.zoho.com/mail/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://www.zoho.com/mail/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://zapier.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://zapier.com/",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://zapier.com/ai",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://zapier.com/ai",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://business.facebook.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 400,
+      "finalUrl": "https://business.facebook.com/",
+      "result": "review",
+      "detail": ""
+    },
+    {
+      "url": "https://www.facebook.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 400,
+      "finalUrl": "https://www.facebook.com/",
+      "result": "review",
+      "detail": ""
+    },
+    {
+      "url": "https://www.facebook.com/business/help",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 400,
+      "finalUrl": "https://www.facebook.com/business/help",
+      "result": "review",
+      "detail": ""
+    },
+    {
+      "url": "https://chatgpt.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://chatgpt.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://claude.ai/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://claude.ai/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://gamma.app/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://gamma.app/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://gtmetrix.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://gtmetrix.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://medium.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://medium.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://ninjaoutreach.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": null,
+      "finalUrl": null,
+      "result": "unverified",
+      "detail": "The read operation timed out"
+    },
+    {
+      "url": "https://pexda.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": null,
+      "finalUrl": null,
+      "result": "unverified",
+      "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)>"
+    },
+    {
+      "url": "https://poe.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://poe.com/login?redirect_url=%2F",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://searchengineland.com/googles-target-bidding-shake-up-why-ppc-marketers-have-been-here-before-487704",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": null,
+      "finalUrl": null,
+      "result": "unverified",
+      "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "url": "https://searchengineland.com/use-multiple-marketing-mix-models-paid-media-decisions-487681",
+      "sources": [
+        "ad-learning.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://searchengineland.com/use-multiple-marketing-mix-models-paid-media-decisions-487681",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/6366720?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-cost-hong-kong.html"
+      ],
+      "status": null,
+      "finalUrl": null,
+      "result": "unverified",
+      "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "url": "https://unsplash.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 401,
+      "finalUrl": "https://unsplash.com/.within.website?redir=%2F",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.businesswire.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.businesswire.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.canva.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.canva.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.canva.com/ai/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.canva.com/ai/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.fiverr.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.fiverr.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.globalsources.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 429,
+      "finalUrl": "https://www.globalsources.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.gsxt.gov.cn/",
+      "sources": [
+        "company.html"
+      ],
+      "status": null,
+      "finalUrl": null,
+      "result": "unverified",
+      "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "url": "https://www.guru.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.guru.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.make.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.make.com/en",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.midjourney.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.midjourney.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.newswire.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.newswire.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.perplexity.ai/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.perplexity.ai/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.pexels.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.pexels.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.prdistribution.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": null,
+      "finalUrl": null,
+      "result": "unverified",
+      "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
+      "url": "https://www.quora.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.quora.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.upwork.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.upwork.com/",
+      "result": "unverified",
+      "detail": ""
+    },
+    {
+      "url": "https://www.webpagetest.org/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": 403,
+      "finalUrl": "https://www.webpagetest.org/",
+      "result": "unverified",
+      "detail": ""
+    }
+  ]
+}

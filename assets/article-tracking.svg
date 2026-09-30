@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Conversion tracking thumbnail</title>
+  <desc id="desc">Conversion funnel and analytics chart illustration.</desc>
+  <rect width="720" height="420" fill="#eef4f8"/>
+  <rect x="64" y="62" width="592" height="296" rx="20" fill="#fff" stroke="#dce7ef"/>
+  <path d="M144 112h432l-72 92H216z" fill="#0f5f9f"/>
+  <path d="M226 224h268l-54 72H280z" fill="#7fb4d6"/>
+  <circle cx="360" cy="326" r="32" fill="#207a59"/>
+  <path d="M346 326l10 10 22-25" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M138 320h72M510 320h72" stroke="#d7e8f2" stroke-width="16" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">昆明振润达商贸有限公司外贸跨境广告代投咨询</title>
+  <desc id="desc">网站社交分享封面图。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8fbfd"/>
+      <stop offset="1" stop-color="#e1f0fb"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="80" y1="80" x2="250" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1674b8"/>
+      <stop offset="1" stop-color="#0a436f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="78" y="84" width="120" height="120" rx="24" fill="url(#mark)"/>
+  <path d="M108 122h62v12h-38.1l37.2 35.2h-17.4L114.5 134H108v-12Z" fill="#fff"/>
+  <path d="M108 145h12v31h-12v-31Zm59-3h12v34h-12V142Z" fill="#d8efff"/>
+  <text x="80" y="285" fill="#0a436f" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="26" font-weight="800">Google Ads 与多平台广告代投咨询</text>
+  <text x="80" y="370" fill="#17202a" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="66" font-weight="900">外贸跨境广告投放</text>
+  <text x="80" y="452" fill="#17202a" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="66" font-weight="900">预算清晰 稳健获客</text>
+  <text x="80" y="525" fill="#5b6875" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="28" font-weight="700">Google Ads · Meta · Facebook · X/Twitter · 独立咨询机构</text>
+  <rect x="780" y="94" width="300" height="440" rx="18" fill="#fff" stroke="#dce7ef" stroke-width="2"/>
+  <rect x="820" y="138" width="220" height="18" rx="9" fill="#0f5f9f"/>
+  <rect x="820" y="196" width="164" height="14" rx="7" fill="#dce7ef"/>
+  <rect x="820" y="238" width="220" height="14" rx="7" fill="#dce7ef"/>
+  <rect x="820" y="314" width="220" height="2" fill="#dce7ef"/>
+  <circle cx="838" cy="366" r="11" fill="#207a59"/>
+  <rect x="864" y="356" width="150" height="16" rx="8" fill="#17202a"/>
+  <circle cx="838" cy="426" r="11" fill="#207a59"/>
+  <rect x="864" y="416" width="132" height="16" rx="8" fill="#17202a"/>
+</svg>

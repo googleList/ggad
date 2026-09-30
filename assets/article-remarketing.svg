@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Remarketing thumbnail</title>
+  <desc id="desc">Audience loop and remarketing path illustration.</desc>
+  <rect width="720" height="420" fill="#edf7f3"/>
+  <circle cx="360" cy="210" r="118" fill="#fff" stroke="#dce7ef" stroke-width="12"/>
+  <path d="M282 202c10-54 64-92 120-74 28 9 50 28 62 52" fill="none" stroke="#0f5f9f" stroke-width="16" stroke-linecap="round"/>
+  <path d="M438 218c-10 54-64 92-120 74-28-9-50-28-62-52" fill="none" stroke="#207a59" stroke-width="16" stroke-linecap="round"/>
+  <path d="M462 142l8 48-48 2" fill="none" stroke="#0f5f9f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M258 278l-8-48 48-2" fill="none" stroke="#207a59" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="360" cy="210" r="42" fill="#e1f0fb"/>
+  <circle cx="360" cy="194" r="14" fill="#0a436f"/>
+  <path d="M334 236c10-20 42-20 52 0" fill="none" stroke="#0a436f" stroke-width="10" stroke-linecap="round"/>
+</svg>

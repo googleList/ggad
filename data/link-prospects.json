@@ -1,0 +1,110 @@
+{
+  "lastReviewed": "2026-09-28",
+  "site": "https://shumaojs.com/",
+  "policy": "Only pursue editorial or directory links that accurately represent the business. Do not buy links, fabricate offices, reviews, certifications, or client results.",
+  "prospects": [
+    {
+      "name": "GoodFirms",
+      "url": "https://www.goodfirms.co/get-listed",
+      "market": "global",
+      "type": "agency-directory",
+      "priority": "high",
+      "cost": "free listing available",
+      "status": "ready_after_evidence",
+      "eligibility": "Requires research verification and may require client references.",
+      "requiredBeforeSubmission": [
+        "Two genuine client references with permission to be contacted",
+        "Two original case studies with verifiable scope and outcomes",
+        "Public English company profile and service pages deployed"
+      ],
+      "destinationUrl": "https://shumaojs.com/google-ads-management-usa.html",
+      "notes": "Submit only after evidence is available; do not invent reviews or metrics."
+    },
+    {
+      "name": "Sortlist",
+      "url": "https://www.sortlist.com/join",
+      "market": "global",
+      "type": "agency-directory",
+      "priority": "high",
+      "cost": "free registration available",
+      "status": "ready_after_profile_assets",
+      "eligibility": "Accepts agencies and freelancers offering online advertising, digital strategy, and SEO services.",
+      "requiredBeforeSubmission": [
+        "English logo and company profile",
+        "Accurate China business location",
+        "Service categories and languages",
+        "At least one genuine portfolio example"
+      ],
+      "destinationUrl": "https://shumaojs.com/",
+      "notes": "Target US and Hong Kong clients without claiming a local office."
+    },
+    {
+      "name": "Clutch",
+      "url": "https://clutch.co/get-listed",
+      "market": "global",
+      "type": "agency-directory",
+      "priority": "medium",
+      "cost": "free profile; paid verification currently starts at USD 499 per year",
+      "status": "deferred",
+      "eligibility": "The free Basic profile does not include a website link from directory pages.",
+      "requiredBeforeSubmission": [
+        "At least two detailed case studies",
+        "Genuine client review pipeline",
+        "Measured decision that paid verification can return qualified leads"
+      ],
+      "destinationUrl": "https://shumaojs.com/",
+      "notes": "Do not pay solely for a backlink. Reassess after organic leads and evidence improve."
+    },
+    {
+      "name": "Google Partners",
+      "url": "https://support.google.com/google-ads/answer/9702452?hl=en",
+      "market": "global",
+      "type": "professional-credential",
+      "priority": "medium",
+      "cost": "no listing fee stated",
+      "status": "eligibility_not_verified",
+      "eligibility": "Requires performance, managed spend, and certification thresholds in the registered manager account.",
+      "requiredBeforeSubmission": [
+        "Registered Google Ads manager account",
+        "Minimum 70 percent optimization score",
+        "USD 10000 managed spend over 90 days",
+        "Required account strategist certifications"
+      ],
+      "destinationUrl": "https://shumaojs.com/google-ads.html",
+      "notes": "Never display a Google Partner badge until Google confirms current company eligibility."
+    },
+    {
+      "name": "Google Business Profile for US or Hong Kong",
+      "url": "https://support.google.com/business/answer/13763036?hl=en",
+      "market": "US/HK",
+      "type": "local-profile",
+      "priority": "excluded",
+      "cost": "free",
+      "status": "ineligible_without_real_local_operations",
+      "eligibility": "Google requires in-person customer contact; online-only businesses are not eligible.",
+      "requiredBeforeSubmission": [
+        "A real staffed location or eligible in-person service operation",
+        "Accurate verification evidence"
+      ],
+      "destinationUrl": "https://shumaojs.com/",
+      "notes": "Do not create virtual, mailbox, or fabricated US/Hong Kong locations."
+    },
+    {
+      "name": "DesignRush",
+      "url": "https://www.designrush.com/",
+      "market": "global",
+      "type": "agency-directory",
+      "priority": "low",
+      "cost": "unverified",
+      "status": "deferred_unverified",
+      "eligibility": "Current official submission value and terms have not been verified.",
+      "requiredBeforeSubmission": [
+        "Verify current official listing terms",
+        "Confirm link attributes and lead quality",
+        "Reject any required paid-link arrangement"
+      ],
+      "destinationUrl": "https://shumaojs.com/",
+      "notes": "No submission until an official process and business value are confirmed."
+    }
+  ]
+}

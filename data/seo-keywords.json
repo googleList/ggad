@@ -1,0 +1,105 @@
+{
+  "domain": "https://shumaojs.com/",
+  "updated": "2026-09-29",
+  "note": "当前版本基于站点业务、页面主题和公开搜索结果语义整理。优先级不是流量预测；后续由 scripts/prioritize_search_console.py 使用美国和香港的真实 queries、clicks、impressions、ctr、position 数据继续调整。",
+  "clusters": [
+    {
+      "cluster": "US Google Ads management",
+      "market": "US",
+      "language": "en-US",
+      "intent": "commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/google-ads-management-usa.html",
+      "primaryKeywords": ["Google Ads management USA", "Google Ads consultant US", "PPC management for US businesses"],
+      "supportingKeywords": ["Google Ads management cost US", "client owned Google Ads account", "US PPC campaign management", "Google Ads conversion tracking consultant"],
+      "contentActions": ["Use Search Console US impressions to refine the service page", "Link cost and measurement guides to the commercial page", "Avoid unsupported pricing or performance claims"]
+    },
+    {
+      "cluster": "香港 Google Ads 管理",
+      "market": "HK",
+      "language": "zh-Hant-HK",
+      "intent": "commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/google-ads-agency-hong-kong.html",
+      "primaryKeywords": ["香港 Google Ads 公司", "Google Ads 廣告管理 香港", "香港 Google 廣告顧問"],
+      "supportingKeywords": ["香港 Google Ads 收費", "Google 廣告預算 香港", "Google Ads 管理費", "Google Ads 轉換追蹤 香港"],
+      "contentActions": ["使用香港 Search Console 展示及查詢驗證用詞", "由收費與追蹤文章連回服務頁", "保持繁體中文和香港用語一致"]
+    },
+    {
+      "cluster": "US Google Ads monthly reporting",
+      "market": "US",
+      "language": "en-US",
+      "intent": "informational-commercial",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+      "primaryKeywords": ["Google Ads monthly report", "Google Ads agency reporting", "PPC monthly reporting"],
+      "supportingKeywords": ["Google Ads report qualified leads", "Google Ads reporting template", "what should a PPC agency report", "Google Ads conversion lag reporting"],
+      "contentActions": ["Validate US impressions and query wording in Search Console", "Link audit and conversion-tracking guides into the reporting guide", "Keep platform metrics separate from qualified pipeline outcomes"]
+    },
+    {
+      "cluster": "香港 Google Ads 月度報告",
+      "market": "HK",
+      "language": "zh-Hant-HK",
+      "intent": "informational-commercial",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+      "primaryKeywords": ["香港 Google Ads 月度報告", "Google Ads 成效報告", "廣告代理報告"],
+      "supportingKeywords": ["Google Ads 報告指標", "港幣廣告預算報告", "WhatsApp 查詢追蹤", "廣告有效查詢成本"],
+      "contentActions": ["使用香港 Search Console 查詢驗證月度與成效報告用詞", "由帳戶審核及轉換追蹤頁建立內鏈", "把 WhatsApp、電話、有效查詢及成交定義寫清楚"]
+    },
+    {
+      "cluster": "Google Ads 广告管理",
+      "intent": "commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/google-ads.html",
+      "primaryKeywords": ["谷歌广告管理", "Google Ads 代运营", "Google Ads 优化", "Google Ads 投放咨询"],
+      "supportingKeywords": ["外贸谷歌推广", "Google 搜索广告管理", "谷歌广告优化", "Google Ads 投放服务"],
+      "contentActions": ["服务页首屏明确广告管理与客户自有账户边界", "增加搜索广告、PMax、购物广告等广告类型说明", "从相关文章持续内链到服务页"]
+    },
+    {
+      "cluster": "多平台广告代投",
+      "intent": "commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/managed-ads.html",
+      "primaryKeywords": ["广告管理", "多平台广告代投", "广告代运营", "海外广告投放"],
+      "supportingKeywords": ["跨境电商广告投放", "外贸广告推广", "多平台广告管理", "广告预算优化"],
+      "contentActions": ["首页与导航保持多平台入口", "说明 Google、Meta、Facebook、X/Twitter 的适用场景", "避免违规承诺类词汇"]
+    },
+    {
+      "cluster": "Meta 与 Facebook 广告",
+      "intent": "commercial",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/meta-ads.html",
+      "primaryKeywords": ["Meta 广告管理", "Facebook 广告管理", "Facebook 广告代投"],
+      "supportingKeywords": ["Instagram 广告投放", "Facebook 线索广告", "Meta 广告素材测试", "跨境社媒广告"],
+      "contentActions": ["Meta/Facebook 页面避免内容重复", "用素材测试、线索表单、主页资产做差异化", "增加相关文章之间的内链"]
+    },
+    {
+      "cluster": "SEM 教程与搜索广告",
+      "intent": "informational",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-search-ads-guide.html",
+      "primaryKeywords": ["Google 搜索广告", "Google 搜索广告怎么投", "SEM 关键词匹配"],
+      "supportingKeywords": ["Google 广告费用", "搜索词报告优化", "否定词怎么设置", "转化追踪教程"],
+      "contentActions": ["继续加厚短文章", "用教程文章承接信息词", "在文章末尾引导到 Google Ads 服务页"]
+    },
+    {
+      "cluster": "建站与落地页",
+      "intent": "informational",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/landing-page-checklist.html",
+      "primaryKeywords": ["广告落地页检查", "外贸独立站投放", "广告投放网站要求"],
+      "supportingKeywords": ["建站信任页面", "移动端落地页优化", "隐私政策怎么写", "服务条款页面"],
+      "contentActions": ["补充案例型内容", "把建站文章内链到合规页和联系页", "突出页面透明度和转化入口"]
+    },
+    {
+      "cluster": "SEO 与 GEO",
+      "intent": "informational",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles.html",
+      "primaryKeywords": ["SEO 教程", "GEO 优化", "AI 搜索优化", "llms.txt"],
+      "supportingKeywords": ["Googlebot 是什么", "SEO 标题描述", "外贸网站 SEO", "AI 爬虫"],
+      "contentActions": ["文章栏目按 SEO、SEM、建站、GEO 继续扩展", "GEO 文章增加 FAQ 和实体信息", "保持原创或充分改写，避免低质量重复"]
+    }
+  ]
+}

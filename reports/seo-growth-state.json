@@ -69,9 +69,11 @@
     "ga4": false,
     "cloudflareAnalytics": false,
     "pageSpeedInsights": "The PageSpeed API connection timed out on 2026-09-30, so field CWV remains unavailable. Lighthouse 13.5.0 production mobile lab runs measured the US page at score 100 and 0.99s LCP and the Hong Kong page at score 90 and 3.27s LCP. After adding a 640px image candidate, the Hong Kong page measured score 96 and 2.27s LCP with CLS 0; these are directional lab results, not field data.",
-    "productionSitemap": "reachable with 55 URLs on 2026-09-30; retired account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html all return HTTP 404"
+    "productionSitemap": "reachable with 57 URLs on 2026-09-30; local and production sitemap sets match; retired account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html all return HTTP 404",
+    "protocolCanonicalization": "blocked: http://shumaojs.com/ returns HTTP 200 with an HTTP final URL instead of a permanent redirect to HTTPS; requires Cloudflare or origin configuration"
   },
   "nextPriorities": [
+    "Enable Cloudflare Always Use HTTPS or an equivalent edge-level permanent redirect; http://shumaojs.com currently returns HTTP 200 instead of redirecting to HTTPS",
     "Export Google Search Console country, query, and page data into the local data/search-console directory",
     "Validate indexing and impressions for the two market landing pages",
     "Collect permission for genuine case studies and client references before directory submissions",

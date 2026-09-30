@@ -40,6 +40,26 @@ class DeploymentDriftAuditTests(unittest.TestCase):
         self.assertEqual(checked, ["https://example.com/new.html"])
         self.assertEqual(report["missingUrlStatus"][0]["status"], 404)
 
+    def test_protocol_redirect_requires_https_final_url(self):
+        passing = MODULE.build_report(
+            {"https://example.com/"},
+            {"https://example.com/"},
+            protocol_url="http://example.com/",
+            protocol_checker=lambda url: MODULE.UrlResult(
+                url=url, status=200, final_url="https://example.com/"
+            ),
+        )
+        failing = MODULE.build_report(
+            {"https://example.com/"},
+            {"https://example.com/"},
+            protocol_url="http://example.com/",
+            protocol_checker=lambda url: MODULE.UrlResult(
+                url=url, status=200, final_url="http://example.com/"
+            ),
+        )
+        self.assertTrue(passing["protocolRedirectOk"])
+        self.assertFalse(failing["protocolRedirectOk"])
+
 
 if __name__ == "__main__":
     unittest.main()

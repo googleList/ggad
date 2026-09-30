@@ -22,6 +22,7 @@ class UrlResult:
     url: str
     status: int | None
     error: str | None = None
+    final_url: str | None = None
 
 
 def parse_sitemap(xml_text: str) -> set[str]:
@@ -43,7 +44,7 @@ def check_url(url: str, timeout: int = 20) -> UrlResult:
     request = Request(url, method="HEAD", headers={"User-Agent": "ShumaoJS-Deployment-Audit/1.0"})
     try:
         with urlopen(request, timeout=timeout) as response:
-            return UrlResult(url=url, status=response.status)
+            return UrlResult(url=url, status=response.status, final_url=response.geturl())
     except HTTPError as error:
         return UrlResult(url=url, status=error.code, error=str(error.reason))
     except URLError as error:
@@ -62,15 +63,26 @@ def build_report(
     local_urls: set[str],
     live_urls: set[str],
     checker: Callable[[str], UrlResult] = check_url,
+    protocol_url: str | None = None,
+    protocol_checker: Callable[[str], UrlResult] = check_url,
 ) -> dict[str, object]:
     comparison = compare_sitemaps(local_urls, live_urls)
     checks = [checker(url) for url in comparison["missingFromProduction"]]
+    protocol_result = protocol_checker(protocol_url) if protocol_url else None
+    protocol_redirect_ok = bool(
+        protocol_result
+        and protocol_result.status == 200
+        and protocol_result.final_url
+        and protocol_result.final_url.startswith("https://")
+    )
     return {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "localUrlCount": len(local_urls),
         "productionUrlCount": len(live_urls),
         **comparison,
         "missingUrlStatus": [asdict(result) for result in checks],
+        "protocolRedirect": asdict(protocol_result) if protocol_result else None,
+        "protocolRedirectOk": protocol_redirect_ok if protocol_result else None,
     }
 
 
@@ -89,6 +101,7 @@ def markdown(report: dict[str, object], live_sitemap_url: str) -> str:
         f"- Production sitemap URLs: {report['productionUrlCount']}",
         f"- Missing from production sitemap: {len(missing)}",
         f"- Production-only URLs: {len(production_only)}",
+        f"- HTTP to HTTPS redirect: {'pass' if report['protocolRedirectOk'] else 'fail'}",
         "",
         "## Missing from production",
         "",
@@ -103,6 +116,16 @@ def markdown(report: dict[str, object], live_sitemap_url: str) -> str:
         lines.append("- None")
     lines.extend(["", "## Production-only URLs", ""])
     lines.extend(f"- {url}" for url in production_only) if production_only else lines.append("- None")
+    lines.extend(["", "## Protocol canonicalization", ""])
+    protocol = report["protocolRedirect"]
+    if protocol:
+        lines.append(f"- Requested: {protocol['url']}")
+        lines.append(f"- Final URL: {protocol['final_url'] or 'request failed'}")
+        lines.append(f"- Status: {protocol['status'] if protocol['status'] is not None else 'request failed'}")
+        if not report["protocolRedirectOk"]:
+            lines.append("- Action required: configure an edge-level permanent redirect from HTTP to HTTPS.")
+    else:
+        lines.append("- Not checked")
     lines.extend([
         "",
         "## Interpretation",
@@ -120,11 +143,16 @@ def main() -> int:
     parser.add_argument("--json-output", default="reports/deployment-drift.json")
     parser.add_argument("--markdown-output", default="reports/deployment-drift.md")
     parser.add_argument("--fail-on-drift", action="store_true")
+    parser.add_argument("--http-origin", default="http://shumaojs.com/")
     args = parser.parse_args()
 
     local_xml = Path(args.local_sitemap).read_text(encoding="utf-8")
     live_xml = fetch_text(args.live_sitemap)
-    report = build_report(parse_sitemap(local_xml), parse_sitemap(live_xml))
+    report = build_report(
+        parse_sitemap(local_xml),
+        parse_sitemap(live_xml),
+        protocol_url=args.http_origin,
+    )
 
     json_path = Path(args.json_output)
     markdown_path = Path(args.markdown_output)
@@ -136,9 +164,11 @@ def main() -> int:
     print(
         f"Deployment audit: {report['localUrlCount']} local, "
         f"{report['productionUrlCount']} production, "
-        f"{len(report['missingFromProduction'])} missing from production."
+        f"{len(report['missingFromProduction'])} missing from production, "
+        f"HTTP redirect {'pass' if report['protocolRedirectOk'] else 'fail'}."
     )
-    return 1 if args.fail_on_drift and report["missingFromProduction"] else 0
+    has_drift = bool(report["missingFromProduction"] or not report["protocolRedirectOk"])
+    return 1 if args.fail_on_drift and has_drift else 0
 
 
 if __name__ == "__main__":

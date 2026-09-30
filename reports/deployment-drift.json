@@ -1,31 +1,32 @@
 {
-  "generatedAt": "2026-09-28T06:54:40.827506+00:00",
-  "localUrlCount": 53,
-  "productionUrlCount": 47,
-  "missingFromProduction": [
-    "https://shumaojs.com/articles/google-ads-account-access-hong-kong.html",
-    "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
-    "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
-    "https://shumaojs.com/articles/google-ads-account-ownership-usa.html",
-    "https://shumaojs.com/google-ads-agency-checklist-hong-kong.html",
-    "https://shumaojs.com/google-ads-agency-checklist-usa.html"
-  ],
+  "generatedAt": "2026-09-30T07:49:14.303687+00:00",
+  "localUrlCount": 57,
+  "productionUrlCount": 57,
+  "missingFromProduction": [],
   "productionOnly": [],
   "shared": [
     "https://shumaojs.com/",
-    "https://shumaojs.com/account-guidance.html",
     "https://shumaojs.com/ad-learning.html",
     "https://shumaojs.com/articles.html",
-    "https://shumaojs.com/articles/ad-account-materials.html",
     "https://shumaojs.com/articles/conversion-tracking-basics.html",
     "https://shumaojs.com/articles/facebook-lead-ads.html",
     "https://shumaojs.com/articles/geo-ai-search-basics.html",
     "https://shumaojs.com/articles/geo-brand-entity-pages.html",
+    "https://shumaojs.com/articles/google-ads-account-access-hong-kong.html",
+    "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+    "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
+    "https://shumaojs.com/articles/google-ads-account-ownership-usa.html",
     "https://shumaojs.com/articles/google-ads-basics.html",
     "https://shumaojs.com/articles/google-ads-conversion-tracking-hong-kong.html",
     "https://shumaojs.com/articles/google-ads-conversion-tracking-usa.html",
     "https://shumaojs.com/articles/google-ads-cost-hong-kong.html",
+    "https://shumaojs.com/articles/google-ads-landing-page-checklist-hong-kong.html",
+    "https://shumaojs.com/articles/google-ads-landing-page-checklist-usa.html",
     "https://shumaojs.com/articles/google-ads-management-cost-usa.html",
+    "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+    "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+    "https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
+    "https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-usa.html",
     "https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html",
     "https://shumaojs.com/articles/google-budget-pacing.html",
     "https://shumaojs.com/articles/google-search-ads-cost-guide.html",
@@ -50,6 +51,8 @@
     "https://shumaojs.com/compliance.html",
     "https://shumaojs.com/contact.html",
     "https://shumaojs.com/facebook-ads.html",
+    "https://shumaojs.com/google-ads-agency-checklist-hong-kong.html",
+    "https://shumaojs.com/google-ads-agency-checklist-usa.html",
     "https://shumaojs.com/google-ads-agency-hong-kong.html",
     "https://shumaojs.com/google-ads-management-usa.html",
     "https://shumaojs.com/google-ads.html",
@@ -60,36 +63,12 @@
     "https://shumaojs.com/terms.html",
     "https://shumaojs.com/x-ads.html"
   ],
-  "missingUrlStatus": [
-    {
-      "url": "https://shumaojs.com/articles/google-ads-account-access-hong-kong.html",
-      "status": 404,
-      "error": "Not Found"
-    },
-    {
-      "url": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
-      "status": 404,
-      "error": "Not Found"
-    },
-    {
-      "url": "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
-      "status": 404,
-      "error": "Not Found"
-    },
-    {
-      "url": "https://shumaojs.com/articles/google-ads-account-ownership-usa.html",
-      "status": 404,
-      "error": "Not Found"
-    },
-    {
-      "url": "https://shumaojs.com/google-ads-agency-checklist-hong-kong.html",
-      "status": 404,
-      "error": "Not Found"
-    },
-    {
-      "url": "https://shumaojs.com/google-ads-agency-checklist-usa.html",
-      "status": 404,
-      "error": "Not Found"
-    }
-  ]
+  "missingUrlStatus": [],
+  "protocolRedirect": {
+    "url": "http://shumaojs.com/",
+    "status": 200,
+    "error": null,
+    "final_url": "http://shumaojs.com/"
+  },
+  "protocolRedirectOk": false
 }

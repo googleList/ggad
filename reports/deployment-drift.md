@@ -1,27 +1,30 @@
 # Production deployment drift audit
 
-Generated: 2026-09-28T06:54:40.827506+00:00
+Generated: 2026-09-30T07:49:14.303687+00:00
 Production sitemap: https://shumaojs.com/sitemap.xml
 
 ## Summary
 
-- Local sitemap URLs: 53
-- Production sitemap URLs: 47
-- Missing from production sitemap: 6
+- Local sitemap URLs: 57
+- Production sitemap URLs: 57
+- Missing from production sitemap: 0
 - Production-only URLs: 0
+- HTTP to HTTPS redirect: fail
 
 ## Missing from production
 
-- `404` https://shumaojs.com/articles/google-ads-account-access-hong-kong.html
-- `404` https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html
-- `404` https://shumaojs.com/articles/google-ads-account-audit-usa.html
-- `404` https://shumaojs.com/articles/google-ads-account-ownership-usa.html
-- `404` https://shumaojs.com/google-ads-agency-checklist-hong-kong.html
-- `404` https://shumaojs.com/google-ads-agency-checklist-usa.html
+- None
 
 ## Production-only URLs
 
 - None
+
+## Protocol canonicalization
+
+- Requested: http://shumaojs.com/
+- Final URL: http://shumaojs.com/
+- Status: 200
+- Action required: configure an edge-level permanent redirect from HTTP to HTTPS.
 
 ## Interpretation
 

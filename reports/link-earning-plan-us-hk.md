@@ -21,7 +21,7 @@ Build verifiable authority for Shumao through relevant agency profiles, original
 3. Prepare one genuine client reference and portfolio example for Sortlist.
 4. Prepare two contactable client references and case studies for GoodFirms verification.
 5. Join Google Partners as a Member only through the real manager account, then work toward the badge requirements without displaying an unearned badge.
-6. Reassess Clutch only when reviews, case studies, and likely qualified-lead value can justify the paid profile. Its current free profile does not provide a website link.
+6. Consider a free Clutch profile only after a genuine portfolio example is approved. Current official guidance allows a website URL in the profile, while the directory-page Visit Website link is a Verified feature; do not pay solely for backlink value.
 
 ## Linkable assets already available
 

@@ -1,5 +1,5 @@
 {
-  "lastReviewed": "2026-09-28",
+  "lastReviewed": "2026-09-30",
   "site": "https://shumaojs.com/",
   "policy": "Only pursue editorial or directory links that accurately represent the business. Do not buy links, fabricate offices, reviews, certifications, or client results.",
   "prospects": [
@@ -45,15 +45,15 @@
       "type": "agency-directory",
       "priority": "medium",
       "cost": "free profile; paid verification currently starts at USD 499 per year",
-      "status": "deferred",
-      "eligibility": "The free Basic profile does not include a website link from directory pages.",
+      "status": "deferred_until_evidence",
+      "eligibility": "Clutch currently allows a website URL and core company information on a free profile, while a directory-page Visit Website link and stronger placement are Verified features. Profiles are manually reviewed and locations must be truthful.",
       "requiredBeforeSubmission": [
         "At least two detailed case studies",
         "Genuine client review pipeline",
         "Measured decision that paid verification can return qualified leads"
       ],
       "destinationUrl": "https://shumaojs.com/",
-      "notes": "Do not pay solely for a backlink. Reassess after organic leads and evidence improve."
+      "notes": "A basic profile may support discovery and reviews, but do not assume a followed directory link. Do not pay solely for a backlink. Reassess after genuine portfolio evidence and tracking exist."
     },
     {
       "name": "Google Partners",

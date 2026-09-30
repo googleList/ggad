@@ -1,6 +1,6 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "note": "当前版本基于站点业务、页面主题和公开搜索结果语义整理。优先级不是流量预测；后续由 scripts/prioritize_search_console.py 使用美国和香港的真实 queries、clicks、impressions、ctr、position 数据继续调整。",
   "clusters": [
     {
@@ -144,6 +144,28 @@
       "primaryKeywords": ["Google Ads 出價策略", "香港 Google Ads 預算", "目標單次動作出價"],
       "supportingKeywords": ["盡量爭取轉換", "Google Ads 每日預算", "廣告預算進度", "有效查詢成本"],
       "contentActions": ["使用香港 Search Console 查詢驗證繁體用詞", "分開平台轉換成本與有效查詢成本", "連結轉換追蹤、搜尋字詞及月度報告內容"]
+    },
+    {
+      "cluster": "US Google Ads enhanced conversions for leads",
+      "market": "US",
+      "language": "en-US",
+      "intent": "informational-commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-usa.html",
+      "primaryKeywords": ["Google Ads enhanced conversions for leads", "Google Ads offline conversion tracking", "Google Ads Data Manager leads"],
+      "supportingKeywords": ["CRM conversion import Google Ads", "qualified lead conversion tracking", "GCLID offline conversions", "enhanced conversions diagnostics"],
+      "contentActions": ["Validate US impressions and indexing in Search Console", "Review terminology after the 2026 Data Manager migration", "Connect conversion tracking, bidding, and monthly-reporting guides"]
+    },
+    {
+      "cluster": "香港 Google Ads 潛在客戶強化轉換",
+      "market": "HK",
+      "language": "zh-Hant-HK",
+      "intent": "informational-commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+      "primaryKeywords": ["Google Ads 潛在客戶強化轉換追蹤", "Google Ads 離線轉換 香港", "Google Ads Data Manager"],
+      "supportingKeywords": ["CRM 有效查詢回傳", "GCLID 離線轉換", "強化轉換追蹤診斷", "WhatsApp 查詢追蹤"],
+      "contentActions": ["使用香港 Search Console 驗證繁體搜尋用詞", "按 2026 Data Manager 遷移更新技術說明", "連結香港轉換追蹤、出價及月度報告指南"]
     }
   ]
 }

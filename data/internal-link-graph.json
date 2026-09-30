@@ -2,7 +2,7 @@
   "generatedAt": "2026-09-30",
   "method": "Static HTML link graph; navigation, body, and footer links are counted once per source page.",
   "summary": {
-    "indexablePages": 59,
+    "indexablePages": 61,
     "orphans": 0,
     "singleInlinkPages": 1,
     "unreachableFromHome": 0,
@@ -273,6 +273,32 @@
       "orphan": false
     },
     {
+      "path": "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+      "title": "香港 Google Ads 潛在客戶強化轉換追蹤指南",
+      "inlinks": 3,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-enhanced-conversions-leads-usa.html",
+      "title": "Google Ads Enhanced Conversions for Leads: US Setup Guide",
+      "inlinks": 3,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
       "path": "/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
       "title": "香港 Google Ads 搜尋字詞及排除關鍵字指南",
       "inlinks": 3,
@@ -377,62 +403,6 @@
       "orphan": false
     },
     {
-      "path": "/articles/google-ads-bidding-budget-hong-kong.html",
-      "title": "香港 Google Ads 出價策略及廣告預算指南",
-      "inlinks": 4,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-cost-hong-kong.html",
-        "/articles/google-ads-monthly-reporting-hong-kong.html",
-        "/google-ads-agency-hong-kong.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-bidding-budget-usa.html",
-      "title": "Google Ads Bidding and Budget Guide for US Lead Generation",
-      "inlinks": 4,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-management-cost-usa.html",
-        "/articles/google-ads-monthly-reporting-usa.html",
-        "/google-ads-management-usa.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-monthly-reporting-hong-kong.html",
-      "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
-      "inlinks": 4,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-account-audit-hong-kong.html",
-        "/articles/google-ads-bidding-budget-hong-kong.html",
-        "/articles/google-ads-search-terms-negative-keywords-hong-kong.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-monthly-reporting-usa.html",
-      "title": "Google Ads Monthly Reporting Guide for US Businesses",
-      "inlinks": 4,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-account-audit-usa.html",
-        "/articles/google-ads-bidding-budget-usa.html",
-        "/articles/google-ads-search-terms-negative-keywords-usa.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
       "path": "/articles/google-ads-account-access-hong-kong.html",
       "title": "香港 Google Ads 帳戶權限及付款資料指南 | 振潤達",
       "inlinks": 5,
@@ -459,6 +429,66 @@
         "/google-ads-management-usa.html"
       ],
       "outlinks": 7,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-bidding-budget-hong-kong.html",
+      "title": "香港 Google Ads 出價策略及廣告預算指南",
+      "inlinks": 5,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-cost-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/google-ads-monthly-reporting-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-bidding-budget-usa.html",
+      "title": "Google Ads Bidding and Budget Guide for US Lead Generation",
+      "inlinks": 5,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
+        "/articles/google-ads-management-cost-usa.html",
+        "/articles/google-ads-monthly-reporting-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-monthly-reporting-hong-kong.html",
+      "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
+      "inlinks": 5,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-account-audit-hong-kong.html",
+        "/articles/google-ads-bidding-budget-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/google-ads-search-terms-negative-keywords-hong-kong.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-monthly-reporting-usa.html",
+      "title": "Google Ads Monthly Reporting Guide for US Businesses",
+      "inlinks": 5,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-account-audit-usa.html",
+        "/articles/google-ads-bidding-budget-usa.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
+        "/articles/google-ads-search-terms-negative-keywords-usa.html"
+      ],
+      "outlinks": 9,
       "clickDepth": 2,
       "orphan": false
     },
@@ -557,73 +587,37 @@
     {
       "path": "/articles/google-ads-conversion-tracking-hong-kong.html",
       "title": "香港 Google Ads 轉換追蹤設定指南 | 振潤達",
-      "inlinks": 7,
+      "inlinks": 8,
       "inlinkSources": [
         "/articles.html",
         "/articles/google-ads-bidding-budget-hong-kong.html",
         "/articles/google-ads-cost-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
         "/articles/google-ads-landing-page-checklist-hong-kong.html",
         "/articles/google-ads-monthly-reporting-hong-kong.html",
         "/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
         "/google-ads-agency-hong-kong.html"
       ],
-      "outlinks": 6,
+      "outlinks": 7,
       "clickDepth": 2,
       "orphan": false
     },
     {
       "path": "/articles/google-ads-conversion-tracking-usa.html",
       "title": "Google Ads Conversion Tracking Setup for US Leads | Zhenrunda",
-      "inlinks": 7,
+      "inlinks": 8,
       "inlinkSources": [
         "/articles.html",
         "/articles/google-ads-bidding-budget-usa.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
         "/articles/google-ads-landing-page-checklist-usa.html",
         "/articles/google-ads-management-cost-usa.html",
         "/articles/google-ads-monthly-reporting-usa.html",
         "/articles/google-ads-search-terms-negative-keywords-usa.html",
         "/google-ads-management-usa.html"
       ],
-      "outlinks": 6,
+      "outlinks": 7,
       "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/google-ads-agency-hong-kong.html",
-      "title": "香港 Google Ads 廣告管理及顧問服務 | 振潤達",
-      "inlinks": 9,
-      "inlinkSources": [
-        "/articles/google-ads-account-access-hong-kong.html",
-        "/articles/google-ads-account-audit-hong-kong.html",
-        "/articles/google-ads-bidding-budget-hong-kong.html",
-        "/articles/google-ads-conversion-tracking-hong-kong.html",
-        "/articles/google-ads-cost-hong-kong.html",
-        "/articles/google-ads-landing-page-checklist-hong-kong.html",
-        "/articles/google-ads-monthly-reporting-hong-kong.html",
-        "/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
-        "/google-ads-agency-checklist-hong-kong.html"
-      ],
-      "outlinks": 13,
-      "clickDepth": 3,
-      "orphan": false
-    },
-    {
-      "path": "/google-ads-management-usa.html",
-      "title": "Google Ads Management for US Campaigns | Zhenrunda",
-      "inlinks": 9,
-      "inlinkSources": [
-        "/articles/google-ads-account-audit-usa.html",
-        "/articles/google-ads-account-ownership-usa.html",
-        "/articles/google-ads-bidding-budget-usa.html",
-        "/articles/google-ads-conversion-tracking-usa.html",
-        "/articles/google-ads-landing-page-checklist-usa.html",
-        "/articles/google-ads-management-cost-usa.html",
-        "/articles/google-ads-monthly-reporting-usa.html",
-        "/articles/google-ads-search-terms-negative-keywords-usa.html",
-        "/google-ads-agency-checklist-usa.html"
-      ],
-      "outlinks": 13,
-      "clickDepth": 3,
       "orphan": false
     },
     {
@@ -644,6 +638,46 @@
       ],
       "outlinks": 10,
       "clickDepth": 1,
+      "orphan": false
+    },
+    {
+      "path": "/google-ads-agency-hong-kong.html",
+      "title": "香港 Google Ads 廣告管理及顧問服務 | 振潤達",
+      "inlinks": 10,
+      "inlinkSources": [
+        "/articles/google-ads-account-access-hong-kong.html",
+        "/articles/google-ads-account-audit-hong-kong.html",
+        "/articles/google-ads-bidding-budget-hong-kong.html",
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/google-ads-cost-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html",
+        "/articles/google-ads-monthly-reporting-hong-kong.html",
+        "/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
+        "/google-ads-agency-checklist-hong-kong.html"
+      ],
+      "outlinks": 14,
+      "clickDepth": 3,
+      "orphan": false
+    },
+    {
+      "path": "/google-ads-management-usa.html",
+      "title": "Google Ads Management for US Campaigns | Zhenrunda",
+      "inlinks": 10,
+      "inlinkSources": [
+        "/articles/google-ads-account-audit-usa.html",
+        "/articles/google-ads-account-ownership-usa.html",
+        "/articles/google-ads-bidding-budget-usa.html",
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
+        "/articles/google-ads-landing-page-checklist-usa.html",
+        "/articles/google-ads-management-cost-usa.html",
+        "/articles/google-ads-monthly-reporting-usa.html",
+        "/articles/google-ads-search-terms-negative-keywords-usa.html",
+        "/google-ads-agency-checklist-usa.html"
+      ],
+      "outlinks": 14,
+      "clickDepth": 3,
       "orphan": false
     },
     {
@@ -671,7 +705,7 @@
     {
       "path": "/company.html",
       "title": "企业与服务说明 | 昆明振润达商贸有限公司",
-      "inlinks": 24,
+      "inlinks": 26,
       "inlinkSources": [
         "/",
         "/articles/geo-brand-entity-pages.html",
@@ -684,6 +718,8 @@
         "/articles/google-ads-conversion-tracking-hong-kong.html",
         "/articles/google-ads-conversion-tracking-usa.html",
         "/articles/google-ads-cost-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
         "/articles/google-ads-landing-page-checklist-hong-kong.html",
         "/articles/google-ads-landing-page-checklist-usa.html",
         "/articles/google-ads-management-cost-usa.html",
@@ -1011,7 +1047,7 @@
     {
       "path": "/nav.html",
       "title": "外贸营销工具资源导航 | 昆明振润达商贸有限公司",
-      "inlinks": 51,
+      "inlinks": 53,
       "inlinkSources": [
         "/",
         "/ad-learning.html",
@@ -1025,6 +1061,8 @@
         "/articles/google-ads-basics.html",
         "/articles/google-ads-bidding-budget-hong-kong.html",
         "/articles/google-ads-bidding-budget-usa.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
         "/articles/google-ads-landing-page-checklist-hong-kong.html",
         "/articles/google-ads-landing-page-checklist-usa.html",
         "/articles/google-ads-monthly-reporting-hong-kong.html",
@@ -1072,7 +1110,7 @@
     {
       "path": "/",
       "title": "谷歌广告管理与代运营服务 | Google Ads投放优化 | 昆明振润达",
-      "inlinks": 60,
+      "inlinks": 62,
       "inlinkSources": [
         "/404.html",
         "/ad-learning.html",
@@ -1091,6 +1129,8 @@
         "/articles/google-ads-conversion-tracking-hong-kong.html",
         "/articles/google-ads-conversion-tracking-usa.html",
         "/articles/google-ads-cost-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
         "/articles/google-ads-landing-page-checklist-hong-kong.html",
         "/articles/google-ads-landing-page-checklist-usa.html",
         "/articles/google-ads-management-cost-usa.html",
@@ -1142,7 +1182,7 @@
     {
       "path": "/articles.html",
       "title": "广告投放文章 | SEO、SEM、建站、GEO 教程 | 昆明振润达商贸有限公司",
-      "inlinks": 60,
+      "inlinks": 62,
       "inlinkSources": [
         "/",
         "/404.html",
@@ -1161,6 +1201,8 @@
         "/articles/google-ads-conversion-tracking-hong-kong.html",
         "/articles/google-ads-conversion-tracking-usa.html",
         "/articles/google-ads-cost-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
         "/articles/google-ads-landing-page-checklist-hong-kong.html",
         "/articles/google-ads-landing-page-checklist-usa.html",
         "/articles/google-ads-management-cost-usa.html",
@@ -1205,14 +1247,14 @@
         "/terms.html",
         "/x-ads.html"
       ],
-      "outlinks": 52,
+      "outlinks": 54,
       "clickDepth": 1,
       "orphan": false
     },
     {
       "path": "/contact.html",
       "title": "联系咨询 | 昆明振润达商贸有限公司",
-      "inlinks": 60,
+      "inlinks": 62,
       "inlinkSources": [
         "/",
         "/404.html",
@@ -1232,6 +1274,8 @@
         "/articles/google-ads-conversion-tracking-hong-kong.html",
         "/articles/google-ads-conversion-tracking-usa.html",
         "/articles/google-ads-cost-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
         "/articles/google-ads-landing-page-checklist-hong-kong.html",
         "/articles/google-ads-landing-page-checklist-usa.html",
         "/articles/google-ads-management-cost-usa.html",

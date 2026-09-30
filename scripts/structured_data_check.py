@@ -135,6 +135,12 @@ def validate_page(path: Path, text: str) -> list[str]:
 
     for schema in schemas:
         types = schema_types(schema)
+        if "Service" in types or "WebApplication" in types:
+            provider = schema.get("provider")
+            if not isinstance(provider, dict) or provider.get("@id") != ORGANIZATION_ID:
+                errors.append("Service provider must reference the canonical organization @id")
+            elif provider.get("url") != COMPANY_URL:
+                errors.append("Service provider url must point to the company page")
         if "Article" in types:
             if schema.get("mainEntityOfPage") != parser.canonical:
                 errors.append("Article mainEntityOfPage does not match canonical")

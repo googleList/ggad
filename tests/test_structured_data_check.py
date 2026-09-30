@@ -184,6 +184,29 @@ class StructuredDataCheckTests(unittest.TestCase):
         self.assertTrue(any("must not expose Offer" in error for error in errors))
         self.assertTrue(any("isAccessibleForFree" in error for error in errors))
 
+    def test_service_provider_must_reference_canonical_organization(self):
+        schema = {
+            "@type": "Service",
+            "provider": {"@type": "Organization", "url": "https://shumaojs.com/"},
+        }
+        errors = MODULE.validate_page(Path("index.html"), page(schema))
+        self.assertTrue(any("provider must reference" in error for error in errors))
+
+    def test_valid_web_application_provider_passes(self):
+        schema = {
+            "@type": "WebApplication",
+            "name": "Free checklist",
+            "url": "https://example.com/guide.html",
+            "inLanguage": "en-US",
+            "isAccessibleForFree": True,
+            "provider": {
+                "@type": "Organization",
+                "@id": MODULE.ORGANIZATION_ID,
+                "url": MODULE.COMPANY_URL,
+            },
+        }
+        self.assertEqual(MODULE.validate_page(Path("index.html"), page(schema)), [])
+
     def test_professional_service_requires_verified_identity_fields(self):
         schema = {
             "@type": "ProfessionalService",

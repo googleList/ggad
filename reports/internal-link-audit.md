@@ -2,7 +2,7 @@
 
 Generated: 2026-09-30
 
-- Indexable pages: 57
+- Indexable pages: 59
 - Orphan pages: 0
 - Pages with one internal source: 1
 - Pages unreachable from home: 0

@@ -122,6 +122,28 @@
       "primaryKeywords": ["Google Ads 搜尋字詞", "Google Ads 排除關鍵字", "香港 Google Ads 關鍵字"],
       "supportingKeywords": ["搜尋字詞報告", "否定關鍵字", "關鍵字配對方式", "香港搜尋廣告優化"],
       "contentActions": ["使用香港 Search Console 查詢驗證繁體中文用詞", "按中英文及有效查詢質素整理搜尋主題", "由香港服務、帳戶審核及月度報告內容建立內鏈"]
+    },
+    {
+      "cluster": "US Google Ads bidding and budget",
+      "market": "US",
+      "language": "en-US",
+      "intent": "informational-commercial",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-bidding-budget-usa.html",
+      "primaryKeywords": ["Google Ads bidding strategy", "Google Ads budget for lead generation", "Target CPA Google Ads"],
+      "supportingKeywords": ["Maximize conversions vs Target CPA", "Google Ads daily budget", "PPC budget pacing", "qualified lead CPA"],
+      "contentActions": ["Validate US impressions and query wording in Search Console", "Track qualified-lead CPA separately from platform CPA", "Link conversion tracking, search-term, and reporting evidence into bid reviews"]
+    },
+    {
+      "cluster": "香港 Google Ads 出價及預算",
+      "market": "HK",
+      "language": "zh-Hant-HK",
+      "intent": "informational-commercial",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-bidding-budget-hong-kong.html",
+      "primaryKeywords": ["Google Ads 出價策略", "香港 Google Ads 預算", "目標單次動作出價"],
+      "supportingKeywords": ["盡量爭取轉換", "Google Ads 每日預算", "廣告預算進度", "有效查詢成本"],
+      "contentActions": ["使用香港 Search Console 查詢驗證繁體用詞", "分開平台轉換成本與有效查詢成本", "連結轉換追蹤、搜尋字詞及月度報告內容"]
     }
   ]
 }

@@ -54,7 +54,8 @@
     "us-hk-search-terms-and-negative-keywords-cluster",
     "production-mobile-lcp-source-sizing-follow-up",
     "case-study-evidence-and-directory-readiness-gate",
-    "canonical-service-provider-entity-linking"
+    "canonical-service-provider-entity-linking",
+    "us-hk-google-ads-bidding-and-budget-cluster"
   ],
   "repositorySync": {
     "checkedAt": "2026-09-30",
@@ -86,6 +87,7 @@
     "Validate impressions, clicks, and assisted enquiries for the new US and Hong Kong landing-page guides",
     "Validate impressions, clicks, and assisted enquiries for the new US and Hong Kong monthly-reporting guides",
     "Validate impressions, clicks, and query themes for the new US and Hong Kong search-terms and negative-keyword guides",
+    "Validate impressions, clicks, and query themes for the new US and Hong Kong bidding and budget guides",
     "Review whether future US and Hong Kong content pairs qualify for reciprocal hreflang before publishing",
     "Run field and lab Core Web Vitals checks when PageSpeed is available",
     "Compare measured LCP, INP, and CLS against the new static performance safeguards",

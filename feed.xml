@@ -5,8 +5,53 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performance Max for Lead Generation: US Campaign Guide</title>
+      <link>https://shumaojs.com/articles/performance-max-lead-generation-usa.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/performance-max-lead-generation-usa.html</guid>
+      <description>A US lead-generation framework for Performance Max measurement, assets, location controls, exclusions, bidding, and qualified CRM feedback.</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>en-US</dc:language>
+    </item>
+    <item>
+      <title>香港 Performance Max 潛在客戶廣告指南</title>
+      <link>https://shumaojs.com/articles/performance-max-lead-generation-hong-kong.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/performance-max-lead-generation-hong-kong.html</guid>
+      <description>香港 Performance Max 潛在客戶廣告的評估、素材、地區控制、排除項、出價及有效查詢回傳指南。</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-Hant-HK</dc:language>
+    </item>
+    <item>
+      <title>Performance Max 怎么投？适用条件与上线清单</title>
+      <link>https://shumaojs.com/articles/performance-max-basics.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/performance-max-basics.html</guid>
+      <description>Performance Max 投放指南：判断 PMax 是否适合跨境电商或外贸获客，并检查转化追踪、素材、受众信号、预算与上线后的优化节奏。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Performance Max</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
+    <item>
+      <title>Google Ads Enhanced Conversions for Leads: US Setup Guide</title>
+      <link>https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-usa.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-usa.html</guid>
+      <description>A practical US lead-generation guide to first-party data capture, CRM outcome imports, Data Manager, diagnostics, consent, and bidding readiness.</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>en-US</dc:language>
+    </item>
+    <item>
+      <title>香港 Google Ads 潛在客戶強化轉換追蹤指南</title>
+      <link>https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-hong-kong.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-hong-kong.html</guid>
+      <description>香港企業規劃第一方資料、CRM 後續結果、Data Manager、診斷、私隱及有效查詢回傳的實務指南。</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-Hant-HK</dc:language>
+    </item>
     <item>
       <title>Google Ads search terms and negative keywords for US lead generation</title>
       <link>https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-usa.html</link>
@@ -51,24 +96,6 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <category>SEM</category>
       <dc:language>en-US</dc:language>
-    </item>
-    <item>
-      <title>Google Ads Enhanced Conversions for Leads: US Setup Guide</title>
-      <link>https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-usa.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-usa.html</guid>
-      <description>A practical US lead-generation guide to first-party data capture, CRM outcome imports, Data Manager, diagnostics, consent, and bidding readiness.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
-      <dc:language>en-US</dc:language>
-    </item>
-    <item>
-      <title>香港 Google Ads 潛在客戶強化轉換追蹤指南</title>
-      <link>https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-hong-kong.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-hong-kong.html</guid>
-      <description>香港企業規劃第一方資料、CRM 後續結果、Data Manager、診斷、私隱及有效查詢回傳的實務指南。</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
-      <dc:language>zh-Hant-HK</dc:language>
     </item>
     <item>
       <title>香港 Google Ads 收費：廣告預算與管理費指南</title>
@@ -230,15 +257,6 @@
       <description>再营销广告基础教程，介绍适合时机、人群分层、素材策略、频次控制和投放注意事项。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>Remarketing</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>Performance Max 怎么投？适用条件与上线清单</title>
-      <link>https://shumaojs.com/articles/performance-max-basics.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/performance-max-basics.html</guid>
-      <description>Performance Max 投放指南：判断 PMax 是否适合跨境电商或外贸获客，并检查转化追踪、素材、受众信号、预算与上线后的优化节奏。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Performance Max</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

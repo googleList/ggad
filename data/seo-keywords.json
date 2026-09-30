@@ -1,6 +1,6 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "note": "当前版本基于站点业务、页面主题和公开搜索结果语义整理。优先级不是流量预测；后续由 scripts/prioritize_search_console.py 使用美国和香港的真实 queries、clicks、impressions、ctr、position 数据继续调整。",
   "clusters": [
     {
@@ -166,6 +166,28 @@
       "primaryKeywords": ["Google Ads 潛在客戶強化轉換追蹤", "Google Ads 離線轉換 香港", "Google Ads Data Manager"],
       "supportingKeywords": ["CRM 有效查詢回傳", "GCLID 離線轉換", "強化轉換追蹤診斷", "WhatsApp 查詢追蹤"],
       "contentActions": ["使用香港 Search Console 驗證繁體搜尋用詞", "按 2026 Data Manager 遷移更新技術說明", "連結香港轉換追蹤、出價及月度報告指南"]
+    },
+    {
+      "cluster": "US Performance Max lead generation",
+      "market": "US",
+      "language": "en-US",
+      "intent": "informational-commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/articles/performance-max-lead-generation-usa.html",
+      "primaryKeywords": ["Performance Max lead generation", "PMax for leads", "Performance Max qualified leads"],
+      "supportingKeywords": ["Performance Max spam leads", "PMax location targeting", "Performance Max negative keywords", "PMax final URL expansion"],
+      "contentActions": ["Validate US indexing and query wording in Search Console", "Measure qualified-lead rate separately from platform conversion rate", "Connect enhanced-conversion, landing-page, search-term, and reporting evidence"]
+    },
+    {
+      "cluster": "香港 Performance Max 潛在客戶廣告",
+      "market": "HK",
+      "language": "zh-Hant-HK",
+      "intent": "informational-commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/articles/performance-max-lead-generation-hong-kong.html",
+      "primaryKeywords": ["香港 Performance Max 廣告", "PMax 潛在客戶", "最高成效廣告 香港"],
+      "supportingKeywords": ["PMax 有效查詢", "Performance Max 垃圾查詢", "最終到達網址擴展", "香港 PMax 地區設定"],
+      "contentActions": ["使用香港 Search Console 驗證繁體及英文混合查詢", "分開 WhatsApp、電話、表格與有效查詢成本", "連結潛在客戶強化轉換、著陸頁、搜尋字詞及月度報告指南"]
     }
   ]
 }

@@ -1,8 +1,8 @@
 # Internal Link Audit
 
-Generated: 2026-09-30
+Generated: 2026-10-01
 
-- Indexable pages: 61
+- Indexable pages: 63
 - Orphan pages: 0
 - Pages with one internal source: 1
 - Pages unreachable from home: 0

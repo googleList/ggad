@@ -59,7 +59,8 @@
     "localized-budget-pacing-calculators",
     "homepage-ultrawide-hero-layout-repair",
     "us-hk-budget-cluster-contextual-internal-links",
-    "us-hk-enhanced-conversions-for-leads-cluster"
+    "us-hk-enhanced-conversions-for-leads-cluster",
+    "us-hk-performance-max-lead-generation-cluster"
   ],
   "repositorySync": {
     "checkedAt": "2026-10-01",
@@ -72,7 +73,7 @@
   },
   "dataAccess": {
     "googleSearchConsole": false,
-    "publicIndexingCheck": "Four public site queries returned no visible shumaojs.com results on 2026-09-30. Search Console API credentials are absent, and the visible browser property was for nscalculators.com, so shumaojs.com indexing remains unverified.",
+    "publicIndexingCheck": "Three public site queries returned no visible shumaojs.com results on 2026-10-01. The signed-in Search Console account displayed no access for sc-domain:shumaojs.com, so sitemap submission, URL inspection, and indexing status remain unavailable.",
     "ga4": false,
     "cloudflareAnalytics": false,
     "pageSpeedInsights": "The PageSpeed API connection timed out on 2026-09-30, so field CWV remains unavailable. Lighthouse 13.5.0 production mobile lab runs measured the US page at score 100 and 0.99s LCP and the Hong Kong page at score 90 and 3.27s LCP. After adding a 640px image candidate, the Hong Kong page measured score 96 and 2.27s LCP with CLS 0; these are directional lab results, not field data.",
@@ -95,6 +96,7 @@
     "Validate impressions, clicks, and query themes for the new US and Hong Kong search-terms and negative-keyword guides",
     "Validate impressions, clicks, and query themes for the new US and Hong Kong bidding and budget guides",
     "Validate indexing, impressions, and query terminology for the new US and Hong Kong enhanced-conversions-for-leads guides",
+    "Validate indexing, impressions, and qualified-lead query themes for the new US and Hong Kong Performance Max guides",
     "Review whether future US and Hong Kong content pairs qualify for reciprocal hreflang before publishing",
     "Run field and lab Core Web Vitals checks when PageSpeed is available",
     "Compare measured LCP, INP, and CLS against the new static performance safeguards",

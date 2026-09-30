@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-30",
+  "generatedAt": "2026-10-01",
   "method": "Static HTML link graph; navigation, body, and footer links are counted once per source page.",
   "summary": {
-    "indexablePages": 61,
+    "indexablePages": 63,
     "orphans": 0,
     "singleInlinkPages": 1,
     "unreachableFromHome": 0,
@@ -77,30 +77,6 @@
         "/google-ads-agency-hong-kong.html"
       ],
       "outlinks": 8,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-landing-page-checklist-hong-kong.html",
-      "title": "香港 Google Ads 著陸頁優化清單：廣告、表單及追蹤",
-      "inlinks": 2,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-account-audit-hong-kong.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-landing-page-checklist-usa.html",
-      "title": "Google Ads Landing Page Checklist for US Lead Generation",
-      "inlinks": 2,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-account-audit-usa.html"
-      ],
-      "outlinks": 9,
       "clickDepth": 2,
       "orphan": false
     },
@@ -184,7 +160,7 @@
         "/articles.html",
         "/google-ads.html"
       ],
-      "outlinks": 14,
+      "outlinks": 16,
       "clickDepth": 2,
       "orphan": false
     },
@@ -273,52 +249,26 @@
       "orphan": false
     },
     {
-      "path": "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
-      "title": "香港 Google Ads 潛在客戶強化轉換追蹤指南",
+      "path": "/articles/google-ads-landing-page-checklist-hong-kong.html",
+      "title": "香港 Google Ads 著陸頁優化清單：廣告、表單及追蹤",
       "inlinks": 3,
       "inlinkSources": [
         "/articles.html",
-        "/articles/google-ads-conversion-tracking-hong-kong.html",
-        "/google-ads-agency-hong-kong.html"
+        "/articles/google-ads-account-audit-hong-kong.html",
+        "/articles/performance-max-lead-generation-hong-kong.html"
       ],
       "outlinks": 9,
       "clickDepth": 2,
       "orphan": false
     },
     {
-      "path": "/articles/google-ads-enhanced-conversions-leads-usa.html",
-      "title": "Google Ads Enhanced Conversions for Leads: US Setup Guide",
+      "path": "/articles/google-ads-landing-page-checklist-usa.html",
+      "title": "Google Ads Landing Page Checklist for US Lead Generation",
       "inlinks": 3,
       "inlinkSources": [
         "/articles.html",
-        "/articles/google-ads-conversion-tracking-usa.html",
-        "/google-ads-management-usa.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
-      "title": "香港 Google Ads 搜尋字詞及排除關鍵字指南",
-      "inlinks": 3,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-bidding-budget-hong-kong.html",
-        "/google-ads-agency-hong-kong.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-search-terms-negative-keywords-usa.html",
-      "title": "Google Ads Search Terms and Negative Keywords for US Leads",
-      "inlinks": 3,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-bidding-budget-usa.html",
-        "/google-ads-management-usa.html"
+        "/articles/google-ads-account-audit-usa.html",
+        "/articles/performance-max-lead-generation-usa.html"
       ],
       "outlinks": 9,
       "clickDepth": 2,
@@ -403,6 +353,90 @@
       "orphan": false
     },
     {
+      "path": "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+      "title": "香港 Google Ads 潛在客戶強化轉換追蹤指南",
+      "inlinks": 4,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "outlinks": 10,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-enhanced-conversions-leads-usa.html",
+      "title": "Google Ads Enhanced Conversions for Leads: US Setup Guide",
+      "inlinks": 4,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/performance-max-lead-generation-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "outlinks": 10,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
+      "title": "香港 Google Ads 搜尋字詞及排除關鍵字指南",
+      "inlinks": 4,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-bidding-budget-hong-kong.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-search-terms-negative-keywords-usa.html",
+      "title": "Google Ads Search Terms and Negative Keywords for US Leads",
+      "inlinks": 4,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-bidding-budget-usa.html",
+        "/articles/performance-max-lead-generation-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/performance-max-lead-generation-hong-kong.html",
+      "title": "香港 Performance Max 潛在客戶廣告指南",
+      "inlinks": 4,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/performance-max-basics.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "outlinks": 11,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/performance-max-lead-generation-usa.html",
+      "title": "Performance Max for Lead Generation: US Campaign Guide",
+      "inlinks": 4,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
+        "/articles/performance-max-basics.html",
+        "/google-ads-management-usa.html"
+      ],
+      "outlinks": 11,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
       "path": "/articles/google-ads-account-access-hong-kong.html",
       "title": "香港 Google Ads 帳戶權限及付款資料指南 | 振潤達",
       "inlinks": 5,
@@ -429,66 +463,6 @@
         "/google-ads-management-usa.html"
       ],
       "outlinks": 7,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-bidding-budget-hong-kong.html",
-      "title": "香港 Google Ads 出價策略及廣告預算指南",
-      "inlinks": 5,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-cost-hong-kong.html",
-        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
-        "/articles/google-ads-monthly-reporting-hong-kong.html",
-        "/google-ads-agency-hong-kong.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-bidding-budget-usa.html",
-      "title": "Google Ads Bidding and Budget Guide for US Lead Generation",
-      "inlinks": 5,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-enhanced-conversions-leads-usa.html",
-        "/articles/google-ads-management-cost-usa.html",
-        "/articles/google-ads-monthly-reporting-usa.html",
-        "/google-ads-management-usa.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-monthly-reporting-hong-kong.html",
-      "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
-      "inlinks": 5,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-account-audit-hong-kong.html",
-        "/articles/google-ads-bidding-budget-hong-kong.html",
-        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
-        "/articles/google-ads-search-terms-negative-keywords-hong-kong.html"
-      ],
-      "outlinks": 9,
-      "clickDepth": 2,
-      "orphan": false
-    },
-    {
-      "path": "/articles/google-ads-monthly-reporting-usa.html",
-      "title": "Google Ads Monthly Reporting Guide for US Businesses",
-      "inlinks": 5,
-      "inlinkSources": [
-        "/articles.html",
-        "/articles/google-ads-account-audit-usa.html",
-        "/articles/google-ads-bidding-budget-usa.html",
-        "/articles/google-ads-enhanced-conversions-leads-usa.html",
-        "/articles/google-ads-search-terms-negative-keywords-usa.html"
-      ],
-      "outlinks": 9,
       "clickDepth": 2,
       "orphan": false
     },
@@ -585,6 +559,70 @@
       "orphan": false
     },
     {
+      "path": "/articles/google-ads-bidding-budget-hong-kong.html",
+      "title": "香港 Google Ads 出價策略及廣告預算指南",
+      "inlinks": 6,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-cost-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/google-ads-monthly-reporting-hong-kong.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-bidding-budget-usa.html",
+      "title": "Google Ads Bidding and Budget Guide for US Lead Generation",
+      "inlinks": 6,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
+        "/articles/google-ads-management-cost-usa.html",
+        "/articles/google-ads-monthly-reporting-usa.html",
+        "/articles/performance-max-lead-generation-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-monthly-reporting-hong-kong.html",
+      "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
+      "inlinks": 6,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-account-audit-hong-kong.html",
+        "/articles/google-ads-bidding-budget-hong-kong.html",
+        "/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
+        "/articles/performance-max-lead-generation-hong-kong.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
+      "path": "/articles/google-ads-monthly-reporting-usa.html",
+      "title": "Google Ads Monthly Reporting Guide for US Businesses",
+      "inlinks": 6,
+      "inlinkSources": [
+        "/articles.html",
+        "/articles/google-ads-account-audit-usa.html",
+        "/articles/google-ads-bidding-budget-usa.html",
+        "/articles/google-ads-enhanced-conversions-leads-usa.html",
+        "/articles/google-ads-search-terms-negative-keywords-usa.html",
+        "/articles/performance-max-lead-generation-usa.html"
+      ],
+      "outlinks": 9,
+      "clickDepth": 2,
+      "orphan": false
+    },
+    {
       "path": "/articles/google-ads-conversion-tracking-hong-kong.html",
       "title": "香港 Google Ads 轉換追蹤設定指南 | 振潤達",
       "inlinks": 8,
@@ -643,7 +681,7 @@
     {
       "path": "/google-ads-agency-hong-kong.html",
       "title": "香港 Google Ads 廣告管理及顧問服務 | 振潤達",
-      "inlinks": 10,
+      "inlinks": 11,
       "inlinkSources": [
         "/articles/google-ads-account-access-hong-kong.html",
         "/articles/google-ads-account-audit-hong-kong.html",
@@ -654,16 +692,17 @@
         "/articles/google-ads-landing-page-checklist-hong-kong.html",
         "/articles/google-ads-monthly-reporting-hong-kong.html",
         "/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
         "/google-ads-agency-checklist-hong-kong.html"
       ],
-      "outlinks": 14,
+      "outlinks": 15,
       "clickDepth": 3,
       "orphan": false
     },
     {
       "path": "/google-ads-management-usa.html",
       "title": "Google Ads Management for US Campaigns | Zhenrunda",
-      "inlinks": 10,
+      "inlinks": 11,
       "inlinkSources": [
         "/articles/google-ads-account-audit-usa.html",
         "/articles/google-ads-account-ownership-usa.html",
@@ -674,9 +713,10 @@
         "/articles/google-ads-management-cost-usa.html",
         "/articles/google-ads-monthly-reporting-usa.html",
         "/articles/google-ads-search-terms-negative-keywords-usa.html",
+        "/articles/performance-max-lead-generation-usa.html",
         "/google-ads-agency-checklist-usa.html"
       ],
-      "outlinks": 14,
+      "outlinks": 15,
       "clickDepth": 3,
       "orphan": false
     },
@@ -705,7 +745,7 @@
     {
       "path": "/company.html",
       "title": "企业与服务说明 | 昆明振润达商贸有限公司",
-      "inlinks": 26,
+      "inlinks": 28,
       "inlinkSources": [
         "/",
         "/articles/geo-brand-entity-pages.html",
@@ -727,6 +767,8 @@
         "/articles/google-ads-monthly-reporting-usa.html",
         "/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
         "/articles/google-ads-search-terms-negative-keywords-usa.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles/performance-max-lead-generation-usa.html",
         "/articles/website-trust-pages.html",
         "/google-ads-agency-checklist-hong-kong.html",
         "/google-ads-agency-checklist-usa.html",
@@ -1047,7 +1089,7 @@
     {
       "path": "/nav.html",
       "title": "外贸营销工具资源导航 | 昆明振润达商贸有限公司",
-      "inlinks": 53,
+      "inlinks": 55,
       "inlinkSources": [
         "/",
         "/ad-learning.html",
@@ -1080,6 +1122,8 @@
         "/articles/llms-txt-ai-search-guide.html",
         "/articles/meta-creative-testing.html",
         "/articles/performance-max-basics.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles/performance-max-lead-generation-usa.html",
         "/articles/remarketing-basics.html",
         "/articles/search-terms-optimization.html",
         "/articles/sem-keyword-match-guide.html",
@@ -1110,7 +1154,7 @@
     {
       "path": "/",
       "title": "谷歌广告管理与代运营服务 | Google Ads投放优化 | 昆明振润达",
-      "inlinks": 62,
+      "inlinks": 64,
       "inlinkSources": [
         "/404.html",
         "/ad-learning.html",
@@ -1149,6 +1193,8 @@
         "/articles/llms-txt-ai-search-guide.html",
         "/articles/meta-creative-testing.html",
         "/articles/performance-max-basics.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles/performance-max-lead-generation-usa.html",
         "/articles/remarketing-basics.html",
         "/articles/search-terms-optimization.html",
         "/articles/sem-keyword-match-guide.html",
@@ -1182,7 +1228,7 @@
     {
       "path": "/articles.html",
       "title": "广告投放文章 | SEO、SEM、建站、GEO 教程 | 昆明振润达商贸有限公司",
-      "inlinks": 62,
+      "inlinks": 64,
       "inlinkSources": [
         "/",
         "/404.html",
@@ -1221,6 +1267,8 @@
         "/articles/llms-txt-ai-search-guide.html",
         "/articles/meta-creative-testing.html",
         "/articles/performance-max-basics.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles/performance-max-lead-generation-usa.html",
         "/articles/remarketing-basics.html",
         "/articles/search-terms-optimization.html",
         "/articles/sem-keyword-match-guide.html",
@@ -1247,14 +1295,14 @@
         "/terms.html",
         "/x-ads.html"
       ],
-      "outlinks": 54,
+      "outlinks": 56,
       "clickDepth": 1,
       "orphan": false
     },
     {
       "path": "/contact.html",
       "title": "联系咨询 | 昆明振润达商贸有限公司",
-      "inlinks": 62,
+      "inlinks": 64,
       "inlinkSources": [
         "/",
         "/404.html",
@@ -1294,6 +1342,8 @@
         "/articles/llms-txt-ai-search-guide.html",
         "/articles/meta-creative-testing.html",
         "/articles/performance-max-basics.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles/performance-max-lead-generation-usa.html",
         "/articles/remarketing-basics.html",
         "/articles/search-terms-optimization.html",
         "/articles/sem-keyword-match-guide.html",

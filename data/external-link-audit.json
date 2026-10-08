@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-29",
+  "generatedAt": "2026-10-08",
   "method": "GET requests with redirects; 401/403/405/406/409/418/429/451 and 5xx are unverified, not broken.",
   "hosts": [],
   "summary": {
-    "checked": 192,
-    "ok": 161,
+    "checked": 213,
+    "ok": 181,
     "broken": 0,
     "review": 3,
-    "unverified": 28
+    "unverified": 29
   },
   "links": [
     {
@@ -191,6 +191,16 @@
       "detail": ""
     },
     {
+      "url": "https://developers.google.com/google-ads/api/docs/conversions/categories",
+      "sources": [
+        "articles/google-ads-enhanced-conversions-leads-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://developers.google.com/google-ads/api/docs/conversions/categories",
+      "result": "ok",
+      "detail": ""
+    },
+    {
       "url": "https://developers.google.com/search",
       "sources": [
         "nav.html"
@@ -322,12 +332,12 @@
       "detail": ""
     },
     {
-      "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=82",
+      "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=2000&h=1125&q=84",
       "sources": [
         "index.html"
       ],
       "status": 200,
-      "finalUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=82",
+      "finalUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=2000&h=1125&q=84",
       "result": "ok",
       "detail": ""
     },
@@ -348,16 +358,6 @@
       ],
       "status": 200,
       "finalUrl": "https://keywordtool.io/",
-      "result": "ok",
-      "detail": ""
-    },
-    {
-      "url": "https://klear.com/",
-      "sources": [
-        "nav.html"
-      ],
-      "status": 200,
-      "finalUrl": "https://www.meltwater.com/en/capabilities/influencer-marketing?utm_source=direct&utm_medium=klear",
       "result": "ok",
       "detail": ""
     },
@@ -607,7 +607,7 @@
         "nav.html"
       ],
       "status": 200,
-      "finalUrl": "https://support.google.com/adspolicy/answer/6008942?visit_id=639262385276261729-3570896362&rd=1",
+      "finalUrl": "https://support.google.com/adspolicy/answer/6008942?visit_id=639270423178456300-1095792490&rd=1",
       "result": "ok",
       "detail": ""
     },
@@ -652,6 +652,16 @@
       "detail": ""
     },
     {
+      "url": "https://support.google.com/google-ads/answer/10486536?hl=zh-HK",
+      "sources": [
+        "articles/google-ads-bidding-budget-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/10486536?hl=zh-HK",
+      "result": "ok",
+      "detail": ""
+    },
+    {
       "url": "https://support.google.com/google-ads/answer/10486536?hl=zh-Hans",
       "sources": [
         "articles/google-budget-pacing.html"
@@ -662,12 +672,32 @@
       "detail": ""
     },
     {
+      "url": "https://support.google.com/google-ads/answer/105671?hl=zh-HK",
+      "sources": [
+        "articles/google-ads-search-terms-negative-keywords-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/105671?hl=zh-HK",
+      "result": "ok",
+      "detail": ""
+    },
+    {
       "url": "https://support.google.com/google-ads/answer/10724896?hl=zh-Hans",
       "sources": [
         "articles/performance-max-basics.html"
       ],
       "status": 200,
       "finalUrl": "https://support.google.com/google-ads/answer/10724896?hl=zh-Hans",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/11459091?hl=zh-HK",
+      "sources": [
+        "articles/performance-max-lead-generation-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/11459091?hl=zh-HK",
       "result": "ok",
       "detail": ""
     },
@@ -692,6 +722,16 @@
       "detail": ""
     },
     {
+      "url": "https://support.google.com/google-ads/answer/13775965?hl=zh-HK",
+      "sources": [
+        "articles/performance-max-lead-generation-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/13775965?hl=zh-HK",
+      "result": "ok",
+      "detail": ""
+    },
+    {
       "url": "https://support.google.com/google-ads/answer/14086?hl=en",
       "sources": [
         "articles/google-ads-landing-page-checklist-usa.html"
@@ -708,6 +748,16 @@
       ],
       "status": 200,
       "finalUrl": "https://support.google.com/google-ads/answer/14086?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/14274408?hl=en",
+      "sources": [
+        "articles/google-ads-enhanced-conversions-leads-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/14274408?hl=en",
       "result": "ok",
       "detail": ""
     },
@@ -732,6 +782,26 @@
       "detail": ""
     },
     {
+      "url": "https://support.google.com/google-ads/answer/14951594?hl=en",
+      "sources": [
+        "articles/performance-max-lead-generation-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/14951594?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/15249267?hl=zh-HK",
+      "sources": [
+        "articles/google-ads-enhanced-conversions-leads-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/15249267?hl=zh-HK",
+      "result": "ok",
+      "detail": ""
+    },
+    {
       "url": "https://support.google.com/google-ads/answer/156066?hl=en",
       "sources": [
         "articles/google-ads-account-audit-usa.html"
@@ -748,6 +818,36 @@
       ],
       "status": 200,
       "finalUrl": "https://support.google.com/google-ads/answer/156066?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/15713840?hl=zh-HK",
+      "sources": [
+        "articles/google-ads-enhanced-conversions-leads-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/15713840?hl=zh-HK",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/16286939?hl=en",
+      "sources": [
+        "articles/performance-max-lead-generation-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/16286939?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/16286939?hl=zh-HK",
+      "sources": [
+        "articles/performance-max-lead-generation-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/16286939?hl=zh-HK",
       "result": "ok",
       "detail": ""
     },
@@ -822,12 +922,33 @@
       "detail": ""
     },
     {
+      "url": "https://support.google.com/google-ads/answer/2453972?hl=en",
+      "sources": [
+        "articles/google-ads-search-terms-negative-keywords-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/2453972?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
       "url": "https://support.google.com/google-ads/answer/2472708?hl=en",
       "sources": [
-        "articles/google-ads-monthly-reporting-usa.html"
+        "articles/google-ads-monthly-reporting-usa.html",
+        "articles/google-ads-search-terms-negative-keywords-usa.html"
       ],
       "status": 200,
       "finalUrl": "https://support.google.com/google-ads/answer/2472708?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/2472708?hl=zh-HK",
+      "sources": [
+        "articles/google-ads-search-terms-negative-keywords-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/2472708?hl=zh-HK",
       "result": "ok",
       "detail": ""
     },
@@ -838,6 +959,26 @@
       ],
       "status": 200,
       "finalUrl": "https://support.google.com/google-ads/answer/2472708?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/2472725?hl=en",
+      "sources": [
+        "articles/google-ads-bidding-budget-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/2472725?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/2472725?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-bidding-budget-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/2472725?hl=zh-Hant",
       "result": "ok",
       "detail": ""
     },
@@ -942,6 +1083,26 @@
       "detail": ""
     },
     {
+      "url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+      "sources": [
+        "articles/google-ads-bidding-budget-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/6268632?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/6268632?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-bidding-budget-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/6268632?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
       "url": "https://support.google.com/google-ads/answer/6366720?hl=en",
       "sources": [
         "articles/google-ads-management-cost-usa.html"
@@ -952,9 +1113,30 @@
       "detail": ""
     },
     {
+      "url": "https://support.google.com/google-ads/answer/6366720?hl=zh-Hant",
+      "sources": [
+        "articles/google-ads-cost-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/6366720?hl=zh-Hant",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/6385083?hl=en",
+      "sources": [
+        "articles/google-ads-bidding-budget-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/6385083?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
       "url": "https://support.google.com/google-ads/answer/7012522?hl=en",
       "sources": [
-        "articles/google-ads-conversion-tracking-usa.html"
+        "articles/google-ads-conversion-tracking-usa.html",
+        "articles/google-ads-enhanced-conversions-leads-usa.html"
       ],
       "status": 200,
       "finalUrl": "https://support.google.com/google-ads/answer/7012522?hl=en",
@@ -998,6 +1180,26 @@
       ],
       "status": 200,
       "finalUrl": "https://support.google.com/google-ads/answer/7456532?hl=zh-HK",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/7478529?hl=en",
+      "sources": [
+        "articles/google-ads-search-terms-negative-keywords-usa.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/7478529?hl=en",
+      "result": "ok",
+      "detail": ""
+    },
+    {
+      "url": "https://support.google.com/google-ads/answer/7478529?hl=zh-HK",
+      "sources": [
+        "articles/google-ads-search-terms-negative-keywords-hong-kong.html"
+      ],
+      "status": 200,
+      "finalUrl": "https://support.google.com/google-ads/answer/7478529?hl=zh-HK",
       "result": "ok",
       "detail": ""
     },
@@ -1055,14 +1257,20 @@
         "articles/google-ads-account-audit-usa.html",
         "articles/google-ads-account-ownership-usa.html",
         "articles/google-ads-basics.html",
+        "articles/google-ads-bidding-budget-hong-kong.html",
+        "articles/google-ads-bidding-budget-usa.html",
         "articles/google-ads-conversion-tracking-hong-kong.html",
         "articles/google-ads-conversion-tracking-usa.html",
         "articles/google-ads-cost-hong-kong.html",
+        "articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+        "articles/google-ads-enhanced-conversions-leads-usa.html",
         "articles/google-ads-landing-page-checklist-hong-kong.html",
         "articles/google-ads-landing-page-checklist-usa.html",
         "articles/google-ads-management-cost-usa.html",
         "articles/google-ads-monthly-reporting-hong-kong.html",
         "articles/google-ads-monthly-reporting-usa.html",
+        "articles/google-ads-search-terms-negative-keywords-hong-kong.html",
+        "articles/google-ads-search-terms-negative-keywords-usa.html",
         "articles/google-ads-vs-meta-ads-guide.html",
         "articles/google-budget-pacing.html",
         "articles/google-search-ads-cost-guide.html",
@@ -1074,6 +1282,8 @@
         "articles/llms-txt-ai-search-guide.html",
         "articles/meta-creative-testing.html",
         "articles/performance-max-basics.html",
+        "articles/performance-max-lead-generation-hong-kong.html",
+        "articles/performance-max-lead-generation-usa.html",
         "articles/remarketing-basics.html",
         "articles/search-terms-optimization.html",
         "articles/sem-keyword-match-guide.html",
@@ -1112,7 +1322,7 @@
         "nav.html"
       ],
       "status": 200,
-      "finalUrl": "https://accounts.google.com/v3/signin/identifier?continue=https://tagmanager.google.com/&followup=https://tagmanager.google.com/&passive=1209600&service=analytics&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1963487908:1790641734546745",
+      "finalUrl": "https://accounts.google.com/v3/signin/identifier?continue=https://tagmanager.google.com/&followup=https://tagmanager.google.com/&passive=1209600&service=analytics&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1074807518:1791445532933620",
       "result": "ok",
       "detail": ""
     },
@@ -1747,6 +1957,16 @@
       "detail": ""
     },
     {
+      "url": "https://klear.com/",
+      "sources": [
+        "nav.html"
+      ],
+      "status": null,
+      "finalUrl": null,
+      "result": "unverified",
+      "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    },
+    {
       "url": "https://medium.com/",
       "sources": [
         "nav.html"
@@ -1791,10 +2011,10 @@
       "sources": [
         "ad-learning.html"
       ],
-      "status": null,
-      "finalUrl": null,
+      "status": 403,
+      "finalUrl": "https://searchengineland.com/googles-target-bidding-shake-up-why-ppc-marketers-have-been-here-before-487704",
       "result": "unverified",
-      "detail": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+      "detail": ""
     },
     {
       "url": "https://searchengineland.com/use-multiple-marketing-mix-models-paid-media-decisions-487681",
@@ -1807,9 +2027,9 @@
       "detail": ""
     },
     {
-      "url": "https://support.google.com/google-ads/answer/6366720?hl=zh-Hant",
+      "url": "https://support.google.com/google-ads/answer/13775965?hl=en",
       "sources": [
-        "articles/google-ads-cost-hong-kong.html"
+        "articles/performance-max-lead-generation-usa.html"
       ],
       "status": null,
       "finalUrl": null,

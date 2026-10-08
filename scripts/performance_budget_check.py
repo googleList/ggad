@@ -84,9 +84,10 @@ def audit(root: Path = ROOT) -> list[str]:
     errors: list[str] = []
     css_path = root / "styles.css"
 
-    if css_path.stat().st_size > MAX_CSS_BYTES:
+    css_size = len(css_path.read_bytes().replace(b"\r\n", b"\n"))
+    if css_size > MAX_CSS_BYTES:
         errors.append(
-            f"styles.css exceeds {MAX_CSS_BYTES} bytes ({css_path.stat().st_size} bytes)"
+            f"styles.css exceeds {MAX_CSS_BYTES} bytes ({css_size} normalized bytes)"
         )
     script_paths = local_script_paths(root)
     if not script_paths:
@@ -169,11 +170,12 @@ def audit(root: Path = ROOT) -> list[str]:
 def main() -> int:
     errors = audit()
     scripts = local_script_paths(ROOT)
+    css_size = len((ROOT / "styles.css").read_bytes().replace(b"\r\n", b"\n"))
     script_summary = ", ".join(
         f"{path.name} {path.stat().st_size} bytes" for path in sorted(scripts) if path.is_file()
     ) or "none"
     print(
-        f"Performance budgets: styles.css {ROOT.joinpath('styles.css').stat().st_size} bytes, "
+        f"Performance budgets: styles.css {css_size} normalized bytes, "
         f"JavaScript {script_summary}."
     )
     for error in errors:

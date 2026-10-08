@@ -5,8 +5,26 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Ads management pricing in the US: fees, budget and cost guide</title>
+      <link>https://shumaojs.com/articles/google-ads-management-cost-usa.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-management-cost-usa.html</guid>
+      <description>Compare management fee models, media spend, setup scope, tracking, and account ownership for US Google Ads campaigns.</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>en-US</dc:language>
+    </item>
+    <item>
+      <title>香港 Google Ads 代理收費：管理費模式與預算指南</title>
+      <link>https://shumaojs.com/articles/google-ads-cost-hong-kong.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-cost-hong-kong.html</guid>
+      <description>比較香港 Google Ads 管理費模式、廣告預算、設定範圍、轉換追蹤及帳戶擁有權。</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-Hant-HK</dc:language>
+    </item>
     <item>
       <title>Performance Max for Lead Generation: US Campaign Guide</title>
       <link>https://shumaojs.com/articles/performance-max-lead-generation-usa.html</link>
@@ -85,24 +103,6 @@
       <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html</guid>
       <description>香港企業適用的決策型 Google Ads 月度報告框架，涵蓋港幣預算、有效查詢、成交、帳戶改動、數據限制及下月行動。</description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
-      <dc:language>zh-Hant-HK</dc:language>
-    </item>
-    <item>
-      <title>Google Ads Management Cost in the US: Budget and Fee Guide</title>
-      <link>https://shumaojs.com/articles/google-ads-management-cost-usa.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-management-cost-usa.html</guid>
-      <description>A practical guide to media spend, management fees, tracking, budget planning, and account ownership for US Google Ads campaigns.</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
-      <dc:language>en-US</dc:language>
-    </item>
-    <item>
-      <title>香港 Google Ads 收費：廣告預算與管理費指南</title>
-      <link>https://shumaojs.com/articles/google-ads-cost-hong-kong.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-cost-hong-kong.html</guid>
-      <description>說明香港 Google Ads 廣告費、管理費、點擊成本、轉換追蹤、帳戶擁有權及報價比較方法。</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <category>SEM</category>
       <dc:language>zh-Hant-HK</dc:language>
     </item>

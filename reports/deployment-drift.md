@@ -1,12 +1,12 @@
 # Production deployment drift audit
 
-Generated: 2026-09-30T07:52:15.145918+00:00
+Generated: 2026-10-08T08:08:44.307633+00:00
 Production sitemap: https://shumaojs.com/sitemap.xml
 
 ## Summary
 
-- Local sitemap URLs: 57
-- Production sitemap URLs: 57
+- Local sitemap URLs: 63
+- Production sitemap URLs: 63
 - Missing from production sitemap: 0
 - Production-only URLs: 0
 - HTTP to HTTPS redirect: fail

@@ -1125,7 +1125,8 @@ summary:focus-visible {
 
 @media (max-width: 700px) {
   #top > .hero.hero-background .hero-copy {
-    width: calc(100vw - 44px);
+    width: 100%;
+    max-width: calc(100vw - 64px);
   }
 }
 

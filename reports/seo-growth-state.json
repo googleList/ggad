@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-08",
   "deployment": {
     "status": "deployed",
-    "reason": "Homepage background-banner commit 056ec97 is on origin/main and the GitHub Pages workflow succeeded. Cache-busted production homepage, stylesheet, and sitemap returned HTTP 200; the live homepage contains the new background hero and service line.",
-    "localCommit": "056ec97",
+    "reason": "Homepage background-banner and mobile-width commits 056ec97 and 033923b are on origin/main; both GitHub Pages workflows succeeded. Cache-busted production homepage, stylesheet, and sitemap returned HTTP 200; the live homepage contains the new background hero and service line.",
+    "localCommit": "033923b",
     "verifiedAt": "2026-10-08"
   },
   "completedBatches": [
@@ -65,8 +65,8 @@
   ],
   "repositorySync": {
     "checkedAt": "2026-10-08",
-    "localHead": "056ec97",
-    "remoteHead": "056ec97",
+    "localHead": "033923b",
+    "remoteHead": "033923b",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",

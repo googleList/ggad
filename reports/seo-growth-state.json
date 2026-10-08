@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-08",
   "deployment": {
     "status": "deployed",
-    "reason": "Homepage background-banner and mobile-width commits 056ec97 and 033923b are on origin/main; both GitHub Pages workflows succeeded. Cache-busted production homepage, stylesheet, and sitemap returned HTTP 200; the live homepage contains the new background hero and service line.",
-    "localCommit": "033923b",
+    "reason": "Homepage background-banner commits 056ec97 and 033923b and localized pricing-guide commit 762592f are on origin/main; GitHub Pages workflows succeeded. Cache-busted production checks verified HTTP 200 and the new US/Hong Kong pricing content, article listing, sitemap, and RSS feed.",
+    "localCommit": "762592f",
     "verifiedAt": "2026-10-08"
   },
   "completedBatches": [
@@ -61,12 +61,13 @@
     "us-hk-budget-cluster-contextual-internal-links",
     "us-hk-enhanced-conversions-for-leads-cluster",
     "us-hk-performance-max-lead-generation-cluster",
-    "homepage-responsive-background-hero-and-cwv-budget-normalization"
+    "homepage-responsive-background-hero-and-cwv-budget-normalization",
+    "us-hk-agency-pricing-model-comparison-refresh"
   ],
   "repositorySync": {
     "checkedAt": "2026-10-08",
-    "localHead": "033923b",
-    "remoteHead": "033923b",
+    "localHead": "762592f",
+    "remoteHead": "762592f",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
@@ -78,7 +79,7 @@
     "ga4": false,
     "cloudflareAnalytics": false,
     "pageSpeedInsights": "The PageSpeed API connection timed out on 2026-09-30, so field CWV remains unavailable. Lighthouse 13.5.0 production mobile lab runs measured the US page at score 100 and 0.99s LCP and the Hong Kong page at score 90 and 3.27s LCP. After adding a 640px image candidate, the Hong Kong page measured score 96 and 2.27s LCP with CLS 0; these are directional lab results, not field data.",
-    "productionSitemap": "reachable with 63 URLs on 2026-10-08 before homepage update; homepage lastmod updated to 2026-10-08 for this deployment; the two localized Performance Max lead-generation URLs remain present in production articles.html, sitemap.xml, and feed.xml; retired account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html were previously verified as HTTP 404",
+    "productionSitemap": "reachable with 63 URLs on 2026-10-08; homepage and refreshed US/Hong Kong Google Ads management-pricing guides have 2026-10-08 lastmod values; production articles.html, sitemap.xml, and feed.xml include the refreshed titles and content; the two localized Performance Max lead-generation URLs remain present; retired account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html were previously verified as HTTP 404",
     "protocolCanonicalization": "blocked: http://shumaojs.com/ returns HTTP 200 with an HTTP final URL instead of a permanent redirect to HTTPS; requires Cloudflare or origin configuration"
   },
   "nextPriorities": [

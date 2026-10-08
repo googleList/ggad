@@ -10,7 +10,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Callable
 from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
+from urllib.parse import urlsplit
+from urllib.request import HTTPRedirectHandler, Request, build_opener, urlopen
 from xml.etree import ElementTree
 
 
@@ -23,6 +24,17 @@ class UrlResult:
     status: int | None
     error: str | None = None
     final_url: str | None = None
+    redirect_statuses: list[int] | None = None
+
+
+class RedirectRecorder(HTTPRedirectHandler):
+    def __init__(self) -> None:
+        super().__init__()
+        self.statuses: list[int] = []
+
+    def redirect_request(self, request, response, code, message, headers, new_url):
+        self.statuses.append(code)
+        return super().redirect_request(request, response, code, message, headers, new_url)
 
 
 def parse_sitemap(xml_text: str) -> set[str]:
@@ -42,13 +54,26 @@ def fetch_text(url: str, timeout: int = 20) -> str:
 
 def check_url(url: str, timeout: int = 20) -> UrlResult:
     request = Request(url, method="HEAD", headers={"User-Agent": "ShumaoJS-Deployment-Audit/1.0"})
+    redirects = RedirectRecorder()
+    opener = build_opener(redirects)
     try:
-        with urlopen(request, timeout=timeout) as response:
-            return UrlResult(url=url, status=response.status, final_url=response.geturl())
+        with opener.open(request, timeout=timeout) as response:
+            return UrlResult(
+                url=url,
+                status=response.status,
+                final_url=response.geturl(),
+                redirect_statuses=redirects.statuses,
+            )
     except HTTPError as error:
-        return UrlResult(url=url, status=error.code, error=str(error.reason))
+        return UrlResult(
+            url=url,
+            status=error.code,
+            error=str(error.reason),
+            final_url=error.geturl(),
+            redirect_statuses=redirects.statuses,
+        )
     except URLError as error:
-        return UrlResult(url=url, status=None, error=str(error.reason))
+        return UrlResult(url=url, status=None, error=str(error.reason), redirect_statuses=redirects.statuses)
 
 
 def compare_sitemaps(local_urls: set[str], live_urls: set[str]) -> dict[str, list[str]]:
@@ -65,6 +90,9 @@ def build_report(
     checker: Callable[[str], UrlResult] = check_url,
     protocol_url: str | None = None,
     protocol_checker: Callable[[str], UrlResult] = check_url,
+    alias_urls: list[str] | None = None,
+    alias_checker: Callable[[str], UrlResult] = check_url,
+    canonical_url: str | None = None,
 ) -> dict[str, object]:
     comparison = compare_sitemaps(local_urls, live_urls)
     checks = [checker(url) for url in comparison["missingFromProduction"]]
@@ -74,7 +102,17 @@ def build_report(
         and protocol_result.status == 200
         and protocol_result.final_url
         and protocol_result.final_url.startswith("https://")
+        and protocol_result.redirect_statuses
+        and protocol_result.redirect_statuses[0] in {301, 308}
     )
+    alias_results = [alias_checker(url) for url in alias_urls or []]
+    alias_redirects_ok = [
+        result.status == 200
+        and result.final_url == canonical_url
+        and result.redirect_statuses
+        and result.redirect_statuses[0] in {301, 308}
+        for result in alias_results
+    ]
     return {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "localUrlCount": len(local_urls),
@@ -83,6 +121,8 @@ def build_report(
         "missingUrlStatus": [asdict(result) for result in checks],
         "protocolRedirect": asdict(protocol_result) if protocol_result else None,
         "protocolRedirectOk": protocol_redirect_ok if protocol_result else None,
+        "hostAliasRedirects": [asdict(result) for result in alias_results],
+        "hostAliasRedirectsOk": all(alias_redirects_ok) if alias_results else None,
     }
 
 
@@ -102,6 +142,7 @@ def markdown(report: dict[str, object], live_sitemap_url: str) -> str:
         f"- Missing from production sitemap: {len(missing)}",
         f"- Production-only URLs: {len(production_only)}",
         f"- HTTP to HTTPS redirect: {'pass' if report['protocolRedirectOk'] else 'fail'}",
+        f"- WWW host redirects: {'pass' if report['hostAliasRedirectsOk'] else 'fail'}",
         "",
         "## Missing from production",
         "",
@@ -122,8 +163,20 @@ def markdown(report: dict[str, object], live_sitemap_url: str) -> str:
         lines.append(f"- Requested: {protocol['url']}")
         lines.append(f"- Final URL: {protocol['final_url'] or 'request failed'}")
         lines.append(f"- Status: {protocol['status'] if protocol['status'] is not None else 'request failed'}")
+        lines.append(f"- Redirect statuses: {protocol.get('redirect_statuses') or 'none'}")
         if not report["protocolRedirectOk"]:
-            lines.append("- Action required: configure an edge-level permanent redirect from HTTP to HTTPS.")
+            lines.append("- Action required: configure an edge-level 301 or 308 redirect from HTTP to HTTPS.")
+    else:
+        lines.append("- Not checked")
+    lines.extend(["", "## WWW host canonicalization", ""])
+    aliases = report["hostAliasRedirects"]
+    if aliases:
+        for alias in aliases:
+            lines.append(
+                f"- `{alias['url']}` -> `{alias['final_url'] or 'request failed'}` "
+                f"(HTTP {alias['status'] if alias['status'] is not None else 'n/a'}; "
+                f"redirects {alias.get('redirect_statuses') or 'none'})"
+            )
     else:
         lines.append("- Not checked")
     lines.extend([
@@ -148,10 +201,15 @@ def main() -> int:
 
     local_xml = Path(args.local_sitemap).read_text(encoding="utf-8")
     live_xml = fetch_text(args.live_sitemap)
+    canonical_parts = urlsplit(args.live_sitemap)
+    canonical_root = f"{canonical_parts.scheme}://{canonical_parts.netloc}/"
+    alias_host = f"www.{canonical_parts.netloc}"
     report = build_report(
         parse_sitemap(local_xml),
         parse_sitemap(live_xml),
         protocol_url=args.http_origin,
+        alias_urls=[f"http://{alias_host}/", f"https://{alias_host}/"],
+        canonical_url=canonical_root,
     )
 
     json_path = Path(args.json_output)
@@ -165,9 +223,14 @@ def main() -> int:
         f"Deployment audit: {report['localUrlCount']} local, "
         f"{report['productionUrlCount']} production, "
         f"{len(report['missingFromProduction'])} missing from production, "
-        f"HTTP redirect {'pass' if report['protocolRedirectOk'] else 'fail'}."
+        f"HTTP redirect {'pass' if report['protocolRedirectOk'] else 'fail'}, "
+        f"www aliases {'pass' if report['hostAliasRedirectsOk'] else 'fail'}."
     )
-    has_drift = bool(report["missingFromProduction"] or not report["protocolRedirectOk"])
+    has_drift = bool(
+        report["missingFromProduction"]
+        or not report["protocolRedirectOk"]
+        or not report["hostAliasRedirectsOk"]
+    )
     return 1 if args.fail_on_drift and has_drift else 0
 
 

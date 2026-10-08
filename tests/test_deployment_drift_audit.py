@@ -46,7 +46,7 @@ class DeploymentDriftAuditTests(unittest.TestCase):
             {"https://example.com/"},
             protocol_url="http://example.com/",
             protocol_checker=lambda url: MODULE.UrlResult(
-                url=url, status=200, final_url="https://example.com/"
+                url=url, status=200, final_url="https://example.com/", redirect_statuses=[301]
             ),
         )
         failing = MODULE.build_report(
@@ -54,11 +54,41 @@ class DeploymentDriftAuditTests(unittest.TestCase):
             {"https://example.com/"},
             protocol_url="http://example.com/",
             protocol_checker=lambda url: MODULE.UrlResult(
-                url=url, status=200, final_url="http://example.com/"
+                url=url, status=200, final_url="http://example.com/", redirect_statuses=[]
             ),
         )
         self.assertTrue(passing["protocolRedirectOk"])
         self.assertFalse(failing["protocolRedirectOk"])
+
+    def test_protocol_redirect_must_be_permanent(self):
+        for redirect_status in (302, 307):
+            report = MODULE.build_report(
+                {"https://example.com/"},
+                {"https://example.com/"},
+                protocol_url="http://example.com/",
+                protocol_checker=lambda url, status=redirect_status: MODULE.UrlResult(
+                    url=url,
+                    status=200,
+                    final_url="https://example.com/",
+                    redirect_statuses=[status],
+                ),
+            )
+            self.assertFalse(report["protocolRedirectOk"])
+
+    def test_www_alias_must_redirect_to_canonical_https_host(self):
+        report = MODULE.build_report(
+            {"https://example.com/"},
+            {"https://example.com/"},
+            alias_urls=["http://www.example.com/", "https://www.example.com/"],
+            canonical_url="https://example.com/",
+            alias_checker=lambda url: MODULE.UrlResult(
+                url=url,
+                status=200,
+                final_url=("https://example.com/" if url.startswith("https://") else "http://example.com/"),
+                redirect_statuses=[301],
+            ),
+        )
+        self.assertFalse(report["hostAliasRedirectsOk"])
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 # Production deployment drift audit
 
-Generated: 2026-10-08T08:08:44.307633+00:00
+Generated: 2026-10-08T08:16:06.428338+00:00
 Production sitemap: https://shumaojs.com/sitemap.xml
 
 ## Summary
@@ -10,6 +10,7 @@ Production sitemap: https://shumaojs.com/sitemap.xml
 - Missing from production sitemap: 0
 - Production-only URLs: 0
 - HTTP to HTTPS redirect: fail
+- WWW host redirects: fail
 
 ## Missing from production
 
@@ -24,7 +25,13 @@ Production sitemap: https://shumaojs.com/sitemap.xml
 - Requested: http://shumaojs.com/
 - Final URL: http://shumaojs.com/
 - Status: 200
-- Action required: configure an edge-level permanent redirect from HTTP to HTTPS.
+- Redirect statuses: none
+- Action required: configure an edge-level 301 or 308 redirect from HTTP to HTTPS.
+
+## WWW host canonicalization
+
+- `http://www.shumaojs.com/` -> `http://shumaojs.com/` (HTTP 200; redirects [301])
+- `https://www.shumaojs.com/` -> `https://shumaojs.com/` (HTTP 200; redirects [301])
 
 ## Interpretation
 

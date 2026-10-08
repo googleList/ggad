@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T08:08:44.307633+00:00",
+  "generatedAt": "2026-10-08T08:16:06.428338+00:00",
   "localUrlCount": 63,
   "productionUrlCount": 63,
   "missingFromProduction": [],
@@ -74,7 +74,29 @@
     "url": "http://shumaojs.com/",
     "status": 200,
     "error": null,
-    "final_url": "http://shumaojs.com/"
+    "final_url": "http://shumaojs.com/",
+    "redirect_statuses": []
   },
-  "protocolRedirectOk": false
+  "protocolRedirectOk": false,
+  "hostAliasRedirects": [
+    {
+      "url": "http://www.shumaojs.com/",
+      "status": 200,
+      "error": null,
+      "final_url": "http://shumaojs.com/",
+      "redirect_statuses": [
+        301
+      ]
+    },
+    {
+      "url": "https://www.shumaojs.com/",
+      "status": 200,
+      "error": null,
+      "final_url": "https://shumaojs.com/",
+      "redirect_statuses": [
+        301
+      ]
+    }
+  ],
+  "hostAliasRedirectsOk": false
 }

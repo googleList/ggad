@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-13",
   "deployment": {
     "status": "deployed",
-    "reason": "Simplified Chinese Google Ads intent refresh c097d47 was pushed to origin/main. GitHub Pages workflow run 38361616541 succeeded. Cache-busted production checks returned HTTP 200 for the homepage, Google Ads service page, account setup guide, sitemap, and RSS feed; updated target copy was present on the three HTML pages and feed.",
-    "localCommit": "c097d47",
+    "reason": "Simplified Chinese Google Ads intent refresh c097d47 and follow-up state/report commit 6dae331 are on origin/main. GitHub Pages workflow runs 38361616541 and 38361733724 succeeded. Cache-busted production checks returned HTTP 200 for the homepage, Google Ads service page, account setup guide, sitemap, and RSS feed; updated target copy was present on the three HTML pages and feed.",
+    "localCommit": "6dae331",
     "verifiedAt": "2026-10-13"
   },
   "completedBatches": [
@@ -67,8 +67,8 @@
   ],
   "repositorySync": {
     "checkedAt": "2026-10-13",
-    "localHead": "c097d47",
-    "remoteHead": "c097d47",
+    "localHead": "6dae331",
+    "remoteHead": "6dae331",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",

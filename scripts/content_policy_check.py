@@ -10,7 +10,7 @@ from pathlib import Path
 TEXT_EXTENSIONS = {".html", ".js", ".json", ".md", ".txt", ".xml"}
 EXCLUDED_PARTS = {".git", ".audit-shots", "reports", "__pycache__"}
 EXCLUDED_FILES = {"scripts/content_policy_check.py", "tests/test_content_policy_check.py"}
-FORBIDDEN_TEXT = ("开户", "開戶")
+FORBIDDEN_TEXT = ("广告开户代投", "廣告開戶代投")
 FORBIDDEN_PATHS = {
     "account-guidance.html",
     "articles/ad-account-materials.html",

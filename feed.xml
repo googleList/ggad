@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谷歌广告开户流程：账户准备与投放入门</title>
+      <link>https://shumaojs.com/articles/google-ads-basics.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-basics.html</guid>
+      <description>了解谷歌广告开户流程、企业资料准备、账单设置和首次投放步骤。说明客户自有账户的控制权、广告费用构成及开户和排名方面的常见误区。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Google Ads Guide</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>Google Ads management pricing in the US: fees, budget and cost guide</title>
       <link>https://shumaojs.com/articles/google-ads-management-cost-usa.html</link>
@@ -392,15 +401,6 @@
       <description>Google Ads 与 Meta Ads 对比指南，说明搜索意图、素材要求、预算节奏、转化路径和适合行业，帮助企业选择广告投放渠道。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>SEM</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>什么是 Google Ads？外贸和跨境项目投放前先看这篇</title>
-      <link>https://shumaojs.com/articles/google-ads-basics.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-basics.html</guid>
-      <description>什么是 Google Ads？本文面向外贸企业、工厂、跨境电商和创业项目，介绍 Google Ads 的广告类型、计费方式、投放准备、适合场景和常见误区。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Google Ads Guide</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

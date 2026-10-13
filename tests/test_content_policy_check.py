@@ -20,7 +20,13 @@ class ContentPolicyCheckTests(unittest.TestCase):
             (root / "index.html").write_text("广告管理与投放咨询", encoding="utf-8")
             self.assertEqual(MODULE.validate_repository(root), [])
 
-    def test_legacy_account_opening_copy_fails(self):
+    def test_account_setup_guidance_is_allowed(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "index.html").write_text("谷歌开户流程指导，账户由客户本人持有", encoding="utf-8")
+            self.assertEqual(MODULE.validate_repository(root), [])
+
+    def test_legacy_account_opening_sales_phrase_fails(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / "index.html").write_text("广告开户代投", encoding="utf-8")

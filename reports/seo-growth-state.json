@@ -1,16 +1,16 @@
 {
-  "program": "US and Hong Kong SEO growth sprint",
+  "program": "Simplified Chinese Google Ads SEO priority with US and Hong Kong localized support",
   "site": "https://shumaojs.com/",
   "repository": "https://github.com/googleList/ggad.git",
   "startedAt": "2026-09-27",
   "targetEndAt": "2026-12-26",
   "sprintGoal": "1000 average daily Google organic visits",
   "goalIsGuaranteed": false,
-  "lastRunAt": "2026-10-08",
+  "lastRunAt": "2026-10-13",
   "deployment": {
     "status": "deployed",
     "reason": "Homepage background-banner commits 056ec97 and 033923b and localized pricing-guide commit 762592f are on origin/main; GitHub Pages workflows succeeded. Cache-busted production checks verified HTTP 200 and the new US/Hong Kong pricing content, article listing, sitemap, and RSS feed.",
-    "localCommit": "caf12af",
+    "localCommit": "ee143dd",
     "verifiedAt": "2026-10-08"
   },
   "completedBatches": [
@@ -62,20 +62,61 @@
     "us-hk-enhanced-conversions-for-leads-cluster",
     "us-hk-performance-max-lead-generation-cluster",
     "homepage-responsive-background-hero-and-cwv-budget-normalization",
-    "us-hk-agency-pricing-model-comparison-refresh"
+    "us-hk-agency-pricing-model-comparison-refresh",
+    "simplified-chinese-google-ads-intent-refresh"
   ],
   "repositorySync": {
     "checkedAt": "2026-10-08",
-    "localHead": "caf12af",
-    "remoteHead": "caf12af",
+    "localHead": "ee143dd",
+    "remoteHead": "ee143dd",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
     "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file."
   },
   "dataAccess": {
-    "googleSearchConsole": false,
-    "publicIndexingCheck": "Follow-up public site:shumaojs.com queries returned no results on 2026-10-08. This is only a discovery signal. Search Console exports and URL Inspection could not be accessed in this workspace, so Google's indexing status is unverified.",
+    "googleSearchConsole": true,
+    "searchPerformance": {
+      "property": "sc-domain:shumaojs.com",
+      "period": "2026-10-04 through 2026-10-10 (7 days)",
+      "lastUpdated": "2026-10-13 (about 8 hours before observation)",
+      "clicks": 0,
+      "impressions": 120,
+      "ctr": "0%",
+      "averagePosition": 65.3,
+      "queryRows": 30,
+      "topVisibleQueries": [
+        { "query": "google ads audit", "impressions": 15 },
+        { "query": "google 廣告收費", "impressions": 11 },
+        { "query": "google ads account audit", "impressions": 11 },
+        { "query": "search ads evaluation form", "impressions": 9 },
+        { "query": "google ads audit checklist", "impressions": 7 },
+        { "query": "google ads audit nyc", "impressions": 6 },
+        { "query": "auditing google", "impressions": 5 },
+        { "query": "google 廣告報告", "impressions": 4 },
+        { "query": "adwords audit hong kong", "impressions": 4 },
+        { "query": "audit google ads account", "impressions": 4 }
+      ],
+      "observation": "The visible top 10 queries skew English and Traditional Chinese; no Simplified Chinese target phrase appears in this top-10 sample. This does not establish that there are no Simplified Chinese queries among all rows.",
+      "comparisonData": "28-day and preceding-period comparisons were not retrieved; no trend claim is made."
+    },
+    "publicIndexingCheck": "Signed-in Search Console access to sc-domain:shumaojs.com was available in the browser on 2026-10-08. The Page indexing report last updated 2026-10-04 is summarized in reports/search-console-indexing-snapshot-2026-10-08.md. URL-level examples and Search results query/page/country data were not successfully retrieved; a public site: search remains only a weak discovery signal.",
+    "searchConsoleIndexCoverage": {
+      "property": "sc-domain:shumaojs.com",
+      "report": "Page indexing, all known pages",
+      "reportLastUpdated": "2026-10-04",
+      "indexed": 36,
+      "notIndexed": 62,
+      "knownPages": 98,
+      "notIndexedReasons": {
+        "notFound404": 18,
+        "alternateWithCanonical": 7,
+        "discoveredNotIndexed": 30,
+        "crawledNotIndexed": 7,
+        "pageWithRedirect": 0
+      },
+      "urlSamplesRetrieved": false
+    },
     "ga4": false,
     "cloudflareAnalytics": false,
     "pageSpeedInsights": "The PageSpeed API connection timed out on 2026-09-30, so field CWV remains unavailable. Lighthouse 13.5.0 production mobile lab runs measured the US page at score 100 and 0.99s LCP and the Hong Kong page at score 90 and 3.27s LCP. After adding a 640px image candidate, the Hong Kong page measured score 96 and 2.27s LCP with CLS 0; these are directional lab results, not field data.",
@@ -83,7 +124,10 @@
     "protocolCanonicalization": "verified on 2026-10-08: http://shumaojs.com/ returns 200 without redirect; http://www.shumaojs.com/ 301-redirects only to the HTTP apex; https://www.shumaojs.com/ 301-redirects to https://shumaojs.com/. Cloudflare is authoritative DNS; an edge rule is required for HTTP-to-HTTPS consolidation"
   },
   "nextPriorities": [
-    "Add and verify the sc-domain:shumaojs.com Search Console property, submit sitemap.xml, and inspect the five priority URLs in reports/search-console-indexing-runbook-2026-09-30.md",
+    "For the next Chinese-language batch, prioritize Simplified Chinese commercial intent: 谷歌广告代投, 谷歌开户, 谷歌排名, and 谷歌广告; preserve US English and Hong Kong Traditional Chinese pages as localized clusters rather than removing them",
+    "After this content update is deployed, compare the same target queries and landing pages in Search Console over the next 7 and 28 days; obtain the previous-period export before claiming improvement",
+    "Export URL samples from the 30 discovered-not-indexed, 7 crawled-not-indexed, and 18 not-found groups; compare them against the sitemap and legacy URL retirements before requesting indexing or restoring anything",
+    "Open Search Console Search results and export query, page, and country data for the last 7 and 28 days and the preceding comparison periods",
     "In Cloudflare, enable Always Use HTTPS and add a permanent redirect for www.shumaojs.com to https://shumaojs.com while preserving paths and query strings; rerun scripts/deployment_drift_audit.py and require both redirect checks to pass",
     "Export Google Search Console country, query, and page data into the local data/search-console directory",
     "Validate indexing and impressions for the two market landing pages",

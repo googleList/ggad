@@ -9,9 +9,9 @@
   "lastRunAt": "2026-10-13",
   "deployment": {
     "status": "deployed",
-    "reason": "Homepage background-banner commits 056ec97 and 033923b and localized pricing-guide commit 762592f are on origin/main; GitHub Pages workflows succeeded. Cache-busted production checks verified HTTP 200 and the new US/Hong Kong pricing content, article listing, sitemap, and RSS feed.",
-    "localCommit": "ee143dd",
-    "verifiedAt": "2026-10-08"
+    "reason": "Simplified Chinese Google Ads intent refresh c097d47 was pushed to origin/main. GitHub Pages workflow run 38361616541 succeeded. Cache-busted production checks returned HTTP 200 for the homepage, Google Ads service page, account setup guide, sitemap, and RSS feed; updated target copy was present on the three HTML pages and feed.",
+    "localCommit": "c097d47",
+    "verifiedAt": "2026-10-13"
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -66,9 +66,9 @@
     "simplified-chinese-google-ads-intent-refresh"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-08",
-    "localHead": "ee143dd",
-    "remoteHead": "ee143dd",
+    "checkedAt": "2026-10-13",
+    "localHead": "c097d47",
+    "remoteHead": "c097d47",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",

@@ -1,7 +1,7 @@
 # Search Console Indexing Snapshot
 
-Observed: 2026-10-08 in the signed-in `sc-domain:shumaojs.com` property  
-Report scope: **All known pages**  
+Observed: 2026-10-08 in the signed-in `sc-domain:shumaojs.com` property
+Report scope: **All known pages**
 Report last updated: 2026-10-04
 
 ## Coverage

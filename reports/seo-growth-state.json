@@ -1,5 +1,5 @@
 {
-  "program": "US and Hong Kong SEO growth sprint with Simplified Chinese Google Ads query targeting",
+  "program": "Simplified Chinese Google Ads SEO growth sprint with US English and Hong Kong Traditional Chinese as secondary localized audiences",
   "site": "https://shumaojs.com/",
   "repository": "https://github.com/googleList/ggad.git",
   "startedAt": "2026-09-27",
@@ -64,7 +64,8 @@
     "homepage-responsive-background-hero-and-cwv-budget-normalization",
     "us-hk-agency-pricing-model-comparison-refresh",
     "simplified-chinese-google-ads-intent-refresh",
-    "simplified-chinese-google-ads-ad-rank-guide-refresh"
+    "simplified-chinese-google-ads-ad-rank-guide-refresh",
+    "simplified-chinese-google-ads-article-hub-prioritization"
   ],
   "repositorySync": {
     "checkedAt": "2026-10-18",
@@ -147,7 +148,8 @@
     "Cloudflare administrator action: enable permanent HTTP-to-HTTPS redirects at the edge for the apex and www hosts while preserving paths and query strings; validate both aliases with deployment_drift_audit.py",
     "Connect or share sc-domain:shumaojs.com with the Google account currently connected to GSC Wizard, then export 7-day, 28-day, and prior-period query/page/country data; current connector cannot access the property",
     "After the October 18 Google Ads Ad Rank guide deployment and once GSC access is restored, compare query impressions, clicks, pages, countries, and position for 谷歌广告代投, 谷歌开户, 谷歌排名, 谷歌广告, Ad Rank, and Google Ads ad position; do not infer search volume from SERPs",
-    "For the next Chinese-language batch, prioritize Simplified Chinese commercial intent while preserving US English and Hong Kong Traditional Chinese pages as localized clusters",
+    "Restore access to sc-domain:shumaojs.com and compare recent 7-day, 28-day, and prior-period simplified queries for 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告; do not treat the October 4-10 snapshot as current data",
+    "Continue simplifying the site's primary navigation, article discovery, and internal-link prominence around 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告 while retaining US English and Hong Kong Traditional Chinese pages as secondary localized clusters",
     "Export URL samples from the 30 discovered-not-indexed, 7 crawled-not-indexed, and 18 not-found groups; compare them against the sitemap and legacy URL retirements before requesting indexing or restoring anything",
     "Open Search Console Search results and export query, page, and country data for the last 7 and 28 days and the preceding comparison periods",
     "In Cloudflare, enable Always Use HTTPS and add a permanent redirect for www.shumaojs.com to https://shumaojs.com while preserving paths and query strings; rerun scripts/deployment_drift_audit.py and require both redirect checks to pass",

@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-19",
   "deployment": {
     "status": "deployed",
-    "reason": "The synchronized origin/main tip is a4709e1; the GitHub Pages workflow succeeded for this release. Production homepage, Google Ads service, account-setup guide, and ad-rank guide each returned HTTP 200 with the Simplified Chinese target themes. The weekly collector release also verified ad-learning.html and the 63-URL sitemap.",
-    "localCommit": "a4709e1",
+    "reason": "The synchronized origin/main tip was fff6f21 before the current sitemap and report-only indexing follow-up. The GitHub Pages workflow succeeded for the release; production homepage, Google Ads service, account-setup guide, and ad-rank guide returned HTTP 200. Three indexable URLs had priority crawl requests queued in Search Console. The weekly collector release also verified ad-learning.html and the 63-URL sitemap.",
+    "localCommit": "fff6f21",
     "verifiedAt": "2026-10-19"
   },
   "completedBatches": [
@@ -72,12 +72,12 @@
   ],
   "repositorySync": {
     "checkedAt": "2026-10-19",
-    "localHead": "a4709e1",
-    "remoteHead": "a4709e1",
+    "localHead": "fff6f21",
+    "remoteHead": "fff6f21",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is deployed; a4709e1 is the current synchronized main tip."
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is deployed; fff6f21 was the synchronized tip before the current indexing follow-up."
   },
   "dataAccess": {
     "googleSearchConsole": true,
@@ -119,22 +119,28 @@
       "observation": "The target phrases are now present in the live homepage, service page, account-setup guide, and ad-rank guide (all HTTP 200). Search Console reports observed organic queries, not the site's chosen target keywords. Zero matching visible rows means no reportable matches in these filtered views, not zero market demand; anonymized or low-volume queries may be omitted.",
       "comparisonData": "Current 7-day and 28-day snapshots were read. A non-overlapping prior 28-day export was not available, so no 28-day trend claim is made."
     },
-    "publicIndexingCheck": "Signed-in Search Console access to sc-domain:shumaojs.com was available in the browser on 2026-10-08. The Page indexing report last updated 2026-10-04 is summarized in reports/search-console-indexing-snapshot-2026-10-08.md. URL-level examples and Search results query/page/country data were not successfully retrieved; a public site: search remains only a weak discovery signal.",
+    "publicIndexingCheck": "Signed-in Search Console access to sc-domain:shumaojs.com was available in the browser on 2026-10-19. The Page indexing report last updated 2026-10-12 is summarized in reports/seo-week-05-2026-10-18.md. Three live-tested, indexable URLs had priority crawl requests queued; request submission is not an indexing guarantee.",
     "searchConsoleIndexCoverage": {
       "property": "sc-domain:shumaojs.com",
       "report": "Page indexing, all known pages",
-      "reportLastUpdated": "2026-10-04",
-      "indexed": 36,
-      "notIndexed": 62,
+      "reportLastUpdated": "2026-10-12",
+      "observedAt": "2026-10-19",
+      "indexed": 41,
+      "notIndexed": 57,
       "knownPages": 98,
       "notIndexedReasons": {
-        "notFound404": 18,
+        "notFound404": 20,
         "alternateWithCanonical": 7,
-        "discoveredNotIndexed": 30,
+        "discoveredNotIndexed": 23,
         "crawledNotIndexed": 7,
         "pageWithRedirect": 0
       },
-      "urlSamplesRetrieved": false
+      "urlSamplesRetrieved": true,
+      "urlInspectionFollowUp": [
+        {"url": "https://shumaojs.com/articles/google-ads-basics.html", "storedState": "Discovered - currently not indexed", "liveTest": "Indexable", "priorityCrawlRequest": "Submitted successfully on 2026-10-19"},
+        {"url": "https://shumaojs.com/articles/google-search-ads-guide.html", "storedState": "Google doesn't know this URL", "liveTest": "Indexable", "priorityCrawlRequest": "Submitted successfully on 2026-10-19"},
+        {"url": "https://shumaojs.com/articles.html", "storedState": "Discovered - currently not indexed", "liveTest": "Indexable", "priorityCrawlRequest": "Submitted successfully on 2026-10-19"}
+      ]
     },
     "ga4": false,
     "cloudflareAnalytics": false,

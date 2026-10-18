@@ -1,8 +1,40 @@
 {
-  "generatedAt": "2026-10-18T16:07:23.154Z",
+  "generatedAt": "2026-10-18T16:11:18.061Z",
   "sourcesChecked": 6,
-  "sourcesAvailable": 3,
+  "sourcesAvailable": 5,
   "items": [
+    {
+      "title": "How to Track Google Ads Conversions in the Age of AI",
+      "url": "https://www.wordstream.com/blog/how-to-track-conversions-in-google-ads",
+      "source": "WordStream",
+      "publishedAt": "2026-10-12T12:30:19.000Z",
+      "category": "转化与落地页",
+      "summary": "AI is making tracking in Google Ads more important than ever. Find out how to set up a winning conversion tracking strategy."
+    },
+    {
+      "title": "How to Do Competitive Conquesting in Google Ads Without Breaking the Bank",
+      "url": "https://www.wordstream.com/blog/competitive-conquesting-google-ads",
+      "source": "WordStream",
+      "publishedAt": "2026-10-08T12:30:00.000Z",
+      "category": "Google Ads",
+      "summary": "Competitive conquesting in Google Ads can be costly. Try these three alternatives to steal competitors' clicks without breaking the bank."
+    },
+    {
+      "title": "A Complete Guide to Meta Ads Placements for 2026",
+      "url": "https://www.wordstream.com/blog/meta-ad-placements",
+      "source": "WordStream",
+      "publishedAt": "2026-09-24T15:35:35.000Z",
+      "category": "Meta / Facebook",
+      "summary": "Learn how to find and choose the perfect Facebook and Meta Ad placements for your purpose."
+    },
+    {
+      "title": "Facebook Ads Benchmarks 2026: NEW Data, Trends, & Insights for Your Industry",
+      "url": "https://www.wordstream.com/blog/facebook-ads-benchmarks-2026",
+      "source": "WordStream",
+      "publishedAt": "2026-09-14T12:30:37.000Z",
+      "category": "Meta / Facebook",
+      "summary": "We analyzed over 1,800 Meta Ads campaigns to bring you the latest performance metrics for your industry! See how you stack up to the competition."
+    },
     {
       "title": "Your ROAS Went Up. Where Did It Come From?",
       "url": "https://ppchero.com/your-roas-went-up-where-did-it-come-from/",
@@ -165,6 +197,10 @@
     }
   ],
   "topicIdeas": [
+    "转化与落地页：How to Track Google Ads Conversions in the Age of AI",
+    "Google Ads：How to Do Competitive Conquesting in Google Ads Without Breaking the Bank",
+    "Meta / Facebook：A Complete Guide to Meta Ads Placements for 2026",
+    "Meta / Facebook：Facebook Ads Benchmarks 2026: NEW Data, Trends, & Insights for Your Industry",
     "转化与落地页：Your ROAS Went Up. Where Did It Come From?",
     "Google Ads：Guide your campaign spending with new priority and allocation features",
     "转化与落地页：Beyond Search: Winning Local Customers on Display & Demand Gen",
@@ -178,10 +214,6 @@
     "Google Ads：Google’s target bidding shake-up: Why PPC marketers have been here before",
     "Google Ads：How to Build a Google Ads Daily Pacing Script",
     "广告投放：Getting a Pipeline Number You Can Defend to Finance",
-    "广告投放：Black Friday 2026: A Uniquely High-Stakes Quarter",
-    "广告投放：The Performance Max Brand Leak Audit: Measuring the Spend You Would Have Won Anyway",
-    "Google 搜索广告关键词怎么分组",
-    "外贸独立站投放前落地页检查清单",
-    "Meta 广告素材测试从哪些角度开始"
+    "广告投放：Black Friday 2026: A Uniquely High-Stakes Quarter"
   ]
 }

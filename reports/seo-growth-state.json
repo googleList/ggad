@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-19",
   "deployment": {
     "status": "deployed",
-    "reason": "The synchronized origin/main tip was fff6f21 before the current sitemap and report-only indexing follow-up. The GitHub Pages workflow succeeded for the release; production homepage, Google Ads service, account-setup guide, and ad-rank guide returned HTTP 200. Three indexable URLs had priority crawl requests queued in Search Console. The weekly collector release also verified ad-learning.html and the 63-URL sitemap.",
-    "localCommit": "fff6f21",
+    "reason": "Commit 2c8c533 updated the homepage sitemap lastmod and recorded live Search Console indexing follow-up. GitHub Pages workflow succeeded, and the production sitemap returned HTTP 200 with 63 URLs and homepage lastmod 2026-10-18. Three indexable URLs had priority crawl requests queued; the weekly collector release also verified ad-learning.html.",
+    "localCommit": "2c8c533",
     "verifiedAt": "2026-10-19"
   },
   "completedBatches": [
@@ -68,16 +68,17 @@
     "simplified-chinese-google-ads-article-hub-prioritization",
     "all-market-simplified-chinese-search-console-prioritization",
     "weekly-ad-learning-collector-recovery",
-    "live-gsc-simplified-query-audit-2026-10-19"
+    "live-gsc-simplified-query-audit-2026-10-19",
+    "gsc-url-inspection-priority-crawl-and-homepage-sitemap-lastmod-2026-10-19"
   ],
   "repositorySync": {
     "checkedAt": "2026-10-19",
-    "localHead": "fff6f21",
-    "remoteHead": "fff6f21",
+    "localHead": "2c8c533",
+    "remoteHead": "2c8c533",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is deployed; fff6f21 was the synchronized tip before the current indexing follow-up."
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content and indexing follow-up are deployed; the current checked repository tip is 2c8c533."
   },
   "dataAccess": {
     "googleSearchConsole": true,

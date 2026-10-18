@@ -8,10 +8,9 @@
   "goalIsGuaranteed": false,
   "lastRunAt": "2026-10-18",
   "deployment": {
-    "status": "pending_merge",
-    "reason": "The last confirmed production release remains 83f3198. Current Simplified Chinese article-hub updates are on pushed branch codex/pages-cache-fix at 38d6804; no PR exists because the GitHub integration returned 403 when creating one. Production checks still show the previous article-list title and homepage copy. Merge the branch, then verify the Pages workflow and live URLs.",
-    "localCommit": "83f3198",
-    "pendingCommit": "38d6804",
+    "status": "deployed",
+    "reason": "Simplified Chinese article-hub and homepage updates were fast-forwarded to origin/main in commit 14a8e43. GitHub Pages workflow 39141579521 completed successfully. Cache-busted production checks returned HTTP 200 and confirmed the updated article-list title, homepage onboarding guide, and sitemap lastmod.",
+    "localCommit": "14a8e43",
     "verifiedAt": "2026-10-18"
   },
   "completedBatches": [
@@ -70,12 +69,12 @@
   ],
   "repositorySync": {
     "checkedAt": "2026-10-18",
-    "localHead": "38d6804",
-    "remoteHead": "67eb023",
-    "localOnlyCommits": 1,
+    "localHead": "14a8e43",
+    "remoteHead": "14a8e43",
+    "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
-    "status": "feature branch pushed; PR pending",
-    "safeAction": "Create and merge a PR from codex/pages-cache-fix to main; do not push directly because the local main worktree diverges from origin/main."
+    "status": "synchronized",
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file."
   },
   "dataAccess": {
     "googleSearchConsole": true,
@@ -146,10 +145,9 @@
     "cruxFieldData": "Unavailable for shumaojs.com because the GSC Wizard connector account does not have this property connected; previous Lighthouse results are lab data only."
   },
   "nextPriorities": [
-    "Create and merge a PR from codex/pages-cache-fix to main, then confirm the GitHub Pages workflow and production article-list/homepage updates",
+    "Connect or share sc-domain:shumaojs.com with the Google account currently connected to GSC Wizard, then export query, page, and country data for 7-day, 28-day, and prior periods",
+    "Measure 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告 separately by query and country; the latest connector cannot access this property and October 4-10 remains the only available historical snapshot",
     "Cloudflare administrator action: enable permanent HTTP-to-HTTPS redirects at the edge for the apex and www hosts while preserving paths and query strings; validate both aliases with deployment_drift_audit.py",
-    "Connect or share sc-domain:shumaojs.com with the Google account currently connected to GSC Wizard, then export 7-day, 28-day, and prior-period query/page/country data; current connector cannot access the property",
-    "After the October 18 Google Ads Ad Rank guide deployment and once GSC access is restored, compare query impressions, clicks, pages, countries, and position for 谷歌广告代投, 谷歌开户, 谷歌排名, 谷歌广告, Ad Rank, and Google Ads ad position; do not infer search volume from SERPs",
     "Restore access to sc-domain:shumaojs.com and compare recent 7-day, 28-day, and prior-period simplified queries for 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告; do not treat the October 4-10 snapshot as current data",
     "Continue simplifying the site's primary navigation, article discovery, and internal-link prominence around 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告 while retaining US English and Hong Kong Traditional Chinese pages as secondary localized clusters",
     "Export URL samples from the 30 discovered-not-indexed, 7 crawled-not-indexed, and 18 not-found groups; compare them against the sitemap and legacy URL retirements before requesting indexing or restoring anything",

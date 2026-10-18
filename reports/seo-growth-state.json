@@ -8,10 +8,10 @@
   "goalIsGuaranteed": false,
   "lastRunAt": "2026-10-19",
   "deployment": {
-    "status": "pending",
-    "reason": "Weekly article collector recovery and generated learning-page metadata fixes are validated locally; production deployment verification is pending.",
-    "localCommit": "pending",
-    "verifiedAt": null
+    "status": "deployed",
+    "reason": "Weekly collector recovery was committed as bfcbf0d and fast-forwarded to origin/main. Production ad-learning.html returned HTTP 200 with the 2026-10-19 run date and 3/6 source status; its canonical, breadcrumb, and menu script are present. The production sitemap returned HTTP 200 with 63 URLs and ad-learning.html lastmod 2026-10-19. The Actions workflow file is present on main; its first scheduled run is still pending.",
+    "localCommit": "bfcbf0d",
+    "verifiedAt": "2026-10-19"
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -70,12 +70,12 @@
   ],
   "repositorySync": {
     "checkedAt": "2026-10-19",
-    "localHead": "ad7b8e4",
-    "remoteHead": "ad7b8e4",
+    "localHead": "bfcbf0d",
+    "remoteHead": "bfcbf0d",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is 14a8e43; ad7b8e4 is the synchronized baseline before the weekly collector recovery batch."
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is 14a8e43; bfcbf0d is the synchronized weekly-collector release. The first scheduled collector run has not yet occurred."
   },
   "dataAccess": {
     "googleSearchConsole": false,
@@ -145,7 +145,7 @@
       "note": "403/401/429 and network errors are not counted as broken; automated audit cannot confirm those destinations."
     },
     "adLearningCollection2026-10-19": {
-      "itemsListed": 20,
+      "itemsCollected": 20,
       "sourcesConfigured": 6,
       "sourcesAvailable": 3,
       "newItemsFound": 7,

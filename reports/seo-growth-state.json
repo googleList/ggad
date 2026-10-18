@@ -8,9 +8,9 @@
   "goalIsGuaranteed": false,
   "lastRunAt": "2026-10-18",
   "deployment": {
-    "status": "pending",
-    "reason": "The October 18 Google Ads Ad Rank guide refresh is being prepared; verify the next GitHub Pages workflow and production URLs before marking deployed.",
-    "localCommit": "pending",
+    "status": "deployed",
+    "reason": "October 18 Simplified Chinese Ad Rank guide commit 83f3198 is on origin/main. GitHub Pages workflow run 39140095381 succeeded. Cache-busted production checks returned HTTP 200 and confirmed target copy on the article, article list, service page, sitemap, and RSS feed.",
+    "localCommit": "83f3198",
     "verifiedAt": "2026-10-18"
   },
   "completedBatches": [
@@ -68,8 +68,8 @@
   ],
   "repositorySync": {
     "checkedAt": "2026-10-18",
-    "localHead": "1ba9257",
-    "remoteHead": "1ba9257",
+    "localHead": "83f3198",
+    "remoteHead": "83f3198",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",

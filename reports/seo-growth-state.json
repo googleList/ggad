@@ -69,16 +69,16 @@
   ],
   "repositorySync": {
     "checkedAt": "2026-10-18",
-    "localHead": "14a8e43",
-    "remoteHead": "14a8e43",
+    "localHead": "fc86c9b",
+    "remoteHead": "fc86c9b",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file."
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is 14a8e43; fc86c9b is the current documentation-only tip."
   },
   "dataAccess": {
-    "googleSearchConsole": true,
-    "latestSearchConsoleAccess": "The GSC Wizard connector is authenticated to a Google account that does not have sc-domain:shumaojs.com connected or shared. Registering the property failed with not_found. No current query, page, country, or 28-day comparison data could be read on 2026-10-18; the October 4-10 UI snapshot remains historical only.",
+    "googleSearchConsole": false,
+    "latestSearchConsoleAccess": "Rechecked GSC Wizard connected properties on 2026-10-18: sc-domain:shumaojs.com is not listed or shared. No current query, page, country, or 7/28-day comparison data is accessible through this connection. The October 4-10 UI snapshot remains historical only.",
     "searchPerformance": {
       "property": "sc-domain:shumaojs.com",
       "period": "2026-10-04 through 2026-10-10 (7 days)",
@@ -126,6 +126,7 @@
     "productionSitemap": "reachable with 63 URLs on 2026-10-08; all 63 sitemap URLs returned HTTP 200 in a HEAD crawl; local and production sitemaps have zero URL drift; pricing guides, article listing, sitemap, and RSS feed reflect the 2026-10-08 release; retired account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html were previously verified as HTTP 404",
     "protocolCanonicalization": "verified on 2026-10-08: http://shumaojs.com/ returns 200 without redirect; http://www.shumaojs.com/ 301-redirects only to the HTTP apex; https://www.shumaojs.com/ 301-redirects to https://shumaojs.com/. Cloudflare is authoritative DNS; an edge rule is required for HTTP-to-HTTPS consolidation",
     "protocolAudit2026-10-18": {
+      "checkedAt": "2026-10-18",
       "sitemapLocalUrls": 63,
       "sitemapProductionUrls": 63,
       "sitemapDrift": 0,
@@ -145,15 +146,11 @@
     "cruxFieldData": "Unavailable for shumaojs.com because the GSC Wizard connector account does not have this property connected; previous Lighthouse results are lab data only."
   },
   "nextPriorities": [
-    "Connect or share sc-domain:shumaojs.com with the Google account currently connected to GSC Wizard, then export query, page, and country data for 7-day, 28-day, and prior periods",
-    "Measure 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告 separately by query and country; the latest connector cannot access this property and October 4-10 remains the only available historical snapshot",
-    "Cloudflare administrator action: enable permanent HTTP-to-HTTPS redirects at the edge for the apex and www hosts while preserving paths and query strings; validate both aliases with deployment_drift_audit.py",
-    "Restore access to sc-domain:shumaojs.com and compare recent 7-day, 28-day, and prior-period simplified queries for 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告; do not treat the October 4-10 snapshot as current data",
-    "Continue simplifying the site's primary navigation, article discovery, and internal-link prominence around 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告 while retaining US English and Hong Kong Traditional Chinese pages as secondary localized clusters",
+    "Cloudflare administrator action: enable Always Use HTTPS and add a permanent www-to-apex redirect preserving path and query; verify HTTP apex and both www schemes resolve to https://shumaojs.com before marking canonicalization fixed",
+    "Connect or share sc-domain:shumaojs.com with the Google account currently connected to GSC Wizard, then compare current 7-day, 28-day, and preceding periods by query, page, country, device, clicks, impressions, CTR, and position",
+    "Once GSC access is restored, measure 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告 separately by query and country; treat October 4-10 only as a historical snapshot",
     "Export URL samples from the 30 discovered-not-indexed, 7 crawled-not-indexed, and 18 not-found groups; compare them against the sitemap and legacy URL retirements before requesting indexing or restoring anything",
-    "Open Search Console Search results and export query, page, and country data for the last 7 and 28 days and the preceding comparison periods",
-    "In Cloudflare, enable Always Use HTTPS and add a permanent redirect for www.shumaojs.com to https://shumaojs.com while preserving paths and query strings; rerun scripts/deployment_drift_audit.py and require both redirect checks to pass",
-    "Export Google Search Console country, query, and page data into the local data/search-console directory",
+    "Continue strengthening internal links around the four Simplified Chinese query themes while retaining US English and Hong Kong Traditional Chinese clusters",
     "Validate indexing and impressions for the two market landing pages",
     "Collect permission for genuine case studies and client references before directory submissions",
     "Complete a truthful Sortlist profile after one portfolio example is approved",
@@ -170,7 +167,6 @@
     "Review whether future US and Hong Kong content pairs qualify for reciprocal hreflang before publishing",
     "Run field and lab Core Web Vitals checks when PageSpeed is available",
     "Compare measured LCP, INP, and CLS against the new static performance safeguards",
-    "Validate rich-result eligibility with Google's testing tools after deployment",
-    "strict-permanent-https-and-www-canonicalization-audit"
+    "Validate rich-result eligibility with Google's testing tools after deployment"
   ]
 }

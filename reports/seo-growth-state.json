@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-19",
   "deployment": {
     "status": "deployed",
-    "reason": "Weekly collector recovery was committed as bfcbf0d and fast-forwarded to origin/main. Production ad-learning.html returned HTTP 200 with the 2026-10-19 run date and 3/6 source status; its canonical, breadcrumb, and menu script are present. The production sitemap returned HTTP 200 with 63 URLs and ad-learning.html lastmod 2026-10-19. The workflow was found on GitHub with 0 runs, so a code/config push trigger was added to exercise and validate it immediately; cloud execution is pending.",
-    "localCommit": "bfcbf0d",
+    "reason": "The synchronized origin/main tip is a4709e1; the GitHub Pages workflow succeeded for this release. Production homepage, Google Ads service, account-setup guide, and ad-rank guide each returned HTTP 200 with the Simplified Chinese target themes. The weekly collector release also verified ad-learning.html and the 63-URL sitemap.",
+    "localCommit": "a4709e1",
     "verifiedAt": "2026-10-19"
   },
   "completedBatches": [
@@ -67,43 +67,57 @@
     "simplified-chinese-google-ads-ad-rank-guide-refresh",
     "simplified-chinese-google-ads-article-hub-prioritization",
     "all-market-simplified-chinese-search-console-prioritization",
-    "weekly-ad-learning-collector-recovery"
+    "weekly-ad-learning-collector-recovery",
+    "live-gsc-simplified-query-audit-2026-10-19"
   ],
   "repositorySync": {
     "checkedAt": "2026-10-19",
-    "localHead": "313805a",
-    "remoteHead": "313805a",
+    "localHead": "a4709e1",
+    "remoteHead": "a4709e1",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is 14a8e43; bfcbf0d is the deployed weekly-collector release; 313805a is the current synchronized SEO-analysis baseline."
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is deployed; a4709e1 is the current synchronized main tip."
   },
   "dataAccess": {
-    "googleSearchConsole": false,
-    "latestSearchConsoleAccess": "The GSC Wizard connector still does not have sc-domain:shumaojs.com. The user's browser is on the live 7-day performance report, but UI extraction timed out in this run; no current query table was read. The October 4-10 snapshot remains historical only.",
+    "googleSearchConsole": true,
+    "latestSearchConsoleAccess": "Read-only access to sc-domain:shumaojs.com was available in the user's signed-in browser on 2026-10-19. The GSC Wizard connector remains unconnected. The live 7-day and 28-day performance tables and a target-query regex filter were inspected; query rows are subject to Search Console privacy and reporting limits.",
     "searchPerformance": {
       "property": "sc-domain:shumaojs.com",
-      "period": "2026-10-04 through 2026-10-10 (7 days)",
-      "lastUpdated": "2026-10-13 (about 8 hours before observation)",
-      "clicks": 0,
-      "impressions": 120,
-      "ctr": "0%",
-      "averagePosition": 65.3,
-      "queryRows": 30,
-      "topVisibleQueries": [
-        { "query": "google ads audit", "impressions": 15 },
-        { "query": "google 廣告收費", "impressions": 11 },
-        { "query": "google ads account audit", "impressions": 11 },
-        { "query": "search ads evaluation form", "impressions": 9 },
-        { "query": "google ads audit checklist", "impressions": 7 },
-        { "query": "google ads audit nyc", "impressions": 6 },
-        { "query": "auditing google", "impressions": 5 },
-        { "query": "google 廣告報告", "impressions": 4 },
-        { "query": "adwords audit hong kong", "impressions": 4 },
-        { "query": "audit google ads account", "impressions": 4 }
-      ],
-      "observation": "The visible top 10 queries skew English and Traditional Chinese; no Simplified Chinese target phrase appears in this top-10 sample. This does not establish that there are no Simplified Chinese queries among all rows.",
-      "comparisonData": "28-day and preceding-period comparisons were not retrieved; no trend claim is made."
+      "observedAt": "2026-10-19",
+      "lastUpdated": "Search Console UI reported about 5 hours before observation",
+      "latest7Days": {
+        "period": "2026-10-10 through 2026-10-16",
+        "clicks": 0,
+        "impressions": 44,
+        "ctr": "0%",
+        "averagePosition": 39.7,
+        "visibleQueryRows": 9,
+        "targetQueryFilter": "谷歌代投|谷歌广告代投|谷歌开户|谷歌广告开户|谷歌排名|谷歌广告排名|谷歌广告",
+        "targetFilterVisibleRows": 0
+      },
+      "latest28Days": {
+        "period": "2026-09-19 through 2026-10-16",
+        "clicks": 0,
+        "impressions": 198,
+        "ctr": "0%",
+        "averagePosition": 61.7,
+        "visibleQueryRows": 36,
+        "targetFilterVisibleRows": 0,
+        "visibleQueryPattern": "The 36 visible rows were English or Hong Kong Traditional Chinese; none matched the four Simplified Chinese target themes.",
+        "countryImpressions": { "US": 108, "HK": 48 },
+        "countryRows": 21
+      },
+      "previousSnapshot": {
+        "period": "2026-10-04 through 2026-10-10",
+        "clicks": 0,
+        "impressions": 120,
+        "ctr": "0%",
+        "averagePosition": 65.3,
+        "source": "Earlier browser observation; this interval overlaps the latest 7-day window by one day and is not a clean period-over-period comparison."
+      },
+      "observation": "The target phrases are now present in the live homepage, service page, account-setup guide, and ad-rank guide (all HTTP 200). Search Console reports observed organic queries, not the site's chosen target keywords. Zero matching visible rows means no reportable matches in these filtered views, not zero market demand; anonymized or low-volume queries may be omitted.",
+      "comparisonData": "Current 7-day and 28-day snapshots were read. A non-overlapping prior 28-day export was not available, so no 28-day trend claim is made."
     },
     "publicIndexingCheck": "Signed-in Search Console access to sc-domain:shumaojs.com was available in the browser on 2026-10-08. The Page indexing report last updated 2026-10-04 is summarized in reports/search-console-indexing-snapshot-2026-10-08.md. URL-level examples and Search results query/page/country data were not successfully retrieved; a public site: search remains only a weak discovery signal.",
     "searchConsoleIndexCoverage": {
@@ -156,10 +170,9 @@
     "cruxFieldData": "Unavailable for shumaojs.com because the GSC Wizard connector account does not have this property connected; previous Lighthouse results are lab data only."
   },
   "nextPriorities": [
-    "Export the current Search Console 7-day and 28-day Queries and Countries tables; compare 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告 separately without inferring query language from country",
-    "Run scripts/prioritize_search_console.py after receiving current exports; verify Simplified Chinese target-query rows appear before secondary English and Hong Kong Traditional Chinese rows",
+    "After the Simplified Chinese pages have had time to be crawled and accrue impressions, recheck each target query and the matching pages in Search Console; do not interpret filtered zero rows as zero demand",
+    "Export a non-overlapping previous 28-day Search Console range to compare with 2026-09-19 through 2026-10-16; separate query language from user country",
     "Cloudflare administrator action: enable Always Use HTTPS and add a permanent www-to-apex redirect preserving path and query; verify HTTP apex and both www schemes resolve to https://shumaojs.com before marking canonicalization fixed",
-    "Connect or share sc-domain:shumaojs.com with the Google account currently connected to GSC Wizard, then compare current 7-day, 28-day, and preceding periods by query, page, country, device, clicks, impressions, CTR, and position",
     "Export URL samples from the 30 discovered-not-indexed, 7 crawled-not-indexed, and 18 not-found groups; compare them against the sitemap and legacy URL retirements before requesting indexing or restoring anything",
     "Continue strengthening internal links around the four Simplified Chinese query themes while retaining US English and Hong Kong Traditional Chinese clusters",
     "Validate indexing and impressions for the two market landing pages",

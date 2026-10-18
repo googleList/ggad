@@ -9,7 +9,7 @@
   "lastRunAt": "2026-10-18",
   "deployment": {
     "status": "deployed",
-    "reason": "October 18 Simplified Chinese Ad Rank guide commit 83f3198 is on origin/main. GitHub Pages workflow run 39140095381 succeeded. Cache-busted production checks returned HTTP 200 and confirmed target copy on the article, article list, service page, sitemap, and RSS feed.",
+    "reason": "October 18 Simplified Chinese Ad Rank guide commit 83f3198 is on origin/main. GitHub Pages workflow runs 39140095381 (content) and 39140201053 (follow-up report) succeeded. Cache-busted production checks returned HTTP 200 and confirmed target copy on the article, article list, service page, sitemap, and RSS feed.",
     "localCommit": "83f3198",
     "verifiedAt": "2026-10-18"
   },
@@ -68,8 +68,8 @@
   ],
   "repositorySync": {
     "checkedAt": "2026-10-18",
-    "localHead": "83f3198",
-    "remoteHead": "83f3198",
+    "localHead": "a47b123",
+    "remoteHead": "a47b123",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",

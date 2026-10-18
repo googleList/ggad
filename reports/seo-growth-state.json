@@ -9,7 +9,7 @@
   "lastRunAt": "2026-10-19",
   "deployment": {
     "status": "deployed",
-    "reason": "Weekly collector recovery was committed as bfcbf0d and fast-forwarded to origin/main. Production ad-learning.html returned HTTP 200 with the 2026-10-19 run date and 3/6 source status; its canonical, breadcrumb, and menu script are present. The production sitemap returned HTTP 200 with 63 URLs and ad-learning.html lastmod 2026-10-19. The Actions workflow file is present on main; its first scheduled run is still pending.",
+    "reason": "Weekly collector recovery was committed as bfcbf0d and fast-forwarded to origin/main. Production ad-learning.html returned HTTP 200 with the 2026-10-19 run date and 3/6 source status; its canonical, breadcrumb, and menu script are present. The production sitemap returned HTTP 200 with 63 URLs and ad-learning.html lastmod 2026-10-19. The workflow was found on GitHub with 0 runs, so a code/config push trigger was added to exercise and validate it immediately; cloud execution is pending.",
     "localCommit": "bfcbf0d",
     "verifiedAt": "2026-10-19"
   },
@@ -75,7 +75,7 @@
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is 14a8e43; bfcbf0d is the synchronized weekly-collector release. The first scheduled collector run has not yet occurred."
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is 14a8e43; bfcbf0d is the deployed weekly-collector release. Validate the new code/config push-triggered Actions run before treating cloud automation as proven."
   },
   "dataAccess": {
     "googleSearchConsole": false,

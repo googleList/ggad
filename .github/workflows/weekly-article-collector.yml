@@ -4,6 +4,13 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "30 1 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/weekly-article-collector.yml
+      - tools/collect-ad-learning.js
+      - scripts/collect_articles.py
+      - data/article-sources.json
 
 permissions:
   contents: read

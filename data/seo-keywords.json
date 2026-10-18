@@ -1,8 +1,50 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-10-01",
-  "note": "当前版本基于站点业务、页面主题和公开搜索结果语义整理。优先级不是流量预测；后续由 scripts/prioritize_search_console.py 使用美国和香港的真实 queries、clicks、impressions、ctr、position 数据继续调整。",
+  "updated": "2026-10-19",
+  "primaryQueryLanguage": "zh-Hans",
+  "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
+  "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；只有在提供真实 Search Console 导出后，才按 queries、clicks、impressions、CTR、position 和 country 调整。",
   "clusters": [
+    {
+      "cluster": "谷歌广告代投与管理",
+      "language": "zh-Hans",
+      "intent": "commercial",
+      "priority": "primary",
+      "targetUrl": "https://shumaojs.com/google-ads.html",
+      "primaryKeywords": ["谷歌代投", "谷歌广告代投"],
+      "supportingKeywords": ["Google Ads 代运营", "谷歌广告投放管理", "谷歌广告优化"],
+      "contentActions": ["服务页承接代投与管理咨询意图", "从首页、开户和投放指南页建立语义相关内链", "清楚说明客户持有账户，不承诺审核通过、固定排名或效果"]
+    },
+    {
+      "cluster": "谷歌广告开户流程",
+      "language": "zh-Hans",
+      "intent": "informational-commercial",
+      "priority": "primary",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-basics.html",
+      "primaryKeywords": ["谷歌开户", "谷歌广告开户"],
+      "supportingKeywords": ["Google Ads 开户流程", "谷歌广告账户注册", "谷歌广告开户资料"],
+      "contentActions": ["解释账户注册、付款资料和首次投放准备", "区分平台账户注册与第三方服务，不售卖或代持账户", "从教程自然链接至广告管理服务页"]
+    },
+    {
+      "cluster": "谷歌广告排名与广告评级",
+      "language": "zh-Hans",
+      "intent": "informational",
+      "priority": "primary",
+      "targetUrl": "https://shumaojs.com/articles/google-search-ads-guide.html",
+      "primaryKeywords": ["谷歌排名", "谷歌广告排名"],
+      "supportingKeywords": ["Google Ads 广告位置", "广告评级 Ad Rank", "谷歌广告首页展示"],
+      "contentActions": ["说明付费广告位置和自然搜索排名的差异", "使用顶部展示率等官方指标解释广告位置", "不承诺首页或第一名，并链接 Google 官方说明"]
+    },
+    {
+      "cluster": "谷歌广告综合指南",
+      "language": "zh-Hans",
+      "intent": "informational-commercial",
+      "priority": "primary",
+      "targetUrl": "https://shumaojs.com/articles.html",
+      "primaryKeywords": ["谷歌广告", "Google Ads 教程"],
+      "supportingKeywords": ["谷歌广告怎么投", "谷歌广告费用", "谷歌广告关键词"],
+      "contentActions": ["文章列表首屏优先呈现简体中文开户、排名、费用和关键词内容", "通过分类和分页保留英文与香港繁体内容", "由指南页链接至对应文章与服务页"]
+    },
     {
       "cluster": "US Google Ads management",
       "market": "US",

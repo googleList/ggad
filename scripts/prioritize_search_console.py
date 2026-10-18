@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a transparent US/HK SEO priority report from Search Console CSV exports."""
+"""Build a transparent multilingual SEO priority report from Search Console CSV exports."""
 
 from __future__ import annotations
 
@@ -41,7 +41,20 @@ COUNTRY_MARKETS = {
     "hong kong sar": "HK",
     "hk": "HK",
     "香港": "HK",
+    "china": "CN",
+    "mainland china": "CN",
+    "cn": "CN",
+    "中国": "CN",
+    "中国大陆": "CN",
+    "大陆": "CN",
 }
+
+SIMPLIFIED_QUERY_THEMES = (
+    ("谷歌代投", ("谷歌广告代投", "谷歌代投", "谷歌广告代运营", "谷歌代运营")),
+    ("谷歌开户", ("谷歌广告开户", "谷歌开户", "google ads开户", "google广告开户")),
+    ("谷歌排名", ("谷歌广告排名", "谷歌排名", "google ads排名", "google广告排名")),
+    ("谷歌广告", ("谷歌广告", "google广告")),
+)
 
 
 def normalize_header(value: str) -> str:
@@ -117,6 +130,14 @@ def action_for(position: float, ctr: float, page: str) -> str:
     return "Validate indexing and measurement before assigning content work."
 
 
+def simplified_query_theme(query: str) -> str:
+    normalized = re.sub(r"\s+", "", query.casefold())
+    for theme, variants in SIMPLIFIED_QUERY_THEMES:
+        if any(re.sub(r"\s+", "", variant.casefold()) in normalized for variant in variants):
+            return theme
+    return ""
+
+
 def read_rows(paths: list[Path]) -> tuple[list[dict], list[str]]:
     rows: list[dict] = []
     notes: list[str] = []
@@ -183,6 +204,7 @@ def aggregate(rows: list[dict]) -> list[dict]:
             {
                 "market": market,
                 "query": query or "(page aggregate)",
+                "simplifiedTheme": simplified_query_theme(query),
                 "page": page or "(not supplied)",
                 "clicks": round(clicks, 2),
                 "impressions": round(impressions, 2),
@@ -198,35 +220,48 @@ def aggregate(rows: list[dict]) -> list[dict]:
 
 def render_markdown(result: dict) -> str:
     lines = [
-        "# Search Console Priority Report",
+        "# Search Console Query Priorities",
         "",
         f"Generated: {result['generatedAt']}",
         "",
-        "The opportunity score is a transparent prioritization heuristic based on observed impressions, CTR, and average position. It is not a traffic or ranking forecast.",
+        "The opportunity score is a transparent prioritization heuristic based on observed impressions, CTR, and average position. It is not a traffic or ranking forecast. Query language and user country are separate dimensions; Simplified Chinese target themes are shown across all countries.",
         "",
         "## Data notes",
         "",
     ]
     lines.extend(f"- {note}" for note in result["notes"])
-    lines.extend(["", "## US and Hong Kong priorities", ""])
-    targeted = [item for item in result["priorities"] if item["market"] in {"US", "HK"}]
-    if not targeted:
-        lines.append("No rows could be assigned to the US or Hong Kong. Export the Country dimension or include `us`, `usa`, `hk`, or `hong-kong` in filenames.")
+    lines.extend(["", "## Simplified Chinese target queries", ""])
+    simplified = [item for item in result["priorities"] if item["simplifiedTheme"]]
+    if not simplified:
+        lines.append("No rows matching 谷歌代投、谷歌开户、谷歌排名, or 谷歌广告 were present in the supplied export. Check the date range and export the Queries dimension; do not interpret missing rows as zero search demand.")
     else:
-        lines.append("| # | Market | Query | Page | Clicks | Impressions | CTR | Position | Score | Recommended action |")
-        lines.append("|---:|:---:|---|---|---:|---:|---:|---:|---:|---|")
-        for index, item in enumerate(targeted[:50], start=1):
+        lines.append("| # | Theme | Country | Query | Page | Clicks | Impressions | CTR | Position | Score | Recommended action |")
+        lines.append("|---:|---|:---:|---|---|---:|---:|---:|---:|---:|---|")
+        for index, item in enumerate(simplified[:50], start=1):
             query = item["query"].replace("|", "\\|")
             page = item["page"].replace("|", "\\|")
             action = item["recommendedAction"].replace("|", "\\|")
             lines.append(
-                f"| {index} | {item['market']} | {query} | {page} | {item['clicks']:g} | "
-                f"{item['impressions']:g} | {item['ctr']:.2%} | {item['position']:.2f} | "
-                f"{item['opportunityScore']:.4f} | {action} |"
+                f"| {index} | {item['simplifiedTheme']} | {item['market']} | {query} | {page} | {item['clicks']:g} | "
+                f"{item['impressions']:g} | {item['ctr']:.2%} | {item['position']:.2f} | {item['opportunityScore']:.4f} | {action} |"
+            )
+
+    lines.extend(["", "## All market and language queries", ""])
+    if not result["priorities"]:
+        lines.append("No query or page rows were read from the supplied exports.")
+    else:
+        lines.append("| # | Focus | Country | Query | Page | Clicks | Impressions | CTR | Position | Score |")
+        lines.append("|---:|---|:---:|---|---|---:|---:|---:|---:|---:|")
+        for index, item in enumerate(result["priorities"][:100], start=1):
+            query = item["query"].replace("|", "\\|")
+            page = item["page"].replace("|", "\\|")
+            lines.append(
+                f"| {index} | {item['simplifiedTheme'] or 'Other'} | {item['market']} | {query} | {page} | {item['clicks']:g} | "
+                f"{item['impressions']:g} | {item['ctr']:.2%} | {item['position']:.2f} | {item['opportunityScore']:.4f} |"
             )
 
     unassigned = sum(1 for item in result["priorities"] if item["market"] == "UNASSIGNED")
-    lines.extend(["", "## Validation", "", f"- Target-market rows: {len(targeted)}", f"- Unassigned rows: {unassigned}"])
+    lines.extend(["", "## Validation", "", f"- Simplified Chinese target-query rows: {len(simplified)}", f"- All query/page rows: {len(result['priorities'])}", f"- Rows without country assignment: {unassigned}"])
     return "\n".join(lines) + "\n"
 
 

@@ -66,20 +66,21 @@
     "simplified-chinese-google-ads-intent-refresh",
     "simplified-chinese-google-ads-ad-rank-guide-refresh",
     "simplified-chinese-google-ads-article-hub-prioritization",
+    "all-market-simplified-chinese-search-console-prioritization",
     "weekly-ad-learning-collector-recovery"
   ],
   "repositorySync": {
     "checkedAt": "2026-10-19",
-    "localHead": "bfcbf0d",
-    "remoteHead": "bfcbf0d",
+    "localHead": "313805a",
+    "remoteHead": "313805a",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is 14a8e43; bfcbf0d is the deployed weekly-collector release. Validate the new code/config push-triggered Actions run before treating cloud automation as proven."
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is 14a8e43; bfcbf0d is the deployed weekly-collector release; 313805a is the current synchronized SEO-analysis baseline."
   },
   "dataAccess": {
     "googleSearchConsole": false,
-    "latestSearchConsoleAccess": "Rechecked GSC Wizard connected properties on 2026-10-18: sc-domain:shumaojs.com is not listed or shared. No current query, page, country, or 7/28-day comparison data is accessible through this connection. The October 4-10 UI snapshot remains historical only.",
+    "latestSearchConsoleAccess": "The GSC Wizard connector still does not have sc-domain:shumaojs.com. The user's browser is on the live 7-day performance report, but UI extraction timed out in this run; no current query table was read. The October 4-10 snapshot remains historical only.",
     "searchPerformance": {
       "property": "sc-domain:shumaojs.com",
       "period": "2026-10-04 through 2026-10-10 (7 days)",
@@ -155,9 +156,10 @@
     "cruxFieldData": "Unavailable for shumaojs.com because the GSC Wizard connector account does not have this property connected; previous Lighthouse results are lab data only."
   },
   "nextPriorities": [
+    "Export the current Search Console 7-day and 28-day Queries and Countries tables; compare 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告 separately without inferring query language from country",
+    "Run scripts/prioritize_search_console.py after receiving current exports; verify Simplified Chinese target-query rows appear before secondary English and Hong Kong Traditional Chinese rows",
     "Cloudflare administrator action: enable Always Use HTTPS and add a permanent www-to-apex redirect preserving path and query; verify HTTP apex and both www schemes resolve to https://shumaojs.com before marking canonicalization fixed",
     "Connect or share sc-domain:shumaojs.com with the Google account currently connected to GSC Wizard, then compare current 7-day, 28-day, and preceding periods by query, page, country, device, clicks, impressions, CTR, and position",
-    "Once GSC access is restored, measure 谷歌代投, 谷歌开户, 谷歌排名, and 谷歌广告 separately by query and country; treat October 4-10 only as a historical snapshot",
     "Export URL samples from the 30 discovered-not-indexed, 7 crawled-not-indexed, and 18 not-found groups; compare them against the sitemap and legacy URL retirements before requesting indexing or restoring anything",
     "Continue strengthening internal links around the four Simplified Chinese query themes while retaining US English and Hong Kong Traditional Chinese clusters",
     "Validate indexing and impressions for the two market landing pages",

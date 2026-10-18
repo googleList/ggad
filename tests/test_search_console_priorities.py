@@ -33,6 +33,27 @@ class SearchConsolePriorityTests(unittest.TestCase):
         self.assertEqual(hk["clicks"], 12)
         self.assertIn("internal links", us["recommendedAction"])
 
+    def test_simplified_chinese_themes_are_prioritized_across_countries(self):
+        rows = [
+            {"market": "CN", "query": "谷歌代投", "page": "https://shumaojs.com/google-ads.html", "clicks": 1, "impressions": 10, "ctr": 0.1, "position": 12, "source": "cn.csv"},
+            {"market": "HK", "query": "google 廣告收費", "page": "https://shumaojs.com/google-ads-agency-hong-kong.html", "clicks": 0, "impressions": 20, "ctr": 0, "position": 30, "source": "hk.csv"},
+            {"market": "US", "query": "Google Ads audit", "page": "https://shumaojs.com/google-ads-management-usa.html", "clicks": 0, "impressions": 15, "ctr": 0, "position": 25, "source": "us.csv"},
+        ]
+
+        self.assertEqual(MODULE.infer_market("中国", "queries.csv"), "CN")
+        self.assertEqual(MODULE.simplified_query_theme("谷歌广告代投服务"), "谷歌代投")
+        self.assertEqual(MODULE.simplified_query_theme("谷歌开户流程"), "谷歌开户")
+        self.assertEqual(MODULE.simplified_query_theme("谷歌广告排名"), "谷歌排名")
+        self.assertEqual(MODULE.simplified_query_theme("Google Ads audit"), "")
+
+        priorities = MODULE.aggregate(rows)
+        report = MODULE.render_markdown({"generatedAt": "2026-10-19", "notes": [], "priorities": priorities})
+        focus_section = report.split("## All market and language queries", 1)[0]
+        self.assertIn("谷歌代投 | CN |", focus_section)
+        self.assertIn("## All market and language queries", report)
+        self.assertIn("google 廣告收費", report)
+        self.assertIn("Google Ads audit", report)
+
 
 if __name__ == "__main__":
     unittest.main()

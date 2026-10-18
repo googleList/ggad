@@ -16,7 +16,16 @@ Include at least one dimension:
 - Query
 - Page
 
-For reliable US/Hong Kong segmentation, also include the Country dimension. If the export has no country column, include `us`, `usa`, `united-states`, `hk`, or `hong-kong` in the filename.
+Include the Country dimension to compare user locations separately from query language. The analyzer recognizes US, Hong Kong, China, and other/unassigned rows; Simplified Chinese target queries are prioritized across all countries. If the export has no country column, include `us`, `usa`, `united-states`, `hk`, or `hong-kong` in the filename.
+
+Primary Simplified Chinese query themes:
+
+- 谷歌代投
+- 谷歌开户
+- 谷歌排名
+- 谷歌广告
+
+The report shows matching queries first, then retains the full multilingual query list. If a target query is absent, that means it was not present in the supplied export, not that its search demand is zero.
 
 Run:
 

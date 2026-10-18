@@ -8,9 +8,10 @@
   "goalIsGuaranteed": false,
   "lastRunAt": "2026-10-18",
   "deployment": {
-    "status": "deployed",
-    "reason": "October 18 Simplified Chinese Ad Rank guide commit 83f3198 is on origin/main. GitHub Pages workflow runs 39140095381 (content) and 39140201053 (follow-up report) succeeded. Cache-busted production checks returned HTTP 200 and confirmed target copy on the article, article list, service page, sitemap, and RSS feed.",
+    "status": "pending_merge",
+    "reason": "The last confirmed production release remains 83f3198. Current Simplified Chinese article-hub updates are on pushed branch codex/pages-cache-fix at 38d6804; no PR exists because the GitHub integration returned 403 when creating one. Production checks still show the previous article-list title and homepage copy. Merge the branch, then verify the Pages workflow and live URLs.",
     "localCommit": "83f3198",
+    "pendingCommit": "38d6804",
     "verifiedAt": "2026-10-18"
   },
   "completedBatches": [
@@ -69,12 +70,12 @@
   ],
   "repositorySync": {
     "checkedAt": "2026-10-18",
-    "localHead": "a47b123",
-    "remoteHead": "a47b123",
-    "localOnlyCommits": 0,
+    "localHead": "38d6804",
+    "remoteHead": "67eb023",
+    "localOnlyCommits": 1,
     "remoteOnlyCommits": 0,
-    "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file."
+    "status": "feature branch pushed; PR pending",
+    "safeAction": "Create and merge a PR from codex/pages-cache-fix to main; do not push directly because the local main worktree diverges from origin/main."
   },
   "dataAccess": {
     "googleSearchConsole": true,
@@ -145,6 +146,7 @@
     "cruxFieldData": "Unavailable for shumaojs.com because the GSC Wizard connector account does not have this property connected; previous Lighthouse results are lab data only."
   },
   "nextPriorities": [
+    "Create and merge a PR from codex/pages-cache-fix to main, then confirm the GitHub Pages workflow and production article-list/homepage updates",
     "Cloudflare administrator action: enable permanent HTTP-to-HTTPS redirects at the edge for the apex and www hosts while preserving paths and query strings; validate both aliases with deployment_drift_audit.py",
     "Connect or share sc-domain:shumaojs.com with the Google account currently connected to GSC Wizard, then export 7-day, 28-day, and prior-period query/page/country data; current connector cannot access the property",
     "After the October 18 Google Ads Ad Rank guide deployment and once GSC access is restored, compare query impressions, clicks, pages, countries, and position for 谷歌广告代投, 谷歌开户, 谷歌排名, 谷歌广告, Ad Rank, and Google Ads ad position; do not infer search volume from SERPs",

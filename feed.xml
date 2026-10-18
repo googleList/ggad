@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谷歌广告排名怎么提升？Ad Rank影响因素与优化方法</title>
+      <link>https://shumaojs.com/articles/google-search-ads-guide.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-search-ads-guide.html</guid>
+      <description>解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>谷歌广告开户流程：账户准备与投放入门</title>
       <link>https://shumaojs.com/articles/google-ads-basics.html</link>
@@ -374,15 +383,6 @@
       <description>Google 搜索广告关键词分组教程，介绍业务线、搜索意图、匹配方式、否定词和落地页对应关系。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>Keyword Strategy</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>Google 搜索广告完整指南：关键词、结构和上线前准备</title>
-      <link>https://shumaojs.com/articles/google-search-ads-guide.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-search-ads-guide.html</guid>
-      <description>Google 搜索广告新手指南，整理关键词选择、广告组结构、文案写法、落地页、转化追踪、否定词和上线前检查清单。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

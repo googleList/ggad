@@ -1,17 +1,17 @@
 {
-  "program": "Simplified Chinese Google Ads SEO priority with US and Hong Kong localized support",
+  "program": "US and Hong Kong SEO growth sprint with Simplified Chinese Google Ads query targeting",
   "site": "https://shumaojs.com/",
   "repository": "https://github.com/googleList/ggad.git",
   "startedAt": "2026-09-27",
   "targetEndAt": "2026-12-26",
   "sprintGoal": "1000 average daily Google organic visits",
   "goalIsGuaranteed": false,
-  "lastRunAt": "2026-10-13",
+  "lastRunAt": "2026-10-18",
   "deployment": {
-    "status": "deployed",
-    "reason": "Simplified Chinese Google Ads intent refresh c097d47 and follow-up state/report commit 6dae331 are on origin/main. GitHub Pages workflow runs 38361616541 and 38361733724 succeeded. Cache-busted production checks returned HTTP 200 for the homepage, Google Ads service page, account setup guide, sitemap, and RSS feed; updated target copy was present on the three HTML pages and feed.",
-    "localCommit": "6dae331",
-    "verifiedAt": "2026-10-13"
+    "status": "pending",
+    "reason": "The October 18 Google Ads Ad Rank guide refresh is being prepared; verify the next GitHub Pages workflow and production URLs before marking deployed.",
+    "localCommit": "pending",
+    "verifiedAt": "2026-10-18"
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -63,12 +63,13 @@
     "us-hk-performance-max-lead-generation-cluster",
     "homepage-responsive-background-hero-and-cwv-budget-normalization",
     "us-hk-agency-pricing-model-comparison-refresh",
-    "simplified-chinese-google-ads-intent-refresh"
+    "simplified-chinese-google-ads-intent-refresh",
+    "simplified-chinese-google-ads-ad-rank-guide-refresh"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-13",
-    "localHead": "6dae331",
-    "remoteHead": "6dae331",
+    "checkedAt": "2026-10-18",
+    "localHead": "1ba9257",
+    "remoteHead": "1ba9257",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
@@ -76,6 +77,7 @@
   },
   "dataAccess": {
     "googleSearchConsole": true,
+    "latestSearchConsoleAccess": "The GSC Wizard connector is authenticated to a Google account that does not have sc-domain:shumaojs.com connected or shared. Registering the property failed with not_found. No current query, page, country, or 28-day comparison data could be read on 2026-10-18; the October 4-10 UI snapshot remains historical only.",
     "searchPerformance": {
       "property": "sc-domain:shumaojs.com",
       "period": "2026-10-04 through 2026-10-10 (7 days)",
@@ -121,11 +123,31 @@
     "cloudflareAnalytics": false,
     "pageSpeedInsights": "The PageSpeed API connection timed out on 2026-09-30, so field CWV remains unavailable. Lighthouse 13.5.0 production mobile lab runs measured the US page at score 100 and 0.99s LCP and the Hong Kong page at score 90 and 3.27s LCP. After adding a 640px image candidate, the Hong Kong page measured score 96 and 2.27s LCP with CLS 0; these are directional lab results, not field data.",
     "productionSitemap": "reachable with 63 URLs on 2026-10-08; all 63 sitemap URLs returned HTTP 200 in a HEAD crawl; local and production sitemaps have zero URL drift; pricing guides, article listing, sitemap, and RSS feed reflect the 2026-10-08 release; retired account-guidance.html, articles/ad-account-materials.html, admin.html, and product.html were previously verified as HTTP 404",
-    "protocolCanonicalization": "verified on 2026-10-08: http://shumaojs.com/ returns 200 without redirect; http://www.shumaojs.com/ 301-redirects only to the HTTP apex; https://www.shumaojs.com/ 301-redirects to https://shumaojs.com/. Cloudflare is authoritative DNS; an edge rule is required for HTTP-to-HTTPS consolidation"
+    "protocolCanonicalization": "verified on 2026-10-08: http://shumaojs.com/ returns 200 without redirect; http://www.shumaojs.com/ 301-redirects only to the HTTP apex; https://www.shumaojs.com/ 301-redirects to https://shumaojs.com/. Cloudflare is authoritative DNS; an edge rule is required for HTTP-to-HTTPS consolidation",
+    "protocolAudit2026-10-18": {
+      "sitemapLocalUrls": 63,
+      "sitemapProductionUrls": 63,
+      "sitemapDrift": 0,
+      "httpApex": "HTTP 200, no redirect (failed HTTPS canonicalization)",
+      "httpWww": "HTTP 301 to HTTP apex, then HTTP 200 (still insecure)",
+      "httpsWww": "HTTP 301 to canonical HTTPS apex (passes)",
+      "action": "Configure Cloudflare edge redirects: HTTP apex to HTTPS apex; both www schemes to HTTPS apex, preserving path and query. Re-run deployment_drift_audit.py afterward."
+    },
+    "externalLinkAudit2026-10-18": {
+      "checked": 217,
+      "reachable": 184,
+      "confirmedBroken": 0,
+      "needsReview": 3,
+      "unverified": 30,
+      "note": "403/401/429 and network errors are not counted as broken; automated audit cannot confirm those destinations."
+    },
+    "cruxFieldData": "Unavailable for shumaojs.com because the GSC Wizard connector account does not have this property connected; previous Lighthouse results are lab data only."
   },
   "nextPriorities": [
-    "For the next Chinese-language batch, prioritize Simplified Chinese commercial intent: 谷歌广告代投, 谷歌开户, 谷歌排名, and 谷歌广告; preserve US English and Hong Kong Traditional Chinese pages as localized clusters rather than removing them",
-    "After this content update is deployed, compare the same target queries and landing pages in Search Console over the next 7 and 28 days; obtain the previous-period export before claiming improvement",
+    "Cloudflare administrator action: enable permanent HTTP-to-HTTPS redirects at the edge for the apex and www hosts while preserving paths and query strings; validate both aliases with deployment_drift_audit.py",
+    "Connect or share sc-domain:shumaojs.com with the Google account currently connected to GSC Wizard, then export 7-day, 28-day, and prior-period query/page/country data; current connector cannot access the property",
+    "After the October 18 Google Ads Ad Rank guide deployment and once GSC access is restored, compare query impressions, clicks, pages, countries, and position for 谷歌广告代投, 谷歌开户, 谷歌排名, 谷歌广告, Ad Rank, and Google Ads ad position; do not infer search volume from SERPs",
+    "For the next Chinese-language batch, prioritize Simplified Chinese commercial intent while preserving US English and Hong Kong Traditional Chinese pages as localized clusters",
     "Export URL samples from the 30 discovered-not-indexed, 7 crawled-not-indexed, and 18 not-found groups; compare them against the sitemap and legacy URL retirements before requesting indexing or restoring anything",
     "Open Search Console Search results and export query, page, and country data for the last 7 and 28 days and the preceding comparison periods",
     "In Cloudflare, enable Always Use HTTPS and add a permanent redirect for www.shumaojs.com to https://shumaojs.com while preserving paths and query strings; rerun scripts/deployment_drift_audit.py and require both redirect checks to pass",

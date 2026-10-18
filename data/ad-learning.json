@@ -1,7 +1,64 @@
 {
-  "generatedAt": "2026-09-11T01:21:16.034Z",
+  "generatedAt": "2026-10-18T16:07:23.154Z",
   "sourcesChecked": 6,
+  "sourcesAvailable": 3,
   "items": [
+    {
+      "title": "Your ROAS Went Up. Where Did It Come From?",
+      "url": "https://ppchero.com/your-roas-went-up-where-did-it-come-from/",
+      "source": "PPC Hero",
+      "publishedAt": "2026-10-15T09:00:00.000Z",
+      "category": "转化与落地页",
+      "summary": "Discover how Google Ads conversion tracking errors, duplicate conversions and static values can inflate ROAS, and how to audit your settings to get a more accurate picture of campa"
+    },
+    {
+      "title": "Guide your campaign spending with new priority and allocation features",
+      "url": "https://blog.google/products/ads-commerce/channel-prioritization-budget-allocation/",
+      "source": "Google Ads & Commerce Blog",
+      "publishedAt": "2026-10-14T15:00:00.000Z",
+      "category": "Google Ads",
+      "summary": "New controls in Google Ads let marketers categorize channel groupings by priority and better control how budget is allocated"
+    },
+    {
+      "title": "Beyond Search: Winning Local Customers on Display & Demand Gen",
+      "url": "https://ppchero.com/beyond-search-winning-local-customers-on-display-demand-gen/",
+      "source": "PPC Hero",
+      "publishedAt": "2026-10-13T12:53:20.000Z",
+      "category": "转化与落地页",
+      "summary": "Discover how to win more local customers with Google Display and Demand Gen ads using pain-point targeting, tailored creative and better landing pages."
+    },
+    {
+      "title": "AI Landing Pages: From Project Plan to Published Page",
+      "url": "https://www.socialmediaexaminer.com/ai-landing-pages-from-project-plan-to-published-page/",
+      "source": "Social Media Examiner",
+      "publishedAt": "2026-10-13T10:00:00.000Z",
+      "category": "转化与落地页",
+      "summary": "Wondering how to use AI to build landing pages that convert without hiring a developer or designer? Want a step-by-step workflow for creating landing pages with ChatGPT and Codex,"
+    },
+    {
+      "title": "Landing Page Best Practices: When to Trust Them and When to Question Them",
+      "url": "https://ppchero.com/landing-page-best-practices-2/",
+      "source": "PPC Hero",
+      "publishedAt": "2026-10-02T13:27:12.000Z",
+      "category": "转化与落地页",
+      "summary": "Use landing page best practices as a starting point when a/b testing. Let your account data guide what to test, how to test it, and when to challenge the standard in practice."
+    },
+    {
+      "title": "YouTube Performance Analysis, Facebook Ads Changes, and Industry News",
+      "url": "https://www.socialmediaexaminer.com/youtube-performance-analysis-facebook-ads-changes-and-industry-news/",
+      "source": "Social Media Examiner",
+      "publishedAt": "2026-09-22T09:30:00.000Z",
+      "category": "Meta / Facebook",
+      "summary": "Here's a recap of the most important insights, trends, and updates you need to know about today! Catch up in minutes and go into the rest of the week prepared. In today's edition:"
+    },
+    {
+      "title": "Proving the Value of Paid Search With Incrementality Testing",
+      "url": "https://ppchero.com/proving-the-value-of-paid-search-with-incrementality-testing/",
+      "source": "PPC Hero",
+      "publishedAt": "2026-09-16T14:33:29.000Z",
+      "category": "搜索广告",
+      "summary": "Attribution has long been one of marketers’ greatest challenges, but incrementality testing offers a more sophisticated view of true paid search outcomes."
+    },
     {
       "title": "Make AI Max work for your business with new testing and planning tools.",
       "url": "https://blog.google/products/ads-commerce/ai-max-testing-planning-tools/",
@@ -108,6 +165,13 @@
     }
   ],
   "topicIdeas": [
+    "转化与落地页：Your ROAS Went Up. Where Did It Come From?",
+    "Google Ads：Guide your campaign spending with new priority and allocation features",
+    "转化与落地页：Beyond Search: Winning Local Customers on Display & Demand Gen",
+    "转化与落地页：AI Landing Pages: From Project Plan to Published Page",
+    "转化与落地页：Landing Page Best Practices: When to Trust Them and When to Question Them",
+    "Meta / Facebook：YouTube Performance Analysis, Facebook Ads Changes, and Industry News",
+    "搜索广告：Proving the Value of Paid Search With Incrementality Testing",
     "搜索广告：Make AI Max work for your business with new testing and planning tools.",
     "Google Ads：Google Ads Target Bid Strategy Changes: What Changed in August 2026 and What to Do Now",
     "广告投放：How to use multiple MMMs to make better paid media decisions",
@@ -118,7 +182,6 @@
     "广告投放：The Performance Max Brand Leak Audit: Measuring the Spend You Would Have Won Anyway",
     "Google 搜索广告关键词怎么分组",
     "外贸独立站投放前落地页检查清单",
-    "Meta 广告素材测试从哪些角度开始",
-    "广告转化追踪为什么比点击量更重要"
+    "Meta 广告素材测试从哪些角度开始"
   ]
 }

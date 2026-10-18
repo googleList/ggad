@@ -4,6 +4,7 @@ const path = require("path");
 const root = path.resolve(__dirname, "..");
 const dataPath = path.join(root, "data", "ad-learning.json");
 const outputHtmlPath = path.join(root, "ad-learning.html");
+const sitemapPath = path.join(root, "sitemap.xml");
 const stateDir = path.join(root, ".agents", "loops");
 const statePath = path.join(stateDir, "ad-learning-collector.json");
 const logPath = path.join(stateDir, "ad-learning-collector.log");
@@ -164,6 +165,24 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function localDate(value) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(new Date(value));
+  const date = Object.fromEntries(parts.map(({ type, value: part }) => [type, part]));
+  return `${date.year}-${date.month}-${date.day}`;
+}
+
+function updateSitemapLastmod(date) {
+  const sitemap = fs.readFileSync(sitemapPath, "utf8");
+  const pattern = /(<url>\s*<loc>https:\/\/shumaojs\.com\/ad-learning\.html<\/loc>\s*<lastmod>)[^<]*(<\/lastmod>[\s\S]*?<\/url>)/;
+  if (!pattern.test(sitemap)) throw new Error("The ad-learning sitemap entry is missing or malformed.");
+  fs.writeFileSync(sitemapPath, sitemap.replace(pattern, `$1${date}$2`));
+}
+
 function renderHtml(data) {
   const cards = data.items.slice(0, 18).map((item) => {
     const isLocal = !/^https?:\/\//i.test(item.url);
@@ -192,13 +211,33 @@ function renderHtml(data) {
   <title>每周广告投放技巧与教材 | 自动采集资源 | 昆明振润达商贸有限公司</title>
   <meta name="description" content="每周自动采集广告投放技巧、Google Ads 教材、Meta 广告学习资源、落地页优化和转化追踪相关文章摘要，保留原文链接。">
   <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://shumaojs.com/ad-learning.html">
+  <meta property="og:title" content="每周广告投放技巧与教材 | 昆明振润达">
+  <meta property="og:description" content="精选广告平台官方与行业资源，了解 Google Ads、Meta 广告、落地页和转化追踪动态。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shumaojs.com/ad-learning.html">
+  <meta property="og:image" content="https://shumaojs.com/assets/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="每周广告投放技巧与教材 | 昆明振润达">
+  <meta name="twitter:description" content="精选广告平台官方与行业资源，了解 Google Ads、Meta 广告、落地页和转化追踪动态。">
+  <meta name="twitter:image" content="https://shumaojs.com/assets/og-cover.png">
   <meta name="theme-color" content="#0f5f9f">
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <script src="site-v20260930.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://shumaojs.com/"},
+      {"@type": "ListItem", "position": 2, "name": "每周广告投放技巧与教材", "item": "https://shumaojs.com/ad-learning.html"}
+    ]
+  }
+  </script>
 </head>
 <body class="legal-page">
   <header class="legal-header">
@@ -208,7 +247,6 @@ function renderHtml(data) {
     </a>
     <nav class="legal-nav" aria-label="页面导航">
       <a href="index.html">首页</a>
-      <a href="index.html#scope">服务</a>
       <div class="nav-dropdown">
         <button class="nav-drop-toggle" type="button" aria-expanded="false" aria-haspopup="true">广告代投</button>
         <div class="nav-dropdown-menu" role="menu">
@@ -228,9 +266,9 @@ function renderHtml(data) {
   </header>
 
   <main class="legal-content resource-page">
-    <p class="label">Weekly Learning</p>
+    <p class="label">广告学习</p>
     <h1>每周广告投放技巧与教材</h1>
-    <p class="legal-updated">最近更新：${escapeHtml(data.generatedAt.slice(0, 10))}。这个页面由 GitHub Actions 每周自动更新，只保存标题、摘要、来源和原文链接。</p>
+    <p class="legal-updated">最近检查：${escapeHtml(localDate(data.generatedAt))}。本次读取 ${escapeHtml(data.sourcesAvailable)} / ${escapeHtml(data.sourcesChecked)} 个来源；页面只保存标题、摘要、来源和原文链接。</p>
 
     <section>
       <h2>本周资源</h2>
@@ -304,6 +342,10 @@ async function main() {
     }
   }
 
+  if (errors.length === sources.length) {
+    throw new Error("All article sources failed; refusing to refresh the public page with stale data.");
+  }
+
   const fresh = [];
   for (const item of collected.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))) {
     const key = itemKey(item);
@@ -334,12 +376,14 @@ async function main() {
   const data = {
     generatedAt: new Date().toISOString(),
     sourcesChecked: sources.length,
+    sourcesAvailable: sources.length - errors.length,
     items,
     topicIdeas
   };
 
   fs.writeFileSync(dataPath, `${JSON.stringify(data, null, 2)}\n`);
   fs.writeFileSync(outputHtmlPath, renderHtml(data));
+  updateSitemapLastmod(localDate(data.generatedAt));
   fs.writeFileSync(statePath, `${JSON.stringify({
     loop: "ad-learning-collector",
     lastRun: data.generatedAt,

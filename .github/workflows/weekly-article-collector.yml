@@ -1,0 +1,76 @@
+name: Weekly Article Collector
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 1 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: weekly-article-collector
+  cancel-in-progress: false
+
+jobs:
+  refresh-public-learning:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Refresh curated advertising resources
+        run: node tools/collect-ad-learning.js
+
+      - name: Commit changed resource data and page
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ad-learning.json ad-learning.html sitemap.xml
+          if git diff --cached --quiet; then
+            echo "No resource changes to commit."
+          else
+            git commit -m "chore: refresh weekly advertising resources"
+            git push
+          fi
+
+  collect-research-briefs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect metadata and research briefs
+        run: >-
+          python -B scripts/collect_articles.py
+          --sources data/article-sources.json
+          --max-pages 5
+          --max-per-source 40
+          --detail-limit 30
+          --output "$RUNNER_TEMP/collected-articles.json"
+          --report "$RUNNER_TEMP/collected-articles.html"
+
+      - name: Upload research artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-article-research-${{ github.run_number }}
+          path: |
+            ${{ runner.temp }}/collected-articles.json
+            ${{ runner.temp }}/collected-articles.html
+          if-no-files-found: warn
+          retention-days: 90

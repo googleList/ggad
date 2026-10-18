@@ -6,6 +6,7 @@ __pycache__/
 .audit-shots/
 reports/lighthouse/raw/
 reports/psi-*-live.json
+.agents/loops/
 
 # Raw Search Console exports may contain commercially sensitive query data
 data/search-console/*.csv

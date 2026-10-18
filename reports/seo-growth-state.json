@@ -6,12 +6,12 @@
   "targetEndAt": "2026-12-26",
   "sprintGoal": "1000 average daily Google organic visits",
   "goalIsGuaranteed": false,
-  "lastRunAt": "2026-10-18",
+  "lastRunAt": "2026-10-19",
   "deployment": {
-    "status": "deployed",
-    "reason": "Simplified Chinese article-hub and homepage updates were fast-forwarded to origin/main in commit 14a8e43. GitHub Pages workflow 39141579521 completed successfully. Cache-busted production checks returned HTTP 200 and confirmed the updated article-list title, homepage onboarding guide, and sitemap lastmod.",
-    "localCommit": "14a8e43",
-    "verifiedAt": "2026-10-18"
+    "status": "pending",
+    "reason": "Weekly article collector recovery and generated learning-page metadata fixes are validated locally; production deployment verification is pending.",
+    "localCommit": "pending",
+    "verifiedAt": null
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -65,16 +65,17 @@
     "us-hk-agency-pricing-model-comparison-refresh",
     "simplified-chinese-google-ads-intent-refresh",
     "simplified-chinese-google-ads-ad-rank-guide-refresh",
-    "simplified-chinese-google-ads-article-hub-prioritization"
+    "simplified-chinese-google-ads-article-hub-prioritization",
+    "weekly-ad-learning-collector-recovery"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-18",
-    "localHead": "fc86c9b",
-    "remoteHead": "fc86c9b",
+    "checkedAt": "2026-10-19",
+    "localHead": "ad7b8e4",
+    "remoteHead": "ad7b8e4",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is 14a8e43; fc86c9b is the current documentation-only tip."
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content release is 14a8e43; ad7b8e4 is the synchronized baseline before the weekly collector recovery batch."
   },
   "dataAccess": {
     "googleSearchConsole": false,
@@ -142,6 +143,14 @@
       "needsReview": 3,
       "unverified": 30,
       "note": "403/401/429 and network errors are not counted as broken; automated audit cannot confirm those destinations."
+    },
+    "adLearningCollection2026-10-19": {
+      "itemsListed": 20,
+      "sourcesConfigured": 6,
+      "sourcesAvailable": 3,
+      "newItemsFound": 7,
+      "unavailableSources": ["Think with Google", "Search Engine Land", "WordStream"],
+      "note": "Collected current RSS metadata and short excerpts; unavailable sources were not represented as refreshed."
     },
     "cruxFieldData": "Unavailable for shumaojs.com because the GSC Wizard connector account does not have this property connected; previous Lighthouse results are lab data only."
   },

@@ -87,12 +87,16 @@ TRADITIONAL_TO_SIMPLIFIED = str.maketrans({
 
 
 def encode_url(url: str) -> str:
-    """urllib requires ASCII request paths, so encode Chinese slugs before fetching."""
+    """Percent-encode non-ASCII URL components before passing them to urllib."""
     parts = urlsplit(url)
     path = quote(parts.path, safe="/%")
     query = quote(parts.query, safe="=&%:/?+-_.~,")
     fragment = quote(parts.fragment, safe="=&%:/?+-_.~,")
     return urlunsplit((parts.scheme, parts.netloc, path, query, fragment))
+
+
+def collection_failed(source_count: int, error_count: int) -> bool:
+    return source_count == 0 or error_count >= source_count
 
 
 def fetch(url: str, timeout: int = 25) -> str:
@@ -541,7 +545,7 @@ def main() -> int:
     report_path.write_text(render_report(result), encoding="utf-8")
     print(f"Wrote {len(all_items)} articles to {output_path}")
     print(f"Wrote HTML report to {report_path}")
-    return 0 if not errors else 1
+    return 1 if collection_failed(len(config.get("sources", [])), len(errors)) else 0
 
 
 if __name__ == "__main__":

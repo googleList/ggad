@@ -32,7 +32,11 @@ python scripts/collect_articles.py --max-pages 5 --max-per-source 40 --detail-li
 
 ## GitHub 自动运行
 
-`.github/workflows/weekly-article-collector.yml` 已配置每周一自动运行，也支持在 GitHub Actions 页面手动触发。
+`.github/workflows/weekly-article-collector.yml` 每周一 09:30（北京时间）运行，也支持在 GitHub Actions 页面手动触发。
+
+- 广告学习资源采集器读取可访问的官方及行业 RSS，只更新 `ad-learning.html`、`data/ad-learning.json` 和对应的 sitemap `lastmod`；所有来源都失败时会停止，避免把过期内容标成新内容。
+- Kick Ads 和 HornTech 文章研究采集结果作为 GitHub Actions 工件保存 90 天，不自动发布到网站。工件只包含标题、短摘要、来源链接、图片参考地址和研究提纲，不抓取或发布全文。
+- 部分来源失败会保留已成功采集的结果并在运行日志/工件中记录；中文 URL 会先进行百分号编码。
 
 ## 新增来源
 

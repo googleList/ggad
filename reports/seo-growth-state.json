@@ -167,12 +167,12 @@
       "note": "403/401/429 and network errors are not counted as broken; automated audit cannot confirm those destinations."
     },
     "adLearningCollection2026-10-19": {
-      "itemsCollected": 20,
+      "itemsCollected": 24,
       "sourcesConfigured": 6,
-      "sourcesAvailable": 3,
-      "newItemsFound": 7,
-      "unavailableSources": ["Think with Google", "Search Engine Land", "WordStream"],
-      "note": "Collected current RSS metadata and short excerpts; unavailable sources were not represented as refreshed."
+      "sourcesAvailable": 5,
+      "newItemsFound": null,
+      "generatedAt": "2026-10-19T06:23:27.442Z",
+      "note": "GitHub Actions Weekly Article Collector run 39209613307 succeeded and refreshed the 24-item data file; exact new-item delta was not independently established. Production JSON still served the previous generation timestamp because a GITHUB_TOKEN push does not trigger the separate Pages workflow. The weekly collector workflow now contains a dependent Pages deploy job; validate it on its next run."
     },
     "cruxFieldData": "Unavailable for shumaojs.com because the GSC Wizard connector account does not have this property connected; previous Lighthouse results are lab data only."
   },

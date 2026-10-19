@@ -81,3 +81,32 @@ jobs:
             ${{ runner.temp }}/collected-articles.html
           if-no-files-found: warn
           retention-days: 90
+
+  deploy-refreshed-site:
+    name: Deploy refreshed site to GitHub Pages
+    needs: refresh-public-learning
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Check out the latest main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy refreshed site
+        id: deployment
+        uses: actions/deploy-pages@v5

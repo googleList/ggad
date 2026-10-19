@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-19",
   "deployment": {
     "status": "deployed",
-    "reason": "Commit 65ef21f repaired the weekly collector-to-Pages publish chain. Collector run 39213751403 and Pages deploy run 39213751419 both succeeded; production data/ad-learning.json reports generatedAt 2026-10-19T07:05:36.464Z with 24 items and 5/6 sources available. The sitemap returns 63 URLs and homepage lastmod 2026-10-18.",
-    "localCommit": "b3ab054",
+    "reason": "Commit b53d8d3 updated the homepage, Google Ads service, and article hub metadata for exact Simplified Chinese query wording. Pages run 39214583495 succeeded; all three pages and sitemap return HTTP 200, the sitemap has 63 URLs, and edited URL lastmod values are 2026-10-19. The weekly collector-to-Pages deploy chain was also verified against live 24-item resource data.",
+    "localCommit": "b53d8d3",
     "verifiedAt": "2026-10-19"
   },
   "completedBatches": [
@@ -75,15 +75,16 @@
   ],
   "repositorySync": {
     "checkedAt": "2026-10-19",
-    "localHead": "b3ab054",
-    "remoteHead": "b3ab054",
+    "localHead": "b53d8d3",
+    "remoteHead": "b53d8d3",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese content, indexing follow-up, and weekly collector deploy chain are deployed; the current checked repository tip is b3ab054."
+    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese query metadata, indexing follow-up, and weekly collector deploy chain are deployed; the current checked repository tip is b53d8d3."
   },
   "dataAccess": {
     "googleSearchConsole": true,
+    "gscWizardPropertyConnected": false,
     "latestSearchConsoleAccess": "Read-only access to sc-domain:shumaojs.com was available in the user's signed-in browser on 2026-10-19. The GSC Wizard connector remains unconnected. The live 7-day and 28-day performance tables and a target-query regex filter were inspected; query rows are subject to Search Console privacy and reporting limits.",
     "searchPerformance": {
       "property": "sc-domain:shumaojs.com",

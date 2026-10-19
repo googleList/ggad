@@ -1,0 +1,30 @@
+/* Tabler Icons 3.46.0, MIT License. See LICENSE.txt. */
+@font-face{font-family:"tabler-icons";font-style:normal;font-weight:400;font-display:swap;src:url("./tabler-subset-v1.woff2") format("woff2")}
+.ti{font-family:"tabler-icons"!important;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.ti-ad-2:before{content:"\ef1f"}
+.ti-article:before{content:"\f1e2"}
+.ti-book-2:before{content:"\efc5"}
+.ti-brand-facebook:before{content:"\ec1a"}
+.ti-brand-google:before{content:"\ec1f"}
+.ti-brand-meta:before{content:"\efb0"}
+.ti-brand-telegram:before{content:"\ec26"}
+.ti-brand-x:before{content:"\fc0f"}
+.ti-building-store:before{content:"\ea4e"}
+.ti-chart-line:before{content:"\ea5c"}
+.ti-circle:before{content:"\ea6b"}
+.ti-circle-check:before{content:"\ea67"}
+.ti-coin:before{content:"\eb82"}
+.ti-external-link:before{content:"\ea99"}
+.ti-file-certificate:before{content:"\ed4d"}
+.ti-file-description:before{content:"\f028"}
+.ti-home:before{content:"\eac1"}
+.ti-lock:before{content:"\eae2"}
+.ti-menu-2:before{content:"\ec42"}
+.ti-message-circle:before{content:"\eaed"}
+.ti-photo:before{content:"\eb0a"}
+.ti-search:before{content:"\eb1c"}
+.ti-shield-check:before{content:"\eb22"}
+.ti-speakerphone:before{content:"\ed61"}
+.ti-tools:before{content:"\ebca"}
+.ti-world-www:before{content:"\f38f"}
+.ti-x:before{content:"\eb55"}

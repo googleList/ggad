@@ -760,10 +760,14 @@ summary:focus-visible {
 }
 
 .ti {
+  display: inline-block;
   flex: 0 0 auto;
+  width: 1em;
+  height: 1em;
   color: currentColor;
   font-size: 1.08em;
   line-height: 1;
+  text-align: center;
 }
 
 .nav a,

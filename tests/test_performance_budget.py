@@ -1,3 +1,5 @@
+import hashlib
+import json
 import sys
 import tempfile
 import unittest
@@ -7,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from performance_budget_check import audit  # noqa: E402
+from performance_budget_check import audit, audit_icon_assets  # noqa: E402
 
 
 BASE_CSS = """
@@ -108,6 +110,43 @@ class PerformanceBudgetTests(unittest.TestCase):
         css = BASE_CSS + "\n.hero { grid-template-columns: 1fr minmax(320px, 42vw); }"
         errors = audit(self.fixture('<img src="logo.svg" alt="Brand">', css))
         self.assertTrue(any("bounded container" in error for error in errors))
+
+    def icon_fixture(self) -> Path:
+        root = self.fixture('<img src="logo.svg" alt="Brand">')
+        directory = root / "assets" / "icons"
+        directory.mkdir(parents=True)
+        font = b"wOF2-test-font"
+        (directory / "tabler-subset-v1.woff2").write_bytes(font)
+        (directory / "tabler-subset-v1.css").write_text(
+            '.ti-home:before{content:"\\eac1"}', encoding="utf-8"
+        )
+        (directory / "manifest.json").write_text(json.dumps({
+            "subsetFontBytes": len(font),
+            "subsetFontSha256": hashlib.sha256(font).hexdigest(),
+            "glyphs": {"home": "eac1"},
+        }), encoding="utf-8")
+        return root
+
+    def test_local_icon_subset_passes(self) -> None:
+        self.assertEqual(audit_icon_assets(self.icon_fixture(), "assets/icons/tabler-subset-v1.css"), [])
+
+    def test_full_external_icon_font_fails(self) -> None:
+        root = self.icon_fixture()
+        errors = audit_icon_assets(root, "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.46.0")
+        self.assertTrue(any("full external icon font" in error for error in errors))
+
+    def test_missing_icon_glyph_mapping_fails(self) -> None:
+        root = self.icon_fixture()
+        (root / "assets/icons/tabler-subset-v1.css").write_text("", encoding="utf-8")
+        errors = audit_icon_assets(root, "assets/icons/tabler-subset-v1.css")
+        self.assertTrue(any("glyph mapping: home" in error for error in errors))
+
+    def test_corrupt_or_oversized_icon_font_fails(self) -> None:
+        root = self.icon_fixture()
+        (root / "assets/icons/tabler-subset-v1.woff2").write_bytes(b"x" * 15000)
+        errors = audit_icon_assets(root, "assets/icons/tabler-subset-v1.css")
+        self.assertTrue(any("exceed" in error for error in errors))
+        self.assertTrue(any("does not match" in error for error in errors))
 
 
 if __name__ == "__main__":

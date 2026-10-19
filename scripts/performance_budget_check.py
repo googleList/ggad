@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+import hashlib
+import json
 import re
 import sys
 from html.parser import HTMLParser
@@ -14,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED_DIRS = {".git", ".audit-shots", "reports"}
 MAX_CSS_BYTES = 55 * 1024
 MAX_JS_BYTES = 18 * 1024
+MAX_ICON_ASSET_BYTES = 12 * 1024
 STABLE_IMAGE_SELECTORS = (
     ".brand img",
     ".home-guide img",
@@ -80,6 +83,44 @@ def local_script_paths(root: Path) -> set[Path]:
     return paths
 
 
+def audit_icon_assets(root: Path, scripts: str) -> list[str]:
+    errors: list[str] = []
+    if "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont" in scripts:
+        errors.append("load the local icon subset instead of the full external icon font")
+    if "assets/icons/tabler-subset-v1.css" not in scripts:
+        return errors
+    directory = root / "assets" / "icons"
+    css_path = directory / "tabler-subset-v1.css"
+    font_path = directory / "tabler-subset-v1.woff2"
+    manifest_path = directory / "manifest.json"
+    for path in (css_path, font_path, manifest_path):
+        if not path.is_file():
+            errors.append(f"local icon asset is missing: {path.name}")
+    if errors:
+        return errors
+    font = font_path.read_bytes()
+    if len(font) + css_path.stat().st_size > MAX_ICON_ASSET_BYTES:
+        errors.append(f"local icon CSS and font exceed {MAX_ICON_ASSET_BYTES} bytes")
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, UnicodeDecodeError):
+        return errors + ["local icon manifest is invalid JSON"]
+    if (
+        len(font) != manifest.get("subsetFontBytes")
+        or hashlib.sha256(font).hexdigest() != manifest.get("subsetFontSha256")
+    ):
+        errors.append("local icon font does not match its generated manifest")
+    glyphs = manifest.get("glyphs")
+    if not isinstance(glyphs, dict) or not glyphs:
+        return errors + ["local icon manifest has no glyph mappings"]
+    css = css_path.read_text(encoding="utf-8")
+    mappings = dict(re.findall(r'\.ti-([a-z0-9-]+):before\{content:"\\([0-9a-f]+)"\}', css))
+    for name, codepoint in glyphs.items():
+        if mappings.get(name) != codepoint:
+            errors.append(f"local icon CSS is missing its glyph mapping: {name}")
+    return errors
+
+
 def audit(root: Path = ROOT) -> list[str]:
     errors: list[str] = []
     css_path = root / "styles.css"
@@ -121,6 +162,7 @@ def audit(root: Path = ROOT) -> list[str]:
 
     existing_scripts = [path for path in script_paths if path.is_file()]
     combined_js = "\n".join(path.read_text(encoding="utf-8") for path in existing_scripts)
+    errors.extend(audit_icon_assets(root, combined_js))
     if existing_scripts and "iconStylesheet.media = \"print\"" not in combined_js:
         errors.append("icon stylesheet is no longer loaded with the non-blocking media pattern")
     if existing_scripts and "iconStylesheet.media = \"all\"" not in combined_js:

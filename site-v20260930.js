@@ -2,7 +2,7 @@ document.documentElement.classList.add("js");
 
 const iconStylesheet = document.createElement("link");
 iconStylesheet.rel = "stylesheet";
-iconStylesheet.href = "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.46.0/dist/tabler-icons.min.css";
+iconStylesheet.href = new URL("assets/icons/tabler-subset-v1.css", document.currentScript.src).href;
 iconStylesheet.media = "print";
 iconStylesheet.addEventListener("load", () => {
   iconStylesheet.media = "all";

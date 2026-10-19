@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-19",
   "deployment": {
     "status": "deployed",
-    "reason": "Commit b53d8d3 updated the homepage, Google Ads service, and article hub metadata for exact Simplified Chinese query wording. Pages run 39214583495 succeeded; all three pages and sitemap return HTTP 200, the sitemap has 63 URLs, and edited URL lastmod values are 2026-10-19. Report/state commit 9619295 also deployed successfully in Pages run 39213925753. The weekly collector-to-Pages deploy chain was verified against live 24-item resource data.",
-    "localCommit": "9619295",
+    "reason": "Content commits 3bca678 and 25b5d07 deployed the local icon subset, optimized hero media, mobile CTA stability fix and predeploy quality gates. Pages runs 39216786100 and 39218159617 and collector run 39218159776 succeeded. Collector content commit f18a813 is deployed; production browser checks passed for all 63 sitemap pages and mobile/narrow/ultrawide views. Performance measurements and raw Lighthouse archives are in reports/lighthouse/2026-10-19/.",
+    "localCommit": "f18a813",
     "verifiedAt": "2026-10-19"
   },
   "completedBatches": [
@@ -72,16 +72,18 @@
     "gsc-url-inspection-priority-crawl-and-homepage-sitemap-lastmod-2026-10-19",
     "weekly-collector-pages-deploy-chain-verified-2026-10-19",
     "exact-simplified-chinese-query-title-alignment-2026-10-19",
-    "current-production-sitemap-and-gsc-psi-access-check-2026-10-19"
+    "current-production-sitemap-and-gsc-psi-access-check-2026-10-19",
+    "local-tabler-icon-subset-and-render-integrity-2026-10-19",
+    "hero-lcp-mobile-cta-stability-and-predeploy-quality-gates-2026-10-19"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-19",
-    "localHead": "9619295",
-    "remoteHead": "9619295",
+    "checkedAt": "2026-10-19T07:50:31Z",
+    "localHead": "f18a813",
+    "remoteHead": "f18a813",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Continue future SEO batches from origin/main and retain the GitHub Pages workflow and CNAME file. The Simplified Chinese query metadata, indexing follow-up, and weekly collector deploy chain are deployed; the current checked repository tip is 9619295."
+    "safeAction": "Fetch origin/main before the next batch and retain the Pages workflow and CNAME. The last verified content release is f18a813; report/archive commits may follow this checkpoint. Preserve the existing uncommitted internal-link and historical Lighthouse artifacts."
   },
   "dataAccess": {
     "googleSearchConsole": true,
@@ -149,7 +151,21 @@
     },
     "ga4": false,
     "cloudflareAnalytics": false,
-    "pageSpeedInsights": "A fresh PageSpeed API request on 2026-10-19 returned HTTP 429; no new measurements were obtained. Field CWV remains unavailable. Lighthouse 13.5.0 production mobile lab runs measured the US page at score 100 and 0.99s LCP and the Hong Kong page at score 90 and 3.27s LCP. After adding a 640px image candidate, the Hong Kong page measured score 96 and 2.27s LCP with CLS 0; these historical lab results are directional, not field data.",
+    "pageSpeedInsights": "The PageSpeed API returned HTTP 429 on 2026-10-19. Local Lighthouse 13.5.0 was then run against production with mobile simulation: homepage score 96, LCP 2.13s, CLS 0.000022; Google Ads service score 98, LCP 1.95s, CLS 0.000029 after the release. These are lab results, not field CWV or location-specific US/HK user measurements.",
+    "mobileLabAudit2026-10-19": {
+      "summary": "reports/lighthouse/2026-10-19/summary.json",
+      "browserEvidence": "reports/lighthouse/2026-10-19/browser-production.json",
+      "measurementType": "Single cold mobile Lighthouse run for baseline, icon-only intermediate, and final release; preserve all runs and treat timing/score differences as directional",
+      "homepage": {"beforeScore": 93, "afterScore": 96, "beforeLcpMs": 3011.8195, "afterLcpMs": 2130.012, "beforeCls": 0.0010317511, "afterCls": 0.0000220025},
+      "googleAdsService": {"beforeScore": 94, "afterScore": 98, "beforeLcpMs": 1969.722, "afterLcpMs": 1949.381, "beforeCls": 0.1056461612, "afterCls": 0.0000294202},
+      "iconFontBytes": {"before": 462200, "after": 4740},
+      "mobileHeroBytes": {"before": 181541, "after": 44516},
+      "delayedScriptHeroShiftPx": {"before": 58, "after": 0},
+      "productionBrowserChecks": 79,
+      "browserFailures": 0,
+      "unitTestsPassed": 65,
+      "fieldCwvVerified": false
+    },
     "productionSitemap": "reachable with 63 URLs on 2026-10-19; deployment drift audit generated 2026-10-19T07:08:22Z found 63 local and 63 production URLs with zero URL drift; homepage, Google Ads service, and article hub returned HTTP 200 with current title metadata; edited service and article URLs have lastmod 2026-10-19",
     "protocolCanonicalization": "verified on 2026-10-08: http://shumaojs.com/ returns 200 without redirect; http://www.shumaojs.com/ 301-redirects only to the HTTP apex; https://www.shumaojs.com/ 301-redirects to https://shumaojs.com/. Cloudflare is authoritative DNS; an edge rule is required for HTTP-to-HTTPS consolidation",
     "protocolAudit2026-10-19": {
@@ -175,10 +191,10 @@
       "sourcesConfigured": 6,
       "sourcesAvailable": 5,
       "newItemsFound": null,
-      "generatedAt": "2026-10-19T07:05:36.464Z",
-      "note": "GitHub Actions Weekly Article Collector run 39213751403 and Pages run 39213751419 succeeded. The bot-generated update is live at https://shumaojs.com/data/ad-learning.json with 24 items and 5/6 sources available; the site now deploys from the dependent collector workflow job. Exact new-item delta was not independently established."
+      "generatedAt": "2026-10-19T07:46:43.458Z",
+      "note": "Collector run 39218159776 succeeded, including the new predeploy quality checks and Pages deployment. Bot commit f18a813 refreshed the generation timestamp; the 24-item resource list and 5/6 source availability were unchanged."
     },
-    "cruxFieldData": "Unavailable for shumaojs.com because the GSC Wizard connector account does not have this property connected; previous Lighthouse results are lab data only."
+    "cruxFieldData": "Not obtained: the PageSpeed API returned HTTP 429 and no CrUX/RUM field payload was retrieved. A missing GSC Wizard property does not establish whether public CrUX data exists. The fresh Lighthouse measurements are lab-only."
   },
   "nextPriorities": [
     "After the Simplified Chinese pages have had time to be crawled and accrue impressions, recheck each target query and the matching pages in Search Console; do not interpret filtered zero rows as zero demand",
@@ -201,8 +217,8 @@
     "Validate indexing, impressions, and query terminology for the new US and Hong Kong enhanced-conversions-for-leads guides",
     "Validate indexing, impressions, and qualified-lead query themes for the new US and Hong Kong Performance Max guides",
     "Review whether future US and Hong Kong content pairs qualify for reciprocal hreflang before publishing",
-    "Retry PageSpeed Insights mobile requests after the 2026-10-19 HTTP 429 and run field and lab Core Web Vitals checks when available",
-    "Compare measured LCP, INP, and CLS against the new static performance safeguards",
+    "Obtain CrUX or RUM field LCP, INP and CLS after the 2026-10-19 PageSpeed API HTTP 429; fresh local Lighthouse results are available but do not verify field CWV",
+    "Monitor the 2026-10-19 local-font, hero-image and mobile CTA release against fresh query/page impressions and field performance before making additional title changes",
     "Validate rich-result eligibility with Google's testing tools after deployment"
   ]
 }

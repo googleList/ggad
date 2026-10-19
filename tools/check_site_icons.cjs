@@ -54,24 +54,27 @@ async function main() {
     const desktop = await browser.newContext({ viewport: { width: 1440, height: 1000 } });
     const page = await desktop.newPage();
     page.setDefaultTimeout(15000);
+    page.setDefaultNavigationTimeout(45000);
     page.on("requestfailed", (request) => {
       if (/tabler|icons\/.*woff/.test(request.url())) failedIconRequests.push(request.url());
     });
-    await page.goto(new URL("sitemap.xml", base).href);
+    await page.goto(new URL("sitemap.xml", base).href, { waitUntil: "domcontentloaded" });
     const urls = await page.evaluate(() => [...document.querySelectorAll("loc")].map((node) => node.textContent));
     if (!urls.length) throw new Error("The sitemap contains no URLs");
     for (const url of urls) {
       const pathname = new URL(url).pathname;
-      await page.goto(new URL(pathname, base).href, { waitUntil: "domcontentloaded" });
+      const response = await page.goto(new URL(pathname, base).href, { waitUntil: "domcontentloaded" });
+      if (!response || response.status() !== 200) throw new Error(`HTTP ${response?.status()}: ${pathname}`);
       if (pathname === "/" || pathname === "/google-ads.html") {
         await capture(page, path.join(output, `${pathname === "/" ? "home" : "service"}-desktop.png`));
       }
-      const result = { path: pathname, viewport: "desktop", ...(await inspect(page)) };
+      const result = { path: pathname, viewport: "desktop", httpStatus: response.status(), ...(await inspect(page)) };
       results.push(result);
       if (results.length % 10 === 0) console.log(`Checked ${results.length}/${urls.length} desktop pages`);
     }
     const mobile = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true });
     const phone = await mobile.newPage();
+    phone.setDefaultNavigationTimeout(45000);
     for (const pathname of ["/", "/google-ads.html", "/articles.html", "/articles/google-ads-basics.html", "/nav.html"]) {
       await phone.goto(new URL(pathname, base).href, { waitUntil: "domcontentloaded" });
       if (pathname === "/" || pathname === "/google-ads.html") {
@@ -100,8 +103,14 @@ async function main() {
       await capture(page, path.join(output, `home-${viewport.width}.png`));
       results.push({ path: "/", viewport: `${viewport.width}x${viewport.height}`, ...(await inspect(page)) });
     }
+    await page.locator('.hero-background-media source').evaluateAll((sources) => sources.forEach((source) => source.remove()));
+    await page.locator('.hero-background-media img').evaluate((image) => image.decode());
+    const fallback = await inspect(page);
+    if (!fallback.heroImage.loaded || !fallback.heroImage.source.endsWith(".jpg")) fallback.errors.push("JPEG hero fallback failed");
+    results.push({ path: "/", viewport: "jpeg-fallback", ...fallback });
     const stableContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true });
     const stablePage = await stableContext.newPage();
+    stablePage.setDefaultNavigationTimeout(45000);
     let releaseScript;
     const scriptGate = new Promise((resolve) => { releaseScript = resolve; });
     await stablePage.route("**/site-v20260930.js", async (route) => {

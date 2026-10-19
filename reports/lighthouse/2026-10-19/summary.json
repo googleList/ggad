@@ -1,0 +1,306 @@
+{
+  "measurementType": "Mobile Lighthouse laboratory navigation runs",
+  "limitations": "One cold navigation per phase; scores and timings vary with network and CPU conditions. These are not CrUX field CWV or INP measurements.",
+  "runs": [
+    {
+      "label": "shumao-home-before-20261019",
+      "url": "https://shumaojs.com/",
+      "fetchTime": "2026-10-19T07:22:40.926Z",
+      "lighthouseVersion": "13.5.0",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      },
+      "performanceScore": 93,
+      "lcpMs": 3011.8195,
+      "cls": 0.0010317511157152735,
+      "totalBlockingTimeMs": 28,
+      "totalTransferBytes": 783839,
+      "criticalAssets": [
+        {
+          "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&h=675&q=82",
+          "resourceBytes": 181541,
+          "transferBytes": 182045,
+          "status": 200
+        },
+        {
+          "url": "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.46.0/dist/tabler-icons.min.css",
+          "resourceBytes": 211022,
+          "transferBytes": 37826,
+          "status": 200
+        },
+        {
+          "url": "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.46.0/dist/fonts/tabler-icons.woff2?v3.46.0",
+          "resourceBytes": 462200,
+          "transferBytes": 463481,
+          "status": 200
+        }
+      ],
+      "warnings": [],
+      "rawArtifact": "shumao-home-before-20261019.json.gz"
+    },
+    {
+      "label": "shumao-home-after-20261019",
+      "url": "https://shumaojs.com/",
+      "fetchTime": "2026-10-19T07:34:41.084Z",
+      "lighthouseVersion": "13.5.0",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      },
+      "performanceScore": 91,
+      "lcpMs": 3174.29,
+      "cls": 0.00002200247238987143,
+      "totalBlockingTimeMs": 10,
+      "totalTransferBytes": 288801,
+      "criticalAssets": [
+        {
+          "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&h=675&q=82",
+          "resourceBytes": 181541,
+          "transferBytes": 182152,
+          "status": 200
+        },
+        {
+          "url": "https://shumaojs.com/assets/icons/tabler-subset-v1.css",
+          "resourceBytes": 1439,
+          "transferBytes": 1018,
+          "status": 200
+        },
+        {
+          "url": "https://shumaojs.com/assets/icons/tabler-subset-v1.woff2",
+          "resourceBytes": 4740,
+          "transferBytes": 5375,
+          "status": 200
+        }
+      ],
+      "warnings": [],
+      "rawArtifact": "shumao-home-after-20261019.json.gz"
+    },
+    {
+      "label": "shumao-home-final-20261019",
+      "url": "https://shumaojs.com/",
+      "fetchTime": "2026-10-19T07:47:22.168Z",
+      "lighthouseVersion": "13.5.0",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      },
+      "performanceScore": 96,
+      "lcpMs": 2130.0119999999997,
+      "cls": 0.00002200247238987143,
+      "totalBlockingTimeMs": 3,
+      "totalTransferBytes": 151873,
+      "criticalAssets": [
+        {
+          "url": "https://shumaojs.com/assets/hero/team-800.avif",
+          "resourceBytes": 44516,
+          "transferBytes": 45202,
+          "status": 200
+        },
+        {
+          "url": "https://shumaojs.com/assets/icons/tabler-subset-v1.css",
+          "resourceBytes": 1439,
+          "transferBytes": 1025,
+          "status": 200
+        },
+        {
+          "url": "https://shumaojs.com/assets/icons/tabler-subset-v1.woff2",
+          "resourceBytes": 4740,
+          "transferBytes": 5199,
+          "status": 200
+        }
+      ],
+      "warnings": [],
+      "rawArtifact": "shumao-home-final-20261019.json.gz"
+    },
+    {
+      "label": "shumao-service-before-20261019",
+      "url": "https://shumaojs.com/google-ads.html",
+      "fetchTime": "2026-10-19T07:31:11.269Z",
+      "lighthouseVersion": "13.5.0",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      },
+      "performanceScore": 94,
+      "lcpMs": 1969.7220000000002,
+      "cls": 0.1056461612272088,
+      "totalBlockingTimeMs": 0,
+      "totalTransferBytes": 554512,
+      "criticalAssets": [
+        {
+          "url": "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.46.0/dist/tabler-icons.min.css",
+          "resourceBytes": 211022,
+          "transferBytes": 37507,
+          "status": 200
+        },
+        {
+          "url": "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.46.0/dist/fonts/tabler-icons.woff2?v3.46.0",
+          "resourceBytes": 462200,
+          "transferBytes": 462911,
+          "status": 200
+        }
+      ],
+      "warnings": [],
+      "rawArtifact": "shumao-service-before-20261019.json.gz"
+    },
+    {
+      "label": "shumao-service-after-20261019",
+      "url": "https://shumaojs.com/google-ads.html",
+      "fetchTime": "2026-10-19T07:35:30.228Z",
+      "lighthouseVersion": "13.5.0",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      },
+      "performanceScore": 96,
+      "lcpMs": 1721.314,
+      "cls": 0.10632384454374595,
+      "totalBlockingTimeMs": 0,
+      "totalTransferBytes": 60445,
+      "criticalAssets": [
+        {
+          "url": "https://shumaojs.com/assets/icons/tabler-subset-v1.css",
+          "resourceBytes": 1439,
+          "transferBytes": 1019,
+          "status": 200
+        },
+        {
+          "url": "https://shumaojs.com/assets/icons/tabler-subset-v1.woff2",
+          "resourceBytes": 4740,
+          "transferBytes": 5221,
+          "status": 200
+        }
+      ],
+      "warnings": [],
+      "rawArtifact": "shumao-service-after-20261019.json.gz"
+    },
+    {
+      "label": "shumao-service-final-20261019",
+      "url": "https://shumaojs.com/google-ads.html",
+      "fetchTime": "2026-10-19T07:48:17.818Z",
+      "lighthouseVersion": "13.5.0",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "settings": {
+        "formFactor": "mobile",
+        "throttlingMethod": "simulate",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        }
+      },
+      "performanceScore": 98,
+      "lcpMs": 1949.3809999999999,
+      "cls": 0.00002942024402619615,
+      "totalBlockingTimeMs": 0,
+      "totalTransferBytes": 60388,
+      "criticalAssets": [
+        {
+          "url": "https://shumaojs.com/assets/icons/tabler-subset-v1.css",
+          "resourceBytes": 1439,
+          "transferBytes": 1005,
+          "status": 200
+        },
+        {
+          "url": "https://shumaojs.com/assets/icons/tabler-subset-v1.woff2",
+          "resourceBytes": 4740,
+          "transferBytes": 5239,
+          "status": 200
+        }
+      ],
+      "warnings": [],
+      "rawArtifact": "shumao-service-final-20261019.json.gz"
+    }
+  ]
+}

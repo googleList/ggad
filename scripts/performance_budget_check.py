@@ -17,6 +17,8 @@ EXCLUDED_DIRS = {".git", ".audit-shots", "reports"}
 MAX_CSS_BYTES = 55 * 1024
 MAX_JS_BYTES = 18 * 1024
 MAX_ICON_ASSET_BYTES = 12 * 1024
+MAX_HERO_IMAGE_BYTES = 250 * 1024
+MAX_MOBILE_HERO_BYTES = 64 * 1024
 STABLE_IMAGE_SELECTORS = (
     ".brand img",
     ".home-guide img",
@@ -105,6 +107,8 @@ def audit_icon_assets(root: Path, scripts: str) -> list[str]:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, UnicodeDecodeError):
         return errors + ["local icon manifest is invalid JSON"]
+    if not isinstance(manifest, dict):
+        return errors + ["local icon manifest must be an object"]
     if (
         len(font) != manifest.get("subsetFontBytes")
         or hashlib.sha256(font).hexdigest() != manifest.get("subsetFontSha256")
@@ -118,6 +122,40 @@ def audit_icon_assets(root: Path, scripts: str) -> list[str]:
     for name, codepoint in glyphs.items():
         if mappings.get(name) != codepoint:
             errors.append(f"local icon CSS is missing its glyph mapping: {name}")
+    return errors
+
+
+def audit_hero_assets(root: Path) -> list[str]:
+    html = (root / "index.html").read_text(encoding="utf-8")
+    if "assets/hero/team-" not in html:
+        return []
+    directory = root / "assets" / "hero"
+    manifest_path = directory / "manifest.json"
+    if not manifest_path.is_file():
+        return ["local hero image manifest is missing"]
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, UnicodeDecodeError):
+        return ["local hero image manifest is invalid JSON"]
+    variants = manifest.get("variants") if isinstance(manifest, dict) else None
+    if not isinstance(variants, list) or not variants:
+        return ["local hero image manifest has no variants"]
+    errors = []
+    for variant in variants:
+        name = variant.get("file", "")
+        if not name or Path(name).name != name:
+            errors.append("local hero image manifest has an invalid filename")
+            continue
+        path = directory / name
+        if not path.is_file():
+            errors.append(f"local hero image is missing: {name}")
+            continue
+        data = path.read_bytes()
+        limit = MAX_MOBILE_HERO_BYTES if variant.get("format") == "avif" and variant.get("width", 0) <= 800 else MAX_HERO_IMAGE_BYTES
+        if len(data) > limit:
+            errors.append(f"{name} exceeds its {limit}-byte hero image budget")
+        if len(data) != variant.get("bytes") or hashlib.sha256(data).hexdigest() != variant.get("sha256"):
+            errors.append(f"{name} does not match its generated manifest")
     return errors
 
 
@@ -163,6 +201,7 @@ def audit(root: Path = ROOT) -> list[str]:
     existing_scripts = [path for path in script_paths if path.is_file()]
     combined_js = "\n".join(path.read_text(encoding="utf-8") for path in existing_scripts)
     errors.extend(audit_icon_assets(root, combined_js))
+    errors.extend(audit_hero_assets(root))
     if existing_scripts and "iconStylesheet.media = \"print\"" not in combined_js:
         errors.append("icon stylesheet is no longer loaded with the non-blocking media pattern")
     if existing_scripts and "iconStylesheet.media = \"all\"" not in combined_js:

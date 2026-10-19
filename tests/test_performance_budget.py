@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from performance_budget_check import audit, audit_icon_assets  # noqa: E402
+from performance_budget_check import audit, audit_hero_assets, audit_icon_assets  # noqa: E402
 
 
 BASE_CSS = """
@@ -146,6 +146,33 @@ class PerformanceBudgetTests(unittest.TestCase):
         (root / "assets/icons/tabler-subset-v1.woff2").write_bytes(b"x" * 15000)
         errors = audit_icon_assets(root, "assets/icons/tabler-subset-v1.css")
         self.assertTrue(any("exceed" in error for error in errors))
+        self.assertTrue(any("does not match" in error for error in errors))
+
+    def hero_fixture(self) -> Path:
+        root = self.fixture('<img src="assets/hero/team-800.avif" alt="Team illustration">')
+        directory = root / "assets" / "hero"
+        directory.mkdir(parents=True)
+        image = b"test-avif-image"
+        (directory / "team-800.avif").write_bytes(image)
+        (directory / "manifest.json").write_text(json.dumps({"variants": [{
+            "file": "team-800.avif", "format": "avif", "width": 800,
+            "bytes": len(image), "sha256": hashlib.sha256(image).hexdigest(),
+        }]}), encoding="utf-8")
+        return root
+
+    def test_valid_hero_assets_pass(self) -> None:
+        self.assertEqual(audit_hero_assets(self.hero_fixture()), [])
+
+    def test_missing_local_hero_image_fails(self) -> None:
+        root = self.hero_fixture()
+        (root / "assets/hero/team-800.avif").unlink()
+        self.assertTrue(any("is missing" in error for error in audit_hero_assets(root)))
+
+    def test_oversized_mobile_hero_image_fails(self) -> None:
+        root = self.hero_fixture()
+        (root / "assets/hero/team-800.avif").write_bytes(b"x" * 70000)
+        errors = audit_hero_assets(root)
+        self.assertTrue(any("hero image budget" in error for error in errors))
         self.assertTrue(any("does not match" in error for error in errors))
 
 

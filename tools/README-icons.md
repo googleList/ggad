@@ -25,5 +25,6 @@ node tools/check_site_icons.cjs http://127.0.0.1:8765/
 `PLAYWRIGHT_MODULE` may point to an existing Playwright package;
 `CHROME_PATH` may point to a local Chrome executable. The test checks all current
 sitemap pages, mobile navigation states, nested article assets, local-file views,
-font loading, and horizontal overflow. Screenshots and JSON results are written
+font loading, horizontal overflow, narrow/ultrawide hero rendering, and layout
+stability when the site script is delayed. Screenshots and JSON results are written
 to the temporary directory by default.

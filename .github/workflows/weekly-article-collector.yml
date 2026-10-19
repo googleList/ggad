@@ -99,6 +99,15 @@ jobs:
         with:
           ref: main
 
+      - name: Validate site before deployment
+        run: |
+          python3 -B -m unittest discover -s tests
+          python3 -B scripts/seo_quality_check.py
+          python3 -B scripts/structured_data_check.py
+          python3 -B scripts/content_policy_check.py
+          python3 -B scripts/performance_budget_check.py
+          node --check site-v20260930.js
+
       - name: Set up Pages
         uses: actions/configure-pages@v5
 

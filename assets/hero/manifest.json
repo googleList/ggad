@@ -1,0 +1,66 @@
+{
+  "source": "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+  "license": "https://unsplash.com/license",
+  "variants": [
+    {
+      "file": "team-800.avif",
+      "width": 800,
+      "height": 450,
+      "quality": 35,
+      "format": "avif",
+      "bytes": 44516,
+      "sha256": "51d24d1d1fb76fb3adf37ec6dbc9e80324288e0d55a32ce6ac178728f21acfdd",
+      "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?fm=avif&fit=crop&w=800&h=450&q=35"
+    },
+    {
+      "file": "team-1200.avif",
+      "width": 1200,
+      "height": 675,
+      "quality": 35,
+      "format": "avif",
+      "bytes": 84718,
+      "sha256": "1acf0b9cedce94ad6c8203b2a6d4e09b097b2d94987cad4674b99bcf1592b4e6",
+      "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?fm=avif&fit=crop&w=1200&h=675&q=35"
+    },
+    {
+      "file": "team-1600.avif",
+      "width": 1600,
+      "height": 900,
+      "quality": 30,
+      "format": "avif",
+      "bytes": 120335,
+      "sha256": "1da73e25ca2b16011fc517a892b649da5573155cb7fc3fa5b600d43bd79db7d4",
+      "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?fm=avif&fit=crop&w=1600&h=900&q=30"
+    },
+    {
+      "file": "team-2000.avif",
+      "width": 2000,
+      "height": 1125,
+      "quality": 30,
+      "format": "avif",
+      "bytes": 185805,
+      "sha256": "60dcdab7b56aa253a2e1e3bc1e4a84041b52fdb8ab26dd0e46dac6ac5abb067a",
+      "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?fm=avif&fit=crop&w=2000&h=1125&q=30"
+    },
+    {
+      "file": "team-800.jpg",
+      "width": 800,
+      "height": 450,
+      "quality": 50,
+      "format": "jpg",
+      "bytes": 78564,
+      "sha256": "939c44d134ea9906a0183610f7d53ddf07d025c2ea64b5322c31df0b7c62b327",
+      "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?fm=jpg&fit=crop&w=800&h=450&q=50"
+    },
+    {
+      "file": "team-1200.jpg",
+      "width": 1200,
+      "height": 675,
+      "quality": 50,
+      "format": "jpg",
+      "bytes": 159367,
+      "sha256": "1c8a0b667abde435edbabad86d9072007367314b60435dbe60355bbe81335fe0",
+      "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?fm=jpg&fit=crop&w=1200&h=675&q=50"
+    }
+  ]
+}

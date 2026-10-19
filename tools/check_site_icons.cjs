@@ -29,7 +29,12 @@ async function inspect(page) {
       if (!glyphs[name] || glyphs[name] !== codepoint) errors.push(`Missing glyph: ${name}`);
     }
     if (document.documentElement.scrollWidth > innerWidth + 1) errors.push("Horizontal overflow");
-    return { count: icons.length, names: [...new Set(icons.map((icon) => icon.className))], errors };
+    const hero = document.querySelector(".hero-background-media img");
+    if (hero && getComputedStyle(hero).objectFit !== "cover") errors.push("Hero image is stretched");
+    return {
+      count: icons.length, names: [...new Set(icons.map((icon) => icon.className))], errors,
+      heroImage: hero ? { source: hero.currentSrc, naturalWidth: hero.naturalWidth, loaded: hero.complete && hero.naturalWidth > 0 } : undefined,
+    };
   }, manifest.glyphs);
 }
 
@@ -58,17 +63,20 @@ async function main() {
     for (const url of urls) {
       const pathname = new URL(url).pathname;
       await page.goto(new URL(pathname, base).href, { waitUntil: "domcontentloaded" });
-      const result = { path: pathname, viewport: "desktop", ...(await inspect(page)) };
-      results.push(result);
       if (pathname === "/" || pathname === "/google-ads.html") {
         await capture(page, path.join(output, `${pathname === "/" ? "home" : "service"}-desktop.png`));
       }
+      const result = { path: pathname, viewport: "desktop", ...(await inspect(page)) };
+      results.push(result);
       if (results.length % 10 === 0) console.log(`Checked ${results.length}/${urls.length} desktop pages`);
     }
     const mobile = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true });
     const phone = await mobile.newPage();
     for (const pathname of ["/", "/google-ads.html", "/articles.html", "/articles/google-ads-basics.html", "/nav.html"]) {
       await phone.goto(new URL(pathname, base).href, { waitUntil: "domcontentloaded" });
+      if (pathname === "/" || pathname === "/google-ads.html") {
+        await capture(phone, path.join(output, `${pathname === "/" ? "home" : "service"}-mobile.png`));
+      }
       const toggle = phone.locator(".mobile-menu-toggle");
       await toggle.click();
       if (await toggle.getAttribute("aria-expanded") !== "true") throw new Error(`Menu did not open: ${pathname}`);
@@ -81,14 +89,40 @@ async function main() {
       await toggle.click();
       if (await toggle.getAttribute("aria-expanded") !== "false") throw new Error(`Menu did not close: ${pathname}`);
       results.push({ path: pathname, viewport: "mobile-menu-closed", ...(await inspect(phone)) });
-      if (pathname === "/" || pathname === "/google-ads.html") {
-        await capture(phone, path.join(output, `${pathname === "/" ? "home" : "service"}-mobile.png`));
-      }
     }
     for (const relative of ["index.html", "articles/google-ads-basics.html"]) {
       await page.goto(pathToFileURL(path.join(root, relative)).href, { waitUntil: "domcontentloaded" });
       results.push({ path: relative, viewport: "local-file", ...(await inspect(page)) });
     }
+    for (const viewport of [{ width: 320, height: 740 }, { width: 2560, height: 1440 }]) {
+      await page.setViewportSize(viewport);
+      await page.goto(base.href, { waitUntil: "domcontentloaded" });
+      await capture(page, path.join(output, `home-${viewport.width}.png`));
+      results.push({ path: "/", viewport: `${viewport.width}x${viewport.height}`, ...(await inspect(page)) });
+    }
+    const stableContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true });
+    const stablePage = await stableContext.newPage();
+    let releaseScript;
+    const scriptGate = new Promise((resolve) => { releaseScript = resolve; });
+    await stablePage.route("**/site-v20260930.js", async (route) => {
+      await scriptGate;
+      await route.continue();
+    });
+    const navigation = stablePage.goto(new URL("google-ads.html", base).href, { waitUntil: "domcontentloaded" });
+    let beforeTop;
+    try {
+      await stablePage.waitForFunction(() => document.querySelector('link[href*="styles.css"]')?.sheet
+        && document.querySelector(".managed-visual"));
+      beforeTop = await stablePage.locator(".managed-visual").evaluate((node) => node.getBoundingClientRect().top);
+    } finally {
+      releaseScript();
+    }
+    await navigation;
+    const stability = await inspect(stablePage);
+    const afterTop = await stablePage.locator(".managed-visual").evaluate((node) => node.getBoundingClientRect().top);
+    const shift = Math.abs(afterTop - beforeTop);
+    if (shift > 1) stability.errors.push(`Hero moved ${shift}px after icon insertion`);
+    results.push({ path: "/google-ads.html", viewport: "delayed-script-mobile", shiftPixels: shift, ...stability });
     const report = { generatedAt: new Date().toISOString(), base: base.href, results, failedIconRequests };
     fs.writeFileSync(path.join(output, "results.json"), JSON.stringify(report, null, 2) + "\n");
     const failed = results.filter((result) => result.errors.length);

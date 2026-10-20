@@ -1,0 +1,83 @@
+{
+  "observedAt": "2026-10-20",
+  "reportLastUpdated": "2026-10-12",
+  "property": "sc-domain:shumaojs.com",
+  "source": "Direct browser read of all displayed examples in four Page indexing reason groups; not an API export or live URL Inspection result",
+  "indexed": 41,
+  "notIndexed": 57,
+  "groups": {
+    "notFound": [
+      "https://shumaojs.com/articles/ad-account-materials.html",
+      "https://shumaojs.com/query/",
+      "https://shumaojs.com/product/?id=jp-one-year",
+      "https://shumaojs.com/product/?id=device-lqt-card",
+      "https://shumaojs.com/product/?id=jp-two-year",
+      "https://shumaojs.com/product/?id=domestic-month-pack",
+      "https://shumaojs.com/product/?id=sg-month",
+      "https://shumaojs.com/product/?id=us-month",
+      "https://shumaojs.com/product/?id=jp-month",
+      "https://shumaojs.com/product/?id=us-two-year",
+      "https://shumaojs.com/product/?id=ph-one-year",
+      "https://shumaojs.com/product/?id=device-old",
+      "https://shumaojs.com/product/?id=android-device-short",
+      "https://shumaojs.com/product/?id=ca-two-year",
+      "https://shumaojs.com/product/?id=iphone-device-middle",
+      "https://shumaojs.com/product/?id=us-one-year",
+      "https://shumaojs.com/product/?id=device-dual-account",
+      "https://shumaojs.com/product/?id=hk-one-year",
+      "https://shumaojs.com/product/?id=sg-one-year",
+      "https://shumaojs.com/product/?id=hk-two-year"
+    ],
+    "discovered": [
+      "https://shumaojs.com/ad-learning.html",
+      "https://shumaojs.com/articles.html",
+      "https://shumaojs.com/articles/conversion-tracking-basics.html",
+      "https://shumaojs.com/articles/facebook-lead-ads.html",
+      "https://shumaojs.com/articles/google-ads-basics.html",
+      "https://shumaojs.com/articles/google-budget-pacing.html",
+      "https://shumaojs.com/articles/google-search-ads-cost-guide.html",
+      "https://shumaojs.com/articles/google-search-ads-guide.html",
+      "https://shumaojs.com/articles/landing-page-checklist.html",
+      "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "https://shumaojs.com/articles/meta-creative-testing.html",
+      "https://shumaojs.com/articles/performance-max-basics.html",
+      "https://shumaojs.com/articles/remarketing-basics.html",
+      "https://shumaojs.com/articles/search-terms-optimization.html",
+      "https://shumaojs.com/articles/sem-landing-tracking.html",
+      "https://shumaojs.com/articles/seo-content-cluster.html",
+      "https://shumaojs.com/articles/seo-course-learning-path.html",
+      "https://shumaojs.com/articles/website-trust-pages.html",
+      "https://shumaojs.com/company.html",
+      "https://shumaojs.com/compliance.html",
+      "https://shumaojs.com/meta-ads.html",
+      "https://shumaojs.com/privacy.html",
+      "https://shumaojs.com/terms.html"
+    ],
+    "crawled": [
+      "https://shumaojs.com/feed.xml",
+      "https://shumaojs.com/product/?id=my-month",
+      "https://shumaojs.com/product/?id=kh-month",
+      "http://shumaojs.com/",
+      "https://shumaojs.com/product/?id=kr-two-year",
+      "https://shumaojs.com/product/?id=kr-month",
+      "https://shumaojs.com/product/?id=sg-two-year"
+    ],
+    "alternate": [
+      "https://shumaojs.com/index.html",
+      "https://shumaojs.com/product/?id=iphone-device-short",
+      "https://shumaojs.com/product/?id=my-two-year",
+      "https://shumaojs.com/product/?id=th-one-year",
+      "https://shumaojs.com/product/?id=my-one-year",
+      "https://shumaojs.com/product/?id=mm-two-year",
+      "https://shumaojs.com/product/?id=th-two-year"
+    ]
+  },
+  "notes": [
+    "The report has not advanced beyond October 12 and cannot verify October 19-20 releases or current indexing status.",
+    "The 404 validation started September 28 and failed October 5. Retired content is intentionally absent; do not restore it merely to clear a report label.",
+    "Discovered examples show last crawl not applicable. The priority guide/hub crawl requests were already queued October 19; none were repeated in this inspection.",
+    "The crawled group includes an RSS feed, HTTP homepage and retired product URLs, not seven current HTML articles.",
+    "The alternate group includes the explicit index.html homepage variant plus retired product URLs. Canonical alternatives need not be independently indexed.",
+    "All displayed example rows were read, but Search Console itself cautions that examples may omit instances. This is not a full crawl inventory."
+  ]
+}

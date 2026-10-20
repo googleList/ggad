@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-20",
   "deployment": {
     "status": "deployed",
-    "reason": "Content commit 244a962 expanded the existing Simplified Chinese account-setup guide with source-checked preparation, workflow, billing/market distinctions, verification, permissions and fee guidance. Pages run 39392871629 (#53) succeeded and four production viewport checks passed, including six section anchors, keyboard table scrolling and nine contextual internal destinations. Earlier article-hub, icon/hero/CTA improvements are retained. No new traffic or ranking gain is claimed.",
-    "localCommit": "244a962",
+    "reason": "Commits 03588f4 and 607faf6 restrict Pages output to public files and serialize both publishing jobs using latest main. Pages #57 and collector #6 succeeded; production deployment.json matches bot content commit 2d3c3f2 and the resource JSON generation timestamp. All 102 production scope/browser/resource checks passed. Reports/research/scripts remain in the GitHub repository, not the website artifact. No search-performance improvement is inferred.",
+    "localCommit": "2d3c3f2",
     "verifiedAt": "2026-10-20"
   },
   "completedBatches": [
@@ -77,16 +77,18 @@
     "hero-lcp-mobile-cta-stability-and-predeploy-quality-gates-2026-10-19",
     "static-rendered-article-priority-schema-and-nojs-consistency-2026-10-20",
     "simplified-chinese-account-setup-evidence-and-workflow-depth-2026-10-20",
-    "direct-gsc-restored-adjacent-period-and-simplified-query-baseline-2026-10-20"
+    "direct-gsc-restored-adjacent-period-and-simplified-query-baseline-2026-10-20",
+    "historical-indexing-examples-live-http-and-retirement-triage-2026-10-20",
+    "public-artifact-boundary-and-cross-workflow-publisher-serialization-2026-10-20"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-20T08:23:59Z",
-    "localHead": "244a962",
-    "remoteHead": "244a962",
+    "checkedAt": "2026-10-20T13:25:34Z",
+    "localHead": "2d3c3f2",
+    "remoteHead": "2d3c3f2",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch and retain the Pages workflow and CNAME. The last verified content release is 244a962; report/archive commits may follow this checkpoint. Preserve the existing uncommitted internal-link and historical Lighthouse artifacts."
+    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified content checkpoint is 2d3c3f2; report-only commits may follow it. Use deployment.json to inspect the actual public revision. Reports and planning/research data are now repository-only: website 404s for those paths are intentional. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
   },
   "dataAccess": {
     "googleSearchConsole": true,
@@ -141,12 +143,12 @@
       "observation": "The target phrases are now present in the live homepage, service page, account-setup guide, and ad-rank guide (all HTTP 200). Search Console reports observed organic queries, not the site's chosen target keywords. Zero matching visible rows means no reportable matches in these filtered views, not zero market demand; anonymized or low-volume queries may be omitted.",
       "comparisonData": "Current 7-day/28-day and adjacent previous-28-day KPI cards and sampled page/country comparisons were read on October 20. Impressions differ by +196 and clicks by -1, but the previous period has five impressions and predates the sprint; do not claim keyword ranking gains/losses from these aggregates. Current data end October 17, before the October 19-20 releases."
     },
-    "publicIndexingCheck": "Index coverage remains the October 19 observation of the report last updated October 12: 41 indexed and 57 not indexed. Three live-tested, indexable URLs had priority crawl requests queued October 19. The October 20 direct browser follow-up refreshed performance through October 17, not index coverage. GSC Wizard still lacks sc-domain:shumaojs.com; do not treat new performance data as a fresh indexing count.",
+    "publicIndexingCheck": "Page indexing was reread October 20 but remains last updated October 12: 41 indexed / 57 not indexed. All 57 displayed examples were joined to current HTTP, sitemap, static links and retirement policy: 31 retired URLs are 404, 23 current HTML pages are 200 with discovery signals, one is RSS, one is the index.html variant and one is the still-unredirected HTTP homepage. This is a historical report plus live HTTP triage, not a fresh Google indexing count. No crawl/validation/removal request was repeated.",
     "searchConsoleIndexCoverage": {
       "property": "sc-domain:shumaojs.com",
       "report": "Page indexing, all known pages",
       "reportLastUpdated": "2026-10-12",
-      "observedAt": "2026-10-19",
+      "observedAt": "2026-10-20",
       "indexed": 41,
       "notIndexed": 57,
       "knownPages": 98,
@@ -158,6 +160,10 @@
         "pageWithRedirect": 0
       },
       "urlSamplesRetrieved": true,
+      "exampleSnapshot": "reports/search-console/indexing-2026-10-20.json",
+      "httpTriage": "reports/search-console/indexing-http-2026-10-20.json",
+      "displayedExamplesChecked": 57,
+      "liveTriage": {"retired404": 31, "currentHtml200WithDiscoverySignals": 23, "rss": 1, "homepageVariant": 1, "httpCanonicalizationIssue": 1},
       "urlInspectionFollowUp": [
         {"url": "https://shumaojs.com/articles/google-ads-basics.html", "storedState": "Discovered - currently not indexed", "liveTest": "Indexable", "priorityCrawlRequest": "Submitted successfully on 2026-10-19"},
         {"url": "https://shumaojs.com/articles/google-search-ads-guide.html", "storedState": "Google doesn't know this URL", "liveTest": "Indexable", "priorityCrawlRequest": "Submitted successfully on 2026-10-19"},
@@ -241,6 +247,29 @@
       "generatedAt": "2026-10-19T07:46:43.458Z",
       "note": "Collector run 39218159776 succeeded, including the new predeploy quality checks and Pages deployment. Bot commit f18a813 refreshed the generation timestamp; the 24-item resource list and 5/6 source availability were unchanged."
     },
+    "publicArtifactRelease2026-10-20": {
+      "contentCommit": "2d3c3f2",
+      "revisionMarker": "https://shumaojs.com/deployment.json",
+      "verifiedRevision": "2d3c3f296e965472d454d3c76c57867911652ada",
+      "pagesRun": "https://github.com/googleList/ggad/actions/runs/39430004596",
+      "collectorRun": "https://github.com/googleList/ggad/actions/runs/39430004535",
+      "browserEvidence": "reports/public-artifact/2026-10-20/production-with-version/results.json",
+      "sourceFilesCopied": 128,
+      "generatedPublicRevisionFiles": 1,
+      "productionChecksPassed": 102,
+      "repositoryOnlyPathsVerified404": 5,
+      "normalAndCacheBusted404Probes": 10,
+      "runtimeResourcePathsVerified200": 13,
+      "localUnitTests": 81,
+      "localSkippedTests": 1,
+      "note": "Normal and collector publishers now share a job-level pages lock, then check out latest main and publish the actual checkout SHA. The first scope release passed 101 checks but returned an older resource timestamp after competing publishers; the version-aware release verifies the refreshed bot revision and payload. Public GitHub report records are retained; this does not make the repository private."
+    },
+    "adLearningCollection2026-10-20": {
+      "itemsCollected": 24, "sourcesConfigured": 6, "sourcesAvailable": 5,
+      "newItemsFound": 0,
+      "generatedAt": "2026-10-20T13:23:49.022Z",
+      "note": "Collector #6 succeeded after the shared publishing lock change. Production revision marker matches bot commit 2d3c3f2 and public resource JSON has this timestamp. Existing 24 resources and source availability are unchanged; no new article or traffic gain is claimed."
+    },
     "cruxFieldData": "Not obtained: the PageSpeed API returned HTTP 429 and no CrUX/RUM field payload was retrieved. A missing GSC Wizard property does not establish whether public CrUX data exists. The fresh Lighthouse measurements are lab-only."
   },
   "nextPriorities": [
@@ -249,7 +278,7 @@
     "Use the verified adjacent previous-28-day comparison as historical context; obtain a full export if row-level segmentation is needed. Do not treat the five-impression pre-sprint baseline or sampled tables as a stable ranking benchmark",
     "Cloudflare administrator action: enable Always Use HTTPS and add a permanent www-to-apex redirect preserving path and query; verify HTTP apex and both www schemes resolve to https://shumaojs.com before marking canonicalization fixed",
     "Use restored browser access to review new query/page/country and URL Inspection states after the releases and October 19 crawl requests have had time to process; connecting GSC Wizard is optional for automated exports",
-    "Export URL samples from the 23 discovered-not-indexed, 7 crawled-not-indexed, and 20 not-found groups; compare them against the sitemap and legacy URL retirements before requesting indexing or restoring anything",
+    "Use the completed October 20 indexing-example triage rather than restoring retired URLs: 31 examples are intentional 404s and 23 current HTML examples have HTTP/discovery signals. Recheck Google indexing after the October 12 report advances; do not submit repeat crawl requests merely to clear historical reason labels",
     "Continue strengthening internal links around the four Simplified Chinese query themes while retaining US English and Hong Kong Traditional Chinese clusters",
     "Validate indexing and impressions for the two market landing pages",
     "Collect permission for genuine case studies and client references before directory submissions",

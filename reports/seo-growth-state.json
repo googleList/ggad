@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-20",
   "deployment": {
     "status": "deployed",
-    "reason": "Content commit 9222a9c aligned the article hub's static order, rendered priority and CollectionPage ItemList, retained all 47 articles, and added no-JavaScript access and a CI regression gate. Pages run 39391323315 (#51) succeeded. Production browser tests passed at four responsive widths and two no-JavaScript viewports with all categories/pages exercised. Earlier icon/hero/CTA performance improvements are retained; no new traffic or ranking gain is claimed.",
-    "localCommit": "9222a9c",
+    "reason": "Content commit 244a962 expanded the existing Simplified Chinese account-setup guide with source-checked preparation, workflow, billing/market distinctions, verification, permissions and fee guidance. Pages run 39392871629 (#53) succeeded and four production viewport checks passed, including six section anchors, keyboard table scrolling and nine contextual internal destinations. Earlier article-hub, icon/hero/CTA improvements are retained. No new traffic or ranking gain is claimed.",
+    "localCommit": "244a962",
     "verifiedAt": "2026-10-20"
   },
   "completedBatches": [
@@ -75,21 +75,22 @@
     "current-production-sitemap-and-gsc-psi-access-check-2026-10-19",
     "local-tabler-icon-subset-and-render-integrity-2026-10-19",
     "hero-lcp-mobile-cta-stability-and-predeploy-quality-gates-2026-10-19",
-    "static-rendered-article-priority-schema-and-nojs-consistency-2026-10-20"
+    "static-rendered-article-priority-schema-and-nojs-consistency-2026-10-20",
+    "simplified-chinese-account-setup-evidence-and-workflow-depth-2026-10-20"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-20T08:10:47Z",
-    "localHead": "9222a9c",
-    "remoteHead": "9222a9c",
+    "checkedAt": "2026-10-20T08:23:59Z",
+    "localHead": "244a962",
+    "remoteHead": "244a962",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch and retain the Pages workflow and CNAME. The last verified content release is 9222a9c; report/archive commits may follow this checkpoint. Preserve the existing uncommitted internal-link and historical Lighthouse artifacts."
+    "safeAction": "Fetch origin/main before the next batch and retain the Pages workflow and CNAME. The last verified content release is 244a962; report/archive commits may follow this checkpoint. Preserve the existing uncommitted internal-link and historical Lighthouse artifacts."
   },
   "dataAccess": {
     "googleSearchConsole": false,
     "gscWizardPropertyConnected": false,
-    "latestSearchConsoleAccess": "Historical read-only access to sc-domain:shumaojs.com was available in the user's signed-in browser on 2026-10-19; that snapshot remains below. On 2026-10-20, binding the existing browser tab and opening a Chrome report both timed out, so current access is unavailable and no fresher query/page/country data were obtained. This is a browser-control failure, not proof that the user's property permissions were removed. GSC Wizard remains unconnected; query rows remain subject to privacy/reporting limits.",
+    "latestSearchConsoleAccess": "Historical read-only access to sc-domain:shumaojs.com was available in the user's signed-in browser on 2026-10-19; that snapshot remains below. On 2026-10-20, binding the existing browser tab and opening a Chrome report both timed out, so current access is unavailable and no fresher query/page/country data were obtained. This is a browser-control failure, not proof that the user's property permissions were removed. A fresh October 20 GSC Wizard list returned seven connected properties but none for shumaojs.com. Requested an authorized-account reconnection or recent/prior 28-day query/page/country exports; query rows remain subject to privacy/reporting limits.",
     "searchPerformance": {
       "property": "sc-domain:shumaojs.com",
       "observedAt": "2026-10-19",
@@ -184,7 +185,22 @@
       "searchPerformanceImpactMeasured": false,
       "note": "All article anchors already existed in the previous source, including hidden cards. The mismatch was a consistency and no-JavaScript usability defect; it is not proven to have caused non-indexing. Local comparison confirmed all 47 card bodies/images/dates/descriptions were preserved."
     },
-    "productionSitemap": "Production sitemap remained reachable on 2026-10-20 and the article hub lastmod is 2026-10-20. The October 19 full drift audit found 63 local and 63 production URLs with zero URL drift; no URLs were added or removed in the October 20 article-hub release. Homepage/service dates were not changed in this batch.",
+    "accountSetupGuideReview2026-10-20": {
+      "contentCommit": "244a962",
+      "pagesRun": "https://github.com/googleList/ggad/actions/runs/39392871629",
+      "url": "https://shumaojs.com/articles/google-ads-basics.html",
+      "browserEvidence": "reports/setup-guide/2026-10-20/production/browser.json",
+      "responsiveWidthsPassed": [1440, 768, 390, 320],
+      "preparationRows": 6,
+      "setupSteps": 6,
+      "sectionAnchorsPassed": 6,
+      "contextualInternalDestinationsHttp200": 9,
+      "publishedDatePreserved": "2026-09-11",
+      "modifiedDateVisibleAndSchema": "2026-10-20",
+      "keywordDemand": "Supporting account-setup, fee, billing-region and verification terms are candidates, with null Google search volume and no verified US/HK-specific demand. Public search and current official Google documentation informed topic coverage, not traffic forecasts.",
+      "searchPerformanceImpactMeasured": false
+    },
+    "productionSitemap": "Production sitemap remained reachable on 2026-10-20 and both the changed article hub and account-setup guide have lastmod 2026-10-20. The October 19 full drift audit found 63 local and 63 production URLs with zero URL drift; no URLs were added or removed in the October 20 releases. Homepage/service dates were not changed in these batches.",
     "protocolCanonicalization": "verified on 2026-10-08: http://shumaojs.com/ returns 200 without redirect; http://www.shumaojs.com/ 301-redirects only to the HTTP apex; https://www.shumaojs.com/ 301-redirects to https://shumaojs.com/. Cloudflare is authoritative DNS; an edge rule is required for HTTP-to-HTTPS consolidation",
     "protocolAudit2026-10-19": {
       "checkedAt": "2026-10-19T07:08:22Z",
@@ -215,6 +231,7 @@
     "cruxFieldData": "Not obtained: the PageSpeed API returned HTTP 429 and no CrUX/RUM field payload was retrieved. A missing GSC Wizard property does not establish whether public CrUX data exists. The fresh Lighthouse measurements are lab-only."
   },
   "nextPriorities": [
+    "Obtain the requested authorized GSC connection or recent/prior 28-day query/page/country exports before another keyword/content expansion; the October 20 connection check still lacks shumaojs.com. Monitor the account-setup and article-hub releases rather than repeatedly changing titles or claiming unmeasured ranking gains",
     "After the Simplified Chinese pages have had time to be crawled and accrue impressions, recheck each target query and the matching pages in Search Console; do not interpret filtered zero rows as zero demand",
     "Export a non-overlapping previous 28-day Search Console range to compare with 2026-09-19 through 2026-10-16; separate query language from user country",
     "Cloudflare administrator action: enable Always Use HTTPS and add a permanent www-to-apex redirect preserving path and query; verify HTTP apex and both www schemes resolve to https://shumaojs.com before marking canonicalization fixed",

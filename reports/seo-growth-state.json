@@ -9,8 +9,8 @@
   "lastRunAt": "2026-10-20",
   "deployment": {
     "status": "deployed",
-    "reason": "Commits 03588f4 and 607faf6 restrict Pages output to public files and serialize both publishing jobs using latest main. Pages #57 and collector #6 succeeded; production deployment.json matches bot content commit 2d3c3f2 and the resource JSON generation timestamp. All 102 production scope/browser/resource checks passed. Reports/research/scripts remain in the GitHub repository, not the website artifact. No search-performance improvement is inferred.",
-    "localCommit": "2d3c3f2",
+    "reason": "Commit 2743c47 supplies the account-setup guide's verified editorial modification timestamp, supports zoned dates in schema/feed checks, and preserves the original date-only publication value. Pages #60 succeeded; production revision matches and four-width browser checks passed. Google's live article warnings fell from four to two, with Article and BreadcrumbList still valid. Earlier public-artifact boundaries/shared publisher lock remain unchanged. No search-performance improvement is inferred.",
+    "localCommit": "2743c47",
     "verifiedAt": "2026-10-20"
   },
   "completedBatches": [
@@ -79,16 +79,17 @@
     "simplified-chinese-account-setup-evidence-and-workflow-depth-2026-10-20",
     "direct-gsc-restored-adjacent-period-and-simplified-query-baseline-2026-10-20",
     "historical-indexing-examples-live-http-and-retirement-triage-2026-10-20",
-    "public-artifact-boundary-and-cross-workflow-publisher-serialization-2026-10-20"
+    "public-artifact-boundary-and-cross-workflow-publisher-serialization-2026-10-20",
+    "google-live-article-test-and-verified-modification-timestamp-2026-10-20"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-20T13:25:34Z",
-    "localHead": "2d3c3f2",
-    "remoteHead": "2d3c3f2",
+    "checkedAt": "2026-10-20T13:49:03Z",
+    "localHead": "2743c47",
+    "remoteHead": "2743c47",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified content checkpoint is 2d3c3f2; report-only commits may follow it. Use deployment.json to inspect the actual public revision. Reports and planning/research data are now repository-only: website 404s for those paths are intentional. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
+    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified content checkpoint is 2743c47; report-only commits may follow it. Use deployment.json to inspect the actual public revision. Reports and planning/research data are repository-only: website 404s for those paths are intentional. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
   },
   "dataAccess": {
     "googleSearchConsole": true,
@@ -171,6 +172,7 @@
       ]
     },
     "ga4": false,
+    "ga4AccessReview2026-10-20": "The connector lists two readable GA4 resources, but neither is identifiable as shumaojs.com or linked to it in this GSC Wizard account. Did not query unrelated traffic or install a placeholder ID. Requested that the user open the target GA4 resource or provide its public G- measurement ID. This does not prove that no target resource exists under another account.",
     "cloudflareAnalytics": false,
     "pageSpeedInsights": "The PageSpeed API returned HTTP 429 on 2026-10-19. Local Lighthouse 13.5.0 was then run against production with mobile simulation: homepage score 96, LCP 2.13s, CLS 0.000022; Google Ads service score 98, LCP 1.95s, CLS 0.000029 after the release. These are lab results, not field CWV or location-specific US/HK user measurements.",
     "mobileLabAudit2026-10-19": {
@@ -270,7 +272,17 @@
       "generatedAt": "2026-10-20T13:23:49.022Z",
       "note": "Collector #6 succeeded after the shared publishing lock change. Production revision marker matches bot commit 2d3c3f2 and public resource JSON has this timestamp. Existing 24 resources and source availability are unchanged; no new article or traffic gain is claimed."
     },
-    "cruxFieldData": "Direct Search Console CWV report read October 20, last updated October 18: both mobile and desktop report insufficient usage data over the past 90 days. No numeric field LCP, INP or CLS or US/HK breakdown is available. Snapshot: reports/search-console/core-web-vitals-2026-10-20.json. One PageSpeed API recheck returned HTTP 429 RESOURCE_EXHAUSTED with a project daily quota limit of 0; this is an API quota error, not a site performance result. GSC Wizard remains unconnected, independently of the successful browser read. Lighthouse remains lab-only; field CWV is not verified."
+    "cruxFieldData": "Direct Search Console CWV report read October 20, last updated October 18: both mobile and desktop report insufficient usage data over the past 90 days. No numeric field LCP, INP or CLS or US/HK breakdown is available. Snapshot: reports/search-console/core-web-vitals-2026-10-20.json. One PageSpeed API recheck returned HTTP 429 RESOURCE_EXHAUSTED with a project daily quota limit of 0; this is an API quota error, not a site performance result. GSC Wizard remains unconnected, independently of the successful browser read. Lighthouse remains lab-only; field CWV is not verified.",
+    "googleRichResults2026-10-20": {
+      "snapshot": "reports/rich-results/2026-10-20/google-test.json",
+      "url": "https://shumaojs.com/articles/google-ads-basics.html",
+      "validArticleItems": 1,
+      "validBreadcrumbItems": 1,
+      "articleNonCriticalIssuesBefore": 4,
+      "articleNonCriticalIssuesAfter": 2,
+      "remainingField": "datePublished",
+      "note": "Original publication time is unknown; keep date-only precision rather than inventing midnight. The verified editorial modification timestamp resolves its two dateModified warnings. This single-page live test does not certify all pages or clear historical merchant reports."
+    }
   },
   "nextPriorities": [
     "Direct browser GSC access was restored October 20; use reports/search-console/2026-10-20.json as baseline. Recheck Simplified Chinese query/page/country evidence after data advance beyond the October 19-20 releases; current data end October 17. GSC Wizard remains unconnected but is not required for manual reads",
@@ -296,6 +308,6 @@
     "Review whether future US and Hong Kong content pairs qualify for reciprocal hreflang before publishing",
     "Wait for the GSC CWV report to acquire sufficient usage data or use genuinely configured RUM; October 18 report has insufficient data for both mobile and desktop. Do not repeat unauthenticated PageSpeed API calls while its reported project daily quota is 0. Local Lighthouse does not verify field CWV",
     "Monitor the 2026-10-19 local-font, hero-image and mobile CTA release against fresh query/page impressions and field performance before making additional title changes",
-    "Validate rich-result eligibility with Google's testing tools after deployment"
+    "Google Rich Results Test verified the account-setup guide's Article and BreadcrumbList on October 20. Its dateModified warnings are resolved; datePublished warnings remain because time is unknown. Sample other representative page types when useful, not by repeatedly testing this unchanged page. Never fabricate publication times or bulk-refresh dates to suppress warnings"
   ]
 }

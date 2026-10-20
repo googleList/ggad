@@ -1,0 +1,38 @@
+{
+  "source": "Direct read of Google Rich Results Test using the public URL and smartphone inspection agent",
+  "url": "https://shumaojs.com/articles/google-ads-basics.html",
+  "before": {
+    "testedAt": "2026-10-20T21:41:13+08:00",
+    "resultUrl": "https://search.google.com/test/rich-results/result?id=E2stSK6fVdkbmd1-TKT0ig",
+    "validItems": {"Article": 1, "BreadcrumbList": 1},
+    "articleNonCriticalIssues": 4,
+    "issueFields": ["datePublished", "dateModified"],
+    "issuesPerField": ["Invalid datetime value", "Missing timezone information"],
+    "datePublished": "2026-09-11",
+    "dateModified": "2026-10-20"
+  },
+  "after": {
+    "testedAt": "2026-10-20T21:46:56+08:00",
+    "resultUrl": "https://search.google.com/test/rich-results/result?id=XFfRNrP4T9bFAGyGxd3L8Q",
+    "validItems": {"Article": 1, "BreadcrumbList": 1},
+    "articleNonCriticalIssues": 2,
+    "remainingIssueFields": ["datePublished"],
+    "remainingIssues": ["Invalid datetime value", "Missing timezone information"],
+    "datePublished": "2026-09-11",
+    "dateModified": "2026-10-20T16:21:48+08:00",
+    "revision": "2743c47d2e883628e5a15436cac31615edacb3b5",
+    "pagesRun": "https://github.com/googleList/ggad/actions/runs/39433277530",
+    "pagesConclusion": "success"
+  },
+  "modifiedTimestampProvenance": {
+    "commit": "244a962d4323f46c6df4f96bfd848f6fe979b3ab",
+    "timestamp": "2026-10-20T16:21:48+08:00",
+    "meaning": "Verified editorial commit time of the substantive account-setup guide expansion; not asserted as the exact deployment time"
+  },
+  "limitations": [
+    "Only this representative article was tested in the Google tool; not a sitewide rich-result certification.",
+    "No Product or merchant item was detected on this tested article; this does not clear historical Search Console issue records.",
+    "The original publication time is unknown. Its date-only value is retained instead of inventing a time or removing a truthful field to suppress warnings.",
+    "No indexing request, validation request, ranking improvement, traffic gain or guaranteed rich-result display is claimed."
+  ]
+}

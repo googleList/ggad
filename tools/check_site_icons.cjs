@@ -132,6 +132,26 @@ async function main() {
     const shift = Math.abs(afterTop - beforeTop);
     if (shift > 1) stability.errors.push(`Hero moved ${shift}px after icon insertion`);
     results.push({ path: "/google-ads.html", viewport: "delayed-script-mobile", shiftPixels: shift, ...stability });
+    if (process.argv.includes("--public-artifact")) {
+      const excluded = ["/reports/seo-growth-state.json", "/scripts/seo_quality_check.py",
+        "/tests/test_structured_data_check.py", "/data/collected-articles.json", "/data/seo-keywords.json"];
+      for (const pathname of excluded) {
+        for (const cacheBust of [false, true]) {
+          const url = new URL(pathname, base);
+          if (cacheBust) url.searchParams.set("audit", "public-artifact-20261020");
+          const response = await desktop.request.get(url.href, { maxRedirects: 0, timeout: 30000 });
+          results.push({ path: pathname, viewport: cacheBust ? "publication-cache-busted" : "publication-scope",
+            httpStatus: response.status(), errors: response.status() === 404 ? [] : ["Repository-only file is publicly served"] });
+        }
+      }
+      for (const pathname of ["/styles.css", "/site-v20260930.js", "/budget-calculator.js", "/favicon.ico",
+        "/CNAME", "/robots.txt", "/sitemap.xml", "/feed.xml", "/site.webmanifest", "/llms.txt",
+        "/data/ad-learning.json", "/assets/icons/tabler-subset-v1.woff2"]) {
+        const response = await desktop.request.get(new URL(pathname, base).href, { timeout: 30000 });
+        results.push({ path: pathname, viewport: "public-resource", httpStatus: response.status(),
+          errors: response.status() === 200 ? [] : ["Required public resource is missing"] });
+      }
+    }
     const report = { generatedAt: new Date().toISOString(), base: base.href, results, failedIconRequests };
     fs.writeFileSync(path.join(output, "results.json"), JSON.stringify(report, null, 2) + "\n");
     const failed = results.filter((result) => result.errors.length);

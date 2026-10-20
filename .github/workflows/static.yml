@@ -41,11 +41,12 @@ jobs:
           node --check site-v20260930.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Stage public website files
+        run: python3 -B scripts/build_public_site.py --output "$RUNNER_TEMP/shumaojs-public"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          path: ${{ runner.temp }}/shumaojs-public
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5

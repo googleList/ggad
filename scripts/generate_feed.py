@@ -13,9 +13,9 @@ from typing import Any
 from xml.etree import ElementTree
 
 try:
-    from structured_data_check import ROOT, SchemaParser, flatten_schema, schema_types
+    from structured_data_check import ROOT, SchemaParser, flatten_schema, parse_article_date, schema_types
 except ModuleNotFoundError:  # Imported as scripts.generate_feed by tests.
-    from scripts.structured_data_check import ROOT, SchemaParser, flatten_schema, schema_types
+    from scripts.structured_data_check import ROOT, SchemaParser, flatten_schema, parse_article_date, schema_types
 
 
 FEED_PATH = ROOT / "feed.xml"
@@ -53,12 +53,19 @@ def collect_articles(root: Path = ROOT) -> list[dict[str, str]]:
                 "category": str(schema.get("articleSection", "Marketing")),
             }
         )
-    return sorted(articles, key=lambda item: (item["modified"], item["url"]), reverse=True)
+    return sorted(articles, key=lambda item: (feed_datetime(item["modified"]), item["url"]), reverse=True)
+
+
+def feed_datetime(value: str) -> datetime:
+    parsed = parse_article_date(value)
+    if not isinstance(parsed, datetime):
+        # Preserve the existing RSS day-only conversion, not a publication-time claim.
+        parsed = datetime.combine(parsed, datetime.min.time(), tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
 
 
 def rfc_date(value: str) -> str:
-    parsed = datetime.strptime(value, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    return format_datetime(parsed)
+    return format_datetime(feed_datetime(value))
 
 
 def build_feed(articles: list[dict[str, str]]) -> bytes:
@@ -71,7 +78,7 @@ def build_feed(articles: list[dict[str, str]]) -> bytes:
     )
     ElementTree.SubElement(channel, "language").text = "zh-CN"
     ElementTree.SubElement(channel, "lastBuildDate").text = rfc_date(
-        max((item["modified"] for item in articles), default="2026-09-29")
+        max((item["modified"] for item in articles), key=feed_datetime, default="2026-09-29")
     )
     ElementTree.SubElement(
         channel,

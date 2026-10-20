@@ -41,7 +41,7 @@ async function main() {
         };
       });
       assert.equal(content.title, content.headline);
-      assert.equal(content.modified, "2026-10-20");
+      assert.equal(content.modified, "2026-10-20T16:21:48+08:00");
       assert.equal(content.visibleModified, content.modified);
       assert.equal(content.published, "2026-09-11");
       assert.equal(content.setupSteps, 6);

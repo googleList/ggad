@@ -22,6 +22,34 @@ def page(schema, canonical="https://example.com/guide.html", lang="en-US"):
 
 
 class StructuredDataCheckTests(unittest.TestCase):
+    def test_article_date_precision_and_timezone(self):
+        from datetime import date, datetime
+
+        self.assertEqual(MODULE.parse_article_date("2026-09-11"), date(2026, 9, 11))
+        for value in ("2026-10-20T16:21:48+08:00", "2026-10-20T08:21:48Z"):
+            with self.subTest(value=value):
+                self.assertIsInstance(MODULE.parse_article_date(value), datetime)
+                self.assertIsNotNone(MODULE.parse_article_date(value).utcoffset())
+        for value in ("2026-02-30", "2026-10-20T16:21:48", "2026-10-20T16:21:48+00:60", "bad-date"):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                MODULE.parse_article_date(value)
+
+    def test_article_date_validation_handles_invalid_calendar_and_datetime_order(self):
+        schema = {
+            "@type": "Article",
+            "datePublished": "2026-02-30",
+            "dateModified": "2026-10-20T16:21:48",
+        }
+        errors = MODULE.validate_page(Path("guide.html"), page(schema))
+        self.assertTrue(any("datePublished must use a valid" in error for error in errors))
+        self.assertTrue(any("dateModified must use a valid" in error for error in errors))
+        schema.update(datePublished="2026-10-19T18:00:00Z", dateModified="2026-10-20T01:00:00+08:00")
+        errors = MODULE.validate_page(Path("guide.html"), page(schema))
+        self.assertTrue(any("dateModified cannot be earlier" in error for error in errors))
+        schema.update(datePublished="2026-10-20", dateModified="2026-10-20T01:00:00+08:00")
+        errors = MODULE.validate_page(Path("guide.html"), page(schema))
+        self.assertFalse(any("dateModified cannot be earlier" in error for error in errors))
+
     def test_valid_article_and_breadcrumb(self):
         canonical = "https://example.com/guide.html"
         schema = {

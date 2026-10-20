@@ -6,7 +6,7 @@ from __future__ import annotations
 import json
 import re
 import sys
-from datetime import date
+from datetime import date, datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
@@ -15,8 +15,18 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED_DIRS = {".git", ".audit-shots", "reports"}
 DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+DATETIME_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)$")
 ORGANIZATION_ID = "https://shumaojs.com/#organization"
 COMPANY_URL = "https://shumaojs.com/company.html"
+
+
+def parse_article_date(value: str) -> date | datetime:
+    """Keep date-only precision; accept time only with an explicit timezone."""
+    if DATE_PATTERN.fullmatch(value):
+        return date.fromisoformat(value)
+    if DATETIME_PATTERN.fullmatch(value):
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    raise ValueError("expected YYYY-MM-DD or ISO 8601 datetime with timezone")
 
 
 class SchemaParser(HTMLParser):
@@ -165,19 +175,27 @@ def validate_page(path: Path, text: str) -> list[str]:
             logo = publisher.get("logo") if isinstance(publisher, dict) else None
             if not isinstance(logo, dict) or not logo.get("url"):
                 errors.append("Article publisher must include a logo URL")
+            parsed_dates = {}
             for field in ("datePublished", "dateModified"):
                 value = str(schema.get(field, ""))
-                if value and not DATE_PATTERN.fullmatch(value):
-                    errors.append(f"Article {field} must use YYYY-MM-DD")
-            published_value = str(schema.get("datePublished", ""))
-            modified_value = str(schema.get("dateModified", ""))
-            if DATE_PATTERN.fullmatch(published_value) and DATE_PATTERN.fullmatch(modified_value):
-                published = date.fromisoformat(published_value)
-                modified = date.fromisoformat(modified_value)
-                if published > date.today():
-                    errors.append("Article datePublished cannot be in the future")
-                if modified > date.today():
-                    errors.append("Article dateModified cannot be in the future")
+                if not value:
+                    continue
+                try:
+                    parsed = parse_article_date(value)
+                except ValueError:
+                    errors.append(f"Article {field} must use a valid YYYY-MM-DD or ISO 8601 datetime with timezone")
+                    continue
+                parsed_dates[field] = parsed
+                calendar_date = parsed.date() if isinstance(parsed, datetime) else parsed
+                if calendar_date > date.today():
+                    errors.append(f"Article {field} cannot be in the future")
+            if len(parsed_dates) == 2:
+                published = parsed_dates["datePublished"]
+                modified = parsed_dates["dateModified"]
+                # Do not invent times when one side is only known to the day.
+                if not (isinstance(published, datetime) and isinstance(modified, datetime)):
+                    published = published.date() if isinstance(published, datetime) else published
+                    modified = modified.date() if isinstance(modified, datetime) else modified
                 if modified < published:
                     errors.append("Article dateModified cannot be earlier than datePublished")
         if "WebApplication" in types:

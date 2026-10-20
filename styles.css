@@ -2186,6 +2186,10 @@ html:not(.article-index-ready) .pagination {
   max-width: 920px;
 }
 
+.article-detail section[id] {
+  scroll-margin-top: 112px;
+}
+
 .article-detail ul {
   display: grid;
   gap: 10px;

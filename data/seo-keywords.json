@@ -1,6 +1,6 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；只有在提供真实 Search Console 导出后，才按 queries、clicks、impressions、CTR、position 和 country 调整。",
@@ -22,8 +22,15 @@
       "priority": "primary",
       "targetUrl": "https://shumaojs.com/articles/google-ads-basics.html",
       "primaryKeywords": ["谷歌开户", "谷歌广告开户"],
-      "supportingKeywords": ["Google Ads 开户流程", "谷歌广告账户注册", "谷歌广告开户资料"],
-      "contentActions": ["解释账户注册、付款资料和首次投放准备", "区分平台账户注册与第三方服务，不售卖或代持账户", "从教程自然链接至广告管理服务页"]
+      "supportingKeywords": ["Google Ads 开户流程", "谷歌广告账户注册", "谷歌广告开户资料", "谷歌广告开户费用", "Google Ads 账单地区", "Google Ads 广告客户验证"],
+      "evidence": {
+        "reviewedAt": "2026-10-20",
+        "method": "Public search results for 谷歌广告开户流程 and 谷歌开户费用, plus current Google account-creation, billing, account-settings and verification documentation. Results validate a procedural/account-setup topic, not Google search volume or US/HK-specific demand. Fee-query results were noisy; supporting terms remain candidates pending Search Console or keyword-planner evidence.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "sources": ["https://support.google.com/google-ads/answer/6366720?hl=zh-Hans", "https://support.google.com/google-ads/answer/9842104?hl=zh-Hans", "https://support.google.com/adspolicy/answer/15577076?hl=zh-Hans"]
+      },
+      "contentActions": ["已在现有指南补充资料清单、六步工作流、地区与账单区别、验证与权限及费用拆分", "区分平台账户注册与第三方服务，不售卖或代持账户", "从教程自然链接至广告管理、费用与追踪指南；等待新的查询页面数据验证效果"]
     },
     {
       "cluster": "谷歌广告排名与广告评级",

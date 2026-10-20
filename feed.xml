@@ -5,17 +5,8 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 18 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>谷歌广告排名怎么提升？Ad Rank影响因素与优化方法</title>
-      <link>https://shumaojs.com/articles/google-search-ads-guide.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-search-ads-guide.html</guid>
-      <description>解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
     <item>
       <title>谷歌广告开户流程：账户准备与投放入门</title>
       <link>https://shumaojs.com/articles/google-ads-basics.html</link>
@@ -23,6 +14,15 @@
       <description>了解谷歌广告开户流程、企业资料准备、账单设置和首次投放步骤。说明客户自有账户的控制权、广告费用构成及开户和排名方面的常见误区。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>Google Ads Guide</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
+    <item>
+      <title>谷歌广告排名怎么提升？Ad Rank影响因素与优化方法</title>
+      <link>https://shumaojs.com/articles/google-search-ads-guide.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-search-ads-guide.html</guid>
+      <description>解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

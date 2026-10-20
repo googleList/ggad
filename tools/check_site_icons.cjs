@@ -146,7 +146,7 @@ async function main() {
       }
       for (const pathname of ["/styles.css", "/site-v20260930.js", "/budget-calculator.js", "/favicon.ico",
         "/CNAME", "/robots.txt", "/sitemap.xml", "/feed.xml", "/site.webmanifest", "/llms.txt",
-        "/data/ad-learning.json", "/assets/icons/tabler-subset-v1.woff2"]) {
+        "/data/ad-learning.json", "/assets/icons/tabler-subset-v1.woff2", "/deployment.json"]) {
         const response = await desktop.request.get(new URL(pathname, base).href, { timeout: 30000 });
         results.push({ path: pathname, viewport: "public-resource", httpStatus: response.status(),
           errors: response.status() === 200 ? [] : ["Required public resource is missing"] });

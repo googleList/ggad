@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import argparse
+import json
+import re
 import shutil
 from pathlib import Path
 from urllib.parse import unquote, urlparse
@@ -49,12 +51,14 @@ def validate_references(output: Path) -> None:
         raise ValueError("\n".join(errors))
 
 
-def build_public_site(root: Path, output: Path) -> list[str]:
+def build_public_site(root: Path, output: Path, revision: str | None = None) -> list[str]:
     root, output = root.resolve(), output.resolve()
     if output.is_relative_to(root) or root.is_relative_to(output):
         raise ValueError("output must be outside the repository and not an ancestor of it")
     if output.exists() and (not output.is_dir() or any(output.iterdir())):
         raise ValueError("output must be a new or empty directory; existing files are never deleted")
+    if revision is not None and not re.fullmatch(r"[0-9a-f]{40}", revision):
+        raise ValueError("revision must be a complete lowercase Git SHA")
     required = [root / name for name in (*PUBLIC_FILES, *PUBLIC_DATA, "index.html")]
     missing = [str(path.relative_to(root)) for path in required if not path.is_file()]
     if missing:
@@ -84,6 +88,9 @@ def build_public_site(root: Path, output: Path) -> list[str]:
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, destination)
         copied.append(relative.as_posix())
+    if revision:
+        (output / "deployment.json").write_text(json.dumps({"revision": revision}) + "\n", encoding="utf-8")
+        copied.append("deployment.json")
     validate_references(output)
     return copied
 
@@ -91,9 +98,10 @@ def build_public_site(root: Path, output: Path) -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--revision", help="actual checked-out Git SHA for public release verification")
     args = parser.parse_args()
     try:
-        files = build_public_site(ROOT, args.output)
+        files = build_public_site(ROOT, args.output, args.revision)
     except ValueError as error:
         parser.exit(1, f"Public artifact build failed: {error}\n")
     print(f"Staged {len(files)} public files in {args.output.resolve()}")

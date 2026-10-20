@@ -85,6 +85,9 @@ jobs:
   deploy-refreshed-site:
     name: Deploy refreshed site to GitHub Pages
     needs: refresh-public-learning
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -112,7 +115,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Stage public website files
-        run: python3 -B scripts/build_public_site.py --output "$RUNNER_TEMP/shumaojs-public"
+        run: python3 -B scripts/build_public_site.py --output "$RUNNER_TEMP/shumaojs-public" --revision "$(git rev-parse HEAD)"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3

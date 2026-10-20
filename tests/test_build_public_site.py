@@ -1,4 +1,5 @@
 import sys
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -43,6 +44,19 @@ class PublicSiteBuildTests(unittest.TestCase):
         (self.root / "index.html").write_text('<a href="reports/private.html">Private</a>', encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "unpublished reference"):
             build_public_site(self.root, self.base / "public")
+
+    def test_revision_marker_records_actual_checkout(self):
+        output = self.base / "public"
+        revision = "a" * 40
+        files = build_public_site(self.root, output, revision)
+        self.assertIn("deployment.json", files)
+        self.assertEqual(json.loads((output / "deployment.json").read_text(encoding="utf-8")), {"revision": revision})
+
+    def test_invalid_revision_is_rejected_before_writing(self):
+        output = self.base / "public"
+        with self.assertRaisesRegex(ValueError, "complete lowercase Git SHA"):
+            build_public_site(self.root, output, "not-a-sha")
+        self.assertFalse(output.exists())
 
     def test_missing_required_file_is_not_silently_omitted(self):
         (self.root / "robots.txt").unlink()

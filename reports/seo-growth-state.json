@@ -6,12 +6,12 @@
   "targetEndAt": "2026-12-26",
   "sprintGoal": "1000 average daily Google organic visits",
   "goalIsGuaranteed": false,
-  "lastRunAt": "2026-10-19",
+  "lastRunAt": "2026-10-20",
   "deployment": {
     "status": "deployed",
-    "reason": "Content commits 3bca678 and 25b5d07 deployed the local icon subset, optimized hero media, mobile CTA stability fix and predeploy quality gates. Pages runs 39216786100 and 39218159617 and collector run 39218159776 succeeded. Collector content commit f18a813 is deployed; production browser checks passed for all 63 sitemap pages and mobile/narrow/ultrawide views. Performance measurements and raw Lighthouse archives are in reports/lighthouse/2026-10-19/.",
-    "localCommit": "f18a813",
-    "verifiedAt": "2026-10-19"
+    "reason": "Content commit 9222a9c aligned the article hub's static order, rendered priority and CollectionPage ItemList, retained all 47 articles, and added no-JavaScript access and a CI regression gate. Pages run 39391323315 (#51) succeeded. Production browser tests passed at four responsive widths and two no-JavaScript viewports with all categories/pages exercised. Earlier icon/hero/CTA performance improvements are retained; no new traffic or ranking gain is claimed.",
+    "localCommit": "9222a9c",
+    "verifiedAt": "2026-10-20"
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -74,21 +74,22 @@
     "exact-simplified-chinese-query-title-alignment-2026-10-19",
     "current-production-sitemap-and-gsc-psi-access-check-2026-10-19",
     "local-tabler-icon-subset-and-render-integrity-2026-10-19",
-    "hero-lcp-mobile-cta-stability-and-predeploy-quality-gates-2026-10-19"
+    "hero-lcp-mobile-cta-stability-and-predeploy-quality-gates-2026-10-19",
+    "static-rendered-article-priority-schema-and-nojs-consistency-2026-10-20"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-19T07:50:31Z",
-    "localHead": "f18a813",
-    "remoteHead": "f18a813",
+    "checkedAt": "2026-10-20T08:10:47Z",
+    "localHead": "9222a9c",
+    "remoteHead": "9222a9c",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch and retain the Pages workflow and CNAME. The last verified content release is f18a813; report/archive commits may follow this checkpoint. Preserve the existing uncommitted internal-link and historical Lighthouse artifacts."
+    "safeAction": "Fetch origin/main before the next batch and retain the Pages workflow and CNAME. The last verified content release is 9222a9c; report/archive commits may follow this checkpoint. Preserve the existing uncommitted internal-link and historical Lighthouse artifacts."
   },
   "dataAccess": {
-    "googleSearchConsole": true,
+    "googleSearchConsole": false,
     "gscWizardPropertyConnected": false,
-    "latestSearchConsoleAccess": "Read-only access to sc-domain:shumaojs.com was available in the user's signed-in browser on 2026-10-19. The GSC Wizard connector remains unconnected. The live 7-day and 28-day performance tables and a target-query regex filter were inspected; query rows are subject to Search Console privacy and reporting limits.",
+    "latestSearchConsoleAccess": "Historical read-only access to sc-domain:shumaojs.com was available in the user's signed-in browser on 2026-10-19; that snapshot remains below. On 2026-10-20, binding the existing browser tab and opening a Chrome report both timed out, so current access is unavailable and no fresher query/page/country data were obtained. This is a browser-control failure, not proof that the user's property permissions were removed. GSC Wizard remains unconnected; query rows remain subject to privacy/reporting limits.",
     "searchPerformance": {
       "property": "sc-domain:shumaojs.com",
       "observedAt": "2026-10-19",
@@ -166,7 +167,24 @@
       "unitTestsPassed": 65,
       "fieldCwvVerified": false
     },
-    "productionSitemap": "reachable with 63 URLs on 2026-10-19; deployment drift audit generated 2026-10-19T07:08:22Z found 63 local and 63 production URLs with zero URL drift; homepage, Google Ads service, and article hub returned HTTP 200 with current title metadata; edited service and article URLs have lastmod 2026-10-19",
+    "articleHubAudit2026-10-20": {
+      "contentCommit": "9222a9c",
+      "pagesRun": "https://github.com/googleList/ggad/actions/runs/39391323315",
+      "report": "reports/seo-week-06-2026-10-20.md",
+      "browserEvidence": "reports/article-index/2026-10-20/production/browser.json",
+      "articlesPreserved": 47,
+      "staticHiddenBefore": 19,
+      "staticHiddenAfter": 0,
+      "responsiveWidthsPassed": [1440, 768, 390, 320],
+      "noJavascriptWidthsPassed": [1440, 390],
+      "categoryArticleCounts": {"all": 47, "seo": 3, "sem": 37, "website": 3, "geo": 4},
+      "sourceSchemaRenderedFirstPageAgree": true,
+      "unitTestsPassed": 71,
+      "pageErrors": 0,
+      "searchPerformanceImpactMeasured": false,
+      "note": "All article anchors already existed in the previous source, including hidden cards. The mismatch was a consistency and no-JavaScript usability defect; it is not proven to have caused non-indexing. Local comparison confirmed all 47 card bodies/images/dates/descriptions were preserved."
+    },
+    "productionSitemap": "Production sitemap remained reachable on 2026-10-20 and the article hub lastmod is 2026-10-20. The October 19 full drift audit found 63 local and 63 production URLs with zero URL drift; no URLs were added or removed in the October 20 article-hub release. Homepage/service dates were not changed in this batch.",
     "protocolCanonicalization": "verified on 2026-10-08: http://shumaojs.com/ returns 200 without redirect; http://www.shumaojs.com/ 301-redirects only to the HTTP apex; https://www.shumaojs.com/ 301-redirects to https://shumaojs.com/. Cloudflare is authoritative DNS; an edge rule is required for HTTP-to-HTTPS consolidation",
     "protocolAudit2026-10-19": {
       "checkedAt": "2026-10-19T07:08:22Z",

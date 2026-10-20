@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-10-20T08:10:47.561Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javascript": true,
+      "categories": {
+        "all": 47,
+        "seo": 3,
+        "sem": 37,
+        "website": 3,
+        "geo": 4
+      },
+      "overflow": false,
+      "firstRowCards": 3,
+      "imagesLoaded": true,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "javascript": true,
+      "categories": {
+        "all": 47,
+        "seo": 3,
+        "sem": 37,
+        "website": 3,
+        "geo": 4
+      },
+      "overflow": false,
+      "firstRowCards": 2,
+      "imagesLoaded": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "javascript": true,
+      "categories": {
+        "all": 47,
+        "seo": 3,
+        "sem": 37,
+        "website": 3,
+        "geo": 4
+      },
+      "overflow": false,
+      "firstRowCards": 1,
+      "imagesLoaded": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "javascript": true,
+      "categories": {
+        "all": 47,
+        "seo": 3,
+        "sem": 37,
+        "website": 3,
+        "geo": 4
+      },
+      "overflow": false,
+      "firstRowCards": 1,
+      "imagesLoaded": true,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "javascript": false,
+      "visibleCards": 47,
+      "inactiveControlsHidden": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "javascript": false,
+      "visibleCards": 47,
+      "inactiveControlsHidden": true,
+      "passed": true
+    }
+  ],
+  "pageErrors": []
+}

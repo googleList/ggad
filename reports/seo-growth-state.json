@@ -270,7 +270,7 @@
       "generatedAt": "2026-10-20T13:23:49.022Z",
       "note": "Collector #6 succeeded after the shared publishing lock change. Production revision marker matches bot commit 2d3c3f2 and public resource JSON has this timestamp. Existing 24 resources and source availability are unchanged; no new article or traffic gain is claimed."
     },
-    "cruxFieldData": "Not obtained: the PageSpeed API returned HTTP 429 and no CrUX/RUM field payload was retrieved. A missing GSC Wizard property does not establish whether public CrUX data exists. The fresh Lighthouse measurements are lab-only."
+    "cruxFieldData": "Direct Search Console CWV report read October 20, last updated October 18: both mobile and desktop report insufficient usage data over the past 90 days. No numeric field LCP, INP or CLS or US/HK breakdown is available. Snapshot: reports/search-console/core-web-vitals-2026-10-20.json. One PageSpeed API recheck returned HTTP 429 RESOURCE_EXHAUSTED with a project daily quota limit of 0; this is an API quota error, not a site performance result. GSC Wizard remains unconnected, independently of the successful browser read. Lighthouse remains lab-only; field CWV is not verified."
   },
   "nextPriorities": [
     "Direct browser GSC access was restored October 20; use reports/search-console/2026-10-20.json as baseline. Recheck Simplified Chinese query/page/country evidence after data advance beyond the October 19-20 releases; current data end October 17. GSC Wizard remains unconnected but is not required for manual reads",
@@ -294,7 +294,7 @@
     "Validate indexing, impressions, and query terminology for the new US and Hong Kong enhanced-conversions-for-leads guides",
     "Validate indexing, impressions, and qualified-lead query themes for the new US and Hong Kong Performance Max guides",
     "Review whether future US and Hong Kong content pairs qualify for reciprocal hreflang before publishing",
-    "Obtain CrUX or RUM field LCP, INP and CLS after the 2026-10-19 PageSpeed API HTTP 429; fresh local Lighthouse results are available but do not verify field CWV",
+    "Wait for the GSC CWV report to acquire sufficient usage data or use genuinely configured RUM; October 18 report has insufficient data for both mobile and desktop. Do not repeat unauthenticated PageSpeed API calls while its reported project daily quota is 0. Local Lighthouse does not verify field CWV",
     "Monitor the 2026-10-19 local-font, hero-image and mobile CTA release against fresh query/page impressions and field performance before making additional title changes",
     "Validate rich-result eligibility with Google's testing tools after deployment"
   ]

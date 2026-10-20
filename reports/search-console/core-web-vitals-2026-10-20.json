@@ -1,0 +1,37 @@
+{
+  "observedOn": "2026-10-20",
+  "property": "sc-domain:shumaojs.com",
+  "source": "Direct read of the user's Search Console Core Web Vitals report",
+  "reportLastUpdated": "2026-10-18",
+  "reportSource": "Chrome User Experience Report",
+  "mobile": {
+    "status": "insufficient_usage_data_past_90_days",
+    "lcp": null,
+    "inp": null,
+    "cls": null
+  },
+  "desktop": {
+    "status": "insufficient_usage_data_past_90_days",
+    "lcp": null,
+    "inp": null,
+    "cls": null
+  },
+  "countryBreakdownAvailable": false,
+  "pageSpeedApi": {
+    "checkedOn": "2026-10-20",
+    "url": "https://shumaojs.com/",
+    "strategy": "mobile",
+    "httpStatus": 429,
+    "status": "RESOURCE_EXHAUSTED",
+    "reportedProjectDailyQuotaLimit": 0,
+    "interpretation": "API quota failure, not a website performance measurement"
+  },
+  "gscWizard": "Target property remains unconnected; this did not prevent the direct browser read",
+  "fieldCwvVerified": false,
+  "limitations": [
+    "No numeric field LCP, INP or CLS values were available in the checked report.",
+    "The report does not provide US/HK-specific measurements.",
+    "This does not establish whether other public origin-level CrUX data exists.",
+    "The October 19 Lighthouse results remain lab-only; no field pass/fail claim is made."
+  ]
+}

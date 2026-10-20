@@ -2105,6 +2105,12 @@ html.js .legal-header [data-reveal] {
   font-weight: 800;
 }
 
+html:not(.article-index-ready) .category-tabs,
+html:not(.article-index-ready) [data-article-status],
+html:not(.article-index-ready) .pagination {
+  display: none;
+}
+
 .category-tabs {
   display: flex;
   flex-wrap: wrap;

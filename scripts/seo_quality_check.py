@@ -11,6 +11,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 from xml.etree import ElementTree
 
+from article_index import validate_article_index
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_ORIGIN = "https://shumaojs.com"
@@ -245,10 +247,14 @@ def main() -> int:
         relative = page.relative_to(ROOT).as_posix()
         parser = PageParser()
         try:
-            parser.feed(page.read_text(encoding="utf-8"))
+            source = page.read_text(encoding="utf-8")
+            parser.feed(source)
         except UnicodeDecodeError:
             errors.append(f"{relative}: file is not valid UTF-8")
             continue
+
+        if relative == "articles.html":
+            errors.extend(validate_article_index(source))
 
         indexable = "noindex" not in parser.robots and relative != "404.html"
         if not parser.lang:

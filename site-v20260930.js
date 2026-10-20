@@ -189,9 +189,7 @@ const getFilteredArticleCards = () =>
   Array.from(articleCards).filter((card) => {
     const category = card.dataset.articleCategory || "sem";
     return activeArticleCategory === "all" || category === activeArticleCategory;
-  }).sort((a, b) =>
-    (Number(b.dataset.searchPriority) || 0) - (Number(a.dataset.searchPriority) || 0)
-  );
+  });
 
 const renderArticlePagination = (totalPages) => {
   if (!articlePagination) {
@@ -293,6 +291,7 @@ if (articleCards.length) {
   });
 
   showArticles();
+  document.documentElement.classList.add("article-index-ready");
 }
 
 const toolTabButtons = document.querySelectorAll("[data-tool-tab]");

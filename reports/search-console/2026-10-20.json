@@ -1,0 +1,67 @@
+{
+  "observedAt": "2026-10-20T08:46:35Z",
+  "property": "sc-domain:shumaojs.com",
+  "source": "Direct read of the user's open Search Console performance UI, web search type; not a connector export",
+  "lastUpdatedLabel": "4-5 hours ago during inspection",
+  "latest7Days": {
+    "start": "2026-10-11", "end": "2026-10-17",
+    "clicks": 0, "impressions": 41, "ctrPercent": 0, "averagePosition": 41.2,
+    "pageRows": 12,
+    "topPageSample": [
+      {"path": "/google-ads-agency-checklist-usa.html", "clicks": 0, "impressions": 14},
+      {"path": "/articles/google-ads-management-cost-usa.html", "clicks": 0, "impressions": 13},
+      {"path": "/articles/google-ads-monthly-reporting-hong-kong.html", "clicks": 0, "impressions": 3},
+      {"path": "/articles/google-ads-monthly-reporting-usa.html", "clicks": 0, "impressions": 2},
+      {"path": "/google-ads-agency-hong-kong.html", "clicks": 0, "impressions": 2}
+    ]
+  },
+  "latest28Days": {
+    "start": "2026-09-20", "end": "2026-10-17",
+    "clicks": 0, "impressions": 201, "ctrPercent": 0, "averagePosition": 60.9,
+    "queryRows": 36, "pageRows": 32, "countryRows": 22,
+    "topQuerySample": [
+      {"query": "search ads evaluation form", "clicks": 0, "impressions": 23},
+      {"query": "google 廣告收費", "clicks": 0, "impressions": 18},
+      {"query": "google ads audit", "clicks": 0, "impressions": 18},
+      {"query": "google ads audit checklist", "clicks": 0, "impressions": 14},
+      {"query": "google ads account audit", "clicks": 0, "impressions": 12},
+      {"query": "google ads 報告", "clicks": 0, "impressions": 11},
+      {"query": "google ads management pricing", "clicks": 0, "impressions": 10},
+      {"query": "google ads management cost", "clicks": 0, "impressions": 9},
+      {"query": "google ads audit nyc", "clicks": 0, "impressions": 7},
+      {"query": "auditing google", "clicks": 0, "impressions": 7}
+    ],
+    "topPageSample": [
+      {"path": "/articles/google-ads-account-audit-usa.html", "clicks": 0, "impressions": 80},
+      {"path": "/articles/google-ads-cost-hong-kong.html", "clicks": 0, "impressions": 25},
+      {"path": "/google-ads-agency-checklist-usa.html", "clicks": 0, "impressions": 24},
+      {"path": "/articles/google-ads-management-cost-usa.html", "clicks": 0, "impressions": 23},
+      {"path": "/articles/google-ads-monthly-reporting-hong-kong.html", "clicks": 0, "impressions": 12},
+      {"path": "/articles/google-ads-enhanced-conversions-leads-usa.html", "clicks": 0, "impressions": 6},
+      {"path": "/articles/google-ads-account-audit-hong-kong.html", "clicks": 0, "impressions": 6},
+      {"path": "/google-ads-agency-hong-kong.html", "clicks": 0, "impressions": 5},
+      {"path": "/articles/google-ads-account-ownership-usa.html", "clicks": 0, "impressions": 4},
+      {"path": "/", "clicks": 0, "impressions": 3}
+    ],
+    "countrySample": [{"country": "US", "clicks": 0, "impressions": 110}, {"country": "HK", "clicks": 0, "impressions": 48}],
+    "simplifiedTargetFilter": {
+      "regex": "谷歌代投|谷歌广告代投|谷歌开户|谷歌广告开户|谷歌排名|谷歌广告排名|谷歌广告",
+      "clicks": 0, "impressions": 0, "visibleQueryRows": 0, "averagePosition": null,
+      "note": "UI displayed no data and warned filtered totals/rows can be incomplete. Its empty-state position 0 is not a measured ranking. This does not establish zero market demand."
+    }
+  },
+  "previous28Days": {
+    "start": "2026-08-23", "end": "2026-09-19",
+    "clicks": 1, "impressions": 5, "ctrPercent": 20, "averagePosition": 3.2,
+    "homepageSample": {"path": "/", "clicks": 1, "impressions": 5},
+    "countrySample": [{"country": "US", "clicks": 0, "impressions": 2}, {"country": "HK", "clicks": 1, "impressions": 2}],
+    "dateEvidence": "Selected last-28-days versus previous period and checked all four populated visible date fields. The comparison chart's malformed accessibility date label was not used."
+  },
+  "limits": [
+    "Totals come from property KPI cards, not sums of sampled query/page rows. Tables here are samples, not full exports.",
+    "Query language and country are separate dimensions; these samples do not map individual queries to countries.",
+    "The prior period predates the September 27 sprint and has only five impressions. Different page/query mix makes aggregate CTR/position unsuitable for a like-for-like ranking gain/loss claim.",
+    "Data end October 17, before the October 19-20 releases; their impact is not measured.",
+    "GSC Wizard still lacks this property. Browser access is restored. GA4 sessions, qualified enquiries and field CWV were not obtained."
+  ]
+}

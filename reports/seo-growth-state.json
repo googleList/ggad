@@ -6,12 +6,14 @@
   "targetEndAt": "2026-12-26",
   "sprintGoal": "1000 average daily Google organic visits",
   "goalIsGuaranteed": false,
-  "lastRunAt": "2026-10-20",
+  "lastRunAt": "2026-10-23",
+  "latestReport": "reports/seo-week-06-2026-10-23.md",
   "deployment": {
     "status": "deployed",
     "reason": "Commit 2743c47 supplies the account-setup guide's verified editorial modification timestamp, supports zoned dates in schema/feed checks, and preserves the original date-only publication value. Pages #60 succeeded; production revision matches and four-width browser checks passed. Google's live article warnings fell from four to two, with Article and BreadcrumbList still valid. Earlier public-artifact boundaries/shared publisher lock remain unchanged. No search-performance improvement is inferred.",
-    "localCommit": "2743c47",
-    "verifiedAt": "2026-10-20"
+    "localCommit": "a0e6346",
+    "verifiedAt": "2026-10-23",
+    "latestVerification": "Remote main and production deployment.json matched a0e6346 at the October 23 checkpoint. No public content change this round. Local/production sitemap URL sets match at 63; HTTP-to-HTTPS canonicalization remains unresolved."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -80,95 +82,105 @@
     "direct-gsc-restored-adjacent-period-and-simplified-query-baseline-2026-10-20",
     "historical-indexing-examples-live-http-and-retirement-triage-2026-10-20",
     "public-artifact-boundary-and-cross-workflow-publisher-serialization-2026-10-20",
-    "google-live-article-test-and-verified-modification-timestamp-2026-10-20"
+    "google-live-article-test-and-verified-modification-timestamp-2026-10-20",
+    "direct-gsc-full-visible-query-page-and-indexed-guide-follow-up-2026-10-23"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-20T13:49:03Z",
-    "localHead": "2743c47",
-    "remoteHead": "2743c47",
+    "checkedAt": "2026-10-23T07:42:28Z",
+    "localHead": "a0e6346",
+    "remoteHead": "a0e6346",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified content checkpoint is 2743c47; report-only commits may follow it. Use deployment.json to inspect the actual public revision. Reports and planning/research data are repository-only: website 404s for those paths are intentional. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
+    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified checkpoint is a0e6346; report-only commits may follow it. Use deployment.json to inspect the actual public revision. Reports and planning/research data are repository-only: website 404s for those paths are intentional. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
   },
   "dataAccess": {
     "googleSearchConsole": true,
     "gscWizardPropertyConnected": false,
-    "latestSearchConsoleAccess": "Direct browser access was restored on October 20 after the user confirmed the report was open. Read 7-day, 28-day and adjacent previous-28-day KPI cards, page/country samples, a query sample and the Simplified Chinese regex filter. Browser-derived snapshot: reports/search-console/2026-10-20.json. GSC Wizard still lacks shumaojs.com; no reconnection/export is required for the completed manual read. Browser binding can be slow; query rows remain subject to privacy/reporting limits.",
+    "latestSearchConsoleAccess": "Direct browser follow-up October 23 read all 37 displayed current 28-day query rows, all 33 page rows, country samples, latest/adjacent previous 7-day KPI cards and the Simplified Chinese regex. Two URL inspections now confirm indexed guides and expected canonicals. Snapshot: reports/search-console/2026-10-23.json. Hidden cached older tables were excluded. GSC Wizard reconnection is not required for this completed manual read.",
     "searchPerformance": {
       "property": "sc-domain:shumaojs.com",
-      "snapshot": "reports/search-console/2026-10-20.json",
-      "observedAt": "2026-10-20",
-      "lastUpdated": "Search Console UI reported about 5 hours before observation",
+      "snapshot": "reports/search-console/2026-10-23.json",
+      "observedAt": "2026-10-23",
+      "lastUpdated": "Search Console UI reported 4.5 hours before observation; performance dates through October 21",
       "latest7Days": {
-        "period": "2026-10-11 through 2026-10-17",
+        "period": "2026-10-15 through 2026-10-21",
         "clicks": 0,
-        "impressions": 41,
+        "impressions": 28,
         "ctr": "0%",
-        "averagePosition": 41.2,
+        "averagePosition": 33.0,
         "visibleQueryRows": null,
-        "pageRows": 12,
+        "pageRows": 14,
+        "countryImpressions": {"US": 11, "HK": 9},
         "targetQueryFilter": "谷歌代投|谷歌广告代投|谷歌开户|谷歌广告开户|谷歌排名|谷歌广告排名|谷歌广告",
         "targetFilterVisibleRows": null
       },
       "latest28Days": {
-        "period": "2026-09-20 through 2026-10-17",
+        "period": "2026-09-24 through 2026-10-21",
         "clicks": 0,
-        "impressions": 201,
+        "impressions": 219,
         "ctr": "0%",
-        "averagePosition": 60.9,
-        "visibleQueryRows": 36,
+        "averagePosition": 59.1,
+        "visibleQueryRows": 37,
         "targetFilterVisibleRows": 0,
         "targetQueryFilter": "谷歌代投|谷歌广告代投|谷歌开户|谷歌广告开户|谷歌排名|谷歌广告排名|谷歌广告",
         "targetFilteredImpressions": 0,
-        "visibleQueryPattern": "The top ten sampled queries were English or Traditional Chinese, led by search ads evaluation form (23 impressions), google 廣告收費 (18) and google ads audit (18). The separate Simplified Chinese target regex returned no data; all 36 rows were not individually exported.",
-        "countryImpressions": { "US": 110, "HK": 48 },
-        "countryRows": 22,
-        "pageRows": 32
+        "visibleQueryPattern": "All 37 displayed rows were read after excluding hidden cached tables. None match the target regex; the independent regex view also has no data with an incomplete-results warning. English and Traditional Chinese continue to lead. This is not a search-volume estimate.",
+        "countryImpressions": { "US": 114, "HK": 55 },
+        "countryRows": 24,
+        "pageRows": 33
       },
-      "previous28Days": {
+      "previous7Days": {
+        "period": "2026-10-08 through 2026-10-14",
+        "clicks": 0, "impressions": 60, "ctr": "0%", "averagePosition": 47.5,
+        "countryImpressions": {"US": 32, "HK": 20},
+        "note": "Adjacent non-overlapping comparison; all four dates read in the dialog. Weekly impressions fell by 32 with both periods at zero clicks. Too small and mixed to attribute to releases."
+      },
+      "historicalPrevious28DaysObserved2026-10-20": {
         "period": "2026-08-23 through 2026-09-19",
         "clicks": 1, "impressions": 5, "ctr": "20%", "averagePosition": 3.2,
         "countryImpressions": {"US": 2, "HK": 2},
         "countryClicks": {"US": 0, "HK": 1},
         "note": "Non-overlapping adjacent-period UI comparison; all four date fields checked. Tiny pre-sprint baseline with homepage activity and different page/query mix; not evidence of a like-for-like ranking decline."
       },
-      "previousSnapshot": {
+      "historicalEarlierSnapshot": {
         "period": "2026-10-04 through 2026-10-10",
         "clicks": 0,
         "impressions": 120,
         "ctr": "0%",
         "averagePosition": 65.3,
-        "source": "Earlier browser observation; this interval overlaps the latest 7-day window by one day and is not a clean period-over-period comparison."
+        "source": "Earlier browser observation, not the adjacent previous week for the October 23 snapshot. Use the newly verified October 8-14 comparison instead."
       },
       "observation": "The target phrases are now present in the live homepage, service page, account-setup guide, and ad-rank guide (all HTTP 200). Search Console reports observed organic queries, not the site's chosen target keywords. Zero matching visible rows means no reportable matches in these filtered views, not zero market demand; anonymized or low-volume queries may be omitted.",
-      "comparisonData": "Current 7-day/28-day and adjacent previous-28-day KPI cards and sampled page/country comparisons were read on October 20. Impressions differ by +196 and clicks by -1, but the previous period has five impressions and predates the sprint; do not claim keyword ranking gains/losses from these aggregates. Current data end October 17, before the October 19-20 releases."
+      "comparisonData": "October 23: latest and adjacent previous 7-day KPIs and sampled country/page comparisons were read; current 28-day data end October 21. No fresh adjacent previous-28-day comparison. The October 20 and 23 rolling windows overlap; do not call the 201-to-219 difference incremental post-release gains. Service page has 4 current 28-day impressions, 3 in the latest week versus 0 in the prior week, but queries cannot be attributed from these aggregates. Both priority guides are indexed but absent from all 33 displayed page rows."
     },
-    "publicIndexingCheck": "Page indexing was reread October 20 but remains last updated October 12: 41 indexed / 57 not indexed. All 57 displayed examples were joined to current HTTP, sitemap, static links and retirement policy: 31 retired URLs are 404, 23 current HTML pages are 200 with discovery signals, one is RSS, one is the index.html variant and one is the still-unredirected HTTP homepage. This is a historical report plus live HTTP triage, not a fresh Google indexing count. No crawl/validation/removal request was repeated.",
+    "publicIndexingCheck": "October 23 read: Page indexing report is now dated October 16, with 48 indexed / 50 not indexed. Summary changes predate October 19-20 releases and cannot be attributed to them. URL Inspection confirms account-setup and Ad Rank guides are indexed with matching Google canonicals, last crawled October 19. The account guide's crawl predates its October 20 expansion. Old 57-example triage remains explicitly historical; no request was repeated.",
     "searchConsoleIndexCoverage": {
       "property": "sc-domain:shumaojs.com",
       "report": "Page indexing, all known pages",
-      "reportLastUpdated": "2026-10-12",
-      "observedAt": "2026-10-20",
-      "indexed": 41,
-      "notIndexed": 57,
+      "reportLastUpdated": "2026-10-16",
+      "observedAt": "2026-10-23",
+      "indexed": 48,
+      "notIndexed": 50,
       "knownPages": 98,
       "notIndexedReasons": {
         "notFound404": 20,
         "alternateWithCanonical": 7,
-        "discoveredNotIndexed": 23,
+        "discoveredNotIndexed": 16,
         "crawledNotIndexed": 7,
         "pageWithRedirect": 0
       },
-      "urlSamplesRetrieved": true,
+      "urlSamplesRetrieved": false,
+      "historicalExampleTriageObservedAt": "2026-10-20",
+      "historicalExampleReportDate": "2026-10-12",
       "exampleSnapshot": "reports/search-console/indexing-2026-10-20.json",
       "httpTriage": "reports/search-console/indexing-http-2026-10-20.json",
-      "displayedExamplesChecked": 57,
-      "liveTriage": {"retired404": 31, "currentHtml200WithDiscoverySignals": 23, "rss": 1, "homepageVariant": 1, "httpCanonicalizationIssue": 1},
+      "historicalDisplayedExamplesChecked": 57,
+      "historicalHttpTriage": {"retired404": 31, "currentHtml200WithDiscoverySignals": 23, "rss": 1, "homepageVariant": 1, "httpCanonicalizationIssue": 1},
       "urlInspectionFollowUp": [
-        {"url": "https://shumaojs.com/articles/google-ads-basics.html", "storedState": "Discovered - currently not indexed", "liveTest": "Indexable", "priorityCrawlRequest": "Submitted successfully on 2026-10-19"},
-        {"url": "https://shumaojs.com/articles/google-search-ads-guide.html", "storedState": "Google doesn't know this URL", "liveTest": "Indexable", "priorityCrawlRequest": "Submitted successfully on 2026-10-19"},
-        {"url": "https://shumaojs.com/articles.html", "storedState": "Discovered - currently not indexed", "liveTest": "Indexable", "priorityCrawlRequest": "Submitted successfully on 2026-10-19"}
+        {"url": "https://shumaojs.com/articles/google-ads-basics.html", "observedAt": "2026-10-23", "storedState": "Indexed", "googleCanonical": "Inspected URL", "lastCrawlDisplayed": "2026-10-19 00:59:23", "note": "Crawl predates October 20 expansion; prior request not repeated"},
+        {"url": "https://shumaojs.com/articles/google-search-ads-guide.html", "observedAt": "2026-10-23", "storedState": "Indexed", "googleCanonical": "Inspected URL", "lastCrawlDisplayed": "2026-10-19 01:07:37", "note": "After October 18 expansion; prior request not repeated"},
+        {"url": "https://shumaojs.com/articles.html", "observedAt": "2026-10-19", "storedState": "Discovered - currently not indexed", "liveTest": "Indexable", "priorityCrawlRequest": "Submitted successfully on 2026-10-19; not rechecked October 23"}
       ]
     },
     "ga4": false,
@@ -233,6 +245,14 @@
       "httpsWww": "HTTP 301 to canonical HTTPS apex (passes)",
       "action": "Configure Cloudflare edge redirects: HTTP apex to HTTPS apex; both www schemes to HTTPS apex, preserving path and query. Re-run deployment_drift_audit.py afterward."
     },
+    "protocolAudit2026-10-23": {
+      "snapshot": "reports/deployment/2026-10-23.json",
+      "sitemapLocalUrls": 63, "sitemapProductionUrls": 63, "sitemapUrlDrift": 0,
+      "httpApex": "HTTP 200 without redirect",
+      "httpWww": "301 to HTTP apex, then 200 without HTTPS consolidation",
+      "httpsWww": "301 to HTTPS apex, then 200",
+      "note": "Same unresolved edge issue. Sitemap parity is not a fresh crawl of all 63 URLs. Cloudflare administrator sign-in/action remains required."
+    },
     "externalLinkAudit2026-10-18": {
       "checked": 217,
       "reachable": 184,
@@ -285,12 +305,12 @@
     }
   },
   "nextPriorities": [
-    "Direct browser GSC access was restored October 20; use reports/search-console/2026-10-20.json as baseline. Recheck Simplified Chinese query/page/country evidence after data advance beyond the October 19-20 releases; current data end October 17. GSC Wizard remains unconnected but is not required for manual reads",
-    "After the Simplified Chinese pages have had time to be crawled and accrue impressions, recheck each target query and the matching pages in Search Console; do not interpret filtered zero rows as zero demand",
-    "Use the verified adjacent previous-28-day comparison as historical context; obtain a full export if row-level segmentation is needed. Do not treat the five-impression pre-sprint baseline or sampled tables as a stable ranking benchmark",
+    "Use reports/search-console/2026-10-23.json and the October 23 report as the latest evidence checkpoint. Data end October 21; all 37 displayed current query rows and all 33 page rows were read. No reportable Simplified target matches does not mean zero demand",
+    "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October 20 expansion; the reported crawl is still October 19. Do not rebuild these URLs or repeat the October 19 requests just because target-query impressions remain absent",
+    "Use the verified October 15-21 versus October 8-14 comparison: 28 versus 60 impressions, both zero clicks. Tiny mixed samples cannot establish a release effect; rolling 28-day snapshots overlap and are not incremental growth measurements. The old five-impression prior-28-day baseline remains historical only",
     "Cloudflare administrator action: enable Always Use HTTPS and add a permanent www-to-apex redirect preserving path and query; verify HTTP apex and both www schemes resolve to https://shumaojs.com before marking canonicalization fixed",
-    "Use restored browser access to review new query/page/country and URL Inspection states after the releases and October 19 crawl requests have had time to process; connecting GSC Wizard is optional for automated exports",
-    "Use the completed October 20 indexing-example triage rather than restoring retired URLs: 31 examples are intentional 404s and 23 current HTML examples have HTTP/discovery signals. Recheck Google indexing after the October 12 report advances; do not submit repeat crawl requests merely to clear historical reason labels",
+    "Open/identify the correct shumaojs.com GA4 resource before measuring organic visits or enquiries; no placeholder measurement ID or unrelated Firebase analytics. GSC Wizard remains optional for direct manual performance reads",
+    "The indexing report now says October 16: 48 indexed / 50 not indexed. Its counts predate recent releases. Preserve the historical October 20 example triage without treating its 57 examples as today's 50; do not restore retired account-selling URLs or submit validation simply to clear old reason labels",
     "Continue strengthening internal links around the four Simplified Chinese query themes while retaining US English and Hong Kong Traditional Chinese clusters",
     "Validate indexing and impressions for the two market landing pages",
     "Collect permission for genuine case studies and client references before directory submissions",

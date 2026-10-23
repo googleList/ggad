@@ -6,7 +6,7 @@ from __future__ import annotations
 import json
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
@@ -18,6 +18,12 @@ DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 DATETIME_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)$")
 ORGANIZATION_ID = "https://shumaojs.com/#organization"
 COMPANY_URL = "https://shumaojs.com/company.html"
+EDITORIAL_TIMEZONE = timezone(timedelta(hours=8))
+
+
+def editorial_today(reference: datetime | None = None) -> date:
+    """Date-only editorial metadata uses the publisher's China calendar, not CI's."""
+    return (reference or datetime.now(timezone.utc)).astimezone(EDITORIAL_TIMEZONE).date()
 
 
 def parse_article_date(value: str) -> date | datetime:
@@ -110,7 +116,7 @@ def contains_schema_type(value: Any, target: str) -> bool:
     return False
 
 
-def validate_page(path: Path, text: str) -> list[str]:
+def validate_page(path: Path, text: str, now: datetime | None = None) -> list[str]:
     parser = SchemaParser()
     parser.feed(text)
     if "noindex" in parser.robots:
@@ -186,16 +192,17 @@ def validate_page(path: Path, text: str) -> list[str]:
                     errors.append(f"Article {field} must use a valid YYYY-MM-DD or ISO 8601 datetime with timezone")
                     continue
                 parsed_dates[field] = parsed
-                calendar_date = parsed.date() if isinstance(parsed, datetime) else parsed
-                if calendar_date > date.today():
+                reference = now or datetime.now(timezone.utc)
+                future = parsed > reference if isinstance(parsed, datetime) else parsed > editorial_today(reference)
+                if future:
                     errors.append(f"Article {field} cannot be in the future")
             if len(parsed_dates) == 2:
                 published = parsed_dates["datePublished"]
                 modified = parsed_dates["dateModified"]
                 # Do not invent times when one side is only known to the day.
                 if not (isinstance(published, datetime) and isinstance(modified, datetime)):
-                    published = published.date() if isinstance(published, datetime) else published
-                    modified = modified.date() if isinstance(modified, datetime) else modified
+                    published = editorial_today(published) if isinstance(published, datetime) else published
+                    modified = editorial_today(modified) if isinstance(modified, datetime) else modified
                 if modified < published:
                     errors.append("Article dateModified cannot be earlier than datePublished")
         if "WebApplication" in types:

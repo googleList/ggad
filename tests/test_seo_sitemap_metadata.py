@@ -3,6 +3,7 @@ import unittest
 from datetime import date
 from pathlib import Path
 from xml.etree import ElementTree
+from unittest.mock import patch
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +20,14 @@ def sitemap(entries: str) -> ElementTree.Element:
 
 
 class SitemapMetadataTests(unittest.TestCase):
+    def test_default_sitemap_day_uses_the_editorial_calendar(self) -> None:
+        root = sitemap("<url><loc>https://shumaojs.com/</loc><lastmod>2026-10-24</lastmod></url>")
+        with patch("seo_quality_check.editorial_today", return_value=date(2026, 10, 24)):
+            self.assertEqual(validate_sitemap_metadata(root), [])
+        future = sitemap("<url><loc>https://shumaojs.com/</loc><lastmod>2026-10-25</lastmod></url>")
+        with patch("seo_quality_check.editorial_today", return_value=date(2026, 10, 24)):
+            self.assertTrue(any("future lastmod" in error for error in validate_sitemap_metadata(future)))
+
     def test_valid_unique_urls_and_dates_pass(self) -> None:
         root = sitemap(
             "<url><loc>https://shumaojs.com/</loc><lastmod>2026-09-29</lastmod></url>"

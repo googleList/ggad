@@ -12,6 +12,7 @@ from urllib.parse import urlparse
 from xml.etree import ElementTree
 
 from article_index import validate_article_index
+from structured_data_check import editorial_today
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -196,7 +197,7 @@ def validate_social_image(relative: str, label: str, value: str) -> list[str]:
 def validate_sitemap_metadata(root: ElementTree.Element, today: date | None = None) -> list[str]:
     """Validate URL uniqueness and truthful ISO last-modified dates."""
     errors: list[str] = []
-    today = today or date.today()
+    today = today or editorial_today()
     namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     seen_urls: set[str] = set()
 

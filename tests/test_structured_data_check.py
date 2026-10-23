@@ -22,6 +22,26 @@ def page(schema, canonical="https://example.com/guide.html", lang="en-US"):
 
 
 class StructuredDataCheckTests(unittest.TestCase):
+    def test_editorial_calendar_is_independent_of_utc_runner_day(self):
+        from datetime import date, datetime, timezone
+
+        self.assertEqual(MODULE.editorial_today(datetime(2026, 10, 23, 15, 59, tzinfo=timezone.utc)), date(2026, 10, 23))
+        self.assertEqual(MODULE.editorial_today(datetime(2026, 10, 23, 16, 30, tzinfo=timezone.utc)), date(2026, 10, 24))
+
+    def test_zoned_article_dates_compare_instants_without_allowing_future_times(self):
+        from datetime import datetime, timezone
+
+        now = datetime(2026, 10, 23, 16, 30, tzinfo=timezone.utc)
+        schema = {"@type": "Article", "datePublished": "2026-09-11", "dateModified": "2026-10-24T00:20:55+08:00"}
+        errors = MODULE.validate_page(Path("guide.html"), page(schema), now=now)
+        self.assertFalse(any("future" in error for error in errors))
+        schema["dateModified"] = "2026-10-24T01:00:00+08:00"
+        self.assertTrue(any("dateModified cannot be in the future" in error for error in MODULE.validate_page(Path("guide.html"), page(schema), now=now)))
+        schema["dateModified"] = "2026-10-24"
+        self.assertFalse(any("future" in error for error in MODULE.validate_page(Path("guide.html"), page(schema), now=now)))
+        schema["dateModified"] = "2026-10-25"
+        self.assertTrue(any("future" in error for error in MODULE.validate_page(Path("guide.html"), page(schema), now=now)))
+
     def test_article_date_precision_and_timezone(self):
         from datetime import date, datetime
 
@@ -47,6 +67,9 @@ class StructuredDataCheckTests(unittest.TestCase):
         errors = MODULE.validate_page(Path("guide.html"), page(schema))
         self.assertTrue(any("dateModified cannot be earlier" in error for error in errors))
         schema.update(datePublished="2026-10-20", dateModified="2026-10-20T01:00:00+08:00")
+        errors = MODULE.validate_page(Path("guide.html"), page(schema))
+        self.assertFalse(any("dateModified cannot be earlier" in error for error in errors))
+        schema.update(datePublished="2026-10-20", dateModified="2026-10-19T18:00:00Z")
         errors = MODULE.validate_page(Path("guide.html"), page(schema))
         self.assertFalse(any("dateModified cannot be earlier" in error for error in errors))
 

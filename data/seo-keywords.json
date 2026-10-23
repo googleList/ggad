@@ -13,7 +13,15 @@
       "targetUrl": "https://shumaojs.com/google-ads.html",
       "primaryKeywords": ["谷歌代投", "谷歌广告代投"],
       "supportingKeywords": ["Google Ads 代运营", "谷歌广告投放管理", "谷歌广告优化"],
-      "contentActions": ["服务页承接代投与管理咨询意图", "从首页、开户和投放指南页建立语义相关内链", "清楚说明客户持有账户，不承诺审核通过、固定排名或效果"]
+      "evidence": {
+        "reviewedAt": "2026-10-24",
+        "method": "Direct GSC browser recheck: settled 2026-09-24 through 2026-10-21 totals unchanged at 219 impressions/0 clicks; google-ads.html has 4 page impressions, not attributable to a specific query. All 37 visible queries contain no Simplified target phrase. Public results for 谷歌代投 开户 管理 服务费 and 谷歌广告代投 服务 内容 show commercial service/scope intent only, not Google search volume or verified US/HK demand.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-24-service-scope/brief.md",
+        "humanReviewStatus": "pending"
+      },
+      "contentActions": ["保留服务页标题和网址，区分七类常见广告系列与再营销、品牌词策略", "补充开户协助、持续代投、专项检查的范围确认表及合作流程", "分清广告费、服务费、追踪与网站开发职责，不虚构套餐；等待实际人工反馈及后续查询数据"]
     },
     {
       "cluster": "谷歌广告开户流程",
@@ -50,7 +58,7 @@
       "targetUrl": "https://shumaojs.com/articles.html",
       "primaryKeywords": ["谷歌广告", "Google Ads 教程"],
       "supportingKeywords": ["谷歌广告怎么投", "谷歌广告费用", "谷歌广告关键词"],
-      "contentActions": ["文章列表首屏优先呈现简体中文开户、排名、费用和关键词内容", "通过分类和分页保留英文与香港繁体内容", "由指南页链接至对应文章与服务页"]
+      "contentActions": ["文章列表首屏优先呈现简体中文开户、排名、费用和关键词内容", "保留全部47篇文章、原有分页和静态链接，为SEO、SEM、建站、GEO补充不同的主题说明", "分类仍是同一列表的筛选，不虚构独立类目网址；不声称新描述会直接提升排名"]
     },
     {
       "cluster": "谷歌广告费用与有效询盘预算",

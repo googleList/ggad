@@ -174,6 +174,7 @@ const articleCards = document.querySelectorAll("[data-article-card]");
 const articleCategoryButtons = document.querySelectorAll("[data-article-category-button]");
 const articlePagination = document.querySelector(".pagination");
 const articleStatus = document.querySelector("[data-article-status]");
+const articleSummary = document.querySelector("p[data-article-summary]");
 const articlePageSize = 6;
 let activeArticleCategory = "all";
 let activeArticlePage = 1;
@@ -272,6 +273,9 @@ const showArticles = () => {
     const isActive = button.dataset.articleCategory === activeArticleCategory;
     button.classList.toggle("is-active", isActive);
     button.setAttribute("aria-pressed", String(isActive));
+    if (isActive && articleSummary) {
+      articleSummary.textContent = button.dataset.articleSummary || "";
+    }
   });
 
   renderArticlePagination(totalPages);

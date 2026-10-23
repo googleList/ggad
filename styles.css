@@ -2186,7 +2186,8 @@ html:not(.article-index-ready) .pagination {
   max-width: 920px;
 }
 
-.article-detail section[id] {
+.article-detail section[id],
+.platform-detail-page section[id] {
   scroll-margin-top: 112px;
 }
 

@@ -55,8 +55,14 @@ async function main() {
       const categories = await page.locator("[data-article-category-button]").evaluateAll((buttons) =>
         buttons.map((button) => button.dataset.articleCategory));
       const categoryCounts = {};
+      const categorySummaries = {};
       for (const category of categories) {
         await page.locator(`[data-article-category-button][data-article-category="${category}"]`).click();
+        const summary = await page.locator(`[data-article-category-button][data-article-category="${category}"]`).getAttribute("data-article-summary");
+        assert.ok(summary && summary.length > 30);
+        assert.equal(await page.locator("p[data-article-summary]").textContent(), summary);
+        assert.equal(await page.locator('[data-article-category-button][aria-pressed="true"]').count(), 1);
+        categorySummaries[category] = summary;
         const expected = source.cards.filter((card) => category === "all" || card.category === category);
         const collected = [];
         let pageNumber = 1;
@@ -100,7 +106,8 @@ async function main() {
         await page.evaluate(() => scrollTo(0, 0));
         await page.screenshot({ path: path.join(output, `articles-${width}.png`), fullPage: true });
       }
-      results.push({ width, javascript: true, categories: categoryCounts, ...layout, passed: true });
+      assert.equal(new Set(Object.values(categorySummaries)).size, categories.length);
+      results.push({ width, javascript: true, categories: categoryCounts, categorySummaries, ...layout, passed: true });
       console.log(`Passed ${width}px categories, pagination and images`);
       await context.close();
     }
@@ -114,6 +121,7 @@ async function main() {
       assert.equal(await page.locator(".category-tabs").isVisible(), false);
       assert.equal(await page.locator(".pagination").isVisible(), false);
       assert.equal(await page.locator("[data-article-status]").isVisible(), false);
+      assert.ok((await page.locator("p[data-article-summary]").textContent()).includes("自然搜索"));
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
       results.push({ width, javascript: false, visibleCards: count, inactiveControlsHidden: true, passed: true });
       await context.close();

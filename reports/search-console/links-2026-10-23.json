@@ -1,0 +1,29 @@
+{
+  "observedOn": "2026-10-23",
+  "property": "sc-domain:shumaojs.com",
+  "source": "Direct read of Search Console Links report in the user's existing browser tab",
+  "reportLastUpdated": null,
+  "externalLinksReported": 0,
+  "topLinkedPagesExternal": "No data",
+  "topLinkingSites": "No data",
+  "topLinkingText": "No data",
+  "internalLinksReported": 157,
+  "topInternalPageSample": [
+    {"path": "/contact.html", "count": 39},
+    {"path": "/nav.html", "count": 30},
+    {"path": "/company.html", "count": 28},
+    {"path": "/facebook-ads.html", "count": 15},
+    {"path": "/google-ads.html", "count": 15},
+    {"path": "/x-ads.html", "count": 14},
+    {"path": "/managed-ads.html", "count": 9},
+    {"path": "/articles/geo-ai-search-basics.html", "count": 2},
+    {"path": "/articles/googlebot-ai-crawlers-seo-geo.html", "count": 2},
+    {"path": "/articles/how-to-choose-advertising-agency.html", "count": 2}
+  ],
+  "limitations": [
+    "This report is not a complete live backlink census and does not establish that no links exist anywhere on the web.",
+    "The UI did not expose a report update date in the read view; no date was inferred.",
+    "Internal-link counts are Google's reported sample/aggregation, not the repository's complete static graph or proof that absent pages are orphaned.",
+    "No domains, anchors or backlinks were invented; no disavow/removal request, contact or directory submission was made."
+  ]
+}

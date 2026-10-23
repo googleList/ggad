@@ -11,9 +11,9 @@
   "deployment": {
     "status": "deployed",
     "reason": "Commit 2743c47 supplies the account-setup guide's verified editorial modification timestamp, supports zoned dates in schema/feed checks, and preserves the original date-only publication value. Pages #60 succeeded; production revision matches and four-width browser checks passed. Google's live article warnings fell from four to two, with Article and BreadcrumbList still valid. Earlier public-artifact boundaries/shared publisher lock remain unchanged. No search-performance improvement is inferred.",
-    "localCommit": "a0e6346",
+    "localCommit": "e8996a6",
     "verifiedAt": "2026-10-23",
-    "latestVerification": "Remote main and production deployment.json matched a0e6346 at the October 23 checkpoint. No public content change this round. Local/production sitemap URL sets match at 63; HTTP-to-HTTPS canonicalization remains unresolved."
+    "latestVerification": "Remote main and production deployment.json matched e8996a6 at the October 23 authority-review checkpoint. Public content is unchanged. The earlier sitemap audit matched all 63 URLs; HTTP-to-HTTPS canonicalization remains unresolved. Research/planning data remain outside the Pages artifact."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -83,16 +83,17 @@
     "historical-indexing-examples-live-http-and-retirement-triage-2026-10-20",
     "public-artifact-boundary-and-cross-workflow-publisher-serialization-2026-10-20",
     "google-live-article-test-and-verified-modification-timestamp-2026-10-20",
-    "direct-gsc-full-visible-query-page-and-indexed-guide-follow-up-2026-10-23"
+    "direct-gsc-full-visible-query-page-and-indexed-guide-follow-up-2026-10-23",
+    "direct-gsc-link-baseline-and-official-directory-rule-review-2026-10-23"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-23T07:42:28Z",
-    "localHead": "a0e6346",
-    "remoteHead": "a0e6346",
+    "checkedAt": "2026-10-23T08:23:53Z",
+    "localHead": "e8996a6",
+    "remoteHead": "e8996a6",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified checkpoint is a0e6346; report-only commits may follow it. Use deployment.json to inspect the actual public revision. Reports and planning/research data are repository-only: website 404s for those paths are intentional. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
+    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified checkpoint is e8996a6; research/report-only commits may follow it. Use deployment.json to inspect the actual public revision. Reports and planning/research data are repository-only: website 404s for those paths are intentional. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
   },
   "dataAccess": {
     "googleSearchConsole": true,
@@ -261,6 +262,15 @@
       "unverified": 30,
       "note": "403/401/429 and network errors are not counted as broken; automated audit cannot confirm those destinations."
     },
+    "inboundLinkBaseline2026-10-23": {
+      "snapshot": "reports/search-console/links-2026-10-23.json",
+      "report": "reports/authority-review-2026-10-23.md",
+      "reportedExternalLinks": 0,
+      "reportedInternalLinks": 157,
+      "reportedReferringSites": "No data",
+      "limitations": "Direct GSC Links view, no exposed update date. Not a complete all-web backlink census or full internal graph. No causal ranking claim, new link, public profile, submission, message, review request or purchase.",
+      "candidateReview": "Rechecked official GoodFirms, Sortlist and Clutch rules. Free profile availability is not a free followed-link guarantee. Sortlist paid membership includes an SEO backlink; reduce its current US/HK priority. Case-study counts were internal credibility recommendations, not verified platform minimums."
+    },
     "adLearningCollection2026-10-19": {
       "itemsCollected": 24,
       "sourcesConfigured": 6,
@@ -313,8 +323,8 @@
     "The indexing report now says October 16: 48 indexed / 50 not indexed. Its counts predate recent releases. Preserve the historical October 20 example triage without treating its 57 examples as today's 50; do not restore retired account-selling URLs or submit validation simply to clear old reason labels",
     "Continue strengthening internal links around the four Simplified Chinese query themes while retaining US English and Hong Kong Traditional Chinese clusters",
     "Validate indexing and impressions for the two market landing pages",
-    "Collect permission for genuine case studies and client references before directory submissions",
-    "Complete a truthful Sortlist profile after one portfolio example is approved",
+    "Use the October 23 GSC link baseline (zero reported external links, not proof of zero links anywhere) and official candidate review. Consider a truthful free identity profile only after platform-specific owner authorization and approved public details; never buy a plan solely for SEO links",
+    "Keep genuine case studies/references as credibility assets with permission, not invented platform entry minimums. Sortlist is lower priority: official help puts its SEO backlink in paid Sortlist+ and describes a mainly European marketing focus. No external profile/submission/message is authorized yet",
     "Validate impressions and queries for the new US and Hong Kong conversion-tracking guides",
     "Validate impressions and queries for the new account ownership and billing guides",
     "Validate impressions, clicks, indexing, and assisted enquiries for the new US and Hong Kong agency evaluation tools",

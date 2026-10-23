@@ -16,6 +16,8 @@ Build verifiable authority for Shumao through relevant agency profiles, original
 
 ## Priority sequence
 
+October 23 update: Search Console currently reports zero external links, with no referring-domain or anchor-text data. This is a reporting baseline, not proof that the web contains no links. Read [the authority review](authority-review-2026-10-23.md) before acting: free profiles are not automatically followed backlinks, and the case-study counts below are internal evidence recommendations, not confirmed platform entry minimums. No external submission or spending is authorized.
+
 1. Deploy and index the current US and Hong Kong market pages.
 2. Publish two original, evidence-backed case studies after client approval.
 3. Prepare one genuine client reference and portfolio example for Sortlist.

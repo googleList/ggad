@@ -1,5 +1,6 @@
 {
-  "lastReviewed": "2026-09-30",
+  "lastReviewed": "2026-10-23",
+  "reviewScope": "GoodFirms, Sortlist and Clutch public official rules rechecked October 23; other entries retain their previous review. No account, application, purchase, message or publication was made.",
   "site": "https://shumaojs.com/",
   "policy": "Only pursue editorial or directory links that accurately represent the business. Do not buy links, fabricate offices, reviews, certifications, or client results.",
   "prospects": [
@@ -8,50 +9,59 @@
       "url": "https://www.goodfirms.co/get-listed",
       "market": "global",
       "type": "agency-directory",
-      "priority": "high",
+      "priority": "medium",
       "cost": "free listing available",
-      "status": "ready_after_evidence",
-      "eligibility": "Requires research verification and may require client references.",
+      "status": "awaiting_owner_approval_for_free_profile_review",
+      "reviewedAt": "2026-10-23",
+      "officialSources": ["https://www.goodfirms.co/get-listed"],
+      "eligibility": "Official page offers a free listing application with research verification; acceptance and exact evidence requirements remain subject to review. No mandatory case-study/reference count was confirmed.",
       "requiredBeforeSubmission": [
-        "Two genuine client references with permission to be contacted",
-        "Two original case studies with verifiable scope and outcomes",
-        "Public English company profile and service pages deployed"
+        "Explicit owner authorization for this platform and approved public contact details",
+        "Owner-confirmed company name, actual location, services and capacity",
+        "Review actual application requirements without inventing credentials or client evidence"
       ],
+      "internalEvidenceRecommendation": "Prepare genuine permitted portfolio material and references when available; the earlier two-case/two-reference target was an internal readiness recommendation, not a verified platform minimum.",
       "destinationUrl": "https://shumaojs.com/google-ads-management-usa.html",
-      "notes": "Submit only after evidence is available; do not invent reviews or metrics."
+      "notes": "Free application is not guaranteed acceptance, a followed link, traffic or AI citation. Do not buy a paid plan solely for SEO."
     },
     {
       "name": "Sortlist",
       "url": "https://www.sortlist.com/join",
       "market": "global",
       "type": "agency-directory",
-      "priority": "high",
+      "priority": "low",
       "cost": "free registration available",
-      "status": "ready_after_profile_assets",
-      "eligibility": "Accepts agencies and freelancers offering online advertising, digital strategy, and SEO services.",
+      "status": "free_profile_candidate_not_verified_free_backlink",
+      "reviewedAt": "2026-10-23",
+      "officialSources": ["https://help.sortlist.com/en/articles/1714392-can-i-register-to-sortlist-listing-conditions", "https://help.sortlist.com/en/articles/6636955-understanding-sortlist"],
+      "eligibility": "Global providers in relevant advertising categories can create free profiles. Official help describes a mainly Benelux/French/Spanish marketing focus and includes an SEO backlink in paid Sortlist+; free-profile backlink attributes are not confirmed.",
       "requiredBeforeSubmission": [
-        "English logo and company profile",
+        "Explicit owner authorization and approved public contact details",
+        "Owner-confirmed English company profile and logo",
         "Accurate China business location",
         "Service categories and languages",
-        "At least one genuine portfolio example"
+        "Use only permitted genuine portfolio work if supplied; no fake client examples"
       ],
+      "internalEvidenceRecommendation": "One genuine portfolio example is helpful for credibility, not a confirmed mandatory entry count.",
       "destinationUrl": "https://shumaojs.com/",
-      "notes": "Target US and Hong Kong clients without claiming a local office."
+      "notes": "Lower priority for the current US/HK Simplified Chinese objective. A free profile may support discovery, not a promised SEO link. No paid membership, credits or promotion authorized."
     },
     {
       "name": "Clutch",
       "url": "https://clutch.co/get-listed",
       "market": "global",
       "type": "agency-directory",
-      "priority": "medium",
+      "priority": "low",
       "cost": "free profile; paid verification currently starts at USD 499 per year",
       "status": "deferred_until_evidence",
+      "reviewedAt": "2026-10-23",
+      "officialSources": ["https://clutch.co/get-listed"],
       "eligibility": "Clutch currently allows a website URL and core company information on a free profile, while a directory-page Visit Website link and stronger placement are Verified features. Profiles are manually reviewed and locations must be truthful.",
       "requiredBeforeSubmission": [
-        "At least two detailed case studies",
-        "Genuine client review pipeline",
-        "Measured decision that paid verification can return qualified leads"
+        "Explicit owner authorization and accurate public company/contact information",
+        "Never invent portfolio examples, reviews or locations"
       ],
+      "internalEvidenceRecommendation": "Genuine case studies and a review pipeline improve credibility; no mandatory two-case rule was verified. Referral tracking and explicit budget approval are prerequisites for considering any paid upgrade.",
       "destinationUrl": "https://shumaojs.com/",
       "notes": "A basic profile may support discovery and reviews, but do not assume a followed directory link. Do not pay solely for a backlink. Reassess after genuine portfolio evidence and tracking exist."
     },

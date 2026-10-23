@@ -1,19 +1,31 @@
 {
-  "program": "Simplified Chinese Google Ads SEO growth sprint with US English and Hong Kong Traditional Chinese as secondary localized audiences",
+  "program": "Content-led US/HK SEO growth: Simplified Chinese Google Ads topics, title/outline research, AI-assisted and genuine human review, original thumbnails, article/service/category optimization",
+  "objectiveUpdatedAt": "2026-10-24",
+  "editorialWorkflow": {
+    "priorityLanguage": "zh-Hans",
+    "secondaryAudiences": ["en-US", "zh-Hant-HK"],
+    "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
+    "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
+    "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
+    "latestBrief": "reports/editorial/2026-10-24-cost-guide/brief.md",
+    "latestAiReviewStatus": "completed for the cost-guide factual correction",
+    "latestHumanReviewStatus": "pending",
+    "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
+  },
   "site": "https://shumaojs.com/",
   "repository": "https://github.com/googleList/ggad.git",
   "startedAt": "2026-09-27",
   "targetEndAt": "2026-12-26",
   "sprintGoal": "1000 average daily Google organic visits",
   "goalIsGuaranteed": false,
-  "lastRunAt": "2026-10-23",
-  "latestReport": "reports/seo-week-06-2026-10-23.md",
+  "lastRunAt": "2026-10-24",
+  "latestReport": "reports/seo-week-06-2026-10-24.md",
   "deployment": {
     "status": "deployed",
-    "reason": "Commit 2743c47 supplies the account-setup guide's verified editorial modification timestamp, supports zoned dates in schema/feed checks, and preserves the original date-only publication value. Pages #60 succeeded; production revision matches and four-width browser checks passed. Google's live article warnings fell from four to two, with Article and BreadcrumbList still valid. Earlier public-artifact boundaries/shared publisher lock remain unchanged. No search-performance improvement is inferred.",
-    "localCommit": "e8996a6",
-    "verifiedAt": "2026-10-23",
-    "latestVerification": "Remote main and production deployment.json matched e8996a6 at the October 23 authority-review checkpoint. Public content is unchanged. The earlier sitemap audit matched all 63 URLs; HTTP-to-HTTPS canonicalization remains unresolved. Research/planning data remain outside the Pages artifact."
+    "reason": "Cost-guide content commit 2261a4d initially failed Pages #64 due to UTC versus publisher-date validation; production stayed on 8c8ee57. Fix 8cbb0fe corrects publisher calendar/instant checks without bypassing future-date gates. Pages #65 succeeded and production revision plus four-width article/card/image/math checks passed. Original dates/title/URL retained, original cover and thumbnail published. Human editorial review remains pending; no traffic gain inferred.",
+    "localCommit": "8cbb0fe",
+    "verifiedAt": "2026-10-24",
+    "latestVerification": "Production marker matched 8cbb0fe3225fd5fdf02f93a7cacfcf907e6cb4a6; production browser checks completed 2026-10-23T16:34:29Z. Research/report-only commits may follow. HTTP canonicalization and GA4 identification remain separate unresolved tasks, not blockers for all factual editorial work."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -84,18 +96,35 @@
     "public-artifact-boundary-and-cross-workflow-publisher-serialization-2026-10-20",
     "google-live-article-test-and-verified-modification-timestamp-2026-10-20",
     "direct-gsc-full-visible-query-page-and-indexed-guide-follow-up-2026-10-23",
-    "direct-gsc-link-baseline-and-official-directory-rule-review-2026-10-23"
+    "direct-gsc-link-baseline-and-official-directory-rule-review-2026-10-23",
+    "simplified-cost-guide-qualified-lead-correction-and-original-thumbnail-2026-10-24",
+    "publisher-calendar-versus-utc-ci-date-validation-repair-2026-10-24"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-23T08:23:53Z",
-    "localHead": "e8996a6",
-    "remoteHead": "e8996a6",
+    "checkedAt": "2026-10-23T16:34:29Z",
+    "localHead": "8cbb0fe",
+    "remoteHead": "8cbb0fe",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified checkpoint is e8996a6; research/report-only commits may follow it. Use deployment.json to inspect the actual public revision. Reports and planning/research data are repository-only: website 404s for those paths are intentional. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
+    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified content checkpoint is 8cbb0fe; research/report-only commits may follow it. Use deployment.json for the actual public revision. Research/briefs remain repository-only. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
   },
   "dataAccess": {
+    "costGuideEditorialRelease2026-10-24": {
+      "contentCommit": "2261a4d", "recoveryCommit": "8cbb0fe",
+      "failedRun": "https://github.com/googleList/ggad/actions/runs/39987198638",
+      "successfulRun": "https://github.com/googleList/ggad/actions/runs/39987754647",
+      "brief": "reports/editorial/2026-10-24-cost-guide/brief.md",
+      "productionEvidence": "reports/editorial/2026-10-24-cost-guide/production/browser.json",
+      "widthsPassed": [1440, 768, 390, 320],
+      "hypotheticalQualificationScenarios": 3,
+      "anchorsPassed": 5, "internalDestinationsHttp200": 7,
+      "thumbnailBytes": 22366, "coverBytes": 124983,
+      "localUnitTests": 88, "localSkippedTests": 1, "ciUnitTestsPassed": 88,
+      "humanReview": "pending; owner review requested, no approval received",
+      "freshSearchPerformanceSnapshot": false,
+      "note": "Original illustration and verified factual correction, not a new case study or guaranteed lead/traffic result. Failed CI did not publish; date fix preserves true-future rejection."
+    },
     "googleSearchConsole": true,
     "gscWizardPropertyConnected": false,
     "latestSearchConsoleAccess": "Direct browser follow-up October 23 read all 37 displayed current 28-day query rows, all 33 page rows, country samples, latest/adjacent previous 7-day KPI cards and the Simplified Chinese regex. Two URL inspections now confirm indexed guides and expected canonicals. Snapshot: reports/search-console/2026-10-23.json. Hidden cached older tables were excluded. GSC Wizard reconnection is not required for this completed manual read.",
@@ -315,6 +344,9 @@
     }
   },
   "nextPriorities": [
+    "Follow the updated content-led objective. Each selected batch needs keyword/intent evidence, title candidates, outline, original/source-backed content, thumbnail provenance, optimization and deployment checks; do not default to repeated status-only account polling",
+    "Incorporate actual human review of the published cost guide when received. Its raw/qualified lead definitions and fee boundaries are intentionally general; no owner approval, package price or client evidence may be invented",
+    "Next audit existing Simplified service and SEM category content against the keyword-to-intent map. Product/category means consultancy services/editorial categories, not a restored storefront. Prefer upgrading useful existing URLs over thin duplicate pages",
     "Use reports/search-console/2026-10-23.json and the October 23 report as the latest evidence checkpoint. Data end October 21; all 37 displayed current query rows and all 33 page rows were read. No reportable Simplified target matches does not mean zero demand",
     "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October 20 expansion; the reported crawl is still October 19. Do not rebuild these URLs or repeat the October 19 requests just because target-query impressions remain absent",
     "Use the verified October 15-21 versus October 8-14 comparison: 28 versus 60 impressions, both zero clicks. Tiny mixed samples cannot establish a release effect; rolling 28-day snapshots overlap and are not incremental growth measurements. The old five-impression prior-28-day baseline remains historical only",

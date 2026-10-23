@@ -1,9 +1,9 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-10-20",
+  "updated": "2026-10-24",
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
-  "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；只有在提供真实 Search Console 导出后，才按 queries、clicks、impressions、CTR、position 和 country 调整。",
+  "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日复核费用主题，其他词组保留原有记录。",
   "clusters": [
     {
       "cluster": "谷歌广告代投与管理",
@@ -51,6 +51,25 @@
       "primaryKeywords": ["谷歌广告", "Google Ads 教程"],
       "supportingKeywords": ["谷歌广告怎么投", "谷歌广告费用", "谷歌广告关键词"],
       "contentActions": ["文章列表首屏优先呈现简体中文开户、排名、费用和关键词内容", "通过分类和分页保留英文与香港繁体内容", "由指南页链接至对应文章与服务页"]
+    },
+    {
+      "cluster": "谷歌广告费用与有效询盘预算",
+      "language": "zh-Hans",
+      "intent": "informational-commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/articles/google-search-ads-cost-guide.html",
+      "primaryKeywords": ["谷歌广告费用", "谷歌代投费用"],
+      "supportingKeywords": ["谷歌广告预算", "谷歌广告服务费", "有效询盘成本", "谷歌广告点击价格"],
+      "evidence": {
+        "reviewedAt": "2026-10-24",
+        "method": "Public results for 谷歌广告费用/谷歌广告代投费用 show budget explanations and commercial service pages. October 23 GSC has related Traditional Chinese cost queries but no reportable Simplified target matches. The existing guide had a verified qualified-lead arithmetic defect; prioritization fixes that defect, not an assumed search-volume opportunity.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "sources": ["https://support.google.com/google-ads/answer/6297?hl=en", "https://support.google.com/google-ads/answer/6167118?hl=en", "https://support.google.com/google-ads/answer/10486536"],
+        "editorialBrief": "reports/editorial/2026-10-24-cost-guide/brief.md",
+        "humanReviewStatus": "pending"
+      },
+      "contentActions": ["保留现有标题与 URL，修正原始询盘、有效询盘与成交口径", "按三种假设合格率演算预算，区分媒体费和代投服务交付", "使用原创压缩缩略图并同步列表、分享图、RSS、站点地图；人工审稿尚待确认"]
     },
     {
       "cluster": "US Google Ads management",

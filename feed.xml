@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 20 Oct 2026 08:21:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 16:20:55 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google 搜索广告费用怎么算？预算、点击和服务费说明</title>
+      <link>https://shumaojs.com/articles/google-search-ads-cost-guide.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-search-ads-cost-guide.html</guid>
+      <description>Google 搜索广告费用指南，说明点击计费、关键词竞争、预算设置、转化成本、服务费和小预算测试方法。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>谷歌广告开户流程：账户准备与投放入门</title>
       <link>https://shumaojs.com/articles/google-ads-basics.html</link>
@@ -383,15 +392,6 @@
       <description>Google 搜索广告关键词分组教程，介绍业务线、搜索意图、匹配方式、否定词和落地页对应关系。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>Keyword Strategy</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>Google 搜索广告费用怎么算？预算、点击和服务费说明</title>
-      <link>https://shumaojs.com/articles/google-search-ads-cost-guide.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-search-ads-cost-guide.html</guid>
-      <description>Google 搜索广告费用指南，说明点击计费、关键词竞争、预算设置、转化成本、服务费和小预算测试方法。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

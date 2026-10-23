@@ -2221,6 +2221,14 @@ html:not(.article-index-ready) .pagination {
   color: inherit;
 }
 
+.article-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin: 20px 0;
+}
+
 .article-table-wrap {
   overflow-x: auto;
   margin: 18px 0;

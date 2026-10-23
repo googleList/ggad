@@ -61,3 +61,11 @@ Passed existing 88-unit suite (one Windows symlink-permission skip), 65-page/63-
 The first service browser check failed: the new scope anchor was covered by the fixed header. Added the existing article-anchor scroll margin to platform-detail sections, then all five service widths passed. Both desktop and phone scope screenshots were visually inspected. Mobile tables deliberately scroll inside a keyboard-focusable region rather than overflow the page.
 
 Hub checks passed all four widths and both no-JavaScript widths; counts remain 47/3/37/3/4 (all/SEO/SEM/website/GEO), with original static links and schema order preserved. Local JSON evidence is in `local/service/browser.json` and `local/hub/browser.json`. Public-only build staged 130 files, excluding reports and planning data. Production release verification remains a separate step after push.
+
+## Production Verification
+
+Content commit `c7ee2a39d12d179d617469fc0b6c571a26ed87f8` pushed to main. [Pages #67](https://github.com/googleList/ggad/actions/runs/39991542602), job `120544256103`, completed successfully; logs confirm all88 CI unit tests, SEO/schema/policy/performance gates and 131 staged public files including the release marker. The public marker matched the content commit.
+
+Production hub checks completed `2026-10-23T17:01:34Z`; production service checks completed `2026-10-23T17:02:08Z`. All expected widths and seven service-content internal destinations passed. An initial public service navigation timed out; it exited and was not treated as a live ongoing process. Independent HTTP check returned200 with both new sections present, then a fresh complete browser run passed. No retry changed assertions or concealed an application error. Production phone scope screenshot was visually inspected.
+
+This proves the content/deployment checks, not a ranking, traffic or conversion gain. Human commercial/editorial confirmation remains pending. Later report-only commits may follow the verified content revision.

@@ -170,13 +170,22 @@
       "contentActions": ["Meta/Facebook 页面避免内容重复", "用素材测试、线索表单、主页资产做差异化", "增加相关文章之间的内链"]
     },
     {
-      "cluster": "SEM 教程与搜索广告",
+      "cluster": "SEM 关键词匹配规则与测试",
+      "language": "zh-Hans",
       "intent": "informational",
       "priority": "medium",
-      "targetUrl": "https://shumaojs.com/articles/google-search-ads-guide.html",
-      "primaryKeywords": ["Google 搜索广告", "Google 搜索广告怎么投", "SEM 关键词匹配"],
-      "supportingKeywords": ["Google 广告费用", "搜索词报告优化", "否定词怎么设置", "转化追踪教程"],
-      "contentActions": ["继续加厚短文章", "用教程文章承接信息词", "在文章末尾引导到 Google Ads 服务页"]
+      "targetUrl": "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+      "primaryKeywords": ["谷歌广告匹配方式", "SEM 关键词匹配"],
+      "supportingKeywords": ["完全匹配和词组匹配区别", "广泛匹配", "否定关键词匹配", "Google Ads 匹配规则"],
+      "evidence": {
+        "reviewedAt": "2026-10-24",
+        "method": "Public search for Google Ads 完全匹配 词组匹配 广泛匹配 否定 区别 plus primary Google docs validates comparison/tutorial intent, not monthly volume or US/HK-specific demand. Existing matching guide contradicted the corrected grouping page with blanket free/manual/used exclusions and a universal starter mix. Prior map wrongly routed this matching topic to the Ad Rank guide; now maps to the existing matching URL.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-24-match-guide/brief.md",
+        "humanReviewStatus": "pending"
+      },
+      "contentActions": ["保留标题和既有网址，分清三种正向规则与否定匹配", "用六条教学查询解释18个排除判断，明确不排除不等于一定展示", "与分组教程及谷歌代投服务建立语义内链，不把静态规则表包装成实际投放模拟器"]
     },
     {
       "cluster": "建站与落地页",

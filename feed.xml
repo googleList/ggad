@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 17:07:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 05:01:49 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SEM 关键词匹配方式怎么选</title>
+      <link>https://shumaojs.com/articles/sem-keyword-match-guide.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/sem-keyword-match-guide.html</guid>
+      <description>SEM 关键词匹配方式基础教程，说明广泛匹配、词组匹配、完全匹配和否定词的使用场景。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>Google 搜索广告关键词怎么分组</title>
       <link>https://shumaojs.com/articles/google-search-keywords.html</link>
@@ -347,15 +356,6 @@
       <description>SEO 课程和自学资源选择指南，说明技术 SEO、内容 SEO、站外信任、数据分析、GEO/AEO 学习路径，以及企业和外贸团队如何选择适合自己的 SEO 课程。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>SEO</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>SEM 关键词匹配方式怎么选</title>
-      <link>https://shumaojs.com/articles/sem-keyword-match-guide.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/sem-keyword-match-guide.html</guid>
-      <description>SEM 关键词匹配方式基础教程，说明广泛匹配、词组匹配、完全匹配和否定词的使用场景。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

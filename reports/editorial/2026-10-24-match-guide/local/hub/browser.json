@@ -1,0 +1,109 @@
+{
+  "checkedAt": "2026-10-24T05:08:10.775Z",
+  "base": "http://127.0.0.1:8777/",
+  "results": [
+    {
+      "width": 1440,
+      "javascript": true,
+      "categories": {
+        "all": 47,
+        "seo": 3,
+        "sem": 37,
+        "website": 3,
+        "geo": 4
+      },
+      "categorySummaries": {
+        "all": "从谷歌广告开户、预算与代投管理，到自然搜索、落地页和 AI 搜索，按业务问题梳理推广基础。",
+        "seo": "SEO 关注自然搜索的抓取、索引、内容质量与页面体验，不等于购买谷歌广告位置，也不能保证固定排名。",
+        "sem": "SEM 聚焦付费搜索与广告投放：谷歌开户、代投范围、关键词、广告排名、费用及有效线索追踪，区分媒体消耗与服务费。",
+        "website": "建站与落地页关注移动体验、信息完整度、加载和咨询路径。页面能打开不等于能转化，按钮点击也不等于有效询盘。",
+        "geo": "GEO 关注生成式搜索中的信息理解与引用：清晰事实、可抓取内容和可靠依据。llms.txt 不替代索引规则，也不保证被 AI 引用。"
+      },
+      "overflow": false,
+      "firstRowCards": 3,
+      "imagesLoaded": true,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "javascript": true,
+      "categories": {
+        "all": 47,
+        "seo": 3,
+        "sem": 37,
+        "website": 3,
+        "geo": 4
+      },
+      "categorySummaries": {
+        "all": "从谷歌广告开户、预算与代投管理，到自然搜索、落地页和 AI 搜索，按业务问题梳理推广基础。",
+        "seo": "SEO 关注自然搜索的抓取、索引、内容质量与页面体验，不等于购买谷歌广告位置，也不能保证固定排名。",
+        "sem": "SEM 聚焦付费搜索与广告投放：谷歌开户、代投范围、关键词、广告排名、费用及有效线索追踪，区分媒体消耗与服务费。",
+        "website": "建站与落地页关注移动体验、信息完整度、加载和咨询路径。页面能打开不等于能转化，按钮点击也不等于有效询盘。",
+        "geo": "GEO 关注生成式搜索中的信息理解与引用：清晰事实、可抓取内容和可靠依据。llms.txt 不替代索引规则，也不保证被 AI 引用。"
+      },
+      "overflow": false,
+      "firstRowCards": 2,
+      "imagesLoaded": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "javascript": true,
+      "categories": {
+        "all": 47,
+        "seo": 3,
+        "sem": 37,
+        "website": 3,
+        "geo": 4
+      },
+      "categorySummaries": {
+        "all": "从谷歌广告开户、预算与代投管理，到自然搜索、落地页和 AI 搜索，按业务问题梳理推广基础。",
+        "seo": "SEO 关注自然搜索的抓取、索引、内容质量与页面体验，不等于购买谷歌广告位置，也不能保证固定排名。",
+        "sem": "SEM 聚焦付费搜索与广告投放：谷歌开户、代投范围、关键词、广告排名、费用及有效线索追踪，区分媒体消耗与服务费。",
+        "website": "建站与落地页关注移动体验、信息完整度、加载和咨询路径。页面能打开不等于能转化，按钮点击也不等于有效询盘。",
+        "geo": "GEO 关注生成式搜索中的信息理解与引用：清晰事实、可抓取内容和可靠依据。llms.txt 不替代索引规则，也不保证被 AI 引用。"
+      },
+      "overflow": false,
+      "firstRowCards": 1,
+      "imagesLoaded": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "javascript": true,
+      "categories": {
+        "all": 47,
+        "seo": 3,
+        "sem": 37,
+        "website": 3,
+        "geo": 4
+      },
+      "categorySummaries": {
+        "all": "从谷歌广告开户、预算与代投管理，到自然搜索、落地页和 AI 搜索，按业务问题梳理推广基础。",
+        "seo": "SEO 关注自然搜索的抓取、索引、内容质量与页面体验，不等于购买谷歌广告位置，也不能保证固定排名。",
+        "sem": "SEM 聚焦付费搜索与广告投放：谷歌开户、代投范围、关键词、广告排名、费用及有效线索追踪，区分媒体消耗与服务费。",
+        "website": "建站与落地页关注移动体验、信息完整度、加载和咨询路径。页面能打开不等于能转化，按钮点击也不等于有效询盘。",
+        "geo": "GEO 关注生成式搜索中的信息理解与引用：清晰事实、可抓取内容和可靠依据。llms.txt 不替代索引规则，也不保证被 AI 引用。"
+      },
+      "overflow": false,
+      "firstRowCards": 1,
+      "imagesLoaded": true,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "javascript": false,
+      "visibleCards": 47,
+      "inactiveControlsHidden": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "javascript": false,
+      "visibleCards": 47,
+      "inactiveControlsHidden": true,
+      "passed": true
+    }
+  ],
+  "pageErrors": []
+}

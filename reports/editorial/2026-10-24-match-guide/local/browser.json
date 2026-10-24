@@ -1,0 +1,419 @@
+{
+  "checkedAt": "2026-10-24T05:06:12.616Z",
+  "base": "http://127.0.0.1:8777/",
+  "results": [
+    {
+      "width": 1440,
+      "headline": "SEM 关键词匹配方式怎么选",
+      "schemaHeadline": "SEM 关键词匹配方式怎么选",
+      "canonical": "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T13:01:49+08:00",
+      "visibleModified": "2026-10-24T13:01:49+08:00",
+      "image": {
+        "src": "http://127.0.0.1:8777/assets/articles/search-keyword-intent-groups-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg"
+      },
+      "positiveRows": 3,
+      "negativeHeaders": [
+        "steel bolts",
+        "\"steel bolts\"",
+        "[steel bolts]"
+      ],
+      "rules": [
+        [
+          "steel bolts",
+          [
+            "排除",
+            "排除",
+            "排除"
+          ]
+        ],
+        [
+          "buy steel bolts",
+          [
+            "排除",
+            "排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "bolts steel",
+          [
+            "排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "steel hex bolts",
+          [
+            "排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "steel bolt",
+          [
+            "本规则不排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "brass bolts",
+          [
+            "本规则不排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ]
+      ],
+      "warning": "“本规则不排除”不等于广告一定展示。",
+      "faqCount": 3,
+      "anchors": [
+        "#positive-match",
+        "#negative-match",
+        "#decision",
+        "#measurement",
+        "#match-faq"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-dzghl1",
+        "positive-match",
+        "negative-match",
+        "negative-rule-table",
+        "decision",
+        "measurement",
+        "match-faq"
+      ],
+      "localLinks": [
+        "/articles/google-search-keywords.html",
+        "/articles/google-ads-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/google-ads.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "ruleCellsPassed": 18,
+      "anchorsPassed": true,
+      "listingPassed": true
+    },
+    {
+      "width": 768,
+      "headline": "SEM 关键词匹配方式怎么选",
+      "schemaHeadline": "SEM 关键词匹配方式怎么选",
+      "canonical": "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T13:01:49+08:00",
+      "visibleModified": "2026-10-24T13:01:49+08:00",
+      "image": {
+        "src": "http://127.0.0.1:8777/assets/articles/search-keyword-intent-groups-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg"
+      },
+      "positiveRows": 3,
+      "negativeHeaders": [
+        "steel bolts",
+        "\"steel bolts\"",
+        "[steel bolts]"
+      ],
+      "rules": [
+        [
+          "steel bolts",
+          [
+            "排除",
+            "排除",
+            "排除"
+          ]
+        ],
+        [
+          "buy steel bolts",
+          [
+            "排除",
+            "排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "bolts steel",
+          [
+            "排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "steel hex bolts",
+          [
+            "排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "steel bolt",
+          [
+            "本规则不排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "brass bolts",
+          [
+            "本规则不排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ]
+      ],
+      "warning": "“本规则不排除”不等于广告一定展示。",
+      "faqCount": 3,
+      "anchors": [
+        "#positive-match",
+        "#negative-match",
+        "#decision",
+        "#measurement",
+        "#match-faq"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-xkrsdl",
+        "positive-match",
+        "negative-match",
+        "negative-rule-table",
+        "decision",
+        "measurement",
+        "match-faq"
+      ],
+      "localLinks": [
+        "/articles/google-search-keywords.html",
+        "/articles/google-ads-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/google-ads.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "ruleCellsPassed": 18,
+      "anchorsPassed": true,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "headline": "SEM 关键词匹配方式怎么选",
+      "schemaHeadline": "SEM 关键词匹配方式怎么选",
+      "canonical": "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T13:01:49+08:00",
+      "visibleModified": "2026-10-24T13:01:49+08:00",
+      "image": {
+        "src": "http://127.0.0.1:8777/assets/articles/search-keyword-intent-groups-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg"
+      },
+      "positiveRows": 3,
+      "negativeHeaders": [
+        "steel bolts",
+        "\"steel bolts\"",
+        "[steel bolts]"
+      ],
+      "rules": [
+        [
+          "steel bolts",
+          [
+            "排除",
+            "排除",
+            "排除"
+          ]
+        ],
+        [
+          "buy steel bolts",
+          [
+            "排除",
+            "排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "bolts steel",
+          [
+            "排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "steel hex bolts",
+          [
+            "排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "steel bolt",
+          [
+            "本规则不排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "brass bolts",
+          [
+            "本规则不排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ]
+      ],
+      "warning": "“本规则不排除”不等于广告一定展示。",
+      "faqCount": 3,
+      "anchors": [
+        "#positive-match",
+        "#negative-match",
+        "#decision",
+        "#measurement",
+        "#match-faq"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-yu7yk4",
+        "positive-match",
+        "negative-match",
+        "negative-rule-table",
+        "decision",
+        "measurement",
+        "match-faq"
+      ],
+      "localLinks": [
+        "/articles/google-search-keywords.html",
+        "/articles/google-ads-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/google-ads.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "ruleCellsPassed": 18,
+      "anchorsPassed": true,
+      "listingPassed": true
+    },
+    {
+      "width": 320,
+      "headline": "SEM 关键词匹配方式怎么选",
+      "schemaHeadline": "SEM 关键词匹配方式怎么选",
+      "canonical": "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T13:01:49+08:00",
+      "visibleModified": "2026-10-24T13:01:49+08:00",
+      "image": {
+        "src": "http://127.0.0.1:8777/assets/articles/search-keyword-intent-groups-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/search-keyword-intent-groups-v1.jpg"
+      },
+      "positiveRows": 3,
+      "negativeHeaders": [
+        "steel bolts",
+        "\"steel bolts\"",
+        "[steel bolts]"
+      ],
+      "rules": [
+        [
+          "steel bolts",
+          [
+            "排除",
+            "排除",
+            "排除"
+          ]
+        ],
+        [
+          "buy steel bolts",
+          [
+            "排除",
+            "排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "bolts steel",
+          [
+            "排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "steel hex bolts",
+          [
+            "排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "steel bolt",
+          [
+            "本规则不排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ],
+        [
+          "brass bolts",
+          [
+            "本规则不排除",
+            "本规则不排除",
+            "本规则不排除"
+          ]
+        ]
+      ],
+      "warning": "“本规则不排除”不等于广告一定展示。",
+      "faqCount": 3,
+      "anchors": [
+        "#positive-match",
+        "#negative-match",
+        "#decision",
+        "#measurement",
+        "#match-faq"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-q5miyz",
+        "positive-match",
+        "negative-match",
+        "negative-rule-table",
+        "decision",
+        "measurement",
+        "match-faq"
+      ],
+      "localLinks": [
+        "/articles/google-search-keywords.html",
+        "/articles/google-ads-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/google-ads.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "ruleCellsPassed": 18,
+      "anchorsPassed": true,
+      "listingPassed": true
+    }
+  ],
+  "pageErrors": []
+}

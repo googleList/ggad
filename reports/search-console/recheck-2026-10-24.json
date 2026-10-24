@@ -1,0 +1,21 @@
+{
+  "property": "sc-domain:shumaojs.com",
+  "observedAt": "2026-10-24",
+  "method": "Owner-authorized direct browser, explicit reload of existing performance tab then selection of 28-day radio. Read visible UI only, not cached hidden tables or account internals.",
+  "uiFreshnessAfterReload": "4 hours ago",
+  "latest7Days": {
+    "startDate": "2026-10-15", "endDate": "2026-10-21",
+    "clicks": 0, "impressions": 28, "ctr": 0, "averagePosition": 33.0,
+    "visibleQueryRows": 7, "queryRowsRead": 7
+  },
+  "latest28Days": {
+    "startDate": "2026-09-24", "endDate": "2026-10-21",
+    "clicks": 0, "impressions": 219, "ctr": 0, "averagePosition": 59.1,
+    "visibleQueryRows": 37, "queryRowsRead": 10
+  },
+  "newCountryBreakdownRead": false,
+  "newPageBreakdownRead": false,
+  "newPreviousPeriodRead": false,
+  "historicalFullSnapshot": "reports/search-console/2026-10-23.json",
+  "conclusion": "Actual selected performance periods and totals remain unchanged despite fresher UI update text. This is not a new growth period or a release-effect result. No current claim that all37 query rows, countries or previous periods were re-read. Prior hidden/private-query limitations and lack of verified monthly search volume remain."
+}

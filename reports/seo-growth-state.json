@@ -9,7 +9,7 @@
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
     "latestBrief": "reports/editorial/2026-10-24-agency-guide/brief.md",
     "latestAiReviewStatus": "completed for six agency-selection criteria, evidence/questions, transparent fee comparison, source/claim checks and production validation; no human approval or certification inferred",
-    "latestHumanReviewStatus": "owner confirmed service-scope explanation on October24; agency-selection, matching, grouping and cost article reviews remain pending, no unspecified prices or credentials approved",
+    "latestHumanReviewStatus": "owner separately confirmed service-scope explanation and keyword-grouping tutorial on October24; keyword reply 内容符合，可保留 covers grouping table, negative-keyword counterexamples, hypothetical cost calculation and original cover. Agency-selection, matching and cost article reviews remain pending; no unspecified prices, real campaign results or credentials approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
   "site": "https://shumaojs.com/",
@@ -171,7 +171,7 @@
       "ciUnitTestsPassed": 88,
       "coverBytes": 95237, "thumbnailBytes": 16030,
       "imageMode": "built-in image_gen; original conceptual illustration, not a real dashboard or outcome",
-      "humanReview": "pending; owner service-scope confirmation is separate",
+      "humanReview": "Owner separately replied 内容符合，可保留 on October24 to this guide's review question covering grouping table, negative-keyword counterexamples, hypothetical cost calculation and original cover. Retain reviewed content; other articles remain unapproved. Exact feedback and scope in the brief; no public-date refresh for approval alone.",
       "freshSearchPerformanceSnapshot": false,
       "note": "Corrects blanket negative keywords and fixed week-based evaluation, adds original examples and source-backed matching terminology. Candidate terms have no invented search volume, regional demand or lead forecast."
     },
@@ -428,7 +428,7 @@
   "nextPriorities": [
     "Follow the updated content-led objective. Each selected batch needs keyword/intent evidence, title candidates, outline, original/source-backed content, thumbnail provenance, optimization and deployment checks; do not default to repeated status-only account polling",
     "Incorporate actual human review of the published cost guide when received. Its raw/qualified lead definitions and fee boundaries are intentionally general; no owner approval, package price or client evidence may be invented",
-    "Service scope is owner-confirmed and cost/grouping/matching/agency-selection editorial batches are live. Incorporate genuine article feedback without inheriting approval. Do not keep rewriting these same guides or creating near-duplicates just because no fresh performance period is available",
+    "Service scope and keyword-grouping tutorial are separately owner-confirmed; retain the accepted grouping content. Cost/matching/agency-selection article reviews remain pending. Incorporate genuine feedback without inheriting approval. Do not keep rewriting these same guides or creating near-duplicates just because no fresh performance period is available",
     "Representative agency-selection guide inspected October24: indexed with expected Google canonical, last stored crawl October17 09:50:25 before its October24 revision. Snapshot reports/search-console/agency-url-inspection-2026-10-24.json. Wait for later crawl/performance evidence and genuine feedback before another rewrite; do not repeat priority-crawl requests or remove localized pages merely to change query language",
     "Use reports/search-console/2026-10-23.json and the October 23 report as the latest evidence checkpoint. Data end October 21; all 37 displayed current query rows and all 33 page rows were read. No reportable Simplified target matches does not mean zero demand",
     "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October 20 expansion; the reported crawl is still October 19. Do not rebuild these URLs or repeat the October 19 requests just because target-query impressions remain absent",

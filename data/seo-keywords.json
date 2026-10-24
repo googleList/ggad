@@ -94,7 +94,7 @@
         "countryDemandVerified": false,
         "sources": ["https://support.google.com/google-ads/answer/7478529?hl=zh-Hans", "https://support.google.com/google-ads/answer/2453972?hl=zh-Hans", "https://support.google.com/google-ads/answer/3022575?hl=zh-Hans", "https://support.google.com/google-ads/answer/2472708?hl=zh-Hans"],
         "editorialBrief": "reports/editorial/2026-10-24-keyword-guide/brief.md",
-        "humanReviewStatus": "pending; service-scope confirmation does not approve this guide"
+        "humanReviewStatus": "owner confirmed on 2026-10-24: 内容符合，可保留. Article-specific acceptance of the grouping table, negative-keyword counterexamples, hypothetical cost calculation and original cover; not other articles, real campaign results, prices or credentials"
       },
       "contentActions": ["保留原网址、标题、首次发布日期，纠正通用否定词与固定周数判断", "增加四行候选主题映射、三组误排反例及有效询盘成本假设演算", "原创封面与压缩缩略图用于文章、列表和分享图；不复制竞争站内容或虚构需求数据"]
     },

@@ -1,5 +1,9 @@
 # Existing Keyword-Grouping Guide Upgrade
 
+## Current Human Review: Owner Confirmed
+
+On October24 the owner replied **“内容符合，可保留”** to the separate review question for [this keyword tutorial](https://shumaojs.com/articles/google-search-keywords.html): whether its grouping table, negative-keyword counterexamples, hypothetical cost calculation and original cover contain inaccuracies or need changes. Record this as article-specific human acceptance of the reviewed content; no correction requested. The service-scope approval is a separate record. Cost, matching and agency-selection articles remain pending; no prices, real campaign results, credentials or independent expert certification are approved by this reply. No public article text, modification date or sitemap date changes solely for this approval.
+
 ## Why This Batch
 
 Current main/production checkpoint before editing: `73402bf`, following the verified service-scope release. Previous goal turn made concrete progress, not a wait: content, taxonomy, scope anchors and production evidence changed. This batch audits an existing first-screen Simplified supporting article instead of repeating titles, generating duplicate URLs or polling unchanged account data.
@@ -27,7 +31,7 @@ Outline: keyword versus actual query; research evidence and regional settings; f
 
 All factual platform content is an original concise paraphrase. No competing article, screenshot, quote, fee or business outcome was copied. The USD300/10 raw/3 qualified/30 raw cost/100 qualified cost example is explicitly hypothetical and excludes other costs. All topic-map phrases are candidates, not demonstrated demand or live campaigns. No universal lead forecast, exact group size or performance result.
 
-AI-assisted factual, claim-boundary, arithmetic, date, source and clarity review completed. **Human review for this guide remains pending.** The owner separately confirmed service-scope text on October24; that reply is recorded in the service brief and does not approve this article or the earlier cost guide. No fictitious editor identity or approval is used.
+AI-assisted factual, claim-boundary, arithmetic, date, source and clarity review completed. **At drafting, human review for this guide was pending; the later article-specific confirmation above supersedes that status.** The separate service-scope reply did not approve this article or the earlier cost guide. No fictitious editor identity or approval is used.
 
 ## Original Thumbnail
 
@@ -57,4 +61,4 @@ Production marker matched `8d958b4`; article checks completed `2026-10-24T04:53:
 
 GitHub's unfiltered HTML Actions listing briefly returned the old #68 entry even after the public revision changed. The branch-filtered listing identified #69, and the dedicated job tool confirmed success. This was an observation-cache issue, not a failed deployment or reason to restart a live workflow. Report-only commits can follow the content revision.
 
-No ranking/traffic gain is inferred from deployment tests. Human review of this guide remains pending; the separately received service-scope approval has not been broadened.
+No ranking/traffic gain is inferred from deployment tests. Human review was pending at release; the article-specific owner confirmation above was received afterward. The separately received service-scope approval has not been broadened.

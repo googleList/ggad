@@ -1,0 +1,60 @@
+{
+  "property": "sc-domain:shumaojs.com",
+  "observedAt": "2026-10-24",
+  "recordedAt": "2026-10-24T15:29:06Z",
+  "method": "Owner-authorized existing Search Console browser tab; entered each public URL and expanded visible page-indexing details. Stored inspection results only, not live tests. Observation clock time was not separately retained; recordedAt is the later report-writing timestamp.",
+  "lastCrawlTimezone": "Not separately displayed. Preserve raw UI values without inferring UTC or a local offset.",
+  "inspections": [
+    {
+      "url": "https://shumaojs.com/google-ads.html",
+      "storedState": "Indexed",
+      "lastCrawlDisplayed": "2026-10-20 14:06:13",
+      "crawler": "Googlebot smartphone",
+      "crawlAllowed": true,
+      "pageFetch": "Successful",
+      "indexingAllowed": true,
+      "sitemap": "https://shumaojs.com/sitemap.xml",
+      "referringPagesDisplayed": ["https://shumaojs.com/"],
+      "userCanonical": "https://shumaojs.com/google-ads.html",
+      "googleCanonicalDisplayed": "Inspected URL",
+      "googleCanonicalMatchesUserCanonical": true,
+      "https": true,
+      "validBreadcrumbItems": 1,
+      "crawlPredatesLatestEditorialRevision": true,
+      "revisionBoundary": "The stored crawl predates the October24 service-scope/taxonomy/related-link changes. It does not prove Google read those revisions."
+    },
+    {
+      "url": "https://shumaojs.com/articles.html",
+      "storedState": "Indexed",
+      "lastCrawlDisplayed": "2026-10-19 01:15:41",
+      "crawler": "Googlebot smartphone",
+      "crawlAllowed": true,
+      "pageFetch": "Successful",
+      "indexingAllowed": true,
+      "sitemap": "https://shumaojs.com/sitemap.xml",
+      "referringPagesDisplayed": ["https://shumaojs.com/sitemap.xml", "https://shumaojs.com/"],
+      "userCanonical": "https://shumaojs.com/articles.html",
+      "googleCanonicalDisplayed": "Inspected URL",
+      "googleCanonicalMatchesUserCanonical": true,
+      "https": true,
+      "validBreadcrumbItems": 1,
+      "previousObservation": {
+        "observedAt": "2026-10-19",
+        "storedState": "Discovered - currently not indexed",
+        "liveTest": "Indexable",
+        "priorityCrawlRequest": "Submitted on October19; not repeated in this follow-up"
+      },
+      "indexedStateChangeObserved": true,
+      "crawlPredatesLatestEditorialRevision": true,
+      "revisionBoundary": "Stored crawl predates the October20 static visibility/47-card release and October24 updates. Indexing does not prove all47 current cards or their linked article contents were fetched. The observed status change is not attributed to a particular deployment or request."
+    }
+  ],
+  "liveUrlTestsRun": 0,
+  "indexingRequestsSubmitted": 0,
+  "removalOrValidationSubmitted": false,
+  "accountSettingsChanged": false,
+  "performanceExtractedThisFollowUp": false,
+  "aggregateIndexCoverageReportReread": false,
+  "boundaries": "Keep dated October16 aggregate index counts and the settled through-October21 performance baseline separate. No new query/page/country traffic, rankings, Search Console API quota or field-CWV result measured. Do not infer traffic growth from indexed status.",
+  "nextAction": "Retain accepted content and collect a later settled crawl/performance observation; do not repeat priority requests or rewrite these recent revisions solely because the stored crawl is old."
+}

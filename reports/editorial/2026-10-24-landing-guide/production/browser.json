@@ -1,0 +1,303 @@
+{
+  "checkedAt": "2026-10-24T08:44:50.798Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "headline": "外贸独立站投放前落地页检查清单",
+      "schemaHeadline": "外贸独立站投放前落地页检查清单",
+      "canonical": "https://shumaojs.com/articles/landing-page-checklist.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T16:33:43+08:00",
+      "visibleModified": "2026-10-24T16:33:43+08:00",
+      "description": "谷歌广告投放前如何检查外贸独立站？用八项验收清单核对网址、广告承诺、手机体验、表单送达和转化口径，区分按钮点击、真实询盘与有效线索。",
+      "schemaDescription": "谷歌广告投放前如何检查外贸独立站？用八项验收清单核对网址、广告承诺、手机体验、表单送达和转化口径，区分按钮点击、真实询盘与有效线索。",
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "renderedRatio": 1.7777777777777777
+      },
+      "checks": [
+        "1. 到达网址",
+        "2. 广告承诺",
+        "3. 主体与范围",
+        "4. 手机与键盘",
+        "5. 表单送达",
+        "6. 事件口径",
+        "7. 数据与隐私",
+        "8. 销售承接"
+      ],
+      "testCases": [
+        "invalid",
+        "failure",
+        "success",
+        "duplicate"
+      ],
+      "measurementLevels": [
+        "意向动作：点击 Telegram、WhatsApp、电话或提交按钮，只说明发起了动作，不能证明发出了消息、接通电话或表单成功。",
+        "真实询盘：接收端实际收到表单、消息或通话，并按定义去重。单纯打开聊天应用不算收到咨询。",
+        "有效线索：销售按预先约定的产品、地区、需求等条件确认可跟进，不由一个前端事件自动认定。"
+      ],
+      "priorities": 3,
+      "faqCount": 3,
+      "anchors": [
+        "#preflight",
+        "#form-tests",
+        "#measurement",
+        "#release-decision",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-2punae",
+        "preflight",
+        "form-tests",
+        "measurement",
+        "release-decision",
+        "questions"
+      ],
+      "hypothetical": true,
+      "reviewBoundary": true,
+      "localLinks": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles/website-speed-mobile.html",
+        "/articles/google-ads-landing-page-checklist-usa.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html",
+        "/google-ads.html",
+        "/compliance.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true
+    },
+    {
+      "width": 768,
+      "headline": "外贸独立站投放前落地页检查清单",
+      "schemaHeadline": "外贸独立站投放前落地页检查清单",
+      "canonical": "https://shumaojs.com/articles/landing-page-checklist.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T16:33:43+08:00",
+      "visibleModified": "2026-10-24T16:33:43+08:00",
+      "description": "谷歌广告投放前如何检查外贸独立站？用八项验收清单核对网址、广告承诺、手机体验、表单送达和转化口径，区分按钮点击、真实询盘与有效线索。",
+      "schemaDescription": "谷歌广告投放前如何检查外贸独立站？用八项验收清单核对网址、广告承诺、手机体验、表单送达和转化口径，区分按钮点击、真实询盘与有效线索。",
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "renderedRatio": 1.7777777777777777
+      },
+      "checks": [
+        "1. 到达网址",
+        "2. 广告承诺",
+        "3. 主体与范围",
+        "4. 手机与键盘",
+        "5. 表单送达",
+        "6. 事件口径",
+        "7. 数据与隐私",
+        "8. 销售承接"
+      ],
+      "testCases": [
+        "invalid",
+        "failure",
+        "success",
+        "duplicate"
+      ],
+      "measurementLevels": [
+        "意向动作：点击 Telegram、WhatsApp、电话或提交按钮，只说明发起了动作，不能证明发出了消息、接通电话或表单成功。",
+        "真实询盘：接收端实际收到表单、消息或通话，并按定义去重。单纯打开聊天应用不算收到咨询。",
+        "有效线索：销售按预先约定的产品、地区、需求等条件确认可跟进，不由一个前端事件自动认定。"
+      ],
+      "priorities": 3,
+      "faqCount": 3,
+      "anchors": [
+        "#preflight",
+        "#form-tests",
+        "#measurement",
+        "#release-decision",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-2ty3g4",
+        "preflight",
+        "form-tests",
+        "measurement",
+        "release-decision",
+        "questions"
+      ],
+      "hypothetical": true,
+      "reviewBoundary": true,
+      "localLinks": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles/website-speed-mobile.html",
+        "/articles/google-ads-landing-page-checklist-usa.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html",
+        "/google-ads.html",
+        "/compliance.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "headline": "外贸独立站投放前落地页检查清单",
+      "schemaHeadline": "外贸独立站投放前落地页检查清单",
+      "canonical": "https://shumaojs.com/articles/landing-page-checklist.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T16:33:43+08:00",
+      "visibleModified": "2026-10-24T16:33:43+08:00",
+      "description": "谷歌广告投放前如何检查外贸独立站？用八项验收清单核对网址、广告承诺、手机体验、表单送达和转化口径，区分按钮点击、真实询盘与有效线索。",
+      "schemaDescription": "谷歌广告投放前如何检查外贸独立站？用八项验收清单核对网址、广告承诺、手机体验、表单送达和转化口径，区分按钮点击、真实询盘与有效线索。",
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/landing-page-preflight-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "renderedRatio": 1.7777777777777777
+      },
+      "checks": [
+        "1. 到达网址",
+        "2. 广告承诺",
+        "3. 主体与范围",
+        "4. 手机与键盘",
+        "5. 表单送达",
+        "6. 事件口径",
+        "7. 数据与隐私",
+        "8. 销售承接"
+      ],
+      "testCases": [
+        "invalid",
+        "failure",
+        "success",
+        "duplicate"
+      ],
+      "measurementLevels": [
+        "意向动作：点击 Telegram、WhatsApp、电话或提交按钮，只说明发起了动作，不能证明发出了消息、接通电话或表单成功。",
+        "真实询盘：接收端实际收到表单、消息或通话，并按定义去重。单纯打开聊天应用不算收到咨询。",
+        "有效线索：销售按预先约定的产品、地区、需求等条件确认可跟进，不由一个前端事件自动认定。"
+      ],
+      "priorities": 3,
+      "faqCount": 3,
+      "anchors": [
+        "#preflight",
+        "#form-tests",
+        "#measurement",
+        "#release-decision",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-fcgkbu",
+        "preflight",
+        "form-tests",
+        "measurement",
+        "release-decision",
+        "questions"
+      ],
+      "hypothetical": true,
+      "reviewBoundary": true,
+      "localLinks": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles/website-speed-mobile.html",
+        "/articles/google-ads-landing-page-checklist-usa.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html",
+        "/google-ads.html",
+        "/compliance.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true
+    },
+    {
+      "width": 320,
+      "headline": "外贸独立站投放前落地页检查清单",
+      "schemaHeadline": "外贸独立站投放前落地页检查清单",
+      "canonical": "https://shumaojs.com/articles/landing-page-checklist.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T16:33:43+08:00",
+      "visibleModified": "2026-10-24T16:33:43+08:00",
+      "description": "谷歌广告投放前如何检查外贸独立站？用八项验收清单核对网址、广告承诺、手机体验、表单送达和转化口径，区分按钮点击、真实询盘与有效线索。",
+      "schemaDescription": "谷歌广告投放前如何检查外贸独立站？用八项验收清单核对网址、广告承诺、手机体验、表单送达和转化口径，区分按钮点击、真实询盘与有效线索。",
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/landing-page-preflight-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/landing-page-preflight-v1.jpg",
+        "renderedRatio": 1.7777777777777777
+      },
+      "checks": [
+        "1. 到达网址",
+        "2. 广告承诺",
+        "3. 主体与范围",
+        "4. 手机与键盘",
+        "5. 表单送达",
+        "6. 事件口径",
+        "7. 数据与隐私",
+        "8. 销售承接"
+      ],
+      "testCases": [
+        "invalid",
+        "failure",
+        "success",
+        "duplicate"
+      ],
+      "measurementLevels": [
+        "意向动作：点击 Telegram、WhatsApp、电话或提交按钮，只说明发起了动作，不能证明发出了消息、接通电话或表单成功。",
+        "真实询盘：接收端实际收到表单、消息或通话，并按定义去重。单纯打开聊天应用不算收到咨询。",
+        "有效线索：销售按预先约定的产品、地区、需求等条件确认可跟进，不由一个前端事件自动认定。"
+      ],
+      "priorities": 3,
+      "faqCount": 3,
+      "anchors": [
+        "#preflight",
+        "#form-tests",
+        "#measurement",
+        "#release-decision",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-z3ie9x",
+        "preflight",
+        "form-tests",
+        "measurement",
+        "release-decision",
+        "questions"
+      ],
+      "hypothetical": true,
+      "reviewBoundary": true,
+      "localLinks": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles/website-speed-mobile.html",
+        "/articles/google-ads-landing-page-checklist-usa.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html",
+        "/google-ads.html",
+        "/compliance.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true
+    }
+  ],
+  "pageErrors": []
+}

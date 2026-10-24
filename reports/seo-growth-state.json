@@ -7,9 +7,9 @@
     "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
-    "latestBrief": "reports/editorial/2026-10-24-agency-guide/brief.md",
-    "latestAiReviewStatus": "completed for six agency-selection criteria, evidence/questions, transparent fee comparison, source/claim checks and production validation; no human approval or certification inferred",
-    "latestHumanReviewStatus": "owner separately confirmed service-scope explanation and keyword-grouping tutorial on October24; keyword reply 内容符合，可保留 covers grouping table, negative-keyword counterexamples, hypothetical cost calculation and original cover. Agency-selection, matching and cost article reviews remain pending; no unspecified prices, real campaign results or credentials approved",
+    "latestBrief": "reports/editorial/2026-10-24-landing-guide/brief.md",
+    "latestAiReviewStatus": "completed for eight landing-page checks, four form test scenarios, click/enquiry/qualified-lead distinctions, primary source/claim boundaries and production validation; no actual customer-form test or certification inferred",
+    "latestHumanReviewStatus": "owner separately confirmed service-scope explanation and keyword-grouping tutorial on October24; keyword reply 内容符合，可保留 covers grouping table, negative-keyword counterexamples, hypothetical cost calculation and original cover. Landing checklist, agency-selection, matching and cost article reviews remain pending; no unspecified prices, real campaign results or credentials approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
   "site": "https://shumaojs.com/",
@@ -22,10 +22,10 @@
   "latestReport": "reports/seo-week-06-2026-10-24.md",
   "deployment": {
     "status": "deployed",
-    "reason": "Existing agency-selection guide upgraded in58c6fc3 and published by successful Pages #73. Fourteen repetitive non-CTA sections became six evidence-based criteria, six questions and five fee categories, with original concept cover/thumbnail. Title/URL/publication and existing US/HK tool destinations retained. Four-width article and hub/no-JavaScript production checks passed. No new performance snapshot or traffic gain claimed; human article review pending.",
-    "localCommit": "58c6fc3",
+    "reason": "Existing Simplified landing-page checklist upgraded in28ff9bd and published by successful Pages #77. Eight repeatable checks, four form outcomes, separate click/enquiry/qualified-lead definitions, original cover/thumbnail and service backlink. Title/URL/publication,47 cards,45 RSS items and existing US/HK content retained. Article/hub/service production checks passed; no runtime/CSS growth or new traffic claim. Human article review pending.",
+    "localCommit": "28ff9bd",
     "verifiedAt": "2026-10-24",
-    "latestVerification": "Public marker matched58c6fc3ecdac0abb9d82b98f281c1d8ae59afcf6; Pages #73 job120790288987 succeeded. Article checks completed2026-10-24T05:29:20Z with six criteria, five fee rows, six anchors, eight internal200 destinations, image/schema/list/date checks and mobile table scrolling. Hub/no-JavaScript passed. Report-only commits may follow; account-dependent HTTPS/GA4 remain separate unresolved tasks."
+    "latestVerification": "Public marker matched28ff9bd34313362f0b1cae89513c95e27872f0ac; Pages #77 job120828926119 succeeded, all88 CI tests and quality gates passed. Article completed2026-10-24T08:44:50Z at1440/768/390/320px with8 checks/4 scenarios/3 measurement levels/5 anchors,9 internal200 destinations and images/schema/list/date checks. Hub47-card/no-JavaScript and five-width service regressions passed. Report-only commits may follow; field-CWV, actual form delivery, AdsBot access and ranking gains are not verified by these tests."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -103,18 +103,38 @@
     "owner-confirmed-service-scope-fee-separation-and-handover-2026-10-24",
     "simplified-keyword-grouping-negative-keyword-correction-and-original-cover-2026-10-24",
     "simplified-matching-guide-cluster-consistency-and-static-rule-fixtures-2026-10-24",
-    "simplified-agency-selection-six-evidence-criteria-and-original-cover-2026-10-24"
+    "simplified-agency-selection-six-evidence-criteria-and-original-cover-2026-10-24",
+    "simplified-landing-page-preflight-enquiry-distinction-and-original-cover-2026-10-24"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-24T05:30:09Z",
-    "localHead": "58c6fc3",
-    "remoteHead": "58c6fc3",
+    "checkedAt": "2026-10-24T08:45:36Z",
+    "localHead": "28ff9bd",
+    "remoteHead": "28ff9bd",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified content checkpoint is58c6fc3; report-only commits may follow it. Use deployment.json for actual public revision and public GitHub Actions API by exact head SHA. Research/briefs stay repository-only. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
+    "safeAction": "Fetch origin/main before the next batch; retain CNAME and both publishers' shared pages lock/latest-main checkout. Verified content checkpoint28ff9bd; report-only commits may follow. Port22 push terminated with connection reset; strict-verified SSH via official ssh.github.com:443 recovered without global config changes. Use deployment.json and exact-head-SHA Actions API. Research stays repository-only; preserve unrelated dirty internal-link, cache and historical files."
   },
   "dataAccess": {
+    "landingGuideEditorialRelease2026-10-24": {
+      "contentCommit": "28ff9bd34313362f0b1cae89513c95e27872f0ac",
+      "successfulRun": "https://github.com/googleList/ggad/actions/runs/40079171014",
+      "brief": "reports/editorial/2026-10-24-landing-guide/brief.md",
+      "articleEvidence": "reports/editorial/2026-10-24-landing-guide/production/browser.json",
+      "hubEvidence": "reports/editorial/2026-10-24-landing-guide/production/hub/browser.json",
+      "serviceRegression": "reports/editorial/2026-10-24-landing-guide/production/service/browser.json",
+      "widthsPassed": [1440, 768, 390, 320],
+      "serviceWidthsPassed": [2560, 1440, 768, 390, 320],
+      "noJavaScriptHubWidthsPassed": [1440, 390],
+      "checkRows": 8, "formScenarios": 4, "measurementLevels": 3, "tocAnchors": 5,
+      "internalDestinationsHttp200": 9,
+      "ciUnitTestsPassed": 88,
+      "coverBytes": 71109, "thumbnailBytes": 9070,
+      "imageMode": "built-in image_gen, original conceptual desktop/phone/form-delivery scene, not a client test or ad approval",
+      "humanReview": "pending; article-specific review requested, no reply yet. Prior service and keyword approvals not inherited",
+      "freshSearchPerformanceSnapshot": false,
+      "note": "Demonstrated old-guide measurement ambiguity drives priority. Candidate Simplified topic intent only, no volume or verified market demand. No actual form/AdsBot/CWV certification or performance gain. Port22 push failure recovered via strict-verified official SSH443 endpoint."
+    },
     "agencyGuideEditorialRelease2026-10-24": {
       "contentCommit": "58c6fc3ecdac0abb9d82b98f281c1d8ae59afcf6",
       "successfulRun": "https://github.com/googleList/ggad/actions/runs/40066338991",
@@ -428,7 +448,7 @@
   "nextPriorities": [
     "Follow the updated content-led objective. Each selected batch needs keyword/intent evidence, title candidates, outline, original/source-backed content, thumbnail provenance, optimization and deployment checks; do not default to repeated status-only account polling",
     "Incorporate actual human review of the published cost guide when received. Its raw/qualified lead definitions and fee boundaries are intentionally general; no owner approval, package price or client evidence may be invented",
-    "Service scope and keyword-grouping tutorial are separately owner-confirmed; retain the accepted grouping content. Cost/matching/agency-selection article reviews remain pending. Incorporate genuine feedback without inheriting approval. Do not keep rewriting these same guides or creating near-duplicates just because no fresh performance period is available",
+    "Service scope and keyword-grouping tutorial are separately owner-confirmed; retain the accepted grouping content. Cost/matching/agency-selection/landing-checklist article reviews remain pending. Incorporate genuine feedback without inheriting approval. Do not keep rewriting these same guides or creating near-duplicates just because no fresh performance period is available",
     "Representative agency-selection guide inspected October24: indexed with expected Google canonical, last stored crawl October17 09:50:25 before its October24 revision. Snapshot reports/search-console/agency-url-inspection-2026-10-24.json. Wait for later crawl/performance evidence and genuine feedback before another rewrite; do not repeat priority-crawl requests or remove localized pages merely to change query language",
     "Use reports/search-console/2026-10-23.json and the October 23 report as the latest evidence checkpoint. Data end October 21; all 37 displayed current query rows and all 33 page rows were read. No reportable Simplified target matches does not mean zero demand",
     "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October 20 expansion; the reported crawl is still October 19. Do not rebuild these URLs or repeat the October 19 requests just because target-query impressions remain absent",

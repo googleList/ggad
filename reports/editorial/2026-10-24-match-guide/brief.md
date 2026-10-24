@@ -45,3 +45,11 @@ All four matching-guide widths passed, including18 displayed exclusion decisions
 Unit suite88 passed with one Windows symlink-permission skip. SEO65HTML/63sitemap zero errors/warnings, structured data/content policy/performance passed; CSS55,875 normalized bytes and shared JS17,401 local bytes unchanged. Feed45 entries current. Public-only build132 files before release marker; no new asset or runtime dependency. Local evidence files are `local/browser.json`, `local/grouping/browser.json` and `local/hub/browser.json`.
 
 Research mapping now points the matching topic to its existing matching URL rather than the Ad Rank guide. Volume remains null. The GSC refresh record is `reports/search-console/recheck-2026-10-24.json`; it does not overwrite historical full query/country/page evidence. Production verification follows push.
+
+## Production Results
+
+Content commit `af251f860ec5ad4c0d4ccae3bacc91aa06a3dcc2` pushed to main. [Pages #71](https://github.com/googleList/ggad/actions/runs/40065158223), job120786739099, succeeded: all88 CI unit tests, SEO/schema/content-policy/performance checks and133 staged public files. Production release marker matched the content SHA. To avoid the stale HTML Actions listing seen in recent runs, the public GitHub API queried the exact head SHA, then the dedicated job tool verified the returned run; no run ID was guessed and no workflow restarted.
+
+Public match-guide checks completed `2026-10-24T05:10:36.171Z`: four widths, all18 rule cells, positive types, five anchors, dates/images/canonical/listing and six internal destinations passed. Reciprocal grouping/service links verified. Public hub/no-JavaScript and full grouping-guide regression also passed. Evidence: `production/browser.json`, `production/hub/browser.json`, `production/grouping/browser.json`. Public phone rule-table screenshot was inspected; horizontal table scrolling remains inside its focusable region, not page overflow.
+
+No organic traffic, ranking, qualified leads, monthly demand or field CWV result was newly obtained. The refreshed GSC windows remained unchanged. Human article review remains pending and service-scope approval has not been broadened. Reporting-only commits may follow this verified content checkpoint.

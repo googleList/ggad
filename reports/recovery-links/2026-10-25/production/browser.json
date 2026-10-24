@@ -1,0 +1,282 @@
+{
+  "checkedAt": "2026-10-24T16:23:09.605Z",
+  "base": "https://shumaojs.com/",
+  "simulated404Delivery": false,
+  "results": [
+    {
+      "width": 1440,
+      "missing": "https://shumaojs.com/seo-recovery-check/missing.html",
+      "responseStatus": 404,
+      "simulatedDelivery": false,
+      "javascript": false,
+      "headline": "这个页面已经下线",
+      "robots": "noindex,follow",
+      "stylesheetLoaded": true,
+      "logo": "https://shumaojs.com/assets/logo.svg",
+      "logoLoaded": true,
+      "home": "https://shumaojs.com/index.html",
+      "links": [
+        {
+          "href": "/index.html",
+          "url": "https://shumaojs.com/index.html",
+          "text": "振润达独立广告咨询机构"
+        },
+        {
+          "href": "/index.html",
+          "url": "https://shumaojs.com/index.html",
+          "text": "首页"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "https://shumaojs.com/google-ads.html",
+          "text": "Google Ads"
+        },
+        {
+          "href": "/articles.html",
+          "url": "https://shumaojs.com/articles.html",
+          "text": "文章"
+        },
+        {
+          "href": "/contact.html",
+          "url": "https://shumaojs.com/contact.html",
+          "text": "联系"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "https://shumaojs.com/google-ads.html",
+          "text": "Google Ads 广告管理与投放咨询"
+        },
+        {
+          "href": "/compliance.html",
+          "url": "https://shumaojs.com/compliance.html",
+          "text": "广告合规与企业验证说明"
+        },
+        {
+          "href": "/articles/google-search-ads-guide.html",
+          "url": "https://shumaojs.com/articles/google-search-ads-guide.html",
+          "text": "谷歌广告排名与 Ad Rank 指南"
+        },
+        {
+          "href": "/articles.html",
+          "url": "https://shumaojs.com/articles.html",
+          "text": "全部投放与建站文章"
+        },
+        {
+          "href": "/index.html",
+          "url": "https://shumaojs.com/index.html",
+          "text": "返回首页"
+        }
+      ],
+      "resources": [
+        "https://shumaojs.com/favicon.ico",
+        "https://shumaojs.com/assets/favicon.svg",
+        "https://shumaojs.com/styles.css",
+        "https://shumaojs.com/assets/logo.svg"
+      ],
+      "overflow": false,
+      "recoveryNavigationPassed": true
+    },
+    {
+      "width": 390,
+      "missing": "https://shumaojs.com/seo-recovery-check/deeper/missing.html",
+      "responseStatus": 404,
+      "simulatedDelivery": false,
+      "javascript": false,
+      "headline": "这个页面已经下线",
+      "robots": "noindex,follow",
+      "stylesheetLoaded": true,
+      "logo": "https://shumaojs.com/assets/logo.svg",
+      "logoLoaded": true,
+      "home": "https://shumaojs.com/index.html",
+      "links": [
+        {
+          "href": "/index.html",
+          "url": "https://shumaojs.com/index.html",
+          "text": "振润达独立广告咨询机构"
+        },
+        {
+          "href": "/index.html",
+          "url": "https://shumaojs.com/index.html",
+          "text": "首页"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "https://shumaojs.com/google-ads.html",
+          "text": "Google Ads"
+        },
+        {
+          "href": "/articles.html",
+          "url": "https://shumaojs.com/articles.html",
+          "text": "文章"
+        },
+        {
+          "href": "/contact.html",
+          "url": "https://shumaojs.com/contact.html",
+          "text": "联系"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "https://shumaojs.com/google-ads.html",
+          "text": "Google Ads 广告管理与投放咨询"
+        },
+        {
+          "href": "/compliance.html",
+          "url": "https://shumaojs.com/compliance.html",
+          "text": "广告合规与企业验证说明"
+        },
+        {
+          "href": "/articles/google-search-ads-guide.html",
+          "url": "https://shumaojs.com/articles/google-search-ads-guide.html",
+          "text": "谷歌广告排名与 Ad Rank 指南"
+        },
+        {
+          "href": "/articles.html",
+          "url": "https://shumaojs.com/articles.html",
+          "text": "全部投放与建站文章"
+        },
+        {
+          "href": "/index.html",
+          "url": "https://shumaojs.com/index.html",
+          "text": "返回首页"
+        }
+      ],
+      "resources": [
+        "https://shumaojs.com/favicon.ico",
+        "https://shumaojs.com/assets/favicon.svg",
+        "https://shumaojs.com/styles.css",
+        "https://shumaojs.com/assets/logo.svg"
+      ],
+      "overflow": false,
+      "recoveryNavigationPassed": true
+    },
+    {
+      "width": 320,
+      "missing": "https://shumaojs.com/seo-recovery-check/deleted/",
+      "responseStatus": 404,
+      "simulatedDelivery": false,
+      "javascript": false,
+      "headline": "这个页面已经下线",
+      "robots": "noindex,follow",
+      "stylesheetLoaded": true,
+      "logo": "https://shumaojs.com/assets/logo.svg",
+      "logoLoaded": true,
+      "home": "https://shumaojs.com/index.html",
+      "links": [
+        {
+          "href": "/index.html",
+          "url": "https://shumaojs.com/index.html",
+          "text": "振润达独立广告咨询机构"
+        },
+        {
+          "href": "/index.html",
+          "url": "https://shumaojs.com/index.html",
+          "text": "首页"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "https://shumaojs.com/google-ads.html",
+          "text": "Google Ads"
+        },
+        {
+          "href": "/articles.html",
+          "url": "https://shumaojs.com/articles.html",
+          "text": "文章"
+        },
+        {
+          "href": "/contact.html",
+          "url": "https://shumaojs.com/contact.html",
+          "text": "联系"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "https://shumaojs.com/google-ads.html",
+          "text": "Google Ads 广告管理与投放咨询"
+        },
+        {
+          "href": "/compliance.html",
+          "url": "https://shumaojs.com/compliance.html",
+          "text": "广告合规与企业验证说明"
+        },
+        {
+          "href": "/articles/google-search-ads-guide.html",
+          "url": "https://shumaojs.com/articles/google-search-ads-guide.html",
+          "text": "谷歌广告排名与 Ad Rank 指南"
+        },
+        {
+          "href": "/articles.html",
+          "url": "https://shumaojs.com/articles.html",
+          "text": "全部投放与建站文章"
+        },
+        {
+          "href": "/index.html",
+          "url": "https://shumaojs.com/index.html",
+          "text": "返回首页"
+        }
+      ],
+      "resources": [
+        "https://shumaojs.com/favicon.ico",
+        "https://shumaojs.com/assets/favicon.svg",
+        "https://shumaojs.com/styles.css",
+        "https://shumaojs.com/assets/logo.svg"
+      ],
+      "overflow": false,
+      "recoveryNavigationPassed": true
+    },
+    {
+      "width": 1440,
+      "article": "google-budget-pacing.html",
+      "label": "搜索广告的竞价与排名机制",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "article": "performance-max-basics.html",
+      "label": "搜索广告的竞价与广告评级",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "article": "search-terms-optimization.html",
+      "label": "谷歌广告排名与 Ad Rank 指南",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "article": "seo-content-cluster.html",
+      "label": "广告排名与 Ad Rank 指南",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "article": "google-budget-pacing.html",
+      "label": "搜索广告的竞价与排名机制",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "article": "performance-max-basics.html",
+      "label": "搜索广告的竞价与广告评级",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "article": "search-terms-optimization.html",
+      "label": "谷歌广告排名与 Ad Rank 指南",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "article": "seo-content-cluster.html",
+      "label": "广告排名与 Ad Rank 指南",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    }
+  ]
+}

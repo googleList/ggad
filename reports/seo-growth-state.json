@@ -22,10 +22,10 @@
   "latestReport": "reports/seo-follow-up-2026-10-25.md",
   "deployment": {
     "status": "deployed",
-    "reason": "Existing Google/Meta comparison guide upgraded ina27f780 and deployed by successful Pages #84. Correct platform/Search generalization and inconsistent visible/schema dates; six-row comparison, three scenarios, anonymous hypothetical qualified-cost example, four test agreements and original optimized cover/thumbnail. Retain title/H1/URL/canonical/publication,47 cards/45 RSS items and accepted service/articles; no CSS/runtime growth. Article-specific human review pending.",
-    "localCommit": "a27f780",
-    "verifiedAt": "2026-10-24",
-    "latestVerification": "Public marker matcheda27f780e04a67a40c7a82e0b4df4e556cd9db09f; Pages #84 job120914790929 succeeded with88 CI tests, SEO65 HTML/63 sitemap zero errors/warnings and all gates passed,141 public files. Public article checks15:46:31Z pass1440/768/390/320 plus390 no-JavaScript,10 main internal destinations200/four service fragments, six clear anchors, two keyboard tables, image/date and SEM page6 card. Hub15:46:44Z passes six cases/all47 cards. Screenshots inspected; unchanged CSS/runtime caps. Reporting commits may follow; no new performance/indexing/field-CWV result claimed."
+    "reason": "Analysis-only05aab64 corrects the CSV prioritizer's small-sample actions and explicit-country precedence, and records a new throughOctober22 Simplified query signal. Public HTML/assets remain as the verifieda27f780 content release; accepted pages/dates not rewritten. Article-specific pending reviews remain separate.",
+    "localCommit": "05aab64",
+    "verifiedAt": "2026-10-25",
+    "latestVerification": "Public marker matched05aab6454fec33b3b8e004dc56f85ea2889d92de at2026-10-24T16:09:30Z; Pages #86 job120920094852 succeeded with93 CI tests, SEO65 HTML/63 sitemap zero errors/warnings and schema/policy/performance gates passed,141 public files. No new public-page browser check claimed for this analysis-only release; the prior a27f780 article5/hub6 browser cases remain dated evidence. Reporting commits may follow. GSC4 target impressions are not a traffic, stable-rank or US/HK demand result."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -112,13 +112,13 @@
     "exact-simplified-query-page-country-signal-and-priority-guard-2026-10-25"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-24T15:47:12Z",
-    "localHead": "a27f780",
-    "remoteHead": "a27f780",
+    "checkedAt": "2026-10-24T16:09:30Z",
+    "localHead": "05aab64",
+    "remoteHead": "05aab64",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified content checkpointa27f780; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes; recover transient workflow observation on same known run, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
+    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified analyzer checkpoint05aab64, unchanged public content froma27f780; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes; recover transient workflow observation on same known run, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
   },
   "dataAccess": {
     "latestSearchPerformanceFollowUp": {
@@ -147,7 +147,7 @@
       "countryRule": "Explicit recognized country overrides filename; unknown nonempty country staysUNASSIGNED; filename hints only if country missing. Hong Kong Chinese labels and Singapore supported",
       "focusedTestsPassed": 8, "newRegressionTests": 5,
       "fullLocalSuiteRun": 93, "localWindowsSkipped": 1,
-      "deploymentStatus": "pending push and observed workflow verification",
+      "deploymentStatus": "05aab6454fec33b3b8e004dc56f85ea2889d92de pushed and verified by Pages86/40110187244, job120920094852; all93 CI tests and gates pass, public revision matches",
       "publicContentChanged": false
     },
     "channelComparisonRelease2026-10-24": {

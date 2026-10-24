@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 24 Oct 2026 08:52:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 15:36:37 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Ads 和 Meta Ads 怎么选？投放场景对比</title>
+      <link>https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html</guid>
+      <description>Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>广告转化追踪基础教程</title>
       <link>https://shumaojs.com/articles/conversion-tracking-basics.html</link>
@@ -401,15 +410,6 @@
       <description>Googlebot、网络爬虫和 AI 爬虫基础教程，说明它们如何发现、抓取、索引网站内容，以及对 SEO、GEO 和广告落地页的影响。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>GEO</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>Google Ads 和 Meta Ads 怎么选？投放场景对比</title>
-      <link>https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html</guid>
-      <description>Google Ads 与 Meta Ads 对比指南，说明搜索意图、素材要求、预算节奏、转化路径和适合行业，帮助企业选择广告投放渠道。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
       <dc:language>zh-CN</dc:language>
     </item>
   </channel>

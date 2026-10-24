@@ -187,6 +187,21 @@
       "contentActions": ["四行需求选择表连接既有 Google、Meta、Facebook、X 页面，不把 Facebook 与 Meta 当独立平台", "修正 PMax 商品数据前提，明确咨询、执行、素材开发及费用需分别确认", "保留原网址、标题和全部广告类型图示，不声称搜索量或蚕食问题已验证"]
     },
     {
+      "cluster": "Google Ads 与 Meta 广告渠道选择",
+      "language": "zh-Hans", "intent": "commercial-investigation", "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html",
+      "primaryKeywords": ["谷歌广告和 Facebook 广告怎么选", "Google Ads 和 Meta Ads 对比"],
+      "supportingKeywords": ["外贸广告渠道选择", "Google 搜索广告与信息流广告", "有效线索成本对比"],
+      "evidence": {
+        "reviewedAt": "2026-10-24",
+        "method": "Public Simplified comparison queries validate topic intent only. Current public/local page generalized Google Ads as Search, repeated13 non-CTA sections and had inconsistent visible/schema update dates. Primary Google campaign/search-term/window documentation and labeled historical Meta newsroom support scoped corrections. Latest settled GSC remains throughOctober21, not a fresh demand or release measurement.",
+        "googleSearchVolume": null, "countryDemandVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-24-channel-comparison/brief.md",
+        "humanReviewStatus": "pending; earlier three-service-page acceptance and other article confirmations do not approve this comparison guide"
+      },
+      "contentActions": ["保留原标题和网址，六项对照区分搜索、Google其他系列与Meta", "三类业务情境与匿名假设成本演算，按相同线索定义比较，不预设平台胜负", "原创封面和缩略图，连接已确认服务范围及测量教程；不把候选需求或收录当作排名增长"]
+    },
+    {
       "cluster": "Meta 与 Instagram 多版位规划",
       "language": "zh-Hans",
       "intent": "commercial",

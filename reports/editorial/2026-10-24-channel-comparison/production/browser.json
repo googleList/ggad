@@ -1,0 +1,391 @@
+{
+  "checkedAt": "2026-10-24T15:46:31.939Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "headline": "Google Ads 和 Meta Ads 怎么选？投放场景对比",
+      "schemaHeadline": "Google Ads 和 Meta Ads 怎么选？投放场景对比",
+      "title": "Google Ads 和 Meta Ads 怎么选？投放场景对比 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T23:36:37+08:00",
+      "visibleModified": "2026-10-24T23:36:37+08:00",
+      "descriptions": [
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "dimensions": [
+        "demand",
+        "assets",
+        "destination",
+        "measurement",
+        "diagnostics",
+        "constraints"
+      ],
+      "scenarios": [
+        "industrial",
+        "retail",
+        "services"
+      ],
+      "costRows": [
+        {
+          "key": "received",
+          "text": "收到的原始询盘12 条30 条仍需核对真实性、重复与接收记录。"
+        },
+        {
+          "key": "raw-cpl",
+          "text": "每条原始询盘媒体成本600 ÷ 12 = 50 美元600 ÷ 30 = 20 美元B 的表面 CPL 较低，不代表有效获客更便宜。"
+        },
+        {
+          "key": "qualified",
+          "text": "业务确认的有效线索4 条3 条使用相同资格条件与跟进时间。"
+        },
+        {
+          "key": "qualified-cpl",
+          "text": "每条有效线索媒体成本600 ÷ 4 = 150 美元600 ÷ 3 = 200 美元按此口径 A 较低，但小样本不足以证明长期优胜。"
+        }
+      ],
+      "steps": 4,
+      "faqCount": 3,
+      "anchors": [
+        "#channel-scope",
+        "#choice-table",
+        "#project-scenarios",
+        "#measurement",
+        "#budget-test",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-d86d7e",
+        "channel-scope",
+        "choice-table",
+        "project-scenarios",
+        "measurement",
+        "budget-test",
+        "questions"
+      ],
+      "hypothetical": true,
+      "uncertainty": true,
+      "sources": 4,
+      "localLinks": [
+        "/articles/performance-max-basics.html",
+        "/articles/google-search-keywords.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/managed-ads.html#platform-choice",
+        "/google-ads.html#service-scope",
+        "/meta-ads.html#scope-choice",
+        "/facebook-ads.html#lead-handover",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPage": 6,
+      "listingPassed": true
+    },
+    {
+      "width": 768,
+      "headline": "Google Ads 和 Meta Ads 怎么选？投放场景对比",
+      "schemaHeadline": "Google Ads 和 Meta Ads 怎么选？投放场景对比",
+      "title": "Google Ads 和 Meta Ads 怎么选？投放场景对比 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T23:36:37+08:00",
+      "visibleModified": "2026-10-24T23:36:37+08:00",
+      "descriptions": [
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "dimensions": [
+        "demand",
+        "assets",
+        "destination",
+        "measurement",
+        "diagnostics",
+        "constraints"
+      ],
+      "scenarios": [
+        "industrial",
+        "retail",
+        "services"
+      ],
+      "costRows": [
+        {
+          "key": "received",
+          "text": "收到的原始询盘12 条30 条仍需核对真实性、重复与接收记录。"
+        },
+        {
+          "key": "raw-cpl",
+          "text": "每条原始询盘媒体成本600 ÷ 12 = 50 美元600 ÷ 30 = 20 美元B 的表面 CPL 较低，不代表有效获客更便宜。"
+        },
+        {
+          "key": "qualified",
+          "text": "业务确认的有效线索4 条3 条使用相同资格条件与跟进时间。"
+        },
+        {
+          "key": "qualified-cpl",
+          "text": "每条有效线索媒体成本600 ÷ 4 = 150 美元600 ÷ 3 = 200 美元按此口径 A 较低，但小样本不足以证明长期优胜。"
+        }
+      ],
+      "steps": 4,
+      "faqCount": 3,
+      "anchors": [
+        "#channel-scope",
+        "#choice-table",
+        "#project-scenarios",
+        "#measurement",
+        "#budget-test",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-nob47k",
+        "channel-scope",
+        "choice-table",
+        "project-scenarios",
+        "measurement",
+        "budget-test",
+        "questions"
+      ],
+      "hypothetical": true,
+      "uncertainty": true,
+      "sources": 4,
+      "localLinks": [
+        "/articles/performance-max-basics.html",
+        "/articles/google-search-keywords.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/managed-ads.html#platform-choice",
+        "/google-ads.html#service-scope",
+        "/meta-ads.html#scope-choice",
+        "/facebook-ads.html#lead-handover",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPage": 6,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "headline": "Google Ads 和 Meta Ads 怎么选？投放场景对比",
+      "schemaHeadline": "Google Ads 和 Meta Ads 怎么选？投放场景对比",
+      "title": "Google Ads 和 Meta Ads 怎么选？投放场景对比 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T23:36:37+08:00",
+      "visibleModified": "2026-10-24T23:36:37+08:00",
+      "descriptions": [
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/channel-choice-evidence-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "dimensions": [
+        "demand",
+        "assets",
+        "destination",
+        "measurement",
+        "diagnostics",
+        "constraints"
+      ],
+      "scenarios": [
+        "industrial",
+        "retail",
+        "services"
+      ],
+      "costRows": [
+        {
+          "key": "received",
+          "text": "收到的原始询盘12 条30 条仍需核对真实性、重复与接收记录。"
+        },
+        {
+          "key": "raw-cpl",
+          "text": "每条原始询盘媒体成本600 ÷ 12 = 50 美元600 ÷ 30 = 20 美元B 的表面 CPL 较低，不代表有效获客更便宜。"
+        },
+        {
+          "key": "qualified",
+          "text": "业务确认的有效线索4 条3 条使用相同资格条件与跟进时间。"
+        },
+        {
+          "key": "qualified-cpl",
+          "text": "每条有效线索媒体成本600 ÷ 4 = 150 美元600 ÷ 3 = 200 美元按此口径 A 较低，但小样本不足以证明长期优胜。"
+        }
+      ],
+      "steps": 4,
+      "faqCount": 3,
+      "anchors": [
+        "#channel-scope",
+        "#choice-table",
+        "#project-scenarios",
+        "#measurement",
+        "#budget-test",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-j4w59b",
+        "channel-scope",
+        "choice-table",
+        "project-scenarios",
+        "measurement",
+        "budget-test",
+        "questions"
+      ],
+      "hypothetical": true,
+      "uncertainty": true,
+      "sources": 4,
+      "localLinks": [
+        "/articles/performance-max-basics.html",
+        "/articles/google-search-keywords.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/managed-ads.html#platform-choice",
+        "/google-ads.html#service-scope",
+        "/meta-ads.html#scope-choice",
+        "/facebook-ads.html#lead-handover",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPage": 6,
+      "listingPassed": true
+    },
+    {
+      "width": 320,
+      "headline": "Google Ads 和 Meta Ads 怎么选？投放场景对比",
+      "schemaHeadline": "Google Ads 和 Meta Ads 怎么选？投放场景对比",
+      "title": "Google Ads 和 Meta Ads 怎么选？投放场景对比 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T23:36:37+08:00",
+      "visibleModified": "2026-10-24T23:36:37+08:00",
+      "descriptions": [
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。",
+        "Google Ads 和 Meta Ads 怎么选？用六项渠道对照、三类业务情境和假设线索成本表，区分搜索广告与其他广告系列，并制定可核验的首轮测试。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/channel-choice-evidence-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/channel-choice-evidence-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "dimensions": [
+        "demand",
+        "assets",
+        "destination",
+        "measurement",
+        "diagnostics",
+        "constraints"
+      ],
+      "scenarios": [
+        "industrial",
+        "retail",
+        "services"
+      ],
+      "costRows": [
+        {
+          "key": "received",
+          "text": "收到的原始询盘12 条30 条仍需核对真实性、重复与接收记录。"
+        },
+        {
+          "key": "raw-cpl",
+          "text": "每条原始询盘媒体成本600 ÷ 12 = 50 美元600 ÷ 30 = 20 美元B 的表面 CPL 较低，不代表有效获客更便宜。"
+        },
+        {
+          "key": "qualified",
+          "text": "业务确认的有效线索4 条3 条使用相同资格条件与跟进时间。"
+        },
+        {
+          "key": "qualified-cpl",
+          "text": "每条有效线索媒体成本600 ÷ 4 = 150 美元600 ÷ 3 = 200 美元按此口径 A 较低，但小样本不足以证明长期优胜。"
+        }
+      ],
+      "steps": 4,
+      "faqCount": 3,
+      "anchors": [
+        "#channel-scope",
+        "#choice-table",
+        "#project-scenarios",
+        "#measurement",
+        "#budget-test",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-y7g36i",
+        "channel-scope",
+        "choice-table",
+        "project-scenarios",
+        "measurement",
+        "budget-test",
+        "questions"
+      ],
+      "hypothetical": true,
+      "uncertainty": true,
+      "sources": 4,
+      "localLinks": [
+        "/articles/performance-max-basics.html",
+        "/articles/google-search-keywords.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/managed-ads.html#platform-choice",
+        "/google-ads.html#service-scope",
+        "/meta-ads.html#scope-choice",
+        "/facebook-ads.html#lead-handover",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPage": 6,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "javascript": false,
+      "anchorsVisible": 6,
+      "comparisonRows": 6,
+      "imageLoaded": true,
+      "noOverflow": true
+    }
+  ],
+  "pageErrors": []
+}

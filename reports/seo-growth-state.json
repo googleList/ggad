@@ -7,9 +7,9 @@
     "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
-    "latestBrief": "reports/editorial/2026-10-24-service-hub/brief.md",
-    "latestAiReviewStatus": "completed for service-hub routing, Meta/Facebook page emphasis, conditional PMax feed requirement and consultation/execution/fee boundaries;16 public browser cases plus CI passed. No proven query cannibalization or conversion-rate improvement inferred",
-    "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist, tracking tutorial and the three-page managed/Meta/Facebook explanation on October24. Latest exact reply: 说明符合实际业务，可保留, limited to demand routing, placement/page/lead emphasis and execution/media/service fee boundaries. Agency-selection/matching/cost articles remain pending; no unspecified prices, live implementation or campaign results approved",
+    "latestBrief": "reports/editorial/2026-10-24-channel-comparison/brief.md",
+    "latestAiReviewStatus": "completed structure/clarity/evidence/arithmetic/SEO-accessibility review for the existing Google/Meta comparison: platform versus campaign distinction, six dimensions, three scenarios, four hypothetical cost rows and four test agreements. Public article5/hub6 browser cases and CI passed. Not a measured platform winner or growth result",
+    "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist, tracking tutorial and the three-page managed/Meta/Facebook explanation on October24. Latest service reply: 说明符合实际业务，可保留, limited to routing/emphasis and fee/execution boundaries. New channel-comparison article review asked separately and pending, as are agency-selection/matching/cost articles; no unspecified prices, live implementation or campaign results approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
   "site": "https://shumaojs.com/",
@@ -22,10 +22,10 @@
   "latestReport": "reports/seo-week-06-2026-10-24.md",
   "deployment": {
     "status": "deployed",
-    "reason": "Existing managed/Meta/Facebook service pages clarified in61f3e7a and deployed by successful Pages #81. Four visible-first-column service routes, differentiated page emphasis/reciprocal links, corrected universal PMax feed requirement and scoped execution/fee confirmation. Existing titles/URLs/canonicals,27 type illustrations,47 articles/45 feed items and approved Google/article content retained. No new image/runtime dependency. Owner subsequently accepted the three-page routing/emphasis and fee/execution explanation on October24; public content/dates unchanged for approval alone.",
-    "localCommit": "61f3e7a",
+    "reason": "Existing Google/Meta comparison guide upgraded ina27f780 and deployed by successful Pages #84. Correct platform/Search generalization and inconsistent visible/schema dates; six-row comparison, three scenarios, anonymous hypothetical qualified-cost example, four test agreements and original optimized cover/thumbnail. Retain title/H1/URL/canonical/publication,47 cards/45 RSS items and accepted service/articles; no CSS/runtime growth. Article-specific human review pending.",
+    "localCommit": "a27f780",
     "verifiedAt": "2026-10-24",
-    "latestVerification": "Public marker matched61f3e7a653b4337cc5110149616ebe8d599132ae; Pages #81 job120836060127 succeeded,88 CI tests and all quality gates passed. Public service-hub evidence completed2026-10-24T09:21:43Z:15 page/width cases across2560/1440/768/390/320 plus390 no-JavaScript; four routes, reciprocal links, images, anchors, keyboard table and mobile menu pass. Main internal destinations200:hub10/Meta3/Facebook3. CSS55,902 normalized bytes, unchanged caps/runtime. Report commits may follow; no query-competition, country-demand, traffic or field-CWV gain claimed."
+    "latestVerification": "Public marker matcheda27f780e04a67a40c7a82e0b4df4e556cd9db09f; Pages #84 job120914790929 succeeded with88 CI tests, SEO65 HTML/63 sitemap zero errors/warnings and all gates passed,141 public files. Public article checks15:46:31Z pass1440/768/390/320 plus390 no-JavaScript,10 main internal destinations200/four service fragments, six clear anchors, two keyboard tables, image/date and SEM page6 card. Hub15:46:44Z passes six cases/all47 cards. Screenshots inspected; unchanged CSS/runtime caps. Reporting commits may follow; no new performance/indexing/field-CWV result claimed."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -106,18 +106,36 @@
     "simplified-agency-selection-six-evidence-criteria-and-original-cover-2026-10-24",
     "simplified-landing-page-preflight-enquiry-distinction-and-original-cover-2026-10-24",
     "simplified-conversion-tracking-event-goal-consistency-and-original-cover-2026-10-24",
-    "service-hub-routes-meta-facebook-differentiation-and-pmax-prerequisite-2026-10-24"
+    "service-hub-routes-meta-facebook-differentiation-and-pmax-prerequisite-2026-10-24",
+    "owner-accepted-service-hub-and-stored-index-follow-up-2026-10-24",
+    "simplified-google-meta-channel-choice-qualified-cost-and-original-cover-2026-10-24"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-24T09:22:13Z",
-    "localHead": "61f3e7a",
-    "remoteHead": "61f3e7a",
+    "checkedAt": "2026-10-24T15:47:12Z",
+    "localHead": "a27f780",
+    "remoteHead": "a27f780",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified content checkpoint61f3e7a; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes; recover transient workflow observation on same known run, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
+    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified content checkpointa27f780; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes; recover transient workflow observation on same known run, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
   },
   "dataAccess": {
+    "channelComparisonRelease2026-10-24": {
+      "contentCommit": "a27f780e04a67a40c7a82e0b4df4e556cd9db09f",
+      "successfulRun": "https://github.com/googleList/ggad/actions/runs/40108397495",
+      "brief": "reports/editorial/2026-10-24-channel-comparison/brief.md",
+      "browserEvidence": "reports/editorial/2026-10-24-channel-comparison/production/browser.json",
+      "hubEvidence": "reports/editorial/2026-10-24-channel-comparison/production/hub/browser.json",
+      "widthsPassed": [1440, 768, 390, 320],
+      "articleCasesIncludingNoJavaScript": 5, "hubCasesIncludingNoJavaScript": 6,
+      "comparisonDimensions": 6, "businessScenarios": 3, "costRows": 4, "testSteps": 4,
+      "internalDestinationsHttp200": 10, "serviceFragmentsValidated": 4,
+      "ciUnitTestsPassed": 88, "coverBytes": 74044, "thumbnailBytes": 8758,
+      "imageMode": "built-in image_gen, original search/feed-to-customer-record concept, no live report or claimed winner",
+      "humanReview": "pending; owner asked specifically about this comparison guide, not inherited from service/article approvals",
+      "freshSearchPerformanceSnapshot": false,
+      "note": "Public/local terminology/date defects and comparison-intent results support priority, not volume, geographic demand or causal performance. Hypothetical anonymous600-dollar calculations are teaching arithmetic, not platform/industry benchmarks. Existing title/publication/canonical and card order retained; no new page, CSS/runtime dependency, GSC request or external outreach."
+    },
     "serviceHubRelease2026-10-24": {
       "contentCommit": "61f3e7a653b4337cc5110149616ebe8d599132ae",
       "successfulRun": "https://github.com/googleList/ggad/actions/runs/40081577333",
@@ -484,6 +502,7 @@
     }
   },
   "nextPriorities": [
+    "Existing Google/Meta comparison is deployed with original assets and public browser/CI evidence. Await its separate genuine human review; keep approved service/keyword/landing/tracking explanations stable. Measure a later settled query/page/country/crawl window before calling this a demand, platform or ranking win; do not immediately rewrite it again",
     "Follow the updated content-led objective. Each selected batch needs keyword/intent evidence, title candidates, outline, original/source-backed content, thumbnail provenance, optimization and deployment checks; do not default to repeated status-only account polling",
     "Incorporate actual human review of the published cost guide when received. Its raw/qualified lead definitions and fee boundaries are intentionally general; no owner approval, package price or client evidence may be invented",
     "Service scope, keyword tutorial, landing checklist and tracking tutorial are separately owner-confirmed; retain accepted content. Cost/matching/agency-selection reviews remain pending. Incorporate genuine feedback without inherited approval. Do not keep rewriting repaired guides or create near-duplicates merely because no fresh performance period is available",

@@ -1,0 +1,355 @@
+{
+  "checkedAt": "2026-10-24T05:24:35.941Z",
+  "base": "http://127.0.0.1:8778/",
+  "results": [
+    {
+      "width": 1440,
+      "headline": "广告代理商怎么选？签约前要看的 6 个指标",
+      "schemaHeadline": "广告代理商怎么选？签约前要看的 6 个指标",
+      "canonical": "https://shumaojs.com/articles/how-to-choose-advertising-agency.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T13:18:20+08:00",
+      "visibleModified": "2026-10-24T13:18:20+08:00",
+      "cover": {
+        "src": "http://127.0.0.1:8778/assets/articles/agency-evidence-review-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg"
+      },
+      "criteria": [
+        {
+          "id": "scope",
+          "heading": "1. 主体与交付范围：谁负责什么？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "ownership",
+          "heading": "2. 账户与权限：企业能否独立查看与管理？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "measurement",
+          "heading": "3. 追踪与有效线索：报告到底统计什么？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "fees",
+          "heading": "4. 总成本与报价：用相同范围比较",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "evidence",
+          "heading": "5. 复盘与案例证据：能否解释下一步？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "handover",
+          "heading": "6. 沟通与退出交接：不合作时怎么办？",
+          "evidence": 1,
+          "questions": 1
+        }
+      ],
+      "feeRows": 5,
+      "anchors": [
+        "#scope",
+        "#ownership",
+        "#measurement",
+        "#fees",
+        "#evidence",
+        "#handover"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-kph4hh",
+        "scope",
+        "ownership",
+        "measurement",
+        "fees",
+        "evidence",
+        "handover"
+      ],
+      "selfDisclosure": "本文由独立广告咨询机构编写，不是第三方榜单或认证。以下清单同样适用于评估本站的代投服务范围；公开可核对的说明比无法验证的口号更重要。",
+      "localLinks": [
+        "/google-ads.html",
+        "/articles/google-ads-basics.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-ads-guide.html",
+        "/google-ads-agency-checklist-usa.html",
+        "/google-ads-agency-checklist-hong-kong.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true
+    },
+    {
+      "width": 768,
+      "headline": "广告代理商怎么选？签约前要看的 6 个指标",
+      "schemaHeadline": "广告代理商怎么选？签约前要看的 6 个指标",
+      "canonical": "https://shumaojs.com/articles/how-to-choose-advertising-agency.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T13:18:20+08:00",
+      "visibleModified": "2026-10-24T13:18:20+08:00",
+      "cover": {
+        "src": "http://127.0.0.1:8778/assets/articles/agency-evidence-review-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg"
+      },
+      "criteria": [
+        {
+          "id": "scope",
+          "heading": "1. 主体与交付范围：谁负责什么？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "ownership",
+          "heading": "2. 账户与权限：企业能否独立查看与管理？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "measurement",
+          "heading": "3. 追踪与有效线索：报告到底统计什么？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "fees",
+          "heading": "4. 总成本与报价：用相同范围比较",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "evidence",
+          "heading": "5. 复盘与案例证据：能否解释下一步？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "handover",
+          "heading": "6. 沟通与退出交接：不合作时怎么办？",
+          "evidence": 1,
+          "questions": 1
+        }
+      ],
+      "feeRows": 5,
+      "anchors": [
+        "#scope",
+        "#ownership",
+        "#measurement",
+        "#fees",
+        "#evidence",
+        "#handover"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-ls8jtw",
+        "scope",
+        "ownership",
+        "measurement",
+        "fees",
+        "evidence",
+        "handover"
+      ],
+      "selfDisclosure": "本文由独立广告咨询机构编写，不是第三方榜单或认证。以下清单同样适用于评估本站的代投服务范围；公开可核对的说明比无法验证的口号更重要。",
+      "localLinks": [
+        "/google-ads.html",
+        "/articles/google-ads-basics.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-ads-guide.html",
+        "/google-ads-agency-checklist-usa.html",
+        "/google-ads-agency-checklist-hong-kong.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "headline": "广告代理商怎么选？签约前要看的 6 个指标",
+      "schemaHeadline": "广告代理商怎么选？签约前要看的 6 个指标",
+      "canonical": "https://shumaojs.com/articles/how-to-choose-advertising-agency.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T13:18:20+08:00",
+      "visibleModified": "2026-10-24T13:18:20+08:00",
+      "cover": {
+        "src": "http://127.0.0.1:8778/assets/articles/agency-evidence-review-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg"
+      },
+      "criteria": [
+        {
+          "id": "scope",
+          "heading": "1. 主体与交付范围：谁负责什么？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "ownership",
+          "heading": "2. 账户与权限：企业能否独立查看与管理？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "measurement",
+          "heading": "3. 追踪与有效线索：报告到底统计什么？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "fees",
+          "heading": "4. 总成本与报价：用相同范围比较",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "evidence",
+          "heading": "5. 复盘与案例证据：能否解释下一步？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "handover",
+          "heading": "6. 沟通与退出交接：不合作时怎么办？",
+          "evidence": 1,
+          "questions": 1
+        }
+      ],
+      "feeRows": 5,
+      "anchors": [
+        "#scope",
+        "#ownership",
+        "#measurement",
+        "#fees",
+        "#evidence",
+        "#handover"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-g4daqg",
+        "scope",
+        "ownership",
+        "measurement",
+        "fees",
+        "evidence",
+        "handover"
+      ],
+      "selfDisclosure": "本文由独立广告咨询机构编写，不是第三方榜单或认证。以下清单同样适用于评估本站的代投服务范围；公开可核对的说明比无法验证的口号更重要。",
+      "localLinks": [
+        "/google-ads.html",
+        "/articles/google-ads-basics.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-ads-guide.html",
+        "/google-ads-agency-checklist-usa.html",
+        "/google-ads-agency-checklist-hong-kong.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true
+    },
+    {
+      "width": 320,
+      "headline": "广告代理商怎么选？签约前要看的 6 个指标",
+      "schemaHeadline": "广告代理商怎么选？签约前要看的 6 个指标",
+      "canonical": "https://shumaojs.com/articles/how-to-choose-advertising-agency.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T13:18:20+08:00",
+      "visibleModified": "2026-10-24T13:18:20+08:00",
+      "cover": {
+        "src": "http://127.0.0.1:8778/assets/articles/agency-evidence-review-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/agency-evidence-review-v1.jpg"
+      },
+      "criteria": [
+        {
+          "id": "scope",
+          "heading": "1. 主体与交付范围：谁负责什么？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "ownership",
+          "heading": "2. 账户与权限：企业能否独立查看与管理？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "measurement",
+          "heading": "3. 追踪与有效线索：报告到底统计什么？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "fees",
+          "heading": "4. 总成本与报价：用相同范围比较",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "evidence",
+          "heading": "5. 复盘与案例证据：能否解释下一步？",
+          "evidence": 1,
+          "questions": 1
+        },
+        {
+          "id": "handover",
+          "heading": "6. 沟通与退出交接：不合作时怎么办？",
+          "evidence": 1,
+          "questions": 1
+        }
+      ],
+      "feeRows": 5,
+      "anchors": [
+        "#scope",
+        "#ownership",
+        "#measurement",
+        "#fees",
+        "#evidence",
+        "#handover"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-07z61e",
+        "scope",
+        "ownership",
+        "measurement",
+        "fees",
+        "evidence",
+        "handover"
+      ],
+      "selfDisclosure": "本文由独立广告咨询机构编写，不是第三方榜单或认证。以下清单同样适用于评估本站的代投服务范围；公开可核对的说明比无法验证的口号更重要。",
+      "localLinks": [
+        "/google-ads.html",
+        "/articles/google-ads-basics.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-ads-guide.html",
+        "/google-ads-agency-checklist-usa.html",
+        "/google-ads-agency-checklist-hong-kong.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true
+    }
+  ],
+  "pageErrors": []
+}

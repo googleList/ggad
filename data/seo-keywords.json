@@ -99,6 +99,24 @@
       "contentActions": ["保留原网址、标题、首次发布日期，纠正通用否定词与固定周数判断", "增加四行候选主题映射、三组误排反例及有效询盘成本假设演算", "原创封面与压缩缩略图用于文章、列表和分享图；不复制竞争站内容或虚构需求数据"]
     },
     {
+      "cluster": "谷歌代投服务商选择与签约证据",
+      "language": "zh-Hans",
+      "intent": "commercial-investigation",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/articles/how-to-choose-advertising-agency.html",
+      "primaryKeywords": ["谷歌代投公司怎么选", "广告代理商怎么选"],
+      "supportingKeywords": ["谷歌代投服务范围", "广告代理商报价", "广告账户归属", "广告服务交接"],
+      "evidence": {
+        "reviewedAt": "2026-10-24",
+        "method": "Public commercial-investigation results plus primary Google transparency/access/directory documentation. Existing six-criteria article repeated14 non-CTA sections with no evidence/question pairing. Prior GSC settled October21 baseline is not new demand or release evidence; no fresh account metrics or keyword-planner volume obtained.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-24-agency-guide/brief.md",
+        "humanReviewStatus": "pending; owner service-scope confirmation does not approve this article"
+      },
+      "contentActions": ["保留标题和原网址，将重复建议重组为六项可核验标准", "补充六个证据请求、六个追问与五项费用核对；保留美国香港已有工具入口", "使用原创清单概念封面及压缩缩略图，不编造资质、价格、客户结果或排名数据"]
+    },
+    {
       "cluster": "US Google Ads management",
       "market": "US",
       "language": "en-US",

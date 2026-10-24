@@ -1,0 +1,282 @@
+{
+  "checkedAt": "2026-10-24T16:18:28.004Z",
+  "base": "http://127.0.0.1:8783/",
+  "simulated404Delivery": true,
+  "results": [
+    {
+      "width": 1440,
+      "missing": "http://127.0.0.1:8783/seo-recovery-check/missing.html",
+      "responseStatus": 404,
+      "simulatedDelivery": true,
+      "javascript": false,
+      "headline": "这个页面已经下线",
+      "robots": "noindex,follow",
+      "stylesheetLoaded": true,
+      "logo": "http://127.0.0.1:8783/assets/logo.svg",
+      "logoLoaded": true,
+      "home": "http://127.0.0.1:8783/index.html",
+      "links": [
+        {
+          "href": "/index.html",
+          "url": "http://127.0.0.1:8783/index.html",
+          "text": "振润达独立广告咨询机构"
+        },
+        {
+          "href": "/index.html",
+          "url": "http://127.0.0.1:8783/index.html",
+          "text": "首页"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "http://127.0.0.1:8783/google-ads.html",
+          "text": "Google Ads"
+        },
+        {
+          "href": "/articles.html",
+          "url": "http://127.0.0.1:8783/articles.html",
+          "text": "文章"
+        },
+        {
+          "href": "/contact.html",
+          "url": "http://127.0.0.1:8783/contact.html",
+          "text": "联系"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "http://127.0.0.1:8783/google-ads.html",
+          "text": "Google Ads 广告管理与投放咨询"
+        },
+        {
+          "href": "/compliance.html",
+          "url": "http://127.0.0.1:8783/compliance.html",
+          "text": "广告合规与企业验证说明"
+        },
+        {
+          "href": "/articles/google-search-ads-guide.html",
+          "url": "http://127.0.0.1:8783/articles/google-search-ads-guide.html",
+          "text": "谷歌广告排名与 Ad Rank 指南"
+        },
+        {
+          "href": "/articles.html",
+          "url": "http://127.0.0.1:8783/articles.html",
+          "text": "全部投放与建站文章"
+        },
+        {
+          "href": "/index.html",
+          "url": "http://127.0.0.1:8783/index.html",
+          "text": "返回首页"
+        }
+      ],
+      "resources": [
+        "http://127.0.0.1:8783/favicon.ico",
+        "http://127.0.0.1:8783/assets/favicon.svg",
+        "http://127.0.0.1:8783/styles.css",
+        "http://127.0.0.1:8783/assets/logo.svg"
+      ],
+      "overflow": false,
+      "recoveryNavigationPassed": true
+    },
+    {
+      "width": 390,
+      "missing": "http://127.0.0.1:8783/seo-recovery-check/deeper/missing.html",
+      "responseStatus": 404,
+      "simulatedDelivery": true,
+      "javascript": false,
+      "headline": "这个页面已经下线",
+      "robots": "noindex,follow",
+      "stylesheetLoaded": true,
+      "logo": "http://127.0.0.1:8783/assets/logo.svg",
+      "logoLoaded": true,
+      "home": "http://127.0.0.1:8783/index.html",
+      "links": [
+        {
+          "href": "/index.html",
+          "url": "http://127.0.0.1:8783/index.html",
+          "text": "振润达独立广告咨询机构"
+        },
+        {
+          "href": "/index.html",
+          "url": "http://127.0.0.1:8783/index.html",
+          "text": "首页"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "http://127.0.0.1:8783/google-ads.html",
+          "text": "Google Ads"
+        },
+        {
+          "href": "/articles.html",
+          "url": "http://127.0.0.1:8783/articles.html",
+          "text": "文章"
+        },
+        {
+          "href": "/contact.html",
+          "url": "http://127.0.0.1:8783/contact.html",
+          "text": "联系"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "http://127.0.0.1:8783/google-ads.html",
+          "text": "Google Ads 广告管理与投放咨询"
+        },
+        {
+          "href": "/compliance.html",
+          "url": "http://127.0.0.1:8783/compliance.html",
+          "text": "广告合规与企业验证说明"
+        },
+        {
+          "href": "/articles/google-search-ads-guide.html",
+          "url": "http://127.0.0.1:8783/articles/google-search-ads-guide.html",
+          "text": "谷歌广告排名与 Ad Rank 指南"
+        },
+        {
+          "href": "/articles.html",
+          "url": "http://127.0.0.1:8783/articles.html",
+          "text": "全部投放与建站文章"
+        },
+        {
+          "href": "/index.html",
+          "url": "http://127.0.0.1:8783/index.html",
+          "text": "返回首页"
+        }
+      ],
+      "resources": [
+        "http://127.0.0.1:8783/favicon.ico",
+        "http://127.0.0.1:8783/assets/favicon.svg",
+        "http://127.0.0.1:8783/styles.css",
+        "http://127.0.0.1:8783/assets/logo.svg"
+      ],
+      "overflow": false,
+      "recoveryNavigationPassed": true
+    },
+    {
+      "width": 320,
+      "missing": "http://127.0.0.1:8783/seo-recovery-check/deleted/",
+      "responseStatus": 404,
+      "simulatedDelivery": true,
+      "javascript": false,
+      "headline": "这个页面已经下线",
+      "robots": "noindex,follow",
+      "stylesheetLoaded": true,
+      "logo": "http://127.0.0.1:8783/assets/logo.svg",
+      "logoLoaded": true,
+      "home": "http://127.0.0.1:8783/index.html",
+      "links": [
+        {
+          "href": "/index.html",
+          "url": "http://127.0.0.1:8783/index.html",
+          "text": "振润达独立广告咨询机构"
+        },
+        {
+          "href": "/index.html",
+          "url": "http://127.0.0.1:8783/index.html",
+          "text": "首页"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "http://127.0.0.1:8783/google-ads.html",
+          "text": "Google Ads"
+        },
+        {
+          "href": "/articles.html",
+          "url": "http://127.0.0.1:8783/articles.html",
+          "text": "文章"
+        },
+        {
+          "href": "/contact.html",
+          "url": "http://127.0.0.1:8783/contact.html",
+          "text": "联系"
+        },
+        {
+          "href": "/google-ads.html",
+          "url": "http://127.0.0.1:8783/google-ads.html",
+          "text": "Google Ads 广告管理与投放咨询"
+        },
+        {
+          "href": "/compliance.html",
+          "url": "http://127.0.0.1:8783/compliance.html",
+          "text": "广告合规与企业验证说明"
+        },
+        {
+          "href": "/articles/google-search-ads-guide.html",
+          "url": "http://127.0.0.1:8783/articles/google-search-ads-guide.html",
+          "text": "谷歌广告排名与 Ad Rank 指南"
+        },
+        {
+          "href": "/articles.html",
+          "url": "http://127.0.0.1:8783/articles.html",
+          "text": "全部投放与建站文章"
+        },
+        {
+          "href": "/index.html",
+          "url": "http://127.0.0.1:8783/index.html",
+          "text": "返回首页"
+        }
+      ],
+      "resources": [
+        "http://127.0.0.1:8783/favicon.ico",
+        "http://127.0.0.1:8783/assets/favicon.svg",
+        "http://127.0.0.1:8783/styles.css",
+        "http://127.0.0.1:8783/assets/logo.svg"
+      ],
+      "overflow": false,
+      "recoveryNavigationPassed": true
+    },
+    {
+      "width": 1440,
+      "article": "google-budget-pacing.html",
+      "label": "搜索广告的竞价与排名机制",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "article": "performance-max-basics.html",
+      "label": "搜索广告的竞价与广告评级",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "article": "search-terms-optimization.html",
+      "label": "谷歌广告排名与 Ad Rank 指南",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "article": "seo-content-cluster.html",
+      "label": "广告排名与 Ad Rank 指南",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "article": "google-budget-pacing.html",
+      "label": "搜索广告的竞价与排名机制",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "article": "performance-max-basics.html",
+      "label": "搜索广告的竞价与广告评级",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "article": "search-terms-optimization.html",
+      "label": "谷歌广告排名与 Ad Rank 指南",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "article": "seo-content-cluster.html",
+      "label": "广告排名与 Ad Rank 指南",
+      "destinationHeadlinePassed": true,
+      "noOverflow": true
+    }
+  ]
+}

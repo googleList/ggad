@@ -1,0 +1,29 @@
+{
+  "source": "Fresh headless browser and HTTP probes against public shumaojs.com before this repair; no authenticated state used",
+  "recordedAt": "2026-10-24T16:19:13Z",
+  "publisherDate": "2026-10-25",
+  "productionCheckpoint": "7b0186cbe18edd1f1a266aa539f628fc3167b02f",
+  "requestedMissingUrl": "https://shumaojs.com/seo-recovery-check/missing.html",
+  "mainResponseStatus": 404,
+  "headline": "这个页面已经下线",
+  "resolvedStylesheet": "https://shumaojs.com/seo-recovery-check/styles.css",
+  "stylesheetProbeStatus": 404,
+  "resolvedLogo": "https://shumaojs.com/seo-recovery-check/assets/logo.svg",
+  "logoLoaded": false,
+  "logoProbeStatus": 404,
+  "resolvedHomeRecovery": "https://shumaojs.com/seo-recovery-check/index.html",
+  "homeRecoveryProbeStatus": 404,
+  "semanticLinkAudit": {
+    "target": "https://shumaojs.com/articles/google-search-ads-guide.html",
+    "actualH1": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+    "outdatedSourceLabels": [
+      {"source": "404.html", "label": "Google 搜索广告完整指南"},
+      {"source": "articles/google-budget-pacing.html", "label": "搜索广告"},
+      {"source": "articles/performance-max-basics.html", "label": "搜索广告"},
+      {"source": "articles/search-terms-optimization.html", "label": "搜索广告搭建指南"},
+      {"source": "articles/seo-content-cluster.html", "label": "搜索广告指南"}
+    ],
+    "additionalDefect": "PMax introduction promised to know how every query spends; Google search-term privacy omissions mean complete query reconstruction is not guaranteed."
+  },
+  "note": "Deliberately missing probe URL remains404 after repair. The fix restores native recovery/resources, not retired products or an automatic homepage redirect. No private analytics or account profile data retained."
+}

@@ -49,7 +49,12 @@
       "targetUrl": "https://shumaojs.com/articles/google-search-ads-guide.html",
       "primaryKeywords": ["谷歌排名", "谷歌广告排名"],
       "supportingKeywords": ["Google Ads 广告位置", "广告评级 Ad Rank", "谷歌广告首页展示"],
-      "contentActions": ["说明付费广告位置和自然搜索排名的差异", "使用顶部展示率等官方指标解释广告位置", "不承诺首页或第一名，并链接 Google 官方说明"]
+      "contentActions": ["说明付费广告位置和自然搜索排名的差异", "使用顶部展示率等官方指标解释广告位置", "已纠正5处仍称搭建或完整搜索指南的旧入口，使锚文本对应既有Ad Rank文章；不改原标题、网址或刷日期", "不承诺首页或第一名，并链接 Google 官方说明"],
+      "linkIntentReview": {
+        "reviewedAt": "2026-10-25",
+        "evidence": "reports/recovery-links/2026-10-25/audit.md",
+        "scope": "Five contextual labels and nested404 recovery; not new keyword volume, a new article or a measured ranking improvement"
+      }
     },
     {
       "cluster": "谷歌广告综合指南",

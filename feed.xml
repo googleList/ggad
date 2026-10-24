@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 24 Oct 2026 08:33:43 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 08:52:44 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>广告转化追踪基础教程</title>
+      <link>https://shumaojs.com/articles/conversion-tracking-basics.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/conversion-tracking-basics.html</guid>
+      <description>谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Measurement</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>外贸独立站投放前落地页检查清单</title>
       <link>https://shumaojs.com/articles/landing-page-checklist.html</link>
@@ -401,15 +410,6 @@
       <description>Google Ads 与 Meta Ads 对比指南，说明搜索意图、素材要求、预算节奏、转化路径和适合行业，帮助企业选择广告投放渠道。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>SEM</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>广告转化追踪基础教程</title>
-      <link>https://shumaojs.com/articles/conversion-tracking-basics.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/conversion-tracking-basics.html</guid>
-      <description>广告转化追踪基础教程，介绍表单、聊天按钮、电话、关键页面浏览和转化数据复盘方法。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Measurement</category>
       <dc:language>zh-CN</dc:language>
     </item>
   </channel>

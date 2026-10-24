@@ -1,0 +1,391 @@
+{
+  "checkedAt": "2026-10-24T08:57:42.161Z",
+  "base": "http://127.0.0.1:8780/",
+  "results": [
+    {
+      "width": 1440,
+      "headline": "广告转化追踪基础教程",
+      "schemaHeadline": "广告转化追踪基础教程",
+      "canonical": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T16:52:44+08:00",
+      "visibleModified": "2026-10-24T16:52:44+08:00",
+      "description": "谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。",
+      "schemaDescription": "谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。",
+      "cover": {
+        "src": "http://127.0.0.1:8780/assets/articles/conversion-evidence-plan-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "eventRows": [
+        {
+          "event": "page_view",
+          "text": "page_view页面浏览，含义由 GA4 的采集规则决定。观察访问，不能仅凭看过报价页认定产生询盘。"
+        },
+        {
+          "event": "chat_click",
+          "text": "chat_click（自定义）点击指定聊天入口，需要自行定义并验证触发规则。观察联系意向，不证明消息发送、回复或线索有效。"
+        },
+        {
+          "event": "phone_click",
+          "text": "phone_click（自定义）点击电话链接，不是通话记录。观察拨号动作；实际接通、时长或合格电话需要其他证据。"
+        },
+        {
+          "event": "form_submit",
+          "text": "form_submitGA4 增强型衡量的表单提交互动事件。验证它与真实接口成功、后台记录是否一致，不能只凭事件名认定送达。"
+        },
+        {
+          "event": "generate_lead",
+          "text": "generate_leadGA4 推荐的线索产生事件；按约定在真实询盘成功产生时记录。可作为候选业务结果，但不自动等于合格线索，也不会凭改名自动完成采集。"
+        },
+        {
+          "event": "qualify_lead",
+          "text": "qualify_leadGA4 推荐的线索合格阶段，需业务人员或系统按条件确认。只有具备可靠确认与回传能力时才实施，不凭前端点击推断质量。"
+        }
+      ],
+      "goalCases": [
+        {
+          "goal": "standard-primary",
+          "text": "标准目标中的主要动作通常进入“转化次数”列；相应标准目标用于该系列出价时，才作为该目标的出价信号。动作是否代表真实业务结果，该系列是否使用此目标。"
+        },
+        {
+          "goal": "standard-secondary",
+          "text": "标准目标中的次要动作通常在“所有转化次数”中观察，不用于该标准目标的出价。不要把所有转化总数当成有效询盘，也不把观察行为和业务结果等价相加。"
+        },
+        {
+          "goal": "custom",
+          "text": "被加入自定义目标的动作即使标为次要，也会在使用该自定义目标时参与报告和出价。自定义目标是否意外包含聊天点击、页面浏览或重复来源。"
+        }
+      ],
+      "implementationChecks": 4,
+      "validationSteps": 5,
+      "reconciliationSteps": 3,
+      "faqCount": 3,
+      "anchors": [
+        "#event-plan",
+        "#conversion-goals",
+        "#implementation",
+        "#validation",
+        "#reconciliation",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-mek97y",
+        "event-plan",
+        "conversion-goals",
+        "implementation",
+        "validation",
+        "reconciliation",
+        "questions"
+      ],
+      "educationalBoundary": true,
+      "localLinks": [
+        "/articles/landing-page-checklist.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/sem-landing-tracking.html",
+        "/google-ads.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true,
+      "listingPage": 5
+    },
+    {
+      "width": 768,
+      "headline": "广告转化追踪基础教程",
+      "schemaHeadline": "广告转化追踪基础教程",
+      "canonical": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T16:52:44+08:00",
+      "visibleModified": "2026-10-24T16:52:44+08:00",
+      "description": "谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。",
+      "schemaDescription": "谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。",
+      "cover": {
+        "src": "http://127.0.0.1:8780/assets/articles/conversion-evidence-plan-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "eventRows": [
+        {
+          "event": "page_view",
+          "text": "page_view页面浏览，含义由 GA4 的采集规则决定。观察访问，不能仅凭看过报价页认定产生询盘。"
+        },
+        {
+          "event": "chat_click",
+          "text": "chat_click（自定义）点击指定聊天入口，需要自行定义并验证触发规则。观察联系意向，不证明消息发送、回复或线索有效。"
+        },
+        {
+          "event": "phone_click",
+          "text": "phone_click（自定义）点击电话链接，不是通话记录。观察拨号动作；实际接通、时长或合格电话需要其他证据。"
+        },
+        {
+          "event": "form_submit",
+          "text": "form_submitGA4 增强型衡量的表单提交互动事件。验证它与真实接口成功、后台记录是否一致，不能只凭事件名认定送达。"
+        },
+        {
+          "event": "generate_lead",
+          "text": "generate_leadGA4 推荐的线索产生事件；按约定在真实询盘成功产生时记录。可作为候选业务结果，但不自动等于合格线索，也不会凭改名自动完成采集。"
+        },
+        {
+          "event": "qualify_lead",
+          "text": "qualify_leadGA4 推荐的线索合格阶段，需业务人员或系统按条件确认。只有具备可靠确认与回传能力时才实施，不凭前端点击推断质量。"
+        }
+      ],
+      "goalCases": [
+        {
+          "goal": "standard-primary",
+          "text": "标准目标中的主要动作通常进入“转化次数”列；相应标准目标用于该系列出价时，才作为该目标的出价信号。动作是否代表真实业务结果，该系列是否使用此目标。"
+        },
+        {
+          "goal": "standard-secondary",
+          "text": "标准目标中的次要动作通常在“所有转化次数”中观察，不用于该标准目标的出价。不要把所有转化总数当成有效询盘，也不把观察行为和业务结果等价相加。"
+        },
+        {
+          "goal": "custom",
+          "text": "被加入自定义目标的动作即使标为次要，也会在使用该自定义目标时参与报告和出价。自定义目标是否意外包含聊天点击、页面浏览或重复来源。"
+        }
+      ],
+      "implementationChecks": 4,
+      "validationSteps": 5,
+      "reconciliationSteps": 3,
+      "faqCount": 3,
+      "anchors": [
+        "#event-plan",
+        "#conversion-goals",
+        "#implementation",
+        "#validation",
+        "#reconciliation",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-ktrg3r",
+        "event-plan",
+        "conversion-goals",
+        "implementation",
+        "validation",
+        "reconciliation",
+        "questions"
+      ],
+      "educationalBoundary": true,
+      "localLinks": [
+        "/articles/landing-page-checklist.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/sem-landing-tracking.html",
+        "/google-ads.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true,
+      "listingPage": 5
+    },
+    {
+      "width": 390,
+      "headline": "广告转化追踪基础教程",
+      "schemaHeadline": "广告转化追踪基础教程",
+      "canonical": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T16:52:44+08:00",
+      "visibleModified": "2026-10-24T16:52:44+08:00",
+      "description": "谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。",
+      "schemaDescription": "谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。",
+      "cover": {
+        "src": "http://127.0.0.1:8780/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "eventRows": [
+        {
+          "event": "page_view",
+          "text": "page_view页面浏览，含义由 GA4 的采集规则决定。观察访问，不能仅凭看过报价页认定产生询盘。"
+        },
+        {
+          "event": "chat_click",
+          "text": "chat_click（自定义）点击指定聊天入口，需要自行定义并验证触发规则。观察联系意向，不证明消息发送、回复或线索有效。"
+        },
+        {
+          "event": "phone_click",
+          "text": "phone_click（自定义）点击电话链接，不是通话记录。观察拨号动作；实际接通、时长或合格电话需要其他证据。"
+        },
+        {
+          "event": "form_submit",
+          "text": "form_submitGA4 增强型衡量的表单提交互动事件。验证它与真实接口成功、后台记录是否一致，不能只凭事件名认定送达。"
+        },
+        {
+          "event": "generate_lead",
+          "text": "generate_leadGA4 推荐的线索产生事件；按约定在真实询盘成功产生时记录。可作为候选业务结果，但不自动等于合格线索，也不会凭改名自动完成采集。"
+        },
+        {
+          "event": "qualify_lead",
+          "text": "qualify_leadGA4 推荐的线索合格阶段，需业务人员或系统按条件确认。只有具备可靠确认与回传能力时才实施，不凭前端点击推断质量。"
+        }
+      ],
+      "goalCases": [
+        {
+          "goal": "standard-primary",
+          "text": "标准目标中的主要动作通常进入“转化次数”列；相应标准目标用于该系列出价时，才作为该目标的出价信号。动作是否代表真实业务结果，该系列是否使用此目标。"
+        },
+        {
+          "goal": "standard-secondary",
+          "text": "标准目标中的次要动作通常在“所有转化次数”中观察，不用于该标准目标的出价。不要把所有转化总数当成有效询盘，也不把观察行为和业务结果等价相加。"
+        },
+        {
+          "goal": "custom",
+          "text": "被加入自定义目标的动作即使标为次要，也会在使用该自定义目标时参与报告和出价。自定义目标是否意外包含聊天点击、页面浏览或重复来源。"
+        }
+      ],
+      "implementationChecks": 4,
+      "validationSteps": 5,
+      "reconciliationSteps": 3,
+      "faqCount": 3,
+      "anchors": [
+        "#event-plan",
+        "#conversion-goals",
+        "#implementation",
+        "#validation",
+        "#reconciliation",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-22n7cm",
+        "event-plan",
+        "conversion-goals",
+        "implementation",
+        "validation",
+        "reconciliation",
+        "questions"
+      ],
+      "educationalBoundary": true,
+      "localLinks": [
+        "/articles/landing-page-checklist.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/sem-landing-tracking.html",
+        "/google-ads.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true,
+      "listingPage": 5
+    },
+    {
+      "width": 320,
+      "headline": "广告转化追踪基础教程",
+      "schemaHeadline": "广告转化追踪基础教程",
+      "canonical": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-24T16:52:44+08:00",
+      "visibleModified": "2026-10-24T16:52:44+08:00",
+      "description": "谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。",
+      "schemaDescription": "谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。",
+      "cover": {
+        "src": "http://127.0.0.1:8780/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "eventRows": [
+        {
+          "event": "page_view",
+          "text": "page_view页面浏览，含义由 GA4 的采集规则决定。观察访问，不能仅凭看过报价页认定产生询盘。"
+        },
+        {
+          "event": "chat_click",
+          "text": "chat_click（自定义）点击指定聊天入口，需要自行定义并验证触发规则。观察联系意向，不证明消息发送、回复或线索有效。"
+        },
+        {
+          "event": "phone_click",
+          "text": "phone_click（自定义）点击电话链接，不是通话记录。观察拨号动作；实际接通、时长或合格电话需要其他证据。"
+        },
+        {
+          "event": "form_submit",
+          "text": "form_submitGA4 增强型衡量的表单提交互动事件。验证它与真实接口成功、后台记录是否一致，不能只凭事件名认定送达。"
+        },
+        {
+          "event": "generate_lead",
+          "text": "generate_leadGA4 推荐的线索产生事件；按约定在真实询盘成功产生时记录。可作为候选业务结果，但不自动等于合格线索，也不会凭改名自动完成采集。"
+        },
+        {
+          "event": "qualify_lead",
+          "text": "qualify_leadGA4 推荐的线索合格阶段，需业务人员或系统按条件确认。只有具备可靠确认与回传能力时才实施，不凭前端点击推断质量。"
+        }
+      ],
+      "goalCases": [
+        {
+          "goal": "standard-primary",
+          "text": "标准目标中的主要动作通常进入“转化次数”列；相应标准目标用于该系列出价时，才作为该目标的出价信号。动作是否代表真实业务结果，该系列是否使用此目标。"
+        },
+        {
+          "goal": "standard-secondary",
+          "text": "标准目标中的次要动作通常在“所有转化次数”中观察，不用于该标准目标的出价。不要把所有转化总数当成有效询盘，也不把观察行为和业务结果等价相加。"
+        },
+        {
+          "goal": "custom",
+          "text": "被加入自定义目标的动作即使标为次要，也会在使用该自定义目标时参与报告和出价。自定义目标是否意外包含聊天点击、页面浏览或重复来源。"
+        }
+      ],
+      "implementationChecks": 4,
+      "validationSteps": 5,
+      "reconciliationSteps": 3,
+      "faqCount": 3,
+      "anchors": [
+        "#event-plan",
+        "#conversion-goals",
+        "#implementation",
+        "#validation",
+        "#reconciliation",
+        "#questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-dbw3h8",
+        "event-plan",
+        "conversion-goals",
+        "implementation",
+        "validation",
+        "reconciliation",
+        "questions"
+      ],
+      "educationalBoundary": true,
+      "localLinks": [
+        "/articles/landing-page-checklist.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/sem-landing-tracking.html",
+        "/google-ads.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "anchorsPassed": true,
+      "listingPassed": true,
+      "listingPage": 5
+    }
+  ],
+  "pageErrors": []
+}

@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>广告转化追踪基础教程 | 昆明振润达商贸有限公司</title>
-  <meta name="description" content="广告转化追踪基础教程，介绍表单、聊天按钮、电话、关键页面浏览和转化数据复盘方法。">
+  <meta name="description" content="谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://shumaojs.com/articles/conversion-tracking-basics.html">
   <meta property="og:title" content="广告转化追踪基础教程 | 昆明振润达商贸有限公司">
-  <meta property="og:description" content="广告转化追踪基础教程，介绍表单、聊天按钮、电话、关键页面浏览和转化数据复盘方法。">
+  <meta property="og:description" content="谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://shumaojs.com/articles/conversion-tracking-basics.html">
-  <meta property="og:image" content="https://shumaojs.com/assets/og-cover.png">
+  <meta property="og:image" content="https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="广告转化追踪基础教程 | 昆明振润达商贸有限公司">
-  <meta name="twitter:description" content="广告转化追踪基础教程，介绍表单、聊天按钮、电话、关键页面浏览和转化数据复盘方法。">
-  <meta name="twitter:image" content="https://shumaojs.com/assets/og-cover.png">
+  <meta name="twitter:description" content="谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。">
+  <meta name="twitter:image" content="https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg">
   <meta name="theme-color" content="#2f5fa7">
   <link rel="icon" href="../favicon.ico" sizes="any">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
@@ -28,12 +28,12 @@
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "广告转化追踪基础教程",
-  "description": "广告转化追踪基础教程，介绍表单、聊天按钮、电话、关键页面浏览和转化数据复盘方法。",
-  "image": "https://shumaojs.com/assets/og-cover.png",
+  "description": "谷歌广告转化追踪如何规划？用六行事件表区分点击、成功询盘与合格线索，核对主要和次要转化、GA4 导入、重复计数与上线验收。",
+  "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
   "inLanguage": "zh-CN",
   "articleSection": "Measurement",
   "datePublished": "2026-09-11",
-  "dateModified": "2026-09-14",
+  "dateModified": "2026-10-24T16:52:44+08:00",
   "mainEntityOfPage": "https://shumaojs.com/articles/conversion-tracking-basics.html",
   "author": {
     "@type": "Organization",
@@ -108,52 +108,81 @@
   <main class="legal-content article-detail">
     <p class="label">Measurement</p>
     <h1>广告转化追踪基础教程</h1>
-    <p class="legal-updated">只看点击和展示，很难判断广告是否带来真实业务机会。转化追踪的目标是记录用户完成了哪些关键动作，并把广告数据和实际线索质量联系起来。</p>
-    <section>
-      <h2>哪些动作值得追踪</h2>
-      <ul>
-        <li>表单提交、询价提交和预约提交。</li>
-        <li>点击电话、聊天工具或外部联系按钮。</li>
-        <li>访问报价页、感谢页、下载页或重要产品页。</li>
-        <li>电商加入购物车、发起结账和完成购买。</li>
+    <p class="legal-updated">谷歌广告转化追踪应先回答“记录了什么结果、是否真的发生、是否用于出价”，再选择代码和工具。电话或聊天按钮被点击，不等于收到咨询；表单看起来提交了，也不一定已经送达。</p>
+    <p class="article-meta">首次发布：2026-09-11<br>最近更新：<time datetime="2026-10-24T16:52:44+08:00">2026-10-24</time></p>
+    <picture><source media="(max-width: 600px)" srcset="../assets/articles/conversion-evidence-plan-thumb-v1.webp"><img class="article-cover" src="../assets/articles/conversion-evidence-plan-v1.jpg" width="1200" height="675" alt="三类空白记录与放大镜的原创追踪核对概念图，不是真实广告数据或客户结果" decoding="async"></picture>
+    <p>本文以询盘型业务说明事件定义、Google Ads 目标和 GA4 对照，不是已部署的追踪方案。实际设置需要核对正确的媒体资源、广告账户、授权和数据处理条件，不能把示例事件名称直接视为本站或客户账户已产生的数据。</p>
+    <nav aria-label="文章目录"><ol><li><a href="#event-plan">六行事件规划表</a></li><li><a href="#conversion-goals">主要和次要转化</a></li><li><a href="#implementation">选择实施与导入路径</a></li><li><a href="#validation">五步上线验收</a></li><li><a href="#reconciliation">重复计数和报告差异</a></li><li><a href="#questions">常见问题与下一步</a></li></ol></nav>
+    <section id="event-plan">
+      <h2>先写事件规划表，再安装代码</h2>
+      <p>每个事件写清业务定义、触发依据、数据来源、负责人和测试方法。下面是教学规划，不是推荐把所有事件都设为主要转化；“观察”也不代表必须将它导入广告账户。</p>
+      <div class="article-table-wrap" tabindex="0" role="region" aria-label="六行询盘事件规划示例">
+        <table class="article-table"><thead><tr><th scope="col">事件示例</th><th scope="col">实际含义与触发依据</th><th scope="col">用途与边界</th></tr></thead><tbody>
+          <tr data-event-row="page_view"><th scope="row"><code>page_view</code></th><td>页面浏览，含义由 GA4 的采集规则决定。</td><td>观察访问，不能仅凭看过报价页认定产生询盘。</td></tr>
+          <tr data-event-row="chat_click"><th scope="row"><code>chat_click</code>（自定义）</th><td>点击指定聊天入口，需要自行定义并验证触发规则。</td><td>观察联系意向，不证明消息发送、回复或线索有效。</td></tr>
+          <tr data-event-row="phone_click"><th scope="row"><code>phone_click</code>（自定义）</th><td>点击电话链接，不是通话记录。</td><td>观察拨号动作；实际接通、时长或合格电话需要其他证据。</td></tr>
+          <tr data-event-row="form_submit"><th scope="row"><code>form_submit</code></th><td>GA4 增强型衡量的表单提交互动事件。</td><td>验证它与真实接口成功、后台记录是否一致，不能只凭事件名认定送达。</td></tr>
+          <tr data-event-row="generate_lead"><th scope="row"><code>generate_lead</code></th><td>GA4 推荐的线索产生事件；按约定在真实询盘成功产生时记录。</td><td>可作为候选业务结果，但不自动等于合格线索，也不会凭改名自动完成采集。</td></tr>
+          <tr data-event-row="qualify_lead"><th scope="row"><code>qualify_lead</code></th><td>GA4 推荐的线索合格阶段，需业务人员或系统按条件确认。</td><td>只有具备可靠确认与回传能力时才实施，不凭前端点击推断质量。</td></tr>
+        </tbody></table>
+      </div>
+      <p>名称与规则分别核对<a href="https://support.google.com/analytics/answer/9216061?hl=zh-Hans" target="_blank" rel="noopener noreferrer">增强型衡量事件</a>及<a href="https://developers.google.com/analytics/devguides/collection/ga4/reference/events?hl=en#generate_lead" target="_blank" rel="noopener noreferrer" lang="en">GA4 推荐事件（英文）</a>。已有自定义事件并不一定需要全部改名；先保留历史映射和验证方案，避免无计划地中断可比数据。</p>
+      <p>来电尤其要分清“点击”和“通话”。Google 的<a href="https://support.google.com/google-ads/answer/6100664?hl=zh-Hans" target="_blank" rel="noopener noreferrer">来电追踪说明</a>指出，移动网站电话点击跟踪不能衡量来电本身。转接号码、来电统计及导入方式有适用条件，先核对地区和账户是否支持，不默认美国与香港功能相同。</p>
+    </section>
+    <section id="conversion-goals">
+      <h2>主要/次要转化，还要检查广告系列目标</h2>
+      <p>在 Google Ads 中，动作的主要/次要设置影响报告和出价，但不是只看一个开关。应同时核对转化动作所属目标、广告系列采用的目标，以及是否使用自定义目标。</p>
+      <div class="article-table-wrap" tabindex="0" role="region" aria-label="转化动作与广告系列目标核对">
+        <table class="article-table"><thead><tr><th scope="col">设置情境</th><th scope="col">应怎样理解</th><th scope="col">检查重点</th></tr></thead><tbody>
+          <tr data-goal-case="standard-primary"><th scope="row">标准目标中的主要动作</th><td>通常进入“转化次数”列；相应标准目标用于该系列出价时，才作为该目标的出价信号。</td><td>动作是否代表真实业务结果，该系列是否使用此目标。</td></tr>
+          <tr data-goal-case="standard-secondary"><th scope="row">标准目标中的次要动作</th><td>通常在“所有转化次数”中观察，不用于该标准目标的出价。</td><td>不要把所有转化总数当成有效询盘，也不把观察行为和业务结果等价相加。</td></tr>
+          <tr data-goal-case="custom"><th scope="row">被加入自定义目标的动作</th><td>即使标为次要，也会在使用该自定义目标时参与报告和出价。</td><td>自定义目标是否意外包含聊天点击、页面浏览或重复来源。</td></tr>
+        </tbody></table>
+      </div>
+      <p>设置行为以<a href="https://support.google.com/google-ads/answer/11461796?hl=en" target="_blank" rel="noopener noreferrer" lang="en">Google 主要与次要转化说明（英文）</a>为准。不要为了补足转化数量就把所有动作提升为主要；变更前记录当前设置、业务理由和验证结果，再与实际出价目标一起评估。</p>
+    </section>
+    <section id="implementation">
+      <h2>直接 Google Ads 代码，还是从 GA4 导入？</h2>
+      <p>两种路径都需要正确的事件定义与授权。直接设置 Google Ads 转化和从 GA4 事件创建或导入转化，不是把代码复制两次。选择取决于现有工具、负责人员、实施条件和需要的衡量能力；GTM 是可选的代码管理工具，不是判断追踪成功的证明。</p>
+      <ul data-implementation-checks>
+        <li><strong>先确认目的地：</strong>公开域名、正确 GA4 媒体资源与数据流、Google Ads 账户、代码/容器及负责人，不能用无关项目或示例编号替代。</li>
+        <li><strong>再确认采集依据：</strong>无感谢页的 AJAX 表单，应按接口成功与后台记录设计成功事件，不能退回到“点击提交按钮就算成功”。感谢页也要检查直接访问和刷新是否造成误记。</li>
+        <li><strong>记录路径映射：</strong>同一个真实询盘若有直接代码和 GA4 来源，说明哪个用于优化、哪个仅用于对照，避免把同一结果当作两个成果。</li>
+        <li><strong>保留数据边界：</strong>只传必要、获准的数据，不能把姓名、邮箱、电话等个人资料塞进普通事件参数或网址。增强型转化等专门功能需另行核对政策与实施条件。</li>
       </ul>
-      <p>不是所有动作都应该当成主要转化。比如浏览产品页可以说明用户有兴趣，但它和提交询盘的价值不同。广告账户需要区分“观察行为”和“业务结果”，否则系统可能会把低价值访问当成优化目标。</p>
+      <p>可对照<a href="https://support.google.com/google-ads/answer/16560108?hl=zh-Hans" target="_blank" rel="noopener noreferrer">网站转化设置</a>检查具体方式。GA4 中的事件或关键事件，不等于相关 Google Ads 广告系列已经将它用于出价；关联、创建/导入和目标设置需要逐项确认。</p>
     </section>
-    <section>
-      <h2>先定义主要转化</h2>
-      <p>每个账户都应该区分主要转化和观察指标。主要转化用于评估广告是否达到业务目标，观察指标用于辅助理解用户行为，避免把所有点击都当成同等价值。</p>
-      <p>B2B 和外贸项目通常把表单提交、电话点击、聊天发起、邮件咨询或报价请求作为主要转化。产品页浏览、停留时长、下载资料、滚动深度等可以作为辅助指标，用来判断落地页是否吸引用户继续了解。</p>
+    <section id="validation">
+      <h2>上线验收：从操作到接收记录逐项对应</h2>
+      <ol data-validation-step>
+        <li><strong>保存基线：</strong>记录网址、资源/账户、事件、当前目标、计数方式和测试时间，由负责人确认测试环境及资料。</li>
+        <li><strong>复走真实路径：</strong>用获准的非敏感测试资料完成操作，同时覆盖失败和重复情况。页面与表单验收可用<a href="landing-page-checklist.html">落地页上线前检查清单</a>，不重复把按钮动作当成功结果。</li>
+        <li><strong>检查发送与接收：</strong>使用适当的 Tag Assistant/预览、事件调试和接收端记录核对触发次数、资源及参数。不要只凭“页面有代码”就验收。</li>
+        <li><strong>核对平台处理：</strong>检查诊断与后续报告，不要求调试动作立刻显示在正式广告转化报表；记录处理延迟、同意条件、浏览器限制与可见性缺口。</li>
+        <li><strong>由业务确认：</strong>销售检查真实询盘及合格条件，保存脱敏验收结论；版本、表单或目标改动后按影响重新验证，并妥善识别测试数据。</li>
+      </ol>
+      <p><a href="https://support.google.com/analytics/answer/7201382?hl=zh-Hans" target="_blank" rel="noopener noreferrer">GA4 DebugView</a>需要调试模式，隐私控制或同意设置可能影响可见性。看见调试事件不代表它已成为广告归因转化；看不见时也应先查资源、条件和限制，不绕过用户选择强制采集。</p>
     </section>
-    <section>
-      <h2>安装后要验证</h2>
-      <p>追踪代码上线后，要用测试提交、浏览器调试工具和广告平台诊断功能确认事件是否触发。很多数据问题不是策略问题，而是追踪事件没有正确记录。</p>
-      <p>测试时不要只看页面有没有代码，还要确认事件名称、触发条件、感谢页或按钮点击是否正确。表单提交后如果没有跳转感谢页，就需要用按钮事件、提交成功提示或后端回传等方式记录结果。</p>
+    <section id="reconciliation">
+      <h2>重复计数和平台数字不一致怎么排查？</h2>
+      <ol data-reconciliation-step>
+        <li><strong>检查重复触发：</strong>同一代码是否被主题、插件和 GTM 重复安装，自动表单事件与自定义成功事件是否被同时当作同一个业务结果。</li>
+        <li><strong>检查重复来源：</strong>直接 Google Ads 转化和 GA4 来源是否都进入优化目标；同一个真实询盘的多个阶段是否被错误合并为“新增客户”。</li>
+        <li><strong>对齐报告条件：</strong>核对日期、时区、事件定义、计数、归因窗口和模型、报告列及处理延迟，再与脱敏业务记录比较。平台数字不能直接相加当成独立客户总数。</li>
+      </ol>
+      <p><a href="https://support.google.com/google-ads/answer/3438531?hl=zh-Hans" target="_blank" rel="noopener noreferrer">“一次/每次”统计</a>按转化动作和广告互动计算，不是跨平台、跨动作、跨客户的万能去重。把两个来源都设为“一次”，也不保证同一个业务结果不会在两个动作中分别被记录。</p>
+      <p>原始询盘与合格线索属于不同阶段，不应无条件相加成“总有效询盘”。费用复盘见<a href="google-search-ads-cost-guide.html">有效询盘成本指南</a>；搜索意图与页面对应见<a href="google-search-keywords.html">关键词分组教程</a>。先确认测量可靠，再评估预算和优化，不因某一天的数量变化同时改动所有环节。</p>
     </section>
-    <section>
-      <h2>不同平台如何配合</h2>
-      <p>Google Ads、GA4、Google Tag Manager、Meta Pixel 和其他广告平台的追踪逻辑不同，但核心目标一致：把用户行为转成可复盘的数据。建议用 GTM 管理常见事件，用 GA4 做行为分析，再把关键转化回传给广告平台。</p>
-      <p>如果多个平台同时投放，转化命名要统一。例如表单提交统一叫 lead_submit，聊天点击统一叫 chat_click，电话点击统一叫 phone_click。命名混乱会让报表难以合并，也会影响后续判断哪个渠道带来的线索质量更好。</p>
-    </section>
-    <section>
-      <h2>复盘时看质量</h2>
-      <p>转化数量只是第一层，更重要的是线索是否有效、来源关键词是否准确、地区是否符合目标、销售是否能继续跟进。广告数据需要和业务反馈一起看。</p>
-      <p>建议每周把广告数据和业务反馈对齐一次：哪些关键词带来有效询盘，哪些地区询盘质量差，哪些素材点击高但咨询少，哪些页面访问多但转化低。这样预算调整才不是凭感觉。</p>
-    </section>
-    <section>
-      <h2>上线前检查清单</h2>
-      <ul>
-        <li>已经定义主要转化和辅助观察指标。</li>
-        <li>表单、聊天、电话、购买或报价请求都有明确触发条件。</li>
-        <li>测试提交后，广告平台和分析工具都能看到事件。</li>
-        <li>事件名称统一，方便跨平台汇总。</li>
-        <li>隐私政策中说明了用户数据和追踪工具的使用方式。</li>
-        <li>销售或客服能记录线索质量，后续可以反向优化关键词和页面。</li>
-      </ul>
-    </section>
-    <section>
-      <h2>相关页面</h2>
-      <p>转化追踪需要和落地页、关键词结构、平台账户信息一起规划。你可以继续阅读 <a href="sem-landing-tracking.html">SEM 落地页与追踪配合方法</a>、<a href="landing-page-checklist.html">外贸独立站投放前落地页检查清单</a>、<a href="google-search-keywords.html">Google 搜索广告关键词怎么分组</a>，或查看 <a href="../managed-ads.html">多平台广告管理与投放咨询</a>。</p>
-      <div class="legal-actions"><a class="button button-primary" href="https://t.me/qichuanggg" target="_blank" rel="noopener">咨询追踪方案</a><a class="button button-secondary" href="../articles.html">返回文章列表</a></div>
+    <section id="questions">
+      <h2>常见问题与下一步</h2>
+      <h3>没有 CRM，就完全不能衡量询盘吗？</h3>
+      <p>不是。可以先可靠记录真实成功提交，并用受控的业务记录核对咨询质量。只是缺少确认数据时，不能声称已实施合格线索回传或知道每个点击的成交结果。</p>
+      <h3>把事件统一命名，平台报表就会一致吗？</h3>
+      <p>不会。名称便于映射，但触发、计数、归因和接收能力仍可能不同。跨平台保留共同业务定义与各自事件映射，不强迫所有平台使用同一个自定义名字。</p>
+      <h3>为什么调试有事件，广告报表却没有转化？</h3>
+      <p>先检查是否进入正确资源、是否完成相关设置与关联、目标是否适用于该广告系列，再核对广告互动与归因条件、报告日期和处理延迟。调试可见只证明测试中的采集，不足以证明它是可归因的广告转化。</p>
+      <p>美国与香港项目可继续看<a href="google-ads-conversion-tracking-usa.html" lang="en-US">US conversion-tracking guide（英文）</a>与<a href="google-ads-conversion-tracking-hong-kong.html" lang="zh-Hant-HK">香港轉換追蹤指南（繁體）</a>；完整投放路径见<a href="sem-landing-tracking.html">SEM 页面与追踪配合</a>。如需协助，先确认<a href="../google-ads.html#service-scope">专项检查和代投范围</a>、实施责任及费用，不默认开发或回传已包含。</p>
+      <div class="legal-actions"><a class="button button-primary" href="https://t.me/qichuanggg" target="_blank" rel="noopener noreferrer">咨询追踪方案</a><a class="button button-secondary" href="../articles.html">返回文章列表</a></div>
     </section>
   </main>
   <footer class="site-footer"><div><strong>昆明振润达商贸有限公司</strong><p>独立广告咨询机构，提供多平台广告代投咨询服务。非广告平台官方机构，不销售广告账户，不代持广告账户，遵守平台审核规则。</p></div></footer>

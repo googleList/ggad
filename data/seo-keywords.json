@@ -225,6 +225,25 @@
       "contentActions": ["保留既有标题和网址，以八项可复测验收、四种表单情境取代泛化检查建议", "分别记录按钮动作、真实询盘和有效线索，区分部署测试、广告审核与真实用户体验", "原创封面和缩略图，服务页建立语义内链；保留美国英语和香港繁体内容，不编造案例或过审保证"]
     },
     {
+      "cluster": "谷歌广告转化追踪与询盘测量",
+      "language": "zh-Hans",
+      "intent": "informational-commercial",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+      "primaryKeywords": ["谷歌广告转化追踪", "Google Ads 转化跟踪"],
+      "supportingKeywords": ["主要转化和次要转化", "GA4 导入 Google Ads", "表单重复计数", "谷歌广告询盘追踪"],
+      "evidence": {
+        "reviewedAt": "2026-10-24",
+        "method": "Public Simplified results for 谷歌广告 转化追踪 设置 表单 询盘 and primary Google goal/event/call/count/debug documentation validate setup and diagnostic intent only. Existing guide generalized phone/chat clicks as primary conversions and suggested a submit-button event as a success fallback without a thank-you page, contradicting the revised landing checklist. This verified editorial defect drives priority, not an assumed volume or new GSC period.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "sources": ["https://support.google.com/google-ads/answer/11461796?hl=en", "https://support.google.com/analytics/answer/9216061?hl=zh-Hans", "https://developers.google.com/analytics/devguides/collection/ga4/reference/events?hl=en#generate_lead", "https://support.google.com/google-ads/answer/6100664?hl=zh-Hans", "https://support.google.com/google-ads/answer/3438531?hl=zh-Hans", "https://support.google.com/analytics/answer/7201382?hl=zh-Hans"],
+        "editorialBrief": "reports/editorial/2026-10-24-tracking-guide/brief.md",
+        "humanReviewStatus": "pending; no inherited service-scope or keyword-tutorial acceptance"
+      },
+      "contentActions": ["保留原网址、标题和首次发布日期，修正按钮动作与真实询盘口径", "六行事件规划与三种目标情境，解释自定义目标例外、重复来源及调试与归因差异", "原创封面与缩略图，保留地区指南及相关清单；不虚构账户配置、真实采集或排名增长"]
+    },
+    {
       "cluster": "SEO 与 GEO",
       "intent": "informational",
       "priority": "medium",

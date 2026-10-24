@@ -171,21 +171,38 @@
     },
     {
       "cluster": "多平台广告代投",
+      "language": "zh-Hans",
       "intent": "commercial",
       "priority": "high",
       "targetUrl": "https://shumaojs.com/managed-ads.html",
       "primaryKeywords": ["广告管理", "多平台广告代投", "广告代运营", "海外广告投放"],
       "supportingKeywords": ["跨境电商广告投放", "外贸广告推广", "多平台广告管理", "广告预算优化"],
-      "contentActions": ["首页与导航保持多平台入口", "说明 Google、Meta、Facebook、X/Twitter 的适用场景", "避免违规承诺类词汇"]
+      "evidence": {
+        "reviewedAt": "2026-10-24",
+        "method": "Public results for 多平台 广告代投 Google Meta Facebook 广告 管理 support commercial platform-selection intent only. Stored GSC through October21 has one managed-ads.html impression, not query/country attribution. Direct page audit found no main-content links to platform services, an overly broad PMax product-feed prerequisite and Meta/Facebook relationship ambiguity. Google PMax documentation and Meta's official brand explanation support corrections, not a ranking/cannibalization diagnosis.",
+        "googleSearchVolume": null, "countryDemandVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-24-service-hub/brief.md",
+        "humanReviewStatus": "pending; prior Google scope and article approvals do not approve these three service-page changes"
+      },
+      "contentActions": ["四行需求选择表连接既有 Google、Meta、Facebook、X 页面，不把 Facebook 与 Meta 当独立平台", "修正 PMax 商品数据前提，明确咨询、执行、素材开发及费用需分别确认", "保留原网址、标题和全部广告类型图示，不声称搜索量或蚕食问题已验证"]
     },
     {
-      "cluster": "Meta 与 Facebook 广告",
+      "cluster": "Meta 与 Instagram 多版位规划",
+      "language": "zh-Hans",
       "intent": "commercial",
       "priority": "medium",
       "targetUrl": "https://shumaojs.com/meta-ads.html",
-      "primaryKeywords": ["Meta 广告管理", "Facebook 广告管理", "Facebook 广告代投"],
-      "supportingKeywords": ["Instagram 广告投放", "Facebook 线索广告", "Meta 广告素材测试", "跨境社媒广告"],
-      "contentActions": ["Meta/Facebook 页面避免内容重复", "用素材测试、线索表单、主页资产做差异化", "增加相关文章之间的内链"]
+      "primaryKeywords": ["Meta 广告管理", "Meta 广告代投", "Instagram 广告投放"],
+      "supportingKeywords": ["Facebook Instagram 多版位规划", "Meta 广告素材测试", "跨境社媒广告"],
+      "contentActions": ["聚焦跨版位素材、资产和衡量规划，保留 Facebook 属于 Meta 的关系", "以双向内链连接 Facebook 主页/线索承接与多平台选择表", "关键词为意图映射，不是搜索量、国家需求或已验证排名"]
+    },
+    {
+      "cluster": "Facebook 主页与线索承接",
+      "language": "zh-Hans", "intent": "commercial", "priority": "medium",
+      "targetUrl": "https://shumaojs.com/facebook-ads.html",
+      "primaryKeywords": ["Facebook 广告代投", "Facebook 线索广告"],
+      "supportingKeywords": ["Facebook 主页广告", "Facebook 私信咨询", "Facebook 线索跟进"],
+      "contentActions": ["聚焦主页、筛选、收到咨询与客服交接，不虚构自动包含的客服或系统实施", "保留 Meta 跨版位入口与原 canonical，不默认合并或删除既有页面", "没有查询-页面竞争证据，不声称已解决关键词蚕食"]
     },
     {
       "cluster": "SEM 关键词匹配规则与测试",

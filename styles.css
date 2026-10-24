@@ -2187,6 +2187,7 @@ html:not(.article-index-ready) .pagination {
 }
 
 .article-detail section[id],
+.managed-page section[id],
 .platform-detail-page section[id] {
   scroll-margin-top: 112px;
 }

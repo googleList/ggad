@@ -114,7 +114,13 @@ async function main() {
     for (const width of [1440, 390]) {
       const context = await browser.newContext({ viewport: { width, height: 900 }, javaScriptEnabled: false });
       const page = await context.newPage();
-      await page.goto(new URL("articles.html", base).href, { waitUntil: "domcontentloaded", timeout: 45000 });
+      await page.route("**/styles.css", async (route) => {
+        await new Promise((resolve) => setTimeout(resolve, 250));
+        await route.continue();
+      });
+      await page.goto(new URL("articles.html", base).href, { waitUntil: "load", timeout: 45000 });
+      await page.waitForFunction(() => [...document.styleSheets].some((sheet) =>
+        sheet.href?.endsWith("/styles.css") && sheet.cssRules.length > 0));
       const count = await page.locator("[data-article-card]").count();
       assert.equal((await visibleUrls(page)).length, count);
       assert.equal(await page.locator("[data-article-card]:visible").count(), count);
@@ -123,7 +129,8 @@ async function main() {
       assert.equal(await page.locator("[data-article-status]").isVisible(), false);
       assert.ok((await page.locator("p[data-article-summary]").textContent()).includes("自然搜索"));
       assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1), false);
-      results.push({ width, javascript: false, visibleCards: count, inactiveControlsHidden: true, passed: true });
+      results.push({ width, javascript: false, visibleCards: count, inactiveControlsHidden: true,
+        delayedStylesheetRegression: true, stylesheetReady: true, passed: true });
       await context.close();
     }
     assert.deepEqual(errors, []);

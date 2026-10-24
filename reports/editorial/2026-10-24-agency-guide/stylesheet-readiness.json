@@ -1,0 +1,13 @@
+{
+  "observedAt": "2026-10-24",
+  "site": "https://shumaojs.com/articles.html",
+  "browser": "fresh headless Chrome contexts, JavaScript disabled",
+  "observations": [
+    {"viewport": 1440, "phase": "domcontentloaded", "documentReadyState": "interactive", "documentScrollWidth": 1440, "loadedStyleSheets": 0},
+    {"viewport": 1440, "phase": "load", "documentReadyState": "complete", "documentScrollWidth": 1440, "loadedStyleSheets": 1},
+    {"viewport": 390, "phase": "domcontentloaded", "documentReadyState": "interactive", "documentScrollWidth": 488, "loadedStyleSheets": 0, "wideElements": "four480px article thumbnail links and their images, left8px/right488px, default styles"},
+    {"viewport": 390, "phase": "load", "documentReadyState": "complete", "documentScrollWidth": 390, "loadedStyleSheets": 1, "wideElements": []}
+  ],
+  "rootCause": "No-JavaScript checker measured layout after DOMContentLoaded without ensuring styles.css had loaded. Styled page has no reproduced overflow. Browser DOM observation before render-blocking stylesheet load is not a verified user-visible layout defect or a field-CWV result.",
+  "repair": "Wait for load plus actual styles.css rules before unchanged layout assertions, and deliberately delay stylesheet request250ms in both no-JavaScript widths. No page CSS, overflow suppression, fallback content, articles or assertions removed."
+}

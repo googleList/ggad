@@ -7,9 +7,9 @@
     "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
-    "latestBrief": "reports/editorial/2026-10-24-match-guide/brief.md",
-    "latestAiReviewStatus": "completed for matching/grouping cluster consistency, 18 static rule decisions and production regressions; this is not a Google matching simulator or human approval",
-    "latestHumanReviewStatus": "owner confirmed service-scope explanation on October24; matching, grouping and cost article reviews remain pending, no unspecified prices approved",
+    "latestBrief": "reports/editorial/2026-10-24-agency-guide/brief.md",
+    "latestAiReviewStatus": "completed for six agency-selection criteria, evidence/questions, transparent fee comparison, source/claim checks and production validation; no human approval or certification inferred",
+    "latestHumanReviewStatus": "owner confirmed service-scope explanation on October24; agency-selection, matching, grouping and cost article reviews remain pending, no unspecified prices or credentials approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
   "site": "https://shumaojs.com/",
@@ -22,10 +22,10 @@
   "latestReport": "reports/seo-week-06-2026-10-24.md",
   "deployment": {
     "status": "deployed",
-    "reason": "Matching-guide consistency correction published in af251f8 via successful Pages #71. Three positive types and six negative-query examples with18 decisions verified; reciprocal grouping/service links added. Existing original illustration reused, title/URL/publication retained. Four-width matching/grouping and hub/no-JavaScript production checks passed. Refreshed GSC windows still end October21; no performance gain inferred. Article human review remains pending.",
-    "localCommit": "af251f8",
+    "reason": "Existing agency-selection guide upgraded in58c6fc3 and published by successful Pages #73. Fourteen repetitive non-CTA sections became six evidence-based criteria, six questions and five fee categories, with original concept cover/thumbnail. Title/URL/publication and existing US/HK tool destinations retained. Four-width article and hub/no-JavaScript production checks passed. No new performance snapshot or traffic gain claimed; human article review pending.",
+    "localCommit": "58c6fc3",
     "verifiedAt": "2026-10-24",
-    "latestVerification": "Public marker matched af251f860ec5ad4c0d4ccae3bacc91aa06a3dcc2; Pages #71 job120786739099 succeeded. Match-guide checks completed 2026-10-24T05:10:36Z; six internal destinations, all18 decisions and mobile table scroll passed. Hub and grouping regressions also passed. Research/report-only commits may follow. HTTPS/GA4 dependencies remain distinct from this release; no traffic/field-CWV gain claimed."
+    "latestVerification": "Public marker matched58c6fc3ecdac0abb9d82b98f281c1d8ae59afcf6; Pages #73 job120790288987 succeeded. Article checks completed2026-10-24T05:29:20Z with six criteria, five fee rows, six anchors, eight internal200 destinations, image/schema/list/date checks and mobile table scrolling. Hub/no-JavaScript passed. Report-only commits may follow; account-dependent HTTPS/GA4 remain separate unresolved tasks."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -102,18 +102,37 @@
     "simplified-service-scope-taxonomy-and-category-summary-2026-10-24",
     "owner-confirmed-service-scope-fee-separation-and-handover-2026-10-24",
     "simplified-keyword-grouping-negative-keyword-correction-and-original-cover-2026-10-24",
-    "simplified-matching-guide-cluster-consistency-and-static-rule-fixtures-2026-10-24"
+    "simplified-matching-guide-cluster-consistency-and-static-rule-fixtures-2026-10-24",
+    "simplified-agency-selection-six-evidence-criteria-and-original-cover-2026-10-24"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-24T05:11:53Z",
-    "localHead": "af251f8",
-    "remoteHead": "af251f8",
+    "checkedAt": "2026-10-24T05:30:09Z",
+    "localHead": "58c6fc3",
+    "remoteHead": "58c6fc3",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified content checkpoint is af251f8; research/report-only commits may follow it. Use deployment.json for the actual public revision; query GitHub public Actions API by exact head SHA if HTML listing is stale. Research/briefs remain repository-only. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
+    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified content checkpoint is58c6fc3; report-only commits may follow it. Use deployment.json for actual public revision and public GitHub Actions API by exact head SHA. Research/briefs stay repository-only. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
   },
   "dataAccess": {
+    "agencyGuideEditorialRelease2026-10-24": {
+      "contentCommit": "58c6fc3ecdac0abb9d82b98f281c1d8ae59afcf6",
+      "successfulRun": "https://github.com/googleList/ggad/actions/runs/40066338991",
+      "brief": "reports/editorial/2026-10-24-agency-guide/brief.md",
+      "articleEvidence": "reports/editorial/2026-10-24-agency-guide/production/browser.json",
+      "hubEvidence": "reports/editorial/2026-10-24-agency-guide/production/hub/browser.json",
+      "widthsPassed": [1440, 768, 390, 320],
+      "noJavaScriptHubWidthsPassed": [1440, 390],
+      "criteria": 6, "evidenceRequests": 6, "questions": 6, "feeRows": 5, "tocAnchors": 6,
+      "internalDestinationsHttp200": 8,
+      "ciUnitTestsPassed": 88,
+      "coverBytes": 105086, "thumbnailBytes": 16132,
+      "imageMode": "built-in image_gen, original concept illustration; no real contract, badge, customer result or review approval represented",
+      "humanReview": "pending; service-scope confirmation is separate",
+      "freshSearchPerformanceSnapshot": false,
+      "note": "Commercial-investigation intent candidate, no invented volume/regional demand. Six-criteria structure replaces14 repetitive non-CTA sections. English transparency policy read after zh-Hans returned no translation; no company Partner status or legal certification claimed.",
+      "noJavaScriptTestReadiness": "First public hub run failed before CSS loaded. Diagnostic mobile scrollWidth488 at DOMContentLoaded/no stylesheet became390 after load. Checker now waits for stylesheet rules and deliberately delays CSS250ms; unchanged overflow/card assertions passed both no-JavaScript widths. Evidence: reports/editorial/2026-10-24-agency-guide/stylesheet-readiness.json. No production CSS workaround or field-CWV result."
+    },
     "matchGuideEditorialRelease2026-10-24": {
       "contentCommit": "af251f860ec5ad4c0d4ccae3bacc91aa06a3dcc2",
       "successfulRun": "https://github.com/googleList/ggad/actions/runs/40065158223",
@@ -408,7 +427,8 @@
   "nextPriorities": [
     "Follow the updated content-led objective. Each selected batch needs keyword/intent evidence, title candidates, outline, original/source-backed content, thumbnail provenance, optimization and deployment checks; do not default to repeated status-only account polling",
     "Incorporate actual human review of the published cost guide when received. Its raw/qualified lead definitions and fee boundaries are intentionally general; no owner approval, package price or client evidence may be invented",
-    "Service scope is owner-confirmed; grouping and matching-guide consistency corrections are live. Incorporate genuine article feedback without inheriting approval. Next review the existing agency-selection guide for repeated structure and actionable decision evidence; do not create another near-duplicate matching article or repeatedly retitle the repaired guides",
+    "Service scope is owner-confirmed and cost/grouping/matching/agency-selection editorial batches are live. Incorporate genuine article feedback without inheriting approval. Do not keep rewriting these same guides or creating near-duplicates just because no fresh performance period is available",
+    "Next use a representative recently revised Simplified guide to verify Google's indexed/canonical/last-crawl evidence once and record observation freshness; distinguish pre-edit stored crawl from current live content. Do not repeat prior priority-crawl requests or remove localized pages merely to change query language",
     "Use reports/search-console/2026-10-23.json and the October 23 report as the latest evidence checkpoint. Data end October 21; all 37 displayed current query rows and all 33 page rows were read. No reportable Simplified target matches does not mean zero demand",
     "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October 20 expansion; the reported crawl is still October 19. Do not rebuild these URLs or repeat the October 19 requests just because target-query impressions remain absent",
     "Use the verified October 15-21 versus October 8-14 comparison: 28 versus 60 impressions, both zero clicks. Tiny mixed samples cannot establish a release effect; rolling 28-day snapshots overlap and are not incremental growth measurements. The old five-impression prior-28-day baseline remains historical only",

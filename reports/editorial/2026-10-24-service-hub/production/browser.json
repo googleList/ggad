@@ -1,0 +1,1194 @@
+{
+  "checkedAt": "2026-10-24T09:21:43.061Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 2560,
+      "path": "managed-ads.html",
+      "headline": "多平台广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/managed-ads.html",
+      "description": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "ogDescription": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "twitterDescription": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "cardImages": [
+        {
+          "src": "assets/article-pmax.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-google.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-search-terms.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-pmax.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-meta.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [
+        {
+          "key": "google",
+          "href": "google-ads.html"
+        },
+        {
+          "key": "meta",
+          "href": "meta-ads.html"
+        },
+        {
+          "key": "facebook",
+          "href": "facebook-ads.html"
+        },
+        {
+          "key": "x",
+          "href": "x-ads.html"
+        }
+      ],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 0,
+      "localLinks": [
+        "/google-ads.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/compliance.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/google-ads-vs-meta-ads-guide.html",
+        "/articles/google-search-ads-cost-guide.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-4m8nmo",
+        "platform-choice",
+        "platform-choice-title",
+        "ad-types",
+        "planning-scope",
+        "cooperation"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 2560,
+      "path": "meta-ads.html",
+      "headline": "Meta广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/meta-ads.html",
+      "description": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "ogDescription": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "twitterDescription": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "cardImages": [
+        {
+          "src": "assets/article-meta.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-landing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-budget.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-materials.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-tracking.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 0,
+      "localLinks": [
+        "/facebook-ads.html",
+        "/managed-ads.html",
+        "/compliance.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-nyq1tb",
+        "meta-title",
+        "ad-types",
+        "scope-choice"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 2560,
+      "path": "facebook-ads.html",
+      "headline": "Facebook广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/facebook-ads.html",
+      "description": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "ogDescription": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "twitterDescription": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "cardImages": [
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-materials.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-landing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-budget.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-tracking.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 3,
+      "localLinks": [
+        "/meta-ads.html",
+        "/managed-ads.html",
+        "/compliance.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-fv7vg2",
+        "facebook-title",
+        "ad-types",
+        "lead-handover"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "managed-ads.html",
+      "headline": "多平台广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/managed-ads.html",
+      "description": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "ogDescription": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "twitterDescription": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "cardImages": [
+        {
+          "src": "assets/article-pmax.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-google.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-search-terms.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-pmax.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-meta.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [
+        {
+          "key": "google",
+          "href": "google-ads.html"
+        },
+        {
+          "key": "meta",
+          "href": "meta-ads.html"
+        },
+        {
+          "key": "facebook",
+          "href": "facebook-ads.html"
+        },
+        {
+          "key": "x",
+          "href": "x-ads.html"
+        }
+      ],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 0,
+      "localLinks": [
+        "/google-ads.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/compliance.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/google-ads-vs-meta-ads-guide.html",
+        "/articles/google-search-ads-cost-guide.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-xy7d4x",
+        "platform-choice",
+        "platform-choice-title",
+        "ad-types",
+        "planning-scope",
+        "cooperation"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "meta-ads.html",
+      "headline": "Meta广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/meta-ads.html",
+      "description": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "ogDescription": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "twitterDescription": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "cardImages": [
+        {
+          "src": "assets/article-meta.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-landing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-budget.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-materials.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-tracking.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 0,
+      "localLinks": [
+        "/facebook-ads.html",
+        "/managed-ads.html",
+        "/compliance.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-nf3z72",
+        "meta-title",
+        "ad-types",
+        "scope-choice"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "path": "facebook-ads.html",
+      "headline": "Facebook广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/facebook-ads.html",
+      "description": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "ogDescription": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "twitterDescription": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "cardImages": [
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-materials.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-landing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-budget.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-tracking.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 3,
+      "localLinks": [
+        "/meta-ads.html",
+        "/managed-ads.html",
+        "/compliance.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-z3jx9u",
+        "facebook-title",
+        "ad-types",
+        "lead-handover"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "path": "managed-ads.html",
+      "headline": "多平台广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/managed-ads.html",
+      "description": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "ogDescription": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "twitterDescription": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "cardImages": [
+        {
+          "src": "assets/article-pmax.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-google.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-search-terms.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-pmax.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-meta.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [
+        {
+          "key": "google",
+          "href": "google-ads.html"
+        },
+        {
+          "key": "meta",
+          "href": "meta-ads.html"
+        },
+        {
+          "key": "facebook",
+          "href": "facebook-ads.html"
+        },
+        {
+          "key": "x",
+          "href": "x-ads.html"
+        }
+      ],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 0,
+      "localLinks": [
+        "/google-ads.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/compliance.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/google-ads-vs-meta-ads-guide.html",
+        "/articles/google-search-ads-cost-guide.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-n21qkk",
+        "platform-choice",
+        "platform-choice-title",
+        "ad-types",
+        "planning-scope",
+        "cooperation"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "path": "meta-ads.html",
+      "headline": "Meta广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/meta-ads.html",
+      "description": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "ogDescription": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "twitterDescription": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "cardImages": [
+        {
+          "src": "assets/article-meta.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-landing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-budget.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-materials.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-tracking.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 0,
+      "localLinks": [
+        "/facebook-ads.html",
+        "/managed-ads.html",
+        "/compliance.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-mxtmi7",
+        "meta-title",
+        "ad-types",
+        "scope-choice"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "path": "facebook-ads.html",
+      "headline": "Facebook广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/facebook-ads.html",
+      "description": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "ogDescription": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "twitterDescription": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "cardImages": [
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-materials.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-landing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-budget.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-tracking.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 3,
+      "localLinks": [
+        "/meta-ads.html",
+        "/managed-ads.html",
+        "/compliance.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-88lgj5",
+        "facebook-title",
+        "ad-types",
+        "lead-handover"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "managed-ads.html",
+      "headline": "多平台广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/managed-ads.html",
+      "description": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "ogDescription": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "twitterDescription": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "cardImages": [
+        {
+          "src": "assets/article-pmax.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-google.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-search-terms.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-pmax.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-meta.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [
+        {
+          "key": "google",
+          "href": "google-ads.html"
+        },
+        {
+          "key": "meta",
+          "href": "meta-ads.html"
+        },
+        {
+          "key": "facebook",
+          "href": "facebook-ads.html"
+        },
+        {
+          "key": "x",
+          "href": "x-ads.html"
+        }
+      ],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 0,
+      "localLinks": [
+        "/google-ads.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/compliance.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/google-ads-vs-meta-ads-guide.html",
+        "/articles/google-search-ads-cost-guide.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-kx9rcs",
+        "platform-choice",
+        "platform-choice-title",
+        "ad-types",
+        "planning-scope",
+        "cooperation"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "meta-ads.html",
+      "headline": "Meta广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/meta-ads.html",
+      "description": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "ogDescription": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "twitterDescription": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "cardImages": [
+        {
+          "src": "assets/article-meta.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-landing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-budget.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-materials.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-tracking.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 0,
+      "localLinks": [
+        "/facebook-ads.html",
+        "/managed-ads.html",
+        "/compliance.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-ncn0p8",
+        "meta-title",
+        "ad-types",
+        "scope-choice"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "facebook-ads.html",
+      "headline": "Facebook广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/facebook-ads.html",
+      "description": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "ogDescription": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "twitterDescription": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "cardImages": [
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-materials.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-landing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-budget.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-tracking.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 3,
+      "localLinks": [
+        "/meta-ads.html",
+        "/managed-ads.html",
+        "/compliance.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-fg4lek",
+        "facebook-title",
+        "ad-types",
+        "lead-handover"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "path": "managed-ads.html",
+      "headline": "多平台广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/managed-ads.html",
+      "description": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "ogDescription": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "twitterDescription": "海外广告代投与多平台管理咨询：按业务目标选择 Google、Meta/Facebook 或 X，先确认素材、追踪、账户权限和预算，再分别约定媒体费、服务费及执行范围。",
+      "cardImages": [
+        {
+          "src": "assets/article-pmax.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-google.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-search-terms.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-pmax.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-meta.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [
+        {
+          "key": "google",
+          "href": "google-ads.html"
+        },
+        {
+          "key": "meta",
+          "href": "meta-ads.html"
+        },
+        {
+          "key": "facebook",
+          "href": "facebook-ads.html"
+        },
+        {
+          "key": "x",
+          "href": "x-ads.html"
+        }
+      ],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 0,
+      "localLinks": [
+        "/google-ads.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/compliance.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/google-ads-vs-meta-ads-guide.html",
+        "/articles/google-search-ads-cost-guide.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-mn7wn5",
+        "platform-choice",
+        "platform-choice-title",
+        "ad-types",
+        "planning-scope",
+        "cooperation"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "path": "meta-ads.html",
+      "headline": "Meta广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/meta-ads.html",
+      "description": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "ogDescription": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "twitterDescription": "Meta 广告管理咨询，面向 Facebook 与 Instagram 多版位投放，梳理素材适配、客户自有商务资产、事件口径和复盘范围；按实际需求确认执行责任与费用。",
+      "cardImages": [
+        {
+          "src": "assets/article-meta.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-landing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-budget.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-materials.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-tracking.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 0,
+      "localLinks": [
+        "/facebook-ads.html",
+        "/managed-ads.html",
+        "/compliance.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-t8v1o0",
+        "meta-title",
+        "ad-types",
+        "scope-choice"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "path": "facebook-ads.html",
+      "headline": "Facebook广告管理与投放咨询",
+      "canonical": "https://shumaojs.com/facebook-ads.html",
+      "description": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "ogDescription": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "twitterDescription": "Facebook 广告管理咨询，聚焦主页资料、线索表单与私信承接，梳理筛选问题、咨询记录、客服交接和业务反馈；与 Meta 多版位规划区分需求。",
+      "cardImages": [
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-social.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-video.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-leads.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-materials.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-landing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-remarketing.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-budget.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-shopping.svg",
+          "loaded": true
+        },
+        {
+          "src": "assets/article-tracking.svg",
+          "loaded": true
+        }
+      ],
+      "typeCards": 9,
+      "routes": [],
+      "routeLinksInFirstColumn": true,
+      "handoverItems": 3,
+      "localLinks": [
+        "/meta-ads.html",
+        "/managed-ads.html",
+        "/compliance.html"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-of3oew",
+        "facebook-title",
+        "ad-types",
+        "lead-handover"
+      ],
+      "overflow": false,
+      "anchorClear": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "path": "managed-ads.html",
+      "javascript": false,
+      "visibleStaticRoutes": 4,
+      "passed": true
+    }
+  ],
+  "pageErrors": []
+}

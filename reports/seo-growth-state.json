@@ -7,9 +7,9 @@
     "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
-    "latestBrief": "reports/editorial/2026-10-24-tracking-guide/brief.md",
-    "latestAiReviewStatus": "completed for six conversion-event definitions, three goal cases/custom-goal exception, direct/import and duplicate-counting boundaries, source checks and production validation; no tracking installation or live account result inferred",
-    "latestHumanReviewStatus": "owner separately confirmed service scope, keyword tutorial, landing checklist and tracking tutorial on October24. Latest tracking reply 内容符合，可保留 covers six event rows, primary/secondary actions, custom-goal exception and duplicate-counting explanation. Agency-selection, matching and cost articles remain pending; no unspecified prices, live implementation or campaign results approved",
+    "latestBrief": "reports/editorial/2026-10-24-service-hub/brief.md",
+    "latestAiReviewStatus": "completed for service-hub routing, Meta/Facebook page emphasis, conditional PMax feed requirement and consultation/execution/fee boundaries;16 public browser cases plus CI passed. No proven query cannibalization or conversion-rate improvement inferred",
+    "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist and tracking tutorial on October24. New three-page service-hub/Meta/Facebook explanation is pending separate owner review, as are agency-selection/matching/cost articles; no unspecified prices, live implementation or campaign results approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
   "site": "https://shumaojs.com/",
@@ -22,10 +22,10 @@
   "latestReport": "reports/seo-week-06-2026-10-24.md",
   "deployment": {
     "status": "deployed",
-    "reason": "Existing tracking tutorial upgraded in8a7a771 and deployed by successful Pages #79. Corrected phone/chat clicks and button-as-success guidance, added six event rows/three goal cases, custom-goal exception, implementation/validation/reconciliation and original cover. Existing URL/title/publication,47 cards,45 feed articles retained; approved content unchanged. Four-width public article/hub checks passed. Owner separately accepted landing and tracking articles during this batch, not actual account implementation.",
-    "localCommit": "8a7a771",
+    "reason": "Existing managed/Meta/Facebook service pages clarified in61f3e7a and deployed by successful Pages #81. Four visible-first-column service routes, differentiated page emphasis/reciprocal links, corrected universal PMax feed requirement and scoped execution/fee confirmation. Existing titles/URLs/canonicals,27 type illustrations,47 articles/45 feed items and approved Google/article content retained. No new image/runtime dependency. Human review of these service changes pending.",
+    "localCommit": "61f3e7a",
     "verifiedAt": "2026-10-24",
-    "latestVerification": "Public marker matched8a7a77139d3eb8d1c32d5c0b68c79d880292f7da; Pages #79 job120831972068 succeeded,88 CI tests and quality gates passed. Public article completed2026-10-24T09:00:47Z at1440/768/390/320px with six events/three goal cases/six anchors/eight internal200 destinations, table keyboard scrolling and metadata/image/SEM page5 card checks. Hub47-card/no-JavaScript passed. Job connector transient failure recovered via same-run public API and job logs; no workflow restart. Reports may follow; no actual analytics/account implementation or ranking gain."
+    "latestVerification": "Public marker matched61f3e7a653b4337cc5110149616ebe8d599132ae; Pages #81 job120836060127 succeeded,88 CI tests and all quality gates passed. Public service-hub evidence completed2026-10-24T09:21:43Z:15 page/width cases across2560/1440/768/390/320 plus390 no-JavaScript; four routes, reciprocal links, images, anchors, keyboard table and mobile menu pass. Main internal destinations200:hub10/Meta3/Facebook3. CSS55,902 normalized bytes, unchanged caps/runtime. Report commits may follow; no query-competition, country-demand, traffic or field-CWV gain claimed."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -105,18 +105,36 @@
     "simplified-matching-guide-cluster-consistency-and-static-rule-fixtures-2026-10-24",
     "simplified-agency-selection-six-evidence-criteria-and-original-cover-2026-10-24",
     "simplified-landing-page-preflight-enquiry-distinction-and-original-cover-2026-10-24",
-    "simplified-conversion-tracking-event-goal-consistency-and-original-cover-2026-10-24"
+    "simplified-conversion-tracking-event-goal-consistency-and-original-cover-2026-10-24",
+    "service-hub-routes-meta-facebook-differentiation-and-pmax-prerequisite-2026-10-24"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-24T09:02:01Z",
-    "localHead": "8a7a771",
-    "remoteHead": "8a7a771",
+    "checkedAt": "2026-10-24T09:22:13Z",
+    "localHead": "61f3e7a",
+    "remoteHead": "61f3e7a",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch; retain CNAME and shared pages lock/latest-main checkout. Verified content checkpoint8a7a771; reporting commits may follow. Use strict-verified official SSH443 transport if22 resets; no global credential changes. Read same known workflow via API if a connector observation transiently fails, not a restart. Research stays repository-only; preserve unrelated dirty internal-link/cache/historical files."
+    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified content checkpoint61f3e7a; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes; recover transient workflow observation on same known run, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
   },
   "dataAccess": {
+    "serviceHubRelease2026-10-24": {
+      "contentCommit": "61f3e7a653b4337cc5110149616ebe8d599132ae",
+      "successfulRun": "https://github.com/googleList/ggad/actions/runs/40081577333",
+      "brief": "reports/editorial/2026-10-24-service-hub/brief.md",
+      "browserEvidence": "reports/editorial/2026-10-24-service-hub/production/browser.json",
+      "pages": ["managed-ads.html", "meta-ads.html", "facebook-ads.html"],
+      "widthsPassed": [2560, 1440, 768, 390, 320],
+      "javascriptPageWidthCases": 15, "noJavaScriptCases": 1,
+      "routes": 4, "retainedTypeIllustrations": 27,
+      "mainInternalDestinationsHttp200ByPage": [10, 3, 3],
+      "ciUnitTestsPassed": 88,
+      "normalizedCssBytes": 55902,
+      "imageMode": "intentional reuse of existing service illustrations and cover; no new article/thumbnail generation",
+      "humanReview": "pending; owner asked about the three-page routing/emphasis and fee/execution explanation, no acceptance inherited from Google scope or articles",
+      "freshSearchPerformanceSnapshot": false,
+      "note": "Observed navigation and PMax prerequisite defects support this batch, not proven query cannibalization or demand volume. First test guessed the wrong accessible menu name; corrected to established component locator and full rerun passed without weakening assertions or changing production menu."
+    },
     "trackingGuideEditorialRelease2026-10-24": {
       "contentCommit": "8a7a77139d3eb8d1c32d5c0b68c79d880292f7da",
       "successfulRun": "https://github.com/googleList/ggad/actions/runs/40080193913",
@@ -467,6 +485,7 @@
     "Follow the updated content-led objective. Each selected batch needs keyword/intent evidence, title candidates, outline, original/source-backed content, thumbnail provenance, optimization and deployment checks; do not default to repeated status-only account polling",
     "Incorporate actual human review of the published cost guide when received. Its raw/qualified lead definitions and fee boundaries are intentionally general; no owner approval, package price or client evidence may be invented",
     "Service scope, keyword tutorial, landing checklist and tracking tutorial are separately owner-confirmed; retain accepted content. Cost/matching/agency-selection reviews remain pending. Incorporate genuine feedback without inherited approval. Do not keep rewriting repaired guides or create near-duplicates merely because no fresh performance period is available",
+    "New managed/Meta/Facebook service differentiation is deployed and pending its own human review. Preserve original URLs/canonicals; do not claim a cannibalization fix without query-page evidence. Compare future actual hub-to-service enquiries and country/query observations, not assumed benefit from link counts alone",
     "Representative agency-selection guide inspected October24: indexed with expected Google canonical, last stored crawl October17 09:50:25 before its October24 revision. Snapshot reports/search-console/agency-url-inspection-2026-10-24.json. Wait for later crawl/performance evidence and genuine feedback before another rewrite; do not repeat priority-crawl requests or remove localized pages merely to change query language",
     "Use reports/search-console/2026-10-23.json and the October 23 report as the latest evidence checkpoint. Data end October 21; all 37 displayed current query rows and all 33 page rows were read. No reportable Simplified target matches does not mean zero demand",
     "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October 20 expansion; the reported crawl is still October 19. Do not rebuild these URLs or repeat the October 19 requests just because target-query impressions remain absent",

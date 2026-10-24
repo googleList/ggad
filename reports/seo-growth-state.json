@@ -18,8 +18,8 @@
   "targetEndAt": "2026-12-26",
   "sprintGoal": "1000 average daily Google organic visits",
   "goalIsGuaranteed": false,
-  "lastRunAt": "2026-10-24",
-  "latestReport": "reports/seo-week-06-2026-10-24.md",
+  "lastRunAt": "2026-10-25",
+  "latestReport": "reports/seo-follow-up-2026-10-25.md",
   "deployment": {
     "status": "deployed",
     "reason": "Existing Google/Meta comparison guide upgraded ina27f780 and deployed by successful Pages #84. Correct platform/Search generalization and inconsistent visible/schema dates; six-row comparison, three scenarios, anonymous hypothetical qualified-cost example, four test agreements and original optimized cover/thumbnail. Retain title/H1/URL/canonical/publication,47 cards/45 RSS items and accepted service/articles; no CSS/runtime growth. Article-specific human review pending.",
@@ -108,7 +108,8 @@
     "simplified-conversion-tracking-event-goal-consistency-and-original-cover-2026-10-24",
     "service-hub-routes-meta-facebook-differentiation-and-pmax-prerequisite-2026-10-24",
     "owner-accepted-service-hub-and-stored-index-follow-up-2026-10-24",
-    "simplified-google-meta-channel-choice-qualified-cost-and-original-cover-2026-10-24"
+    "simplified-google-meta-channel-choice-qualified-cost-and-original-cover-2026-10-24",
+    "exact-simplified-query-page-country-signal-and-priority-guard-2026-10-25"
   ],
   "repositorySync": {
     "checkedAt": "2026-10-24T15:47:12Z",
@@ -120,6 +121,35 @@
     "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified content checkpointa27f780; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes; recover transient workflow observation on same known run, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
   },
   "dataAccess": {
+    "latestSearchPerformanceFollowUp": {
+      "snapshot": "reports/search-console/query-signal-2026-10-25.json",
+      "observedDatesAsiaShanghai": ["2026-10-24", "2026-10-25"],
+      "period": "2026-09-25 through 2026-10-22",
+      "clicks": 0, "impressions": 228, "ctrPercent": 0, "averagePosition": 57,
+      "queryRowsRead": 38, "queryRowsDisplayed": 38,
+      "countryRowsRead": 10, "countryRowsDisplayed": 25,
+      "countrySample": {"US": {"impressions": 116, "position": 62.9}, "HK": {"impressions": 58, "position": 47.8}},
+      "simplifiedQuery": {
+        "query": "谷歌代投", "clicks": 0, "impressions": 4, "position": 2,
+        "queryFilteredPage": "https://shumaojs.com/google-ads.html",
+        "pageImpressions": 4,
+        "separateQueryFilteredCountryView": {"CN": 3, "SG": 1},
+        "dayWithAllFourReportedImpressions": "2026-10-22"
+      },
+      "new7DayOrPreviousPeriodRead": false,
+      "unfilteredPageTableRead": false,
+      "interpretation": "Explicit reload advanced the cached throughOctober21 view. First retained reportable Simplified target signal, not stable top2, enough CTR evidence or US/HK demand proof. Query/page, query/country and query/day are separate views, not a joint export. All4 impressions predateOctober24 releases. Rolling228 versus219 is not adjacent-period growth or a release effect; latest data may still fill in. Historical seven-day baseline retained separately."
+    },
+    "priorityAnalyzerGuard2026-10-25": {
+      "script": "scripts/prioritize_search_console.py",
+      "minimumMappedRowImpressionsForContentReview": 100,
+      "thresholdMeaning": "Conservative project triage guard, not statistical significance or authorization to test above100",
+      "countryRule": "Explicit recognized country overrides filename; unknown nonempty country staysUNASSIGNED; filename hints only if country missing. Hong Kong Chinese labels and Singapore supported",
+      "focusedTestsPassed": 8, "newRegressionTests": 5,
+      "fullLocalSuiteRun": 93, "localWindowsSkipped": 1,
+      "deploymentStatus": "pending push and observed workflow verification",
+      "publicContentChanged": false
+    },
     "channelComparisonRelease2026-10-24": {
       "contentCommit": "a27f780e04a67a40c7a82e0b4df4e556cd9db09f",
       "successfulRun": "https://github.com/googleList/ggad/actions/runs/40108397495",
@@ -282,8 +312,9 @@
     },
     "googleSearchConsole": true,
     "gscWizardPropertyConnected": false,
-    "latestSearchConsoleAccess": "Direct browser follow-up October 23 read all 37 displayed current 28-day query rows, all 33 page rows, country samples, latest/adjacent previous 7-day KPI cards and the Simplified Chinese regex. Two URL inspections now confirm indexed guides and expected canonicals. Snapshot: reports/search-console/2026-10-23.json. Hidden cached older tables were excluded. GSC Wizard reconnection is not required for this completed manual read.",
+    "latestSearchConsoleAccess": "Owner-authorized visible browser read crossingOctober24/25, explicit reload: September25-October22,228 impressions/0clicks/average57. All38 queries and10/25 country rows read. Exact 谷歌代投 query-filtered views show4 impressions, expected service URL, CN3/SG1 and all4 onOctober22. Snapshot reports/search-console/query-signal-2026-10-25.json. No new unfiltered page or seven-day/prior-period extraction; October23 full snapshot is historical. No hidden cached tables or credentials retained, no request/account mutation.",
     "searchPerformance": {
+      "checkpointStatus": "Historical throughOctober21 baseline; newer28-day observations and target drill-down are in latestSearchPerformanceFollowUp, not silently merged with these dated seven-day/page tables",
       "property": "sc-domain:shumaojs.com",
       "snapshot": "reports/search-console/2026-10-23.json",
       "observedAt": "2026-10-23",
@@ -502,6 +533,7 @@
     }
   },
   "nextPriorities": [
+    "New reportable 谷歌代投 signal:4 impressions/0clicks/average2 onOctober22, expected Google service page; separately reported countries CN3/SG1, not US/HK. Preserve accepted title/scope and gather later query/page/country evidence. Small sample is not a CTR test, stable rank, market-demand forecast or credit forOctober24 revisions",
     "Existing Google/Meta comparison is deployed with original assets and public browser/CI evidence. Await its separate genuine human review; keep approved service/keyword/landing/tracking explanations stable. Measure a later settled query/page/country/crawl window before calling this a demand, platform or ranking win; do not immediately rewrite it again",
     "Follow the updated content-led objective. Each selected batch needs keyword/intent evidence, title candidates, outline, original/source-backed content, thumbnail provenance, optimization and deployment checks; do not default to repeated status-only account polling",
     "Incorporate actual human review of the published cost guide when received. Its raw/qualified lead definitions and fee boundaries are intentionally general; no owner approval, package price or client evidence may be invented",
@@ -509,8 +541,8 @@
     "New managed/Meta/Facebook service differentiation is deployed and separately owner-accepted on October24. Retain the reviewed explanation and original URLs/canonicals; do not claim a cannibalization fix without query-page evidence. Compare future actual hub-to-service enquiries and country/query observations, not assumed benefit from link counts alone",
     "October24 stored URL inspections confirm articles.html now indexed, changed from its historical October19 Discovered state, and google-ads.html indexed; both expected Google canonicals. Raw last crawl times October19 01:15:41 and October20 14:06:13 predate their latest revisions. Snapshot reports/search-console/service-and-hub-inspection-2026-10-24.json. Wait for a later crawl/performance window; no repeat requests, no proof Google read new content, no ranking/traffic attribution",
     "Representative agency-selection guide inspected October24: indexed with expected Google canonical, last stored crawl October17 09:50:25 before its October24 revision. Snapshot reports/search-console/agency-url-inspection-2026-10-24.json. Wait for later crawl/performance evidence and genuine feedback before another rewrite; do not repeat priority-crawl requests or remove localized pages merely to change query language",
-    "Use reports/search-console/2026-10-23.json and the October 23 report as the latest evidence checkpoint. Data end October 21; all 37 displayed current query rows and all 33 page rows were read. No reportable Simplified target matches does not mean zero demand",
-    "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October 20 expansion; the reported crawl is still October 19. Do not rebuild these URLs or repeat the October 19 requests just because target-query impressions remain absent",
+    "Use reports/search-console/query-signal-2026-10-25.json for the newerSeptember25-October22 window and exact target-query drill-down. All38 visible query rows read, only10/25 unfiltered country rows, no new unfiltered page table or seven-day comparison. Keep reports/search-console/2026-10-23.json as the full historical throughOctober21 query/page/adjacent-week checkpoint, not current no-target-query evidence",
+    "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October20 expansion; the reported crawl is stillOctober19. Do not rebuild these URLs or repeatOctober19 requests merely because overall visibility remains limited",
     "Use the verified October 15-21 versus October 8-14 comparison: 28 versus 60 impressions, both zero clicks. Tiny mixed samples cannot establish a release effect; rolling 28-day snapshots overlap and are not incremental growth measurements. The old five-impression prior-28-day baseline remains historical only",
     "Cloudflare administrator action: enable Always Use HTTPS and add a permanent www-to-apex redirect preserving path and query; verify HTTP apex and both www schemes resolve to https://shumaojs.com before marking canonicalization fixed",
     "Open/identify the correct shumaojs.com GA4 resource before measuring organic visits or enquiries; no placeholder measurement ID or unrelated Firebase analytics. GSC Wizard remains optional for direct manual performance reads",

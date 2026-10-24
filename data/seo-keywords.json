@@ -1,6 +1,6 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
@@ -14,14 +14,15 @@
       "primaryKeywords": ["谷歌代投", "谷歌广告代投"],
       "supportingKeywords": ["Google Ads 代运营", "谷歌广告投放管理", "谷歌广告优化"],
       "evidence": {
-        "reviewedAt": "2026-10-24",
-        "method": "Direct GSC browser recheck: settled 2026-09-24 through 2026-10-21 totals unchanged at 219 impressions/0 clicks; google-ads.html has 4 page impressions, not attributable to a specific query. All 37 visible queries contain no Simplified target phrase. Public results for 谷歌代投 开户 管理 服务费 and 谷歌广告代投 服务 内容 show commercial service/scope intent only, not Google search volume or verified US/HK demand.",
+        "reviewedAt": "2026-10-25",
+        "method": "Explicit direct GSC reload advanced28-day dates to2026-09-25 through2026-10-22:228 impressions/0 clicks/average57, all38 visible queries read. Exact 谷歌代投 now reports4 impressions/0 clicks/average2; query-filtered page view shows google-ads.html with4, separate country view CN3/SG1, all4 onOctober22. This is a small newly reportable signal outside US/HK, predatingOctober24 content releases, not a stable rank, monthly volume, CTR test or verified US/HK Simplified demand. Previous throughOctober21 no-match observation is historical, not current.",
+        "performanceSnapshot": "reports/search-console/query-signal-2026-10-25.json",
         "googleSearchVolume": null,
         "countryDemandVerified": false,
         "editorialBrief": "reports/editorial/2026-10-24-service-scope/brief.md",
         "humanReviewStatus": "owner confirmed on 2026-10-24: 说明符合实际业务. Applies to setup/management/diagnostic scope, separate fee confirmation and handover explanation only; not unspecified prices, other articles or results"
       },
-      "contentActions": ["保留服务页标题和网址，区分七类常见广告系列与再营销、品牌词策略", "开户协助、持续代投、专项检查的范围、费用确认与交接说明已获用户人工确认", "未确定的套餐和价格仍不得虚构；等待后续查询数据验证"]
+      "contentActions": ["保留已确认服务页标题、网址和范围，不因4次展示0点击就测试标题或重复改写", "继续分别核对简体查询与美国香港国家维度，当前谷歌代投展示来自中国与新加坡", "未确定的套餐和价格仍不得虚构；以更晚完整周期观察验证，不把平均排名2当作稳定第二名"]
     },
     {
       "cluster": "谷歌广告开户流程",

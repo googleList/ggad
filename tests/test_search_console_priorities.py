@@ -12,6 +12,43 @@ SPEC.loader.exec_module(MODULE)
 
 
 class SearchConsolePriorityTests(unittest.TestCase):
+    def test_explicit_country_overrides_conflicting_filename(self):
+        self.assertEqual(MODULE.infer_market("中国香港", "queries-us.csv"), "HK")
+        self.assertEqual(MODULE.infer_market("中國香港", "queries-cn.csv"), "HK")
+        self.assertEqual(MODULE.infer_market("Singapore", "queries-hk.csv"), "SG")
+        self.assertEqual(MODULE.infer_market("新加坡", "queries-us.csv"), "SG")
+
+    def test_unknown_explicit_country_is_not_guessed_from_filename(self):
+        self.assertEqual(MODULE.infer_market("Canada", "queries-us.csv"), "UNASSIGNED")
+        self.assertEqual(MODULE.infer_market("", "queries-us.csv"), "US")
+        self.assertEqual(MODULE.infer_market("  ", "queries-hk.csv"), "HK")
+
+    def test_small_target_sample_preserves_metrics_without_title_test(self):
+        rows = [{"market": "UNASSIGNED", "query": "谷歌代投", "page": "https://shumaojs.com/google-ads.html",
+                 "clicks": 0, "impressions": 4, "ctr": 0, "position": 2, "source": "manual-pattern.csv"}]
+        item = MODULE.aggregate(rows)[0]
+        self.assertEqual(item["impressions"], 4)
+        self.assertEqual(item["position"], 2)
+        self.assertEqual(item["clicks"], 0)
+        self.assertEqual(item["simplifiedTheme"], "谷歌代投")
+        self.assertEqual(item["market"], "UNASSIGNED")
+        self.assertIn("Preserve", item["recommendedAction"])
+        self.assertIn("small sample", item["recommendedAction"])
+        self.assertNotIn("Test title", item["recommendedAction"])
+
+    def test_guard_boundary_does_not_claim_a_significant_result(self):
+        threshold = MODULE.MIN_CONTENT_REVIEW_IMPRESSIONS
+        below = MODULE.action_for(2, 0, "https://shumaojs.com/google-ads.html", threshold - 1)
+        at = MODULE.action_for(2, 0, "https://shumaojs.com/google-ads.html", threshold)
+        self.assertIn("small sample", below)
+        self.assertIn("Review", at)
+        self.assertNotIn("significant", at)
+        report = MODULE.render_markdown({"generatedAt": "2026-10-25", "notes": [], "priorities": []})
+        self.assertIn("not statistical significance", report)
+
+    def test_missing_page_is_mapped_before_any_editing_action(self):
+        self.assertIn("Map the query", MODULE.action_for(2, 0, "", 4))
+
     def test_multilingual_export_and_market_assignment(self):
         fixture = ROOT / "tests" / "fixtures" / "search-console-sample.csv"
         rows, notes = MODULE.read_rows([fixture])

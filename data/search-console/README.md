@@ -16,7 +16,7 @@ Include at least one dimension:
 - Query
 - Page
 
-Include the Country dimension to compare user locations separately from query language. The analyzer recognizes US, Hong Kong, China, and other/unassigned rows; Simplified Chinese target queries are prioritized across all countries. If the export has no country column, include `us`, `usa`, `united-states`, `hk`, or `hong-kong` in the filename.
+Include the Country dimension to compare user locations separately from query language. The analyzer recognizes US, Hong Kong (including 中国香港), China, Singapore, and other/unassigned rows; Simplified Chinese target queries are prioritized across all countries. An explicit country always wins over filename hints. An unrecognized explicit country stays unassigned, never silently becomes US/HK. Only if the export has no country value may `us`, `usa`, `united-states`, `hk`, or `hong-kong` in the filename supply its market.
 
 Primary Simplified Chinese query themes:
 
@@ -39,5 +39,9 @@ Outputs:
 - `reports/search-console-priorities.md`
 
 The score ranks observed opportunities. It does not predict traffic or rankings.
+
+Mapped rows with fewer than100 impressions receive an observe-first action instead of a content/title-change suggestion. This conservative project triage guard is not a statistical-significance threshold. Reaching100 does not prove a CTR problem or authorize a test; check intent, dates, geography, device and uncertainty first. Query-to-page mapping is still requested when the page dimension is missing.
+
+Analyze only compatible, non-overlapping exports together: the current reader does not deduplicate repeated or overlapping periods. Do not join separate query/page/country tables into an invented multi-dimensional export. Direct visible-browser observations are recorded with their actual coverage in reports, not described as native CSV downloads.
 
 For initial property verification, sitemap submission, and priority URL inspection, follow `reports/search-console-indexing-runbook-2026-09-30.md`. Confirm that the selected property is `sc-domain:shumaojs.com`; do not upload this site's sitemap under another domain property.

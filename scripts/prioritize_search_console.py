@@ -19,6 +19,9 @@ DEFAULT_INPUT_DIR = ROOT / "data" / "search-console"
 DEFAULT_JSON = ROOT / "data" / "search-console-priorities.json"
 DEFAULT_REPORT = ROOT / "reports" / "search-console-priorities.md"
 
+# An editorial triage guard, not a statistical-significance threshold.
+MIN_CONTENT_REVIEW_IMPRESSIONS = 100
+
 ALIASES = {
     "query": {"query", "queries", "top queries", "search query", "查询", "查詢", "搜索查询", "搜尋查詢", "关键字", "關鍵字"},
     "page": {"page", "pages", "top pages", "landing page", "页面", "網頁", "网页", "到达网页", "到達網頁"},
@@ -41,12 +44,18 @@ COUNTRY_MARKETS = {
     "hong kong sar": "HK",
     "hk": "HK",
     "香港": "HK",
+    "中国香港": "HK",
+    "中國香港": "HK",
     "china": "CN",
     "mainland china": "CN",
     "cn": "CN",
     "中国": "CN",
+    "中國": "CN",
     "中国大陆": "CN",
     "大陆": "CN",
+    "singapore": "SG",
+    "sg": "SG",
+    "新加坡": "SG",
 }
 
 SIMPLIFIED_QUERY_THEMES = (
@@ -92,8 +101,8 @@ def ratio(value: str | None) -> float:
 
 def infer_market(country: str, filename: str) -> str:
     normalized = normalize_header(country)
-    if normalized in COUNTRY_MARKETS:
-        return COUNTRY_MARKETS[normalized]
+    if normalized:
+        return COUNTRY_MARKETS.get(normalized, "UNASSIGNED")
     name = filename.lower().replace("_", "-")
     if re.search(r"(^|[- ])(us|usa|united-states)([- .]|$)", name):
         return "US"
@@ -116,11 +125,13 @@ def position_weight(position: float) -> float:
     return 0.25
 
 
-def action_for(position: float, ctr: float, page: str) -> str:
+def action_for(position: float, ctr: float, page: str, impressions: float) -> str:
     if not page:
         return "Map the query to one canonical target page before editing content."
+    if impressions < MIN_CONTENT_REVIEW_IMPRESSIONS:
+        return "Preserve the observed page and collect more settled query/page/country evidence; do not rewrite or test titles from this small sample alone."
     if 0 < position <= 3 and ctr < 0.03:
-        return "Test title and description alignment; preserve the ranking page."
+        return "Review query and snippet alignment before designing any controlled title test; preserve the ranking page."
     if 3 < position <= 10:
         return "Improve intent coverage, snippet clarity, and contextual internal links."
     if 10 < position <= 20:
@@ -211,7 +222,7 @@ def aggregate(rows: list[dict]) -> list[dict]:
                 "ctr": round(ctr, 6),
                 "position": round(position, 2),
                 "opportunityScore": round(opportunity_score, 4),
-                "recommendedAction": action_for(position, ctr, page),
+                "recommendedAction": action_for(position, ctr, page, impressions),
                 "sources": sorted(group["sources"]),
             }
         )
@@ -225,6 +236,7 @@ def render_markdown(result: dict) -> str:
         f"Generated: {result['generatedAt']}",
         "",
         "The opportunity score is a transparent prioritization heuristic based on observed impressions, CTR, and average position. It is not a traffic or ranking forecast. Query language and user country are separate dimensions; Simplified Chinese target themes are shown across all countries.",
+        f"Mapped pages with fewer than {MIN_CONTENT_REVIEW_IMPRESSIONS} impressions receive an observe-first action. This is a conservative editorial guard, not statistical significance or permission to edit above the threshold. Explicit country values take precedence over filename hints; unrecognized countries stay unassigned.",
         "",
         "## Data notes",
         "",
@@ -289,6 +301,11 @@ def main() -> int:
         "sourceFiles": [path.name for path in paths],
         "notes": notes,
         "method": "log1p(impressions) * position-band weight * (1 - min(CTR, 25%))",
+        "reviewPolicy": {
+            "minimumMappedRowImpressions": MIN_CONTENT_REVIEW_IMPRESSIONS,
+            "isStatisticalSignificanceThreshold": False,
+            "countryPrecedence": "explicit country, then filename only if country missing",
+        },
         "priorities": priorities,
     }
     args.json_output.parent.mkdir(parents=True, exist_ok=True)

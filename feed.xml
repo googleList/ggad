@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 24 Oct 2026 05:18:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 08:33:43 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>外贸独立站投放前落地页检查清单</title>
+      <link>https://shumaojs.com/articles/landing-page-checklist.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/landing-page-checklist.html</guid>
+      <description>谷歌广告投放前如何检查外贸独立站？用八项验收清单核对网址、广告承诺、手机体验、表单送达和转化口径，区分按钮点击、真实询盘与有效线索。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Landing Page</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>广告代理商怎么选？签约前要看的 6 个指标</title>
       <link>https://shumaojs.com/articles/how-to-choose-advertising-agency.html</link>
@@ -374,15 +383,6 @@
       <description>llms.txt 完整教程，说明 llms.txt 是什么、和 robots.txt 及 sitemap.xml 的区别、适合哪些网站、怎么撰写、怎么上线，以及它对 GEO 和 AI 搜索优化的帮助。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>GEO</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>外贸独立站投放前落地页检查清单</title>
-      <link>https://shumaojs.com/articles/landing-page-checklist.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/landing-page-checklist.html</guid>
-      <description>外贸独立站广告投放前落地页检查清单，覆盖公司信息、服务说明、联系路径、隐私政策、速度体验和转化入口。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Landing Page</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

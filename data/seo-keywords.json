@@ -3,7 +3,7 @@
   "updated": "2026-10-24",
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
-  "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日复核费用主题，其他词组保留原有记录。",
+  "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
   "clusters": [
     {
       "cluster": "谷歌广告代投与管理",
@@ -207,12 +207,22 @@
     },
     {
       "cluster": "建站与落地页",
+      "language": "zh-Hans",
       "intent": "informational",
       "priority": "medium",
       "targetUrl": "https://shumaojs.com/articles/landing-page-checklist.html",
-      "primaryKeywords": ["广告落地页检查", "外贸独立站投放", "广告投放网站要求"],
-      "supportingKeywords": ["建站信任页面", "移动端落地页优化", "隐私政策怎么写", "服务条款页面"],
-      "contentActions": ["补充案例型内容", "把建站文章内链到合规页和联系页", "突出页面透明度和转化入口"]
+      "primaryKeywords": ["广告落地页检查", "谷歌广告落地页要求", "外贸独立站投放"],
+      "supportingKeywords": ["谷歌广告落地页优化", "广告表单测试", "聊天点击与有效询盘", "移动端落地页检查"],
+      "evidence": {
+        "reviewedAt": "2026-10-24",
+        "method": "Public Simplified search results for 谷歌广告 落地页 优化 检查 清单 validate tutorial/checklist intent only. Official destination, URL-test, conversion and form-notification sources support factual checks. Historical GSC through October21 includes Traditional 著陸頁優化 with2 impressions, not verified Simplified or US/HK demand. Existing guide conflated click actions with enquiries and lacked failure/receipt verification; this observed defect determines priority.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "sources": ["https://support.google.com/adspolicy/answer/6368661?hl=zh-Hans", "https://support.google.com/google-ads/answer/6328603?hl=zh-Hans", "https://support.google.com/google-ads/answer/16560108?hl=zh-Hans", "https://www.w3.org/WAI/tutorials/forms/notifications/", "https://developers.google.com/search/docs/appearance/page-experience?hl=zh-cn"],
+        "editorialBrief": "reports/editorial/2026-10-24-landing-guide/brief.md",
+        "humanReviewStatus": "pending; service scope and keyword tutorial acceptance do not approve this article"
+      },
+      "contentActions": ["保留既有标题和网址，以八项可复测验收、四种表单情境取代泛化检查建议", "分别记录按钮动作、真实询盘和有效线索，区分部署测试、广告审核与真实用户体验", "原创封面和缩略图，服务页建立语义内链；保留美国英语和香港繁体内容，不编造案例或过审保证"]
     },
     {
       "cluster": "SEO 与 GEO",

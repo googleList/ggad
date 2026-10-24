@@ -220,7 +220,7 @@
         "countryDemandVerified": false,
         "sources": ["https://support.google.com/adspolicy/answer/6368661?hl=zh-Hans", "https://support.google.com/google-ads/answer/6328603?hl=zh-Hans", "https://support.google.com/google-ads/answer/16560108?hl=zh-Hans", "https://www.w3.org/WAI/tutorials/forms/notifications/", "https://developers.google.com/search/docs/appearance/page-experience?hl=zh-cn"],
         "editorialBrief": "reports/editorial/2026-10-24-landing-guide/brief.md",
-        "humanReviewStatus": "pending; service scope and keyword tutorial acceptance do not approve this article"
+        "humanReviewStatus": "owner separately confirmed on 2026-10-24: 内容符合，可保留. Covers this article's eight checks, four form scenarios and click/enquiry distinction; not actual customer-form tests or the separate conversion-tracking tutorial"
       },
       "contentActions": ["保留既有标题和网址，以八项可复测验收、四种表单情境取代泛化检查建议", "分别记录按钮动作、真实询盘和有效线索，区分部署测试、广告审核与真实用户体验", "原创封面和缩略图，服务页建立语义内链；保留美国英语和香港繁体内容，不编造案例或过审保证"]
     },
@@ -239,7 +239,7 @@
         "countryDemandVerified": false,
         "sources": ["https://support.google.com/google-ads/answer/11461796?hl=en", "https://support.google.com/analytics/answer/9216061?hl=zh-Hans", "https://developers.google.com/analytics/devguides/collection/ga4/reference/events?hl=en#generate_lead", "https://support.google.com/google-ads/answer/6100664?hl=zh-Hans", "https://support.google.com/google-ads/answer/3438531?hl=zh-Hans", "https://support.google.com/analytics/answer/7201382?hl=zh-Hans"],
         "editorialBrief": "reports/editorial/2026-10-24-tracking-guide/brief.md",
-        "humanReviewStatus": "pending; no inherited service-scope or keyword-tutorial acceptance"
+        "humanReviewStatus": "owner separately confirmed on 2026-10-24: 内容符合，可保留. Covers this tracking tutorial's six-row event plan, primary/secondary actions, custom-goal exception and duplicate-counting explanation; not actual Google Ads/GA4 implementation, campaign results or other articles"
       },
       "contentActions": ["保留原网址、标题和首次发布日期，修正按钮动作与真实询盘口径", "六行事件规划与三种目标情境，解释自定义目标例外、重复来源及调试与归因差异", "原创封面与缩略图，保留地区指南及相关清单；不虚构账户配置、真实采集或排名增长"]
     },

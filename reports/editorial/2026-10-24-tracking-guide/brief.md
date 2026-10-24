@@ -1,5 +1,9 @@
 # Existing Simplified Conversion-Tracking Guide Upgrade
 
+## Current Human Review: Owner Confirmed
+
+On October24 the owner separately replied **“内容符合，可保留”** to this tracking tutorial's question covering the six-row event plan, primary/secondary actions, custom-goal exception and duplicate-counting explanation. Record article-specific human acceptance and retain the reviewed content; no public text/date refresh solely for approval. This does not verify or authorize a Google Ads/GA4 configuration change, actual conversion collection, other pending articles, prices or campaign results. Earlier pending statements below describe draft/release status and are superseded by this actual answer for this article only.
+
 ## Selection and Evidence
 
 Starting main/production: `a74f9d155d2e2eb98d63668b72be58384e0e3a99`. Previous goal turn completed a content/asset/test/deployment batch, not a wait. No live job was inherited. This batch checks an adjacent existing guide for contradictions rather than rewrite the approved keyword tutorial or the freshly repaired landing checklist.
@@ -28,7 +32,7 @@ Outline: six-row event/meaning/boundary map; three goal cases including the cust
 - [Counting options](https://support.google.com/google-ads/answer/3438531?hl=zh-Hans): per-action, per-ad-interaction counting is not universal cross-source customer deduplication.
 - [DebugView](https://support.google.com/analytics/answer/7201382?hl=zh-Hans): debug mode, privacy/consent visibility limits and limited attribution. Debug presence is not proof of ad-attributed conversions or immediate formal reports.
 
-AI-assisted source, terminology, claim, usability and consistency review complete. No copied competitor text/images, invented campaign data, fixed price, legal compliance, certification or ranking guarantee. Website tests validate the teaching page and links, not a real form backend, CRM, client account or analytics implementation. No placeholder GA4 ID, pixel, code/container or target-account change. Owner acceptance of service scope and keyword tutorial does not approve this guide; human review is pending.
+AI-assisted source, terminology, claim, usability and consistency review complete. No copied competitor text/images, invented campaign data, fixed price, legal compliance, certification or ranking guarantee. Website tests validate the teaching page and links, not a real form backend, CRM, client account or analytics implementation. No placeholder GA4 ID, pixel, code/container or target-account change. Owner acceptance of service scope and keyword tutorial did not approve this guide; its own review was pending at draft and is now confirmed separately above.
 
 ## Original Cover
 
@@ -49,3 +53,13 @@ Use case: editorial-concept. One original landscape 16:9 editorial photograph-li
 `tools/check_tracking_guide.cjs` passes1440/768/390/320: six actual event definitions, three goal cases/custom-goal wording, four implementation checks, five acceptance steps, three reconciliation steps, three FAQs, six clear anchors, both mobile keyboard-scroll tables, image loading/aspect ratio, headline/canonical/visible-schema dates/descriptions, eight HTTP200 internal destinations, existing service backlink and SEM pagination to page5's updated card. Desktop goal-table and phone article screenshots visually inspected. These content assertions are not a Google Ads goal engine test or real conversion test.
 
 Existing hub regression passes all47 cards/categories/pages and1440/390 delayed-CSS no-JavaScript cases. Unit88 pass with one Windows-permission skip; SEO65 HTML/63 sitemap zero errors/warnings; schema/policy/performance/feed checks pass. CSS/runtime unchanged within existing budgets. Production release and checks remain unverified until deployment; add actual evidence afterward, not a premature pass claim. Keep PNG screenshots local and commit JSON evidence only.
+
+## Released and Verified
+
+Content `8a7a77139d3eb8d1c32d5c0b68c79d880292f7da` pushed and deployed through [Pages #79](https://github.com/googleList/ggad/actions/runs/40080193913), job120831972068. All88 CI tests passed; SEO65 HTML/63 sitemap zero errors/warnings, schema/policy/performance gates passed,139 public files staged including marker. Public-only local staging138 files before marker. Production marker matched full content SHA; later reporting-only commits may follow. Strict-verified official SSH443 transport used without global credential/configuration changes.
+
+[Public article evidence](production/browser.json), completed2026-10-24T09:00:47.735Z, passes1440/768/390/320, six event rows, three goal cases including custom-goal exception, four/five/three implementation/validation/reconciliation checks, three FAQs, six anchors, both mobile keyboard tables, eight HTTP200 internal destinations, image/schema/date/description agreement and original SEM page5 card. [Hub regression](production/hub/browser.json), completed09:01:22Z, passes47-card category/pagination/image checks plus two delayed-CSS no-JavaScript widths. Local phone article/desktop goal table and public phone goal table screenshots visually inspected. Screenshot PNGs remain local artifacts, not website content.
+
+The first dedicated job-status connector read failed transiently at its transport layer; did not restart the running deployment. Public API for the same known run confirmed success, then the dedicated job-log read recovered and confirmed all checks above. Observation failure was not evidence of Pages failure.
+
+During this batch the owner separately accepted the landing-page checklist with “内容符合，可保留”. Its own brief/research/current state were updated without changing public content/dates. That landing reply did **not** approve this tracking tutorial. Asked a separate tracking question afterward; the owner then accepted this article as recorded above. No actual tracking installation, customer conversion, new search period, field CWV, ranking/traffic gain, GSC indexing/removal submission or external outreach claimed.

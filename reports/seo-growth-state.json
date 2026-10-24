@@ -9,7 +9,7 @@
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
     "latestBrief": "reports/editorial/2026-10-24-service-scope/brief.md",
     "latestAiReviewStatus": "completed for the existing Simplified service/taxonomy correction; commercial/human approval not inferred",
-    "latestHumanReviewStatus": "pending",
+    "latestHumanReviewStatus": "owner confirmed service-scope explanation on October24; keyword and cost article reviews remain pending, no unspecified prices approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
   "site": "https://shumaojs.com/",
@@ -123,7 +123,7 @@
       "articleCountUnchanged": 47,
       "internalDestinationsHttp200": 7,
       "ciUnitTestsPassed": 88,
-      "humanReview": "pending; no actual scope, fees or approval invented",
+      "humanReview": "Owner replied 说明符合实际业务 on October24 to the service-scope question, confirming three demand categories, fee-separation and handover explanation. No unspecified prices, future packages, other articles or results approved.",
       "gscRecheck": "Owner-opened browser read October24 has the same settled October21 data as historical snapshot. No new time period or post-release growth claimed.",
       "transientFailure": "Initial public service navigation timed out, HTTP check returned200 and complete subsequent five-width browser run passed."
     },
@@ -363,7 +363,7 @@
   "nextPriorities": [
     "Follow the updated content-led objective. Each selected batch needs keyword/intent evidence, title candidates, outline, original/source-backed content, thumbnail provenance, optimization and deployment checks; do not default to repeated status-only account polling",
     "Incorporate actual human review of the published cost guide when received. Its raw/qualified lead definitions and fee boundaries are intentionally general; no owner approval, package price or client evidence may be invented",
-    "Service and category scope batch is live in c7ee2a3. Await actual owner corrections to scope/fees; next select an existing Simplified supporting guide based on a confirmed content defect or new query/page evidence. Product/category means consultancy services/editorial categories, not a restored storefront. Prefer useful existing URLs over thin duplicates",
+    "Service/category batch is live in c7ee2a3 and the owner has confirmed the described scope, separate fee confirmation and handover. Do not infer fixed prices or other editorial approval. Keyword guide is the next evidence-backed correction; preserve useful existing URLs rather than create thin duplicates",
     "Use reports/search-console/2026-10-23.json and the October 23 report as the latest evidence checkpoint. Data end October 21; all 37 displayed current query rows and all 33 page rows were read. No reportable Simplified target matches does not mean zero demand",
     "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October 20 expansion; the reported crawl is still October 19. Do not rebuild these URLs or repeat the October 19 requests just because target-query impressions remain absent",
     "Use the verified October 15-21 versus October 8-14 comparison: 28 versus 60 impressions, both zero clicks. Tiny mixed samples cannot establish a release effect; rolling 28-day snapshots overlap and are not incremental growth measurements. The old five-impression prior-28-day baseline remains historical only",

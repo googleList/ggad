@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Oct 2026 16:20:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 17:07:23 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google 搜索广告关键词怎么分组</title>
+      <link>https://shumaojs.com/articles/google-search-keywords.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-search-keywords.html</guid>
+      <description>Google 搜索广告关键词分组教程，介绍业务线、搜索意图、匹配方式、否定词和落地页对应关系。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Keyword Strategy</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>Google 搜索广告费用怎么算？预算、点击和服务费说明</title>
       <link>https://shumaojs.com/articles/google-search-ads-cost-guide.html</link>
@@ -383,15 +392,6 @@
       <description>Googlebot、网络爬虫和 AI 爬虫基础教程，说明它们如何发现、抓取、索引网站内容，以及对 SEO、GEO 和广告落地页的影响。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>GEO</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>Google 搜索广告关键词怎么分组</title>
-      <link>https://shumaojs.com/articles/google-search-keywords.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-search-keywords.html</guid>
-      <description>Google 搜索广告关键词分组教程，介绍业务线、搜索意图、匹配方式、否定词和落地页对应关系。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Keyword Strategy</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

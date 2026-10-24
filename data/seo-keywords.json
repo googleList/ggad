@@ -19,9 +19,9 @@
         "googleSearchVolume": null,
         "countryDemandVerified": false,
         "editorialBrief": "reports/editorial/2026-10-24-service-scope/brief.md",
-        "humanReviewStatus": "pending"
+        "humanReviewStatus": "owner confirmed on 2026-10-24: 说明符合实际业务. Applies to setup/management/diagnostic scope, separate fee confirmation and handover explanation only; not unspecified prices, other articles or results"
       },
-      "contentActions": ["保留服务页标题和网址，区分七类常见广告系列与再营销、品牌词策略", "补充开户协助、持续代投、专项检查的范围确认表及合作流程", "分清广告费、服务费、追踪与网站开发职责，不虚构套餐；等待实际人工反馈及后续查询数据"]
+      "contentActions": ["保留服务页标题和网址，区分七类常见广告系列与再营销、品牌词策略", "开户协助、持续代投、专项检查的范围、费用确认与交接说明已获用户人工确认", "未确定的套餐和价格仍不得虚构；等待后续查询数据验证"]
     },
     {
       "cluster": "谷歌广告开户流程",
@@ -78,6 +78,25 @@
         "humanReviewStatus": "pending"
       },
       "contentActions": ["保留现有标题与 URL，修正原始询盘、有效询盘与成交口径", "按三种假设合格率演算预算，区分媒体费和代投服务交付", "使用原创压缩缩略图并同步列表、分享图、RSS、站点地图；人工审稿尚待确认"]
+    },
+    {
+      "cluster": "谷歌广告关键词分组与否定词判断",
+      "language": "zh-Hans",
+      "intent": "informational",
+      "priority": "high",
+      "targetUrl": "https://shumaojs.com/articles/google-search-keywords.html",
+      "primaryKeywords": ["谷歌广告关键词", "Google 搜索广告关键词分组"],
+      "supportingKeywords": ["谷歌广告否定词", "搜索词与关键词区别", "关键词与落地页对应", "谷歌广告搜索意图"],
+      "evidence": {
+        "reviewedAt": "2026-10-24",
+        "method": "Public results for 谷歌广告 关键词 分组 否定词 and official Google match/planner/search-term/negative-keyword documentation validate instructional topic intent. Existing guide incorrectly generalized pdf/free/near me as low-intent exclusions and fixed week-based evaluation. Prior GSC settled October21 snapshot has no reportable Simplified target matches; no new volume or market-demand claim.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "sources": ["https://support.google.com/google-ads/answer/7478529?hl=zh-Hans", "https://support.google.com/google-ads/answer/2453972?hl=zh-Hans", "https://support.google.com/google-ads/answer/3022575?hl=zh-Hans", "https://support.google.com/google-ads/answer/2472708?hl=zh-Hans"],
+        "editorialBrief": "reports/editorial/2026-10-24-keyword-guide/brief.md",
+        "humanReviewStatus": "pending; service-scope confirmation does not approve this guide"
+      },
+      "contentActions": ["保留原网址、标题、首次发布日期，纠正通用否定词与固定周数判断", "增加四行候选主题映射、三组误排反例及有效询盘成本假设演算", "原创封面与压缩缩略图用于文章、列表和分享图；不复制竞争站内容或虚构需求数据"]
     },
     {
       "cluster": "US Google Ads management",

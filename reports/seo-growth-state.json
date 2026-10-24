@@ -7,8 +7,8 @@
     "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
-    "latestBrief": "reports/editorial/2026-10-24-service-scope/brief.md",
-    "latestAiReviewStatus": "completed for the existing Simplified service/taxonomy correction; commercial/human approval not inferred",
+    "latestBrief": "reports/editorial/2026-10-24-keyword-guide/brief.md",
+    "latestAiReviewStatus": "completed for keyword grouping/negative-keyword correction, original cover and production checks; human article approval not inferred",
     "latestHumanReviewStatus": "owner confirmed service-scope explanation on October24; keyword and cost article reviews remain pending, no unspecified prices approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
@@ -22,10 +22,10 @@
   "latestReport": "reports/seo-week-06-2026-10-24.md",
   "deployment": {
     "status": "deployed",
-    "reason": "Existing Simplified service scope and hub topic summaries published in c7ee2a3 via successful Pages #67. Official campaign taxonomy, scope/fee/permission distinctions and anchor clearance improved; five-width service and four-width plus no-JavaScript hub production checks passed. Human review pending, no search-performance gain inferred. Earlier cost-guide date-validator recovery remains in the history.",
-    "localCommit": "c7ee2a3",
+    "reason": "Existing keyword-grouping guide corrected and published in 8d958b4 via successful Pages #69. Original cover/thumbnail, candidate topic map, contextual negative-keyword examples and lead-cost arithmetic verified. Four-width article and hub/no-JavaScript production checks passed; title/URL/publication retained. Owner approved the separate service-scope explanation; keyword/cost article human review remains pending. No traffic gain inferred.",
+    "localCommit": "8d958b4",
     "verifiedAt": "2026-10-24",
-    "latestVerification": "Production marker matched c7ee2a39d12d179d617469fc0b6c571a26ed87f8; public service checks completed 2026-10-23T17:02:08Z. Pages #67 job120544256103 succeeded. Initial navigation timeout recovered in a complete retest; seven internal destinations returned200. Research/report-only commits may follow. HTTP canonicalization, GA4 and real human approval remain separate dependencies."
+    "latestVerification": "Public marker matched 8d958b43ff38224756263ea30a7331f8d3eafaa5; Pages #69 job120783527870 succeeded. Article/hub browser checks completed 2026-10-24T04:53:41Z / 04:54:00Z. Actual title/canonical/dates/images/anchors/tables/arithmetic/listing verified. Research/report-only commits may follow. HTTP canonicalization and identified GA4 remain separate dependencies; no new query or field-CWV claim."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -99,18 +99,37 @@
     "direct-gsc-link-baseline-and-official-directory-rule-review-2026-10-23",
     "simplified-cost-guide-qualified-lead-correction-and-original-thumbnail-2026-10-24",
     "publisher-calendar-versus-utc-ci-date-validation-repair-2026-10-24",
-    "simplified-service-scope-taxonomy-and-category-summary-2026-10-24"
+    "simplified-service-scope-taxonomy-and-category-summary-2026-10-24",
+    "owner-confirmed-service-scope-fee-separation-and-handover-2026-10-24",
+    "simplified-keyword-grouping-negative-keyword-correction-and-original-cover-2026-10-24"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-23T17:02:22Z",
-    "localHead": "c7ee2a3",
-    "remoteHead": "c7ee2a3",
+    "checkedAt": "2026-10-24T04:54:28Z",
+    "localHead": "8d958b4",
+    "remoteHead": "8d958b4",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified content checkpoint is c7ee2a3; research/report-only commits may follow it. Use deployment.json for the actual public revision. Research/briefs remain repository-only. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
+    "safeAction": "Fetch origin/main before the next batch; retain CNAME, both publishers' shared pages job lock and latest-main checkout. Verified content checkpoint is 8d958b4; research/report-only commits may follow it. Use deployment.json for the actual public revision. Research/briefs remain repository-only. Preserve unrelated dirty internal-link, cache and historical Lighthouse files."
   },
   "dataAccess": {
+    "keywordGuideEditorialRelease2026-10-24": {
+      "contentCommit": "8d958b43ff38224756263ea30a7331f8d3eafaa5",
+      "successfulRun": "https://github.com/googleList/ggad/actions/runs/40064080118",
+      "brief": "reports/editorial/2026-10-24-keyword-guide/brief.md",
+      "articleEvidence": "reports/editorial/2026-10-24-keyword-guide/production/browser.json",
+      "hubEvidence": "reports/editorial/2026-10-24-keyword-guide/production/hub/browser.json",
+      "widthsPassed": [1440, 768, 390, 320],
+      "noJavaScriptHubWidthsPassed": [1440, 390],
+      "articleCountUnchanged": 47,
+      "mappedCandidateThemes": 4, "negativeKeywordCounterexamples": 3, "tocAnchors": 6,
+      "ciUnitTestsPassed": 88,
+      "coverBytes": 95237, "thumbnailBytes": 16030,
+      "imageMode": "built-in image_gen; original conceptual illustration, not a real dashboard or outcome",
+      "humanReview": "pending; owner service-scope confirmation is separate",
+      "freshSearchPerformanceSnapshot": false,
+      "note": "Corrects blanket negative keywords and fixed week-based evaluation, adds original examples and source-backed matching terminology. Candidate terms have no invented search volume, regional demand or lead forecast."
+    },
     "serviceScopeEditorialRelease2026-10-24": {
       "contentCommit": "c7ee2a39d12d179d617469fc0b6c571a26ed87f8",
       "successfulRun": "https://github.com/googleList/ggad/actions/runs/39991542602",
@@ -363,7 +382,7 @@
   "nextPriorities": [
     "Follow the updated content-led objective. Each selected batch needs keyword/intent evidence, title candidates, outline, original/source-backed content, thumbnail provenance, optimization and deployment checks; do not default to repeated status-only account polling",
     "Incorporate actual human review of the published cost guide when received. Its raw/qualified lead definitions and fee boundaries are intentionally general; no owner approval, package price or client evidence may be invented",
-    "Service/category batch is live in c7ee2a3 and the owner has confirmed the described scope, separate fee confirmation and handover. Do not infer fixed prices or other editorial approval. Keyword guide is the next evidence-backed correction; preserve useful existing URLs rather than create thin duplicates",
+    "Service/category batch is owner-confirmed and keyword grouping correction is now live in 8d958b4. Incorporate genuine article feedback when received; verify related matching-guide terminology before any further expansion, maintaining distinct intent instead of duplicating this tutorial. Do not infer fixed prices, whole-site approval or keyword demand",
     "Use reports/search-console/2026-10-23.json and the October 23 report as the latest evidence checkpoint. Data end October 21; all 37 displayed current query rows and all 33 page rows were read. No reportable Simplified target matches does not mean zero demand",
     "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October 20 expansion; the reported crawl is still October 19. Do not rebuild these URLs or repeat the October 19 requests just because target-query impressions remain absent",
     "Use the verified October 15-21 versus October 8-14 comparison: 28 versus 60 impressions, both zero clicks. Tiny mixed samples cannot establish a release effect; rolling 28-day snapshots overlap and are not incremental growth measurements. The old five-impression prior-28-day baseline remains historical only",

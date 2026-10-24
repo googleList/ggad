@@ -48,3 +48,13 @@ Use case: stylized-concept. Asset type: original editorial cover for a Simplifie
 Local article checks passed1440/768/390/320: image loads/current source, unchanged headline/canonical/publication, matching visible/schema modification time, six anchors with fixed-header clearance, four mapping rows, three counterexample rows, three questions, arithmetic, local destinations, keyboard table scrolling and updated listing image/date. Phone article and desktop counterexample screenshot were visually inspected.
 
 Run all existing unit/SEO/schema/policy/performance/feed checks and article-index regression before push. Production confirmation and actual deployment revision are still to be added after release. No external outreach, GSC removal/request, Cloudflare permission changes or invented measurement IDs.
+
+## Released and Verified
+
+Commit `8d958b43ff38224756263ea30a7331f8d3eafaa5` pushed to main. [Pages #69](https://github.com/googleList/ggad/actions/runs/40064080118), job `120783527870`, succeeded. Logs confirm all88 CI unit tests, 65 HTML/63 sitemap SEO check, structured data/content policy/performance passes and133 public files including two new images and the release marker. Local unit run88 with one Windows symlink-permission skip; CSS/JS unchanged. Feed check45 entries current, public-only build132 files before revision marker. Sitemap dates changed only for the actual article; hub was already October24.
+
+Production marker matched `8d958b4`; article checks completed `2026-10-24T04:53:41.721Z`, hub checks `2026-10-24T04:54:00.531Z`. Article widths1440/768/390/320 passed six anchor positions, four mapped themes, three counterexamples, three questions, both cost quotients, image/schema/social consistency, mobile table keyboard scrolling and updated first-page card. Hub category/page traversal and no-JavaScript fallback passed; all47 original cards remain, source/schema order unchanged. Public phone screenshot inspected. Evidence is in `production/browser.json` and `production/hub/browser.json`; screenshots remain local artifacts rather than website content.
+
+GitHub's unfiltered HTML Actions listing briefly returned the old #68 entry even after the public revision changed. The branch-filtered listing identified #69, and the dedicated job tool confirmed success. This was an observation-cache issue, not a failed deployment or reason to restart a live workflow. Report-only commits can follow the content revision.
+
+No ranking/traffic gain is inferred from deployment tests. Human review of this guide remains pending; the separately received service-scope approval has not been broadened.

@@ -7,9 +7,9 @@
     "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
-    "latestBrief": "reports/editorial/2026-10-25-budget-pacing/brief.md",
-    "latestAiReviewStatus": "completed intent/structure/formula/localization/state/SEO review for existing Simplified budget guide and shared three-locale pacing component. Public20 calculator/discovery cases with132 invalid inputs and6 hub cases plus102 CI tests pass. Planning arithmetic is not Google billing behavior or a lead/traffic forecast",
-    "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist, tracking tutorial and managed/Meta/Facebook explanation. Separate budget-guide question now asks about four outputs, hypothetical USD example, platform-limit distinction and evidence-led stages; pending, as are channel-comparison/agency-selection/matching/cost guides. No approval inherited, account budget change or results approved",
+    "latestBrief": "reports/editorial/2026-10-25-search-terms/brief.md",
+    "latestAiReviewStatus": "completed intent overlap, reporting grain/privacy/lag, conditional decision and numerical review for the existing Simplified search-terms article. Six public article JS/noJS cases and six full hub cases pass,102 CI tests pass. Original conceptual assets, no new runtime/page or automatic account action; pending human review is distinct",
+    "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist, tracking tutorial and managed/Meta/Facebook explanation. Separate search-terms question now asks about six decisions, four reporting checks, negative scope and three review records; pending, as are budget/channel-comparison/agency-selection/matching/cost guides. No approval inherited, account budget change or results approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
   "site": "https://shumaojs.com/",
@@ -22,10 +22,10 @@
   "latestReport": "reports/seo-follow-up-2026-10-25.md",
   "deployment": {
     "status": "deployed",
-    "reason": "c25528a upgrades the existing Simplified budget guide with original cover/thumbnail and ungated pacing resource, adds a regular-tools entry, repairs shared EN/HK/Simplified blank/invalid/stale/no-script states and reset. No new page, account budget or lead forecast. Accepted explanations retained; article-specific human review pending.",
-    "localCommit": "c25528a",
+    "reason": "41185ee expands the existing Simplified search-terms report workflow with four reporting checks, six conditional decisions, negative-scope review and three change-log examples; original raster cover/mobile/list thumbnail, source references and contextual links. Existing title/URL/publication/list position retained. No new page/runtime, automatic exclusions or account/lead promises. Article-specific human review pending.",
+    "localCommit": "41185ee",
     "verifiedAt": "2026-10-25",
-    "latestVerification": "Public marker matchedc25528a80cf7a7e1696da37c0776d50b7af6258b; Pages #90 job121045015730 succeeded with102 CI tests, SEO65 HTML/63 sitemap zero errors/warnings and all gates,143 public files. Production calculator evidence01:47:59.279Z passes20 cases/132 invalid-input checks across3 locales/4 widths plus six no-JS or deliberately blocked-script contexts and listing/tools entry. Hub01:48:05.920Z passes6 cases/all47 cards. Screenshots inspected; main CSS55,902/runtime unchanged, calculator JS6152 within unchanged cap. Reporting commits may follow; no new GSC/GA4/link/field-CWV or ranking result."
+    "latestVerification": "Public marker matched41185ee1fc67127c0471e1f0e58f8f29174ac96e; Pages #92 job121048520936 succeeded with102 CI tests, SEO65 HTML/63 sitemap zero errors/warnings and all gates,145 public files. Production article evidence02:06:18.784Z passes six JS/noJS cases across1440/768/390/320, native anchors, phone keyboard table scroll, internal destination/fragment checks and SEM page6 card journey. Hub02:06:30.871Z passes six cases/all47 cards including delayed-CSS noJS. Screenshots inspected; main CSS/runtime unchanged. Reporting commits may follow; no new GSC/GA4/link/field-CWV or ranking result."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -111,18 +111,35 @@
     "simplified-google-meta-channel-choice-qualified-cost-and-original-cover-2026-10-24",
     "exact-simplified-query-page-country-signal-and-priority-guard-2026-10-25",
     "nested404-native-recovery-and-ad-rank-anchor-alignment-2026-10-25",
-    "simplified-budget-pacing-resource-and-three-locale-reliable-input-states-2026-10-25"
+    "simplified-budget-pacing-resource-and-three-locale-reliable-input-states-2026-10-25",
+    "simplified-search-terms-report-decision-and-review-workflow-2026-10-25"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-25T01:48:05.920Z",
-    "localHead": "c25528a",
-    "remoteHead": "c25528a",
+    "checkedAt": "2026-10-25T02:06:30.871Z",
+    "localHead": "41185ee",
+    "remoteHead": "41185ee",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified pacing checkpointc25528a; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes; recover transient workflow observation on same known run, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
+    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified search-terms checkpoint41185ee; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes; recover transient workflow observation on same known run, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
   },
   "dataAccess": {
+    "searchTermsRelease2026-10-25": {
+      "contentCommit": "41185ee1fc67127c0471e1f0e58f8f29174ac96e",
+      "successfulRun": "https://github.com/googleList/ggad/actions/runs/40153081182",
+      "brief": "reports/editorial/2026-10-25-search-terms/brief.md",
+      "browserEvidence": "reports/editorial/2026-10-25-search-terms/production/browser.json",
+      "hubEvidence": "reports/editorial/2026-10-25-search-terms/production/hub/browser.json",
+      "internalGraph": "reports/editorial/2026-10-25-search-terms/local/link-graph.json",
+      "language": "zh-CN", "widthsPassed": [1440, 768, 390, 320],
+      "articleCases": 6, "hubCases": 6, "ciUnitTestsPassed": 102,
+      "reportingChecks": 4, "decisionRows": 6, "negativeChecks": 4, "reviewRows": 3,
+      "coverBytes": 77858, "thumbnailBytes": 11918,
+      "imageMode": "built-in image_gen, original blank-paper sorting/magnifier concept; no account screenshot or campaign results",
+      "humanReview": "pending; owner asked specifically about six decisions, reporting checks, negative scope and review records",
+      "freshSearchPerformanceSnapshot": false,
+      "note": "Existing report-workflow intent distinct from prelaunch keyword grouping and matching mechanics; title/URL/first publication/list position retained. No universal seven-day verdict, automatic exclusions, hidden-query reconstruction or invented CRM join. First phone noJS checker falsely waited on disabled page timers despite actual scrollLeft40; bounded Node-host polling preserves keyboard-scroll verification and full rerun passes. No site CSS/runtime workaround. Scoped graph63 pages has0orphans/unreachable/maxdepth3, article5existing sources/depth2; not measured link equity or traffic."
+    },
     "budgetPacingRelease2026-10-25": {
       "contentCommit": "c25528a80cf7a7e1696da37c0776d50b7af6258b",
       "successfulRun": "https://github.com/googleList/ggad/actions/runs/40151911131",
@@ -563,6 +580,7 @@
     }
   },
   "nextPriorities": [
+    "Existing Simplified search-terms guide is deployed with six conditional decisions, scope/lag/unknown checks and review records. Await its separate owner review and later query/use evidence; do not rewrite its title from tiny samples or create another near-duplicate negative-keyword guide. Keep accepted keyword/service/landing/tracking explanations stable. No new account exclusions, real query-to-CRM join, external outreach or traffic gain was authorized/performed",
     "Budget pacing resource is deployed on the existing Simplified guide, linked from regular tools, with EN/HK shared-state repairs and original images. Await its own human review and a later actual query/use observation before further rewrites. Do not treat calculator availability as visits, links, a recommended account budget or platform billing forecast; external editorial outreach still needs specific owner authorization",
     "Nested404 recovery is verified at three path depths and five old Ad Rank labels corrected, with four new CI regressions. Keep real404/noindex and native relevant recovery; never revive retired storefront URLs, redirect all missing URLs home, refresh article dates for labels or submit these missing probes for indexing. No repeat test needed unless routing/template changes",
     "New reportable 谷歌代投 signal:4 impressions/0clicks/average2 onOctober22, expected Google service page; separately reported countries CN3/SG1, not US/HK. Preserve accepted title/scope and gather later query/page/country evidence. Small sample is not a CTR test, stable rank, market-demand forecast or credit forOctober24 revisions",

@@ -1,0 +1,747 @@
+{
+  "checkedAt": "2026-10-25T02:06:18.784Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "headline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "schemaHeadline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "canonical": "https://shumaojs.com/articles/search-terms-optimization.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-25T09:56:10+08:00",
+      "visibleModified": "2026-10-25T09:56:10+08:00",
+      "descriptions": [
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "decisions": [
+        "irrelevant",
+        "ambiguous",
+        "price",
+        "spend",
+        "qualified",
+        "insufficient"
+      ],
+      "negatives": 4,
+      "records": [
+        "exclude",
+        "page",
+        "observe"
+      ],
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#report-scope",
+          "top": 111.53125,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#data-checks",
+          "top": 111.65625,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#term-decisions",
+          "top": 112.34375,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#negative-review",
+          "top": 111.984375,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-log",
+          "top": 111.671875,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#questions",
+          "top": 111.96875,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-3omxyp",
+        "report-scope",
+        "data-checks",
+        "term-decisions",
+        "negative-review",
+        "review-log",
+        "questions"
+      ],
+      "links": [
+        "/articles/sem-keyword-match-guide.html",
+        "/articles/conversion-tracking-basics.html#conversion-goals",
+        "/articles/sem-keyword-match-guide.html#negative-match",
+        "/articles/google-search-keywords.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "每次转化费用不能算成 0 美元",
+          "present": true
+        },
+        {
+          "text": "没有可靠关联就保留",
+          "present": true
+        },
+        {
+          "text": "不是通用否定词库",
+          "present": true
+        },
+        {
+          "text": "不保证广告展示",
+          "present": true
+        },
+        {
+          "text": "不是客户结果或投放基准",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "tableScrollPassed": false,
+      "listingPage": 6,
+      "listingPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "headline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "schemaHeadline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "canonical": "https://shumaojs.com/articles/search-terms-optimization.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-25T09:56:10+08:00",
+      "visibleModified": "2026-10-25T09:56:10+08:00",
+      "descriptions": [
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "decisions": [
+        "irrelevant",
+        "ambiguous",
+        "price",
+        "spend",
+        "qualified",
+        "insufficient"
+      ],
+      "negatives": 4,
+      "records": [
+        "exclude",
+        "page",
+        "observe"
+      ],
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#report-scope",
+          "top": 112.296875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#data-checks",
+          "top": 111.59375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#term-decisions",
+          "top": 111.671875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#negative-review",
+          "top": 112.484375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-log",
+          "top": 112.34375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#questions",
+          "top": 111.8125,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-fxsgsm",
+        "report-scope",
+        "data-checks",
+        "term-decisions",
+        "negative-review",
+        "review-log",
+        "questions"
+      ],
+      "links": [
+        "/articles/sem-keyword-match-guide.html",
+        "/articles/conversion-tracking-basics.html#conversion-goals",
+        "/articles/sem-keyword-match-guide.html#negative-match",
+        "/articles/google-search-keywords.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "每次转化费用不能算成 0 美元",
+          "present": true
+        },
+        {
+          "text": "没有可靠关联就保留",
+          "present": true
+        },
+        {
+          "text": "不是通用否定词库",
+          "present": true
+        },
+        {
+          "text": "不保证广告展示",
+          "present": true
+        },
+        {
+          "text": "不是客户结果或投放基准",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "tableScrollPassed": false,
+      "listingPage": 6,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "headline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "schemaHeadline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "canonical": "https://shumaojs.com/articles/search-terms-optimization.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-25T09:56:10+08:00",
+      "visibleModified": "2026-10-25T09:56:10+08:00",
+      "descriptions": [
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "decisions": [
+        "irrelevant",
+        "ambiguous",
+        "price",
+        "spend",
+        "qualified",
+        "insufficient"
+      ],
+      "negatives": 4,
+      "records": [
+        "exclude",
+        "page",
+        "observe"
+      ],
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#report-scope",
+          "top": 111.640625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#data-checks",
+          "top": 112.4375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#term-decisions",
+          "top": 111.75,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#negative-review",
+          "top": 112.28125,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-log",
+          "top": 111.984375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#questions",
+          "top": 112.171875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-6zlv7t",
+        "report-scope",
+        "data-checks",
+        "term-decisions",
+        "negative-review",
+        "review-log",
+        "questions"
+      ],
+      "links": [
+        "/articles/sem-keyword-match-guide.html",
+        "/articles/conversion-tracking-basics.html#conversion-goals",
+        "/articles/sem-keyword-match-guide.html#negative-match",
+        "/articles/google-search-keywords.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "每次转化费用不能算成 0 美元",
+          "present": true
+        },
+        {
+          "text": "没有可靠关联就保留",
+          "present": true
+        },
+        {
+          "text": "不是通用否定词库",
+          "present": true
+        },
+        {
+          "text": "不保证广告展示",
+          "present": true
+        },
+        {
+          "text": "不是客户结果或投放基准",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "tableScrollPassed": true,
+      "listingPage": 6,
+      "listingPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "headline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "schemaHeadline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "canonical": "https://shumaojs.com/articles/search-terms-optimization.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-25T09:56:10+08:00",
+      "visibleModified": "2026-10-25T09:56:10+08:00",
+      "descriptions": [
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "decisions": [
+        "irrelevant",
+        "ambiguous",
+        "price",
+        "spend",
+        "qualified",
+        "insufficient"
+      ],
+      "negatives": 4,
+      "records": [
+        "exclude",
+        "page",
+        "observe"
+      ],
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#report-scope",
+          "top": 112.03125,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#data-checks",
+          "top": 112.390625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#term-decisions",
+          "top": 112.046875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#negative-review",
+          "top": 112.359375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-log",
+          "top": 111.796875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#questions",
+          "top": 111.765625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-t0q0xa",
+        "report-scope",
+        "data-checks",
+        "term-decisions",
+        "negative-review",
+        "review-log",
+        "questions"
+      ],
+      "links": [
+        "/articles/sem-keyword-match-guide.html",
+        "/articles/conversion-tracking-basics.html#conversion-goals",
+        "/articles/sem-keyword-match-guide.html#negative-match",
+        "/articles/google-search-keywords.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "每次转化费用不能算成 0 美元",
+          "present": true
+        },
+        {
+          "text": "没有可靠关联就保留",
+          "present": true
+        },
+        {
+          "text": "不是通用否定词库",
+          "present": true
+        },
+        {
+          "text": "不保证广告展示",
+          "present": true
+        },
+        {
+          "text": "不是客户结果或投放基准",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "tableScrollPassed": true,
+      "listingPage": 6,
+      "listingPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "headline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "schemaHeadline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "canonical": "https://shumaojs.com/articles/search-terms-optimization.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-25T09:56:10+08:00",
+      "visibleModified": "2026-10-25T09:56:10+08:00",
+      "descriptions": [
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "decisions": [
+        "irrelevant",
+        "ambiguous",
+        "price",
+        "spend",
+        "qualified",
+        "insufficient"
+      ],
+      "negatives": 4,
+      "records": [
+        "exclude",
+        "page",
+        "observe"
+      ],
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#report-scope",
+          "top": 111.53125,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#data-checks",
+          "top": 112.34375,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#term-decisions",
+          "top": 111.71875,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#negative-review",
+          "top": 112.046875,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-log",
+          "top": 112.421875,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#questions",
+          "top": 112.40625,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "report-scope",
+        "data-checks",
+        "term-decisions",
+        "negative-review",
+        "review-log",
+        "questions"
+      ],
+      "links": [
+        "/articles/sem-keyword-match-guide.html",
+        "/articles/conversion-tracking-basics.html#conversion-goals",
+        "/articles/sem-keyword-match-guide.html#negative-match",
+        "/articles/google-search-keywords.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "每次转化费用不能算成 0 美元",
+          "present": true
+        },
+        {
+          "text": "没有可靠关联就保留",
+          "present": true
+        },
+        {
+          "text": "不是通用否定词库",
+          "present": true
+        },
+        {
+          "text": "不保证广告展示",
+          "present": true
+        },
+        {
+          "text": "不是客户结果或投放基准",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "tableScrollPassed": false,
+      "listingPage": null,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "headline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "schemaHeadline": "Google Ads 搜索词报告怎么分析与加否定词",
+      "canonical": "https://shumaojs.com/articles/search-terms-optimization.html",
+      "published": "2026-09-11",
+      "modified": "2026-10-25T09:56:10+08:00",
+      "visibleModified": "2026-10-25T09:56:10+08:00",
+      "descriptions": [
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。",
+        "用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "decisions": [
+        "irrelevant",
+        "ambiguous",
+        "price",
+        "spend",
+        "qualified",
+        "insufficient"
+      ],
+      "negatives": 4,
+      "records": [
+        "exclude",
+        "page",
+        "observe"
+      ],
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#report-scope",
+          "top": 111.640625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#data-checks",
+          "top": 112.4375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#term-decisions",
+          "top": 112.0625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#negative-review",
+          "top": 111.59375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-log",
+          "top": 112.296875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#questions",
+          "top": 111.796875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "report-scope",
+        "data-checks",
+        "term-decisions",
+        "negative-review",
+        "review-log",
+        "questions"
+      ],
+      "links": [
+        "/articles/sem-keyword-match-guide.html",
+        "/articles/conversion-tracking-basics.html#conversion-goals",
+        "/articles/sem-keyword-match-guide.html#negative-match",
+        "/articles/google-search-keywords.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "每次转化费用不能算成 0 美元",
+          "present": true
+        },
+        {
+          "text": "没有可靠关联就保留",
+          "present": true
+        },
+        {
+          "text": "不是通用否定词库",
+          "present": true
+        },
+        {
+          "text": "不保证广告展示",
+          "present": true
+        },
+        {
+          "text": "不是客户结果或投放基准",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "tableScrollPassed": true,
+      "listingPage": null,
+      "listingPassed": true
+    }
+  ],
+  "pageErrors": []
+}

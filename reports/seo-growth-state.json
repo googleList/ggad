@@ -9,7 +9,7 @@
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
     "latestBrief": "reports/editorial/2026-10-25-search-terms/brief.md",
     "latestAiReviewStatus": "completed intent overlap, reporting grain/privacy/lag, conditional decision and numerical review for the existing Simplified search-terms article. Six public article JS/noJS cases and six full hub cases pass,102 CI tests pass. Original conceptual assets, no new runtime/page or automatic account action; pending human review is distinct",
-    "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist, tracking tutorial and managed/Meta/Facebook explanation. Separate search-terms question now asks about six decisions, four reporting checks, negative scope and three review records; pending, as are budget/channel-comparison/agency-selection/matching/cost guides. No approval inherited, account budget change or results approved",
+    "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist, tracking tutorial, managed/Meta/Facebook explanation and now search-terms six decisions/four checks/negative scope/three review records onOctober25: 内容符合，可保留. RSA educational copy, budget/channel-comparison/agency-selection/matching/cost reviews remain separate and pending. No approval inherited, live ad/account action or results approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
   "site": "https://shumaojs.com/",
@@ -112,7 +112,8 @@
     "exact-simplified-query-page-country-signal-and-priority-guard-2026-10-25",
     "nested404-native-recovery-and-ad-rank-anchor-alignment-2026-10-25",
     "simplified-budget-pacing-resource-and-three-locale-reliable-input-states-2026-10-25",
-    "simplified-search-terms-report-decision-and-review-workflow-2026-10-25"
+    "simplified-search-terms-report-decision-and-review-workflow-2026-10-25",
+    "owner-accepted-search-terms-decision-and-review-explanation-2026-10-25"
   ],
   "repositorySync": {
     "checkedAt": "2026-10-25T02:06:30.871Z",
@@ -136,7 +137,7 @@
       "reportingChecks": 4, "decisionRows": 6, "negativeChecks": 4, "reviewRows": 3,
       "coverBytes": 77858, "thumbnailBytes": 11918,
       "imageMode": "built-in image_gen, original blank-paper sorting/magnifier concept; no account screenshot or campaign results",
-      "humanReview": "pending; owner asked specifically about six decisions, reporting checks, negative scope and review records",
+      "humanReview": "owner separately confirmed onOctober25: 内容符合，可保留. Only six decisions, four reporting checks, negative scope and three review examples; not new RSA copy, other guides, actual account implementation or results. Retain accepted article without date refresh for approval",
       "freshSearchPerformanceSnapshot": false,
       "note": "Existing report-workflow intent distinct from prelaunch keyword grouping and matching mechanics; title/URL/first publication/list position retained. No universal seven-day verdict, automatic exclusions, hidden-query reconstruction or invented CRM join. First phone noJS checker falsely waited on disabled page timers despite actual scrollLeft40; bounded Node-host polling preserves keyboard-scroll verification and full rerun passes. No site CSS/runtime workaround. Scoped graph63 pages has0orphans/unreachable/maxdepth3, article5existing sources/depth2; not measured link equity or traffic."
     },
@@ -580,7 +581,7 @@
     }
   },
   "nextPriorities": [
-    "Existing Simplified search-terms guide is deployed with six conditional decisions, scope/lag/unknown checks and review records. Await its separate owner review and later query/use evidence; do not rewrite its title from tiny samples or create another near-duplicate negative-keyword guide. Keep accepted keyword/service/landing/tracking explanations stable. No new account exclusions, real query-to-CRM join, external outreach or traffic gain was authorized/performed",
+    "Existing Simplified search-terms guide is deployed and now separately owner-accepted for six decisions, four reporting checks, negative scope and three review examples. Keep it stable and await later query/use evidence, not another near-duplicate or tiny-sample title rewrite. Approval does not extend to RSA drafts, other guides, actual account exclusions, real query-to-CRM joins or outcomes",
     "Budget pacing resource is deployed on the existing Simplified guide, linked from regular tools, with EN/HK shared-state repairs and original images. Await its own human review and a later actual query/use observation before further rewrites. Do not treat calculator availability as visits, links, a recommended account budget or platform billing forecast; external editorial outreach still needs specific owner authorization",
     "Nested404 recovery is verified at three path depths and five old Ad Rank labels corrected, with four new CI regressions. Keep real404/noindex and native relevant recovery; never revive retired storefront URLs, redirect all missing URLs home, refresh article dates for labels or submit these missing probes for indexing. No repeat test needed unless routing/template changes",
     "New reportable 谷歌代投 signal:4 impressions/0clicks/average2 onOctober22, expected Google service page; separately reported countries CN3/SG1, not US/HK. Preserve accepted title/scope and gather later query/page/country evidence. Small sample is not a CTR test, stable rank, market-demand forecast or credit forOctober24 revisions",

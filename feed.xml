@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 01:56:10 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 02:12:37 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谷歌广告标题和描述怎么写？RSA 广告效力排查指南</title>
+      <link>https://shumaojs.com/articles/google-ads-responsive-search-ads.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-responsive-search-ads.html</guid>
+      <description>谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>Google Ads 搜索词报告怎么分析与加否定词</title>
       <link>https://shumaojs.com/articles/search-terms-optimization.html</link>

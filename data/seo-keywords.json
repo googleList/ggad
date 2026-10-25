@@ -105,6 +105,25 @@
       "contentActions": ["保留原网址、标题、首次发布日期，纠正通用否定词与固定周数判断", "增加四行候选主题映射、三组误排反例及有效询盘成本假设演算", "原创封面与压缩缩略图用于文章、列表和分享图；不复制竞争站内容或虚构需求数据"]
     },
     {
+      "cluster": "谷歌广告标题描述与 RSA 广告效力",
+      "language": "zh-Hans",
+      "intent": "informational",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+      "primaryKeywords": ["谷歌广告标题", "谷歌广告描述", "Google Ads 广告效力"],
+      "supportingKeywords": ["谷歌广告不完整", "RSA 广告文案", "谷歌广告中文字符限制", "自适应搜索广告标题示例"],
+      "evidence": {
+        "reviewedAt": "2026-10-25",
+        "method": "Existing inventory has no dedicated RSA copy/Ad Strength guide; an earlier owner question also concerned incomplete/limited-format feedback. Public Simplified results and current Google format/Ad Strength guidance support distinct troubleshooting and writing intent. This is topic fit, not verified Google volume, local-market demand, an account diagnosis or promised ranking improvement.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "sources": ["https://support.google.com/google-ads/answer/7684791?hl=en", "https://support.google.com/google-ads/answer/9921843?hl=zh-Hans", "https://support.google.com/google-ads/answer/10530456?hl=zh-Hans"],
+        "editorialBrief": "reports/editorial/2026-10-25-rsa-copy/brief.md",
+        "humanReviewStatus": "pending; educational draft examples, not approved live ad copy"
+      },
+      "contentActions": ["新增一篇与关键词分组、Ad Rank 不同意图的 RSA 文案教程，不复制参考站", "提供 15 条原创标题和 4 条描述，区分广告效力、政策资格与业务效果", "原创缩略图接入 SEM 列表和服务页，保留原有 47 篇文章顺序及首页优先集群；等待独立人审和后续查询数据"]
+    },
+    {
       "cluster": "谷歌广告搜索词报告与投放复盘",
       "language": "zh-Hans",
       "intent": "informational",
@@ -119,7 +138,7 @@
         "countryDemandVerified": false,
         "sources": ["https://support.google.com/google-ads/answer/2472708?hl=zh-Hans", "https://support.google.com/google-ads/answer/7102466?hl=zh-Hans", "https://support.google.com/google-ads/answer/2453972?hl=en", "https://support.google.com/google-ads/answer/9347065?hl=en-GB"],
         "editorialBrief": "reports/editorial/2026-10-25-search-terms/brief.md",
-        "humanReviewStatus": "pending; separate report-scope, six-decision and change-log explanation review required"
+        "humanReviewStatus": "owner separately confirmed on2026-10-25: 内容符合，可保留. Applies to six conditional decisions, four reporting checks, negative scope and three review examples only; no real campaign action, results or other article approval"
       },
       "contentActions": ["保留标题、URL和列表位置，补充四项口径、六种处理情境与三行复核记录", "区分隐私缺失、未知和零转化，否定范围须经权限人复核，不自动执行", "原创压缩封面同步文章、列表和分享图，等待独立人工审稿及后续查询数据"]
     },

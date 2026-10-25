@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 01:32:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 01:56:10 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Ads 搜索词报告怎么分析与加否定词</title>
+      <link>https://shumaojs.com/articles/search-terms-optimization.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/search-terms-optimization.html</guid>
+      <description>用六种业务情境分析 Google Ads 搜索词报告：核对数据范围、转化延迟与线索质量，选择否定层级，记录变更并复查误排。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Optimization</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>Google Ads 小预算怎么投？日预算与测试计划</title>
       <link>https://shumaojs.com/articles/google-budget-pacing.html</link>
@@ -329,15 +338,6 @@
       <description>SEM 投放前落地页和转化追踪配合方法，说明关键词、广告文案、页面内容和转化事件如何对齐。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>SEM</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>Google Ads 搜索词报告怎么分析与加否定词</title>
-      <link>https://shumaojs.com/articles/search-terms-optimization.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/search-terms-optimization.html</guid>
-      <description>搜索词报告优化教程，介绍如何识别有效意图、浪费点击、否定词、新关键词和落地页内容缺口。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Optimization</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

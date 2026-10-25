@@ -15,14 +15,14 @@
       "supportingKeywords": ["Google Ads 代运营", "谷歌广告投放管理", "谷歌广告优化"],
       "evidence": {
         "reviewedAt": "2026-10-25",
-        "method": "Explicit direct GSC reload advanced28-day dates to2026-09-25 through2026-10-22:228 impressions/0 clicks/average57, all38 visible queries read. Exact 谷歌代投 now reports4 impressions/0 clicks/average2; query-filtered page view shows google-ads.html with4, separate country view CN3/SG1, all4 onOctober22. This is a small newly reportable signal outside US/HK, predatingOctober24 content releases, not a stable rank, monthly volume, CTR test or verified US/HK Simplified demand. Previous throughOctober21 no-match observation is historical, not current.",
-        "performanceSnapshot": "reports/search-console/query-signal-2026-10-25.json",
+        "method": "New explicit direct GSC reload advanced28-day dates to2026-09-26 through2026-10-23:239 impressions/0clicks/average55.6, all39visible queries and28countries read. Exact 谷歌代投 reports5impressions/0clicks/average3.8 on google-ads.html; separate query-country view CN4/SG1, no fresh daily breakdown. Mixed google ads代运营 also reports2/0/54.0. Fresh adjacent7days October17-23 versus10-16 are41versus44impressions, both0clicks; US11versus32/HK12versus8 are separate country observations, not those Simplified query markets. No stable rank, monthly volume, CTR test, US/HK Simplified-demand proof or credit toOctober24/25 releases. Prior throughOctober22 snapshot retained as history.",
+        "performanceSnapshot": "reports/search-console/2026-10-25-settled-follow-up.json",
         "googleSearchVolume": null,
         "countryDemandVerified": false,
         "editorialBrief": "reports/editorial/2026-10-24-service-scope/brief.md",
         "humanReviewStatus": "owner confirmed on 2026-10-24: 说明符合实际业务. Applies to setup/management/diagnostic scope, separate fee confirmation and handover explanation only; not unspecified prices, other articles or results"
       },
-      "contentActions": ["保留已确认服务页标题、网址和范围，不因4次展示0点击就测试标题或重复改写", "继续分别核对简体查询与美国香港国家维度，当前谷歌代投展示来自中国与新加坡", "未确定的套餐和价格仍不得虚构；以更晚完整周期观察验证，不把平均排名2当作稳定第二名"]
+      "contentActions": ["保留已确认服务页标题、网址和范围，不因5次展示0点击就测试标题或重复改写", "继续分别核对简体查询与美国香港国家维度，当前谷歌代投展示来自中国4次与新加坡1次", "优先解决已经在GSC出现展示的HTTP首页协议统一问题；不是靠改标题或新建同义词页面解决", "未确定的套餐和价格仍不得虚构，2次混合代运营查询也不足以新建重复页面；等待更晚完整周期，不把平均排名3.8当作稳定名次"]
     },
     {
       "cluster": "谷歌广告开户流程",

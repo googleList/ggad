@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-10-25T15:27:56Z",
+  "method": "Existing deployment_drift_audit.check_url HEAD recorder, plus a separate root GET through Invoke-WebRequest with redirects disabled. No authentication or browser analytics execution.",
+  "headProbes": [
+    {"url": "http://shumaojs.com/google-ads.html?seo-probe=protocol", "status": 200, "finalUrl": "http://shumaojs.com/google-ads.html?seo-probe=protocol", "redirectStatuses": []},
+    {"url": "http://www.shumaojs.com/google-ads.html?seo-probe=protocol", "status": 200, "finalUrl": "http://shumaojs.com/google-ads.html?seo-probe=protocol", "redirectStatuses": [301]},
+    {"url": "https://www.shumaojs.com/google-ads.html?seo-probe=protocol", "status": 200, "finalUrl": "https://shumaojs.com/google-ads.html?seo-probe=protocol", "redirectStatuses": [301]}
+  ],
+  "rootGet": {"url": "http://shumaojs.com/", "status": 200, "location": null, "server": "cloudflare", "followRedirects": false},
+  "earlierGetAttempt": "A Python four-URL GET loop timed out before producing any per-URL results; no success inferred from that attempt. The separate root GET above is the actual completed GET evidence. Service path/query probes are HEAD only, not claimed as GET tests.",
+  "settingsAccess": "Unauthenticated GitHub Pages settings API returned404; same browser settings page showed Sign in/404. This proves unavailable signed-in settings access here, not absent Pages hosting or a value of https_enforced. No old user password or token used. Cloudflare login/specific redirect authorization requested, pending.",
+  "fixed": false
+}

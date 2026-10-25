@@ -20,12 +20,18 @@
   "goalIsGuaranteed": false,
   "lastRunAt": "2026-10-25",
   "latestReport": "reports/seo-follow-up-2026-10-25.md",
+  "latestMeasurementReview": {
+    "snapshot": "reports/search-console/2026-10-25-settled-follow-up.json",
+    "through": "2026-10-23",
+    "decision": "Prioritize real HTTP-to-HTTPS consolidation/access over another immediate article/title rewrite. Keep accepted Simplified service/content stable, preserve English/Traditional pages. Five target-query impressions still do not justify a CTR/title test. Await specific Cloudflare authorization/login; do not claim edge fix or organic-visit growth.",
+    "ownerAction": "reports/deployment/2026-10-25-https-owner-action.md"
+  },
   "deployment": {
     "status": "deployed",
-    "reason": "577f000 adds one differentiated Simplified RSA copy/AdStrength guide with15original teaching headlines/fourdescriptions, format/counting/eligibility distinctions, fivepreflight checks and original raster assets. Native hub/service discovery preserves original47relative positions/priorities;48cards/46feeditems. Search-terms owner confirmation recorded separately. No live ad or account change; RSA review pending.",
-    "localCommit": "577f000",
+    "reason": "Previous RSA content577f000 and reporting5e1912b are verified deployed. Current batch records fresh settled GSC comparisons and actual HTTP search/redirect evidence only, reprioritizes narrow edge enforcement with owner login/authorization pending; no public content, asset, code, DNS, account or GSC-setting change. Reporting commits may follow this checkpoint.",
+    "localCommit": "5e1912b",
     "verifiedAt": "2026-10-25",
-    "latestVerification": "Public marker matched577f000c205eec26c9d5eeb3184e9814870274e7; Pages94/40202715000 job121197079387 succeeded with105 CI tests,66HTML/64sitemap zero errors/warnings and all gates,148publicfiles. Production article14:35:34.497Z passes six JS/noJS cases across1440/768/390/320, six native anchors, phone menu/dropdown, both keyboard-scroll tables, internal destination/fragment and service/SEMpage2 journeys. Hub14:36:32.851Z passes six cases/all48cards including delayed-CSS noJS. Public phone screenshot inspected; CSS/runtime unchanged. Reporting commits may follow. No new GSC/GA4/fieldCWV, Google ad preview/approval, indexed status, traffic or link gain."
+    "latestVerification": "Fresh public marker matches5e1912bf5280aa4ccadbf6784679acf65aa3b7d2, whose Pages95/40203259218 job121198731868 succeeded in the preceding turn; unchanged RSA browser/105CI evidence remains under577f000. New deployment audit finds64/64 sitemap URLs,0drift but HTTP apex200/no redirect and HTTPwww301 to HTTP; separate apexGET200 confirms, with path/queryHEAD probes. This is an unresolved edge defect, not a failed source deployment; no ranking/visit/fieldCWV or edge-fix claim."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -114,16 +120,17 @@
     "simplified-budget-pacing-resource-and-three-locale-reliable-input-states-2026-10-25",
     "simplified-search-terms-report-decision-and-review-workflow-2026-10-25",
     "owner-accepted-search-terms-decision-and-review-explanation-2026-10-25",
-    "simplified-rsa-copy-format-and-ad-strength-original-guide-2026-10-25"
+    "simplified-rsa-copy-format-and-ad-strength-original-guide-2026-10-25",
+    "settled-gsc-adjacent7-and28-comparisons-http-search-signal-and-owner-action-2026-10-25"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-25T14:36:32.851Z",
-    "localHead": "577f000",
-    "remoteHead": "577f000",
+    "checkedAt": "2026-10-25T15:27:56Z",
+    "localHead": "5e1912b",
+    "remoteHead": "5e1912b",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified RSA checkpoint577f000; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes. Empty filtered Actions results are not proof no run exists: match exact SHA in recent runs, then poll same run/direct jobs on transient connector failures, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
+    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified public checkpoint5e1912b, current measurement/reporting commits may follow without public content change. Prioritize owner-authorized edge HTTPS normalization from fresh GSC/live evidence, not another tiny-sample title rewrite. Use strict-verified official SSH443, no global credential changes; recover workflow observation on the same known run. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
   },
   "dataAccess": {
     "rsaGuideRelease2026-10-25": {
@@ -188,23 +195,35 @@
       "note": "Live deep404 baseline CSS/logo/home all resolved to missing subdirectory and returned404. Root-relative links restore resources and native recovery while missing page keeps404/noindex. Five old setup/Search labels now describe Ad Rank; PMax no longer promises all queries/costs are exposed. Local custom404 response explicitly simulated only because simple server lacks Pages fallback; production never intercepted. No new article, image, service promise, human approval or performance result."
     },
     "latestSearchPerformanceFollowUp": {
-      "snapshot": "reports/search-console/query-signal-2026-10-25.json",
-      "observedDatesAsiaShanghai": ["2026-10-24", "2026-10-25"],
-      "period": "2026-09-25 through 2026-10-22",
-      "clicks": 0, "impressions": 228, "ctrPercent": 0, "averagePosition": 57,
-      "queryRowsRead": 38, "queryRowsDisplayed": 38,
-      "countryRowsRead": 10, "countryRowsDisplayed": 25,
-      "countrySample": {"US": {"impressions": 116, "position": 62.9}, "HK": {"impressions": 58, "position": 47.8}},
-      "simplifiedQuery": {
-        "query": "谷歌代投", "clicks": 0, "impressions": 4, "position": 2,
-        "queryFilteredPage": "https://shumaojs.com/google-ads.html",
-        "pageImpressions": 4,
-        "separateQueryFilteredCountryView": {"CN": 3, "SG": 1},
-        "dayWithAllFourReportedImpressions": "2026-10-22"
-      },
-      "new7DayOrPreviousPeriodRead": false,
-      "unfilteredPageTableRead": false,
-      "interpretation": "Explicit reload advanced the cached throughOctober21 view. First retained reportable Simplified target signal, not stable top2, enough CTR evidence or US/HK demand proof. Query/page, query/country and query/day are separate views, not a joint export. All4 impressions predateOctober24 releases. Rolling228 versus219 is not adjacent-period growth or a release effect; latest data may still fill in. Historical seven-day baseline retained separately."
+      "snapshot": "reports/search-console/2026-10-25-settled-follow-up.json",
+      "previousSnapshotRetained": "reports/search-console/query-signal-2026-10-25.json",
+      "observedDatesAsiaShanghai": ["2026-10-25"],
+      "period": "2026-09-26 through 2026-10-23",
+      "clicks": 0, "impressions": 239, "ctrPercent": 0, "averagePosition": 55.6,
+      "queryRowsRead": 39, "queryRowsDisplayed": 39,
+      "countryRowsRead": 28, "countryRowsDisplayed": 28,
+      "pageRowsReadIn28DayComparison": 38,
+      "countrySample": {"US": {"impressions": 119, "position": 61.6}, "HK": {"impressions": 60, "position": 48.3}},
+      "simplifiedQuery": {"query": "谷歌代投", "clicks": 0, "impressions": 5, "position": 3.8, "queryFilteredPage": "https://shumaojs.com/google-ads.html", "pageImpressions": 5, "separateQueryFilteredCountryView": {"CN": 4, "SG": 1}, "freshDailyBreakdownRead": false},
+      "newMixedSimplifiedRow": {"query": "google ads代运营", "clicks": 0, "impressions": 2, "position": 54},
+      "sevenDayComparison": {"current": "2026-10-17 through2026-10-23", "previous": "2026-10-10 through2026-10-16", "currentImpressions": 41, "previousImpressions": 44, "clicksBoth": 0, "currentPosition": 26.4, "previousPosition": 39.7, "queryRowsRead": 13, "pageRowsRead": 27, "countryRowsRead": 10, "countryRowsDisplayed": 16, "countryImpressions": {"US": [11, 32], "HK": [12, 8]}},
+      "twentyEightDayComparison": {"current": "2026-09-26 through2026-10-23", "previous": "2026-08-29 through2026-09-25", "currentImpressions": 239, "previousImpressions": 2, "currentClicks": 0, "previousClicks": 1, "previousClickPage": "https://shumaojs.com/", "fourAbsoluteDatesVerified": true},
+      "new7DayOrPreviousPeriodRead": true,
+      "unfilteredPageTableRead": true,
+      "interpretation": "Fresh full/sampled rows and absolute7/28comparison dates now verified; earlier28-day no-page/partial-country notes are historical. Query/country/page views not joined. Zero-impression positions normalizednull, not rank0. Country totals239 reconcile; visible queries197 and pageimpressions284 have different aggregation/visibility scope. All data through23 predatesOctober24/25 releases.5target impressions/2mixed query impressions not title-test evidence or US/HK Simplified demand. Tiny prior28preprogram baseline2impressions/1click cannot support percentage-growth celebration. HTTP homepage reports2impressions and still serves200 without HTTPS redirect, so edge enforcement/access is next priority."
+    },
+    "httpSearchSignal2026-10-25": {
+      "audit": "reports/deployment/2026-10-25-http-search-signal.json",
+      "pathProbes": "reports/deployment/2026-10-25-path-query-probes.json",
+      "ownerAction": "reports/deployment/2026-10-25-https-owner-action.md",
+      "reportedHttpHomepageImpressions7And28Days": 2,
+      "localSitemapUrls": 64, "productionSitemapUrls": 64, "sitemapUrlDrift": 0,
+      "httpApexHeadAndGet": "200 without redirect",
+      "httpWww": "301 to HTTP apex then200",
+      "httpsWww": "301 to HTTPS apex then200",
+      "settingsAccess": "GitHub Pages unauthenticatedAPI404 and same browser Sign in/404; no admin state inferred. Cloudflare login and narrowly scoped301 authorization requested, pending. No credentials used or config changed",
+      "fixed": false,
+      "note": "RootGET confirmed via separate completed request after a PythonGETloop timed out without per-URL output. Service path/query probesHEAD only. Meta canonical/sitemap/source deployment is not HTTP redirect enforcement; do not remove GSC property/history or redirect retiredURLs home."
     },
     "priorityAnalyzerGuard2026-10-25": {
       "script": "scripts/prioritize_search_console.py",
@@ -599,11 +618,13 @@
     }
   },
   "nextPriorities": [
+    "Prioritize actual HTTP-to-HTTPS/WWW consolidation: current GSC HTTP homepage2impressions plus live rootHEAD/GET200 and path/queryHEAD evidence. Owner-specific Cloudflare login/301 permission request pending; inspect existing rules then scope to apexHTTP/www only, preserve path/query and exclude HTTPSapex. Do not change DNS/TLS mode/other subdomains, delete GSC data, use a fake static redirect workaround or claim the edge fixed. Next fresh verification after access/change, not repeated unchanged polls",
+    "Use the newest throughOctober23 snapshot:28days239impressions/0clicks, all39queries/28countries/38pagecomparisonrows; adjacent7days41versus44, US11versus32/HK12versus8, both0clicks. 谷歌代投5/0/3.8 goes to accepted service page, separately CN4/SG1; mixed代运营2/0/54 is not a new-page mandate. Keep accepted Simplified titles/scope and all localizations stable. Data ends before latest releases; no causal rank/CTR improvement or geographic demand inferred. Prior28only2impressions/1click preprogram, not comparable growth proof",
     "New Simplified RSA copy/AdStrength guide is deployed and connected to SEM hub/service, with15/4teaching drafts and separate review requested. Await its genuine feedback and later query/page evidence; do not treat format checks as Google approval, use frequency as a causal creative winner, copy all drafts into an account or duplicate the same tutorial under another URL. Preserve original47articles and English/Traditional localizations",
     "Existing Simplified search-terms guide is deployed and now separately owner-accepted for six decisions, four reporting checks, negative scope and three review examples. Keep it stable and await later query/use evidence, not another near-duplicate or tiny-sample title rewrite. Approval does not extend to RSA drafts, other guides, actual account exclusions, real query-to-CRM joins or outcomes",
     "Budget pacing resource is deployed on the existing Simplified guide, linked from regular tools, with EN/HK shared-state repairs and original images. Await its own human review and a later actual query/use observation before further rewrites. Do not treat calculator availability as visits, links, a recommended account budget or platform billing forecast; external editorial outreach still needs specific owner authorization",
     "Nested404 recovery is verified at three path depths and five old Ad Rank labels corrected, with four new CI regressions. Keep real404/noindex and native relevant recovery; never revive retired storefront URLs, redirect all missing URLs home, refresh article dates for labels or submit these missing probes for indexing. No repeat test needed unless routing/template changes",
-    "New reportable 谷歌代投 signal:4 impressions/0clicks/average2 onOctober22, expected Google service page; separately reported countries CN3/SG1, not US/HK. Preserve accepted title/scope and gather later query/page/country evidence. Small sample is not a CTR test, stable rank, market-demand forecast or credit forOctober24 revisions",
+    "Historical first reportable 谷歌代投 checkpoint was4impressions/0clicks/average2 throughOctober22, CN3/SG1. New throughOctober23 checkpoint is5/0/3.8, CN4/SG1; both snapshots retained, no fresh daily breakdown inferred. Preserve accepted service title/scope; neither sample supports a CTR test, stable rank, geographic forecast or credit toOctober24 revisions",
     "Existing Google/Meta comparison is deployed with original assets and public browser/CI evidence. Await its separate genuine human review; keep approved service/keyword/landing/tracking explanations stable. Measure a later settled query/page/country/crawl window before calling this a demand, platform or ranking win; do not immediately rewrite it again",
     "Follow the updated content-led objective. Each selected batch needs keyword/intent evidence, title candidates, outline, original/source-backed content, thumbnail provenance, optimization and deployment checks; do not default to repeated status-only account polling",
     "Incorporate actual human review of the published cost guide when received. Its raw/qualified lead definitions and fee boundaries are intentionally general; no owner approval, package price or client evidence may be invented",
@@ -611,10 +632,10 @@
     "New managed/Meta/Facebook service differentiation is deployed and separately owner-accepted on October24. Retain the reviewed explanation and original URLs/canonicals; do not claim a cannibalization fix without query-page evidence. Compare future actual hub-to-service enquiries and country/query observations, not assumed benefit from link counts alone",
     "October24 stored URL inspections confirm articles.html now indexed, changed from its historical October19 Discovered state, and google-ads.html indexed; both expected Google canonicals. Raw last crawl times October19 01:15:41 and October20 14:06:13 predate their latest revisions. Snapshot reports/search-console/service-and-hub-inspection-2026-10-24.json. Wait for a later crawl/performance window; no repeat requests, no proof Google read new content, no ranking/traffic attribution",
     "Representative agency-selection guide inspected October24: indexed with expected Google canonical, last stored crawl October17 09:50:25 before its October24 revision. Snapshot reports/search-console/agency-url-inspection-2026-10-24.json. Wait for later crawl/performance evidence and genuine feedback before another rewrite; do not repeat priority-crawl requests or remove localized pages merely to change query language",
-    "Use reports/search-console/query-signal-2026-10-25.json for the newerSeptember25-October22 window and exact target-query drill-down. All38 visible query rows read, only10/25 unfiltered country rows, no new unfiltered page table or seven-day comparison. Keep reports/search-console/2026-10-23.json as the full historical throughOctober21 query/page/adjacent-week checkpoint, not current no-target-query evidence",
+    "Use reports/search-console/2026-10-25-settled-follow-up.json for currentSeptember26-October23 full39queries/28countries/38pagecomparison rows and genuine adjacent7/28day comparisons. query-signal-2026-10-25.json retains the earlier throughOctober22 partial-country/no-new-page checkpoint;2026-10-23.json retains throughOctober21 history. Do not silently merge windows, fabricate joins or label the manual snapshots as downloadedCSV",
     "Both priority guides are confirmed indexed with expected Google canonicals. Wait for a newer account-setup guide crawl after its October20 expansion; the reported crawl is stillOctober19. Do not rebuild these URLs or repeatOctober19 requests merely because overall visibility remains limited",
-    "Use the verified October 15-21 versus October 8-14 comparison: 28 versus 60 impressions, both zero clicks. Tiny mixed samples cannot establish a release effect; rolling 28-day snapshots overlap and are not incremental growth measurements. The old five-impression prior-28-day baseline remains historical only",
-    "Cloudflare administrator action: enable Always Use HTTPS and add a permanent www-to-apex redirect preserving path and query; verify HTTP apex and both www schemes resolve to https://shumaojs.com before marking canonicalization fixed",
+    "Current adjacent weekly comparison isOctober17-23 versus10-16:41versus44impressions, both0clicks. October15-21 versus8-14(28versus60) remains historical. Current genuine prior28 baselineAugust29-September25 is2impressions/1homepageclick, not the older five-impression window. Small mixed/preprogram samples and rolling windows do not establish release-driven growth or comparable commercial demand",
+    "Cloudflare owner action is now a requested hostname-scoped301 for HTTPapex/www with path/query preservation; inspect existing rules, exclude HTTPSapex and leave DNS/TLS mode/other subdomains unchanged. AlwaysUseHTTPS is zone-wide and must not be blindly enabled for unaudited other hosts. Verify live redirects before marking fixed; owner action report contains exact scope and acceptance matrix",
     "Open/identify the correct shumaojs.com GA4 resource before measuring organic visits or enquiries; no placeholder measurement ID or unrelated Firebase analytics. GSC Wizard remains optional for direct manual performance reads",
     "The indexing report now says October 16: 48 indexed / 50 not indexed. Its counts predate recent releases. Preserve the historical October 20 example triage without treating its 57 examples as today's 50; do not restore retired account-selling URLs or submit validation simply to clear old reason labels",
     "Continue strengthening internal links around the four Simplified Chinese query themes while retaining US English and Hong Kong Traditional Chinese clusters",

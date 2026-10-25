@@ -7,8 +7,8 @@
     "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
-    "latestBrief": "reports/editorial/2026-10-25-search-terms/brief.md",
-    "latestAiReviewStatus": "completed intent overlap, reporting grain/privacy/lag, conditional decision and numerical review for the existing Simplified search-terms article. Six public article JS/noJS cases and six full hub cases pass,102 CI tests pass. Original conceptual assets, no new runtime/page or automatic account action; pending human review is distinct",
+    "latestBrief": "reports/editorial/2026-10-25-rsa-copy/brief.md",
+    "latestAiReviewStatus": "completed distinct-intent, source/claim, Chinese/ASCII example-unit, message-combination, format/eligibility/AdRank distinction and metadata/asset review for the new Simplified RSA guide. Six public article JS/noJS cases plus six full hub cases and105 CI tests pass. Original conceptual images and15/4teaching drafts; no live creative uploaded or account diagnosis performed",
     "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist, tracking tutorial, managed/Meta/Facebook explanation and now search-terms six decisions/four checks/negative scope/three review records onOctober25: 内容符合，可保留. RSA educational copy, budget/channel-comparison/agency-selection/matching/cost reviews remain separate and pending. No approval inherited, live ad/account action or results approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
@@ -22,10 +22,10 @@
   "latestReport": "reports/seo-follow-up-2026-10-25.md",
   "deployment": {
     "status": "deployed",
-    "reason": "41185ee expands the existing Simplified search-terms report workflow with four reporting checks, six conditional decisions, negative-scope review and three change-log examples; original raster cover/mobile/list thumbnail, source references and contextual links. Existing title/URL/publication/list position retained. No new page/runtime, automatic exclusions or account/lead promises. Article-specific human review pending.",
-    "localCommit": "41185ee",
+    "reason": "577f000 adds one differentiated Simplified RSA copy/AdStrength guide with15original teaching headlines/fourdescriptions, format/counting/eligibility distinctions, fivepreflight checks and original raster assets. Native hub/service discovery preserves original47relative positions/priorities;48cards/46feeditems. Search-terms owner confirmation recorded separately. No live ad or account change; RSA review pending.",
+    "localCommit": "577f000",
     "verifiedAt": "2026-10-25",
-    "latestVerification": "Public marker matched41185ee1fc67127c0471e1f0e58f8f29174ac96e; Pages #92 job121048520936 succeeded with102 CI tests, SEO65 HTML/63 sitemap zero errors/warnings and all gates,145 public files. Production article evidence02:06:18.784Z passes six JS/noJS cases across1440/768/390/320, native anchors, phone keyboard table scroll, internal destination/fragment checks and SEM page6 card journey. Hub02:06:30.871Z passes six cases/all47 cards including delayed-CSS noJS. Screenshots inspected; main CSS/runtime unchanged. Reporting commits may follow; no new GSC/GA4/link/field-CWV or ranking result."
+    "latestVerification": "Public marker matched577f000c205eec26c9d5eeb3184e9814870274e7; Pages94/40202715000 job121197079387 succeeded with105 CI tests,66HTML/64sitemap zero errors/warnings and all gates,148publicfiles. Production article14:35:34.497Z passes six JS/noJS cases across1440/768/390/320, six native anchors, phone menu/dropdown, both keyboard-scroll tables, internal destination/fragment and service/SEMpage2 journeys. Hub14:36:32.851Z passes six cases/all48cards including delayed-CSS noJS. Public phone screenshot inspected; CSS/runtime unchanged. Reporting commits may follow. No new GSC/GA4/fieldCWV, Google ad preview/approval, indexed status, traffic or link gain."
   },
   "completedBatches": [
     "baseline-technical-review",
@@ -113,18 +113,36 @@
     "nested404-native-recovery-and-ad-rank-anchor-alignment-2026-10-25",
     "simplified-budget-pacing-resource-and-three-locale-reliable-input-states-2026-10-25",
     "simplified-search-terms-report-decision-and-review-workflow-2026-10-25",
-    "owner-accepted-search-terms-decision-and-review-explanation-2026-10-25"
+    "owner-accepted-search-terms-decision-and-review-explanation-2026-10-25",
+    "simplified-rsa-copy-format-and-ad-strength-original-guide-2026-10-25"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-25T02:06:30.871Z",
-    "localHead": "41185ee",
-    "remoteHead": "41185ee",
+    "checkedAt": "2026-10-25T14:36:32.851Z",
+    "localHead": "577f000",
+    "remoteHead": "577f000",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified search-terms checkpoint41185ee; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes; recover transient workflow observation on same known run, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
+    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified RSA checkpoint577f000; reporting commits may follow. Use strict-verified official SSH443 if22 resets, no global credential changes. Empty filtered Actions results are not proof no run exists: match exact SHA in recent runs, then poll same run/direct jobs on transient connector failures, not restart. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
   },
   "dataAccess": {
+    "rsaGuideRelease2026-10-25": {
+      "contentCommit": "577f000c205eec26c9d5eeb3184e9814870274e7",
+      "successfulRun": "https://github.com/googleList/ggad/actions/runs/40202715000",
+      "brief": "reports/editorial/2026-10-25-rsa-copy/brief.md",
+      "browserEvidence": "reports/editorial/2026-10-25-rsa-copy/production/browser.json",
+      "hubEvidence": "reports/editorial/2026-10-25-rsa-copy/production/hub/browser.json",
+      "language": "zh-CN", "widthsPassed": [1440, 768, 390, 320],
+      "articleCases": 6, "hubCases": 6, "ciUnitTestsPassed": 105, "newUnitTests": 3,
+      "teachingHeadlines": 15, "teachingDescriptions": 4,
+      "maximumExampleHeadlineUnits": 19, "maximumExampleDescriptionUnits": 72,
+      "coverBytes": 114182, "thumbnailBytes": 18854,
+      "imageMode": "built-in image_gen, original blank-page/typewriter concept, not a live Google ad preview",
+      "currentHubCards": 48, "currentSemCards": 38, "currentFeedItems": 46,
+      "humanReview": "pending; owner asked separately about format/counting/AdStrength distinction,15/4teaching drafts andfivepreflight checks. Search-terms approval does not cover this new guide or live ads",
+      "freshSearchPerformanceSnapshot": false,
+      "note": "Distinct missing instructional intent verified in47existing titles and source-backed Simplified results; no volume/country-demand proof. Frozen example limits checked using Python stdlib unicodedata with a restricted reviewed character set, not an arbitrary Google validator. Prior47identities/relative priorities/order retained; new guide2internal sources/depth2, all64indexable pages reachable, not measured link equity. Keep basic field requirements distinct from optimization suggestions and score distinct from eligibility/AdRank; no submitted ad, fake result or policy guarantee."
+    },
     "searchTermsRelease2026-10-25": {
       "contentCommit": "41185ee1fc67127c0471e1f0e58f8f29174ac96e",
       "successfulRun": "https://github.com/googleList/ggad/actions/runs/40153081182",
@@ -581,6 +599,7 @@
     }
   },
   "nextPriorities": [
+    "New Simplified RSA copy/AdStrength guide is deployed and connected to SEM hub/service, with15/4teaching drafts and separate review requested. Await its genuine feedback and later query/page evidence; do not treat format checks as Google approval, use frequency as a causal creative winner, copy all drafts into an account or duplicate the same tutorial under another URL. Preserve original47articles and English/Traditional localizations",
     "Existing Simplified search-terms guide is deployed and now separately owner-accepted for six decisions, four reporting checks, negative scope and three review examples. Keep it stable and await later query/use evidence, not another near-duplicate or tiny-sample title rewrite. Approval does not extend to RSA drafts, other guides, actual account exclusions, real query-to-CRM joins or outcomes",
     "Budget pacing resource is deployed on the existing Simplified guide, linked from regular tools, with EN/HK shared-state repairs and original images. Await its own human review and a later actual query/use observation before further rewrites. Do not treat calculator availability as visits, links, a recommended account budget or platform billing forecast; external editorial outreach still needs specific owner authorization",
     "Nested404 recovery is verified at three path depths and five old Ad Rank labels corrected, with four new CI regressions. Keep real404/noindex and native relevant recovery; never revive retired storefront URLs, redirect all missing URLs home, refresh article dates for labels or submit these missing probes for indexing. No repeat test needed unless routing/template changes",

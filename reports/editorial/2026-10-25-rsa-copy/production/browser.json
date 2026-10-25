@@ -1,0 +1,801 @@
+{
+  "checkedAt": "2026-10-25T14:35:34.497Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "headline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "schemaHeadline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "canonical": "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+      "published": "2026-10-25",
+      "modified": "2026-10-25T10:12:37+08:00",
+      "visibleModified": "2026-10-25T10:12:37+08:00",
+      "descriptions": [
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "headlines": [
+        "谷歌广告代投咨询",
+        "Google Ads 投放管理",
+        "先确认广告服务范围",
+        "账户由客户自行持有",
+        "媒体费与服务费分开",
+        "按业务目标规划投放",
+        "搜索词与广告组检查",
+        "转化追踪方案梳理",
+        "振润达广告咨询",
+        "按线索反馈持续优化",
+        "了解广告开户准备",
+        "检查现有投放设置",
+        "谷歌广告专项检查",
+        "沟通目标市场与语言",
+        "查看投放合作方式"
+      ],
+      "copyDescriptions": [
+        "先确认目标市场、语言和业务需求，再梳理关键词、广告文案与落地页承接。",
+        "客户持有广告账户与付款资料，媒体预算和服务费分别确认，合作范围写清楚。",
+        "已有账户可先做专项检查，核对搜索词、转化目标和页面问题，再决定优化动作。",
+        "提供公开网站与目标需求，沟通开户协助或持续代投；不承诺固定广告排名。"
+      ],
+      "diagnosis": 3,
+      "writingSteps": 4,
+      "preflight": 5,
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#diagnose",
+          "top": 111.5625,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#rsa-specs",
+          "top": 112.46875,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#writing-plan",
+          "top": 112.375,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#copy-examples",
+          "top": 111.5,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#preflight",
+          "top": 112.46875,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-questions",
+          "top": 111.765625,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-3wqfg5",
+        "diagnose",
+        "rsa-specs",
+        "writing-plan",
+        "copy-examples",
+        "preflight",
+        "review-questions"
+      ],
+      "links": [
+        "/articles/google-search-keywords.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "不是已投放广告",
+          "present": true
+        },
+        {
+          "text": "不参与计算 Ad Rank",
+          "present": true
+        },
+        {
+          "text": "不是对具体账户的诊断",
+          "present": true
+        },
+        {
+          "text": "长度合格不保证文字在每次展示中完整出现",
+          "present": true
+        },
+        {
+          "text": "没有自动发布广告",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "listingPage": 2,
+      "listingPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "headline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "schemaHeadline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "canonical": "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+      "published": "2026-10-25",
+      "modified": "2026-10-25T10:12:37+08:00",
+      "visibleModified": "2026-10-25T10:12:37+08:00",
+      "descriptions": [
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "headlines": [
+        "谷歌广告代投咨询",
+        "Google Ads 投放管理",
+        "先确认广告服务范围",
+        "账户由客户自行持有",
+        "媒体费与服务费分开",
+        "按业务目标规划投放",
+        "搜索词与广告组检查",
+        "转化追踪方案梳理",
+        "振润达广告咨询",
+        "按线索反馈持续优化",
+        "了解广告开户准备",
+        "检查现有投放设置",
+        "谷歌广告专项检查",
+        "沟通目标市场与语言",
+        "查看投放合作方式"
+      ],
+      "copyDescriptions": [
+        "先确认目标市场、语言和业务需求，再梳理关键词、广告文案与落地页承接。",
+        "客户持有广告账户与付款资料，媒体预算和服务费分别确认，合作范围写清楚。",
+        "已有账户可先做专项检查，核对搜索词、转化目标和页面问题，再决定优化动作。",
+        "提供公开网站与目标需求，沟通开户协助或持续代投；不承诺固定广告排名。"
+      ],
+      "diagnosis": 3,
+      "writingSteps": 4,
+      "preflight": 5,
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#diagnose",
+          "top": 112.296875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#rsa-specs",
+          "top": 111.59375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#writing-plan",
+          "top": 112.28125,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#copy-examples",
+          "top": 111.96875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#preflight",
+          "top": 111.71875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-questions",
+          "top": 112.1875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-v9ecbm",
+        "diagnose",
+        "rsa-specs",
+        "writing-plan",
+        "copy-examples",
+        "preflight",
+        "review-questions"
+      ],
+      "links": [
+        "/articles/google-search-keywords.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "不是已投放广告",
+          "present": true
+        },
+        {
+          "text": "不参与计算 Ad Rank",
+          "present": true
+        },
+        {
+          "text": "不是对具体账户的诊断",
+          "present": true
+        },
+        {
+          "text": "长度合格不保证文字在每次展示中完整出现",
+          "present": true
+        },
+        {
+          "text": "没有自动发布广告",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "listingPage": 2,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "headline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "schemaHeadline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "canonical": "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+      "published": "2026-10-25",
+      "modified": "2026-10-25T10:12:37+08:00",
+      "visibleModified": "2026-10-25T10:12:37+08:00",
+      "descriptions": [
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/rsa-copywriting-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "headlines": [
+        "谷歌广告代投咨询",
+        "Google Ads 投放管理",
+        "先确认广告服务范围",
+        "账户由客户自行持有",
+        "媒体费与服务费分开",
+        "按业务目标规划投放",
+        "搜索词与广告组检查",
+        "转化追踪方案梳理",
+        "振润达广告咨询",
+        "按线索反馈持续优化",
+        "了解广告开户准备",
+        "检查现有投放设置",
+        "谷歌广告专项检查",
+        "沟通目标市场与语言",
+        "查看投放合作方式"
+      ],
+      "copyDescriptions": [
+        "先确认目标市场、语言和业务需求，再梳理关键词、广告文案与落地页承接。",
+        "客户持有广告账户与付款资料，媒体预算和服务费分别确认，合作范围写清楚。",
+        "已有账户可先做专项检查，核对搜索词、转化目标和页面问题，再决定优化动作。",
+        "提供公开网站与目标需求，沟通开户协助或持续代投；不承诺固定广告排名。"
+      ],
+      "diagnosis": 3,
+      "writingSteps": 4,
+      "preflight": 5,
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#diagnose",
+          "top": 111.640625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#rsa-specs",
+          "top": 112.4375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#writing-plan",
+          "top": 111.796875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#copy-examples",
+          "top": 112.375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#preflight",
+          "top": 112.015625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-questions",
+          "top": 112.328125,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-jcifqb",
+        "diagnose",
+        "rsa-specs",
+        "writing-plan",
+        "copy-examples",
+        "preflight",
+        "review-questions"
+      ],
+      "links": [
+        "/articles/google-search-keywords.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "不是已投放广告",
+          "present": true
+        },
+        {
+          "text": "不参与计算 Ad Rank",
+          "present": true
+        },
+        {
+          "text": "不是对具体账户的诊断",
+          "present": true
+        },
+        {
+          "text": "长度合格不保证文字在每次展示中完整出现",
+          "present": true
+        },
+        {
+          "text": "没有自动发布广告",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "listingPage": 2,
+      "listingPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "headline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "schemaHeadline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "canonical": "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+      "published": "2026-10-25",
+      "modified": "2026-10-25T10:12:37+08:00",
+      "visibleModified": "2026-10-25T10:12:37+08:00",
+      "descriptions": [
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/rsa-copywriting-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "headlines": [
+        "谷歌广告代投咨询",
+        "Google Ads 投放管理",
+        "先确认广告服务范围",
+        "账户由客户自行持有",
+        "媒体费与服务费分开",
+        "按业务目标规划投放",
+        "搜索词与广告组检查",
+        "转化追踪方案梳理",
+        "振润达广告咨询",
+        "按线索反馈持续优化",
+        "了解广告开户准备",
+        "检查现有投放设置",
+        "谷歌广告专项检查",
+        "沟通目标市场与语言",
+        "查看投放合作方式"
+      ],
+      "copyDescriptions": [
+        "先确认目标市场、语言和业务需求，再梳理关键词、广告文案与落地页承接。",
+        "客户持有广告账户与付款资料，媒体预算和服务费分别确认，合作范围写清楚。",
+        "已有账户可先做专项检查，核对搜索词、转化目标和页面问题，再决定优化动作。",
+        "提供公开网站与目标需求，沟通开户协助或持续代投；不承诺固定广告排名。"
+      ],
+      "diagnosis": 3,
+      "writingSteps": 4,
+      "preflight": 5,
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#diagnose",
+          "top": 112.140625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#rsa-specs",
+          "top": 111.890625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#writing-plan",
+          "top": 112.03125,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#copy-examples",
+          "top": 111.5625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#preflight",
+          "top": 111.9375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-questions",
+          "top": 111.59375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-s7sz96",
+        "diagnose",
+        "rsa-specs",
+        "writing-plan",
+        "copy-examples",
+        "preflight",
+        "review-questions"
+      ],
+      "links": [
+        "/articles/google-search-keywords.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "不是已投放广告",
+          "present": true
+        },
+        {
+          "text": "不参与计算 Ad Rank",
+          "present": true
+        },
+        {
+          "text": "不是对具体账户的诊断",
+          "present": true
+        },
+        {
+          "text": "长度合格不保证文字在每次展示中完整出现",
+          "present": true
+        },
+        {
+          "text": "没有自动发布广告",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "listingPage": 2,
+      "listingPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "headline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "schemaHeadline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "canonical": "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+      "published": "2026-10-25",
+      "modified": "2026-10-25T10:12:37+08:00",
+      "visibleModified": "2026-10-25T10:12:37+08:00",
+      "descriptions": [
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "headlines": [
+        "谷歌广告代投咨询",
+        "Google Ads 投放管理",
+        "先确认广告服务范围",
+        "账户由客户自行持有",
+        "媒体费与服务费分开",
+        "按业务目标规划投放",
+        "搜索词与广告组检查",
+        "转化追踪方案梳理",
+        "振润达广告咨询",
+        "按线索反馈持续优化",
+        "了解广告开户准备",
+        "检查现有投放设置",
+        "谷歌广告专项检查",
+        "沟通目标市场与语言",
+        "查看投放合作方式"
+      ],
+      "copyDescriptions": [
+        "先确认目标市场、语言和业务需求，再梳理关键词、广告文案与落地页承接。",
+        "客户持有广告账户与付款资料，媒体预算和服务费分别确认，合作范围写清楚。",
+        "已有账户可先做专项检查，核对搜索词、转化目标和页面问题，再决定优化动作。",
+        "提供公开网站与目标需求，沟通开户协助或持续代投；不承诺固定广告排名。"
+      ],
+      "diagnosis": 3,
+      "writingSteps": 4,
+      "preflight": 5,
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#diagnose",
+          "top": 111.5625,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#rsa-specs",
+          "top": 112.15625,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#writing-plan",
+          "top": 111.75,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#copy-examples",
+          "top": 111.5625,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#preflight",
+          "top": 112.21875,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-questions",
+          "top": 112.203125,
+          "headerBottom": 79,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "diagnose",
+        "rsa-specs",
+        "writing-plan",
+        "copy-examples",
+        "preflight",
+        "review-questions"
+      ],
+      "links": [
+        "/articles/google-search-keywords.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "不是已投放广告",
+          "present": true
+        },
+        {
+          "text": "不参与计算 Ad Rank",
+          "present": true
+        },
+        {
+          "text": "不是对具体账户的诊断",
+          "present": true
+        },
+        {
+          "text": "长度合格不保证文字在每次展示中完整出现",
+          "present": true
+        },
+        {
+          "text": "没有自动发布广告",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "headline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "schemaHeadline": "谷歌广告标题和描述怎么写？RSA 广告效力排查指南",
+      "canonical": "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+      "published": "2026-10-25",
+      "modified": "2026-10-25T10:12:37+08:00",
+      "visibleModified": "2026-10-25T10:12:37+08:00",
+      "descriptions": [
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。",
+        "谷歌广告 RSA 文案指南：核对标题和描述限制、中文计数与广告效力，参考 15 条原创标题和 4 条描述，按五项清单检查素材与页面。"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/rsa-copywriting-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/rsa-copywriting-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "headlines": [
+        "谷歌广告代投咨询",
+        "Google Ads 投放管理",
+        "先确认广告服务范围",
+        "账户由客户自行持有",
+        "媒体费与服务费分开",
+        "按业务目标规划投放",
+        "搜索词与广告组检查",
+        "转化追踪方案梳理",
+        "振润达广告咨询",
+        "按线索反馈持续优化",
+        "了解广告开户准备",
+        "检查现有投放设置",
+        "谷歌广告专项检查",
+        "沟通目标市场与语言",
+        "查看投放合作方式"
+      ],
+      "copyDescriptions": [
+        "先确认目标市场、语言和业务需求，再梳理关键词、广告文案与落地页承接。",
+        "客户持有广告账户与付款资料，媒体预算和服务费分别确认，合作范围写清楚。",
+        "已有账户可先做专项检查，核对搜索词、转化目标和页面问题，再决定优化动作。",
+        "提供公开网站与目标需求，沟通开户协助或持续代投；不承诺固定广告排名。"
+      ],
+      "diagnosis": 3,
+      "writingSteps": 4,
+      "preflight": 5,
+      "faqCount": 3,
+      "anchors": [
+        {
+          "selector": "#diagnose",
+          "top": 111.640625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#rsa-specs",
+          "top": 112.4375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#writing-plan",
+          "top": 111.796875,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#copy-examples",
+          "top": 112.375,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#preflight",
+          "top": 112.015625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        },
+        {
+          "selector": "#review-questions",
+          "top": 111.640625,
+          "headerBottom": 75,
+          "atScrollEnd": false
+        }
+      ],
+      "ids": [
+        "diagnose",
+        "rsa-specs",
+        "writing-plan",
+        "copy-examples",
+        "preflight",
+        "review-questions"
+      ],
+      "links": [
+        "/articles/google-search-keywords.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "boundaries": [
+        {
+          "text": "不是已投放广告",
+          "present": true
+        },
+        {
+          "text": "不参与计算 Ad Rank",
+          "present": true
+        },
+        {
+          "text": "不是对具体账户的诊断",
+          "present": true
+        },
+        {
+          "text": "长度合格不保证文字在每次展示中完整出现",
+          "present": true
+        },
+        {
+          "text": "没有自动发布广告",
+          "present": true
+        }
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingPassed": true
+    }
+  ],
+  "pageErrors": []
+}

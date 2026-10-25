@@ -1,0 +1,10 @@
+{
+  "observedOn": "2026-10-25",
+  "source": "Fresh headless browser against the public US bidding/budget guide, default example amounts, before this repair; no authenticated profile or actual campaign data",
+  "url": "https://shumaojs.com/articles/google-ads-bidding-budget-usa.html",
+  "cases": [
+    {"change": "clear spent field", "errorVisible": false, "dailyDisplayed": "$100.00", "varianceDisplayed": "-$1,000.00", "defect": "Blank was coerced to zero instead of an incomplete input"},
+    {"change": "then set period days to0", "errorVisible": true, "dailyStillVisible": true, "dailyDisplayed": "$100.00", "defect": "Previous output remained visible alongside invalid input"}
+  ],
+  "scope": "Live reproduction on US page only; shared component source explains the risk on the existing HK page. This does not claim a separate pre-repair HK live reproduction or lost revenue."
+}

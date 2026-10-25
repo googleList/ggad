@@ -226,6 +226,21 @@
       "contentActions": ["聚焦主页、筛选、收到咨询与客服交接，不虚构自动包含的客服或系统实施", "保留 Meta 跨版位入口与原 canonical，不默认合并或删除既有页面", "没有查询-页面竞争证据，不声称已解决关键词蚕食"]
     },
     {
+      "cluster": "谷歌广告小预算与花费进度",
+      "language": "zh-Hans", "intent": "informational-tool", "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/google-budget-pacing.html",
+      "primaryKeywords": ["谷歌广告预算", "谷歌广告预算计算器"],
+      "supportingKeywords": ["Google Ads 小预算", "广告花费进度", "广告每日预算与期间计划"],
+      "evidence": {
+        "reviewedAt": "2026-10-25",
+        "method": "Public Simplified calculator/planning search supports intent only. Fresh public US calculator reproduces blank-spent-as-zero and stale output after invalid days; shared source explains the defect. Reuse the existing engine/URL for a Simplified ungated resource while preserving EN/HK pages. Latest GSC target-query evidence is not budget-calculator volume or demand in US/HK.",
+        "googleSearchVolume": null, "countryDemandVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-25-budget-pacing/brief.md",
+        "humanReviewStatus": "pending; existing service and other article approvals do not approve this budget guide/tool explanation"
+      },
+      "contentActions": ["保留原标题和网址，加入算术进度工具与四项公式，明确不等于平台计费限额", "修复三种语言共用计算器的空值、旧结果和不可用状态，保留真实零值与本地货币显示", "原创封面与缩略图，同步列表和常规工具入口，不虚构点击、询盘或搜索量预测"]
+    },
+    {
       "cluster": "SEM 关键词匹配规则与测试",
       "language": "zh-Hans",
       "intent": "informational",

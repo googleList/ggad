@@ -1,0 +1,401 @@
+{
+  "checkedAt": "2026-10-25T01:47:59.279Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "page": "articles/google-budget-pacing.html",
+      "locale": "zh-CN",
+      "currency": "USD",
+      "nominal": {
+        "daily": "US$100.00",
+        "expected": "US$1,000.00",
+        "variance": "-US$150.00",
+        "remaining": "US$107.50",
+        "status": "当前支出低于按日平均进度。先检查需求、资格和线索质量，不必为追赶进度而花完预算。"
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [
+        {
+          "selector": "#budget-basics",
+          "top": 111.53125,
+          "atEnd": false
+        },
+        {
+          "selector": "#calculator",
+          "top": 112.484375,
+          "atEnd": false
+        },
+        {
+          "selector": "#test-boundaries",
+          "top": 111.671875,
+          "atEnd": false
+        },
+        {
+          "selector": "#testing-stages",
+          "top": 112.234375,
+          "atEnd": false
+        },
+        {
+          "selector": "#increase",
+          "top": 147.75,
+          "atEnd": true
+        },
+        {
+          "selector": "#questions",
+          "top": 378.3125,
+          "atEnd": true
+        }
+      ],
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "page": "articles/google-ads-bidding-budget-usa.html",
+      "locale": "en-US",
+      "currency": "USD",
+      "nominal": {
+        "daily": "$100.00",
+        "expected": "$1,000.00",
+        "variance": "-$150.00",
+        "remaining": "$107.50",
+        "status": "Spend is behind the even daily pace. Check demand, eligibility, and traffic quality before adjusting."
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [],
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "page": "articles/google-ads-bidding-budget-hong-kong.html",
+      "locale": "zh-Hant-HK",
+      "currency": "HKD",
+      "nominal": {
+        "daily": "HK$100.00",
+        "expected": "HK$1,000.00",
+        "variance": "-HK$150.00",
+        "remaining": "HK$107.50",
+        "status": "目前支出低於按日平均進度，先檢查需求、資格及流量質素，再決定是否調整。"
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [],
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "page": "articles/google-budget-pacing.html",
+      "locale": "zh-CN",
+      "currency": "USD",
+      "nominal": {
+        "daily": "US$100.00",
+        "expected": "US$1,000.00",
+        "variance": "-US$150.00",
+        "remaining": "US$107.50",
+        "status": "当前支出低于按日平均进度。先检查需求、资格和线索质量，不必为追赶进度而花完预算。"
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [
+        {
+          "selector": "#budget-basics",
+          "top": 112.296875,
+          "atEnd": false
+        },
+        {
+          "selector": "#calculator",
+          "top": 111.640625,
+          "atEnd": false
+        },
+        {
+          "selector": "#test-boundaries",
+          "top": 112,
+          "atEnd": false
+        },
+        {
+          "selector": "#testing-stages",
+          "top": 112.34375,
+          "atEnd": false
+        },
+        {
+          "selector": "#increase",
+          "top": 112.421875,
+          "atEnd": false
+        },
+        {
+          "selector": "#questions",
+          "top": 381.765625,
+          "atEnd": true
+        }
+      ],
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "page": "articles/google-ads-bidding-budget-usa.html",
+      "locale": "en-US",
+      "currency": "USD",
+      "nominal": {
+        "daily": "$100.00",
+        "expected": "$1,000.00",
+        "variance": "-$150.00",
+        "remaining": "$107.50",
+        "status": "Spend is behind the even daily pace. Check demand, eligibility, and traffic quality before adjusting."
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [],
+      "noOverflow": true
+    },
+    {
+      "width": 768,
+      "page": "articles/google-ads-bidding-budget-hong-kong.html",
+      "locale": "zh-Hant-HK",
+      "currency": "HKD",
+      "nominal": {
+        "daily": "HK$100.00",
+        "expected": "HK$1,000.00",
+        "variance": "-HK$150.00",
+        "remaining": "HK$107.50",
+        "status": "目前支出低於按日平均進度，先檢查需求、資格及流量質素，再決定是否調整。"
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [],
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "page": "articles/google-budget-pacing.html",
+      "locale": "zh-CN",
+      "currency": "USD",
+      "nominal": {
+        "daily": "US$100.00",
+        "expected": "US$1,000.00",
+        "variance": "-US$150.00",
+        "remaining": "US$107.50",
+        "status": "当前支出低于按日平均进度。先检查需求、资格和线索质量，不必为追赶进度而花完预算。"
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [
+        {
+          "selector": "#budget-basics",
+          "top": 111.640625,
+          "atEnd": false
+        },
+        {
+          "selector": "#calculator",
+          "top": 111.71875,
+          "atEnd": false
+        },
+        {
+          "selector": "#test-boundaries",
+          "top": 111.765625,
+          "atEnd": false
+        },
+        {
+          "selector": "#testing-stages",
+          "top": 112.0625,
+          "atEnd": false
+        },
+        {
+          "selector": "#increase",
+          "top": 112.421875,
+          "atEnd": false
+        },
+        {
+          "selector": "#questions",
+          "top": 147.71875,
+          "atEnd": true
+        }
+      ],
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "page": "articles/google-ads-bidding-budget-usa.html",
+      "locale": "en-US",
+      "currency": "USD",
+      "nominal": {
+        "daily": "$100.00",
+        "expected": "$1,000.00",
+        "variance": "-$150.00",
+        "remaining": "$107.50",
+        "status": "Spend is behind the even daily pace. Check demand, eligibility, and traffic quality before adjusting."
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [],
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "page": "articles/google-ads-bidding-budget-hong-kong.html",
+      "locale": "zh-Hant-HK",
+      "currency": "HKD",
+      "nominal": {
+        "daily": "HK$100.00",
+        "expected": "HK$1,000.00",
+        "variance": "-HK$150.00",
+        "remaining": "HK$107.50",
+        "status": "目前支出低於按日平均進度，先檢查需求、資格及流量質素，再決定是否調整。"
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [],
+      "noOverflow": true
+    },
+    {
+      "width": 320,
+      "page": "articles/google-budget-pacing.html",
+      "locale": "zh-CN",
+      "currency": "USD",
+      "nominal": {
+        "daily": "US$100.00",
+        "expected": "US$1,000.00",
+        "variance": "-US$150.00",
+        "remaining": "US$107.50",
+        "status": "当前支出低于按日平均进度。先检查需求、资格和线索质量，不必为追赶进度而花完预算。"
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [
+        {
+          "selector": "#budget-basics",
+          "top": 112.140625,
+          "atEnd": false
+        },
+        {
+          "selector": "#calculator",
+          "top": 112,
+          "atEnd": false
+        },
+        {
+          "selector": "#test-boundaries",
+          "top": 111.609375,
+          "atEnd": false
+        },
+        {
+          "selector": "#testing-stages",
+          "top": 111.6875,
+          "atEnd": false
+        },
+        {
+          "selector": "#increase",
+          "top": 112.21875,
+          "atEnd": false
+        },
+        {
+          "selector": "#questions",
+          "top": 111.6875,
+          "atEnd": false
+        }
+      ],
+      "noOverflow": true
+    },
+    {
+      "width": 320,
+      "page": "articles/google-ads-bidding-budget-usa.html",
+      "locale": "en-US",
+      "currency": "USD",
+      "nominal": {
+        "daily": "$100.00",
+        "expected": "$1,000.00",
+        "variance": "-$150.00",
+        "remaining": "$107.50",
+        "status": "Spend is behind the even daily pace. Check demand, eligibility, and traffic quality before adjusting."
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [],
+      "noOverflow": true
+    },
+    {
+      "width": 320,
+      "page": "articles/google-ads-bidding-budget-hong-kong.html",
+      "locale": "zh-Hant-HK",
+      "currency": "HKD",
+      "nominal": {
+        "daily": "HK$100.00",
+        "expected": "HK$1,000.00",
+        "variance": "-HK$150.00",
+        "remaining": "HK$107.50",
+        "status": "目前支出低於按日平均進度，先檢查需求、資格及流量質素，再決定是否調整。"
+      },
+      "invalidCasesPassed": 11,
+      "zeroAndCompleteAndOverspendPassed": true,
+      "resetAndEnterPassed": true,
+      "anchorChecks": [],
+      "noOverflow": true
+    },
+    {
+      "page": "articles/google-budget-pacing.html",
+      "mode": "no-javascript",
+      "inactiveControlsDisabled": true,
+      "staleResultsHidden": true,
+      "noOverflow": true
+    },
+    {
+      "page": "articles/google-budget-pacing.html",
+      "mode": "blocked-calculator-script",
+      "inactiveControlsDisabled": true,
+      "staleResultsHidden": true,
+      "noOverflow": true
+    },
+    {
+      "page": "articles/google-ads-bidding-budget-usa.html",
+      "mode": "no-javascript",
+      "inactiveControlsDisabled": true,
+      "staleResultsHidden": true,
+      "noOverflow": true
+    },
+    {
+      "page": "articles/google-ads-bidding-budget-usa.html",
+      "mode": "blocked-calculator-script",
+      "inactiveControlsDisabled": true,
+      "staleResultsHidden": true,
+      "noOverflow": true
+    },
+    {
+      "page": "articles/google-ads-bidding-budget-hong-kong.html",
+      "mode": "no-javascript",
+      "inactiveControlsDisabled": true,
+      "staleResultsHidden": true,
+      "noOverflow": true
+    },
+    {
+      "page": "articles/google-ads-bidding-budget-hong-kong.html",
+      "mode": "blocked-calculator-script",
+      "inactiveControlsDisabled": true,
+      "staleResultsHidden": true,
+      "noOverflow": true
+    },
+    {
+      "mode": "simplified-listing",
+      "width": 390,
+      "listingPage": 6,
+      "cardDateAndThumbnailPassed": true
+    },
+    {
+      "mode": "tools-directory-entry",
+      "width": 390,
+      "nativeSameTabNavigationPassed": true,
+      "anchorClear": true
+    }
+  ],
+  "pageErrors": []
+}

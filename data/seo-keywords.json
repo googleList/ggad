@@ -54,15 +54,15 @@
       "primaryKeywords": ["谷歌代投", "谷歌广告代投"],
       "supportingKeywords": ["Google Ads 代运营", "谷歌广告投放管理", "谷歌广告优化"],
       "evidence": {
-        "reviewedAt": "2026-10-25",
-        "method": "New explicit direct GSC reload advanced28-day dates to2026-09-26 through2026-10-23:239 impressions/0clicks/average55.6, all39visible queries and28countries read. Exact 谷歌代投 reports5impressions/0clicks/average3.8 on google-ads.html; separate query-country view CN4/SG1, no fresh daily breakdown. Mixed google ads代运营 also reports2/0/54.0. Fresh adjacent7days October17-23 versus10-16 are41versus44impressions, both0clicks; US11versus32/HK12versus8 are separate country observations, not those Simplified query markets. No stable rank, monthly volume, CTR test, US/HK Simplified-demand proof or credit toOctober24/25 releases. Prior throughOctober22 snapshot retained as history.",
-        "performanceSnapshot": "reports/search-console/2026-10-25-settled-follow-up.json",
+        "reviewedAt": "2026-10-26",
+        "method": "Official visible GSC UI September27-October24 available window:243impressions/0clicks/54.9, all39queries/29countries read. Exact 谷歌代投6/0/3.3 on separate page viewgoogle-ads.html6; separate country viewCN5/SG1, not joint daily query-page-country data. US119/HK62 unfiltered country impressions are not those Simplified query markets. Other exact target themes absent from visible queries are not zero demand. No new7day/prior28comparison, API-final certification, stable ranking, search-volume or release-gain claim; overlapping throughOctober23/239 snapshot remains historical. GSC Wizard subscription_required, do not retry until access state changes; browser read independent.",
+        "performanceSnapshot": "reports/search-console/2026-10-26-keyword-window.json",
         "googleSearchVolume": null,
         "countryDemandVerified": false,
         "editorialBrief": "reports/editorial/2026-10-24-service-scope/brief.md",
         "humanReviewStatus": "owner confirmed on 2026-10-24: 说明符合实际业务. Applies to setup/management/diagnostic scope, separate fee confirmation and handover explanation only; not unspecified prices, other articles or results"
       },
-      "contentActions": ["保留已确认服务页标题、网址和范围，不因5次展示0点击就测试标题或重复改写", "继续分别核对简体查询与美国香港国家维度，当前谷歌代投展示来自中国4次与新加坡1次", "优先解决已经在GSC出现展示的HTTP首页协议统一问题；不是靠改标题或新建同义词页面解决", "未确定的套餐和价格仍不得虚构，2次混合代运营查询也不足以新建重复页面；等待更晚完整周期，不把平均排名3.8当作稳定名次"]
+      "contentActions": ["保留已确认服务页标题、网址和范围，不因6次展示0点击就测试标题或重复改写", "继续分别核对简体查询与美国香港国家维度，当前独立查询国家视图为中国5次与新加坡1次，不按滚动窗口差值推断新增日期", "优先解决已经在GSC出现展示的HTTP首页协议统一问题；待具体授权和登录，不靠改标题或新建同义词页面解决", "未确定的套餐和价格仍不得虚构，2次混合代运营查询也不足以新建重复页面；等待更晚可比周期，不把平均排名3.3当作稳定名次"]
     },
     {
       "cluster": "谷歌广告开户流程",
@@ -89,7 +89,8 @@
       "targetUrl": "https://shumaojs.com/articles/google-search-ads-guide.html",
       "primaryKeywords": ["谷歌排名", "谷歌广告排名"],
       "supportingKeywords": ["Google Ads 广告位置", "广告评级 Ad Rank", "谷歌广告首页展示"],
-      "contentActions": ["说明付费广告位置和自然搜索排名的差异", "使用顶部展示率等官方指标解释广告位置", "已纠正5处仍称搭建或完整搜索指南的旧入口，使锚文本对应既有Ad Rank文章；不改原标题、网址或刷日期", "不承诺首页或第一名，并链接 Google 官方说明"],
+      "contentActions": ["保留原标题H1网址与9月11日发布日期，纠正旧Ads平均排名和顶部广告必在自然结果上方的过时说明", "六项评级因素与质量得分边界、三种同口径教学比例、四种条件排查和四项复盘记录，使用现有原创图，不新增同义薄页", "同步实际修改时间、列表与feed；人工审稿单独待确认，不继承其他教程的认可", "不承诺首页或第一名，不把自然GSC平均排名或少量展示当作Ads评级或市场搜索量"],
+      "accuracyReview": {"reviewedAt": "2026-10-26", "brief": "reports/editorial/2026-10-26-ad-rank/brief.md", "humanReview": "pending separately", "demand": "Exact 谷歌排名 not present among39visible queries, not zero market demand. Revision justified by verifiable source defects, not CTR experiment or claimed volume."},
       "linkIntentReview": {
         "reviewedAt": "2026-10-25",
         "evidence": "reports/recovery-links/2026-10-25/audit.md",

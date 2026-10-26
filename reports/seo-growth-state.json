@@ -7,9 +7,10 @@
     "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
-    "latestBrief": "reports/editorial/2026-10-26-hk-audit/brief.md",
-    "latestAiReviewStatus": "HK counterpart accuracy review completed against current Traditional Google sources: campaign-goal/custom-goal exception, WhatsApp/phone-click versus real enquiry, unknown versus zero, no fabricated queryCRM join or blanket negative/Presence rules. Three baseline checks/three original evidence rows, own existing conceptual cover reuse. Sixlocal/sixproductionarticle JS/noJS plus sixlocal/sixproductionhub cases pass;105CItestsallOK, localoneWindows skip. Existing title/H1/URL/publication/alternates and48card identities/order preserved, Simplified remains primary.34bd00a verifieddeployed; no account/edge/GSC action this batch.",
-    "latestPendingArticleHumanReview": {"url": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html#conversion-evidence", "requestedAt": "2026-10-26", "status": "pending", "scope": "HK conversion source/optimization/custom-goal exception, WhatsApp/phone/form evidence and conditional location/negative review; US audit acceptance is separate"},
+    "latestBrief": "reports/editorial/2026-10-26-ad-rank/brief.md",
+    "latestAiReviewStatus": "Existing primary Simplified AdRank guide accuracy revision: retire oldAdsaverageposition diagnostic, dynamic top placements, sixfactors/QualityScore noninput, three single-impression compatible denominator examples, four conditional decisions and four review checks. Title/H1/URL/pub retained, own existing conceptual visual reused, no new runtime or business promises.111localtests(oneWindows skip), sixarticle+sixhub localcases pass; production verification pending. GSC latest available throughOctober24 not API-final; no CTR/title or gain claim.",
+    "latestPendingArticleHumanReview": {"url": "https://shumaojs.com/articles/google-search-ads-guide.html#placement-metrics", "requestedAt": null, "status": "pending; request after verified deployment", "scope": "six AdRank factors, top-placement definitions, three hypothetical denominator examples and four conditional diagnosis rows; no inherited approval"},
+    "previousPendingHkArticleHumanReview": {"url": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html#conversion-evidence", "requestedAt": "2026-10-26", "status": "pending", "scope": "HK conversion source/optimization/custom-goal exception, WhatsApp/phone/form evidence and conditional location/negative review; US audit acceptance is separate"},
     "latestArticleHumanReview": {"url": "https://shumaojs.com/articles/google-ads-account-audit-usa.html#evidence-log", "requestedAt": "2026-10-26", "confirmedAt": "2026-10-26", "status": "accepted", "ownerReply": "内容符合，可保留", "scope": "conversion source versus optimization role, custom-goal exception, four location checks and three hypothetical evidence decisions only; no inherited approval or live account change"},
     "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist, tracking tutorial, managed/Meta/Facebook explanation, search-terms six decisions/four checks/negative scope/three records, and now US audit source/optimization distinction/custom-goal exception/four location checks/three evidence decisions onOctober26: 内容符合，可保留. RSA educational copy, budget/channel-comparison/agency-selection/matching/cost reviews remain separate and pending. No approval inherited, live ad/account action or results approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
@@ -23,9 +24,9 @@
   "lastRunAt": "2026-10-26",
   "latestReport": "reports/seo-follow-up-2026-10-26.md",
   "latestMeasurementReview": {
-    "snapshot": "reports/search-console/2026-10-25-settled-follow-up.json",
-    "through": "2026-10-23",
-    "decision": "Prioritize real HTTP-to-HTTPS consolidation/access over another immediate article/title rewrite. Keep accepted Simplified service/content stable, preserve English/Traditional pages. Five target-query impressions still do not justify a CTR/title test. Await specific Cloudflare authorization/login; do not claim edge fix or organic-visit growth.",
+    "snapshot": "reports/search-console/2026-10-26-keyword-window.json",
+    "through": "2026-10-24",
+    "decision": "Available UI window September27-October24 has243impressions/0clicks/54.9; all39queries/29countries. Exacttarget6/0/3.3, separatepage6 andCN5/SG1, no jointdaily/read/newcomparison or API-final maturity. Keep service title stable;6not CTR evidence. HTTPconsolidation remains first technical dependency awaiting authorization/login. Independently correct verified obsolete AdRank guide definitions at existing URL, not another synonym page or language deletion. No gain/edge claim.",
     "ownerAction": "reports/deployment/2026-10-25-https-owner-action.md"
   },
   "latestIndexingReview": {
@@ -53,6 +54,7 @@
     "latestVerification": "Public marker matched10908499a11a233baa5528a7f1794682b82d7414; Pages102/40287691115 job121455140095success. Actual108testsallOK/66HTML64sitemap0errors/150files;14productionhome/companycases07:46:26.346Zpass withnoforbiddenfields/errors/overflow. CSS56,011normalizedundercap andruntimeunchanged. Googlecache/currentregistryidentity/rank/visits/CWV/HTTPedgefix notproved. Followupguard/evidencereportmayfollowknowncheckpoint."
   },
   "completedBatches": [
+    "simplified-ad-rank-definition-and-denominator-accuracy-review-2026-10-26-local-verified-production-pending",
     "owner-authorized-public-registration-withdrawal-and-nested-schema-regression-2026-10-26",
     "hk-audit-conversion-goal-and-enquiry-evidence-correction-2026-10-26",
     "existing-us-account-audit-source-goal-evidence-revision-2026-10-26",
@@ -216,7 +218,20 @@
       "dateRefreshForMinorLinks": false,
       "note": "Live deep404 baseline CSS/logo/home all resolved to missing subdirectory and returned404. Root-relative links restore resources and native recovery while missing page keeps404/noindex. Five old setup/Search labels now describe Ad Rank; PMax no longer promises all queries/costs are exposed. Local custom404 response explicitly simulated only because simple server lacks Pages fallback; production never intercepted. No new article, image, service promise, human approval or performance result."
     },
+    "latestSearchPerformanceAvailable2026-10-26": {
+      "snapshot": "reports/search-console/2026-10-26-keyword-window.json",
+      "period": "2026-09-27 through2026-10-24",
+      "clicks": 0, "impressions": 243, "ctrPercent": 0, "averagePosition": 54.9,
+      "maturity": "visible UI available window; latest data may fill, not API-final certification",
+      "queryRowsRead": 39, "countryRowsRead": 29,
+      "visibleQueryImpressionSum": 200, "countryImpressionSum": 243,
+      "simplifiedQuery": {"query": "谷歌代投", "clicks": 0, "impressions": 6, "position": 3.3, "separatePage": "https://shumaojs.com/google-ads.html", "pageImpressions": 6, "separateCountryImpressions": {"CN": 5, "SG": 1}, "jointQueryPageCountryOrDailyRead": false},
+      "unfilteredCountrySample": {"US": {"impressions": 119, "position": 61.6}, "HK": {"impressions": 62, "position": 47.5}},
+      "new7DayOrPrevious28ComparisonRead": false,
+      "interpretation": "Overlaps prior239window, no incremental release-gain inference. Other exactthemes absent from39visiblequeries not zero demand. Country observations not targetquerymarkets. Research-shaped query provenance unknown. No visits/enquiries/fieldCWV measured; predates latest releases. Prior genuine7/prior28comparison remains dated in historical followup."
+    },
     "latestSearchPerformanceFollowUp": {
+      "checkpointStatus": "Historical October25 genuine seven/prior28comparison; latest available28day UI window separately in latestSearchPerformanceAvailable2026-10-26, no comparisons silently merged",
       "snapshot": "reports/search-console/2026-10-25-settled-follow-up.json",
       "previousSnapshotRetained": "reports/search-console/query-signal-2026-10-25.json",
       "observedDatesAsiaShanghai": ["2026-10-25"],
@@ -419,7 +434,8 @@
     },
     "googleSearchConsole": true,
     "gscWizardPropertyConnected": false,
-    "latestSearchConsoleAccess": "October26 owner-authorized visible UI: HTTPstoredoldnotindexed/canonicalNA, hubindexed/self withnewOctober26crawl andnativeeditorRSAItemList/cardhref proof; aggregateOct19report51/47andall13Discoveredexamplesread. TrackingstoredDiscovered/no crawl, liveindexable andonepriorityrequestaccepted. Snapshot reports/search-console/2026-10-26-inspection/snapshot.json. Latest performance remains separate settledOctober25snapshotthroughOctober23/239impressions/0clicks, not a newOctober26performanceperiod. No hiddenstate/cookies/credentials retained, Ads/GA4/Cloudflareconfiguration or otherGSCmutation.",
+    "gscWizardAccess2026-10-26": {"status": "payment_required_subscription_required", "attempts": 1, "action": "Trial ended/no active subscription returned by listsites; do not retry until actual access-state change, purchase or changebilling. Optionalconnector; authorizedofficialbrowserworks independently."},
+    "latestSearchConsoleAccess": "October26 official owner-authorized visibleUI availableSeptember27-October24performance243/0/54.9,39queries29countries, exact谷歌代投6andseparateCN5SG1/page6. RawDOM-backedtables reports/search-console/2026-10-26-keyword-window.json. No latest7/prior28comparison/API-finalcertification. EarlierHTTP/hub/indexing/oneacceptedtrackingrequest in inspection snapshot remain separate datedevidence, not repeated. GSCWizard oneattempt payment_required/subscription_required; no retry/purchase. No hiddenstate/cookies/credentials, Ads/GA4/edge change.",
     "searchPerformance": {
       "checkpointStatus": "Historical throughOctober21 baseline; newer28-day observations and target drill-down are in latestSearchPerformanceFollowUp, not silently merged with these dated seven-day/page tables",
       "property": "sc-domain:shumaojs.com",

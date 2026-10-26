@@ -1,0 +1,707 @@
+{
+  "checkedAt": "2026-10-26T04:52:56.777Z",
+  "base": "http://127.0.0.1:8795/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "香港 Google Ads 帳戶審核清單：投放、追蹤及預算檢查",
+      "headline": "香港 Google Ads 帳戶審核清單",
+      "lang": "zh-Hant-HK",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 帳戶審核清單",
+        "description": "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "image": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-28",
+        "dateModified": "2026-10-26T12:48:52+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8795/assets/articles/account-audit-evidence-v1.jpg",
+        "loaded": true,
+        "ratio": 1.776061776061776,
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg"
+      },
+      "modified": "2026-10-26T12:48:52+08:00",
+      "baseline": 3,
+      "evidence": [
+        "chat",
+        "form",
+        "sales"
+      ],
+      "boundaries": [
+        {
+          "text": "廣告活動使用的自訂目標",
+          "present": true
+        },
+        {
+          "text": "不能證明對方已傳送訊息",
+          "present": true
+        },
+        {
+          "text": "電話連結點擊不等於接通",
+          "present": true
+        },
+        {
+          "text": "不是可直接套用的否定詞庫",
+          "present": true
+        },
+        {
+          "text": "不要一律改成",
+          "present": true
+        },
+        {
+          "text": "分母為零而無法計算",
+          "present": true
+        },
+        {
+          "text": "不編造逐詞歸因",
+          "present": true
+        }
+      ],
+      "anchors": [
+        "#baseline",
+        "#conversion-evidence",
+        "#traffic-quality"
+      ],
+      "ids": [
+        "site-nav-1",
+        "baseline",
+        "conversion-evidence",
+        "traffic-quality"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/google-ads-agency-checklist-hong-kong.html",
+        "/articles/google-ads-account-access-hong-kong.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-ads-monthly-reporting-hong-kong.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html"
+      ],
+      "overflow": false,
+      "listingPage": 5
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "香港 Google Ads 帳戶審核清單：投放、追蹤及預算檢查",
+      "headline": "香港 Google Ads 帳戶審核清單",
+      "lang": "zh-Hant-HK",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 帳戶審核清單",
+        "description": "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "image": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-28",
+        "dateModified": "2026-10-26T12:48:52+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8795/assets/articles/account-audit-evidence-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7766990291262137,
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg"
+      },
+      "modified": "2026-10-26T12:48:52+08:00",
+      "baseline": 3,
+      "evidence": [
+        "chat",
+        "form",
+        "sales"
+      ],
+      "boundaries": [
+        {
+          "text": "廣告活動使用的自訂目標",
+          "present": true
+        },
+        {
+          "text": "不能證明對方已傳送訊息",
+          "present": true
+        },
+        {
+          "text": "電話連結點擊不等於接通",
+          "present": true
+        },
+        {
+          "text": "不是可直接套用的否定詞庫",
+          "present": true
+        },
+        {
+          "text": "不要一律改成",
+          "present": true
+        },
+        {
+          "text": "分母為零而無法計算",
+          "present": true
+        },
+        {
+          "text": "不編造逐詞歸因",
+          "present": true
+        }
+      ],
+      "anchors": [
+        "#baseline",
+        "#conversion-evidence",
+        "#traffic-quality"
+      ],
+      "ids": [
+        "site-nav-1",
+        "baseline",
+        "conversion-evidence",
+        "traffic-quality"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/google-ads-agency-checklist-hong-kong.html",
+        "/articles/google-ads-account-access-hong-kong.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-ads-monthly-reporting-hong-kong.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html"
+      ],
+      "overflow": false,
+      "listingPage": 5
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "香港 Google Ads 帳戶審核清單：投放、追蹤及預算檢查",
+      "headline": "香港 Google Ads 帳戶審核清單",
+      "lang": "zh-Hant-HK",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 帳戶審核清單",
+        "description": "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "image": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-28",
+        "dateModified": "2026-10-26T12:48:52+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8795/assets/articles/account-audit-evidence-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.780104712041885,
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg"
+      },
+      "modified": "2026-10-26T12:48:52+08:00",
+      "baseline": 3,
+      "evidence": [
+        "chat",
+        "form",
+        "sales"
+      ],
+      "boundaries": [
+        {
+          "text": "廣告活動使用的自訂目標",
+          "present": true
+        },
+        {
+          "text": "不能證明對方已傳送訊息",
+          "present": true
+        },
+        {
+          "text": "電話連結點擊不等於接通",
+          "present": true
+        },
+        {
+          "text": "不是可直接套用的否定詞庫",
+          "present": true
+        },
+        {
+          "text": "不要一律改成",
+          "present": true
+        },
+        {
+          "text": "分母為零而無法計算",
+          "present": true
+        },
+        {
+          "text": "不編造逐詞歸因",
+          "present": true
+        }
+      ],
+      "anchors": [
+        "#baseline",
+        "#conversion-evidence",
+        "#traffic-quality"
+      ],
+      "ids": [
+        "site-nav-1",
+        "baseline",
+        "conversion-evidence",
+        "traffic-quality"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/google-ads-agency-checklist-hong-kong.html",
+        "/articles/google-ads-account-access-hong-kong.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-ads-monthly-reporting-hong-kong.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html"
+      ],
+      "overflow": false,
+      "listingPage": 5
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "香港 Google Ads 帳戶審核清單：投放、追蹤及預算檢查",
+      "headline": "香港 Google Ads 帳戶審核清單",
+      "lang": "zh-Hant-HK",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 帳戶審核清單",
+        "description": "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "image": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-28",
+        "dateModified": "2026-10-26T12:48:52+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8795/assets/articles/account-audit-evidence-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7806451612903227,
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg"
+      },
+      "modified": "2026-10-26T12:48:52+08:00",
+      "baseline": 3,
+      "evidence": [
+        "chat",
+        "form",
+        "sales"
+      ],
+      "boundaries": [
+        {
+          "text": "廣告活動使用的自訂目標",
+          "present": true
+        },
+        {
+          "text": "不能證明對方已傳送訊息",
+          "present": true
+        },
+        {
+          "text": "電話連結點擊不等於接通",
+          "present": true
+        },
+        {
+          "text": "不是可直接套用的否定詞庫",
+          "present": true
+        },
+        {
+          "text": "不要一律改成",
+          "present": true
+        },
+        {
+          "text": "分母為零而無法計算",
+          "present": true
+        },
+        {
+          "text": "不編造逐詞歸因",
+          "present": true
+        }
+      ],
+      "anchors": [
+        "#baseline",
+        "#conversion-evidence",
+        "#traffic-quality"
+      ],
+      "ids": [
+        "site-nav-1",
+        "baseline",
+        "conversion-evidence",
+        "traffic-quality"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/google-ads-agency-checklist-hong-kong.html",
+        "/articles/google-ads-account-access-hong-kong.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-ads-monthly-reporting-hong-kong.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html"
+      ],
+      "overflow": false,
+      "listingPage": 5
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "香港 Google Ads 帳戶審核清單：投放、追蹤及預算檢查",
+      "headline": "香港 Google Ads 帳戶審核清單",
+      "lang": "zh-Hant-HK",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 帳戶審核清單",
+        "description": "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "image": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-28",
+        "dateModified": "2026-10-26T12:48:52+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8795/assets/articles/account-audit-evidence-v1.jpg",
+        "loaded": true,
+        "ratio": 1.776061776061776,
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg"
+      },
+      "modified": "2026-10-26T12:48:52+08:00",
+      "baseline": 3,
+      "evidence": [
+        "chat",
+        "form",
+        "sales"
+      ],
+      "boundaries": [
+        {
+          "text": "廣告活動使用的自訂目標",
+          "present": true
+        },
+        {
+          "text": "不能證明對方已傳送訊息",
+          "present": true
+        },
+        {
+          "text": "電話連結點擊不等於接通",
+          "present": true
+        },
+        {
+          "text": "不是可直接套用的否定詞庫",
+          "present": true
+        },
+        {
+          "text": "不要一律改成",
+          "present": true
+        },
+        {
+          "text": "分母為零而無法計算",
+          "present": true
+        },
+        {
+          "text": "不編造逐詞歸因",
+          "present": true
+        }
+      ],
+      "anchors": [
+        "#baseline",
+        "#conversion-evidence",
+        "#traffic-quality"
+      ],
+      "ids": [
+        "baseline",
+        "conversion-evidence",
+        "traffic-quality"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/google-ads-agency-checklist-hong-kong.html",
+        "/articles/google-ads-account-access-hong-kong.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-ads-monthly-reporting-hong-kong.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html"
+      ],
+      "overflow": false,
+      "listingPage": null
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "香港 Google Ads 帳戶審核清單：投放、追蹤及預算檢查",
+      "headline": "香港 Google Ads 帳戶審核清單",
+      "lang": "zh-Hant-HK",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 帳戶審核清單",
+        "description": "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "image": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-28",
+        "dateModified": "2026-10-26T12:48:52+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。",
+        "香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8795/assets/articles/account-audit-evidence-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.780104712041885,
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg"
+      },
+      "modified": "2026-10-26T12:48:52+08:00",
+      "baseline": 3,
+      "evidence": [
+        "chat",
+        "form",
+        "sales"
+      ],
+      "boundaries": [
+        {
+          "text": "廣告活動使用的自訂目標",
+          "present": true
+        },
+        {
+          "text": "不能證明對方已傳送訊息",
+          "present": true
+        },
+        {
+          "text": "電話連結點擊不等於接通",
+          "present": true
+        },
+        {
+          "text": "不是可直接套用的否定詞庫",
+          "present": true
+        },
+        {
+          "text": "不要一律改成",
+          "present": true
+        },
+        {
+          "text": "分母為零而無法計算",
+          "present": true
+        },
+        {
+          "text": "不編造逐詞歸因",
+          "present": true
+        }
+      ],
+      "anchors": [
+        "#baseline",
+        "#conversion-evidence",
+        "#traffic-quality"
+      ],
+      "ids": [
+        "baseline",
+        "conversion-evidence",
+        "traffic-quality"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/google-ads-agency-checklist-hong-kong.html",
+        "/articles/google-ads-account-access-hong-kong.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-ads-monthly-reporting-hong-kong.html",
+        "/articles/google-ads-landing-page-checklist-hong-kong.html"
+      ],
+      "overflow": false,
+      "listingPage": null
+    }
+  ],
+  "pageErrors": []
+}

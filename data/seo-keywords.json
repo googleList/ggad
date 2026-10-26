@@ -6,6 +6,26 @@
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
   "clusters": [
     {
+      "cluster": "香港 Google Ads 帳戶審核",
+      "market": "HK",
+      "language": "zh-Hant-HK",
+      "intent": "informational-commercial",
+      "priority": "secondary-accuracy-correction",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "primaryKeywords": ["香港 Google Ads 帳戶審核", "Google Ads 審核清單"],
+      "supportingKeywords": ["香港廣告轉換目標", "WhatsApp 有效查詢", "電話點擊與來電轉換"],
+      "evidence": {
+        "reviewedAt": "2026-10-26",
+        "performanceSnapshot": "reports/search-console/2026-10-25-settled-follow-up.json",
+        "method": "Existing HK audit row8global impressions/0clicks/average70.9 throughOctober23, not an HKquery-page export. Actual source review found campaign-goal/custom-goal exception omitted and ambiguous WhatsApp/call/query-attribution/negative-term advice. Correct established localization with current Traditional Google documentation, not another title/page or a new market-demand claim.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-26-hk-audit/brief.md",
+        "humanReviewStatus": "pending separately for this HK revision; priorUSaudit and Simplified approvals do not transfer"
+      },
+      "contentActions": ["Retain title/H1/URL/publication and reciprocal alternates, preserving primary Simplified priorities", "Separate source/optimization/goal, clicks/received messages/qualified enquiries, unknown/zero and aggregate/query attribution", "Use three baseline checks and three original teaching scenarios, conditional geography/negative review and own existing cover; no extra images/runtime or account actions", "Await separate genuine human feedback and later evidence; no repeat tracking index request, new GSC period or ranking/visit claim"]
+    },
+    {
       "cluster": "US Google Ads account audit",
       "market": "US",
       "language": "en-US",

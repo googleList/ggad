@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 04:05:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 04:48:52 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>香港 Google Ads 帳戶審核清單</title>
+      <link>https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html</guid>
+      <description>香港 Google Ads 帳戶審核：分清轉換來源與出價目標，核對 WhatsApp、電話點擊及有效查詢證據，再檢查地區、預算、權限與交接。</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-Hant-HK</dc:language>
+    </item>
     <item>
       <title>Google Ads Account Audit Checklist for US Businesses</title>
       <link>https://shumaojs.com/articles/google-ads-account-audit-usa.html</link>
@@ -285,15 +294,6 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <category>Google Ads Governance</category>
       <dc:language>en-US</dc:language>
-    </item>
-    <item>
-      <title>香港 Google Ads 帳戶審核清單</title>
-      <link>https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html</guid>
-      <description>香港企業適用的 Google Ads 帳戶審核框架，涵蓋控制權、測量、流量品質、出價、廣告、著陸頁及報告。</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
-      <dc:language>zh-Hant-HK</dc:language>
     </item>
     <item>
       <title>香港 Google Ads 帳戶權限及付款資料指南</title>

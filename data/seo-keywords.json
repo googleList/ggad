@@ -57,6 +57,7 @@
         "reviewedAt": "2026-10-26",
         "method": "Official visible GSC UI September27-October24 available window:243impressions/0clicks/54.9, all39queries/29countries read. Exact 谷歌代投6/0/3.3 on separate page viewgoogle-ads.html6; separate country viewCN5/SG1, not joint daily query-page-country data. US119/HK62 unfiltered country impressions are not those Simplified query markets. Other exact target themes absent from visible queries are not zero demand. No new7day/prior28comparison, API-final certification, stable ranking, search-volume or release-gain claim; overlapping throughOctober23/239 snapshot remains historical. GSC Wizard subscription_required, do not retry until access state changes; browser read independent.",
         "performanceSnapshot": "reports/search-console/2026-10-26-keyword-window.json",
+        "adjacentWeekFollowUp": {"snapshot": "reports/search-console/2026-10-26-weekly-market-follow-up.json", "period": "2026-10-18 through2026-10-24 versusOctober11-17", "directJointFilter": {"country": "US", "query": "google ads代运营", "page": "https://shumaojs.com/articles.html", "currentImpressions": 1, "previousImpressions": 0, "clicksBoth": 0, "currentPosition": 8, "previousPosition": null}, "meaning": "One directly observed US mixedSimplified query/page signal, not USvolume/stablerank, precise谷歌代投market validation or permission for a new landingpage. Earlier no-new7day sentence describes the initial28day checkpoint, superseded only by this separate genuine7day followup."},
         "googleSearchVolume": null,
         "countryDemandVerified": false,
         "editorialBrief": "reports/editorial/2026-10-24-service-scope/brief.md",
@@ -254,7 +255,8 @@
       "targetUrl": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
       "primaryKeywords": ["香港 Google Ads 月度報告", "Google Ads 成效報告", "廣告代理報告"],
       "supportingKeywords": ["Google Ads 報告指標", "港幣廣告預算報告", "WhatsApp 查詢追蹤", "廣告有效查詢成本"],
-      "contentActions": ["使用香港 Search Console 查詢驗證月度與成效報告用詞", "由帳戶審核及轉換追蹤頁建立內鏈", "把 WhatsApp、電話、有效查詢及成交定義寫清楚"]
+      "evidence": {"reviewedAt": "2026-10-26", "snapshot": "reports/search-console/2026-10-26-weekly-market-follow-up.json", "method": "Actual countryHK plus exactquery google ads 報告 filters, then page breakdown, confirms currentexistingHKmonthlyreportguide7impressions/0clicks/18 versus3/0/47.7 inOctober18-24versus11-17. Directjointfilter, not aggregatejoin or language-to-country inference.", "googleSearchVolume": null, "observedCountryQueryPageSignal": true, "countryDemandScaleVerified": false, "decision": "Stronger geographic/topic evidence makes existing-guide factual review a future candidate; only7impressions, not CTR/title test, stable rank, visit gain, a new page or automatic higher priority than Simplified commercial themes."},
+      "contentActions": ["已用香港加精確報告查詢的聯合篩選核對既有月報頁面，保留其網址與繁體內容", "將現有內容的事實與完整性審校列為候選；不因7次展示0點擊改標題或新增同義頁", "維持平台數據、真實查詢及成交的邊界，等待更晚可比周期與此頁自己的審閱證據"]
     },
     {
       "cluster": "Google Ads 广告管理",

@@ -1,8 +1,40 @@
 {
-  "generatedAt": "2026-10-20T13:23:49.022Z",
+  "generatedAt": "2026-10-26T06:32:46.958Z",
   "sourcesChecked": 6,
   "sourcesAvailable": 5,
   "items": [
+    {
+      "title": "AI Won’t Save You Time. Not at First. A PPC Experts AI Journey",
+      "url": "https://ppchero.com/ai-wont-save-you-time-not-at-first-a-ppc-experts-ai-journey/",
+      "source": "PPC Hero",
+      "publishedAt": "2026-10-22T10:16:51.000Z",
+      "category": "广告投放",
+      "summary": "A PPC expert shares her honest AI learning journey, why mastering AI is about progress, not speed, and why it's perfectly OK if you feel left behind right now."
+    },
+    {
+      "title": "Task Automation Tips, AI-Build Landing Pages, and Industry News",
+      "url": "https://www.socialmediaexaminer.com/task-automation-tips-ai-build-landing-pages-and-industry-news/",
+      "source": "Social Media Examiner",
+      "publishedAt": "2026-10-22T09:30:00.000Z",
+      "category": "转化与落地页",
+      "summary": "Friday is almost here! Before you unplug, here’s one last round of insights and updates. Whether you read them now or save them for later, you won’t want to miss these. In today’s"
+    },
+    {
+      "title": "New bidding and budgeting tools can transform your upcoming holiday ad strategy.",
+      "url": "https://blog.google/products/ads-commerce/holiday-shopping-bidding-budgeting/",
+      "source": "Google Ads & Commerce Blog",
+      "publishedAt": "2026-10-21T13:00:00.000Z",
+      "category": "Google Ads",
+      "summary": "Get actionable insights on bidding and budgeting tools in the latest episode of Google's \"Ads Decoded\" podcast."
+    },
+    {
+      "title": "AI Max in 2026-2027: What’s Working & What Bleeds Budget",
+      "url": "https://ppchero.com/ai-max-in-2026-2027-whats-working-what-bleeds-budget/",
+      "source": "PPC Hero",
+      "publishedAt": "2026-10-20T13:27:46.000Z",
+      "category": "搜索广告",
+      "summary": "Learn what’s working with AI Max in 2026-2027 & how paid search marketers can optimize, train, and scale AI-driven campaigns with the 6-step AI Max framework."
+    },
     {
       "title": "How to Track Google Ads Conversions in the Age of AI",
       "url": "https://www.wordstream.com/blog/how-to-track-conversions-in-google-ads",
@@ -197,6 +229,10 @@
     }
   ],
   "topicIdeas": [
+    "广告投放：AI Won’t Save You Time. Not at First. A PPC Experts AI Journey",
+    "转化与落地页：Task Automation Tips, AI-Build Landing Pages, and Industry News",
+    "Google Ads：New bidding and budgeting tools can transform your upcoming holiday ad strategy.",
+    "搜索广告：AI Max in 2026-2027: What’s Working & What Bleeds Budget",
     "转化与落地页：How to Track Google Ads Conversions in the Age of AI",
     "Google Ads：How to Do Competitive Conquesting in Google Ads Without Breaking the Bank",
     "Meta / Facebook：A Complete Guide to Meta Ads Placements for 2026",
@@ -210,10 +246,6 @@
     "搜索广告：Proving the Value of Paid Search With Incrementality Testing",
     "搜索广告：Make AI Max work for your business with new testing and planning tools.",
     "Google Ads：Google Ads Target Bid Strategy Changes: What Changed in August 2026 and What to Do Now",
-    "广告投放：How to use multiple MMMs to make better paid media decisions",
-    "Google Ads：Google’s target bidding shake-up: Why PPC marketers have been here before",
-    "Google Ads：How to Build a Google Ads Daily Pacing Script",
-    "广告投放：Getting a Pipeline Number You Can Defend to Finance",
-    "广告投放：Black Friday 2026: A Uniquely High-Stakes Quarter"
+    "广告投放：How to use multiple MMMs to make better paid media decisions"
   ]
 }

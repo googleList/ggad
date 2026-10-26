@@ -7,8 +7,8 @@
     "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
-    "latestBrief": "reports/editorial/2026-10-25-rsa-copy/brief.md",
-    "latestAiReviewStatus": "completed distinct-intent, source/claim, Chinese/ASCII example-unit, message-combination, format/eligibility/AdRank distinction and metadata/asset review for the new Simplified RSA guide. Six public article JS/noJS cases plus six full hub cases and105 CI tests pass. Original conceptual images and15/4teaching drafts; no live creative uploaded or account diagnosis performed",
+    "latestBrief": "reports/editorial/2026-10-26-us-audit/brief.md",
+    "latestAiReviewStatus": "US audit revision source/claim/math review completed: separate conversion source from optimization role, retain campaign custom-goal exception, no blanket Presence rule, no fabricated query-CRM join or zero cost for zero outcomes. Four baseline/four location checks and three hypothetical decisions; six local article JS/noJS and six hub cases pass,105local tests with one Windows permission skip. Original conceptual cover; title/H1/URL/publication/alternate and all48card identities/order unchanged. Production verification pending for this new batch, not a live Ads audit or implementation",
     "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist, tracking tutorial, managed/Meta/Facebook explanation and now search-terms six decisions/four checks/negative scope/three review records onOctober25: 内容符合，可保留. RSA educational copy, budget/channel-comparison/agency-selection/matching/cost reviews remain separate and pending. No approval inherited, live ad/account action or results approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
@@ -18,8 +18,8 @@
   "targetEndAt": "2026-12-26",
   "sprintGoal": "1000 average daily Google organic visits",
   "goalIsGuaranteed": false,
-  "lastRunAt": "2026-10-25",
-  "latestReport": "reports/seo-follow-up-2026-10-25.md",
+  "lastRunAt": "2026-10-26",
+  "latestReport": "reports/seo-follow-up-2026-10-26.md",
   "latestMeasurementReview": {
     "snapshot": "reports/search-console/2026-10-25-settled-follow-up.json",
     "through": "2026-10-23",

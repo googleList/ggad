@@ -1,0 +1,731 @@
+{
+  "checkedAt": "2026-10-26T04:08:31.727Z",
+  "base": "http://127.0.0.1:8794/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "Google Ads Account Audit Checklist for US Businesses",
+      "headline": "Google Ads account audit checklist for US businesses",
+      "schemaHeadline": "Google Ads Account Audit Checklist for US Businesses",
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
+      "alternate": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "published": "2026-09-28",
+      "modified": "2026-10-26T12:05:14+08:00",
+      "visibleModified": "2026-10-26T12:05:14+08:00",
+      "descriptions": [
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log."
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8794/assets/articles/account-audit-evidence-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "locations": 4,
+      "decisions": [
+        "defect",
+        "hypothesis",
+        "gap"
+      ],
+      "math": "Hypothetical teaching example, not a client result or benchmark: USD 1,200 media spend divided by 20 reported lead conversions is USD 60 per reported conversion. If four unique leads from that same, reliably linked cohort are accepted by sales, USD 1,200 / 4 = USD 300 per accepted lead. Neither figure is profit or ROAS. With zero accepted leads the cost per accepted lead is undefined, not USD 0; with missing CRM evidence, qualification is unknown, not zero.",
+      "boundaries": [
+        {
+          "text": "Source and optimization role are not interchangeable",
+          "present": true
+        },
+        {
+          "text": "custom goal",
+          "present": true
+        },
+        {
+          "text": "not checked",
+          "present": true
+        },
+        {
+          "text": "qualification is unknown, not zero",
+          "present": true
+        },
+        {
+          "text": "not a complete traffic census",
+          "present": true
+        },
+        {
+          "text": "not automatically wasted spend",
+          "present": true
+        },
+        {
+          "text": "Do not automatically change every campaign to Presence",
+          "present": true
+        },
+        {
+          "text": "not findings in your account",
+          "present": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#baseline",
+          "top": 111.78125,
+          "headerBottom": 79
+        },
+        {
+          "href": "#account-control",
+          "top": 112.421875,
+          "headerBottom": 79
+        },
+        {
+          "href": "#measurement",
+          "top": 111.546875,
+          "headerBottom": 79
+        },
+        {
+          "href": "#traffic-quality",
+          "top": 112.25,
+          "headerBottom": 79
+        },
+        {
+          "href": "#action-plan",
+          "top": 112.34375,
+          "headerBottom": 79
+        },
+        {
+          "href": "#evidence-log",
+          "top": 112.25,
+          "headerBottom": 79
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "baseline",
+        "account-control",
+        "measurement",
+        "traffic-quality",
+        "action-plan",
+        "evidence-log"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/google-ads-agency-checklist-usa.html",
+        "/articles/google-ads-account-ownership-usa.html",
+        "/google-ads-management-usa.html",
+        "/articles/google-ads-monthly-reporting-usa.html",
+        "/articles/google-ads-landing-page-checklist-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": 5,
+      "listingPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "Google Ads Account Audit Checklist for US Businesses",
+      "headline": "Google Ads account audit checklist for US businesses",
+      "schemaHeadline": "Google Ads Account Audit Checklist for US Businesses",
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
+      "alternate": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "published": "2026-09-28",
+      "modified": "2026-10-26T12:05:14+08:00",
+      "visibleModified": "2026-10-26T12:05:14+08:00",
+      "descriptions": [
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log."
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8794/assets/articles/account-audit-evidence-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "locations": 4,
+      "decisions": [
+        "defect",
+        "hypothesis",
+        "gap"
+      ],
+      "math": "Hypothetical teaching example, not a client result or benchmark: USD 1,200 media spend divided by 20 reported lead conversions is USD 60 per reported conversion. If four unique leads from that same, reliably linked cohort are accepted by sales, USD 1,200 / 4 = USD 300 per accepted lead. Neither figure is profit or ROAS. With zero accepted leads the cost per accepted lead is undefined, not USD 0; with missing CRM evidence, qualification is unknown, not zero.",
+      "boundaries": [
+        {
+          "text": "Source and optimization role are not interchangeable",
+          "present": true
+        },
+        {
+          "text": "custom goal",
+          "present": true
+        },
+        {
+          "text": "not checked",
+          "present": true
+        },
+        {
+          "text": "qualification is unknown, not zero",
+          "present": true
+        },
+        {
+          "text": "not a complete traffic census",
+          "present": true
+        },
+        {
+          "text": "not automatically wasted spend",
+          "present": true
+        },
+        {
+          "text": "Do not automatically change every campaign to Presence",
+          "present": true
+        },
+        {
+          "text": "not findings in your account",
+          "present": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#baseline",
+          "top": 111.90625,
+          "headerBottom": 75
+        },
+        {
+          "href": "#account-control",
+          "top": 111.5,
+          "headerBottom": 75
+        },
+        {
+          "href": "#measurement",
+          "top": 111.796875,
+          "headerBottom": 75
+        },
+        {
+          "href": "#traffic-quality",
+          "top": 111.84375,
+          "headerBottom": 75
+        },
+        {
+          "href": "#action-plan",
+          "top": 112.0625,
+          "headerBottom": 75
+        },
+        {
+          "href": "#evidence-log",
+          "top": 112.359375,
+          "headerBottom": 75
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "baseline",
+        "account-control",
+        "measurement",
+        "traffic-quality",
+        "action-plan",
+        "evidence-log"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/google-ads-agency-checklist-usa.html",
+        "/articles/google-ads-account-ownership-usa.html",
+        "/google-ads-management-usa.html",
+        "/articles/google-ads-monthly-reporting-usa.html",
+        "/articles/google-ads-landing-page-checklist-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": 5,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "Google Ads Account Audit Checklist for US Businesses",
+      "headline": "Google Ads account audit checklist for US businesses",
+      "schemaHeadline": "Google Ads Account Audit Checklist for US Businesses",
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
+      "alternate": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "published": "2026-09-28",
+      "modified": "2026-10-26T12:05:14+08:00",
+      "visibleModified": "2026-10-26T12:05:14+08:00",
+      "descriptions": [
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log."
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8794/assets/articles/account-audit-evidence-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "locations": 4,
+      "decisions": [
+        "defect",
+        "hypothesis",
+        "gap"
+      ],
+      "math": "Hypothetical teaching example, not a client result or benchmark: USD 1,200 media spend divided by 20 reported lead conversions is USD 60 per reported conversion. If four unique leads from that same, reliably linked cohort are accepted by sales, USD 1,200 / 4 = USD 300 per accepted lead. Neither figure is profit or ROAS. With zero accepted leads the cost per accepted lead is undefined, not USD 0; with missing CRM evidence, qualification is unknown, not zero.",
+      "boundaries": [
+        {
+          "text": "Source and optimization role are not interchangeable",
+          "present": true
+        },
+        {
+          "text": "custom goal",
+          "present": true
+        },
+        {
+          "text": "not checked",
+          "present": true
+        },
+        {
+          "text": "qualification is unknown, not zero",
+          "present": true
+        },
+        {
+          "text": "not a complete traffic census",
+          "present": true
+        },
+        {
+          "text": "not automatically wasted spend",
+          "present": true
+        },
+        {
+          "text": "Do not automatically change every campaign to Presence",
+          "present": true
+        },
+        {
+          "text": "not findings in your account",
+          "present": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#baseline",
+          "top": 112.359375,
+          "headerBottom": 75
+        },
+        {
+          "href": "#account-control",
+          "top": 111.703125,
+          "headerBottom": 75
+        },
+        {
+          "href": "#measurement",
+          "top": 112.28125,
+          "headerBottom": 75
+        },
+        {
+          "href": "#traffic-quality",
+          "top": 112.21875,
+          "headerBottom": 75
+        },
+        {
+          "href": "#action-plan",
+          "top": 111.609375,
+          "headerBottom": 75
+        },
+        {
+          "href": "#evidence-log",
+          "top": 111.96875,
+          "headerBottom": 75
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "baseline",
+        "account-control",
+        "measurement",
+        "traffic-quality",
+        "action-plan",
+        "evidence-log"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/google-ads-agency-checklist-usa.html",
+        "/articles/google-ads-account-ownership-usa.html",
+        "/google-ads-management-usa.html",
+        "/articles/google-ads-monthly-reporting-usa.html",
+        "/articles/google-ads-landing-page-checklist-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": 5,
+      "listingPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "Google Ads Account Audit Checklist for US Businesses",
+      "headline": "Google Ads account audit checklist for US businesses",
+      "schemaHeadline": "Google Ads Account Audit Checklist for US Businesses",
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
+      "alternate": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "published": "2026-09-28",
+      "modified": "2026-10-26T12:05:14+08:00",
+      "visibleModified": "2026-10-26T12:05:14+08:00",
+      "descriptions": [
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log."
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8794/assets/articles/account-audit-evidence-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "locations": 4,
+      "decisions": [
+        "defect",
+        "hypothesis",
+        "gap"
+      ],
+      "math": "Hypothetical teaching example, not a client result or benchmark: USD 1,200 media spend divided by 20 reported lead conversions is USD 60 per reported conversion. If four unique leads from that same, reliably linked cohort are accepted by sales, USD 1,200 / 4 = USD 300 per accepted lead. Neither figure is profit or ROAS. With zero accepted leads the cost per accepted lead is undefined, not USD 0; with missing CRM evidence, qualification is unknown, not zero.",
+      "boundaries": [
+        {
+          "text": "Source and optimization role are not interchangeable",
+          "present": true
+        },
+        {
+          "text": "custom goal",
+          "present": true
+        },
+        {
+          "text": "not checked",
+          "present": true
+        },
+        {
+          "text": "qualification is unknown, not zero",
+          "present": true
+        },
+        {
+          "text": "not a complete traffic census",
+          "present": true
+        },
+        {
+          "text": "not automatically wasted spend",
+          "present": true
+        },
+        {
+          "text": "Do not automatically change every campaign to Presence",
+          "present": true
+        },
+        {
+          "text": "not findings in your account",
+          "present": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#baseline",
+          "top": 112.359375,
+          "headerBottom": 75
+        },
+        {
+          "href": "#account-control",
+          "top": 112.46875,
+          "headerBottom": 75
+        },
+        {
+          "href": "#measurement",
+          "top": 112.390625,
+          "headerBottom": 75
+        },
+        {
+          "href": "#traffic-quality",
+          "top": 112.359375,
+          "headerBottom": 75
+        },
+        {
+          "href": "#action-plan",
+          "top": 111.9375,
+          "headerBottom": 75
+        },
+        {
+          "href": "#evidence-log",
+          "top": 112.03125,
+          "headerBottom": 75
+        }
+      ],
+      "ids": [
+        "site-nav-1",
+        "baseline",
+        "account-control",
+        "measurement",
+        "traffic-quality",
+        "action-plan",
+        "evidence-log"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/google-ads-agency-checklist-usa.html",
+        "/articles/google-ads-account-ownership-usa.html",
+        "/google-ads-management-usa.html",
+        "/articles/google-ads-monthly-reporting-usa.html",
+        "/articles/google-ads-landing-page-checklist-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": 5,
+      "listingPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "Google Ads Account Audit Checklist for US Businesses",
+      "headline": "Google Ads account audit checklist for US businesses",
+      "schemaHeadline": "Google Ads Account Audit Checklist for US Businesses",
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
+      "alternate": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "published": "2026-09-28",
+      "modified": "2026-10-26T12:05:14+08:00",
+      "visibleModified": "2026-10-26T12:05:14+08:00",
+      "descriptions": [
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log."
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8794/assets/articles/account-audit-evidence-v1.jpg",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "locations": 4,
+      "decisions": [
+        "defect",
+        "hypothesis",
+        "gap"
+      ],
+      "math": "Hypothetical teaching example, not a client result or benchmark: USD 1,200 media spend divided by 20 reported lead conversions is USD 60 per reported conversion. If four unique leads from that same, reliably linked cohort are accepted by sales, USD 1,200 / 4 = USD 300 per accepted lead. Neither figure is profit or ROAS. With zero accepted leads the cost per accepted lead is undefined, not USD 0; with missing CRM evidence, qualification is unknown, not zero.",
+      "boundaries": [
+        {
+          "text": "Source and optimization role are not interchangeable",
+          "present": true
+        },
+        {
+          "text": "custom goal",
+          "present": true
+        },
+        {
+          "text": "not checked",
+          "present": true
+        },
+        {
+          "text": "qualification is unknown, not zero",
+          "present": true
+        },
+        {
+          "text": "not a complete traffic census",
+          "present": true
+        },
+        {
+          "text": "not automatically wasted spend",
+          "present": true
+        },
+        {
+          "text": "Do not automatically change every campaign to Presence",
+          "present": true
+        },
+        {
+          "text": "not findings in your account",
+          "present": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#baseline",
+          "top": 111.78125,
+          "headerBottom": 79
+        },
+        {
+          "href": "#account-control",
+          "top": 112.109375,
+          "headerBottom": 79
+        },
+        {
+          "href": "#measurement",
+          "top": 111.921875,
+          "headerBottom": 79
+        },
+        {
+          "href": "#traffic-quality",
+          "top": 112,
+          "headerBottom": 79
+        },
+        {
+          "href": "#action-plan",
+          "top": 112.15625,
+          "headerBottom": 79
+        },
+        {
+          "href": "#evidence-log",
+          "top": 111.75,
+          "headerBottom": 79
+        }
+      ],
+      "ids": [
+        "baseline",
+        "account-control",
+        "measurement",
+        "traffic-quality",
+        "action-plan",
+        "evidence-log"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/google-ads-agency-checklist-usa.html",
+        "/articles/google-ads-account-ownership-usa.html",
+        "/google-ads-management-usa.html",
+        "/articles/google-ads-monthly-reporting-usa.html",
+        "/articles/google-ads-landing-page-checklist-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": null,
+      "listingPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "Google Ads Account Audit Checklist for US Businesses",
+      "headline": "Google Ads account audit checklist for US businesses",
+      "schemaHeadline": "Google Ads Account Audit Checklist for US Businesses",
+      "canonical": "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
+      "alternate": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+      "published": "2026-09-28",
+      "modified": "2026-10-26T12:05:14+08:00",
+      "visibleModified": "2026-10-26T12:05:14+08:00",
+      "descriptions": [
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.",
+        "Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log."
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8794/assets/articles/account-audit-evidence-thumb-v1.webp",
+        "loaded": true,
+        "schema": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "og": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "twitter": "https://shumaojs.com/assets/articles/account-audit-evidence-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "checks": 4,
+      "locations": 4,
+      "decisions": [
+        "defect",
+        "hypothesis",
+        "gap"
+      ],
+      "math": "Hypothetical teaching example, not a client result or benchmark: USD 1,200 media spend divided by 20 reported lead conversions is USD 60 per reported conversion. If four unique leads from that same, reliably linked cohort are accepted by sales, USD 1,200 / 4 = USD 300 per accepted lead. Neither figure is profit or ROAS. With zero accepted leads the cost per accepted lead is undefined, not USD 0; with missing CRM evidence, qualification is unknown, not zero.",
+      "boundaries": [
+        {
+          "text": "Source and optimization role are not interchangeable",
+          "present": true
+        },
+        {
+          "text": "custom goal",
+          "present": true
+        },
+        {
+          "text": "not checked",
+          "present": true
+        },
+        {
+          "text": "qualification is unknown, not zero",
+          "present": true
+        },
+        {
+          "text": "not a complete traffic census",
+          "present": true
+        },
+        {
+          "text": "not automatically wasted spend",
+          "present": true
+        },
+        {
+          "text": "Do not automatically change every campaign to Presence",
+          "present": true
+        },
+        {
+          "text": "not findings in your account",
+          "present": true
+        }
+      ],
+      "anchors": [
+        {
+          "href": "#baseline",
+          "top": 112.359375,
+          "headerBottom": 75
+        },
+        {
+          "href": "#account-control",
+          "top": 111.703125,
+          "headerBottom": 75
+        },
+        {
+          "href": "#measurement",
+          "top": 112.28125,
+          "headerBottom": 75
+        },
+        {
+          "href": "#traffic-quality",
+          "top": 111.53125,
+          "headerBottom": 75
+        },
+        {
+          "href": "#action-plan",
+          "top": 111.546875,
+          "headerBottom": 75
+        },
+        {
+          "href": "#evidence-log",
+          "top": 111.90625,
+          "headerBottom": 75
+        }
+      ],
+      "ids": [
+        "baseline",
+        "account-control",
+        "measurement",
+        "traffic-quality",
+        "action-plan",
+        "evidence-log"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/google-ads-agency-checklist-usa.html",
+        "/articles/google-ads-account-ownership-usa.html",
+        "/google-ads-management-usa.html",
+        "/articles/google-ads-monthly-reporting-usa.html",
+        "/articles/google-ads-landing-page-checklist-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": null,
+      "listingPassed": true
+    }
+  ],
+  "pageErrors": []
+}

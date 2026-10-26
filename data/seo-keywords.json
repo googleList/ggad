@@ -1,10 +1,30 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
   "clusters": [
+    {
+      "cluster": "US Google Ads account audit",
+      "market": "US",
+      "language": "en-US",
+      "intent": "informational-commercial",
+      "priority": "secondary-maintenance",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
+      "primaryKeywords": ["Google Ads account audit checklist", "Google Ads audit"],
+      "supportingKeywords": ["conversion goal audit", "US location targeting audit", "Google Ads audit evidence"],
+      "evidence": {
+        "reviewedAt": "2026-10-26",
+        "performanceSnapshot": "reports/search-console/2026-10-25-settled-follow-up.json",
+        "method": "Existing page has83 global impressions/0clicks/average91.2 in September26-October23; not a US-filtered page/query export. October25 public SERP check shows checklist/tutorial intent; technical claims rely only on official Google documentation. Original source audit found conversion-source/optimization-role conflation and missing custom-goal exception, plus no concrete evidence log. Correct the existing URL rather than add a competing page or test a title on this sample.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-26-us-audit/brief.md",
+        "humanReviewStatus": "pending separately for the October26 US audit revision; previous search-terms/service approvals do not apply"
+      },
+      "contentActions": ["Keep title/H1/URL/publication date and English/HK reciprocal alternates stable", "Correct source/optimization dimensions and custom-goal exception; add four baseline/four location checks, explicit lead-cost example and three evidence decisions", "Preserve primary Simplified Chinese priorities; HTTP consolidation remains first technical dependency awaiting authorization", "Wait for genuine human feedback and later crawl/query-country-page evidence; no claim of increased visits, rankings or validated US volume"]
+    },
     {
       "cluster": "谷歌广告代投与管理",
       "language": "zh-Hans",

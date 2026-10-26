@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 02:12:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 04:05:14 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Ads Account Audit Checklist for US Businesses</title>
+      <link>https://shumaojs.com/articles/google-ads-account-audit-usa.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-account-audit-usa.html</guid>
+      <description>Audit Google Ads account access, conversion goals, US location settings and traffic quality with evidence checks, a worked lead-cost example and a decision log.</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>en-US</dc:language>
+    </item>
     <item>
       <title>谷歌广告标题和描述怎么写？RSA 广告效力排查指南</title>
       <link>https://shumaojs.com/articles/google-ads-responsive-search-ads.html</link>
@@ -275,15 +284,6 @@
       <description>A practical guide to account ownership, manager access, billing profiles, data control, security, and agency handoffs.</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <category>Google Ads Governance</category>
-      <dc:language>en-US</dc:language>
-    </item>
-    <item>
-      <title>Google Ads Account Audit Checklist for US Businesses</title>
-      <link>https://shumaojs.com/articles/google-ads-account-audit-usa.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-account-audit-usa.html</guid>
-      <description>A practical account audit framework covering control, measurement, traffic quality, bidding, creative, landing pages, and reporting.</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEM</category>
       <dc:language>en-US</dc:language>
     </item>
     <item>

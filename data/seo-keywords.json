@@ -89,8 +89,8 @@
       "targetUrl": "https://shumaojs.com/articles/google-search-ads-guide.html",
       "primaryKeywords": ["谷歌排名", "谷歌广告排名"],
       "supportingKeywords": ["Google Ads 广告位置", "广告评级 Ad Rank", "谷歌广告首页展示"],
-      "contentActions": ["保留原标题H1网址与9月11日发布日期，纠正旧Ads平均排名和顶部广告必在自然结果上方的过时说明", "六项评级因素与质量得分边界、三种同口径教学比例、四种条件排查和四项复盘记录，使用现有原创图，不新增同义薄页", "同步实际修改时间、列表与feed；人工审稿单独待确认，不继承其他教程的认可", "不承诺首页或第一名，不把自然GSC平均排名或少量展示当作Ads评级或市场搜索量"],
-      "accuracyReview": {"reviewedAt": "2026-10-26", "brief": "reports/editorial/2026-10-26-ad-rank/brief.md", "humanReview": "pending separately", "demand": "Exact 谷歌排名 not present among39visible queries, not zero market demand. Revision justified by verifiable source defects, not CTR experiment or claimed volume."},
+      "contentActions": ["保留原标题H1网址与9月11日发布日期，纠正旧Ads平均排名和顶部广告必在自然结果上方的过时说明", "六项评级因素与质量得分边界、三种同口径教学比例、四种条件排查和四项复盘记录，使用现有原创图，不新增同义薄页", "站主已单独确认本篇修订可保留；保留正文及原有修改时间，不继承其他文章认可或视为账户操作授权", "不承诺首页或第一名，不把自然GSC平均排名或少量展示当作Ads评级或市场搜索量"],
+      "accuracyReview": {"reviewedAt": "2026-10-26", "brief": "reports/editorial/2026-10-26-ad-rank/brief.md", "humanReview": "Owner separately confirmed October26: 内容符合，可保留. Six AdRank factors, top-placement definitions, three hypothetical ratios and four conditional diagnosis rows of80fe13e; no account, budget, results or other-article approval.", "demand": "Exact 谷歌排名 not present among39visible queries, not zero market demand. Revision justified by verifiable source defects, not CTR experiment or claimed volume."},
       "linkIntentReview": {
         "reviewedAt": "2026-10-25",
         "evidence": "reports/recovery-links/2026-10-25/audit.md",

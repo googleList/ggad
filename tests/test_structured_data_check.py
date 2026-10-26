@@ -258,7 +258,7 @@ class StructuredDataCheckTests(unittest.TestCase):
         }
         self.assertEqual(MODULE.validate_page(Path("index.html"), page(schema)), [])
 
-    def test_professional_service_requires_verified_identity_fields(self):
+    def test_professional_service_retains_required_local_identity_fields(self):
         schema = {
             "@type": "ProfessionalService",
             "@id": MODULE.ORGANIZATION_ID,
@@ -270,7 +270,46 @@ class StructuredDataCheckTests(unittest.TestCase):
         }
         errors = MODULE.validate_page(Path("index.html"), page(schema))
         self.assertTrue(any("legalName" in error for error in errors))
-        self.assertTrue(any("taxID" in error for error in errors))
+        self.assertFalse(any("taxID" in error for error in errors))
+
+    def test_professional_service_does_not_require_registration_numbers(self):
+        schema = {
+            "@type": "ProfessionalService",
+            "@id": MODULE.ORGANIZATION_ID,
+            "name": "Example",
+            "legalName": "Example Company Limited",
+            "url": "https://example.com/guide.html",
+            "address": {"@type": "PostalAddress", "addressCountry": "CN"},
+            "areaServed": [{"@type": "Country", "name": "United States"}],
+        }
+        self.assertEqual(MODULE.validate_page(Path("index.html"), page(schema)), [])
+
+    def test_public_organization_withholds_unconfirmed_registration_fields(self):
+        import json
+
+        root = Path(__file__).parents[1]
+        definitions = []
+        for source in list(root.glob("*.html")) + list((root / "articles").glob("*.html")):
+            parser = MODULE.SchemaParser()
+            parser.feed(source.read_text(encoding="utf-8"))
+            for block in parser.blocks:
+                for node in MODULE.flatten_schema(json.loads(block)):
+                    if node.get("@id") == MODULE.ORGANIZATION_ID:
+                        definitions.append(node)
+                        for field in ("identifier", "taxID", "vatID", "foundingDate"):
+                            self.assertNotIn(field, node, f"{source.name}: owner withdrew unconfirmed {field}")
+        self.assertTrue(definitions)
+
+    def test_withdrawn_registration_is_not_retained_in_visible_pages(self):
+        root = Path(__file__).parents[1]
+        for name in ("index.html", "company.html"):
+            source = (root / name).read_text(encoding="utf-8")
+            self.assertNotIn("91530103MACQG57N6E", source)
+            self.assertNotIn("统一社会信用代码", source)
+        company = (root / "company.html").read_text(encoding="utf-8")
+        self.assertNotIn("company-verification", company)
+        for label in ("企业类型", "成立日期", "登记机关"):
+            self.assertNotIn(label, company)
 
     def test_valid_professional_service_passes(self):
         schema = {

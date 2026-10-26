@@ -217,7 +217,7 @@ def validate_page(path: Path, text: str, now: datetime | None = None) -> list[st
         if "ProfessionalService" in types:
             if schema.get("url") != parser.canonical:
                 errors.append("ProfessionalService url does not match canonical")
-            for field in ("name", "legalName", "identifier", "taxID", "address", "areaServed"):
+            for field in ("name", "legalName", "address", "areaServed"):
                 if not schema.get(field):
                     errors.append(f"ProfessionalService is missing '{field}'")
             if schema.get("@id") != ORGANIZATION_ID:

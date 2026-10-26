@@ -1,0 +1,686 @@
+{
+  "checkedAt": "2026-10-26T07:41:21.339Z",
+  "base": "http://127.0.0.1:8796/",
+  "results": [
+    {
+      "route": "/",
+      "width": 2560,
+      "javaScriptEnabled": true,
+      "title": "谷歌代投与 Google Ads 投放管理 | 开户协助 | 昆明振润达",
+      "canonical": "https://shumaojs.com/",
+      "robots": "index,follow",
+      "organizations": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "振润达",
+          "alternateName": "昆明振润达",
+          "legalName": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/",
+          "logo": "https://shumaojs.com/assets/logo.svg",
+          "description": "面向外贸企业、工厂、跨境电商和个人创业项目，提供 Google Ads、Meta、Facebook、X/Twitter 广告管理、落地页合规检查、转化追踪和投放优化建议。",
+          "serviceType": "平台广告管理与投放咨询",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "昆明市",
+            "addressRegion": "云南省",
+            "addressCountry": "CN"
+          },
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "United States"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Hong Kong"
+            }
+          ],
+          "sameAs": [
+            "https://t.me/qichuanggg"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "https://t.me/qichuanggg",
+            "availableLanguage": [
+              "zh-CN"
+            ]
+          }
+        }
+      ],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": false,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": 3,
+      "factColumns": 3,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/",
+        "/google-ads.html",
+        "/managed-ads.html",
+        "/compliance.html",
+        "/articles/conversion-tracking-basics.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/articles.html",
+        "/company.html"
+      ]
+    },
+    {
+      "route": "company.html",
+      "width": 2560,
+      "javaScriptEnabled": true,
+      "title": "企业与服务说明 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/company.html",
+      "robots": "index,follow",
+      "organizations": [],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": true,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": null,
+      "factColumns": null,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/terms.html"
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "谷歌代投与 Google Ads 投放管理 | 开户协助 | 昆明振润达",
+      "canonical": "https://shumaojs.com/",
+      "robots": "index,follow",
+      "organizations": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "振润达",
+          "alternateName": "昆明振润达",
+          "legalName": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/",
+          "logo": "https://shumaojs.com/assets/logo.svg",
+          "description": "面向外贸企业、工厂、跨境电商和个人创业项目，提供 Google Ads、Meta、Facebook、X/Twitter 广告管理、落地页合规检查、转化追踪和投放优化建议。",
+          "serviceType": "平台广告管理与投放咨询",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "昆明市",
+            "addressRegion": "云南省",
+            "addressCountry": "CN"
+          },
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "United States"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Hong Kong"
+            }
+          ],
+          "sameAs": [
+            "https://t.me/qichuanggg"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "https://t.me/qichuanggg",
+            "availableLanguage": [
+              "zh-CN"
+            ]
+          }
+        }
+      ],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": false,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": 3,
+      "factColumns": 3,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/",
+        "/google-ads.html",
+        "/managed-ads.html",
+        "/compliance.html",
+        "/articles/conversion-tracking-basics.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/articles.html",
+        "/company.html"
+      ]
+    },
+    {
+      "route": "company.html",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "企业与服务说明 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/company.html",
+      "robots": "index,follow",
+      "organizations": [],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": true,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": null,
+      "factColumns": null,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/terms.html"
+      ]
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "谷歌代投与 Google Ads 投放管理 | 开户协助 | 昆明振润达",
+      "canonical": "https://shumaojs.com/",
+      "robots": "index,follow",
+      "organizations": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "振润达",
+          "alternateName": "昆明振润达",
+          "legalName": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/",
+          "logo": "https://shumaojs.com/assets/logo.svg",
+          "description": "面向外贸企业、工厂、跨境电商和个人创业项目，提供 Google Ads、Meta、Facebook、X/Twitter 广告管理、落地页合规检查、转化追踪和投放优化建议。",
+          "serviceType": "平台广告管理与投放咨询",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "昆明市",
+            "addressRegion": "云南省",
+            "addressCountry": "CN"
+          },
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "United States"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Hong Kong"
+            }
+          ],
+          "sameAs": [
+            "https://t.me/qichuanggg"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "https://t.me/qichuanggg",
+            "availableLanguage": [
+              "zh-CN"
+            ]
+          }
+        }
+      ],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": false,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": 3,
+      "factColumns": 2,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/",
+        "/google-ads.html",
+        "/managed-ads.html",
+        "/compliance.html",
+        "/articles/conversion-tracking-basics.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/articles.html",
+        "/company.html"
+      ]
+    },
+    {
+      "route": "company.html",
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "企业与服务说明 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/company.html",
+      "robots": "index,follow",
+      "organizations": [],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": true,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": null,
+      "factColumns": null,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/terms.html"
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "谷歌代投与 Google Ads 投放管理 | 开户协助 | 昆明振润达",
+      "canonical": "https://shumaojs.com/",
+      "robots": "index,follow",
+      "organizations": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "振润达",
+          "alternateName": "昆明振润达",
+          "legalName": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/",
+          "logo": "https://shumaojs.com/assets/logo.svg",
+          "description": "面向外贸企业、工厂、跨境电商和个人创业项目，提供 Google Ads、Meta、Facebook、X/Twitter 广告管理、落地页合规检查、转化追踪和投放优化建议。",
+          "serviceType": "平台广告管理与投放咨询",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "昆明市",
+            "addressRegion": "云南省",
+            "addressCountry": "CN"
+          },
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "United States"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Hong Kong"
+            }
+          ],
+          "sameAs": [
+            "https://t.me/qichuanggg"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "https://t.me/qichuanggg",
+            "availableLanguage": [
+              "zh-CN"
+            ]
+          }
+        }
+      ],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": false,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": 3,
+      "factColumns": 1,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/",
+        "/google-ads.html",
+        "/managed-ads.html",
+        "/compliance.html",
+        "/articles/conversion-tracking-basics.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/articles.html",
+        "/company.html"
+      ]
+    },
+    {
+      "route": "company.html",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "企业与服务说明 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/company.html",
+      "robots": "index,follow",
+      "organizations": [],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": true,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": null,
+      "factColumns": null,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/terms.html"
+      ]
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "谷歌代投与 Google Ads 投放管理 | 开户协助 | 昆明振润达",
+      "canonical": "https://shumaojs.com/",
+      "robots": "index,follow",
+      "organizations": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "振润达",
+          "alternateName": "昆明振润达",
+          "legalName": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/",
+          "logo": "https://shumaojs.com/assets/logo.svg",
+          "description": "面向外贸企业、工厂、跨境电商和个人创业项目，提供 Google Ads、Meta、Facebook、X/Twitter 广告管理、落地页合规检查、转化追踪和投放优化建议。",
+          "serviceType": "平台广告管理与投放咨询",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "昆明市",
+            "addressRegion": "云南省",
+            "addressCountry": "CN"
+          },
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "United States"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Hong Kong"
+            }
+          ],
+          "sameAs": [
+            "https://t.me/qichuanggg"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "https://t.me/qichuanggg",
+            "availableLanguage": [
+              "zh-CN"
+            ]
+          }
+        }
+      ],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": false,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": 3,
+      "factColumns": 1,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/",
+        "/google-ads.html",
+        "/managed-ads.html",
+        "/compliance.html",
+        "/articles/conversion-tracking-basics.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/articles.html",
+        "/company.html"
+      ]
+    },
+    {
+      "route": "company.html",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "企业与服务说明 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/company.html",
+      "robots": "index,follow",
+      "organizations": [],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": true,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": null,
+      "factColumns": null,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/terms.html"
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "谷歌代投与 Google Ads 投放管理 | 开户协助 | 昆明振润达",
+      "canonical": "https://shumaojs.com/",
+      "robots": "index,follow",
+      "organizations": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "振润达",
+          "alternateName": "昆明振润达",
+          "legalName": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/",
+          "logo": "https://shumaojs.com/assets/logo.svg",
+          "description": "面向外贸企业、工厂、跨境电商和个人创业项目，提供 Google Ads、Meta、Facebook、X/Twitter 广告管理、落地页合规检查、转化追踪和投放优化建议。",
+          "serviceType": "平台广告管理与投放咨询",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "昆明市",
+            "addressRegion": "云南省",
+            "addressCountry": "CN"
+          },
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "United States"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Hong Kong"
+            }
+          ],
+          "sameAs": [
+            "https://t.me/qichuanggg"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "https://t.me/qichuanggg",
+            "availableLanguage": [
+              "zh-CN"
+            ]
+          }
+        }
+      ],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": false,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": 3,
+      "factColumns": 3,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/",
+        "/google-ads.html",
+        "/managed-ads.html",
+        "/compliance.html",
+        "/articles/conversion-tracking-basics.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/articles.html",
+        "/company.html"
+      ]
+    },
+    {
+      "route": "company.html",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "企业与服务说明 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/company.html",
+      "robots": "index,follow",
+      "organizations": [],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": true,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": null,
+      "factColumns": null,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/terms.html"
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "谷歌代投与 Google Ads 投放管理 | 开户协助 | 昆明振润达",
+      "canonical": "https://shumaojs.com/",
+      "robots": "index,follow",
+      "organizations": [
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "振润达",
+          "alternateName": "昆明振润达",
+          "legalName": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/",
+          "logo": "https://shumaojs.com/assets/logo.svg",
+          "description": "面向外贸企业、工厂、跨境电商和个人创业项目，提供 Google Ads、Meta、Facebook、X/Twitter 广告管理、落地页合规检查、转化追踪和投放优化建议。",
+          "serviceType": "平台广告管理与投放咨询",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "昆明市",
+            "addressRegion": "云南省",
+            "addressCountry": "CN"
+          },
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "United States"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Hong Kong"
+            }
+          ],
+          "sameAs": [
+            "https://t.me/qichuanggg"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "url": "https://t.me/qichuanggg",
+            "availableLanguage": [
+              "zh-CN"
+            ]
+          }
+        }
+      ],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": false,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": 3,
+      "factColumns": 1,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/",
+        "/google-ads.html",
+        "/managed-ads.html",
+        "/compliance.html",
+        "/articles/conversion-tracking-basics.html",
+        "/meta-ads.html",
+        "/facebook-ads.html",
+        "/x-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-ads-basics.html",
+        "/articles.html",
+        "/company.html"
+      ]
+    },
+    {
+      "route": "company.html",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "企业与服务说明 | 昆明振润达商贸有限公司",
+      "canonical": "https://shumaojs.com/company.html",
+      "robots": "index,follow",
+      "organizations": [],
+      "withdrawnTerms": [],
+      "declaredCompanyVisible": true,
+      "notice": true,
+      "logo": {
+        "loaded": true
+      },
+      "contact": "https://t.me/qichuanggg",
+      "factCount": null,
+      "factColumns": null,
+      "registrationListCount": 0,
+      "overflow": false,
+      "mainLinks": [
+        "/terms.html"
+      ]
+    }
+  ],
+  "pageErrors": []
+}

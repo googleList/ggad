@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-10-26T05:03:20.381728+00:00",
+  "scope": "66current public HTML source files; public GET of HTTPS root/company only. No authoritative registry lookup result, personal document upload or legal-name change.",
+  "htmlFilesRead": 66,
+  "registrationFields": [
+    {
+      "file": "index.html",
+      "block": 0,
+      "jsonPath": "$",
+      "type": [
+        "ProfessionalService"
+      ],
+      "id": "https://shumaojs.com/#organization",
+      "fields": {
+        "name": "振润达",
+        "legalName": "昆明振润达商贸有限公司",
+        "identifier": "91530103MACQG57N6E",
+        "taxID": "91530103MACQG57N6E",
+        "foundingDate": "2023-08-04"
+      }
+    }
+  ],
+  "visibleCodePages": [
+    "company.html",
+    "index.html"
+  ],
+  "publicGetChecks": [
+    {
+      "url": "https://shumaojs.com/",
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/",
+      "visibleDeclaredCompany": true,
+      "visibleRegistrationCode": true,
+      "schemaRegistrationCode": true
+    },
+    {
+      "url": "https://shumaojs.com/company.html",
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/company.html",
+      "visibleDeclaredCompany": true,
+      "visibleRegistrationCode": true,
+      "schemaRegistrationCode": false
+    }
+  ],
+  "evidenceStatus": "association_unverified_pending_owner",
+  "limitations": [
+    "Site consistency is not registry verification",
+    "The earlier user-supplied licence shows a different name; may reflect a genuine name change or wrong document",
+    "No current licence/change record supplied yet",
+    "Exact old licence name is not transcribed where visual reading is uncertain; no representative/address image copied into repo",
+    "No declaration that entity is fake or attribution of past Ads suspension to this issue",
+    "No code/name/date withdrawn or replaced before owner answers the specific question"
+  ]
+}

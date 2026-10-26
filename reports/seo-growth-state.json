@@ -34,12 +34,22 @@
     "sampleTriage": "reports/search-console/2026-10-26-inspection/discovered-triage.json",
     "decision": "Hub is indexed/self canonical with newer displayedOctober26crawl; Google stored HTML actually contains RSA ItemList and card href, not proof of RSA article indexing or later US audit revision. Coverage report datedOctober19 says51indexed/47not; all13discovered examples read, all13currentHEAD200 with localselfcanonical/sitemap/inlinks, no blanket source/link fix justified. Tracking tutorial still storedDiscovered/no crawl but liveindexable; one selective priority request acceptedOctober26. Do not repeat unchanged requests. HTTProotstoredCrawled-notindexed witholdAugust24crawl/GooglecanonicalNA does not prove a current HTTPcanonical split or negate prior HTTP200 evidence. No new performance period, GA4 visits, ranking or edge-fix proof."
   },
+  "latestTrustReview": {
+    "observedAt": "2026-10-26",
+    "report": "reports/trust/2026-10-26/identity-review.md",
+    "inventory": "reports/trust/2026-10-26/identity-inventory.json",
+    "status": "owner_authorized_withdrawal_local_pending_deployment",
+    "registryIdentityVerified": false,
+    "finding": "Current declared company name is associated with a code shown on the user's earlier licence bearing a different name. May be a genuine registered name change or wrong historical document; no current record obtained. Source inventory66HTML plus public200root/company confirms one organization schema association and two visible code pages, not legal validity or an Ads suspension cause.",
+    "ownerQuestion": "Owner answeredOctober26: 先撤下尚未确认的登记字段. Withdraw code and associated founding/type/registrar; not permission to invent replacement or rename the declared company. No current registry evidence supplied.",
+    "hold": "Removed local home visiblecode and identifier/taxID/foundingDate; removed companyregistration list, retained declaredcompany/contact/service and honest verification notice. Do not reintroduce registration claims or newprofilecredentials without current evidence. Three regression tests prevent unsupported fields returning.14localpagecases and108localtests pass, productionverification pending. No private licence/person/address copied into repo; no claim legal identityverified."
+  },
   "deployment": {
     "status": "deployed",
-    "reason": "HK counterpart accuracy revision34bd00a verified deployed throughPages100 and real sixarticle/sixhub production cases. No acceptedUS/Simplified text, title/URL, runtime, account or edge changes; existing original images reused. Separate genuineHKreview requested/pending. Reporting commits may follow this checkpoint; HTTP301 still awaits owner access/authorization.",
-    "localCommit": "34bd00a601a14b369542bfb330aa2a7aeb90ae4f",
+    "reason": "PriorHKcontent34bd00a/reporting353566b verified deployed. Owner now chose withdrawal of unconfirmed registration fields; home/company/schema/CSS and correct optional-ID gate locally changed/tested, productionpending. No replacementcode/companyrename, registryvalidation, runtime or account/edgechange. Reporting commits may follow verified checkpoints.",
+    "localCommit": "353566ba1d8a63e287463d57df7b7e68cc955395",
     "verifiedAt": "2026-10-26",
-    "latestVerification": "Public marker matched34bd00a601a14b369542bfb330aa2a7aeb90ae4f, Pages100/40271540971 job121405225584success; actual105CItestsallOK,66HTML64sitemap0errors/150files. Productionarticle04:56:57.098Z sixcases andhub04:57:09.954Z sixcases pass, noerrors/overflow, mobile/noJS/keyboardtable/menu/nativeanchors/SEMpage5journey. Prior GSCrequest remains accepted/notinclusion, no newperformance, claimofcurrentindexingorHTTPedgefix."
+    "latestVerification": "Public marker matched353566ba1d8a63e287463d57df7b7e68cc955395 and Pages101/40271784141 job121405963606success. Actual content34bd00aPages100logs105testsallOK/66HTML64sitemap0errors/150files and sixarticle/sixhub production cases remain verified. New identity source/publicGET evidence is an unresolved provenance gap, not a public repair or registry verification. No freshperformance/visit/CWV/edge-fix claim."
   },
   "completedBatches": [
     "hk-audit-conversion-goal-and-enquiry-evidence-correction-2026-10-26",
@@ -633,6 +643,7 @@
     }
   },
   "nextPriorities": [
+    "Owner chosewithdrawalOctober26, no need to ask the same decision again. Verify actual deployed absence of home/company code and founding/type/registrar plus homepageidentifier/taxID/foundingDate,3/2/1responsivefacts and intact declaredcompany/service/contact. Local14pagecases/108tests pass; publicationpendingthischeckpoint. Keep unconfirmed identity fields withheld until genuinecurrentlicence/change evidence, no fakeentity accusation/Ads suspensioncausality/green-tests-as-registryproof or inventedreplacement",
     "Use October26 indexing snapshot, not stale aggregate examples: reportdatedOctober19is51indexed/47not, all13Discovered examplescurrentHEAD200withsitemap/selfcanonical/inlinks. Tracking livepass and oneacceptedpriorityrequestOctober26; waitforlaterstoredcrawl rather thanrepeat. Hubindexed/self/newOctober26crawlcontainsRSAcard, so no pagination/link rewrite or repeatrequest solely for discovery. HTTPstoredAugust24notindexed/canonicalNAcannotexplaincurrentHTTPperformance rows. Preserve selective evidence and HTTPaccessdependency",
     "Prioritize actual HTTP-to-HTTPS/WWW consolidation: current GSC HTTP homepage2impressions plus live rootHEAD/GET200 and path/queryHEAD evidence. Owner-specific Cloudflare login/301 permission request pending; inspect existing rules then scope to apexHTTP/www only, preserve path/query and exclude HTTPSapex. Do not change DNS/TLS mode/other subdomains, delete GSC data, use a fake static redirect workaround or claim the edge fixed. Next fresh verification after access/change, not repeated unchanged polls",
     "Use the newest throughOctober23 snapshot:28days239impressions/0clicks, all39queries/28countries/38pagecomparisonrows; adjacent7days41versus44, US11versus32/HK12versus8, both0clicks. 谷歌代投5/0/3.8 goes to accepted service page, separately CN4/SG1; mixed代运营2/0/54 is not a new-page mandate. Keep accepted Simplified titles/scope and all localizations stable. Data ends before latest releases; no causal rank/CTR improvement or geographic demand inferred. Prior28only2impressions/1click preprogram, not comparable growth proof",

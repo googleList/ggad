@@ -146,6 +146,17 @@
       "contentActions": ["保留原网址、标题、首次发布日期，纠正通用否定词与固定周数判断", "增加四行候选主题映射、三组误排反例及有效询盘成本假设演算", "原创封面与压缩缩略图用于文章、列表和分享图；不复制竞争站内容或虚构需求数据"]
     },
     {
+      "cluster": "SEM 落地页与追踪交接验收",
+      "language": "zh-Hans",
+      "intent": "informational",
+      "priority": "accuracy-maintenance",
+      "targetUrl": "https://shumaojs.com/articles/sem-landing-tracking.html",
+      "primaryKeywords": ["SEM 落地页 转化追踪", "谷歌广告上线验收"],
+      "supportingKeywords": ["广告追踪交接", "表单失败测试", "事件触发与真实询盘", "GA4 个人信息边界"],
+      "evidence": {"reviewedAt": "2026-10-26", "method": "Actual existing source omitted privacy boundaries on sameidentifier cross-tool advice and campaign/custom-goal nuance; broad successful-path list lacked concrete handover/exception records. Official Google sources verify correction. Public Simplified search shows measurement/landing-test instructional intent only, no competitor text/images copied, newGSCpage data or volume inferred.", "googleSearchVolume": null, "countryDemandVerified": false, "editorialBrief": "reports/editorial/2026-10-26-sem-handover/brief.md", "humanReviewStatus": "pending separately; AdRank/tracking/landing/USaudit acceptance does not transfer"},
+      "contentActions": ["Retain title/H1/URL/September11 publication; differentiate collaborative release evidence from accepted tracking/landing guides", "Six handover fields, five test cases, three hypothetical records and four release checks, privacy/consent/debugging boundaries and current official sources", "Reuse own original conceptual cover, no new runtime/form/pixel or actual account change; test, publish and request separate factual review"]
+    },
+    {
       "cluster": "谷歌广告标题描述与 RSA 广告效力",
       "language": "zh-Hans",
       "intent": "informational",

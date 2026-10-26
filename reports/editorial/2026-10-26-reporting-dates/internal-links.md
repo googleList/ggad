@@ -1,0 +1,19 @@
+# Internal Link Audit
+
+Generated: 2026-10-26
+
+- Indexable pages: 64
+- Orphan pages: 0
+- Pages with one internal source: 1
+- Pages unreachable from home: 0
+- Maximum click depth: 3
+
+## Pages needing attention
+
+| Page | Inlinks | Outlinks | Depth | Status |
+|---|---:|---:|---:|---|
+| `/ad-learning.html` | 1 | 12 | 2 | single source |
+
+## Notes
+
+This report measures crawl paths, not link equity. Repeated links from one page count as one source.

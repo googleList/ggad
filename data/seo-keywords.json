@@ -154,8 +154,8 @@
       "targetUrl": "https://shumaojs.com/articles/sem-landing-tracking.html",
       "primaryKeywords": ["SEM 落地页 转化追踪", "谷歌广告上线验收"],
       "supportingKeywords": ["广告追踪交接", "表单失败测试", "事件触发与真实询盘", "GA4 个人信息边界"],
-      "evidence": {"reviewedAt": "2026-10-26", "method": "Actual existing source omitted privacy boundaries on sameidentifier cross-tool advice and campaign/custom-goal nuance; broad successful-path list lacked concrete handover/exception records. Official Google sources verify correction. Public Simplified search shows measurement/landing-test instructional intent only, no competitor text/images copied, newGSCpage data or volume inferred.", "googleSearchVolume": null, "countryDemandVerified": false, "editorialBrief": "reports/editorial/2026-10-26-sem-handover/brief.md", "humanReviewStatus": "pending separately; AdRank/tracking/landing/USaudit acceptance does not transfer"},
-      "contentActions": ["Retain title/H1/URL/September11 publication; differentiate collaborative release evidence from accepted tracking/landing guides", "Six handover fields, five test cases, three hypothetical records and four release checks, privacy/consent/debugging boundaries and current official sources", "Reuse own original conceptual cover, no new runtime/form/pixel or actual account change; test, publish and request separate factual review"]
+      "evidence": {"reviewedAt": "2026-10-26", "method": "Actual existing source omitted privacy boundaries on sameidentifier cross-tool advice and campaign/custom-goal nuance; broad successful-path list lacked concrete handover/exception records. Official Google sources verify correction. Public Simplified search shows measurement/landing-test instructional intent only, no competitor text/images copied, newGSCpage data or volume inferred.", "googleSearchVolume": null, "countryDemandVerified": false, "editorialBrief": "reports/editorial/2026-10-26-sem-handover/brief.md", "humanReviewStatus": "Owner separately confirmed October26: 内容符合，可保留. Sixhandoverfields/fivetestdesigns/information-consentboundaries/threehypotheticalrecords only, no account/GA4/form/legal or newer reportingarticle approval."},
+      "contentActions": ["Retain separatelyowneraccepted revision/title/H1/URL/September11 publication and currentmodifieddate; do not refreshsolelyforapproval", "Six handover fields, five test cases, three hypothetical records and four release checks, privacy/consent/debugging boundaries and current official sources", "Own original conceptual cover, no new runtime/form/pixel or actual account change; acceptance doesnot transfer to reportingguides"]
     },
     {
       "cluster": "谷歌广告标题描述与 RSA 广告效力",
@@ -244,7 +244,8 @@
       "targetUrl": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
       "primaryKeywords": ["Google Ads monthly report", "Google Ads agency reporting", "PPC monthly reporting"],
       "supportingKeywords": ["Google Ads report qualified leads", "Google Ads reporting template", "what should a PPC agency report", "Google Ads conversion lag reporting"],
-      "contentActions": ["Validate US impressions and query wording in Search Console", "Link audit and conversion-tracking guides into the reporting guide", "Keep platform metrics separate from qualified pipeline outcomes"]
+      "accuracyReview": {"reviewedAt": "2026-10-26", "brief": "reports/editorial/2026-10-26-reporting-dates/brief.md", "finding": "Same-calendar reconciliation instruction shares HK date-basis ambiguity. Correct interaction/conversion/upload distinctions and originalcohortexample at existingURL, no title test or inferred USqueryvolume.", "humanReview": "pending separately for this reporting revision"},
+      "contentActions": ["Retain title/H1/URL/September29 publication and reciprocalHKalternate", "Clarify date basis with four original timeline events/four checks, owncoverreuse and correspondingactualmetadata", "Keepplatformactions distinctfromuniqueleads and cohortcost, no real account action or inherited review"]
     },
     {
       "cluster": "香港 Google Ads 月度報告",
@@ -256,7 +257,8 @@
       "primaryKeywords": ["香港 Google Ads 月度報告", "Google Ads 成效報告", "廣告代理報告"],
       "supportingKeywords": ["Google Ads 報告指標", "港幣廣告預算報告", "WhatsApp 查詢追蹤", "廣告有效查詢成本"],
       "evidence": {"reviewedAt": "2026-10-26", "snapshot": "reports/search-console/2026-10-26-weekly-market-follow-up.json", "method": "Actual countryHK plus exactquery google ads 報告 filters, then page breakdown, confirms currentexistingHKmonthlyreportguide7impressions/0clicks/18 versus3/0/47.7 inOctober18-24versus11-17. Directjointfilter, not aggregatejoin or language-to-country inference.", "googleSearchVolume": null, "observedCountryQueryPageSignal": true, "countryDemandScaleVerified": false, "decision": "Stronger geographic/topic evidence makes existing-guide factual review a future candidate; only7impressions, not CTR/title test, stable rank, visit gain, a new page or automatic higher priority than Simplified commercial themes."},
-      "contentActions": ["已用香港加精確報告查詢的聯合篩選核對既有月報頁面，保留其網址與繁體內容", "將現有內容的事實與完整性審校列為候選；不因7次展示0點擊改標題或新增同義頁", "維持平台數據、真實查詢及成交的邊界，等待更晚可比周期與此頁自己的審閱證據"]
+      "accuracyReview": {"reviewedAt": "2026-10-26", "brief": "reports/editorial/2026-10-26-reporting-dates/brief.md", "finding": "Source review verified date-basis ambiguity after7/3querysignal putexistingguide onreviewlist. Addinteraction/conversion/uploaddistinction and four-eventexample/fourchecks, retainingtitle/H1/URL/pub. Not CTRexperiment, newpage or measuredgain.", "humanReview": "pending separately for this reporting revision; SEMhandover acceptance doesnottransfer"},
+      "contentActions": ["保留現有標題H1網址與9月29日發布日，不因7次展示改標題或新增同義頁", "修正同月資料直接對齊的日期口徑缺口，加入四事件跨月示例及四項核對，沿用自有原創概念圖", "保持平台操作與唯一客戶、事件日與匯入日的邊界；單獨等候本篇人工審閱及更晚周期"]
     },
     {
       "cluster": "Google Ads 广告管理",

@@ -1,0 +1,1287 @@
+{
+  "checkedAt": "2026-10-26T15:34:09.856Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "locale": "usa",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "lang": "en-US",
+      "title": "Google Ads Monthly Reporting Guide for US Businesses",
+      "headline": "Google Ads monthly reporting for US businesses",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Google Ads monthly reporting for US businesses",
+        "description": "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "en-US",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks."
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "The form and qualification are two stages of one lead, not two customers. Dividing October media spend by leads from September clicks does not measure the acquisition cost of the October click cohort.",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-account-audit-usa.html",
+        "/articles/google-ads-bidding-budget-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": 3,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "usa",
+      "width": 768,
+      "javaScriptEnabled": true,
+      "lang": "en-US",
+      "title": "Google Ads Monthly Reporting Guide for US Businesses",
+      "headline": "Google Ads monthly reporting for US businesses",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Google Ads monthly reporting for US businesses",
+        "description": "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "en-US",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks."
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "The form and qualification are two stages of one lead, not two customers. Dividing October media spend by leads from September clicks does not measure the acquisition cost of the October click cohort.",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-account-audit-usa.html",
+        "/articles/google-ads-bidding-budget-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": 3,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "usa",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "lang": "en-US",
+      "title": "Google Ads Monthly Reporting Guide for US Businesses",
+      "headline": "Google Ads monthly reporting for US businesses",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Google Ads monthly reporting for US businesses",
+        "description": "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "en-US",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks."
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "The form and qualification are two stages of one lead, not two customers. Dividing October media spend by leads from September clicks does not measure the acquisition cost of the October click cohort.",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-account-audit-usa.html",
+        "/articles/google-ads-bidding-budget-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": 3,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "usa",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "lang": "en-US",
+      "title": "Google Ads Monthly Reporting Guide for US Businesses",
+      "headline": "Google Ads monthly reporting for US businesses",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Google Ads monthly reporting for US businesses",
+        "description": "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "en-US",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks."
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "The form and qualification are two stages of one lead, not two customers. Dividing October media spend by leads from September clicks does not measure the acquisition cost of the October click cohort.",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-account-audit-usa.html",
+        "/articles/google-ads-bidding-budget-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": 3,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "usa",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "lang": "en-US",
+      "title": "Google Ads Monthly Reporting Guide for US Businesses",
+      "headline": "Google Ads monthly reporting for US businesses",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Google Ads monthly reporting for US businesses",
+        "description": "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "en-US",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks."
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "The form and qualification are two stages of one lead, not two customers. Dividing October media spend by leads from September clicks does not measure the acquisition cost of the October click cohort.",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-account-audit-usa.html",
+        "/articles/google-ads-bidding-budget-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "usa",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "lang": "en-US",
+      "title": "Google Ads Monthly Reporting Guide for US Businesses",
+      "headline": "Google Ads monthly reporting for US businesses",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Google Ads monthly reporting for US businesses",
+        "description": "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "en-US",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "Kunming Zhenrunda Trading Co., Ltd.",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks.",
+        "Separate ad-interaction, conversion and upload dates in a Google Ads monthly report, with an original cross-month lead example and four reconciliation checks."
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "The form and qualification are two stages of one lead, not two customers. Dividing October media spend by leads from September clicks does not measure the acquisition cost of the October click cohort.",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-usa.html",
+        "/articles/google-ads-account-audit-usa.html",
+        "/articles/google-ads-bidding-budget-usa.html",
+        "/google-ads-management-usa.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "hong-kong",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "lang": "zh-Hant-HK",
+      "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
+      "headline": "香港 Google Ads 月度報告指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 月度報告指南",
+        "description": "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "表單與合格查詢是同一條線索的兩個階段，不能把兩個操作相加當作兩名客戶。也不能拿十月廣告費，直接除以上述由九月點擊帶來的查詢，就稱為十月點擊群組的獲客成本。",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/google-ads-account-audit-hong-kong.html",
+        "/articles/google-ads-bidding-budget-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": 3,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "hong-kong",
+      "width": 768,
+      "javaScriptEnabled": true,
+      "lang": "zh-Hant-HK",
+      "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
+      "headline": "香港 Google Ads 月度報告指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 月度報告指南",
+        "description": "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "表單與合格查詢是同一條線索的兩個階段，不能把兩個操作相加當作兩名客戶。也不能拿十月廣告費，直接除以上述由九月點擊帶來的查詢，就稱為十月點擊群組的獲客成本。",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/google-ads-account-audit-hong-kong.html",
+        "/articles/google-ads-bidding-budget-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": 3,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "hong-kong",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "lang": "zh-Hant-HK",
+      "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
+      "headline": "香港 Google Ads 月度報告指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 月度報告指南",
+        "description": "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "表單與合格查詢是同一條線索的兩個階段，不能把兩個操作相加當作兩名客戶。也不能拿十月廣告費，直接除以上述由九月點擊帶來的查詢，就稱為十月點擊群組的獲客成本。",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/google-ads-account-audit-hong-kong.html",
+        "/articles/google-ads-bidding-budget-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": 3,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "hong-kong",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "lang": "zh-Hant-HK",
+      "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
+      "headline": "香港 Google Ads 月度報告指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 月度報告指南",
+        "description": "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "表單與合格查詢是同一條線索的兩個階段，不能把兩個操作相加當作兩名客戶。也不能拿十月廣告費，直接除以上述由九月點擊帶來的查詢，就稱為十月點擊群組的獲客成本。",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/google-ads-account-audit-hong-kong.html",
+        "/articles/google-ads-bidding-budget-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": 3,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "hong-kong",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "lang": "zh-Hant-HK",
+      "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
+      "headline": "香港 Google Ads 月度報告指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 月度報告指南",
+        "description": "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "表單與合格查詢是同一條線索的兩個階段，不能把兩個操作相加當作兩名客戶。也不能拿十月廣告費，直接除以上述由九月點擊帶來的查詢，就稱為十月點擊群組的獲客成本。",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/google-ads-account-audit-hong-kong.html",
+        "/articles/google-ads-bidding-budget-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    },
+    {
+      "locale": "hong-kong",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "lang": "zh-Hant-HK",
+      "title": "香港 Google Ads 月度報告指南：預算、查詢及成交",
+      "headline": "香港 Google Ads 月度報告指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "香港 Google Ads 月度報告指南",
+        "description": "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-Hant-HK",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-29",
+        "dateModified": "2026-10-26T23:19:41+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振潤達商貿有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+      "modified": "2026-10-26T23:19:41+08:00",
+      "alternates": [
+        {
+          "lang": "en-US",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html"
+        },
+        {
+          "lang": "zh-Hant-HK",
+          "href": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html"
+        }
+      ],
+      "descriptions": [
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。",
+        "香港 Google Ads 月度報告指南：分清廣告互動日、轉換日與上傳日，用跨月查詢示例及四項核對清單解讀預算、查詢與成交。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "stages": [
+        {
+          "stage": "interaction",
+          "date": "2026-09-29"
+        },
+        {
+          "stage": "form",
+          "date": "2026-10-03"
+        },
+        {
+          "stage": "qualified",
+          "date": "2026-10-08"
+        },
+        {
+          "stage": "upload",
+          "date": "2026-10-10"
+        }
+      ],
+      "reportChecks": 4,
+      "boundary": "表單與合格查詢是同一條線索的兩個階段，不能把兩個操作相加當作兩名客戶。也不能拿十月廣告費，直接除以上述由九月點擊帶來的查詢，就稱為十月點擊群組的獲客成本。",
+      "anchors": [
+        "#date-basis",
+        "#cohort-example",
+        "#report-checks",
+        "#next-decisions"
+      ],
+      "ids": [
+        "date-basis",
+        "cohort-example",
+        "report-checks",
+        "next-decisions"
+      ],
+      "links": [
+        "/articles/google-ads-conversion-tracking-hong-kong.html",
+        "/articles/google-ads-account-audit-hong-kong.html",
+        "/articles/google-ads-bidding-budget-hong-kong.html",
+        "/google-ads-agency-hong-kong.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

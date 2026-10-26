@@ -8,11 +8,11 @@
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
     "latestBrief": "reports/editorial/2026-10-26-reporting-dates/brief.md",
-    "latestAiReviewStatus": "HKmonthlysource audit afterdirect7/3querysignal found same-calendar date-basis ambiguity sharedwithUSguide. Scopedtwoarticlecorrection: interaction/conversion/uploaddates, original4eventtimeline/4checks, retainedtitle/H1/URL/pub/alternates, owncoverreuse.116localtests(oneWindows skip),12localbilingualarticlecases+6hubpass, no runtime/account/sourceupload or newGSCaction. Productionpending; eachreportingarticlehumanreviewpendingseparately. ActualSEMhandover acceptance newlyrecorded, not inherited.",
+    "latestAiReviewStatus": "HK/USmonthlysharedsourcegap corrected: interaction/conversion/uploaddates, original4eventtimeline/4checks, retainedtitle/H1/URL/pub/alternates, owncoverreuse.98ab166deployed/Pages110,116CItestsallOK.12local+12productionarticle/6local+6productionhub pass. Initialpublicnavterminaltimeout diagnosedGET200 then oneunmodifiedretry fullypassed, no relaxedchecks. No actualruntime/account/upload/GSCaction. Eachreportinghumanreviewquestiondeliveredseparately,pending; SEMhandoveracceptednotinherited.",
     "latestPendingArticleHumanReview": null,
     "latestReportingArticleHumanReviews": [
-      {"url": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html#cohort-example", "requestedAt": null, "status": "pending; request after verified deployment", "scope": "HK reporting three date meanings, four-event hypothetical cross-month timeline, onelead/twostages and four reconciliation records; not account implementation or inherited review"},
-      {"url": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html#cohort-example", "requestedAt": null, "status": "pending; request after verified deployment", "scope": "US reporting three date meanings, four-event hypothetical cross-month timeline, onelead/twostages and four reconciliation records; not HK approval or account implementation"}
+      {"url": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html#cohort-example", "requestedAt": "2026-10-26", "status": "pending; separate question delivered after verified deployment", "scope": "HK reporting three date meanings, four-event hypothetical cross-month timeline, onelead/twostages and four reconciliation records; not account implementation or inherited review"},
+      {"url": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html#cohort-example", "requestedAt": "2026-10-26", "status": "pending; separate question delivered after verified deployment", "scope": "US reporting three date meanings, four-event hypothetical cross-month timeline, onelead/twostages and four reconciliation records; not HK approval or account implementation"}
     ],
     "previousPendingHkArticleHumanReview": {"url": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html#conversion-evidence", "requestedAt": "2026-10-26", "status": "pending", "scope": "HK conversion source/optimization/custom-goal exception, WhatsApp/phone/form evidence and conditional location/negative review; US audit acceptance is separate"},
     "latestArticleHumanReview": {"url": "https://shumaojs.com/articles/sem-landing-tracking.html#acceptance-cases", "requestedAt": "2026-10-26", "confirmedAt": "2026-10-26", "status": "accepted", "ownerReply": "内容符合，可保留", "scope": "sixhandoverfields/fivetestdesigns/information-consentboundaries/threehypotheticalrecords ofbdc0cb7 only; no actualAds/GA4/form/consent/legal or newer reportingarticle approval"},
@@ -75,13 +75,13 @@
   },
   "deployment": {
     "status": "deployed",
-    "reason": "ExistingSimplifiedSEMhandover revisionbdc0cb7 verifiedonproduction: evidence/privacy/consent/goalboundaries, no changedtitle/URL/pub or extra runtime/account/formoperation. Prior acceptedAdRank and registrationwithdrawal preserved. Followupreportingonly, notanotherpublicrewrite.",
-    "localCommit": "bdc0cb79dda623d4c3238a1ec7d87f219b0def38",
+    "reason": "Pairedmonthlydate-basis revision98ab166verifiedonproduction: scopedsourceaccuracycorrection afterHKcandidate review, not tiny-sampletitleexperiment. Existingtitles/URLs/pub/alternates retained, no runtime/account/uploadoperation;acceptedSimplified/registrationwithdrawal preserved. Followupreportingonly.",
+    "localCommit": "98ab166b40a0697fe93bdee4c0a43eba67aa1813",
     "verifiedAt": "2026-10-26",
-    "latestVerification": "Publicmarkerbdc0cb79dda623d4c3238a1ec7d87f219b0def38; Pages10740320442964job121563722699success. Actual113CItestsOK/66HTML64sitemap0errors/warnings/150files.6productionarticle14:28:18.352Zandhub14:28:31.752Zpass,noerrors/overflow,actualSEMpage7journey. CSS/runtimeunchanged. No actualtracking/form/consentimplementation, indexing/rank/visit/CWV/edge/registryproofclaimed; followupreportingonlymayfollowtestedcontentcheckpoint."
+    "latestVerification": "Publicmarker98ab166b40a0697fe93bdee4c0a43eba67aa1813;Pages11040349950411job121666966980success. Actual116CItestsOK/66HTML64sitemap0errors/warnings/150files.12productionarticle15:34:09.856Zand6hub15:31:30.317Zpass,0errors/overflow/SEMpage3. Firstterminalnavtimeout independentlyGET200 then oneunmodifiedfullretry, not a relaxed gate or concealedfailure. Sharedruntimeunchanged. No actualAds/GA4/upload, indexing/rank/visit/CWV/edge/registryproof; finalreportingonlymayfollowtestedcheckpoint."
   },
   "completedBatches": [
-    "paired-monthly-reporting-interaction-event-upload-date-clarification-2026-10-26-local-tested-production-pending",
+    "paired-monthly-reporting-interaction-event-upload-date-clarification-2026-10-26-deployed-human-reviews-pending",
     "direct-us-hk-query-page-and-adjacent-week-evidence-review-2026-10-26",
     "existing-simplified-sem-handover-evidence-and-information-boundaries-2026-10-26-deployed-owner-accepted",
     "simplified-ad-rank-definition-and-denominator-accuracy-review-2026-10-26-deployed-owner-accepted",
@@ -692,7 +692,7 @@
     }
   },
   "nextPriorities": [
-    "Verify scopedHK/USmonthlydate-basis correction and request eacharticle's ownreview afterdeploy. Shared actualsourcegap, not a7impressiontitleexperiment/newpage: foureventtimeline/fourchecks, preservepub/title/H1/URL/alternates and primarySimplified. Retain newlyowneracceptedSEMhandoverunchanged, no reviewinheritance or actualaccount/uploadaction",
+    "HK/USmonthlydate-basis correction98ab166verifieddeployed/116CItests/12article+6hubpubliccases. Two independentreviewquestionsdeliveredOctober26,pending. Keep titles/URLs/pub/alternates and primarySimplified stable, await actualfeedback/latermeasurement not anotherrewrite. PreserveacceptedSEMhandover, no approvalinheritance or actualaccount/upload/gainclaim",
     "Use genuineadjacentweekOctober18-24versus11-17(42/41,0clicks) anddirectUS/HKquerypageviews, notaggregatejoins: USmixedSimplified1onhub/HKreport7/3onexistingguide. No CTR/titletest/newUSChinese page. HK/USmonthlysourcegap subsequentlyverifiedandcorrectednarrowly; awaitseparatereview/futuredata, not repeatedrewrite. PrimarySimplified remainsmainline",
     "ExistingSEMhandover bdc0cb7verifieddeployed and nowseparatelyowneracceptedOctober26 for6fields5casesinformationconsentboundaries3examples. KeepitandacceptedAdRank/keyword/landing/tracking/service stable, registrationwithdrawal intact. Awaitlatermeasurement, no actualform/CRM/consent/accounttestclaim or inheritancebyreportingguides",
     "OwnerwithdrawaldecisionfulfilledandproductionverifiedOctober26; do not reaskorrestoreunconfirmedfields. Home/companycode/type/founding/registrar andhomepageidentifier/taxID/foundingDateabsent;14livecases/108CItests pass. Keepdeclaredcompany/service/contact and honestnotice. Currentlicence/change evidence needed only before genuinefuture registrationclaimreintroduction/newverifiedidentityprofile; no fakeentityaccusation/Adssuspensioncausality/green-tests-as-registryproof or inventedreplacement",

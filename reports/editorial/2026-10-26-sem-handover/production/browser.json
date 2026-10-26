@@ -1,0 +1,621 @@
+{
+  "checkedAt": "2026-10-26T14:28:18.352Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "SEM 投放前落地页和追踪怎么配合 | 昆明振润达商贸有限公司",
+      "headline": "SEM 投放前落地页和追踪怎么配合",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEM 投放前落地页和追踪怎么配合",
+        "description": "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T20:00:40+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/sem-landing-tracking.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/sem-landing-tracking.html",
+      "modified": "2026-10-26T20:00:40+08:00",
+      "descriptions": [
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "fields": [
+        "intent",
+        "destination",
+        "success",
+        "measurement",
+        "privacy",
+        "release"
+      ],
+      "cases": [
+        "success",
+        "invalid",
+        "failure",
+        "repeat",
+        "consent"
+      ],
+      "examples": [
+        "defect",
+        "visibility",
+        "unknown"
+      ],
+      "releaseChecks": 4,
+      "anchors": [
+        "#handover-map",
+        "#goal-boundary",
+        "#acceptance-cases",
+        "#evidence-log",
+        "#release-decision",
+        "#handover-questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-1potii",
+        "handover-map",
+        "goal-boundary",
+        "acceptance-cases",
+        "evidence-log",
+        "release-decision",
+        "handover-questions"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-search-keywords.html",
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": 7,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "SEM 投放前落地页和追踪怎么配合 | 昆明振润达商贸有限公司",
+      "headline": "SEM 投放前落地页和追踪怎么配合",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEM 投放前落地页和追踪怎么配合",
+        "description": "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T20:00:40+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/sem-landing-tracking.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/sem-landing-tracking.html",
+      "modified": "2026-10-26T20:00:40+08:00",
+      "descriptions": [
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "fields": [
+        "intent",
+        "destination",
+        "success",
+        "measurement",
+        "privacy",
+        "release"
+      ],
+      "cases": [
+        "success",
+        "invalid",
+        "failure",
+        "repeat",
+        "consent"
+      ],
+      "examples": [
+        "defect",
+        "visibility",
+        "unknown"
+      ],
+      "releaseChecks": 4,
+      "anchors": [
+        "#handover-map",
+        "#goal-boundary",
+        "#acceptance-cases",
+        "#evidence-log",
+        "#release-decision",
+        "#handover-questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-2vbx48",
+        "handover-map",
+        "goal-boundary",
+        "acceptance-cases",
+        "evidence-log",
+        "release-decision",
+        "handover-questions"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-search-keywords.html",
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": 7,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "SEM 投放前落地页和追踪怎么配合 | 昆明振润达商贸有限公司",
+      "headline": "SEM 投放前落地页和追踪怎么配合",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEM 投放前落地页和追踪怎么配合",
+        "description": "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T20:00:40+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/sem-landing-tracking.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/sem-landing-tracking.html",
+      "modified": "2026-10-26T20:00:40+08:00",
+      "descriptions": [
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "fields": [
+        "intent",
+        "destination",
+        "success",
+        "measurement",
+        "privacy",
+        "release"
+      ],
+      "cases": [
+        "success",
+        "invalid",
+        "failure",
+        "repeat",
+        "consent"
+      ],
+      "examples": [
+        "defect",
+        "visibility",
+        "unknown"
+      ],
+      "releaseChecks": 4,
+      "anchors": [
+        "#handover-map",
+        "#goal-boundary",
+        "#acceptance-cases",
+        "#evidence-log",
+        "#release-decision",
+        "#handover-questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-yrazwj",
+        "handover-map",
+        "goal-boundary",
+        "acceptance-cases",
+        "evidence-log",
+        "release-decision",
+        "handover-questions"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-search-keywords.html",
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": 7,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "SEM 投放前落地页和追踪怎么配合 | 昆明振润达商贸有限公司",
+      "headline": "SEM 投放前落地页和追踪怎么配合",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEM 投放前落地页和追踪怎么配合",
+        "description": "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T20:00:40+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/sem-landing-tracking.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/sem-landing-tracking.html",
+      "modified": "2026-10-26T20:00:40+08:00",
+      "descriptions": [
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "fields": [
+        "intent",
+        "destination",
+        "success",
+        "measurement",
+        "privacy",
+        "release"
+      ],
+      "cases": [
+        "success",
+        "invalid",
+        "failure",
+        "repeat",
+        "consent"
+      ],
+      "examples": [
+        "defect",
+        "visibility",
+        "unknown"
+      ],
+      "releaseChecks": 4,
+      "anchors": [
+        "#handover-map",
+        "#goal-boundary",
+        "#acceptance-cases",
+        "#evidence-log",
+        "#release-decision",
+        "#handover-questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-dk6f33",
+        "handover-map",
+        "goal-boundary",
+        "acceptance-cases",
+        "evidence-log",
+        "release-decision",
+        "handover-questions"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-search-keywords.html",
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": 7,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "SEM 投放前落地页和追踪怎么配合 | 昆明振润达商贸有限公司",
+      "headline": "SEM 投放前落地页和追踪怎么配合",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEM 投放前落地页和追踪怎么配合",
+        "description": "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T20:00:40+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/sem-landing-tracking.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/sem-landing-tracking.html",
+      "modified": "2026-10-26T20:00:40+08:00",
+      "descriptions": [
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "fields": [
+        "intent",
+        "destination",
+        "success",
+        "measurement",
+        "privacy",
+        "release"
+      ],
+      "cases": [
+        "success",
+        "invalid",
+        "failure",
+        "repeat",
+        "consent"
+      ],
+      "examples": [
+        "defect",
+        "visibility",
+        "unknown"
+      ],
+      "releaseChecks": 4,
+      "anchors": [
+        "#handover-map",
+        "#goal-boundary",
+        "#acceptance-cases",
+        "#evidence-log",
+        "#release-decision",
+        "#handover-questions"
+      ],
+      "ids": [
+        "handover-map",
+        "goal-boundary",
+        "acceptance-cases",
+        "evidence-log",
+        "release-decision",
+        "handover-questions"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-search-keywords.html",
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "SEM 投放前落地页和追踪怎么配合 | 昆明振润达商贸有限公司",
+      "headline": "SEM 投放前落地页和追踪怎么配合",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEM 投放前落地页和追踪怎么配合",
+        "description": "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "image": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T20:00:40+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/sem-landing-tracking.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/sem-landing-tracking.html",
+      "modified": "2026-10-26T20:00:40+08:00",
+      "descriptions": [
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。",
+        "用六项交接记录、五种端到端测试和三条假设排查示例，核对谷歌广告承诺、落地页、真实询盘、转化目标及个人信息边界。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/conversion-evidence-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg"
+      ],
+      "fields": [
+        "intent",
+        "destination",
+        "success",
+        "measurement",
+        "privacy",
+        "release"
+      ],
+      "cases": [
+        "success",
+        "invalid",
+        "failure",
+        "repeat",
+        "consent"
+      ],
+      "examples": [
+        "defect",
+        "visibility",
+        "unknown"
+      ],
+      "releaseChecks": 4,
+      "anchors": [
+        "#handover-map",
+        "#goal-boundary",
+        "#acceptance-cases",
+        "#evidence-log",
+        "#release-decision",
+        "#handover-questions"
+      ],
+      "ids": [
+        "handover-map",
+        "goal-boundary",
+        "acceptance-cases",
+        "evidence-log",
+        "release-decision",
+        "handover-questions"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/google-search-keywords.html",
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

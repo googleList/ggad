@@ -1,0 +1,162 @@
+{
+  "checkedAt": "2026-10-26T04:43:58.397440+00:00",
+  "method": "13 known GSC sample URLs: current public HEAD requests plus local structured HTML/XML and existing scoped link graph. Does not prove Google can fetch full bodies, indexing, or current Google canonicals.",
+  "rows": [
+    {
+      "url": "https://shumaojs.com/ad-learning.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/ad-learning.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 1,
+      "depth": 2,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/ad-learning.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 18,
+      "depth": 1,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/articles/google-budget-pacing.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/articles/google-budget-pacing.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 5,
+      "depth": 2,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/articles/google-budget-pacing.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/articles/google-search-ads-cost-guide.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/articles/google-search-ads-cost-guide.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 10,
+      "depth": 2,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/articles/google-search-ads-cost-guide.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/articles/landing-page-checklist.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/articles/landing-page-checklist.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 9,
+      "depth": 2,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/articles/landing-page-checklist.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 2,
+      "depth": 2,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/articles/search-terms-optimization.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/articles/search-terms-optimization.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 6,
+      "depth": 2,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/articles/search-terms-optimization.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/articles/seo-content-cluster.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/articles/seo-content-cluster.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 3,
+      "depth": 2,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/articles/seo-content-cluster.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/articles/seo-course-learning-path.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/articles/seo-course-learning-path.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 2,
+      "depth": 2,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/articles/seo-course-learning-path.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/articles/website-trust-pages.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/articles/website-trust-pages.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 2,
+      "depth": 2,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/articles/website-trust-pages.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/compliance.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/compliance.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 49,
+      "depth": 1,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/compliance.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/meta-ads.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/meta-ads.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 40,
+      "depth": 1,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/meta-ads.html",
+      "responseRobots": null
+    },
+    {
+      "url": "https://shumaojs.com/privacy.html",
+      "localFileExists": true,
+      "localCanonical": "https://shumaojs.com/privacy.html",
+      "localRobots": "index,follow",
+      "inCurrentSitemap": true,
+      "internalSources": 4,
+      "depth": 3,
+      "status": 200,
+      "finalUrl": "https://shumaojs.com/privacy.html",
+      "responseRobots": null
+    }
+  ]
+}

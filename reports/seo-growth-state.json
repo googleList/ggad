@@ -8,7 +8,8 @@
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
     "latestBrief": "reports/editorial/2026-10-26-us-audit/brief.md",
-    "latestAiReviewStatus": "US audit revision source/claim/math review completed: separate conversion source from optimization role, retain campaign custom-goal exception, no blanket Presence rule, no fabricated query-CRM join or zero cost for zero outcomes. Four baseline/four location checks and three hypothetical decisions; six local article JS/noJS and six hub cases pass,105local tests with one Windows permission skip. Original conceptual cover; title/H1/URL/publication/alternate and all48card identities/order unchanged. Production verification pending for this new batch, not a live Ads audit or implementation",
+    "latestAiReviewStatus": "US audit revision source/claim/math review completed: separate conversion source from optimization role, retain campaign custom-goal exception, no blanket Presence rule, no fabricated query-CRM join or zero cost for zero outcomes. Four baseline/four location checks and three hypothetical decisions; six local and six production article JS/noJS cases plus six local/six production hub cases pass.105CItests all pass (local oneWindows permission skip). Original conceptual cover; title/H1/URL/publication/alternate and all48card identities/order unchanged. Content362ceb7 verified deployed, not a live Ads audit or implementation",
+    "latestArticleHumanReview": {"url": "https://shumaojs.com/articles/google-ads-account-audit-usa.html#evidence-log", "requestedAt": "2026-10-26", "status": "pending", "scope": "conversion source versus optimization role, custom-goal exception, four location checks and three hypothetical evidence decisions only; no inherited approval or live account change"},
     "latestHumanReviewStatus": "owner separately confirmed Google service scope, keyword tutorial, landing checklist, tracking tutorial, managed/Meta/Facebook explanation and now search-terms six decisions/four checks/negative scope/three review records onOctober25: 内容符合，可保留. RSA educational copy, budget/channel-comparison/agency-selection/matching/cost reviews remain separate and pending. No approval inherited, live ad/account action or results approved",
     "automation": "90-seo existing heartbeat updated to the new content-led scope; existing weekly schedule, duration, active status and notification policy preserved. No duplicate task."
   },
@@ -28,12 +29,13 @@
   },
   "deployment": {
     "status": "deployed",
-    "reason": "Previous RSA content577f000 and reporting5e1912b are verified deployed. Current batch records fresh settled GSC comparisons and actual HTTP search/redirect evidence only, reprioritizes narrow edge enforcement with owner login/authorization pending; no public content, asset, code, DNS, account or GSC-setting change. Reporting commits may follow this checkpoint.",
-    "localCommit": "5e1912b",
-    "verifiedAt": "2026-10-25",
-    "latestVerification": "Fresh public marker matches5e1912bf5280aa4ccadbf6784679acf65aa3b7d2, whose Pages95/40203259218 job121198731868 succeeded in the preceding turn; unchanged RSA browser/105CI evidence remains under577f000. New deployment audit finds64/64 sitemap URLs,0drift but HTTP apex200/no redirect and HTTPwww301 to HTTP; separate apexGET200 confirms, with path/queryHEAD probes. This is an unresolved edge defect, not a failed source deployment; no ranking/visit/fieldCWV or edge-fix claim."
+    "reason": "Existing US account audit source/goal accuracy and evidence worksheet revision362ceb7 verified on production, including original cover/thumbnail and unchanged48card identities/order. No accepted Simplified copy or public title/URL changed. Reporting commits may follow this checkpoint. Narrow HTTP301 remains awaiting owner access/authorization, not fixed by static content deployment.",
+    "localCommit": "362ceb7edcb909f5859d00bc796297fce6747a52",
+    "verifiedAt": "2026-10-26",
+    "latestVerification": "Public deployment.json matches362ceb7edcb909f5859d00bc796297fce6747a52; Pages97/40267763943 job121393774558 success,105tests allOK,66HTML/64sitemap zeroerror/warning,150publicfiles. Production article browser04:12:38.380Z six cases and hub04:13:11.712Z six cases pass, noerrors/overflow, mobile/noJS/table/menu/list journey verified. Fresh ranking/indexing/GA4/CWV and edge-fix claims remain unverified."
   },
   "completedBatches": [
+    "existing-us-account-audit-source-goal-evidence-revision-2026-10-26",
     "baseline-technical-review",
     "usa-google-ads-management-landing-page",
     "hong-kong-google-ads-management-landing-page",

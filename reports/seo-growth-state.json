@@ -38,20 +38,22 @@
     "observedAt": "2026-10-26",
     "report": "reports/trust/2026-10-26/identity-review.md",
     "inventory": "reports/trust/2026-10-26/identity-inventory.json",
-    "status": "owner_authorized_withdrawal_local_pending_deployment",
+    "status": "withdrawn_verified_on_production_registration_still_unconfirmed",
     "registryIdentityVerified": false,
-    "finding": "Current declared company name is associated with a code shown on the user's earlier licence bearing a different name. May be a genuine registered name change or wrong historical document; no current record obtained. Source inventory66HTML plus public200root/company confirms one organization schema association and two visible code pages, not legal validity or an Ads suspension cause.",
+    "finding": "Prewithdrawal audit found declaredcompany associated with code on earlierlicence bearingdifferentname. Legitimate rename or wronghistoricaldocument possible; no currentregistryrecordobtained. Owner chosewithdrawal, nowverifiedabsent in home/company andhomepageJSON-LD. Earlier66HTMLinventory andpublicGETs remain dated before-snapshot, not currentpublicfields or proofinvalidentity/Adssuspensioncause.",
     "ownerQuestion": "Owner answeredOctober26: 先撤下尚未确认的登记字段. Withdraw code and associated founding/type/registrar; not permission to invent replacement or rename the declared company. No current registry evidence supplied.",
-    "hold": "Removed local home visiblecode and identifier/taxID/foundingDate; removed companyregistration list, retained declaredcompany/contact/service and honest verification notice. Do not reintroduce registration claims or newprofilecredentials without current evidence. Three regression tests prevent unsupported fields returning.14localpagecases and108localtests pass, productionverification pending. No private licence/person/address copied into repo; no claim legal identityverified."
+    "hold": "Verifiedproduction homevisiblecode/identifier/taxID/foundingDate andcompanyregistration list removed; declaredcompany/contact/service retained with honestnotice.14livepagecases pass,108CItestsallOK. Recursivecanonicalorg guard includes nestedauthor/publisher/provider references, notjustroot. Do not reintroduce registrationclaims or newprofilecredentials without genuinecurrentevidence. Private licence/person/addressnotpublished; registryidentitystillunconfirmed, not an accusation or Ads recoveryclaim.",
+    "publicVerification": {"contentRevision": "10908499a11a233baa5528a7f1794682b82d7414", "pagesRun": "https://github.com/googleList/ggad/actions/runs/40287691115", "job": 121455140095, "browser": "reports/trust/2026-10-26/production/browser.json", "checkedAt": "2026-10-26T07:46:26.346Z", "casesPassed": 14}
   },
   "deployment": {
     "status": "deployed",
-    "reason": "PriorHKcontent34bd00a/reporting353566b verified deployed. Owner now chose withdrawal of unconfirmed registration fields; home/company/schema/CSS and correct optional-ID gate locally changed/tested, productionpending. No replacementcode/companyrename, registryvalidation, runtime or account/edgechange. Reporting commits may follow verified checkpoints.",
-    "localCommit": "353566ba1d8a63e287463d57df7b7e68cc955395",
+    "reason": "Owner-authorized registration withdrawal1090849 verified on production: visiblehome/company andhomepageJSON-LDfieldsabsent, honestnotice and3/2/1facts. Normalmerge preserves weeklycollector c5fbdd0. No replacement/companyrename or registryvalidation. Follow-up evidence plus strengthenednestedregression may follow this contentcheckpoint; no furtherpubliccontentchange.",
+    "localCommit": "10908499a11a233baa5528a7f1794682b82d7414",
     "verifiedAt": "2026-10-26",
-    "latestVerification": "Public marker matched353566ba1d8a63e287463d57df7b7e68cc955395 and Pages101/40271784141 job121405963606success. Actual content34bd00aPages100logs105testsallOK/66HTML64sitemap0errors/150files and sixarticle/sixhub production cases remain verified. New identity source/publicGET evidence is an unresolved provenance gap, not a public repair or registry verification. No freshperformance/visit/CWV/edge-fix claim."
+    "latestVerification": "Public marker matched10908499a11a233baa5528a7f1794682b82d7414; Pages102/40287691115 job121455140095success. Actual108testsallOK/66HTML64sitemap0errors/150files;14productionhome/companycases07:46:26.346Zpass withnoforbiddenfields/errors/overflow. CSS56,011normalizedundercap andruntimeunchanged. Googlecache/currentregistryidentity/rank/visits/CWV/HTTPedgefix notproved. Followupguard/evidencereportmayfollowknowncheckpoint."
   },
   "completedBatches": [
+    "owner-authorized-public-registration-withdrawal-and-nested-schema-regression-2026-10-26",
     "hk-audit-conversion-goal-and-enquiry-evidence-correction-2026-10-26",
     "existing-us-account-audit-source-goal-evidence-revision-2026-10-26",
     "baseline-technical-review",
@@ -643,7 +645,7 @@
     }
   },
   "nextPriorities": [
-    "Owner chosewithdrawalOctober26, no need to ask the same decision again. Verify actual deployed absence of home/company code and founding/type/registrar plus homepageidentifier/taxID/foundingDate,3/2/1responsivefacts and intact declaredcompany/service/contact. Local14pagecases/108tests pass; publicationpendingthischeckpoint. Keep unconfirmed identity fields withheld until genuinecurrentlicence/change evidence, no fakeentity accusation/Ads suspensioncausality/green-tests-as-registryproof or inventedreplacement",
+    "OwnerwithdrawaldecisionfulfilledandproductionverifiedOctober26; do not reaskorrestoreunconfirmedfields. Home/companycode/type/founding/registrar andhomepageidentifier/taxID/foundingDateabsent;14livecases/108CItests pass. Keepdeclaredcompany/service/contact and honestnotice. Currentlicence/change evidence needed only before genuinefuture registrationclaimreintroduction/newverifiedidentityprofile; no fakeentityaccusation/Adssuspensioncausality/green-tests-as-registryproof or inventedreplacement",
     "Use October26 indexing snapshot, not stale aggregate examples: reportdatedOctober19is51indexed/47not, all13Discovered examplescurrentHEAD200withsitemap/selfcanonical/inlinks. Tracking livepass and oneacceptedpriorityrequestOctober26; waitforlaterstoredcrawl rather thanrepeat. Hubindexed/self/newOctober26crawlcontainsRSAcard, so no pagination/link rewrite or repeatrequest solely for discovery. HTTPstoredAugust24notindexed/canonicalNAcannotexplaincurrentHTTPperformance rows. Preserve selective evidence and HTTPaccessdependency",
     "Prioritize actual HTTP-to-HTTPS/WWW consolidation: current GSC HTTP homepage2impressions plus live rootHEAD/GET200 and path/queryHEAD evidence. Owner-specific Cloudflare login/301 permission request pending; inspect existing rules then scope to apexHTTP/www only, preserve path/query and exclude HTTPSapex. Do not change DNS/TLS mode/other subdomains, delete GSC data, use a fake static redirect workaround or claim the edge fixed. Next fresh verification after access/change, not repeated unchanged polls",
     "Use the newest throughOctober23 snapshot:28days239impressions/0clicks, all39queries/28countries/38pagecomparisonrows; adjacent7days41versus44, US11versus32/HK12versus8, both0clicks. 谷歌代投5/0/3.8 goes to accepted service page, separately CN4/SG1; mixed代运营2/0/54 is not a new-page mandate. Keep accepted Simplified titles/scope and all localizations stable. Data ends before latest releases; no causal rank/CTR improvement or geographic demand inferred. Prior28only2impressions/1click preprogram, not comparable growth proof",

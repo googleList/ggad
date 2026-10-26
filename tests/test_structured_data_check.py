@@ -287,18 +287,27 @@ class StructuredDataCheckTests(unittest.TestCase):
     def test_public_organization_withholds_unconfirmed_registration_fields(self):
         import json
 
+        def nodes(value):
+            if isinstance(value, dict):
+                yield value
+                for child in value.values():
+                    yield from nodes(child)
+            elif isinstance(value, list):
+                for child in value:
+                    yield from nodes(child)
+
         root = Path(__file__).parents[1]
         definitions = []
         for source in list(root.glob("*.html")) + list((root / "articles").glob("*.html")):
             parser = MODULE.SchemaParser()
             parser.feed(source.read_text(encoding="utf-8"))
             for block in parser.blocks:
-                for node in MODULE.flatten_schema(json.loads(block)):
+                for node in nodes(json.loads(block)):
                     if node.get("@id") == MODULE.ORGANIZATION_ID:
                         definitions.append(node)
                         for field in ("identifier", "taxID", "vatID", "foundingDate"):
                             self.assertNotIn(field, node, f"{source.name}: owner withdrew unconfirmed {field}")
-        self.assertTrue(definitions)
+        self.assertGreater(len(definitions), 1)
 
     def test_withdrawn_registration_is_not_retained_in_visible_pages(self):
         root = Path(__file__).parents[1]

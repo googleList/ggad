@@ -1,0 +1,579 @@
+{
+  "checkedAt": "2026-10-26T09:02:49.515Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法 | 昆明振润达",
+      "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+        "description": "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "image": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T16:27:18+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-search-ads-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-search-ads-guide.html",
+      "modified": "2026-10-26T16:27:18+08:00",
+      "descriptions": [
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg"
+      ],
+      "factors": 6,
+      "checks": 4,
+      "decisions": [
+        "eligibility",
+        "budget",
+        "rank",
+        "lead-quality"
+      ],
+      "examples": [
+        "顶部展示率：40 ÷ 100 = 40%。",
+        "绝对顶部展示率：10 ÷ 100 = 10%。",
+        "顶部展示份额：40 ÷ 200 = 20%。"
+      ],
+      "anchors": [
+        "#rank-scope",
+        "#rank-factors",
+        "#placement-metrics",
+        "#rank-diagnosis",
+        "#review-record",
+        "#rank-questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-gylytv",
+        "rank-scope",
+        "rank-factors",
+        "placement-metrics",
+        "rank-diagnosis",
+        "review-record",
+        "rank-questions"
+      ],
+      "links": [
+        "/articles/google-ads-basics.html",
+        "/articles/google-ads-responsive-search-ads.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/articles/search-terms-optimization.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法 | 昆明振润达",
+      "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+        "description": "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "image": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T16:27:18+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-search-ads-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-search-ads-guide.html",
+      "modified": "2026-10-26T16:27:18+08:00",
+      "descriptions": [
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg"
+      ],
+      "factors": 6,
+      "checks": 4,
+      "decisions": [
+        "eligibility",
+        "budget",
+        "rank",
+        "lead-quality"
+      ],
+      "examples": [
+        "顶部展示率：40 ÷ 100 = 40%。",
+        "绝对顶部展示率：10 ÷ 100 = 10%。",
+        "顶部展示份额：40 ÷ 200 = 20%。"
+      ],
+      "anchors": [
+        "#rank-scope",
+        "#rank-factors",
+        "#placement-metrics",
+        "#rank-diagnosis",
+        "#review-record",
+        "#rank-questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-slfuiw",
+        "rank-scope",
+        "rank-factors",
+        "placement-metrics",
+        "rank-diagnosis",
+        "review-record",
+        "rank-questions"
+      ],
+      "links": [
+        "/articles/google-ads-basics.html",
+        "/articles/google-ads-responsive-search-ads.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/articles/search-terms-optimization.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法 | 昆明振润达",
+      "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+        "description": "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "image": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T16:27:18+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-search-ads-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-search-ads-guide.html",
+      "modified": "2026-10-26T16:27:18+08:00",
+      "descriptions": [
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg"
+      ],
+      "factors": 6,
+      "checks": 4,
+      "decisions": [
+        "eligibility",
+        "budget",
+        "rank",
+        "lead-quality"
+      ],
+      "examples": [
+        "顶部展示率：40 ÷ 100 = 40%。",
+        "绝对顶部展示率：10 ÷ 100 = 10%。",
+        "顶部展示份额：40 ÷ 200 = 20%。"
+      ],
+      "anchors": [
+        "#rank-scope",
+        "#rank-factors",
+        "#placement-metrics",
+        "#rank-diagnosis",
+        "#review-record",
+        "#rank-questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-qhv3kl",
+        "rank-scope",
+        "rank-factors",
+        "placement-metrics",
+        "rank-diagnosis",
+        "review-record",
+        "rank-questions"
+      ],
+      "links": [
+        "/articles/google-ads-basics.html",
+        "/articles/google-ads-responsive-search-ads.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/articles/search-terms-optimization.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法 | 昆明振润达",
+      "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+        "description": "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "image": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T16:27:18+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-search-ads-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-search-ads-guide.html",
+      "modified": "2026-10-26T16:27:18+08:00",
+      "descriptions": [
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg"
+      ],
+      "factors": 6,
+      "checks": 4,
+      "decisions": [
+        "eligibility",
+        "budget",
+        "rank",
+        "lead-quality"
+      ],
+      "examples": [
+        "顶部展示率：40 ÷ 100 = 40%。",
+        "绝对顶部展示率：10 ÷ 100 = 10%。",
+        "顶部展示份额：40 ÷ 200 = 20%。"
+      ],
+      "anchors": [
+        "#rank-scope",
+        "#rank-factors",
+        "#placement-metrics",
+        "#rank-diagnosis",
+        "#review-record",
+        "#rank-questions"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-yv1yij",
+        "rank-scope",
+        "rank-factors",
+        "placement-metrics",
+        "rank-diagnosis",
+        "review-record",
+        "rank-questions"
+      ],
+      "links": [
+        "/articles/google-ads-basics.html",
+        "/articles/google-ads-responsive-search-ads.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/articles/search-terms-optimization.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法 | 昆明振润达",
+      "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+        "description": "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "image": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T16:27:18+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-search-ads-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-search-ads-guide.html",
+      "modified": "2026-10-26T16:27:18+08:00",
+      "descriptions": [
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg"
+      ],
+      "factors": 6,
+      "checks": 4,
+      "decisions": [
+        "eligibility",
+        "budget",
+        "rank",
+        "lead-quality"
+      ],
+      "examples": [
+        "顶部展示率：40 ÷ 100 = 40%。",
+        "绝对顶部展示率：10 ÷ 100 = 10%。",
+        "顶部展示份额：40 ÷ 200 = 20%。"
+      ],
+      "anchors": [
+        "#rank-scope",
+        "#rank-factors",
+        "#placement-metrics",
+        "#rank-diagnosis",
+        "#review-record",
+        "#rank-questions"
+      ],
+      "ids": [
+        "rank-scope",
+        "rank-factors",
+        "placement-metrics",
+        "rank-diagnosis",
+        "review-record",
+        "rank-questions"
+      ],
+      "links": [
+        "/articles/google-ads-basics.html",
+        "/articles/google-ads-responsive-search-ads.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/articles/search-terms-optimization.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法 | 昆明振润达",
+      "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告排名怎么提升？Ad Rank影响因素与优化方法",
+        "description": "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "image": "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-26T16:27:18+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-search-ads-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-search-ads-guide.html",
+      "modified": "2026-10-26T16:27:18+08:00",
+      "descriptions": [
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。",
+        "解释 Google Ads 广告排名与自然搜索排名的区别，梳理广告评级、出价、相关性、落地页和顶部展示指标，并提供可执行的排查步骤。"
+      ],
+      "image": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/search-terms-review-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-terms-review-v1.jpg"
+      ],
+      "factors": 6,
+      "checks": 4,
+      "decisions": [
+        "eligibility",
+        "budget",
+        "rank",
+        "lead-quality"
+      ],
+      "examples": [
+        "顶部展示率：40 ÷ 100 = 40%。",
+        "绝对顶部展示率：10 ÷ 100 = 10%。",
+        "顶部展示份额：40 ÷ 200 = 20%。"
+      ],
+      "anchors": [
+        "#rank-scope",
+        "#rank-factors",
+        "#placement-metrics",
+        "#rank-diagnosis",
+        "#review-record",
+        "#rank-questions"
+      ],
+      "ids": [
+        "rank-scope",
+        "rank-factors",
+        "placement-metrics",
+        "rank-diagnosis",
+        "review-record",
+        "rank-questions"
+      ],
+      "links": [
+        "/articles/google-ads-basics.html",
+        "/articles/google-ads-responsive-search-ads.html",
+        "/articles/google-budget-pacing.html#calculator",
+        "/articles/search-terms-optimization.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "keyboardScroll": true,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

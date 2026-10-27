@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 08:35:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 15:50:48 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SEO 标题和描述怎么写更适合外贸网站</title>
+      <link>https://shumaojs.com/articles/seo-title-meta-basics.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/seo-title-meta-basics.html</guid>
+      <description>用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEO</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>Performance Max 怎么投？适用条件与上线清单</title>
       <link>https://shumaojs.com/articles/performance-max-basics.html</link>
@@ -329,15 +338,6 @@
       <description>移动端广告落地页建站建议，说明首屏速度、按钮位置、表单长度、图片大小和内容可读性如何影响转化。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>建站</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>SEO 标题和描述怎么写更适合外贸网站</title>
-      <link>https://shumaojs.com/articles/seo-title-meta-basics.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/seo-title-meta-basics.html</guid>
-      <description>外贸网站 SEO 标题和描述写法，说明关键词、搜索意图、品牌词、页面差异化和点击吸引力如何结合。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEO</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

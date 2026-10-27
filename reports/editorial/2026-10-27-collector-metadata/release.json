@@ -1,0 +1,49 @@
+{
+  "verifiedAt": "2026-10-27T15:45:08Z",
+  "sourceCommit": "0816cdc4704ea68afa9acc0d9cf5dbff1997e301",
+  "sourcePagesRun": 40533754667,
+  "sourcePagesJob": 122293300236,
+  "weeklyRun": 40533754742,
+  "researchJob": 122293300106,
+  "resourceJob": 122293299636,
+  "weeklyDeployJob": 122293427316,
+  "workflowConclusions": {"sourcePages": "success", "weekly": "success"},
+  "research": {
+    "artifactId": 12746573443,
+    "artifactName": "weekly-article-research-8",
+    "sha256": "5c6d48285b8d060b0f6ca7805c89b158b1acc3a45764125d9d316e051cdd4b36",
+    "method": "Connected GitHub artifact download; ZIP digest, entries and parsed JSON/HTML verified locally without publishing",
+    "entries": ["collected-articles.json", "collected-articles.html"],
+    "sourcesChecked": 2,
+    "items": 77,
+    "sourceCounts": {"Kick Ads": 40, "HornTech": 37},
+    "errors": 0,
+    "policyVersion": 2,
+    "forbiddenCopyOrImageFields": 0,
+    "nonPendingItems": 0,
+    "reportImagesOrScripts": false,
+    "retentionDays": 90,
+    "articlePublication": false
+  },
+  "curatedResources": {
+    "separateExistingJob": true,
+    "botCommit": "512aa095f5992338a7c7c734f24c4be03a5df19d",
+    "sourcesAvailable": 5,
+    "sourcesChecked": 6,
+    "sourceErrors": ["Search Engine Land: HTTP 403"],
+    "items": 18,
+    "newLinkedResources": 1,
+    "changedFiles": ["ad-learning.html", "data/ad-learning.json", "sitemap.xml"],
+    "publishedResourceUrl": "https://www.wordstream.com/blog/google-ads-optimization-mistakes",
+    "liveResourcePage": {"status": 200, "newLinkPresent": true, "actualCheckDatePresent": true, "fiveOfSixDisclosurePresent": true},
+    "limitations": "Existing attribution/short resource links, not new authored articles. The failed source was not bypassed."
+  },
+  "ci": {"tests": 130, "testConclusion": "OK, no CI skip", "htmlPages": 66, "sitemapUrls": 64, "seoErrors": 0, "seoWarnings": 0, "schemaErrors": 0, "performanceErrors": 0, "stagedPublicFiles": 154},
+  "deployment": {
+    "liveMarkerRevision": "512aa095f5992338a7c7c734f24c4be03a5df19d",
+    "weeklyDeployCheckoutMatchesMarker": true,
+    "note": "Weekly deployment checked out latest main512aa09 and built its marker although the Actions deployment UI retained triggering0816cdc. Actual payload/marker, job checkout and resource GET were checked, not UI SHA alone. Local checkout fast-forwarded safely to bot commit; unrelated dirty files retained."
+  },
+  "limitations": ["No new GSC period or verified GA4 visits/enquiries", "No published competitor article/images", "Historical Git commits and older artifacts not purged", "No Ads, GA4, indexing, Cloudflare, registry or outreach action", "Pending PMax review not inherited from accepted setup guide"],
+  "finalEvidenceCommit": "Repository records only; final push and marker to be checked externally without recursive proof-only commits"
+}

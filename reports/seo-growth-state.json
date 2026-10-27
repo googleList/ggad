@@ -41,13 +41,14 @@
   "latestCollectorPolicyReview": {
     "observedAt": "2026-10-27",
     "brief": "reports/editorial/2026-10-27-collector-metadata/brief.md",
-    "status": "Metadata-only research contract repaired and tested locally; source CI/deployment pending at this checkpoint",
+    "status": "Source0816cdc released; Pages40533754667 and Weekly40533754742 success. Actual metadata-only research artifact verified, curated-resource bot512aa09 deployed and live marker/resource matched; evidence followup records only",
+    "releaseEvidence": "reports/editorial/2026-10-27-collector-metadata/release.json",
     "policyVersion": 2,
     "legacyCandidatesPreserved": 16,
     "originalCollectionAt": "2026-09-14T16:01:43.379360+00:00",
     "policyUpdatedAt": "2026-10-27T15:36:23.525807+00:00",
     "scope": "No retained source paragraphs/summaries/outlines/image references or report hotlinks; independent official-fact/original-media checklist, genuine human review pending. Local migration no fetch; weekly detail lookups0 and schedule unchanged. Research artifact not public article; prior Git history/Actions artifacts not purged.",
-    "checks": "11collector/130full localtests pass(oneWindowspermissionskip);66HTML64sitemap0errors/warnings, schema/policy/performance/feedpass; five nativefile browser cases with16cards,0externalrequests/images/scripts/overflow/errors. No public source/body/date/runtime change or traffic claim."
+    "checks": "11collector/130full localtests pass(oneWindowspermissionskip); five nativefile browser cases16cards/0externalrequests/images/scripts/overflow/errors. ActualCI130allOK/66HTML64sitemap0errors/warnings/154publicfiles. Research artifact12746573443digest matched,77candidates2sources0errors/forbiddenfields/nonpending. Separatecuratedjob18resources1newlink5of6sources,SearchEngineLand403notbypassed; live512aa09marker/resourceverified. No authoredarticle/body/runtime/trafficclaim."
   },
   "latestMeasurementReview": {
     "snapshot": "reports/search-console/2026-10-27-performance-follow-up.json",
@@ -124,10 +125,10 @@
   },
   "deployment": {
     "status": "deployed",
-    "reason": "Existing Simplified PMax control-scope correctione7f8001 production verified with original compressed cover, retained title/URL/publication/marketlinks and no account/runtime changes. Setup human acceptance recorded separately without setup public changes. Followup records and checker readiness repair only.",
-    "localCommit": "e7f80017eec8c0c4445b3ff008bf6dabf487dc8a",
+    "reason": "Metadata-only collector0816cdc verified in actual Weekly workflow; research not auto-published. Separate existing curated job produced512aa09with1new attributed link,5of6sources; live resource and marker matched. Evidence followup only; accepted setup and pending PMax scopes unchanged.",
+    "localCommit": "512aa095f5992338a7c7c734f24c4be03a5df19d",
     "verifiedAt": "2026-10-27",
-    "latestVerification": "Publicmarkere7f80017eec8c0c4445b3ff008bf6dabf487dc8a matched Pages40529612744/job122278505932success; actual122CItestsOK/66HTML64sitemap0errors/warnings/schema/performance0errors/154publicfiles.6productionarticle15:21:41.979Z+6hub15:22:08.410Zcases pass,0pageerrors/viewportoverflow, actualSEMpage6journey/sevenanchors/tablekeyboard/menu/noJS/loadedcover. Firstpubliccheck preCSS width measurement diagnosed and same overflow assertion retained with explicit CSSreadiness; no changed publicHTML/CSS. Live sitemapOctober27/RSS46items originalSeptember11publication. Setup accepted, PMax ownquestionpending. No account/index/edge/CWV/traffic gain proof; final repository-only followup may follow source checkpoint."
+    "latestVerification": "SourcePages40533754667/job122293300236 andWeekly40533754742/deployjob122293427316success,130CItestsallOK/66HTML64sitemap0errors/warnings/schema-performance0errors/154publicfiles. Weeklyactualcheckout512aa09 matches live deployment.json andGET200updatedresource. Artifact12746573443exactdigestverified/77pendingmetadataonlycandidates/2sources0errors. Curatedresources5of6(SearchEngineLand403),1newlink,notauthoredarticle. PMax prior6article+6hub productionchecks remain in ownbrief, no newmatrixclaimed. No GA4/fieldCWV/lead/outcome/account/edge/indexproof; final evidence-onlycommit may follow checkpoint."
   },
   "completedBatches": [
     "metadata-only-research-contract-legacy-migration-and-ga4-readiness-check-2026-10-27",
@@ -231,13 +232,13 @@
     "settled-gsc-adjacent7-and28-comparisons-http-search-signal-and-owner-action-2026-10-25"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-25T15:27:56Z",
-    "localHead": "5e1912b",
-    "remoteHead": "5e1912b",
+    "checkedAt": "2026-10-27T15:45:08Z",
+    "localHead": "512aa095f5992338a7c7c734f24c4be03a5df19d",
+    "remoteHead": "512aa095f5992338a7c7c734f24c4be03a5df19d",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Fetch origin/main before next batch; retain CNAME/shared pages lock/latest-main checkout. Verified public checkpoint5e1912b, current measurement/reporting commits may follow without public content change. Prioritize owner-authorized edge HTTPS normalization from fresh GSC/live evidence, not another tiny-sample title rewrite. Use strict-verified official SSH443, no global credential changes; recover workflow observation on the same known run. Preserve accepted content and unrelated dirty internal-link/cache/historical files."
+    "safeAction": "Verified checkpoint512aa09 after safe fast-forward of existing curated-resource bot commit, no force or dirty-file reset. Source0816cdc and weekly latestmain deployment verified. Evidence-only followup may follow this checkpoint; check its push/marker externally without recursive proof commits. Next batch fresh fetch, retain CNAME/sharedpageslock, accepted content and unrelated dirty graph/cache/history. ExistingCloudflare/GA4ownerdependencies remain; no repeated unchangedpoll/titlechurn."
   },
   "dataAccess": {
     "rsaGuideRelease2026-10-25": {
@@ -745,7 +746,7 @@
     }
   },
   "nextPriorities": [
-    "Metadata-only collector repair preserves16legacyIDs/order/September14collectiontime; no copiedparagraph/outline/summary/image or automaticarticlepublication. WeeklyMonday09:30AsiaShanghai schedule unchanged, detail-limit0 and11testgate. Verify actualsourceCI/artifact and publicdeployment before marking released. Keep existingapprovedSimplifiedservice andsetup stable; currentGA4UIonboarding requires correctresource, not a placeholderID or repeatedrequest. PMaxhumanreview remains independentlypending",
+    "Collector0816cdc/Weekly40533754742released:77metadataonlycandidates2sources0errors,artifact12746573443digest/schemaverified,allpendingreview/notpublished. Existingseparatecuratedjob512aa09updated1attributedlink/18resources5of6sources(SEL403notbypassed),livepayload/markerchecked. KeepMonday09:30schedule/detail0/11testgate, avoid repeatedcollection or competitorrewrite. Legacy16IDs/order/September14time preserved. CorrectGA4resource stillneeded, no placeholderID/repeatedrequest. AcceptedSimplifiedservice/setupstable,PMaxreviewindependentlypending",
     "PMaxe7f8001verifieddeployed/122CItests/6article+6hubpubliccases; independent human question deliveredOctober27,pending. Keep title/H1/URL/publication/fivechecks/US-HKlinks/originalcover stable; await genuinefeedback and latermeasurement, no repeatedrewrite/request or new synonym page.3globalpageimpressions not exactquery/US-HKvolume; primaryservice click does not justify titlechurn. Setup approval not inherited; no actualaccount/budget/upload/edge/index operation",
     "FreshOctober27GSC snapshot throughOctober25 confirms exact谷歌代投8impressions/1click atgoogle-ads.html; directCNquerypage7/1 andactualdailyOctober25PT. Keep approved service/title/URL stable, no CTRtest/newpage or claim of a qualified enquiry. CN/SG signal is not US/HK demand; measure later comparable query/page/country windows and actual consent-respecting enquiry evidence when available",
     "Account-setup first-review44794c6verifieddeployed and separately owner-acceptedOctober27 for fivechecks/threecases/fourrecords and calendar boundary. Retain text/cover/title/URL/publication/modification/sixpreparation/sixsteps; await later crawl and query-page-country evidence, not another review request/rewrite. PMax not approved by this answer. No account/CRM/GA4 action or new thin page",

@@ -1,0 +1,621 @@
+{
+  "checkedAt": "2026-10-27T15:21:41.979Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "stylesheetReady": true,
+      "title": "Performance Max 怎么投？适用条件与上线清单 | 振润达",
+      "headline": "Performance Max 怎么投？适用条件与上线清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Performance Max 怎么投？适用条件与上线清单",
+        "description": "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "image": "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Performance Max",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T16:35:12+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/performance-max-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/performance-max-basics.html",
+      "modified": "2026-10-27T16:35:12+08:00",
+      "descriptions": [
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg"
+      ],
+      "cover": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "campaign",
+        "goals",
+        "creative",
+        "signals",
+        "urls",
+        "products"
+      ],
+      "examples": [
+        "geography",
+        "destination",
+        "lead-quality"
+      ],
+      "records": 4,
+      "launchChecks": 5,
+      "anchors": [
+        "#fit",
+        "#launch",
+        "#control-scope",
+        "#assets",
+        "#review",
+        "#control-examples",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-4b697n",
+        "fit",
+        "launch",
+        "control-scope",
+        "control-caption",
+        "assets",
+        "review",
+        "control-examples",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/google-ads.html#service-scope",
+        "/articles/performance-max-lead-generation-usa.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 6,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "stylesheetReady": true,
+      "title": "Performance Max 怎么投？适用条件与上线清单 | 振润达",
+      "headline": "Performance Max 怎么投？适用条件与上线清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Performance Max 怎么投？适用条件与上线清单",
+        "description": "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "image": "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Performance Max",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T16:35:12+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/performance-max-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/performance-max-basics.html",
+      "modified": "2026-10-27T16:35:12+08:00",
+      "descriptions": [
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg"
+      ],
+      "cover": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "campaign",
+        "goals",
+        "creative",
+        "signals",
+        "urls",
+        "products"
+      ],
+      "examples": [
+        "geography",
+        "destination",
+        "lead-quality"
+      ],
+      "records": 4,
+      "launchChecks": 5,
+      "anchors": [
+        "#fit",
+        "#launch",
+        "#control-scope",
+        "#assets",
+        "#review",
+        "#control-examples",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-4zvlt3",
+        "fit",
+        "launch",
+        "control-scope",
+        "control-caption",
+        "assets",
+        "review",
+        "control-examples",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/google-ads.html#service-scope",
+        "/articles/performance-max-lead-generation-usa.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 6,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "stylesheetReady": true,
+      "title": "Performance Max 怎么投？适用条件与上线清单 | 振润达",
+      "headline": "Performance Max 怎么投？适用条件与上线清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Performance Max 怎么投？适用条件与上线清单",
+        "description": "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "image": "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Performance Max",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T16:35:12+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/performance-max-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/performance-max-basics.html",
+      "modified": "2026-10-27T16:35:12+08:00",
+      "descriptions": [
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg"
+      ],
+      "cover": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/pmax-controls-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "campaign",
+        "goals",
+        "creative",
+        "signals",
+        "urls",
+        "products"
+      ],
+      "examples": [
+        "geography",
+        "destination",
+        "lead-quality"
+      ],
+      "records": 4,
+      "launchChecks": 5,
+      "anchors": [
+        "#fit",
+        "#launch",
+        "#control-scope",
+        "#assets",
+        "#review",
+        "#control-examples",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-ztsbma",
+        "fit",
+        "launch",
+        "control-scope",
+        "control-caption",
+        "assets",
+        "review",
+        "control-examples",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/google-ads.html#service-scope",
+        "/articles/performance-max-lead-generation-usa.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 6,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "stylesheetReady": true,
+      "title": "Performance Max 怎么投？适用条件与上线清单 | 振润达",
+      "headline": "Performance Max 怎么投？适用条件与上线清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Performance Max 怎么投？适用条件与上线清单",
+        "description": "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "image": "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Performance Max",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T16:35:12+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/performance-max-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/performance-max-basics.html",
+      "modified": "2026-10-27T16:35:12+08:00",
+      "descriptions": [
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg"
+      ],
+      "cover": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/pmax-controls-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "campaign",
+        "goals",
+        "creative",
+        "signals",
+        "urls",
+        "products"
+      ],
+      "examples": [
+        "geography",
+        "destination",
+        "lead-quality"
+      ],
+      "records": 4,
+      "launchChecks": 5,
+      "anchors": [
+        "#fit",
+        "#launch",
+        "#control-scope",
+        "#assets",
+        "#review",
+        "#control-examples",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-wm47gr",
+        "fit",
+        "launch",
+        "control-scope",
+        "control-caption",
+        "assets",
+        "review",
+        "control-examples",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/google-ads.html#service-scope",
+        "/articles/performance-max-lead-generation-usa.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 6,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "stylesheetReady": true,
+      "title": "Performance Max 怎么投？适用条件与上线清单 | 振润达",
+      "headline": "Performance Max 怎么投？适用条件与上线清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Performance Max 怎么投？适用条件与上线清单",
+        "description": "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "image": "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Performance Max",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T16:35:12+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/performance-max-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/performance-max-basics.html",
+      "modified": "2026-10-27T16:35:12+08:00",
+      "descriptions": [
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg"
+      ],
+      "cover": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "campaign",
+        "goals",
+        "creative",
+        "signals",
+        "urls",
+        "products"
+      ],
+      "examples": [
+        "geography",
+        "destination",
+        "lead-quality"
+      ],
+      "records": 4,
+      "launchChecks": 5,
+      "anchors": [
+        "#fit",
+        "#launch",
+        "#control-scope",
+        "#assets",
+        "#review",
+        "#control-examples",
+        "#next-step"
+      ],
+      "ids": [
+        "fit",
+        "launch",
+        "control-scope",
+        "control-caption",
+        "assets",
+        "review",
+        "control-examples",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/google-ads.html#service-scope",
+        "/articles/performance-max-lead-generation-usa.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "stylesheetReady": true,
+      "title": "Performance Max 怎么投？适用条件与上线清单 | 振润达",
+      "headline": "Performance Max 怎么投？适用条件与上线清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Performance Max 怎么投？适用条件与上线清单",
+        "description": "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "image": "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Performance Max",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T16:35:12+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/performance-max-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/performance-max-basics.html",
+      "modified": "2026-10-27T16:35:12+08:00",
+      "descriptions": [
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。",
+        "PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/pmax-controls-plan-v1.jpg"
+      ],
+      "cover": {
+        "loaded": true,
+        "src": "https://shumaojs.com/assets/articles/pmax-controls-plan-thumb-v1.webp",
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "campaign",
+        "goals",
+        "creative",
+        "signals",
+        "urls",
+        "products"
+      ],
+      "examples": [
+        "geography",
+        "destination",
+        "lead-quality"
+      ],
+      "records": 4,
+      "launchChecks": 5,
+      "anchors": [
+        "#fit",
+        "#launch",
+        "#control-scope",
+        "#assets",
+        "#review",
+        "#control-examples",
+        "#next-step"
+      ],
+      "ids": [
+        "fit",
+        "launch",
+        "control-scope",
+        "control-caption",
+        "assets",
+        "review",
+        "control-examples",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/google-ads.html#service-scope",
+        "/articles/performance-max-lead-generation-usa.html",
+        "/articles/performance-max-lead-generation-hong-kong.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

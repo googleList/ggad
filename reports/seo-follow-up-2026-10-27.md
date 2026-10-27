@@ -61,3 +61,11 @@ At the same URL/title/H1/publication, retained five checks/market links and adde
 ## Account-Setup Owner Feedback Received
 
 Owner separately answered "内容符合，可保留" onOctober27 for44794c6 account-setup five first-review checks, three hypothetical cases, four review records and not adjusting by fixed days. Genuine acceptance recorded in its own brief, keyword cluster and review state. Keep setup public body/image/publication/modification unchanged; not an Ads/GA4/form implementation permission, results claim or inherited PMax approval. Older pending remarks above remain historical. PMax release/own review work continues separately.
+
+## PMax Production Verified
+
+e7f80017eec8c0c4445b3ff008bf6dabf487dc8a verified via [Pages40529612744](https://github.com/googleList/ggad/actions/runs/40529612744), job122278505932, success; actual122CItests/allOK,66HTML64sitemap0errors/warnings,0schema/performanceerrors,154publicfiles. Publicmarker matched fullSHA.6productionarticlecases15:21:41.979Z+6hubcases15:22:08.410Zpass,0pageerrors/overflow, actualSEMpage6journey. No remaining localhelper/check session; missinglocalhandle and nonlistening8799confirmed, not restarted.
+
+Firstpublic390noJS measurement ran before CSS: diagnostic stylesheet[]/width1208 then loaded/390, so added explicit bounded stylesheet-readiness gate while retaining nooverflow/anchor/card assertions. Full production retry passed; no publicsource workaround or hidden failure. Earlierlocal6case matrix predates readiness-gate addition and is described accurately, no false rerun claim. PhonepublicnoJScontroltable screenshot inspected, live sitemapOctober27/RSS46originalSeptember11date verified.
+
+PMax independent owner question deliveredOctober27, pending; setup's real owner acceptance remains separate. Existing Simplified primary service/title and latestGSCevidence unchanged. No new traffic, crawl, fieldCWV, registry or account proof. Final followup touches repository evidence/checker only, not publicbody/date/runtime; marker checked externally, no recursive proof commit.

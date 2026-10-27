@@ -19,6 +19,13 @@ async function main() {
       page.setDefaultNavigationTimeout(45000);
       page.on("pageerror", error => errors.push(`${width}/${javaScriptEnabled}: ${error.message}`));
       assert.equal((await page.goto(new URL(articlePath, base).href, { waitUntil: "domcontentloaded" })).status(), 200);
+      let stylesheetReady = false;
+      for (let attempt = 0; attempt < 100; attempt += 1) {
+        stylesheetReady = await page.evaluate(() => [...document.styleSheets].some(sheet => sheet.href && new URL(sheet.href).pathname.endsWith("/styles.css")));
+        if (stylesheetReady) break;
+        await new Promise(resolve => setTimeout(resolve, 50));
+      }
+      assert.equal(stylesheetReady, true, "Site stylesheet must load before layout acceptance");
       await page.locator(".article-cover").evaluate(image => image.decode());
       const content = await page.evaluate(() => {
         const main = document.querySelector("main");
@@ -123,7 +130,7 @@ async function main() {
       assert.ok((await card.locator("img").getAttribute("src")).endsWith("pmax-controls-plan-thumb-v1.webp"));
       await card.locator("h3 a").click();
       assert.equal(new URL(page.url()).pathname, "/" + articlePath);
-      results.push({ width, javaScriptEnabled, ...content, listingPage, listingJourneyPassed: true });
+      results.push({ width, javaScriptEnabled, stylesheetReady, ...content, listingPage, listingJourneyPassed: true });
       console.log(`Passed PMax guide ${width}px/${javaScriptEnabled ? "JS" : "noJS"}`);
       await context.close();
     }

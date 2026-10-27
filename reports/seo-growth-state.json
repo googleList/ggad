@@ -7,9 +7,9 @@
     "sequence": ["verify topic/keyword intent", "draft title candidates and outline", "write or improve original content", "fact/calculation/claim review", "record genuine human feedback separately", "create original or authorized thumbnail", "optimize and publish", "test, commit, deploy and measure"],
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
-    "latestBrief": "reports/editorial/2026-10-26-reporting-dates/brief.md",
-    "latestAiReviewStatus": "HK/US reporting date-basis correction98ab166 verified by Pages110,116CItests and12productionarticle/6hubcases; initial terminal navigation timeout and one unchanged successful retry retained in brief. Both reporting revisions independently owner-accepted2026-10-27. Approval-only records leave public text, dates, images, runtime and account settings unchanged; no inferred performance gain or approval of other articles.",
-    "latestPendingArticleHumanReview": null,
+    "latestBrief": "reports/editorial/2026-10-27-setup-readiness/brief.md",
+    "latestAiReviewStatus": "Existing Simplified account-setup guide had retained fixed day7/14/30 change advice, verified in source and liveGET. Focused correction to five evidence checks, three hypothetical cases and four records; original compressed cover, title/URL/publication/six preparation rows/six setup steps retained.119localtests(oneWindowspermissionskip) and6article/6hubcases pass after diagnosed noJS checker wait correction; no site workaround or relaxed assertion. Production release and separate human review pending; prior HK/US reporting acceptances retained independently.",
+    "latestPendingArticleHumanReview": {"url": "https://shumaojs.com/articles/google-ads-basics.html#first-review", "plannedAt": "2026-10-27", "status": "pending; request only after verified deployment", "scope": "five first-review checks, three hypothetical troubleshooting cases and four review records; calendar/unknown/measurement boundaries only, not account operations or inherited approval"},
     "latestReportingArticleHumanReviews": [
       {"url": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html#cohort-example", "requestedAt": "2026-10-26", "confirmedAt": "2026-10-27", "status": "accepted", "ownerReply": "内容符合，可保留", "contentRevision": "98ab166b40a0697fe93bdee4c0a43eba67aa1813", "scope": "HK reporting three date meanings, four-event hypothetical cross-month timeline, onelead/twostages and four reconciliation records; not account implementation or inherited review"},
       {"url": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html#cohort-example", "requestedAt": "2026-10-26", "confirmedAt": "2026-10-27", "status": "accepted", "ownerReply": "内容符合，可保留", "contentRevision": "98ab166b40a0697fe93bdee4c0a43eba67aa1813", "scope": "US reporting three date meanings, four-event hypothetical cross-month timeline, onelead/twostages and four reconciliation records; not HK approval or account implementation"}
@@ -74,13 +74,14 @@
     "publicVerification": {"contentRevision": "10908499a11a233baa5528a7f1794682b82d7414", "pagesRun": "https://github.com/googleList/ggad/actions/runs/40287691115", "job": 121455140095, "browser": "reports/trust/2026-10-26/production/browser.json", "checkedAt": "2026-10-26T07:46:26.346Z", "casesPassed": 14}
   },
   "deployment": {
-    "status": "deployed",
-    "reason": "Pairedmonthlydate-basis revision98ab166verifiedonproduction: scopedsourceaccuracycorrection afterHKcandidate review, not tiny-sampletitleexperiment. Existingtitles/URLs/pub/alternates retained, no runtime/account/uploadoperation;acceptedSimplified/registrationwithdrawal preserved. Followupreportingonly.",
-    "localCommit": "98ab166b40a0697fe93bdee4c0a43eba67aa1813",
-    "verifiedAt": "2026-10-26",
-    "latestVerification": "Publicmarker98ab166b40a0697fe93bdee4c0a43eba67aa1813;Pages11040349950411job121666966980success. Actual116CItestsOK/66HTML64sitemap0errors/warnings/150files.12productionarticle15:34:09.856Zand6hub15:31:30.317Zpass,0errors/overflow/SEMpage3. Firstterminalnavtimeout independentlyGET200 then oneunmodifiedfullretry, not a relaxed gate or concealedfailure. Sharedruntimeunchanged. No actualAds/GA4/upload, indexing/rank/visit/CWV/edge/registryproof; finalreportingonlymayfollowtestedcheckpoint."
+    "status": "release_pending",
+    "reason": "Focused existing Simplified account-setup first-review correction and original cover tested locally; source release/production verification pending. Existing approved content and registration withdrawal retained.",
+    "localCommit": "8cba85ccc24f22b8e77d7425cd54a89bf5575d1d",
+    "verifiedAt": "2026-10-27",
+    "latestVerification": "Starting publicmarker8cba85ccc24f22b8e77d7425cd54a89bf5575d1d andPages40468189633success verified previous acceptance turn. New local119tests/6article/6hubcases/66HTML64sitemap pass,151publicfiles beforemarker. Source not yet claimed live. No account, index, edge or fresh performance proof."
   },
   "completedBatches": [
+    "simplified-account-setup-first-review-readiness-2026-10-27-locally-verified-release-pending",
     "paired-monthly-reporting-interaction-event-upload-date-clarification-2026-10-26-deployed-owner-accepted-separately-2026-10-27",
     "direct-us-hk-query-page-and-adjacent-week-evidence-review-2026-10-26",
     "existing-simplified-sem-handover-evidence-and-information-boundaries-2026-10-26-deployed-owner-accepted",
@@ -692,6 +693,7 @@
     }
   },
   "nextPriorities": [
+    "Finish source deployment and live article/hub verification for focused Simplified account-setup readiness correction, then request its own human review. Preserve six preparation rows/six setup steps/title/URL/publication, unknown not zero and immediate actual-fault response. No account/CRM/GA4 action, fixed sample threshold, inherited approval, new thin page or tiny-sample title test",
     "HK/US monthly date-basis revision98ab166 verified deployed and separately owner-accepted2026-10-27. Retain reviewed text/title/URL/publication/modification/alternates; await later query/page/country/crawl evidence, not another review request or rewrite. Prior SEM acceptance and other pending scopes remain separate. No actual account/upload or measured gain claim",
     "Use genuineadjacentweekOctober18-24versus11-17(42/41,0clicks) anddirectUS/HKquerypageviews, notaggregatejoins: USmixedSimplified1onhub/HKreport7/3onexistingguide. No CTR/titletest/newUSChinese page. HK/USmonthlysourcegap corrected narrowly and separately owner-acceptedOctober27; await future data, not repeated rewrite. PrimarySimplified remainsmainline",
     "ExistingSEMhandover bdc0cb7verifieddeployed and nowseparatelyowneracceptedOctober26 for6fields5casesinformationconsentboundaries3examples. KeepitandacceptedAdRank/keyword/landing/tracking/service stable, registrationwithdrawal intact. Awaitlatermeasurement, no actualform/CRM/consent/accounttestclaim or inheritancebyreportingguides",

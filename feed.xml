@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 26 Oct 2026 15:19:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 07:41:01 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谷歌广告开户流程：账户准备与投放入门</title>
+      <link>https://shumaojs.com/articles/google-ads-basics.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-basics.html</guid>
+      <description>按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Google Ads Guide</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>Google Ads monthly reporting for US businesses</title>
       <link>https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html</link>
@@ -149,15 +158,6 @@
       <description>Google 搜索广告费用指南，说明点击计费、关键词竞争、预算设置、转化成本、服务费和小预算测试方法。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>SEM</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>谷歌广告开户流程：账户准备与投放入门</title>
-      <link>https://shumaojs.com/articles/google-ads-basics.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-basics.html</guid>
-      <description>了解谷歌广告开户流程、企业资料准备、账单设置和首次投放步骤。说明客户自有账户的控制权、广告费用构成及开户和排名方面的常见误区。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Google Ads Guide</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

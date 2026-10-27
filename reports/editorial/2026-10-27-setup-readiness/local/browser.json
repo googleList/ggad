@@ -1,0 +1,487 @@
+{
+  "checkedAt": "2026-10-27T07:46:44.481Z",
+  "base": "http://127.0.0.1:8798/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告开户流程：账户准备与投放入门",
+      "headline": "谷歌广告开户流程：账户准备与投放入门",
+      "modified": "2026-10-27T15:41:01+08:00",
+      "published": "2026-09-11",
+      "visibleModified": "2026-10-27T15:41:01+08:00",
+      "canonical": "https://shumaojs.com/articles/google-ads-basics.html",
+      "descriptions": [
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。"
+      ],
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8798/assets/articles/account-setup-readiness-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "checks": [
+        "delivery",
+        "measurement",
+        "intent",
+        "maturity",
+        "economics"
+      ],
+      "examples": [
+        "failure",
+        "irrelevant",
+        "unknown"
+      ],
+      "reviewRecords": 4,
+      "ids": [
+        "preparation",
+        "preparation-caption",
+        "setup",
+        "location",
+        "verification",
+        "costs",
+        "troubleshooting",
+        "first-review",
+        "first-review-caption",
+        "review-examples"
+      ],
+      "anchors": [
+        "#preparation",
+        "#setup",
+        "#location",
+        "#verification",
+        "#costs",
+        "#troubleshooting",
+        "#first-review",
+        "#review-examples"
+      ],
+      "localLinks": [
+        "/google-ads-management-usa.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/sem-landing-tracking.html",
+        "/google-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html"
+      ],
+      "setupSteps": 6,
+      "preparationRows": 6,
+      "overflow": false,
+      "tableKeyboardScrollPassed": null,
+      "listingJourneyPassed": true,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告开户流程：账户准备与投放入门",
+      "headline": "谷歌广告开户流程：账户准备与投放入门",
+      "modified": "2026-10-27T15:41:01+08:00",
+      "published": "2026-09-11",
+      "visibleModified": "2026-10-27T15:41:01+08:00",
+      "canonical": "https://shumaojs.com/articles/google-ads-basics.html",
+      "descriptions": [
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。"
+      ],
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8798/assets/articles/account-setup-readiness-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "checks": [
+        "delivery",
+        "measurement",
+        "intent",
+        "maturity",
+        "economics"
+      ],
+      "examples": [
+        "failure",
+        "irrelevant",
+        "unknown"
+      ],
+      "reviewRecords": 4,
+      "ids": [
+        "preparation",
+        "preparation-caption",
+        "setup",
+        "location",
+        "verification",
+        "costs",
+        "troubleshooting",
+        "first-review",
+        "first-review-caption",
+        "review-examples"
+      ],
+      "anchors": [
+        "#preparation",
+        "#setup",
+        "#location",
+        "#verification",
+        "#costs",
+        "#troubleshooting",
+        "#first-review",
+        "#review-examples"
+      ],
+      "localLinks": [
+        "/google-ads-management-usa.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/sem-landing-tracking.html",
+        "/google-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html"
+      ],
+      "setupSteps": 6,
+      "preparationRows": 6,
+      "overflow": false,
+      "tableKeyboardScrollPassed": null,
+      "listingJourneyPassed": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告开户流程：账户准备与投放入门",
+      "headline": "谷歌广告开户流程：账户准备与投放入门",
+      "modified": "2026-10-27T15:41:01+08:00",
+      "published": "2026-09-11",
+      "visibleModified": "2026-10-27T15:41:01+08:00",
+      "canonical": "https://shumaojs.com/articles/google-ads-basics.html",
+      "descriptions": [
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。"
+      ],
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8798/assets/articles/account-setup-readiness-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "checks": [
+        "delivery",
+        "measurement",
+        "intent",
+        "maturity",
+        "economics"
+      ],
+      "examples": [
+        "failure",
+        "irrelevant",
+        "unknown"
+      ],
+      "reviewRecords": 4,
+      "ids": [
+        "preparation",
+        "preparation-caption",
+        "setup",
+        "location",
+        "verification",
+        "costs",
+        "troubleshooting",
+        "first-review",
+        "first-review-caption",
+        "review-examples"
+      ],
+      "anchors": [
+        "#preparation",
+        "#setup",
+        "#location",
+        "#verification",
+        "#costs",
+        "#troubleshooting",
+        "#first-review",
+        "#review-examples"
+      ],
+      "localLinks": [
+        "/google-ads-management-usa.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/sem-landing-tracking.html",
+        "/google-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html"
+      ],
+      "setupSteps": 6,
+      "preparationRows": 6,
+      "overflow": false,
+      "tableKeyboardScrollPassed": true,
+      "listingJourneyPassed": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告开户流程：账户准备与投放入门",
+      "headline": "谷歌广告开户流程：账户准备与投放入门",
+      "modified": "2026-10-27T15:41:01+08:00",
+      "published": "2026-09-11",
+      "visibleModified": "2026-10-27T15:41:01+08:00",
+      "canonical": "https://shumaojs.com/articles/google-ads-basics.html",
+      "descriptions": [
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。"
+      ],
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8798/assets/articles/account-setup-readiness-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "checks": [
+        "delivery",
+        "measurement",
+        "intent",
+        "maturity",
+        "economics"
+      ],
+      "examples": [
+        "failure",
+        "irrelevant",
+        "unknown"
+      ],
+      "reviewRecords": 4,
+      "ids": [
+        "preparation",
+        "preparation-caption",
+        "setup",
+        "location",
+        "verification",
+        "costs",
+        "troubleshooting",
+        "first-review",
+        "first-review-caption",
+        "review-examples"
+      ],
+      "anchors": [
+        "#preparation",
+        "#setup",
+        "#location",
+        "#verification",
+        "#costs",
+        "#troubleshooting",
+        "#first-review",
+        "#review-examples"
+      ],
+      "localLinks": [
+        "/google-ads-management-usa.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/sem-landing-tracking.html",
+        "/google-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html"
+      ],
+      "setupSteps": 6,
+      "preparationRows": 6,
+      "overflow": false,
+      "tableKeyboardScrollPassed": true,
+      "listingJourneyPassed": true,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "谷歌广告开户流程：账户准备与投放入门",
+      "headline": "谷歌广告开户流程：账户准备与投放入门",
+      "modified": "2026-10-27T15:41:01+08:00",
+      "published": "2026-09-11",
+      "visibleModified": "2026-10-27T15:41:01+08:00",
+      "canonical": "https://shumaojs.com/articles/google-ads-basics.html",
+      "descriptions": [
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。"
+      ],
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8798/assets/articles/account-setup-readiness-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "checks": [
+        "delivery",
+        "measurement",
+        "intent",
+        "maturity",
+        "economics"
+      ],
+      "examples": [
+        "failure",
+        "irrelevant",
+        "unknown"
+      ],
+      "reviewRecords": 4,
+      "ids": [
+        "preparation",
+        "preparation-caption",
+        "setup",
+        "location",
+        "verification",
+        "costs",
+        "troubleshooting",
+        "first-review",
+        "first-review-caption",
+        "review-examples"
+      ],
+      "anchors": [
+        "#preparation",
+        "#setup",
+        "#location",
+        "#verification",
+        "#costs",
+        "#troubleshooting",
+        "#first-review",
+        "#review-examples"
+      ],
+      "localLinks": [
+        "/google-ads-management-usa.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/sem-landing-tracking.html",
+        "/google-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html"
+      ],
+      "setupSteps": 6,
+      "preparationRows": 6,
+      "overflow": false,
+      "tableKeyboardScrollPassed": null,
+      "listingJourneyPassed": true,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "谷歌广告开户流程：账户准备与投放入门",
+      "headline": "谷歌广告开户流程：账户准备与投放入门",
+      "modified": "2026-10-27T15:41:01+08:00",
+      "published": "2026-09-11",
+      "visibleModified": "2026-10-27T15:41:01+08:00",
+      "canonical": "https://shumaojs.com/articles/google-ads-basics.html",
+      "descriptions": [
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。",
+        "按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。"
+      ],
+      "socialImages": [
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-setup-readiness-v1.jpg"
+      ],
+      "image": {
+        "src": "http://127.0.0.1:8798/assets/articles/account-setup-readiness-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "checks": [
+        "delivery",
+        "measurement",
+        "intent",
+        "maturity",
+        "economics"
+      ],
+      "examples": [
+        "failure",
+        "irrelevant",
+        "unknown"
+      ],
+      "reviewRecords": 4,
+      "ids": [
+        "preparation",
+        "preparation-caption",
+        "setup",
+        "location",
+        "verification",
+        "costs",
+        "troubleshooting",
+        "first-review",
+        "first-review-caption",
+        "review-examples"
+      ],
+      "anchors": [
+        "#preparation",
+        "#setup",
+        "#location",
+        "#verification",
+        "#costs",
+        "#troubleshooting",
+        "#first-review",
+        "#review-examples"
+      ],
+      "localLinks": [
+        "/google-ads-management-usa.html",
+        "/google-ads-agency-hong-kong.html",
+        "/articles/google-search-ads-cost-guide.html",
+        "/articles/how-to-choose-advertising-agency.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/sem-landing-tracking.html",
+        "/google-ads.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html"
+      ],
+      "setupSteps": 6,
+      "preparationRows": 6,
+      "overflow": false,
+      "tableKeyboardScrollPassed": true,
+      "listingJourneyPassed": true,
+      "passed": true
+    }
+  ],
+  "pageErrors": []
+}

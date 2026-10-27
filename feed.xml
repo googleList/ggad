@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 07:41:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 08:35:12 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Performance Max 怎么投？适用条件与上线清单</title>
+      <link>https://shumaojs.com/articles/performance-max-basics.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/performance-max-basics.html</guid>
+      <description>PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Performance Max</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>谷歌广告开户流程：账户准备与投放入门</title>
       <link>https://shumaojs.com/articles/google-ads-basics.html</link>
@@ -195,15 +204,6 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       <category>SEM</category>
       <dc:language>zh-Hant-HK</dc:language>
-    </item>
-    <item>
-      <title>Performance Max 怎么投？适用条件与上线清单</title>
-      <link>https://shumaojs.com/articles/performance-max-basics.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/performance-max-basics.html</guid>
-      <description>Performance Max 投放指南：判断 PMax 是否适合跨境电商或外贸获客，并检查转化追踪、素材、受众信号、预算与上线后的优化节奏。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Performance Max</category>
-      <dc:language>zh-CN</dc:language>
     </item>
     <item>
       <title>Google Ads Enhanced Conversions for Leads: US Setup Guide</title>

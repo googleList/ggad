@@ -6,6 +6,17 @@
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
   "clusters": [
     {
+      "cluster": "谷歌广告类型与 PMax 上线准备",
+      "language": "zh-Hans",
+      "intent": "informational-commercial",
+      "priority": "medium",
+      "targetUrl": "https://shumaojs.com/articles/performance-max-basics.html",
+      "primaryKeywords": ["Performance Max 怎么投", "PMax 投放"],
+      "supportingKeywords": ["PMax 素材组", "PMax 受众信号", "PMax 页面 Feed", "最终到达网址扩展"],
+      "evidence": {"reviewedAt": "2026-10-27", "snapshot": "reports/search-console/2026-10-27-performance-follow-up.json", "method": "Existing Simplified article has3globalpageimpressions/0clicks/average10 inOctober19-25, not an exactPMaxquery or US/HKvolume measure. Actual source/publicGET still grouped countries with asset groups and omitted a clear control-scope matrix, pagefeed expansion boundary and custom-goal exception. Current official setup/assets/campaign/signals/URL/goal sources support a focused existing-page improvement. No newquerydemand, causal gain, CTRtest or duplicatepage justified.", "googleSearchVolume": null, "countryDemandVerified": false, "editorialBrief": "reports/editorial/2026-10-27-pmax-controls/brief.md", "humanReviewStatus": "pending separately; request after verified deployment, no inherited setup/monthly/tracking/service approval"},
+      "contentActions": ["保留原标题H1网址、9月11日发布日期及现有美港延伸页面，不新增同义页", "明确六项控制作用范围、三种假设情境和四项复盘记录，区别素材组与国家预算、信号与定向、商品与页面Feed", "原创配图与压缩缩略图同步文章、列表和分享元数据，保持代投服务及已有人工确认内容稳定；等待单独人工审阅和更晚证据"]
+    },
+    {
       "cluster": "香港 Google Ads 帳戶審核",
       "market": "HK",
       "language": "zh-Hant-HK",
@@ -81,8 +92,8 @@
         "countryDemandVerified": false,
         "sources": ["https://support.google.com/google-ads/answer/6366720?hl=zh-Hans", "https://support.google.com/google-ads/answer/9842104?hl=zh-Hans", "https://support.google.com/adspolicy/answer/15577076?hl=zh-Hans"]
       },
-      "accuracyReview": {"reviewedAt": "2026-10-27", "brief": "reports/editorial/2026-10-27-setup-readiness/brief.md", "finding": "Existing lower first-month section still prescribed day7/14/30 changes despite the earlier setup expansion; current publicGET also confirmed this source advice. Replace narrowly with five evidence checks, three original cases and four review records; retain title/URL/publication/preparation/setup. No new GSC demand or CTR-test claim.", "sources": ["https://support.google.com/google-ads/answer/9347141?hl=en", "https://support.google.com/google-ads/answer/9347065?hl=en", "https://support.google.com/google-ads/answer/7102466?hl=en", "https://support.google.com/google-ads/answer/2472708?hl=en"], "humanReview": "pending separately; question actually delivered2026-10-27 after44794c6 deployment and public checks. Prior tutorial/service confirmations do not transfer; no actual account or results approval"},
-      "contentActions": ["保留现有标题H1网址、9月11日发布日期及六项准备和六步开户流程", "首轮复盘由固定日历调整改为五项证据、三种假设情境及四项记录，不混淆未知与零、点击与询盘", "原创封面与压缩缩略图同步正文、列表及分享元数据；等待单独人工审阅和更晚查询网页证据，不新增同义薄页"]
+      "accuracyReview": {"reviewedAt": "2026-10-27", "brief": "reports/editorial/2026-10-27-setup-readiness/brief.md", "finding": "Existing lower first-month section still prescribed day7/14/30 changes despite the earlier setup expansion; current publicGET also confirmed this source advice. Replace narrowly with five evidence checks, three original cases and four review records; retain title/URL/publication/preparation/setup. No new GSC demand or CTR-test claim.", "sources": ["https://support.google.com/google-ads/answer/9347141?hl=en", "https://support.google.com/google-ads/answer/9347065?hl=en", "https://support.google.com/google-ads/answer/7102466?hl=en", "https://support.google.com/google-ads/answer/2472708?hl=en"], "humanReview": "Owner separately confirmed2026-10-27: 内容符合，可保留. Covers44794c6 fivechecks/threecases/fourrecords and not adjusting mechanically by calendar; not PMax, actual account/GA4/form changes or results. Retain public text and existingmodification timestamp."},
+      "contentActions": ["保留现有标题H1网址、9月11日发布日期及六项准备和六步开户流程", "首轮复盘由固定日历调整改为五项证据、三种假设情境及四项记录，不混淆未知与零、点击与询盘", "本篇已单独人工确认可保留；保留正文、原创配图和修改时间，等待更晚查询网页证据，不继承为PMax认可或新增同义薄页"]
     },
     {
       "cluster": "谷歌广告排名与广告评级",

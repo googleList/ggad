@@ -54,16 +54,17 @@
       "primaryKeywords": ["谷歌代投", "谷歌广告代投"],
       "supportingKeywords": ["Google Ads 代运营", "谷歌广告投放管理", "谷歌广告优化"],
       "evidence": {
-        "reviewedAt": "2026-10-26",
-        "method": "Official visible GSC UI September27-October24 available window:243impressions/0clicks/54.9, all39queries/29countries read. Exact 谷歌代投6/0/3.3 on separate page viewgoogle-ads.html6; separate country viewCN5/SG1, not joint daily query-page-country data. US119/HK62 unfiltered country impressions are not those Simplified query markets. Other exact target themes absent from visible queries are not zero demand. No new7day/prior28comparison, API-final certification, stable ranking, search-volume or release-gain claim; overlapping throughOctober23/239 snapshot remains historical. GSC Wizard subscription_required, do not retry until access state changes; browser read independent.",
-        "performanceSnapshot": "reports/search-console/2026-10-26-keyword-window.json",
+        "reviewedAt": "2026-10-27",
+        "method": "Actual authorized GSC UI October19-25versus12-18:46/41impressions,1/0clicks. Exact谷歌代投8impressions/1click/3.6 directly maps togoogle-ads.html; query-country CN7/1,SG1/0, directCN+query page7/1 confirmed. Actual noncomparisondailytable reports clickOctober25PT, not inferredrollingdifference. September28-October25versusAugust31-September27:248/3impressions,1/1clicks,39queries31countries39pagesread. US/HK country totals are separate, not exactquerymarketvalidation. Prior6/0throughOctober24 retained historicalsnapshot. No stable rank, CTRexperiment, marketvolume, qualified enquiry, API-final or release-effect claim. No Wizard subscription retry or actual account action.",
+        "performanceSnapshot": "reports/search-console/2026-10-27-performance-follow-up.json",
+        "historical28DaySnapshot": "reports/search-console/2026-10-26-keyword-window.json",
         "adjacentWeekFollowUp": {"snapshot": "reports/search-console/2026-10-26-weekly-market-follow-up.json", "period": "2026-10-18 through2026-10-24 versusOctober11-17", "directJointFilter": {"country": "US", "query": "google ads代运营", "page": "https://shumaojs.com/articles.html", "currentImpressions": 1, "previousImpressions": 0, "clicksBoth": 0, "currentPosition": 8, "previousPosition": null}, "meaning": "One directly observed US mixedSimplified query/page signal, not USvolume/stablerank, precise谷歌代投market validation or permission for a new landingpage. Earlier no-new7day sentence describes the initial28day checkpoint, superseded only by this separate genuine7day followup."},
         "googleSearchVolume": null,
         "countryDemandVerified": false,
         "editorialBrief": "reports/editorial/2026-10-24-service-scope/brief.md",
         "humanReviewStatus": "owner confirmed on 2026-10-24: 说明符合实际业务. Applies to setup/management/diagnostic scope, separate fee confirmation and handover explanation only; not unspecified prices, other articles or results"
       },
-      "contentActions": ["保留已确认服务页标题、网址和范围，不因6次展示0点击就测试标题或重复改写", "继续分别核对简体查询与美国香港国家维度，当前独立查询国家视图为中国5次与新加坡1次，不按滚动窗口差值推断新增日期", "优先解决已经在GSC出现展示的HTTP首页协议统一问题；待具体授权和登录，不靠改标题或新建同义词页面解决", "未确定的套餐和价格仍不得虚构，2次混合代运营查询也不足以新建重复页面；等待更晚可比周期，不把平均排名3.3当作稳定名次"]
+      "contentActions": ["保留已确认服务页标题、网址和范围；8次展示1次点击样本仍不足以测试标题或证明稳定排名", "直接联合筛选已确认谷歌代投中国7次展示1点击对应服务页，按日表为10月25日PT；新加坡1展示0点击，不等同美国香港需求或有效询盘", "优先解决已有HTTP200证据且本周仍出现2次展示的HTTP首页协议统一依赖；等待具体授权和登录，不反复催问或新建同义页", "其他简体目标词未出现在可见查询不等于零需求；保持美国英语和香港繁体页面，等待更晚可比周期及真实询盘测量，不虚构套餐、搜索量或发布因果"]
     },
     {
       "cluster": "谷歌广告开户流程",

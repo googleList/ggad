@@ -54,3 +54,13 @@ First production article attempt passed twoUScases then exited with a real45seco
 Same original dates/timeline/anchors/metadata/alternates/cover/tablekeyboard/menu/noJS/main200destinations/actualSEMpage3journeys verified. This validates the explanatory pages, not a reporting, attribution, upload or customer-account implementation. No postrelease performance or Googlecrawl proof.
 
 Two separate owner review questions actually deliveredOctober26, one for each language page's dates/timeline/onelead and reconciliation boundaries. Both pending, no approval inherited from SEMhandover/HKaudit/USaudit/rank or each other. SEMhandover's genuine acceptance preserved in its own brief. Earlier pendingproduction checkpoints are historical. Reporting-only evidence commit follows with no further publicdate/text changes; verify its marker externally, no report-only proof loop. Full90daygoal remainsactive/unachieved.
+
+## Independent Owner Acceptance: October 27
+
+The owner answered the two separate questions on2026-10-27, each with "内容符合，可保留":
+- HK monthly guide: three date meanings, four-event cross-month example and four reconciliation checks accepted for revision98ab166.
+- US English monthly guide: three dates, the same four-event single-lead timeline and two stages not being two customers accepted independently for revision98ab166.
+
+Neither acceptance is inherited from the other locale or SEM handover. The separate HK account-audit review remains pending. Approval does not authorize conversion uploads or Ads/GA4/CRM changes and does not validate customer outcomes, legal compliance or registration details. Keep the reviewed public text, original2026-09-29 publication and actual2026-10-26T23:19:41+08:00 modification unchanged; no artificial feed/sitemap freshness.
+
+The preceding evidence-only revisioncf5a2953c2636f5c8c4d06d6e76c5eeba7d31a74 is now verified: Pages111/run40351966307/job121674134259 completed success and public deployment.json matched that full SHA. This acceptance update changes records only; it does not repeat unchanged public browser tests or assert new GSC traffic/crawl evidence.

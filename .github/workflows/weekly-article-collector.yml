@@ -61,13 +61,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Collect metadata and research briefs
+      - name: Validate metadata-only collector
+        run: python -B -m unittest discover -s tests -p test_collect_articles.py
+
+      - name: Collect metadata-only topic candidates
         run: >-
           python -B scripts/collect_articles.py
           --sources data/article-sources.json
           --max-pages 5
           --max-per-source 40
-          --detail-limit 30
+          --detail-limit 0
           --output "$RUNNER_TEMP/collected-articles.json"
           --report "$RUNNER_TEMP/collected-articles.html"
 

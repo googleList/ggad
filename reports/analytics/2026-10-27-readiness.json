@@ -1,0 +1,17 @@
+{
+  "observedDate": "2026-10-27",
+  "targetSite": "https://shumaojs.com/",
+  "method": "Official Google Analytics UI opened in the existing IAB session; read-only rendered page",
+  "observedUrl": "https://analytics.google.com/analytics/web/provision/#/provision",
+  "visibleHeading": "欢迎使用 Google Analytics",
+  "visibleActionNotUsed": "开始衡量",
+  "targetResourceIdentified": false,
+  "targetResourceExistsInOtherAccounts": null,
+  "domainStreamBindingVerified": false,
+  "googleOrganicVisits7Days": null,
+  "googleOrganicVisits28Days": null,
+  "qualifiedEnquiries": null,
+  "conclusion": "This session exposed onboarding, not an identifiable target resource. Missing access/binding is not zero traffic or proof no property exists elsewhere. The existing pending request for the intended GA4 resource remains; no repeated question sent.",
+  "actionsNotTaken": ["account creation", "terms acceptance", "account switching", "property or stream changes", "placeholder measurement ID", "tracker installation", "event upload", "ad changes"],
+  "gscStatus": "Latest actual GSC snapshot remains 2026-10-27-performance-follow-up.json through October25; clicks are not sessions or qualified leads. Existing user GSC24-hour view left unchanged."
+}

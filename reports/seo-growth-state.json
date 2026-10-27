@@ -30,6 +30,25 @@
   "goalIsGuaranteed": false,
   "lastRunAt": "2026-10-27",
   "latestReport": "reports/seo-follow-up-2026-10-27.md",
+  "latestMeasurementReadinessReview": {
+    "observedAt": "2026-10-27",
+    "snapshot": "reports/analytics/2026-10-27-readiness.json",
+    "status": "Official Analytics UI exposed onboarding, not an identifiable target resource; existing correct-resource request remains pending. No account creation, switching, terms, stream/tag/event or Ads action. User GSC24hour view unchanged; no repeated question.",
+    "organicVisits": null,
+    "qualifiedEnquiries": null,
+    "limitations": "Missing access/binding is not zero traffic or proof no property exists elsewhere. Latest genuine GSC window remains throughOctober25; click is not a session or enquiry."
+  },
+  "latestCollectorPolicyReview": {
+    "observedAt": "2026-10-27",
+    "brief": "reports/editorial/2026-10-27-collector-metadata/brief.md",
+    "status": "Metadata-only research contract repaired and tested locally; source CI/deployment pending at this checkpoint",
+    "policyVersion": 2,
+    "legacyCandidatesPreserved": 16,
+    "originalCollectionAt": "2026-09-14T16:01:43.379360+00:00",
+    "policyUpdatedAt": "2026-10-27T15:36:23.525807+00:00",
+    "scope": "No retained source paragraphs/summaries/outlines/image references or report hotlinks; independent official-fact/original-media checklist, genuine human review pending. Local migration no fetch; weekly detail lookups0 and schedule unchanged. Research artifact not public article; prior Git history/Actions artifacts not purged.",
+    "checks": "11collector/130full localtests pass(oneWindowspermissionskip);66HTML64sitemap0errors/warnings, schema/policy/performance/feedpass; five nativefile browser cases with16cards,0externalrequests/images/scripts/overflow/errors. No public source/body/date/runtime change or traffic claim."
+  },
   "latestMeasurementReview": {
     "snapshot": "reports/search-console/2026-10-27-performance-follow-up.json",
     "report": "reports/search-console/2026-10-27-performance-review.md",
@@ -111,6 +130,7 @@
     "latestVerification": "Publicmarkere7f80017eec8c0c4445b3ff008bf6dabf487dc8a matched Pages40529612744/job122278505932success; actual122CItestsOK/66HTML64sitemap0errors/warnings/schema/performance0errors/154publicfiles.6productionarticle15:21:41.979Z+6hub15:22:08.410Zcases pass,0pageerrors/viewportoverflow, actualSEMpage6journey/sevenanchors/tablekeyboard/menu/noJS/loadedcover. Firstpubliccheck preCSS width measurement diagnosed and same overflow assertion retained with explicit CSSreadiness; no changed publicHTML/CSS. Live sitemapOctober27/RSS46items originalSeptember11publication. Setup accepted, PMax ownquestionpending. No account/index/edge/CWV/traffic gain proof; final repository-only followup may follow source checkpoint."
   },
   "completedBatches": [
+    "metadata-only-research-contract-legacy-migration-and-ga4-readiness-check-2026-10-27",
     "existing-simplified-pmax-control-scope-and-original-cover-2026-10-27-deployed-human-review-pending",
     "gsc-primary-query-click-direct-country-page-day-and-adjacent7-28-evidence-2026-10-27",
     "simplified-account-setup-first-review-readiness-2026-10-27-deployed-owner-accepted",
@@ -725,6 +745,7 @@
     }
   },
   "nextPriorities": [
+    "Metadata-only collector repair preserves16legacyIDs/order/September14collectiontime; no copiedparagraph/outline/summary/image or automaticarticlepublication. WeeklyMonday09:30AsiaShanghai schedule unchanged, detail-limit0 and11testgate. Verify actualsourceCI/artifact and publicdeployment before marking released. Keep existingapprovedSimplifiedservice andsetup stable; currentGA4UIonboarding requires correctresource, not a placeholderID or repeatedrequest. PMaxhumanreview remains independentlypending",
     "PMaxe7f8001verifieddeployed/122CItests/6article+6hubpubliccases; independent human question deliveredOctober27,pending. Keep title/H1/URL/publication/fivechecks/US-HKlinks/originalcover stable; await genuinefeedback and latermeasurement, no repeatedrewrite/request or new synonym page.3globalpageimpressions not exactquery/US-HKvolume; primaryservice click does not justify titlechurn. Setup approval not inherited; no actualaccount/budget/upload/edge/index operation",
     "FreshOctober27GSC snapshot throughOctober25 confirms exact谷歌代投8impressions/1click atgoogle-ads.html; directCNquerypage7/1 andactualdailyOctober25PT. Keep approved service/title/URL stable, no CTRtest/newpage or claim of a qualified enquiry. CN/SG signal is not US/HK demand; measure later comparable query/page/country windows and actual consent-respecting enquiry evidence when available",
     "Account-setup first-review44794c6verifieddeployed and separately owner-acceptedOctober27 for fivechecks/threecases/fourrecords and calendar boundary. Retain text/cover/title/URL/publication/modification/sixpreparation/sixsteps; await later crawl and query-page-country evidence, not another review request/rewrite. PMax not approved by this answer. No account/CRM/GA4 action or new thin page",

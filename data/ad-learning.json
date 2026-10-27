@@ -1,8 +1,16 @@
 {
-  "generatedAt": "2026-10-26T06:32:46.958Z",
+  "generatedAt": "2026-10-27T15:43:20.320Z",
   "sourcesChecked": 6,
   "sourcesAvailable": 5,
   "items": [
+    {
+      "title": "6 Common (But Killer) Google Ads Optimization Mistakes",
+      "url": "https://www.wordstream.com/blog/google-ads-optimization-mistakes",
+      "source": "WordStream",
+      "publishedAt": "2026-10-27T12:30:53.000Z",
+      "category": "转化与落地页",
+      "summary": "Avoid six common Google Ads optimization mistakes, from chasing optimization score to changing bids too quickly and tracking low-value conversions."
+    },
     {
       "title": "AI Won’t Save You Time. Not at First. A PPC Experts AI Journey",
       "url": "https://ppchero.com/ai-wont-save-you-time-not-at-first-a-ppc-experts-ai-journey/",
@@ -229,6 +237,7 @@
     }
   ],
   "topicIdeas": [
+    "转化与落地页：6 Common (But Killer) Google Ads Optimization Mistakes",
     "广告投放：AI Won’t Save You Time. Not at First. A PPC Experts AI Journey",
     "转化与落地页：Task Automation Tips, AI-Build Landing Pages, and Industry News",
     "Google Ads：New bidding and budgeting tools can transform your upcoming holiday ad strategy.",
@@ -245,7 +254,6 @@
     "Meta / Facebook：YouTube Performance Analysis, Facebook Ads Changes, and Industry News",
     "搜索广告：Proving the Value of Paid Search With Incrementality Testing",
     "搜索广告：Make AI Max work for your business with new testing and planning tools.",
-    "Google Ads：Google Ads Target Bid Strategy Changes: What Changed in August 2026 and What to Do Now",
-    "广告投放：How to use multiple MMMs to make better paid media decisions"
+    "Google Ads：Google Ads Target Bid Strategy Changes: What Changed in August 2026 and What to Do Now"
   ]
 }

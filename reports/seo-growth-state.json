@@ -8,8 +8,8 @@
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
     "latestBrief": "reports/editorial/2026-10-27-seo-title/brief.md",
-    "latestAiReviewStatus": "Existing SEOtitle guide:6fieldscopes/4hypotheticalpageexamples/3rewritecases/5releasechecks/4reviewrecords,originalcompressedcover;title/H1/URL/publicationretained.133localtests(oneWindowsskip),66HTML64sitemap0errors/warnings,6article+6hubcasespass.1overlappingglobalimpression not demand/CTRtest or effect. SourceCI/productionpending,separatehumanreviewpending. PMax previous release remains ownbrief/pendingquestion,setupseparatelyaccepted. No newservicepromise/account/index/edge/resultclaim.",
-    "latestSeoTitleArticleHumanReview": {"url": "https://shumaojs.com/articles/seo-title-meta-basics.html#writing-examples", "status": "pending; request not yet delivered at local checkpoint", "scope": "six field scopes, four hypothetical page examples, three rewrite diagnoses, five release checks and four matched-period records; no actual account or ranking outcome"},
+    "latestAiReviewStatus": "ExistingSEOtitlef4c3e6bverifieddeployed:6fields/4hypotheticalpageexamples/3cases/5releasechecks/4reviewrecords/originalcompressedcover,title-H1-URL-publicationretained.133CItestsallOK/66HTML64sitemap0errors-warnings/156publicfiles/fullmarker matched.6productionarticle16:01:03.219Z+6hub16:01:29.848Zpass,0errors-overflow. IndependentownerquestiondeliveredOctober28,pending;actualOctober27modificationretained acrossmidnight. PriorPMaxpending/setupacceptedseparate;no newservicepromise/account/index/edge/resultclaim or newGSCperiod.",
+    "latestSeoTitleArticleHumanReview": {"url": "https://shumaojs.com/articles/seo-title-meta-basics.html#writing-examples", "requestedAt": "2026-10-28", "status": "pending; separate question actually delivered after f4c3e6b verified deployment", "contentRevision": "f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6", "scope": "six field scopes, four hypothetical page examples, three rewrite diagnoses, five release checks and four matched-period records; no actual account or ranking outcome, no inherited setup/PMax/monthly approval"},
     "latestPendingArticleHumanReview": {"url": "https://shumaojs.com/articles/performance-max-basics.html#control-scope", "requestedAt": "2026-10-27", "status": "pending; separate question delivered after verified production", "scope": "six control-scope rows, three hypothetical scenarios and four records, not actual Ads settings, uploads or other-article acceptance"},
     "latestReportingArticleHumanReviews": [
       {"url": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html#cohort-example", "requestedAt": "2026-10-26", "confirmedAt": "2026-10-27", "status": "accepted", "ownerReply": "内容符合，可保留", "contentRevision": "98ab166b40a0697fe93bdee4c0a43eba67aa1813", "scope": "HK reporting three date meanings, four-event hypothetical cross-month timeline, onelead/twostages and four reconciliation records; not account implementation or inherited review"},
@@ -29,8 +29,8 @@
   "targetEndAt": "2026-12-26",
   "sprintGoal": "1000 average daily Google organic visits",
   "goalIsGuaranteed": false,
-  "lastRunAt": "2026-10-27",
-  "latestReport": "reports/seo-follow-up-2026-10-27.md",
+  "lastRunAt": "2026-10-28",
+  "latestReport": "reports/seo-follow-up-2026-10-28.md",
   "latestMeasurementReadinessReview": {
     "observedAt": "2026-10-27",
     "snapshot": "reports/analytics/2026-10-27-readiness.json",
@@ -126,13 +126,13 @@
   },
   "deployment": {
     "status": "deployed",
-    "reason": "Metadata-only collector0816cdc verified in actual Weekly workflow; research not auto-published. Separate existing curated job produced512aa09with1new attributed link,5of6sources; live resource and marker matched. Evidence followup only; accepted setup and pending PMax scopes unchanged.",
-    "localCommit": "512aa095f5992338a7c7c734f24c4be03a5df19d",
-    "verifiedAt": "2026-10-27",
-    "latestVerification": "SourcePages40533754667/job122293300236 andWeekly40533754742/deployjob122293427316success,130CItestsallOK/66HTML64sitemap0errors/warnings/schema-performance0errors/154publicfiles. Weeklyactualcheckout512aa09 matches live deployment.json andGET200updatedresource. Artifact12746573443exactdigestverified/77pendingmetadataonlycandidates/2sources0errors. Curatedresources5of6(SearchEngineLand403),1newlink,notauthoredarticle. PMax prior6article+6hub productionchecks remain in ownbrief, no newmatrixclaimed. No GA4/fieldCWV/lead/outcome/account/edge/indexproof; final evidence-onlycommit may follow checkpoint."
+    "reason": "ExistingSEOtitleguidef4c3e6b deployed with originalcover/4hypotheticalpageexamples and matchedreview; existingtitle/URL/publicationretained. Separatehumanreviewpending; prioracceptedprimaryservice/setup andUS-HKlocalizationsunchanged. Collector release remains in ownreview/brief.",
+    "localCommit": "f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6",
+    "verifiedAt": "2026-10-28",
+    "latestVerification": "Pages40536374721/job122302625121success,133CItestsallOK/66HTML64sitemap0errors-warnings/schema-performance0errors/156publicfiles. Fullf4c3e6bmarker matched;6article+6hubproductioncasespass/0errors-overflow/SEOpage1journey/keyboardtable/menu/noJS/proportionalcover. Live sitemapOctober27/RSS46originalSeptember11publication andnewdescription confirmed. Verification crossedmidnight, actualOctober27modificationretained. OwnerquestiondeliveredOctober28,pending; finalrecords-onlycommitmayfollowcheckpoint,checkmarkerexternallywithoutrecursiveproof. No newGSC/GA4/CWV/gain/index/account/edgeproof."
   },
   "completedBatches": [
-    "existing-seo-title-description-examples-and-matched-review-guide-2026-10-27-local-validated",
+    "existing-seo-title-description-examples-and-matched-review-guide-2026-10-27-deployed-human-review-pending-2026-10-28",
     "metadata-only-research-contract-legacy-migration-and-ga4-readiness-check-2026-10-27",
     "existing-simplified-pmax-control-scope-and-original-cover-2026-10-27-deployed-human-review-pending",
     "gsc-primary-query-click-direct-country-page-day-and-adjacent7-28-evidence-2026-10-27",
@@ -234,13 +234,13 @@
     "settled-gsc-adjacent7-and28-comparisons-http-search-signal-and-owner-action-2026-10-25"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-27T15:45:08Z",
-    "localHead": "512aa095f5992338a7c7c734f24c4be03a5df19d",
-    "remoteHead": "512aa095f5992338a7c7c734f24c4be03a5df19d",
+    "checkedAt": "2026-10-27T16:01:29.848Z",
+    "localHead": "f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6",
+    "remoteHead": "f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Verified checkpoint512aa09 after safe fast-forward of existing curated-resource bot commit, no force or dirty-file reset. Source0816cdc and weekly latestmain deployment verified. Evidence-only followup may follow this checkpoint; check its push/marker externally without recursive proof commits. Next batch fresh fetch, retain CNAME/sharedpageslock, accepted content and unrelated dirty graph/cache/history. ExistingCloudflare/GA4ownerdependencies remain; no repeated unchangedpoll/titlechurn."
+    "safeAction": "Verifiedsourcecheckpointf4c3e6bpush/Pages/publicmarker/133CItests/12browsercases; records-onlyfollowupmayfollow,verifyexternallywithoutrecursiveproofcommits. No force/dirtyreset, retainsharedpageslock/CNAME/approvedcontent/unrelatedgraph-cache-history. Nextbatchfreshfetch;existingCloudflare/GA4dependenciesnotre-requested,awaitgenuinefeedback/latermeasurement ratherthanrepeatrewrite/titlechurn."
   },
   "dataAccess": {
     "rsaGuideRelease2026-10-25": {
@@ -748,7 +748,7 @@
     }
   },
   "nextPriorities": [
-    "SEOtitle existing-page revision localvalidated133tests/6article+6hubcases. Verify sourceCI/production/marker,requestseparategenuinehumanreview;keeptitle/URL/publication and48cards/46RSSstable.1globalimpression inoverlapping7/28days not two demand samples or CTRtest.PreserveapprovedprimarySimplifiedservice/setup/ranking andUS-HKlocalizations,no duplicatepage/inventedproduct/merchantmarkup",
+    "SEOtitlef4c3e6bverifieddeployed133CItests/6article+6hubproductioncases,matchingmarker; separateownerquestiondeliveredOctober28,pending. Awaitgenuinefeedback/laterquery-page-country-device/crawlevidence,notimmediaterewrite/titleexperiment.1globalimpressioninoverlapping7/28days isonesample,notmarketvolume. Retainoriginaltitle/URL/publication andactualOctober27modification/48cards/46RSS;primarySimplifiedservice/setup/ranking andUS-HKlocalizationsstable, no fakeproduct/merchantmarkup",
     "Collector0816cdc/Weekly40533754742released:77metadataonlycandidates2sources0errors,artifact12746573443digest/schemaverified,allpendingreview/notpublished. Existingseparatecuratedjob512aa09updated1attributedlink/18resources5of6sources(SEL403notbypassed),livepayload/markerchecked. KeepMonday09:30schedule/detail0/11testgate, avoid repeatedcollection or competitorrewrite. Legacy16IDs/order/September14time preserved. CorrectGA4resource stillneeded, no placeholderID/repeatedrequest. AcceptedSimplifiedservice/setupstable,PMaxreviewindependentlypending",
     "PMaxe7f8001verifieddeployed/122CItests/6article+6hubpubliccases; independent human question deliveredOctober27,pending. Keep title/H1/URL/publication/fivechecks/US-HKlinks/originalcover stable; await genuinefeedback and latermeasurement, no repeatedrewrite/request or new synonym page.3globalpageimpressions not exactquery/US-HKvolume; primaryservice click does not justify titlechurn. Setup approval not inherited; no actualaccount/budget/upload/edge/index operation",
     "FreshOctober27GSC snapshot throughOctober25 confirms exact谷歌代投8impressions/1click atgoogle-ads.html; directCNquerypage7/1 andactualdailyOctober25PT. Keep approved service/title/URL stable, no CTRtest/newpage or claim of a qualified enquiry. CN/SG signal is not US/HK demand; measure later comparable query/page/country windows and actual consent-respecting enquiry evidence when available",

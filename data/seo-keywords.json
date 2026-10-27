@@ -11,6 +11,7 @@
       "intent": "informational",
       "priority": "secondary-existing-page-quality",
       "targetUrl": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+      "releaseReview": {"sourceCommit": "f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6", "deployment": "Pages40536374721/job122302625121success,133CItestsOK/fullmarker matched,6productionarticle+6hubcases pass", "humanReviewRequestedAt": "2026-10-28", "humanReview": "pending; separate question actually delivered, no inherited approval", "note": "Verification crossed local midnight; preserve actualOctober27substantive modification and originalSeptember11publication"},
       "primaryKeywords": ["SEO 标题怎么写", "meta description 怎么写"],
       "supportingKeywords": ["Google 标题被改写", "SEO 标题和 H1", "搜索结果摘要", "外贸网站 SEO 标题"],
       "evidence": {"reviewedAt": "2026-10-27", "snapshot": "reports/search-console/2026-10-27-performance-follow-up.json", "method": "Existing page1globalimpression/0clicks/average9 in both overlapping7day/current28day windows, not independent samples or localized demand. Publichowto/title-rewrite results validate intent shape only; broad谷歌排名 search mixed. Source/publicGET confirmed no practical examples and generic CTR advice. Official title/snippet/multilingual/GSC docs support existing-page improvement, not newURL or title test.", "googleSearchVolume": null, "countryDemandVerified": false, "editorialBrief": "reports/editorial/2026-10-27-seo-title/brief.md", "humanReviewStatus": "pending separately; no inherited setup, AdRank, monthly or service approval"},

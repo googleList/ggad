@@ -1,0 +1,621 @@
+{
+  "checkedAt": "2026-10-27T16:01:03.219Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "SEO 标题和描述怎么写更适合外贸网站 | 昆明振润达商贸有限公司",
+      "headline": "SEO 标题和描述怎么写更适合外贸网站",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEO 标题和描述怎么写更适合外贸网站",
+        "description": "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "image": "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T23:50:48+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+      "modified": "2026-10-27T23:50:48+08:00",
+      "descriptions": [
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "fields": [
+        "title",
+        "heading",
+        "social",
+        "anchors",
+        "description",
+        "snippet"
+      ],
+      "examples": [
+        "service",
+        "article",
+        "category",
+        "product"
+      ],
+      "cases": [
+        "old-template",
+        "different-snippet",
+        "language"
+      ],
+      "releaseChecks": 5,
+      "reviewRecords": 4,
+      "anchors": [
+        "#field-scope",
+        "#writing-examples",
+        "#rewrite-checks",
+        "#release-checks",
+        "#measurement-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-q26fxr",
+        "field-scope",
+        "field-caption",
+        "writing-examples",
+        "rewrite-checks",
+        "release-checks",
+        "measurement-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/website-speed-mobile.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "SEO 标题和描述怎么写更适合外贸网站 | 昆明振润达商贸有限公司",
+      "headline": "SEO 标题和描述怎么写更适合外贸网站",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEO 标题和描述怎么写更适合外贸网站",
+        "description": "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "image": "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T23:50:48+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+      "modified": "2026-10-27T23:50:48+08:00",
+      "descriptions": [
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "fields": [
+        "title",
+        "heading",
+        "social",
+        "anchors",
+        "description",
+        "snippet"
+      ],
+      "examples": [
+        "service",
+        "article",
+        "category",
+        "product"
+      ],
+      "cases": [
+        "old-template",
+        "different-snippet",
+        "language"
+      ],
+      "releaseChecks": 5,
+      "reviewRecords": 4,
+      "anchors": [
+        "#field-scope",
+        "#writing-examples",
+        "#rewrite-checks",
+        "#release-checks",
+        "#measurement-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-8hkmzw",
+        "field-scope",
+        "field-caption",
+        "writing-examples",
+        "rewrite-checks",
+        "release-checks",
+        "measurement-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/website-speed-mobile.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "SEO 标题和描述怎么写更适合外贸网站 | 昆明振润达商贸有限公司",
+      "headline": "SEO 标题和描述怎么写更适合外贸网站",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEO 标题和描述怎么写更适合外贸网站",
+        "description": "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "image": "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T23:50:48+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+      "modified": "2026-10-27T23:50:48+08:00",
+      "descriptions": [
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/seo-title-summary-plan-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "fields": [
+        "title",
+        "heading",
+        "social",
+        "anchors",
+        "description",
+        "snippet"
+      ],
+      "examples": [
+        "service",
+        "article",
+        "category",
+        "product"
+      ],
+      "cases": [
+        "old-template",
+        "different-snippet",
+        "language"
+      ],
+      "releaseChecks": 5,
+      "reviewRecords": 4,
+      "anchors": [
+        "#field-scope",
+        "#writing-examples",
+        "#rewrite-checks",
+        "#release-checks",
+        "#measurement-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-cadu6p",
+        "field-scope",
+        "field-caption",
+        "writing-examples",
+        "rewrite-checks",
+        "release-checks",
+        "measurement-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/website-speed-mobile.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "SEO 标题和描述怎么写更适合外贸网站 | 昆明振润达商贸有限公司",
+      "headline": "SEO 标题和描述怎么写更适合外贸网站",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEO 标题和描述怎么写更适合外贸网站",
+        "description": "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "image": "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T23:50:48+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+      "modified": "2026-10-27T23:50:48+08:00",
+      "descriptions": [
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/seo-title-summary-plan-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "fields": [
+        "title",
+        "heading",
+        "social",
+        "anchors",
+        "description",
+        "snippet"
+      ],
+      "examples": [
+        "service",
+        "article",
+        "category",
+        "product"
+      ],
+      "cases": [
+        "old-template",
+        "different-snippet",
+        "language"
+      ],
+      "releaseChecks": 5,
+      "reviewRecords": 4,
+      "anchors": [
+        "#field-scope",
+        "#writing-examples",
+        "#rewrite-checks",
+        "#release-checks",
+        "#measurement-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-p91vjc",
+        "field-scope",
+        "field-caption",
+        "writing-examples",
+        "rewrite-checks",
+        "release-checks",
+        "measurement-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/website-speed-mobile.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "SEO 标题和描述怎么写更适合外贸网站 | 昆明振润达商贸有限公司",
+      "headline": "SEO 标题和描述怎么写更适合外贸网站",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEO 标题和描述怎么写更适合外贸网站",
+        "description": "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "image": "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T23:50:48+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+      "modified": "2026-10-27T23:50:48+08:00",
+      "descriptions": [
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "fields": [
+        "title",
+        "heading",
+        "social",
+        "anchors",
+        "description",
+        "snippet"
+      ],
+      "examples": [
+        "service",
+        "article",
+        "category",
+        "product"
+      ],
+      "cases": [
+        "old-template",
+        "different-snippet",
+        "language"
+      ],
+      "releaseChecks": 5,
+      "reviewRecords": 4,
+      "anchors": [
+        "#field-scope",
+        "#writing-examples",
+        "#rewrite-checks",
+        "#release-checks",
+        "#measurement-records",
+        "#next-step"
+      ],
+      "ids": [
+        "field-scope",
+        "field-caption",
+        "writing-examples",
+        "rewrite-checks",
+        "release-checks",
+        "measurement-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/website-speed-mobile.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "SEO 标题和描述怎么写更适合外贸网站 | 昆明振润达商贸有限公司",
+      "headline": "SEO 标题和描述怎么写更适合外贸网站",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "SEO 标题和描述怎么写更适合外贸网站",
+        "description": "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "image": "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-27T23:50:48+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+      "modified": "2026-10-27T23:50:48+08:00",
+      "descriptions": [
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。",
+        "用服务、文章、类目与产品四种假设示例练习 SEO 标题和描述，区分 title、H1 与搜索摘要，排查标题改写，并按查询、地区和设备复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/seo-title-summary-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/seo-title-summary-plan-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "fields": [
+        "title",
+        "heading",
+        "social",
+        "anchors",
+        "description",
+        "snippet"
+      ],
+      "examples": [
+        "service",
+        "article",
+        "category",
+        "product"
+      ],
+      "cases": [
+        "old-template",
+        "different-snippet",
+        "language"
+      ],
+      "releaseChecks": 5,
+      "reviewRecords": 4,
+      "anchors": [
+        "#field-scope",
+        "#writing-examples",
+        "#rewrite-checks",
+        "#release-checks",
+        "#measurement-records",
+        "#next-step"
+      ],
+      "ids": [
+        "field-scope",
+        "field-caption",
+        "writing-examples",
+        "rewrite-checks",
+        "release-checks",
+        "measurement-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html",
+        "/articles/landing-page-checklist.html",
+        "/articles/website-speed-mobile.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-28",
+  "sourceCheckpoint": "80022000a6cbf7ab46af91d0d11cccef51f19ba9",
+  "method": "Local static HTML/JSON-LD/RSS/sitemap parsed using existing structured helpers; source checkpoint matched public deployment marker. Not a Google indexing count or new GSC snapshot.",
+  "articles": 46,
+  "hubItems": 48,
+  "rssItems": 46,
+  "toolItems": ["https://shumaojs.com/google-ads-agency-checklist-usa.html", "https://shumaojs.com/google-ads-agency-checklist-hong-kong.html"],
+  "sitemapUrls": 64,
+  "errors": [],
+  "newRegressionTests": 8,
+  "localTests": {"total": 152, "skipped": 1, "status": "OK", "skipReason": "Existing Windows file-permission test"},
+  "checks": ["Card/ItemList parity via existing article_index parser", "All editorial Article URLs in both hub and RSS", "No duplicate or non-editorial RSS item under this project's article-only feed contract", "Listed pages exist within workspace, canonical/indexable and in sitemap", "Non-editorial hub items declared WebApplication rather than fabricated Article", "Existing deterministic RSS stale check added to Pages CI"],
+  "limitations": "RSS may validly contain non-articles in other projects; this gate protects this repository's existing article-only generator, not a Google universal requirement. Does not prove live Google indexing, authority, field CWV, traffic or conversion gains. Initial diagnostic0ItemList count came from non-recursive flatten_schema at CollectionPage root; discarded and corrected using mainEntity/existing parse_index. No source pages, publication dates, feed bytes, sitemap bytes or runtime changed."
+}

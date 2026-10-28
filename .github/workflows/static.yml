@@ -37,6 +37,8 @@ jobs:
           python3 -B scripts/structured_data_check.py
           python3 -B scripts/content_policy_check.py
           python3 -B scripts/performance_budget_check.py
+          python3 -B scripts/discovery_coverage_check.py
+          python3 -B scripts/generate_feed.py --check
           node --check site-v20260930.js
       - name: Setup Pages
         uses: actions/configure-pages@v5

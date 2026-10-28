@@ -1,5 +1,11 @@
 # SEO Follow-Up: October 28, 2026
 
+## Discovery Coverage Publication Guard
+
+Previousmobileguide8002200verifiedrelease is progress; freshfetch0ahead-behind/marker matched. Auditedhub/RSS/sitemap/source:48hub=46Articlepages+2WebApplicationevaluationtools; RSS46containsallarticles,sitemap64notexpectedtoequalRSS. Initialflatten_schema0ItemListdiagnostic discarded(nonrecursiveCollectionPagemainEntity), existingparse_index confirmed48. No missingarticle, forcedArticlelabel, newpage/date or restoredownerremovedweeklyresourcesCTA for single-inlinkad-learning counter.
+
+Added scripts/discovery_coverage_check.py usingexistingstructuredparsers and8mutation/integrationtests: missinghub/RSS/sitemap, duplicate/noneditorialfeed, canonical/noindex/type/localpathsecurity. PagesCIrunscoverage andexistingdeterministicRSScheck beforestage; nofixed48/46limit.152localtestsOK(oneWindowsskip)/66HTML64sitemap0errors-warnings/schema-policy-performance-JS-feedpass. [Report](discovery/2026-10-28-coverage.md)/[snapshot](discovery/2026-10-28-coverage.json). No newpublicbody/title/date/media/runtime/feed/sitemap or browsermatrix/Googleindexing/trafficgain. LatestGSCstillthroughOctober26; no repeataccount/index/edge/outreach or reviewquestions. ActualsourceCI/publicmarker toverify externallyafterpush, no recursiveproof-onlycommit.
+
 ## Mobile Guide Release Verified
 
 7b08e4baa52382f31643726b538751bd6c031216 pushed; [Pages40696747580](https://github.com/googleList/ggad/actions/runs/40696747580)/job122845440537success,144CItestsallOK/66HTML64sitemap0errors-warnings/schema-performance0errors/163publicfiles/fullmarker.6productionarticle13:29:38.692Z+6hub13:31:19.705Z pass/0errors-overflow/websitepage1/staticentry/nativeanchors/keyboardtable/menu/noJS/proportionalcover; phonepublicnoJSdiagnosis inspected. Live sitemaparticle/hubOctober28/RSS46originalSeptember11publication/newdescription verified. OwnquestiondeliveredOctober28pending, otherapprovals independent. No requiredhelper/checksession remains; local34984intentionalCtrlCexit1notfailure, production85421/9454success.

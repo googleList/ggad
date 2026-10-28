@@ -35,6 +35,7 @@
   "goalIsGuaranteed": false,
   "lastRunAt": "2026-10-28",
   "latestReport": "reports/seo-follow-up-2026-10-28.md",
+  "latestDiscoveryCoverageReview": {"observedAt":"2026-10-28","snapshot":"reports/discovery/2026-10-28-coverage.json","report":"reports/discovery/2026-10-28-coverage.md","status":"local validated; actual sourceCI/publicmarker checked externally after push, not claimed at this pre-push checkpoint","counts":{"articles":46,"hub":48,"rss":46,"tools":2,"sitemap":64},"checks":"8newregressiontests/152localtestsOK(oneWindowsskip),66HTML64sitemap0errors-warnings/schema-policy-performance-JS-feedpass. NewPagescoverage anddeterministicRSSchecks beforestage; no publicbody/date/runtime/asset/feed/sitemap change.","decision":"48vs46is semantic46articles+2WebApplications, not missingcontent. Preserve correctlytypedtools anddo notrestore ownerremoved weeklyresources CTA tofix singleinlinkcounter. Do notforce all discovery counts equal orclaimGoogleindexing/gain. PrimarySimplifiedservice/localizations stable; no repeatmeasurement or inheritedhumanapproval."},
   "latestMeasurementReadinessReview": {
     "observedAt": "2026-10-27",
     "snapshot": "reports/analytics/2026-10-27-readiness.json",
@@ -373,6 +374,7 @@
     "latestVerification": "Pages40696747580/job122845440537success,144CItestsallOK/66HTML64sitemap0errors-warnings/schema-performance0errors/163publicfiles/fullmarker.6productionarticle13:29:38.692Z+6hub13:31:19.705Zpass/0errors-overflow/websitepage1journey/nativeanchors/keyboardtable/menu/noJS/proportionalresponsivecover. Live sitemaparticle/hubOctober28/RSS46originalSeptember11publication/newdescription verified; phonepublicnoJSdiagnosisinspected. OwnhumanquestionOctober28pending; finalrecords-onlyfollowup mayfollowverifiedsourcecheckpoint, verifyexternallywithoutrecursiveproof. No actualfieldCWV/account/consent/index/edge/outreach/gainclaim."
   },
   "completedBatches": [
+    "discovery-coverage-and-deterministic-rss-ci-gates-2026-10-28-local-validated",
     "existing-mobile-performance-metric-scope-diagnosis-and-original-cover-2026-10-28-deployed-human-review-pending",
     "settled-window-followup-and-direct-simplified-query-us-hk-service-exposure-2026-10-28",
     "existing-content-cluster-map-csv-and-original-cover-2026-10-28-deployed-human-review-pending",
@@ -994,6 +996,7 @@
     }
   },
   "nextPriorities": [
+    "Discoverycoverage gateadded with8mutation/integrationtests; verify exact newsourceCI/publicmarker afterpush, then runonfuturepublication rather thanrepeat equal-count audit. Current46articles+2tools explain48hubversus46RSS; no forcedArticle relabeling, newthinpages or restoredweeklyresourceCTA. Pendingmobile/cluster/PMaxreviews andlaterGSC/realenquiryevidence stayindependent",
     "Mobileperformance7b08e4b deployed144CItests/6article+6hubproductioncases0errors-overflow. OwnhumanquestionOctober28pending; retain title/H1/URL/September11publication/actualmodification/unchangedCTA andoriginalcover, no immediate rewrite/repeatquestion. GSCpage1impression notvolume/fieldCWV/titletest; keep approvedprimarySimplifiedservice/US-HKlocalizations stable, no inheritedapproval or repeatedGSC/index/PSIpolls",
     "October28freshGSCthroughOctober26: exact谷歌代投11impressions1click and directUS2/HK1querypage exposures to existinggoogle-ads.html. Preserve approvedservice/title/URL/localizations and contextual links; prioritize laterjointquery-page-country-device observations/real enquiries over duplicatepages/titlechurn. These sparse signals validate observedexposure only,notvolume/stable ranks or qualifiedleads. Otherprimaryqueries absentvisible tablesnotzero demand. Stop repeatpolls in same reporting window; no causal credit toOctober27-28changes",
     "Contentcluster4771b24 deployed:140CItests/6article+6hubproductioncases/nativeCSVdownload pass. Own human question deliveredOctober28pending; retain title/URL/publication andacceptedprimaryservice/SEOtitle/remarketing. Wait genuine feedback/later comparable measurement, not immediate rewrite/new synonym page or repeat request. Selfsite6rowmap notvolume/cannibalizationwin; never merge solelysharedquery or removeUS-HKlocalizations. No newperformanceperiod/indexrequest",

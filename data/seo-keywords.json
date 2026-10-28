@@ -6,6 +6,17 @@
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
   "clusters": [
     {
+      "cluster": "内容集群与关键词页面映射",
+      "language": "zh-Hans",
+      "intent": "informational",
+      "priority": "secondary-existing-page-architecture",
+      "targetUrl": "https://shumaojs.com/articles/seo-content-cluster.html",
+      "primaryKeywords": ["SEO 内容集群", "关键词页面映射"],
+      "supportingKeywords": ["外贸网站内容规划", "产品页与类目页分工", "关键词内耗判断"],
+      "evidence": {"reviewedAt": "2026-10-28", "method": "Publicplanning/mapping results validate instructional intent only. Source+publicGET confirmed automatic same-query merge advice/no worked map or worksheet. Official peoplefirst/link/canonical sources support focused improvement. Absent page row in latestvisible7/28tables not zero demand/deindexing, no new GSC period or US/HKvolume.", "googleSearchVolume": null, "countryDemandVerified": false, "editorialBrief": "reports/editorial/2026-10-28-content-cluster/brief.md", "humanReviewStatus": "pending separately for this revision; no inherited accepted SEOtitle/remarketing/service reviews"},
+      "contentActions": ["保留原标题H1网址和原始发布日期，补现有教程，不创建同义页", "六类本站页面分工与可下载CSV标为示例，不是搜索量或客户效果；产品练习是假设，不虚构商城", "同查询多页先核意图与独有信息，不自动合并、301或noindex；保留本地化和原学习指南入口", "原创图片与列表、分享元数据对齐，单独人审后按更晚可比证据复盘；主服务及已确认教程保持稳定"]
+    },
+    {
       "cluster": "谷歌广告再营销与受众边界",
       "language": "zh-Hans",
       "intent": "informational-commercial",

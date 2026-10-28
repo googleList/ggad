@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 07:42:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 08:08:24 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>外贸网站 SEO 内容集群怎么规划</title>
+      <link>https://shumaojs.com/articles/seo-content-cluster.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/seo-content-cluster.html</guid>
+      <description>用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEO</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>再营销广告基础：适合什么时候做</title>
       <link>https://shumaojs.com/articles/remarketing-basics.html</link>
@@ -347,15 +356,6 @@
       <description>移动端广告落地页建站建议，说明首屏速度、按钮位置、表单长度、图片大小和内容可读性如何影响转化。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>建站</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>外贸网站 SEO 内容集群怎么规划</title>
-      <link>https://shumaojs.com/articles/seo-content-cluster.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/seo-content-cluster.html</guid>
-      <description>外贸网站 SEO 内容集群规划方法，围绕产品词、场景词、采购问题、地区需求和内部链接搭建内容体系。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEO</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

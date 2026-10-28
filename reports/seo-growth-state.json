@@ -35,7 +35,7 @@
   "goalIsGuaranteed": false,
   "lastRunAt": "2026-10-28",
   "latestReport": "reports/seo-follow-up-2026-10-28.md",
-  "latestPolicyImageReview": {"observedAt":"2026-10-28","brief":"reports/performance/2026-10-28-policy-image/brief.md","comparison":"reports/performance/2026-10-28-policy-image/comparison.json","status":"12local viewport-DPR cases validated; sourceCI/fullmarker/production pending","scope":"Onlyindexpolicyimage sizesand1600/2000candidates, existingphoto/alt/fallback/lazy/dimensions/CSS/copy/banner/date unchanged","finding":"Actual768tablet730CSSpx requested480px atDPR1/800atDPR2,980retina942requested1200;2560desktop548.5requested1200. Newbounds selectadequatepixels,desktop640candidate.","limitations":"Singleimageencodedbodybytes,notpage-wide savings/fieldCWV/LCP/INP/rankinggain. Tabletbytesincrease forpixelcoverage,390phoneunchanged;externalUnsplashdependencyretained. No original-image change, newhumancontentapproval, GSC/index/edge/account action."},
+  "latestPolicyImageReview": {"observedAt":"2026-10-28","brief":"reports/performance/2026-10-28-policy-image/brief.md","comparison":"reports/performance/2026-10-28-policy-image/comparison.json","status":"deployed; cfbb022 verified Pages40701646984/job122862765540success,155CItests/fullmarker/12productioncases","scope":"Onlyindexpolicyimage sizesand1600/2000candidates, existingphoto/alt/fallback/lazy/dimensions/CSS/copy/banner/date unchanged","finding":"Actual768tablet730CSSpx requested480px atDPR1/800atDPR2,980retina942requested1200;2560desktop548.5requested1200. Newbounds selectadequatepixels,desktop640candidate.","limitations":"Singleimageencodedbodybytes,notpage-wide savings/fieldCWV/LCP/INP/rankinggain. Tabletbytesincrease forpixelcoverage,390phoneunchanged;externalUnsplashdependencyretained. No original-image change, newhumancontentapproval, GSC/index/edge/account action.","production":"reports/performance/2026-10-28-policy-image/production/browser.json","productionCheckedAt":"2026-10-28T14:01:34.161Z","sourceCommit":"cfbb022d0a332ca5dd62b847c77c725555483aa5"},
   "latestDiscoveryCoverageReview": {"observedAt":"2026-10-28","snapshot":"reports/discovery/2026-10-28-coverage.json","report":"reports/discovery/2026-10-28-coverage.md","status":"deployed; a3c6fed67b7100d42f03108ddfde4eb0ebb268e2 actual Pages40699135296/job122853859095success,152CItests/newcoverageandRSScheck/163publicfiles/fullmarker verified","counts":{"articles":46,"hub":48,"rss":46,"tools":2,"sitemap":64},"checks":"8newregressiontests/152localtestsOK(oneWindowsskip),66HTML64sitemap0errors-warnings/schema-policy-performance-JS-feedpass. NewPagescoverage anddeterministicRSSchecks beforestage; no publicbody/date/runtime/asset/feed/sitemap change.","decision":"48vs46is semantic46articles+2WebApplications, not missingcontent. Preserve correctlytypedtools anddo notrestore ownerremoved weeklyresources CTA tofix singleinlinkcounter. Do notforce all discovery counts equal orclaimGoogleindexing/gain. PrimarySimplifiedservice/localizations stable; no repeatmeasurement or inheritedhumanapproval."},
   "latestMeasurementReadinessReview": {
     "observedAt": "2026-10-27",
@@ -369,14 +369,14 @@
   },
   "deployment": {
     "status": "deployed",
-    "reason": "Mobile landing-page guide7b08e4b source deployed and verified; own human review deliveredOctober28pending. Retain reviewedprimaryservice andUS-HKlocalizations, no realfieldCWV or conversion/rank claim; finalrecords-onlyfollowup does not refresh public article dates.",
-    "localCommit": "7b08e4baa52382f31643726b538751bd6c031216",
+    "reason": "Policyimage responsive-size fixcfbb022 deployed and12productionviewport/DPRcases verified. Onlysizesandtwoimagecandidates changed; samephoto/copy/layout/hero/date. Desktop1ximagepayloadlower,tabletbytesincreaseforclarity, notfieldCWV/SEOtrafficgain. Pendingarticlehumanreviews independent.",
+    "localCommit": "cfbb022d0a332ca5dd62b847c77c725555483aa5",
     "verifiedAt": "2026-10-28",
-    "latestVerification": "Pages40696747580/job122845440537success,144CItestsallOK/66HTML64sitemap0errors-warnings/schema-performance0errors/163publicfiles/fullmarker.6productionarticle13:29:38.692Z+6hub13:31:19.705Zpass/0errors-overflow/websitepage1journey/nativeanchors/keyboardtable/menu/noJS/proportionalresponsivecover. Live sitemaparticle/hubOctober28/RSS46originalSeptember11publication/newdescription verified; phonepublicnoJSdiagnosisinspected. OwnhumanquestionOctober28pending; finalrecords-onlyfollowup mayfollowverifiedsourcecheckpoint, verifyexternallywithoutrecursiveproof. No actualfieldCWV/account/consent/index/edge/outreach/gainclaim."
+    "latestVerification": "Pages40701646984/job122862765540success,155CItestsallOK/66HTML64sitemap0errors-warnings/schema-performance0errors/coverage46-48-46-2/46RSSfresh/163publicfiles/fullmarker. Productionimage12cases2026-10-28T14:01:34.161Zloaded/adequatepixels/0errors-overflow,exactdecodedwidth/bodybytes matchlocal.2560DPR1singleimage48338to23653B(-51.07%),1440DPR130905to23653B(-23.47%);retinatabletsmorebytes,390unchanged. No changedbodyclaims/hero/date/feed/sitemap; no fieldCWV/LCP/INP/traffic/lead outcome or account/index/edge/outreach action. Finalrecords-onlyfollowup verified externally, no recursiveproofloop."
   },
   "completedBatches": [
     "discovery-coverage-and-deterministic-rss-ci-gates-2026-10-28-deployed",
-    "home-policy-responsive-image-size-selection-2026-10-28-local-validated",
+    "home-policy-responsive-image-size-selection-2026-10-28-deployed",
     "existing-mobile-performance-metric-scope-diagnosis-and-original-cover-2026-10-28-deployed-human-review-pending",
     "settled-window-followup-and-direct-simplified-query-us-hk-service-exposure-2026-10-28",
     "existing-content-cluster-map-csv-and-original-cover-2026-10-28-deployed-human-review-pending",
@@ -484,13 +484,13 @@
     "settled-gsc-adjacent7-and28-comparisons-http-search-signal-and-owner-action-2026-10-25"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-28T13:31:19.705Z",
-    "localHead": "7b08e4baa52382f31643726b538751bd6c031216",
-    "remoteHead": "7b08e4baa52382f31643726b538751bd6c031216",
+    "checkedAt": "2026-10-28T14:01:34.161Z",
+    "localHead": "cfbb022d0a332ca5dd62b847c77c725555483aa5",
+    "remoteHead": "cfbb022d0a332ca5dd62b847c77c725555483aa5",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Verified7b08e4b source checkpoint push/Pages/fullmarker/144CItests/12productioncases. Final records-onlyfollowup mayfollow, verifyexternallywithoutrecursiveproofcommit. Keep unrelatedgraph-cache-history andapprovedprimarycontent/localizations; await independenthumanfeedback andlatermeasurement, no force/reset/repeatindexrequest or unchangedperiodpoll."
+    "safeAction": "Verifiedcfbb022 sourcecheckpoint push/Pages/fullpublicmarker/155CItests/12productionimagecases. Finalrecords-onlyfollowup mayfollow; verifyexternallywithoutrecursiveproof. Preservephoto/layout/copy/hero/dates andunrelatedgraph-cache-history; waitrealfeedback/latermeasurement, do not repeatcompression/titlechurn or classifyimagepayload as fieldCWVgain."
   },
   "dataAccess": {
     "rsaGuideRelease2026-10-25": {
@@ -998,7 +998,7 @@
     }
   },
   "nextPriorities": [
-    "Policyimage actual sizesmismatchcorrected;12localviewport-DPRcases/155tests pass,verifyexactCI/fullmarker/production before claimcomplete. Samephoto/layout/copy/hero/date retained;tabletqualityneedsmorebyteswhilewideDPR1bytesfall,notfieldCWV/trafficgain. No repeatedcompression/primarytitlechurn/GSCpoll or newbusinessapprovalquestion",
+    "Policyimagecfbb022 deployed155CItests/12productionviewport-DPRcasesmatchlocal and0errors-overflow. Preservephoto/layout/copy/hero/date/candidates;no repeatedcompression or immediateimagechurn. DesktopDPR1payloadlowerbuttabletbytesincreaseforadequatepixels,390unchanged;notpagewide/fieldCWV/SEOtrafficgain. Primaryservice/localizations andindependentpendinghumanreviews stable;nextlatermeasuredsignal,notrepeatGSC/index/PSIpoll",
     "Discoverycoveragea3c6fed verifiedPages40699135296/job122853859095success/152CItests/newcoverageandRSSchecks/163publicfiles/fullmarker. Run on futurepublication,notrepeat equal-countaudit.46articles+2tools explain48hubversus46RSS,no forcedArticlelabel or restoredweeklyCTA. Pendingmobile/cluster/PMaxreviews remainindependent",
     "Mobileperformance7b08e4b deployed144CItests/6article+6hubproductioncases0errors-overflow. OwnhumanquestionOctober28pending; retain title/H1/URL/September11publication/actualmodification/unchangedCTA andoriginalcover, no immediate rewrite/repeatquestion. GSCpage1impression notvolume/fieldCWV/titletest; keep approvedprimarySimplifiedservice/US-HKlocalizations stable, no inheritedapproval or repeatedGSC/index/PSIpolls",
     "October28freshGSCthroughOctober26: exact谷歌代投11impressions1click and directUS2/HK1querypage exposures to existinggoogle-ads.html. Preserve approvedservice/title/URL/localizations and contextual links; prioritize laterjointquery-page-country-device observations/real enquiries over duplicatepages/titlechurn. These sparse signals validate observedexposure only,notvolume/stable ranks or qualifiedleads. Otherprimaryqueries absentvisible tablesnotzero demand. Stop repeatpolls in same reporting window; no causal credit toOctober27-28changes",

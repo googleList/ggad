@@ -1,5 +1,11 @@
 # Home Policy Image Responsive Selection: October 28, 2026
 
+## Production Verified
+
+Sourcecfbb022d0a332ca5dd62b847c77c725555483aa5 pushed; [Pages40701646984](https://github.com/googleList/ggad/actions/runs/40701646984)/job122862765540success,155CItestsallOK/66HTML64sitemap0errors-warnings/schema-performance0errors/discovery46articles48hub46RSS2tools0errors/RSSfresh/163publicfiles/fullmarker. [Productionmatrix](production/browser.json)2026-10-28T14:01:34.161Z12casesallloaded/adequatepixels/0errors-overflow,decodedwidthandbodybytes exactlymatchlocalinall12cases. Public2560screenshotinspected; bannerloaded/coverfitunchanged. Checker61665terminalsuccess, local32732previouslystopped,no requiredsession remains.
+
+MeasuredwideDPR1singleimagebenefit andretinatabletbyteincrease retained, not universal/pagewide/fieldCWV/LCP/INP/SEOgain. No copy/imageidentity/date/feed/sitemap/account/index/edge/outreach or newhumanreviewquestion. Finalrecords-onlypush/marker checkedexternallywithoutrecursiveproofcommit; earlierpendinglocalcheckpoint below is historical.
+
 ## Evidence and Decision
 
 Previousa3c6fed67b7100d42f03108ddfde4eb0ebb268e2 addedcoverage/RSSgates andwasverified viaPages40699135296/job122853859095success,152CItestsallOK/newcoverage46articles48hub46RSS2tools0errors/RSSfresh163publicfiles/fullmarker. Freshfetch0ahead-behind. Existingkeyword/service/title/localizations andpendinghumanreviews leftstable; genuineGSCstillthroughOctober26, no repeatGSC/GA4/PSI/index/edgepoll.

@@ -1,0 +1,177 @@
+{
+  "checkedAt": "2026-10-28T13:52:24.474Z",
+  "base": "https://shumaojs.com/",
+  "baseline": true,
+  "measurement": "Isolated browser contexts, no device/network throttling; response body bytes and decoded image dimensions, not CrUX or INP/LCP field measurements",
+  "results": [
+    {
+      "width": 390,
+      "dpr": 2,
+      "hero": {
+        "src": "https://shumaojs.com/assets/hero/team-800.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "sizes": "(max-width: 720px) calc(100vw - 36px), 50vw",
+        "renderedWidth": 338,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 676
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "status": 200,
+        "bodyBytes": 30905,
+        "pixelWidth": 800,
+        "pixelHeight": 570,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "hero": {
+        "src": "https://shumaojs.com/assets/hero/team-800.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=480&q=82",
+        "sizes": "(max-width: 720px) calc(100vw - 36px), 50vw",
+        "renderedWidth": 730,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 730
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=480&q=82",
+        "status": 200,
+        "bodyBytes": 18259,
+        "pixelWidth": 480,
+        "pixelHeight": 342,
+        "format": "heif"
+      },
+      "enoughPixels": false,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "dpr": 2,
+      "hero": {
+        "src": "https://shumaojs.com/assets/hero/team-1600.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "sizes": "(max-width: 720px) calc(100vw - 36px), 50vw",
+        "renderedWidth": 730,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 1460
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "status": 200,
+        "bodyBytes": 30905,
+        "pixelWidth": 800,
+        "pixelHeight": 570,
+        "format": "heif"
+      },
+      "enoughPixels": false,
+      "overflow": false
+    },
+    {
+      "width": 980,
+      "dpr": 2,
+      "hero": {
+        "src": "https://shumaojs.com/assets/hero/team-2000.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+        "sizes": "(max-width: 720px) calc(100vw - 36px), 50vw",
+        "renderedWidth": 942,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 1884
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+        "status": 200,
+        "bodyBytes": 48338,
+        "pixelWidth": 1200,
+        "pixelHeight": 855,
+        "format": "heif"
+      },
+      "enoughPixels": false,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "hero": {
+        "src": "https://shumaojs.com/assets/hero/team-1600.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "sizes": "(max-width: 720px) calc(100vw - 36px), 50vw",
+        "renderedWidth": 548.5,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 549
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "status": 200,
+        "bodyBytes": 30905,
+        "pixelWidth": 800,
+        "pixelHeight": 570,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "dpr": 1,
+      "hero": {
+        "src": "https://shumaojs.com/assets/hero/team-2000.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+        "sizes": "(max-width: 720px) calc(100vw - 36px), 50vw",
+        "renderedWidth": 548.5,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 549
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=82",
+        "status": 200,
+        "bodyBytes": 48338,
+        "pixelWidth": 1200,
+        "pixelHeight": 855,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    }
+  ],
+  "pageErrors": []
+}

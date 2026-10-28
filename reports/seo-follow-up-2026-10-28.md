@@ -1,5 +1,11 @@
 # SEO Follow-Up: October 28, 2026
 
+## Home Policy Image Selection Fix
+
+Previousa3c6fedcoveragegate verifiedPages40699135296/job122853859095success/152CItests/newcoverage46articles48hub46RSS2tools0errors/RSSfresh163publicfiles/fullmarker;freshfetch0ahead-behind. Actualrasteraudit foundalreadyboundedassets,notjustificationforblindcompression. Source+6productioncontextsbefore confirmedpolicyimage sizes720px/50vwmismatchwithCSS980onecolumn/boundeddesktop:768DPR1render730requested480,768DPR2requested800,980DPR2render942requested1200,2560DPR1render548.5requested1200.
+
+Onlyindexpolicyimg sizes/1600-2000candidateschanged,originalphoto/fallback/alt/lazy/dimensions/CSS/banner/copy/date/feed/sitemap unchanged.12localcasesincludingboundariesandretinaallloaded/enoughpixels/nooverflow/0errors;155tests(oneWindowsskip)/66HTML64sitemap0errors-warnings/schema-policy-performance/feed46/discoverycoveragepass. [Brief](performance/2026-10-28-policy-image/brief.md)/[comparison](performance/2026-10-28-policy-image/comparison.json). WideDPR1singleimage48338to23653B,buttabletbytesincreaseforclarity,390unchanged;notpagewidesaving/fieldCWV/LCP/rankgain. Screenshotschecked/localHTTP32732stopped/checker16874success. SourceCI/marker/productionpending; no repeatGSC/GA4/PSI/index/edge/account/humanreviewquestion. Pendingmobile/cluster/PMaxscopesremainindependent.
+
 ## Discovery Coverage Publication Guard
 
 Previousmobileguide8002200verifiedrelease is progress; freshfetch0ahead-behind/marker matched. Auditedhub/RSS/sitemap/source:48hub=46Articlepages+2WebApplicationevaluationtools; RSS46containsallarticles,sitemap64notexpectedtoequalRSS. Initialflatten_schema0ItemListdiagnostic discarded(nonrecursiveCollectionPagemainEntity), existingparse_index confirmed48. No missingarticle, forcedArticlelabel, newpage/date or restoredownerremovedweeklyresourcesCTA for single-inlinkad-learning counter.

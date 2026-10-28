@@ -1,0 +1,87 @@
+{
+  "beforeCheckedAt": "2026-10-28T13:52:24.474Z",
+  "afterCheckedAt": "2026-10-28T13:56:50.905Z",
+  "measurement": "Encoded image response body bytes and decoded pixel dimensions in isolated unthrottled Chrome contexts; not page-wide transfer, speed, CrUX, INP or LCP",
+  "comparisons": [
+    {
+      "width": 390,
+      "dpr": 2,
+      "renderedWidth": 338,
+      "beforePixels": 800,
+      "afterPixels": 800,
+      "beforeBytes": 30905,
+      "afterBytes": 30905,
+      "byteDelta": 0,
+      "bodyByteReductionPercent": 0,
+      "beforeEnoughPixels": true,
+      "afterEnoughPixels": true
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "renderedWidth": 730,
+      "beforePixels": 480,
+      "afterPixels": 800,
+      "beforeBytes": 18259,
+      "afterBytes": 30905,
+      "byteDelta": 12646,
+      "bodyByteReductionPercent": -69.26,
+      "beforeEnoughPixels": false,
+      "afterEnoughPixels": true
+    },
+    {
+      "width": 768,
+      "dpr": 2,
+      "renderedWidth": 730,
+      "beforePixels": 800,
+      "afterPixels": 1600,
+      "beforeBytes": 30905,
+      "afterBytes": 65312,
+      "byteDelta": 34407,
+      "bodyByteReductionPercent": -111.33,
+      "beforeEnoughPixels": false,
+      "afterEnoughPixels": true
+    },
+    {
+      "width": 980,
+      "dpr": 2,
+      "renderedWidth": 942,
+      "beforePixels": 1200,
+      "afterPixels": 2000,
+      "beforeBytes": 48338,
+      "afterBytes": 85645,
+      "byteDelta": 37307,
+      "bodyByteReductionPercent": -77.18,
+      "beforeEnoughPixels": false,
+      "afterEnoughPixels": true
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "renderedWidth": 548.5,
+      "beforePixels": 800,
+      "afterPixels": 640,
+      "beforeBytes": 30905,
+      "afterBytes": 23653,
+      "byteDelta": -7252,
+      "bodyByteReductionPercent": 23.47,
+      "beforeEnoughPixels": true,
+      "afterEnoughPixels": true
+    },
+    {
+      "width": 2560,
+      "dpr": 1,
+      "renderedWidth": 548.5,
+      "beforePixels": 1200,
+      "afterPixels": 640,
+      "beforeBytes": 48338,
+      "afterBytes": 23653,
+      "byteDelta": -24685,
+      "bodyByteReductionPercent": 51.07,
+      "beforeEnoughPixels": true,
+      "afterEnoughPixels": true
+    }
+  ],
+  "localCases": 12,
+  "pageErrors": []
+}

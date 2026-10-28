@@ -1,0 +1,345 @@
+{
+  "checkedAt": "2026-10-28T13:56:50.905Z",
+  "base": "http://127.0.0.1:8805/",
+  "baseline": false,
+  "measurement": "Isolated browser contexts, no device/network throttling; response body bytes and decoded image dimensions, not CrUX or INP/LCP field measurements",
+  "results": [
+    {
+      "width": 320,
+      "dpr": 2,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-800.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=640&q=78",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 282,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 564
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=640&q=78",
+        "status": 200,
+        "bodyBytes": 23653,
+        "pixelWidth": 640,
+        "pixelHeight": 456,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-800.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 338,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 676
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "status": 200,
+        "bodyBytes": 30905,
+        "pixelWidth": 800,
+        "pixelHeight": 570,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 700,
+      "dpr": 1,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-800.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=480&q=82",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 338,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 338
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=480&q=82",
+        "status": 200,
+        "bodyBytes": 18259,
+        "pixelWidth": 480,
+        "pixelHeight": 342,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 701,
+      "dpr": 1,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-800.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 663,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 663
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "status": 200,
+        "bodyBytes": 30905,
+        "pixelWidth": 800,
+        "pixelHeight": 570,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-800.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 730,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 730
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=82",
+        "status": 200,
+        "bodyBytes": 30905,
+        "pixelWidth": 800,
+        "pixelHeight": 570,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "dpr": 2,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-1600.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=78",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 730,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 1460
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=78",
+        "status": 200,
+        "bodyBytes": 65312,
+        "pixelWidth": 1600,
+        "pixelHeight": 1140,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 980,
+      "dpr": 2,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-2000.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=2000&q=76",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 942,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 1884
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=2000&q=76",
+        "status": 200,
+        "bodyBytes": 85645,
+        "pixelWidth": 2000,
+        "pixelHeight": 1425,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 981,
+      "dpr": 1,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-1200.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=480&q=82",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 434.484375,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 435
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=480&q=82",
+        "status": 200,
+        "bodyBytes": 18259,
+        "pixelWidth": 480,
+        "pixelHeight": 342,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 1236,
+      "dpr": 1,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-1600.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=640&q=78",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 552.5,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 553
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=640&q=78",
+        "status": 200,
+        "bodyBytes": 23653,
+        "pixelWidth": 640,
+        "pixelHeight": 456,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 1237,
+      "dpr": 1,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-1600.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=640&q=78",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 552.484375,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 553
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=640&q=78",
+        "status": 200,
+        "bodyBytes": 23653,
+        "pixelWidth": 640,
+        "pixelHeight": 456,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-1600.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=640&q=78",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 548.5,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 549
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=640&q=78",
+        "status": 200,
+        "bodyBytes": 23653,
+        "pixelWidth": 640,
+        "pixelHeight": 456,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "dpr": 1,
+      "hero": {
+        "src": "http://127.0.0.1:8805/assets/hero/team-2000.avif",
+        "loaded": true,
+        "objectFit": "cover"
+      },
+      "policy": {
+        "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=640&q=78",
+        "sizes": "(max-width: 378px) calc(100vw - 38px), (max-width: 700px) 338px, (max-width: 980px) calc(100vw - 38px), (max-width: 1236px) calc(46.3vw - 20px), 554px",
+        "renderedWidth": 548.5,
+        "renderedHeight": 800,
+        "loaded": true,
+        "objectFit": "cover",
+        "requiredPixelWidth": 549
+      },
+      "response": {
+        "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=640&q=78",
+        "status": 200,
+        "bodyBytes": 23653,
+        "pixelWidth": 640,
+        "pixelHeight": 456,
+        "format": "heif"
+      },
+      "enoughPixels": true,
+      "overflow": false
+    }
+  ],
+  "pageErrors": []
+}

@@ -7,6 +7,7 @@
   "clusters": [
     {
       "cluster": "内容集群与关键词页面映射",
+      "releaseReview": {"sourceCommit": "4771b241303bd1865d148624f61c3a70dc77dd23", "deployment": "Pages40655875340/job122706665218success,140CItestsallOK/fullmarker matched;6productionarticle+6hubcases passed including actual1614B byte-matching CSV download", "humanReviewRequestedAt": "2026-10-28", "humanReview": "pending; separate question delivered after production verification", "scope": "six self-site page roles/CSV example/conditional intent-based split-merge decisions; no client-result/search-volume or actual redirect/deletion/noindex approval"},
       "language": "zh-Hans",
       "intent": "informational",
       "priority": "secondary-existing-page-architecture",

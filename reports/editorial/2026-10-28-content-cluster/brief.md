@@ -1,5 +1,15 @@
 # Content Cluster Mapping Workbook: October 28, 2026
 
+## Production Release and Independent Review
+
+Source4771b241303bd1865d148624f61c3a70dc77dd23 pushed. [Pages40655875340](https://github.com/googleList/ggad/actions/runs/40655875340), job122706665218 completed success:140CItests/allOK,66HTML64sitemap0errors/warnings,0schema/performanceerrors,161publicfiles. Actual publicdeployment marker matched fullsourceSHA.
+
+[Production article](production/browser.json)2026-10-28T08:20:34.008Z:6cases/0errors-overflow, loaded responsive covers, seven anchors, keyboard table/menu/noJS, actual SEOpage1-or-static card journey; native browser downloaded1614B CSV with expected filename/hash and byte-equal source. Truncated observation was recovered from complete artifact/no live checker; no duplicate restart based on observation timeout. Phone noJS map screenshot inspected.
+
+[Production hub](production/hub/browser.json)2026-10-28T12:26:07.935Z:6cases pass/0pageerrors,48cards/categories/pagination/images/staticfallback/delayedstylesheet regression. Initial hub session33900 terminated with actual navigation ERR_TIMED_OUT after1440px pass; full retry69212 completed successfully without changing assertions. Both checker processes terminal, no outstanding required helper. Live sitemap article/hubOctober28 and46itemRSS/originalSeptember11publication/new description verified.
+
+Own question actually deliveredOctober28 for six self-site mappings/CSV and intent-first split/merge explanation; pending. Prior approvals not inherited. No actual merge/301/noindex, new analytics/index/edge/account/outreach action, volume/result claim. Final evidence-only push/deployment marker checked externally without recursive proof commits; goal remains active and1000dailyorganicvisits unverified/unachieved. Earlier local-pending notes below are historical checkpoints.
+
 ## Evidence and Decision
 
 Previous goal turn is progress: genuine remarketing approval recorded178df7c43e5822ecb86de8dace57bf0c99393a66/push/deployment verified. Fresh fetch0ahead-behind and matching publicmarker. Read source/state/keyword plan/review ledger first. No marketing-context file at configured path. No repeated GSC/GA4/HTTP/index polling; latest comparable dates remain throughOctober25, and new tracking stored inclusion is separately recorded.

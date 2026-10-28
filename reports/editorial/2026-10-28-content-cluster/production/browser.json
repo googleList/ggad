@@ -1,0 +1,639 @@
+{
+  "checkedAt": "2026-10-28T08:20:34.008Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "外贸网站 SEO 内容集群怎么规划 | 昆明振润达商贸有限公司",
+      "headline": "外贸网站 SEO 内容集群怎么规划",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "外贸网站 SEO 内容集群怎么规划",
+        "description": "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "image": "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T16:08:24+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-content-cluster.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-content-cluster.html",
+      "modified": "2026-10-28T16:08:24+08:00",
+      "descriptions": [
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "mapRows": [
+        "management",
+        "setup",
+        "ad-rank",
+        "seo-title",
+        "keywords",
+        "learning"
+      ],
+      "decisions": [
+        "improve",
+        "separate",
+        "verify-duplicate"
+      ],
+      "evidenceChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#business-page",
+        "#topic-evidence",
+        "#page-map",
+        "#page-decisions",
+        "#internal-links",
+        "#cluster-review",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-8p7ba6",
+        "business-page",
+        "topic-evidence",
+        "page-map",
+        "map-caption",
+        "page-decisions",
+        "internal-links",
+        "cluster-review",
+        "next-step"
+      ],
+      "links": [
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html",
+        "/articles/google-ads-basics.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html",
+        "/assets/resources/keyword-page-map-v1.csv",
+        "/articles/seo-title-meta-basics.html#measurement-records",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/seo-course-learning-path.html"
+      ],
+      "overflow": false,
+      "csvDownload": {
+        "name": "keyword-page-map-v1.csv",
+        "bytes": 1614,
+        "sha256": "dfe5fc40a9e2064602482490aa8a9fa6f33ff89a0926b3faa5a98abcd92fec1e",
+        "matchesLocal": true
+      },
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "外贸网站 SEO 内容集群怎么规划 | 昆明振润达商贸有限公司",
+      "headline": "外贸网站 SEO 内容集群怎么规划",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "外贸网站 SEO 内容集群怎么规划",
+        "description": "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "image": "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T16:08:24+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-content-cluster.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-content-cluster.html",
+      "modified": "2026-10-28T16:08:24+08:00",
+      "descriptions": [
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "mapRows": [
+        "management",
+        "setup",
+        "ad-rank",
+        "seo-title",
+        "keywords",
+        "learning"
+      ],
+      "decisions": [
+        "improve",
+        "separate",
+        "verify-duplicate"
+      ],
+      "evidenceChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#business-page",
+        "#topic-evidence",
+        "#page-map",
+        "#page-decisions",
+        "#internal-links",
+        "#cluster-review",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-m5d2g8",
+        "business-page",
+        "topic-evidence",
+        "page-map",
+        "map-caption",
+        "page-decisions",
+        "internal-links",
+        "cluster-review",
+        "next-step"
+      ],
+      "links": [
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html",
+        "/articles/google-ads-basics.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html",
+        "/assets/resources/keyword-page-map-v1.csv",
+        "/articles/seo-title-meta-basics.html#measurement-records",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/seo-course-learning-path.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "外贸网站 SEO 内容集群怎么规划 | 昆明振润达商贸有限公司",
+      "headline": "外贸网站 SEO 内容集群怎么规划",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "外贸网站 SEO 内容集群怎么规划",
+        "description": "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "image": "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T16:08:24+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-content-cluster.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-content-cluster.html",
+      "modified": "2026-10-28T16:08:24+08:00",
+      "descriptions": [
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/content-cluster-map-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "mapRows": [
+        "management",
+        "setup",
+        "ad-rank",
+        "seo-title",
+        "keywords",
+        "learning"
+      ],
+      "decisions": [
+        "improve",
+        "separate",
+        "verify-duplicate"
+      ],
+      "evidenceChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#business-page",
+        "#topic-evidence",
+        "#page-map",
+        "#page-decisions",
+        "#internal-links",
+        "#cluster-review",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-w00hhd",
+        "business-page",
+        "topic-evidence",
+        "page-map",
+        "map-caption",
+        "page-decisions",
+        "internal-links",
+        "cluster-review",
+        "next-step"
+      ],
+      "links": [
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html",
+        "/articles/google-ads-basics.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html",
+        "/assets/resources/keyword-page-map-v1.csv",
+        "/articles/seo-title-meta-basics.html#measurement-records",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/seo-course-learning-path.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "外贸网站 SEO 内容集群怎么规划 | 昆明振润达商贸有限公司",
+      "headline": "外贸网站 SEO 内容集群怎么规划",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "外贸网站 SEO 内容集群怎么规划",
+        "description": "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "image": "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T16:08:24+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-content-cluster.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-content-cluster.html",
+      "modified": "2026-10-28T16:08:24+08:00",
+      "descriptions": [
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/content-cluster-map-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "mapRows": [
+        "management",
+        "setup",
+        "ad-rank",
+        "seo-title",
+        "keywords",
+        "learning"
+      ],
+      "decisions": [
+        "improve",
+        "separate",
+        "verify-duplicate"
+      ],
+      "evidenceChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#business-page",
+        "#topic-evidence",
+        "#page-map",
+        "#page-decisions",
+        "#internal-links",
+        "#cluster-review",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-on8i77",
+        "business-page",
+        "topic-evidence",
+        "page-map",
+        "map-caption",
+        "page-decisions",
+        "internal-links",
+        "cluster-review",
+        "next-step"
+      ],
+      "links": [
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html",
+        "/articles/google-ads-basics.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html",
+        "/assets/resources/keyword-page-map-v1.csv",
+        "/articles/seo-title-meta-basics.html#measurement-records",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/seo-course-learning-path.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "外贸网站 SEO 内容集群怎么规划 | 昆明振润达商贸有限公司",
+      "headline": "外贸网站 SEO 内容集群怎么规划",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "外贸网站 SEO 内容集群怎么规划",
+        "description": "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "image": "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T16:08:24+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-content-cluster.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-content-cluster.html",
+      "modified": "2026-10-28T16:08:24+08:00",
+      "descriptions": [
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "mapRows": [
+        "management",
+        "setup",
+        "ad-rank",
+        "seo-title",
+        "keywords",
+        "learning"
+      ],
+      "decisions": [
+        "improve",
+        "separate",
+        "verify-duplicate"
+      ],
+      "evidenceChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#business-page",
+        "#topic-evidence",
+        "#page-map",
+        "#page-decisions",
+        "#internal-links",
+        "#cluster-review",
+        "#next-step"
+      ],
+      "ids": [
+        "business-page",
+        "topic-evidence",
+        "page-map",
+        "map-caption",
+        "page-decisions",
+        "internal-links",
+        "cluster-review",
+        "next-step"
+      ],
+      "links": [
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html",
+        "/articles/google-ads-basics.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html",
+        "/assets/resources/keyword-page-map-v1.csv",
+        "/articles/seo-title-meta-basics.html#measurement-records",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/seo-course-learning-path.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "外贸网站 SEO 内容集群怎么规划 | 昆明振润达商贸有限公司",
+      "headline": "外贸网站 SEO 内容集群怎么规划",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "外贸网站 SEO 内容集群怎么规划",
+        "description": "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "image": "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T16:08:24+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/seo-content-cluster.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/seo-content-cluster.html",
+      "modified": "2026-10-28T16:08:24+08:00",
+      "descriptions": [
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。",
+        "用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg",
+        "https://shumaojs.com/assets/articles/content-cluster-map-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/content-cluster-map-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "mapRows": [
+        "management",
+        "setup",
+        "ad-rank",
+        "seo-title",
+        "keywords",
+        "learning"
+      ],
+      "decisions": [
+        "improve",
+        "separate",
+        "verify-duplicate"
+      ],
+      "evidenceChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#business-page",
+        "#topic-evidence",
+        "#page-map",
+        "#page-decisions",
+        "#internal-links",
+        "#cluster-review",
+        "#next-step"
+      ],
+      "ids": [
+        "business-page",
+        "topic-evidence",
+        "page-map",
+        "map-caption",
+        "page-decisions",
+        "internal-links",
+        "cluster-review",
+        "next-step"
+      ],
+      "links": [
+        "/articles/search-terms-optimization.html",
+        "/google-ads.html",
+        "/articles/google-ads-basics.html",
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/google-search-keywords.html",
+        "/articles.html",
+        "/assets/resources/keyword-page-map-v1.csv",
+        "/articles/seo-title-meta-basics.html#measurement-records",
+        "/articles/landing-page-checklist.html",
+        "/articles/conversion-tracking-basics.html",
+        "/articles/seo-course-learning-path.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

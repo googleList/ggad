@@ -8,9 +8,9 @@
     "serviceCategoryMapping": "Independent consultancy: product/category work maps to existing service pages and the article hub, not invented ecommerce products or merchant markup.",
     "humanReviewRule": "Never mark AI-only work as human approved. Keep human feedback pending until actually received; no unconfirmed fees, qualifications, case results or commercial guarantees.",
     "latestBrief": "reports/editorial/2026-10-28-content-cluster/brief.md",
-    "latestContentClusterReview": {"url": "https://shumaojs.com/articles/seo-content-cluster.html#page-map", "status": "pending; own request not yet delivered at local checkpoint", "scope": "six self-site mapping rows/CSV example, conditional page-split-merge decisions and matched review; no actual redirects/deletion/noindex/product/result or inherited other-article approval"},
+    "latestContentClusterReview": {"url":"https://shumaojs.com/articles/seo-content-cluster.html#page-map","contentRevision":"4771b241303bd1865d148624f61c3a70dc77dd23","requestedAt":"2026-10-28","status":"pending; separate owner question actually delivered after production verification","scope":"six self-site mapping rows and CSV example, conditional intent-based split/merge decisions and matched review; not search volume/client results, actual redirects/deletion/noindex or inherited approval"},
     "latestRemarketingArticleReview": {"url":"https://shumaojs.com/articles/remarketing-basics.html#audience-scope","requestedAt":"2026-10-28","confirmedAt":"2026-10-28","status":"accepted","ownerReply":"内容符合，可保留","contentRevision":"d08083a9ea2df2b35ec7742ef7666b72c483d12b","scope":"four readiness checks, six scope rows, three hypothetical cases, review and current eligibility caveats; no actual account, tag, list upload, legal/price/result or inherited PMax approval"},
-    "latestAiReviewStatus": "Existingcontentcluster guide corrected automatic merge advice and added6selfsitepage roles/CSV/conditionaldecisions/originalcover;title-URL-publicationretained.140localtests(oneWindowsskip),66HTML64sitemap0errors-warnings/schema-policy-performance-feedpass,6article+6hubfinalcases/0errors-overflow/SEOpage1journey/actualCSVbytehashmatch. SourceCI/production/ownhumanrequestpending atlocalcheckpoint. Approvedprimaryservice/SEOtitle/remarketing andUS-HKlocalizationsstable;no actualURLmerge/account/volume/resultclaim.",
+    "latestAiReviewStatus": "Content cluster4771b24 verified:140CItests allOK;66HTML64sitemap0errors/warnings/schema-performance0errors;161publicfiles.6productionarticle08:20:34.008Z+6hub12:26:07.935Z pass/0errors-overflow/nativeCSV1614Bhashmatches/SEOpage1journey. Initialhubrun33900 terminalnetworktimeout, complete retry69212 passed without relaxed assertions. Own human question deliveredOctober28,pending. Approved primary service/SEOtitle/remarketing and US-HK localizations retained; no new measurement/account/URLmerge/result claim.",
     "latestSeoTitleArticleHumanReview": {"url": "https://shumaojs.com/articles/seo-title-meta-basics.html#writing-examples", "requestedAt": "2026-10-28", "confirmedAt": "2026-10-28", "status": "accepted", "ownerReply": "内容符合，可保留", "contentRevision": "f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6", "scope": "six field scopes, four hypothetical page examples, three rewrite diagnoses and matched-period review/CTR arithmetic of this revision only; no actual account/product-sales/ranking-outcome or inherited PMax approval"},
     "latestPendingArticleHumanReview": {"url": "https://shumaojs.com/articles/performance-max-basics.html#control-scope", "requestedAt": "2026-10-27", "status": "pending; separate question delivered after verified production", "scope": "six control-scope rows, three hypothetical scenarios and four records, not actual Ads settings, uploads or other-article acceptance"},
     "latestReportingArticleHumanReviews": [
@@ -142,13 +142,13 @@
   },
   "deployment": {
     "status": "deployed",
-    "reason": "Remarketingd08083averifieddeployed andseparatelyowneracceptedOctober28. Retainpublicbody/cover/title/URL/publication/modification; this newrecords-onlyowneracceptance does not approve accounts/datauploads/results or otherpendingarticles.",
-    "localCommit": "d08083a9ea2df2b35ec7742ef7666b72c483d12b",
+    "reason": "Content cluster4771b24 source and workbook deployed and verified; own human review delivered October28 pending. Remarketing and SEOtitle acceptances remain independent. Final records-only followup does not alter public article dates or establish ranking gains.",
+    "localCommit": "4771b241303bd1865d148624f61c3a70dc77dd23",
     "verifiedAt": "2026-10-28",
-    "latestVerification": "Pages40652860610/job122696812744success,136CItestsallOK/66HTML64sitemap0errors-warnings/schema-performance0errors/158publicfiles/fullmarker.6article07:53:50.517Z+6hub07:54:26.330Zproductioncases0errors-overflow/SEMpage6journey/keyboardtable/sevenanchors/menu/noJS/16:9cover. Live sitemaparticle+hubOctober28/RSS46originalSeptember11publication/newdescription verified. OwnhumanquestionOctober28pending;finalevidence-onlycommit mayfollowcheckpoint,verifyexternallywithoutrecursiveproof. No newGSC/GA4/CWV/crawl/index/account/edge/outreach/gainclaim."
+    "latestVerification": "Pages40655875340/job122706665218success,140CItestsallOK/66HTML64sitemap0errors-warnings/schema-performance0errors/161publicfiles/fullmarker. Production6article08:20:34.008Z+6hub12:26:07.935Z pass/0errors-overflow/SEOpage1journey/nativeCSV1614B SHA256dfe5fc40a9e2064602482490aa8a9fa6f33ff89a0926b3faa5a98abcd92fec1e byte-equal source. Initialhub33900terminaltimeout; retry69212success, no assertion relaxation. Sitemaparticle+hubOctober28/RSS46originalSeptember11publication/newdescription verified. Own human requestOctober28pending. Records-onlyfollowup verified externally without recursiveproofcommit; no new GSC/GA4/fieldCWV/index/edge/account/outreach/gain claim."
   },
   "completedBatches": [
-    "existing-content-cluster-map-csv-and-original-cover-2026-10-28-local-validated",
+    "existing-content-cluster-map-csv-and-original-cover-2026-10-28-deployed-human-review-pending",
     "existing-remarketing-audience-boundaries-and-original-cover-2026-10-28-deployed-owner-accepted",
     "tracking-stored-index-transition-and-visible-revision-verification-2026-10-28",
     "existing-seo-title-description-examples-and-matched-review-guide-2026-10-27-deployed-owner-accepted-2026-10-28",
@@ -253,13 +253,13 @@
     "settled-gsc-adjacent7-and28-comparisons-http-search-signal-and-owner-action-2026-10-25"
   ],
   "repositorySync": {
-    "checkedAt": "2026-10-27T16:01:29.848Z",
-    "localHead": "f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6",
-    "remoteHead": "f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6",
+    "checkedAt": "2026-10-28T12:26:07.935Z",
+    "localHead": "4771b241303bd1865d148624f61c3a70dc77dd23",
+    "remoteHead": "4771b241303bd1865d148624f61c3a70dc77dd23",
     "localOnlyCommits": 0,
     "remoteOnlyCommits": 0,
     "status": "synchronized",
-    "safeAction": "Verifiedsourcecheckpointf4c3e6bpush/Pages/publicmarker/133CItests/12browsercases; records-onlyfollowupmayfollow,verifyexternallywithoutrecursiveproofcommits. No force/dirtyreset, retainsharedpageslock/CNAME/approvedcontent/unrelatedgraph-cache-history. Nextbatchfreshfetch;existingCloudflare/GA4dependenciesnotre-requested,awaitgenuinefeedback/latermeasurement ratherthanrepeatrewrite/titlechurn."
+    "safeAction": "Verified4771b24 source checkpoint push/Pages/fullpublicmarker/140CItests/12productioncases/nativeCSVdownload. Final records-only followup may follow, verify externally without recursive proof commits. No force/reset/unrelated graph-cache-history staging. Keep approved content/localizations stable; await own human feedback and later settled performance evidence."
   },
   "dataAccess": {
     "rsaGuideRelease2026-10-25": {
@@ -767,7 +767,7 @@
     }
   },
   "nextPriorities": [
-    "Contentcluster existing-guide local140tests/6article+6hubcases/actualCSVdownload pass;verifyCI/publicmarker andproduction,then ownhumanrequest. Keep title/URL/publication andacceptedprimaryservice/SEOtitle/remarketing stable. Selfsite6rowmap notvolume/cannibalizationwin; never merge justsharedquery or removeUS-HKlocalizations. No newperformanceperiod or repeatindexrequest",
+    "Contentcluster4771b24 deployed:140CItests/6article+6hubproductioncases/nativeCSVdownload pass. Own human question deliveredOctober28pending; retain title/URL/publication andacceptedprimaryservice/SEOtitle/remarketing. Wait genuine feedback/later comparable measurement, not immediate rewrite/new synonym page or repeat request. Selfsite6rowmap notvolume/cannibalizationwin; never merge solelysharedquery or removeUS-HKlocalizations. No newperformanceperiod/indexrequest",
     "Remarketingd08083averifieddeployed136CItests/6article+6hubpubliccases and separatelyowneracceptedOctober28. Retainreviewedbody/cover/title/URL/publication/actualmodification,no repeatquestion/immediaterewrite. Awaitlatercomparablequery-page-country-device/crawlmeasurement; currentasofeligibility notallfutureaccessrules. Approvedprimaryservice/SEOtitle/tracking/US-HKlocalizationsstable,PMaxpendingseparate; no account/tag/listupload/legal/resultspermission",
     "October28trackingstoredinspection nowindexed/selfGooglecanonical,displayedOctober26 12:38:51crawl/rawtimezoneunknown. Editorcontains6eventrows/3goalcases/customsecondaryexception/cover. Preserveacceptedguide,no repeatrequest/rewriteforindexing. Priorrequest notcausality/rank/enquiryproof; no aggregate52/46inferred. WeeklydatefieldsstillthroughOctober25,no newcomparison/CTRtest; awaitlaterdata rather thanrepeatunchangedpolls",
     "SEOtitlef4c3e6bverifieddeployed133CItests/6article+6hubcases andseparatelyowneracceptedOctober28. Retainreviewedbody/cover/title/URL/publication/actualOctober27modification, no repeatrequest/immediaterewrite. Awaitlatercomparablequery-page-country-device/crawlevidence;1overlappingglobalimpressionnotmarketvolume/titleexperiment/effect. PrimarySimplifiedservice/setup/ranking andUS-HKlocalizationsstable,PMaxpendingseparate,no fakegoods/merchantmarkup/accountaction",

@@ -405,7 +405,7 @@
       "primaryKeywords": ["谷歌广告转化追踪", "Google Ads 转化跟踪"],
       "supportingKeywords": ["主要转化和次要转化", "GA4 导入 Google Ads", "表单重复计数", "谷歌广告询盘追踪"],
       "evidence": {
-        "indexingFollowUp": "October26 stored inspection still Discovered-notindexed/no crawl; current live test says indexable. One priority-crawl request accepted, not proof of indexing, rank or enquiries. Snapshot reports/search-console/2026-10-26-inspection/snapshot.json; do not repeat merely because inclusion is not immediate.",
+        "indexingFollowUp": "October28 storedUI nowindexed/selfGooglecanonical, displayedcrawlOctober26 12:38:51(rawtimezoneunknown),Googlebotsmartphone/fetchsuccess/allowed. Actualstorededitorsearch shows sixeventrows/threegoalcases/customsecondaryexception and originalcover; not entirepagebyteidentity or request-causedindexing. New snapshot reports/search-console/2026-10-28-tracking-indexed.json supersedes October26Discovered for thisURLonly. No newrequest/livetest/aggregatecount/ranking-enquiryclaim; retain acceptedguide and awaitlater comparablemeasurement.",
         "reviewedAt": "2026-10-24",
         "method": "Public Simplified results for 谷歌广告 转化追踪 设置 表单 询盘 and primary Google goal/event/call/count/debug documentation validate setup and diagnostic intent only. Existing guide generalized phone/chat clicks as primary conversions and suggested a submit-button event as a success fallback without a thank-you page, contradicting the revised landing checklist. This verified editorial defect drives priority, not an assumed volume or new GSC period.",
         "googleSearchVolume": null,

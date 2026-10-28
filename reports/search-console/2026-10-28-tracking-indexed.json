@@ -1,0 +1,68 @@
+{
+  "property": "sc-domain:shumaojs.com",
+  "recordedAt": "2026-10-28T07:34:37Z",
+  "method": "Owner-authorized rendered Search Console UI in a separate temporary IAB tab, stored editor native search. Manual transcription, not API/CSV/live-test data. No account email or opaque inspection ID retained.",
+  "startingRevision": "bedb7d8ed3ad71f67f220ecd53358cf48f6eaced",
+  "previousGoalTurn": "progress: genuine owner approval durably pushed/deployed",
+  "weeklyAvailability": {
+    "selectedComparison": "对比过去 7 天与前一对应时间段",
+    "appliedThenReopenedDateFields": ["2026-10-19", "2026-10-25", "2026-10-12", "2026-10-18"],
+    "current": {"clicks": 1, "impressions": 46, "ctrPercent": 2.2, "averagePosition": 24.3},
+    "previous": {"clicks": 0, "impressions": 41, "ctrPercent": 0, "averagePosition": 42},
+    "newComparablePeriod": false,
+    "new28DayRead": false,
+    "decision": "Same absolute dates/headlines as October27 snapshot; no fresh comparable period or query-table recapture. InvalidDate/1970 chart label ignored in favor of four actual date controls. Stop unchanged performance pulls."
+  },
+  "rolling24Hours": {
+    "uiDateLabel": "2026年10月27日到2026年10月28日",
+    "uiTimezoneNotice": "24 小时数据以您所在时区为准。",
+    "uiLastUpdate": "3小时前",
+    "summary": {"clicks": 0, "impressions": 6, "ctrPercent": 0, "averagePosition": 27.7},
+    "queryFooter": "第 1-3 行，共 3 行",
+    "visibleQueries": [
+      {"query": "谷歌代投", "clicks": 0, "impressions": 2, "ctrPercent": 0, "averagePosition": 1},
+      {"query": "google ads 報告", "clicks": 0, "impressions": 2, "ctrPercent": 0, "averagePosition": 39.5},
+      {"query": "google 廣告收費", "clicks": 0, "impressions": 1, "ctrPercent": 0, "averagePosition": 59}
+    ],
+    "limits": "Preliminary rolling view, not a settled period/exact hourly interval, prior-window comparison, country/page join, stable rank, lead or causal release proof. Listed5impressions not forced equal property6."
+  },
+  "trackingArticle": {
+    "url": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+    "previousSnapshot": "reports/search-console/2026-10-26-inspection/snapshot.json",
+    "previousState": "Discovered - currently not indexed; no stored crawl",
+    "storedStateDisplayed": "网址已收录到 Google",
+    "indexingVerdictDisplayed": "网页已编入索引",
+    "lastCrawlDisplayed": "2026年10月26日 12:38:51",
+    "crawlTimezone": "Raw UI display retained; unknown timezone, not normalized or compared as an instant with the prior request",
+    "crawlerDisplayed": "Googlebot 智能手机版",
+    "crawlAllowedDisplayed": "是",
+    "fetchDisplayed": "成功",
+    "indexingAllowedDisplayed": "是",
+    "sitemapDisplayed": "https://shumaojs.com/sitemap.xml",
+    "referringPageDisplayed": "https://shumaojs.com/sitemap.xml",
+    "userCanonicalDisplayed": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+    "googleCanonicalDisplayed": "所检查的网址",
+    "googleCanonicalResolvedFromDisplayedTarget": "https://shumaojs.com/articles/conversion-tracking-basics.html",
+    "httpsDisplayed": "网页采用 HTTPS 协议",
+    "breadcrumbDisplayed": "检测到了 1 项有效内容",
+    "storedHtmlUiEvidence": {
+      "titleVisible": "广告转化追踪基础教程 | 昆明振润达商贸有限公司",
+      "descriptionExcerptVisible": "用六行事件表区分点击、成功询盘与合格线索",
+      "coverVisible": "https://shumaojs.com/assets/articles/conversion-evidence-plan-v1.jpg",
+      "eventSectionIdVisible": "event-plan",
+      "eventTableLabelVisible": "六行询盘事件规划示例",
+      "eventRowsVisible": ["page_view", "chat_click", "phone_click", "form_submit", "generate_lead", "qualify_lead"],
+      "goalSectionIdVisible": "conversion-goals",
+      "goalCasesVisible": ["standard-primary", "standard-secondary", "custom"],
+      "customGoalExplanationVisible": "即使标为次要，也会在使用该自定义目标时参与报告和出价。",
+      "method": "Stored editor initially showed revised description/cover/canonical. Copy action returned empty tab clipboard; discarded zero/false copy checks as unavailable, not absence. Native editor search for 自定义目标 visibly showed six event rows, three goal cases and exception. No hidden app state/network call/source execution/unsupported clipboard fallback.",
+      "limits": "Selected visible stored sections, not full-page byte identity or proof every later revision fetched."
+    },
+    "liveTestPerformed": false,
+    "indexRequestPerformed": false,
+    "decision": "Stored inclusion changed since October26; selected revised sections actually fetched. Retain accepted guide and stop repeat requests. No proof the prior request caused inclusion, or that inclusion improved clicks/rank/enquiries."
+  },
+  "coverage": {"newAggregateRead": false, "indexed": null, "notIndexed": null, "note": "Prior reportdatedOctober19 counts51/47 remain history; one URL change does not imply52/46. Other13Discovered examples not rechecked."},
+  "actionsNotTaken": ["change original user24hour tab", "new index request/live test", "Ads/GA4 implementation", "Cloudflare/DNS/TLS change", "registry restoration", "external outreach", "article/body/title/date/image/feed/sitemap rewrite"],
+  "nextAction": "Retain accepted tracking/primary Simplified content and US/HK localizations; await later comparable query/page/country/device/crawl evidence. GA4/scopedHTTP dependencies remain without repeated questions; PMax review remains separately pending."
+}

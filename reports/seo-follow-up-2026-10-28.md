@@ -1,5 +1,21 @@
 # SEO Follow-Up: October 28, 2026
 
+## New Stored Indexing Evidence
+
+Fresh fetch matches bedb7d8ed3ad71f67f220ecd53358cf48f6eaced, previous turn is progress through genuine SEOtitle acceptance/push/verifieddeployment. Original user GSC24hour tab left unchanged; separate temporary review tab used, no account switching. [Snapshot](search-console/2026-10-28-tracking-indexed.json) and [validator](search-console/2026-10-28-validate.cjs) preserve actual visible data, not an API/CSV export.
+
+Applied7daycomparison/reopened four date fields stillOctober19-25versus12-18,46/41impressions1/0clicks/2.2vs0CTR/24.3vs42position: no new comparableperiod. Stop repeatedperformancepulls/no28dayrecapture/title experiment. Initialrolling24hour view6impressions0clicks with谷歌代投2impressions is preliminary, not stable rank/market/enquiry or releaseeffect; query5impressions not forced equal property6. InvalidDate/1970chartlabel ignored.
+
+Actualstoredinspection of conversion-tracking-basics.html now says indexed, Googlecanonical“所检查的网址”/self, displayedcrawl2026年10月26日12:38:51,Googlebotsmartphone/success/crawl-indexallowed, sitemapdiscovery andvalidbreadcrumb. PreviouslyOctober26storedDiscovered/no crawl. Rawcrawltimezone unknown, not compared as instant or causally credited to priorrequest. No newrequest/livetest, no sitewidecoverage52/46inferred from this one transition.
+
+StoredHTML panel shows revised six-event description/originalcover/canonical. Copy-editor action returned empty tabclipboard; zero/false extraction discarded as unavailable. Nativeeditorsearch“自定义目标” then visibly showed event-plan rows page_view/chat_click/phone_click/form_submit/generate_lead/qualify_lead, three conversion-goal cases and secondary-in-custom-goal exception. Selected actualstored revision evidence, not wholepagebyteidentity or proof every later edit fetched. No hidden appstate/network bypass/sourceexecution.
+
+Next: retain owneracceptedtracking/primarySimplifiedcontent andUS-HKlocalizations, stoprepeatindexrequests/rewritefordiscovery. Waitlatercomparablequery-page-country-device/crawlobservations, actualGA4resource andexisting scopedHTTPauthorization, no repeatedquestions. No newcontent/date/image/feed/sitemap, account/edge/registry/outreach action or visit/lead/CWV/rankinggain claimed. PMaxhumanreview remainsseparatepending. Validation/commit/push/deploymentmarker to be checked for this evidence-only update.
+
+## Indexing Evidence Validation
+
+Snapshot validator passes unchanged week/previous snapshot reconciliation, one stored canonical/index transition, six event/three goal inventory, unknown aggregate totals, rolling query/property distinction and no new request/live-test/privacy leak. It checks transcription consistency, not independent re-inspection of every site URL.133localtests OK(oneWindowspermissionskip);66HTML64sitemap0errors/warnings/schema-policy-performance-feedpass. No changed publicbody/assets/runtime/feed/sitemap and no new browser matrix claimed. Unrelated dirtygraph/cache/history retained. Fresh publicmarker bedb7d8 matched local/origin before evidence commit; final push/marker checked externally without recursive proof-only commits.
+
 ## Verified Release Across Midnight
 
 SEOtitle revision beganOctober27, retaining actualOctober27modification, originalSeptember11publication/title/H1/URL. Verification crossed intoOctober28Asia/Shanghai, not a fresh article/date. Source f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6 pushed; [Pages40536374721](https://github.com/googleList/ggad/actions/runs/40536374721)/job122302625121success,133CItests/allOK,66HTML64sitemap0errors/warnings/schema-performance0errors/156publicfiles. Publicmarker matched fullSHA.

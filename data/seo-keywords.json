@@ -7,6 +7,7 @@
   "clusters": [
     {
       "cluster": "移动端落地页速度与咨询路径",
+      "releaseReview": {"sourceCommit":"7b08e4baa52382f31643726b538751bd6c031216","deployment":"Pages40696747580/job122845440537success,144CItestsallOK/fullmarker;6productionarticle+6hubcases0errors-overflow/websitepage1journey","humanReviewRequestedAt":"2026-10-28","humanReview":"pending; separate question actually delivered after verified production","scope":"three metrics/data scope/PSI missingINPexception, six conditional diagnoses, three hypothetical cases and four records; no actualfieldCWV/account/consent/clientresults approval"},
       "language": "zh-Hans",
       "intent": "informational-commercial",
       "priority": "secondary-existing-page-quality",

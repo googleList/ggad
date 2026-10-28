@@ -1,0 +1,639 @@
+{
+  "checkedAt": "2026-10-28T13:29:38.692Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "建站时如何减少移动端广告流量流失 | 昆明振润达商贸有限公司",
+      "headline": "建站时如何减少移动端广告流量流失",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "建站时如何减少移动端广告流量流失",
+        "description": "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "image": "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T21:21:44+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-speed-mobile.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-speed-mobile.html",
+      "modified": "2026-10-28T21:21:44+08:00",
+      "descriptions": [
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "metricRows": [
+        "lcp",
+        "inp",
+        "cls"
+      ],
+      "diagnosisRows": [
+        "late-image",
+        "slow-document",
+        "blocked-input",
+        "layout-shift",
+        "lab-field",
+        "submission"
+      ],
+      "caseRows": [
+        "no-field",
+        "waiting-submit",
+        "small-but-shifting"
+      ],
+      "acceptanceChecks": 6,
+      "reviewRecords": 4,
+      "anchors": [
+        "#mobile-test",
+        "#metric-scope",
+        "#image-layout",
+        "#diagnosis",
+        "#scenarios",
+        "#form-path",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-ncpkkj",
+        "mobile-test",
+        "metric-scope",
+        "metrics-caption",
+        "image-layout",
+        "diagnosis",
+        "diagnosis-caption",
+        "scenarios",
+        "form-path",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "建站时如何减少移动端广告流量流失 | 昆明振润达商贸有限公司",
+      "headline": "建站时如何减少移动端广告流量流失",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "建站时如何减少移动端广告流量流失",
+        "description": "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "image": "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T21:21:44+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-speed-mobile.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-speed-mobile.html",
+      "modified": "2026-10-28T21:21:44+08:00",
+      "descriptions": [
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "metricRows": [
+        "lcp",
+        "inp",
+        "cls"
+      ],
+      "diagnosisRows": [
+        "late-image",
+        "slow-document",
+        "blocked-input",
+        "layout-shift",
+        "lab-field",
+        "submission"
+      ],
+      "caseRows": [
+        "no-field",
+        "waiting-submit",
+        "small-but-shifting"
+      ],
+      "acceptanceChecks": 6,
+      "reviewRecords": 4,
+      "anchors": [
+        "#mobile-test",
+        "#metric-scope",
+        "#image-layout",
+        "#diagnosis",
+        "#scenarios",
+        "#form-path",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-iupekr",
+        "mobile-test",
+        "metric-scope",
+        "metrics-caption",
+        "image-layout",
+        "diagnosis",
+        "diagnosis-caption",
+        "scenarios",
+        "form-path",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "建站时如何减少移动端广告流量流失 | 昆明振润达商贸有限公司",
+      "headline": "建站时如何减少移动端广告流量流失",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "建站时如何减少移动端广告流量流失",
+        "description": "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "image": "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T21:21:44+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-speed-mobile.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-speed-mobile.html",
+      "modified": "2026-10-28T21:21:44+08:00",
+      "descriptions": [
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/mobile-landing-performance-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "metricRows": [
+        "lcp",
+        "inp",
+        "cls"
+      ],
+      "diagnosisRows": [
+        "late-image",
+        "slow-document",
+        "blocked-input",
+        "layout-shift",
+        "lab-field",
+        "submission"
+      ],
+      "caseRows": [
+        "no-field",
+        "waiting-submit",
+        "small-but-shifting"
+      ],
+      "acceptanceChecks": 6,
+      "reviewRecords": 4,
+      "anchors": [
+        "#mobile-test",
+        "#metric-scope",
+        "#image-layout",
+        "#diagnosis",
+        "#scenarios",
+        "#form-path",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-qtgjb5",
+        "mobile-test",
+        "metric-scope",
+        "metrics-caption",
+        "image-layout",
+        "diagnosis",
+        "diagnosis-caption",
+        "scenarios",
+        "form-path",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "建站时如何减少移动端广告流量流失 | 昆明振润达商贸有限公司",
+      "headline": "建站时如何减少移动端广告流量流失",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "建站时如何减少移动端广告流量流失",
+        "description": "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "image": "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T21:21:44+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-speed-mobile.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-speed-mobile.html",
+      "modified": "2026-10-28T21:21:44+08:00",
+      "descriptions": [
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/mobile-landing-performance-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "metricRows": [
+        "lcp",
+        "inp",
+        "cls"
+      ],
+      "diagnosisRows": [
+        "late-image",
+        "slow-document",
+        "blocked-input",
+        "layout-shift",
+        "lab-field",
+        "submission"
+      ],
+      "caseRows": [
+        "no-field",
+        "waiting-submit",
+        "small-but-shifting"
+      ],
+      "acceptanceChecks": 6,
+      "reviewRecords": 4,
+      "anchors": [
+        "#mobile-test",
+        "#metric-scope",
+        "#image-layout",
+        "#diagnosis",
+        "#scenarios",
+        "#form-path",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-1iv4r7",
+        "mobile-test",
+        "metric-scope",
+        "metrics-caption",
+        "image-layout",
+        "diagnosis",
+        "diagnosis-caption",
+        "scenarios",
+        "form-path",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "建站时如何减少移动端广告流量流失 | 昆明振润达商贸有限公司",
+      "headline": "建站时如何减少移动端广告流量流失",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "建站时如何减少移动端广告流量流失",
+        "description": "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "image": "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T21:21:44+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-speed-mobile.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-speed-mobile.html",
+      "modified": "2026-10-28T21:21:44+08:00",
+      "descriptions": [
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "metricRows": [
+        "lcp",
+        "inp",
+        "cls"
+      ],
+      "diagnosisRows": [
+        "late-image",
+        "slow-document",
+        "blocked-input",
+        "layout-shift",
+        "lab-field",
+        "submission"
+      ],
+      "caseRows": [
+        "no-field",
+        "waiting-submit",
+        "small-but-shifting"
+      ],
+      "acceptanceChecks": 6,
+      "reviewRecords": 4,
+      "anchors": [
+        "#mobile-test",
+        "#metric-scope",
+        "#image-layout",
+        "#diagnosis",
+        "#scenarios",
+        "#form-path",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "mobile-test",
+        "metric-scope",
+        "metrics-caption",
+        "image-layout",
+        "diagnosis",
+        "diagnosis-caption",
+        "scenarios",
+        "form-path",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "建站时如何减少移动端广告流量流失 | 昆明振润达商贸有限公司",
+      "headline": "建站时如何减少移动端广告流量流失",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "建站时如何减少移动端广告流量流失",
+        "description": "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "image": "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T21:21:44+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-speed-mobile.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-speed-mobile.html",
+      "modified": "2026-10-28T21:21:44+08:00",
+      "descriptions": [
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。",
+        "移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg",
+        "https://shumaojs.com/assets/articles/mobile-landing-performance-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/mobile-landing-performance-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "metricRows": [
+        "lcp",
+        "inp",
+        "cls"
+      ],
+      "diagnosisRows": [
+        "late-image",
+        "slow-document",
+        "blocked-input",
+        "layout-shift",
+        "lab-field",
+        "submission"
+      ],
+      "caseRows": [
+        "no-field",
+        "waiting-submit",
+        "small-but-shifting"
+      ],
+      "acceptanceChecks": 6,
+      "reviewRecords": 4,
+      "anchors": [
+        "#mobile-test",
+        "#metric-scope",
+        "#image-layout",
+        "#diagnosis",
+        "#scenarios",
+        "#form-path",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "mobile-test",
+        "metric-scope",
+        "metrics-caption",
+        "image-layout",
+        "diagnosis",
+        "diagnosis-caption",
+        "scenarios",
+        "form-path",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/articles/landing-page-checklist.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

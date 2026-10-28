@@ -55,41 +55,265 @@
     "checks": "11collector/130full localtests pass(oneWindowspermissionskip); five nativefile browser cases16cards/0externalrequests/images/scripts/overflow/errors. ActualCI130allOK/66HTML64sitemap0errors/warnings/154publicfiles. Research artifact12746573443digest matched,77candidates2sources0errors/forbiddenfields/nonpending. Separatecuratedjob18resources1newlink5of6sources,SearchEngineLand403notbypassed; live512aa09marker/resourceverified. No authoredarticle/body/runtime/trafficclaim."
   },
   "latestMeasurementReview": {
-    "snapshot": "reports/search-console/2026-10-27-performance-follow-up.json",
-    "report": "reports/search-console/2026-10-27-performance-review.md",
-    "reference28DaySnapshot": "reports/search-console/2026-10-27-performance-follow-up.json",
-    "through": "2026-10-25",
-    "decision": "Fresh UI adjacent7daysOctober19-25versus12-18:46/41impressions,1/0clicks,position24.3/42. Exact谷歌代投8/1/3.6 maps directly togoogle-ads.html; query-country CN7/1 andSG1/0, directCN+query page7/1 confirms same service. Actual non-comparison daily table locates clickOctober25PT, not inferred from rolling differences. US8/30,HK16/6 allsite impressions, both0clicks; not exactquery-market validation. New28daysSeptember28-October25versusAugust31-September27:248/3impressions,1/1clicks, tiny mostly-preprogrambaseline. Preserve approved service/title/primarySimplified/localizations; no newpage/CTRtest, releasegain, qualifiedinquiry or API-final claim. HTTP authorization and GA4 resource gaps remain.",
+    "snapshot": "reports/search-console/2026-10-28-performance-follow-up.json",
+    "report": "reports/search-console/2026-10-28-performance-review.md",
+    "reference28DaySnapshot": "reports/search-console/2026-10-28-performance-follow-up.json",
+    "through": "2026-10-26",
+    "decision": "New rendered UI throughOctober26,7daysOctober20-26versus13-19:49/32impressions,1/0clicks; exact谷歌代投11/1/position4 maps directly to existinggoogle-ads.html. Countryquery CN7/1,US2/0,SG1/0,HK1/0; directUS+querypage2/0/6.5 andHK+querypage1/0/2 confirm sparse Simplified exposure in both targetmarkets. First observed here, not exact exposure date, demandscale, stable rank, customer or causal gain. Preserve approved primaryservice/title/URL andlocalizations; no CTRtest/newpage.28daysSeptember29-October26versusSeptember1-28 is258/3impressions1/1clicks,tiny priorbaseline. No newGA4/fieldCWV/index/edge/account/outreach action.",
     "ownerAction": "reports/deployment/2026-10-25-https-owner-action.md"
   },
   "latestWeeklyMarketReview": {
-    "snapshot": "reports/search-console/2026-10-27-performance-follow-up.json",
-    "report": "reports/search-console/2026-10-27-performance-review.md",
-    "recordedAt": "2026-10-27T08:23:06.490Z",
-    "currentPeriod": ["2026-10-19", "2026-10-25"],
-    "previousPeriod": ["2026-10-12", "2026-10-18"],
+    "snapshot": "reports/search-console/2026-10-28-performance-follow-up.json",
+    "report": "reports/search-console/2026-10-28-performance-review.md",
+    "recordedAt": "2026-10-28T13:06:47.645Z",
+    "currentPeriod": [
+      "2026-10-20",
+      "2026-10-26"
+    ],
+    "previousPeriod": [
+      "2026-10-13",
+      "2026-10-19"
+    ],
     "absoluteDateDialogFieldsVerified": true,
-    "current": {"impressions": 46, "clicks": 1, "ctrPercent": 2.2, "averagePosition": 24.3},
-    "previous": {"impressions": 41, "clicks": 0, "ctrPercent": 0, "averagePosition": 42},
-    "rowsRead": {"countries": 18, "queries": 13, "pages": 29, "targetPages": 1, "targetCountries": 2, "chinaQueryPage": 1, "chinaQueryDaily": 7},
-    "rowImpressionSums": {"countries": [46,41], "queries": [28,35], "pages": [65,41]},
-    "countryImpressions": {"US": [8,30], "HK": [16,6]},
-    "directJointFilters": [{"country": "CN", "query": "谷歌代投", "page": "https://shumaojs.com/google-ads.html", "impressions": [7,0], "clicks": [1,0], "positions": [4,null]}],
-    "targetQuery": {"query": "谷歌代投", "impressions": 8, "clicks": 1, "ctrPercent": 12.5, "averagePosition": 3.6, "page": "https://shumaojs.com/google-ads.html", "countries": {"CN": {"impressions": 7, "clicks": 1}, "SG": {"impressions": 1, "clicks": 0}}, "clickDate": "2026-10-25", "dateBasis": "Actual CN+exactquery non-comparison daily UI, Pacific Time report label, not a UTC instant or rolling-window inference"},
-    "qualityValidation": {"script": "reports/search-console/2026-10-27-validate.cjs", "tables": 10, "dataRows": 180, "checks": "Across weekly/28day/target tables: actual date fields, complete footer coverage, unique first-line keys,13or5columns,nonnegativecounts,click/impressiondifferences,countrytotals and directCNquerypage/daily reconciliation. Query/page totals not forced equal property; raw position0 and daily em-dash preserved."},
-    "limitations": "AvailablethroughOctober25,notAPI-final; new first observed primary-query click is not proof of a prospect, enquiry, stable rank, US/HK demand or a causal SEO gain. Source identity unknown. Ends before October26/27 changes, so those changes cannot explain click. No new US/HK query-country-page drilldown this snapshot; October26 joint views remain separate historical evidence. No account/edge/index action, GA4 visit or fieldCWV proof."
+    "current": {
+      "impressions": 49,
+      "clicks": 1,
+      "ctrPercent": 2,
+      "averagePosition": 23.3
+    },
+    "previous": {
+      "impressions": 32,
+      "clicks": 0,
+      "ctrPercent": 0,
+      "averagePosition": 37.5
+    },
+    "rowsRead": {
+      "queries": 13,
+      "countries": 15,
+      "devices": 3,
+      "pages": 28,
+      "targetCountries": 4,
+      "targetPages": 1,
+      "usQueryPage": 1,
+      "hkQueryPage": 1
+    },
+    "rowImpressionSums": {
+      "countries": [
+        49,
+        32
+      ],
+      "devices": [
+        49,
+        32
+      ],
+      "queries": [
+        29,
+        28
+      ],
+      "pages": [
+        68,
+        33
+      ]
+    },
+    "countryImpressions": {
+      "US": [
+        12,
+        18
+      ],
+      "HK": [
+        16,
+        11
+      ]
+    },
+    "devices": {
+      "DESKTOP": {
+        "impressions": [
+          39,
+          24
+        ],
+        "clicks": [
+          1,
+          0
+        ],
+        "positions": [
+          22.5,
+          39.1
+        ]
+      },
+      "MOBILE": {
+        "impressions": [
+          10,
+          7
+        ],
+        "clicks": [
+          0,
+          0
+        ],
+        "positions": [
+          26.6,
+          28.6
+        ]
+      },
+      "TABLET": {
+        "impressions": [
+          0,
+          1
+        ],
+        "clicks": [
+          0,
+          0
+        ],
+        "positions": [
+          null,
+          60
+        ]
+      }
+    },
+    "directJointFilters": [
+      {
+        "country": "US",
+        "query": "谷歌代投",
+        "page": "https://shumaojs.com/google-ads.html",
+        "impressions": [
+          2,
+          0
+        ],
+        "clicks": [
+          0,
+          0
+        ],
+        "positions": [
+          6.5,
+          null
+        ]
+      },
+      {
+        "country": "HK",
+        "query": "谷歌代投",
+        "page": "https://shumaojs.com/google-ads.html",
+        "impressions": [
+          1,
+          0
+        ],
+        "clicks": [
+          0,
+          0
+        ],
+        "positions": [
+          2,
+          null
+        ]
+      }
+    ],
+    "targetQuery": {
+      "query": "谷歌代投",
+      "impressions": 11,
+      "clicks": 1,
+      "ctrPercent": 9.1,
+      "averagePosition": 4,
+      "page": "https://shumaojs.com/google-ads.html",
+      "countries": {
+        "CN": {
+          "impressions": 7,
+          "clicks": 1
+        },
+        "US": {
+          "impressions": 2,
+          "clicks": 0
+        },
+        "SG": {
+          "impressions": 1,
+          "clicks": 0
+        },
+        "HK": {
+          "impressions": 1,
+          "clicks": 0
+        }
+      }
+    },
+    "qualityValidation": {
+      "script": "reports/search-console/2026-10-28-performance-validate.cjs",
+      "tables": 12,
+      "dataRows": 180,
+      "checks": "Applied/reopeneddatefields, rendered-onlytable/row recapture,completefooters/13columns/unique firstlinekeys/count-deltas/roundedCTR/country-device totals and actualUS-HKquerypage joins. Display positiondelta not recomputed exactly; raw0 notrank0. Query/page sums not forced equal."
+    },
+    "limitations": "EndthroughOctober26 may revise/notAPI-final; mostwindowpredatesOctober26 changes, allpredatesOctober27-28 changes. Primaryclick sourceidentityunknown/noqualifiedlead. US2/HK1 sparse exposure not marketvolume or stable ranking, exact firstexposureday not read. No new GA4/fieldCWV/crawl/index/account/edge/outreach action. OlderOctober27 snapshot/report retained; no inferred joint rows."
   },
   "latestTwentyEightDayComparison": {
-    "snapshot": "reports/search-console/2026-10-27-performance-follow-up.json",
-    "currentPeriod": ["2026-09-28", "2026-10-25"],
-    "previousPeriod": ["2026-08-31", "2026-09-27"],
-    "current": {"impressions": 248, "clicks": 1, "ctrPercent": 0.4, "averagePosition": 54.2},
-    "previous": {"impressions": 3, "clicks": 1, "ctrPercent": 33.3, "averagePosition": 2.3},
-    "rowsRead": {"queries": 39, "countries": 31, "pages": 39},
-    "rowImpressionSums": {"countries": [248,3], "queries": [204,0], "pages": [284,12]},
-    "rowClickSums": {"countries": [1,1], "queries": [1,0], "pages": [1,1]},
-    "countryImpressions": {"US": [118,1], "HK": [64,1]},
-    "decision": "Four effective date fields verified after applying/reopening; stale pre-apply7dayfields rejected. Prior3impressions/1homepageclick is tiny and mostly before program, not a comparable mature growth baseline. Query prior0listedclicks does not erase property prior1click; privacy/aggregation differ. No growthpercentage or average-position collapse claim across changing mix."
+    "snapshot": "reports/search-console/2026-10-28-performance-follow-up.json",
+    "currentPeriod": [
+      "2026-09-29",
+      "2026-10-26"
+    ],
+    "previousPeriod": [
+      "2026-09-01",
+      "2026-09-28"
+    ],
+    "current": {
+      "impressions": 258,
+      "clicks": 1,
+      "ctrPercent": 0.4,
+      "averagePosition": 53.3
+    },
+    "previous": {
+      "impressions": 3,
+      "clicks": 1,
+      "ctrPercent": 33.3,
+      "averagePosition": 2.3
+    },
+    "rowsRead": {
+      "queries": 41,
+      "countries": 31,
+      "devices": 3,
+      "pages": 39
+    },
+    "rowImpressionSums": {
+      "countries": [
+        258,
+        3
+      ],
+      "devices": [
+        258,
+        3
+      ],
+      "queries": [
+        212,
+        0
+      ],
+      "pages": [
+        295,
+        12
+      ]
+    },
+    "rowClickSums": {
+      "countries": [
+        1,
+        1
+      ],
+      "devices": [
+        1,
+        1
+      ],
+      "queries": [
+        1,
+        0
+      ],
+      "pages": [
+        1,
+        1
+      ]
+    },
+    "countryImpressions": {
+      "US": [
+        123,
+        1
+      ],
+      "HK": [
+        69,
+        1
+      ]
+    },
+    "decision": "Actualfourdatefields confirmed afterapply/reopen. Tiny prior3impressions/1homepageclick mostlypreprogram; not mature comparablebaseline or a CTRcollapse/growthpercentage claim. Currentquery1click cannot erase previous hiddenqueryclick; groupings differ.48cards/publishing not itself traffic; no gain credited to later October27-28 revisions."
   },
   "previousWeeklyMarketReview": {
     "snapshot": "reports/search-console/2026-10-26-weekly-market-follow-up.json",
@@ -112,8 +336,8 @@
   },
   "latestGscAvailabilityCheck": {
     "observedAt": "2026-10-28",
-    "snapshot": "reports/search-console/2026-10-28-tracking-indexed.json",
-    "decision": "Applied7daycomparison/reopened4datefields stillOctober19-25versus12-18,headline46/41impressions1/0clicksunchanged. No newcomparison/28daypull/title test. Rolling24hour6imp0clicks/target2imp preliminary, not settledmarket/rank/lead evidence; originalusertabuntouched. Stopunchangedperformancepolls."
+    "snapshot": "reports/search-console/2026-10-28-performance-follow-up.json",
+    "decision": "Evening rendered UI advancedthroughOctober26; fresh adjacent7/28day anddevice/country/query/page tables captured, actualUS-HKexactprimaryquery/service joins verified. Supersedes morning unchanged-throughOctober25 availability check, retained intracking-indexed snapshot. Originaluserinsights tab untouched, own temporarytabclosed. No repeatedindex request or unavailableWizard/PSIretry."
   },
   "latestIndexingReview": {
     "observedAt": "2026-10-28",
@@ -148,6 +372,7 @@
     "latestVerification": "Pages40655875340/job122706665218success,140CItestsallOK/66HTML64sitemap0errors-warnings/schema-performance0errors/161publicfiles/fullmarker. Production6article08:20:34.008Z+6hub12:26:07.935Z pass/0errors-overflow/SEOpage1journey/nativeCSV1614B SHA256dfe5fc40a9e2064602482490aa8a9fa6f33ff89a0926b3faa5a98abcd92fec1e byte-equal source. Initialhub33900terminaltimeout; retry69212success, no assertion relaxation. Sitemaparticle+hubOctober28/RSS46originalSeptember11publication/newdescription verified. Own human requestOctober28pending. Records-onlyfollowup verified externally without recursiveproofcommit; no new GSC/GA4/fieldCWV/index/edge/account/outreach/gain claim."
   },
   "completedBatches": [
+    "settled-window-followup-and-direct-simplified-query-us-hk-service-exposure-2026-10-28",
     "existing-content-cluster-map-csv-and-original-cover-2026-10-28-deployed-human-review-pending",
     "existing-remarketing-audience-boundaries-and-original-cover-2026-10-28-deployed-owner-accepted",
     "tracking-stored-index-transition-and-visible-revision-verification-2026-10-28",
@@ -767,6 +992,7 @@
     }
   },
   "nextPriorities": [
+    "October28freshGSCthroughOctober26: exact谷歌代投11impressions1click and directUS2/HK1querypage exposures to existinggoogle-ads.html. Preserve approvedservice/title/URL/localizations and contextual links; prioritize laterjointquery-page-country-device observations/real enquiries over duplicatepages/titlechurn. These sparse signals validate observedexposure only,notvolume/stable ranks or qualifiedleads. Otherprimaryqueries absentvisible tablesnotzero demand. Stop repeatpolls in same reporting window; no causal credit toOctober27-28changes",
     "Contentcluster4771b24 deployed:140CItests/6article+6hubproductioncases/nativeCSVdownload pass. Own human question deliveredOctober28pending; retain title/URL/publication andacceptedprimaryservice/SEOtitle/remarketing. Wait genuine feedback/later comparable measurement, not immediate rewrite/new synonym page or repeat request. Selfsite6rowmap notvolume/cannibalizationwin; never merge solelysharedquery or removeUS-HKlocalizations. No newperformanceperiod/indexrequest",
     "Remarketingd08083averifieddeployed136CItests/6article+6hubpubliccases and separatelyowneracceptedOctober28. Retainreviewedbody/cover/title/URL/publication/actualmodification,no repeatquestion/immediaterewrite. Awaitlatercomparablequery-page-country-device/crawlmeasurement; currentasofeligibility notallfutureaccessrules. Approvedprimaryservice/SEOtitle/tracking/US-HKlocalizationsstable,PMaxpendingseparate; no account/tag/listupload/legal/resultspermission",
     "October28trackingstoredinspection nowindexed/selfGooglecanonical,displayedOctober26 12:38:51crawl/rawtimezoneunknown. Editorcontains6eventrows/3goalcases/customsecondaryexception/cover. Preserveacceptedguide,no repeatrequest/rewriteforindexing. Priorrequest notcausality/rank/enquiryproof; no aggregate52/46inferred. WeeklydatefieldsstillthroughOctober25,no newcomparison/CTRtest; awaitlaterdata rather thanrepeatunchangedpolls",

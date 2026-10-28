@@ -311,6 +311,7 @@
     },
     {
       "cluster": "Google Ads 广告管理",
+      "observedSearchSignal": {"reviewedAt":"2026-10-28","snapshot":"reports/search-console/2026-10-28-performance-follow-up.json","query":"谷歌代投","dates":["2026-10-20","2026-10-26","2026-10-13","2026-10-19"],"queryImpressions":11,"queryClicks":1,"queryAveragePosition":4,"directCountryQueryPage":[{"country":"US","page":"https://shumaojs.com/google-ads.html","impressions":2,"clicks":0,"averagePosition":6.5},{"country":"HK","page":"https://shumaojs.com/google-ads.html","impressions":1,"clicks":0,"averagePosition":2}],"observedCountryQueryPageSignal":true,"countryDemandScaleVerified":false,"googleSearchVolume":null,"decision":"PrimarySimplified term is observed in both targetmarkets via actualjointfilters, not language-country inference. Sparse exposure not qualifieddemand or stable rank. Preserve approved existingservice/title/URL/contextual links, no duplicatepage or CTRexperiment; waitlatercomparablemeasurement. Otherprimaryqueries absentnotzero demand; no newaccount/GA4/edge/index action or causalreleasegain."},
       "intent": "commercial",
       "priority": "high",
       "targetUrl": "https://shumaojs.com/google-ads.html",

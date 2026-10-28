@@ -1,0 +1,615 @@
+{
+  "checkedAt": "2026-10-28T07:53:50.517Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "再营销广告基础：适合什么时候做 | 昆明振润达商贸有限公司",
+      "headline": "再营销广告基础：适合什么时候做",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "再营销广告基础：适合什么时候做",
+        "description": "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "image": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Remarketing",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T15:42:29+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/remarketing-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/remarketing-basics.html",
+      "modified": "2026-10-28T15:42:29+08:00",
+      "descriptions": [
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "source",
+        "eligibility",
+        "observation",
+        "targeting",
+        "expansion",
+        "exclusions"
+      ],
+      "cases": [
+        "small-list",
+        "new-users",
+        "sensitive"
+      ],
+      "readinessChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#fit",
+        "#audience-scope",
+        "#segments",
+        "#creative",
+        "#privacy-checks",
+        "#audience-cases",
+        "#review-records"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-glyhs0",
+        "fit",
+        "audience-scope",
+        "audience-caption",
+        "segments",
+        "creative",
+        "privacy-checks",
+        "audience-cases",
+        "review-records"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/performance-max-basics.html#control-scope",
+        "/articles/landing-page-checklist.html",
+        "/privacy.html",
+        "/articles/sem-landing-tracking.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 6,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "再营销广告基础：适合什么时候做 | 昆明振润达商贸有限公司",
+      "headline": "再营销广告基础：适合什么时候做",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "再营销广告基础：适合什么时候做",
+        "description": "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "image": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Remarketing",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T15:42:29+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/remarketing-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/remarketing-basics.html",
+      "modified": "2026-10-28T15:42:29+08:00",
+      "descriptions": [
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "source",
+        "eligibility",
+        "observation",
+        "targeting",
+        "expansion",
+        "exclusions"
+      ],
+      "cases": [
+        "small-list",
+        "new-users",
+        "sensitive"
+      ],
+      "readinessChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#fit",
+        "#audience-scope",
+        "#segments",
+        "#creative",
+        "#privacy-checks",
+        "#audience-cases",
+        "#review-records"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-eon21s",
+        "fit",
+        "audience-scope",
+        "audience-caption",
+        "segments",
+        "creative",
+        "privacy-checks",
+        "audience-cases",
+        "review-records"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/performance-max-basics.html#control-scope",
+        "/articles/landing-page-checklist.html",
+        "/privacy.html",
+        "/articles/sem-landing-tracking.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 6,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "再营销广告基础：适合什么时候做 | 昆明振润达商贸有限公司",
+      "headline": "再营销广告基础：适合什么时候做",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "再营销广告基础：适合什么时候做",
+        "description": "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "image": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Remarketing",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T15:42:29+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/remarketing-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/remarketing-basics.html",
+      "modified": "2026-10-28T15:42:29+08:00",
+      "descriptions": [
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "source",
+        "eligibility",
+        "observation",
+        "targeting",
+        "expansion",
+        "exclusions"
+      ],
+      "cases": [
+        "small-list",
+        "new-users",
+        "sensitive"
+      ],
+      "readinessChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#fit",
+        "#audience-scope",
+        "#segments",
+        "#creative",
+        "#privacy-checks",
+        "#audience-cases",
+        "#review-records"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-qbdxel",
+        "fit",
+        "audience-scope",
+        "audience-caption",
+        "segments",
+        "creative",
+        "privacy-checks",
+        "audience-cases",
+        "review-records"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/performance-max-basics.html#control-scope",
+        "/articles/landing-page-checklist.html",
+        "/privacy.html",
+        "/articles/sem-landing-tracking.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 6,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "再营销广告基础：适合什么时候做 | 昆明振润达商贸有限公司",
+      "headline": "再营销广告基础：适合什么时候做",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "再营销广告基础：适合什么时候做",
+        "description": "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "image": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Remarketing",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T15:42:29+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/remarketing-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/remarketing-basics.html",
+      "modified": "2026-10-28T15:42:29+08:00",
+      "descriptions": [
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "source",
+        "eligibility",
+        "observation",
+        "targeting",
+        "expansion",
+        "exclusions"
+      ],
+      "cases": [
+        "small-list",
+        "new-users",
+        "sensitive"
+      ],
+      "readinessChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#fit",
+        "#audience-scope",
+        "#segments",
+        "#creative",
+        "#privacy-checks",
+        "#audience-cases",
+        "#review-records"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-bfwr0e",
+        "fit",
+        "audience-scope",
+        "audience-caption",
+        "segments",
+        "creative",
+        "privacy-checks",
+        "audience-cases",
+        "review-records"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/performance-max-basics.html#control-scope",
+        "/articles/landing-page-checklist.html",
+        "/privacy.html",
+        "/articles/sem-landing-tracking.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 6,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "再营销广告基础：适合什么时候做 | 昆明振润达商贸有限公司",
+      "headline": "再营销广告基础：适合什么时候做",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "再营销广告基础：适合什么时候做",
+        "description": "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "image": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Remarketing",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T15:42:29+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/remarketing-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/remarketing-basics.html",
+      "modified": "2026-10-28T15:42:29+08:00",
+      "descriptions": [
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "source",
+        "eligibility",
+        "observation",
+        "targeting",
+        "expansion",
+        "exclusions"
+      ],
+      "cases": [
+        "small-list",
+        "new-users",
+        "sensitive"
+      ],
+      "readinessChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#fit",
+        "#audience-scope",
+        "#segments",
+        "#creative",
+        "#privacy-checks",
+        "#audience-cases",
+        "#review-records"
+      ],
+      "ids": [
+        "fit",
+        "audience-scope",
+        "audience-caption",
+        "segments",
+        "creative",
+        "privacy-checks",
+        "audience-cases",
+        "review-records"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/performance-max-basics.html#control-scope",
+        "/articles/landing-page-checklist.html",
+        "/privacy.html",
+        "/articles/sem-landing-tracking.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "再营销广告基础：适合什么时候做 | 昆明振润达商贸有限公司",
+      "headline": "再营销广告基础：适合什么时候做",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "再营销广告基础：适合什么时候做",
+        "description": "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "image": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "Remarketing",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-28T15:42:29+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/remarketing-basics.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/remarketing-basics.html",
+      "modified": "2026-10-28T15:42:29+08:00",
+      "descriptions": [
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。",
+        "Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg",
+        "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/remarketing-audience-boundaries-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "controls": [
+        "source",
+        "eligibility",
+        "observation",
+        "targeting",
+        "expansion",
+        "exclusions"
+      ],
+      "cases": [
+        "small-list",
+        "new-users",
+        "sensitive"
+      ],
+      "readinessChecks": 4,
+      "reviewRecords": 4,
+      "anchors": [
+        "#fit",
+        "#audience-scope",
+        "#segments",
+        "#creative",
+        "#privacy-checks",
+        "#audience-cases",
+        "#review-records"
+      ],
+      "ids": [
+        "fit",
+        "audience-scope",
+        "audience-caption",
+        "segments",
+        "creative",
+        "privacy-checks",
+        "audience-cases",
+        "review-records"
+      ],
+      "links": [
+        "/articles/conversion-tracking-basics.html",
+        "/articles/performance-max-basics.html#control-scope",
+        "/articles/landing-page-checklist.html",
+        "/privacy.html",
+        "/articles/sem-landing-tracking.html",
+        "/articles/search-terms-optimization.html",
+        "/articles/google-budget-pacing.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,5 +1,11 @@
 # SEO Follow-Up: October 28, 2026
 
+## Remarketing Release Verified
+
+d08083a9ea2df2b35ec7742ef7666b72c483d12b pushed; [Pages40652860610](https://github.com/googleList/ggad/actions/runs/40652860610)/job122696812744success,136CItestsallOK/66HTML64sitemap0errors-warnings/schema-performance0errors/158publicfiles/fullmarker matched.6productionarticle07:53:50.517Z+6hub07:54:26.330Zcasespass/0errors-overflow,SEMpage6journey/keyboardtable/sevenanchors/menu/noJS/16:9cover. PhonepublicnoJScases inspected; live sitemaparticle+hubOctober28/RSS46originalSeptember11publication/newdescriptionverified. No needed helper/checksession, no restart/relaxedassertions.
+
+OwnquestiondeliveredOctober28,pending forfourchecks/sixboundaries/threehypotheticalcases/review/asofeligibility; no inherited approvals,PMaxpendingseparate. Finalrecords-onlypush/marker checkedexternallywithoutrecursiveproof. No newGSC/GA4/CWV/crawl/lead/rank/price/legal/account/index/edge/outreachclaim.
+
 ## Existing Remarketing Guide Batch
 
 Previous stored-index evidence57d984e is progress; freshfetch0ahead/behind/publicmarker matched. Current GSCcomparablewindowstillthroughOctober25, no repeatedpoll. ExistingremarketingGET200/source lacks Observation/Targeting/expansion scope andoverbroadlyforbids personaldata inanysource. Actualpublicinstructionalqueries/5officialGoogleaudience-policy sources support correction, not volume/US-HKdemand from absentpage rows. RetainapprovedprimarySimplifiedservice/setup/tracking/AdRank/SEOtitle andUS-HKlocalizations.

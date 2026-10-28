@@ -34,6 +34,12 @@ Built-in image generation; inspected conceptual blank group cards/acrylic divide
 
 Sharp resize/compression only. Saved `C:/Users/Administrator/Desktop/ggad-pages-cache-fix/assets/articles/remarketing-audience-boundaries-v1.jpg`1200x675/56147B and `C:/Users/Administrator/Desktop/ggad-pages-cache-fix/assets/articles/remarketing-audience-boundaries-thumb-v1.webp`480x270/8848B. New sibling assets; mobilepicture under600px/fixed16:9/dimensions/alt; Article/OG/Twitter/list align. No added runtime/CSS or remote imagery.
 
+## Verified Production Release
+
+Source d08083a9ea2df2b35ec7742ef7666b72c483d12b pushed; [Pages40652860610](https://github.com/googleList/ggad/actions/runs/40652860610)/job122696812744success. Actual136CItests/allOK(noCI skip),66HTML64sitemap0errors-warnings/schema-performance0errors,158publicfiles; publicmarker matched fullSHA. [Article](production/browser.json)07:53:50.517Z+[hub](production/hub/browser.json)07:54:26.330Z:6+6cases pass/0errors-overflow,SEMpage6journey/keyboardtable/sevenanchors/menu/noJS/loaded16:9cover. PhonepublicnoJScases screenshot inspected. Live sitemaparticle+hubOctober28/RSS46originalSeptember11publication/newdescription confirmed. No needed livehelper/checksession or restart/relaxedassertion.
+
+Separate owner question actually deliveredOctober28, pending only for this revision's fourchecks/sixboundaries/threehypotheticalcases/review/currenteligibilitycaveats. Existing tracking/SEOtitle/service acceptance not inherited; PMax independently pending. Final evidence-only push/marker checked externally without recursive proof commits. No actualaccount/upload/legal/price/index/edge/outreach or newmeasuredgainclaim. Local/pending checkpoint below is historical.
+
 ## Local Validation
 
 136tests OK(oneWindowspermissionskip),3new focused regressions;66HTML64sitemap0errors/warnings,schema/policy/performance/46RSSpass. Scoped64pagegraph0orphans0unreachable/maxdepth3,target2sources(service+hub)/17outlinks/depth2; existing one-single-source page elsewhere not claimed fixed.157publicfiles beforemarker staged outsideGit; research/reports/tests excluded. Unrelated dirtygraph/cache/history not reset/staged.

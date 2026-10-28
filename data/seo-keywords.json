@@ -11,6 +11,7 @@
       "intent": "informational-commercial",
       "priority": "secondary-existing-page-accuracy",
       "targetUrl": "https://shumaojs.com/articles/remarketing-basics.html",
+      "releaseReview": {"sourceCommit": "d08083a9ea2df2b35ec7742ef7666b72c483d12b", "deployment": "Pages40652860610/job122696812744success,136CItestsallOK/fullmarker matched,6article+6hubproductioncases pass", "humanReviewRequestedAt": "2026-10-28", "humanReview": "pending; separate question actually delivered for this revision only", "scope": "four readiness checks/six scope rows/three hypothetical cases/review and asof eligibility caveats; no actualaccount/upload/legal/results approval"},
       "primaryKeywords": ["谷歌广告再营销", "Google Ads 再营销"],
       "supportingKeywords": ["再营销受众太小", "观察和定位区别", "优化型定位", "再营销排除"],
       "evidence": {"reviewedAt": "2026-10-28", "method": "Publicinstructional/officialsource search validates topic shape only. Existing source/publicGET lacks Observation/Targeting/expansion boundaries and overbroadly forbids personal data in any source; official audience/search/optimized/CustomerMatch/personalization sources support focused correction. Page absent latestvisible7/28tables not zero demand or deindexing. No fresh GSC/GA4 period or localized US/HKvolume.", "googleSearchVolume": null, "countryDemandVerified": false, "editorialBrief": "reports/editorial/2026-10-28-remarketing/brief.md", "humanReviewStatus": "pending separately for this revision; no inherited tracking/service/SEOtitle/PMax approval"},

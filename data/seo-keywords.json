@@ -6,6 +6,17 @@
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
   "clusters": [
     {
+      "cluster": "移动端落地页速度与咨询路径",
+      "language": "zh-Hans",
+      "intent": "informational-commercial",
+      "priority": "secondary-existing-page-quality",
+      "targetUrl": "https://shumaojs.com/articles/website-speed-mobile.html",
+      "primaryKeywords": ["移动端落地页优化", "网站速度优化"],
+      "supportingKeywords": ["LCP INP CLS 区别", "手机表单提交失败", "落地页图片加载慢"],
+      "evidence": {"reviewedAt":"2026-10-28","method":"Existing source/publicGET200 has sound general advice but no metric scope/data caveats/conditional diagnosis or worked cases. Official WebVitals/PSI/LCP/INP/CLS sources support original existing-guide expansion. Latest actual28day1impression0clicksposition10/prior1at8, absent7dayrow notzero demand or US/HKqueryvolume. No newGSCperiod/PSI/GA4/edge/index action.","googleSearchVolume":null,"countryDemandVerified":false,"editorialBrief":"reports/editorial/2026-10-28-mobile-performance/brief.md","humanReviewStatus":"pending separately after verified production; prior service/tracking/handover/remarketing/SEOtitle approvals not inherited"},
+      "contentActions": ["保留原标题H1网址与9月11日发布日，升级现有教程，不新增同义页", "三项指标、PSI数据例外、六种排查、三种原创假设情境和四项复盘记录；不虚构本站实测或客户案例", "原创封面与列表分享元数据对齐，原CTA不变；不把提分当成真实用户达标或新业务承诺", "独立人工审阅后按更晚数据复盘，主商业服务及美港本地化保持稳定"]
+    },
+    {
       "cluster": "内容集群与关键词页面映射",
       "releaseReview": {"sourceCommit": "4771b241303bd1865d148624f61c3a70dc77dd23", "deployment": "Pages40655875340/job122706665218success,140CItestsallOK/fullmarker matched;6productionarticle+6hubcases passed including actual1614B byte-matching CSV download", "humanReviewRequestedAt": "2026-10-28", "humanReview": "pending; separate question delivered after production verification", "scope": "six self-site page roles/CSV example/conditional intent-based split-merge decisions; no client-result/search-volume or actual redirect/deletion/noindex approval"},
       "language": "zh-Hans",

@@ -1,5 +1,11 @@
 # SEO Follow-Up: October 28, 2026
 
+## Existing Mobile Landing-Page Guide Batch
+
+Previousd906749freshGSC/US-HKexactquery-serviceevidence/push/deployment is progress; freshfetch0ahead-behind/publicmarker matched. Existingwebsite-speed-mobile guide/publicGET200 has sound generaladvice but no metric/data-scope/conditional diagnosis/workedcases. Actual28day1impression0clicksposition10versusprior1/0/8notvolume/titletest; absent7dayrownotzerodemand. No repeatedGSC/GA4/PSI/index/edgepoll, preserve approvedprimarySimplifiedservice andlocalizations.
+
+Same title/H1/URL/September11publication/CTA; threeCWVrows/p75/device/PSI28dayURL-origin/insufficientINPexception, six conditionaldiagnoses, threeoriginalhypotheticalcases/fourrecords/sixacceptancechecks. No actualmetrics/clientcase/formdatabase/privacylegal/fees/results promise. Built-inoriginal79374Bcover/14640Bthumbnail/alt-dimensions-picture/share/list/date/feed46/sitemaptargetaligned,noCSSruntime.144localtests(oneWindowsskip)/66HTML64sitemap0errors-warnings/schema-policy-performance-feedpass,6article+6hubcases/0errors-overflow/websitepage1journey/nativeanchors/keyboardtable/menu/noJS. Initialscreenshot caughtinlineTOCconcatenation; nativeul/listupdatedthenarticlematrixrerun,notassertionrelaxation. Scopedgraph64pages0orphans0unreachabledepth3,target3sources13outlinksdepth2. [Brief](editorial/2026-10-28-mobile-performance/brief.md)records titleoptions/outline/officialsources/fullprompt/savedpaths/review/checks. SourceCI/production/ownhumanreviewrequest pending; no newperformanceperiod/account/index/edge/outreach orfieldCWV/rankgain claim.
+
 ## Evening Measurement Advanced Through October 26
 
 Previous842d9bd source/evidence release is progress, freshfetch0ahead-behind/publicmarker matched. EveningUI advanced since morningthrough25 check, so captured new adjacent7dayOctober20-26versus13-19:49/32impressions1/0clicksCTR2/0position23.3/37.5.28daysSeptember29-October26versusSeptember1-28:258/3impressions1/1clicks, tiny priorbaseline not growth/CTRcollapse evidence. [Snapshot](search-console/2026-10-28-performance-follow-up.json), [review](search-console/2026-10-28-performance-review.md), [validator](search-console/2026-10-28-performance-validate.cjs).

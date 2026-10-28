@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 08:08:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 13:21:44 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>建站时如何减少移动端广告流量流失</title>
+      <link>https://shumaojs.com/articles/website-speed-mobile.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/website-speed-mobile.html</guid>
+      <description>移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>建站</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>外贸网站 SEO 内容集群怎么规划</title>
       <link>https://shumaojs.com/articles/seo-content-cluster.html</link>
@@ -345,15 +354,6 @@
       <link>https://shumaojs.com/articles/website-trust-pages.html</link>
       <guid isPermaLink="true">https://shumaojs.com/articles/website-trust-pages.html</guid>
       <description>广告投放建站基础清单，说明公司介绍、联系页面、隐私政策、服务条款、退款说明和案例页面为什么重要。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>建站</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>建站时如何减少移动端广告流量流失</title>
-      <link>https://shumaojs.com/articles/website-speed-mobile.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/website-speed-mobile.html</guid>
-      <description>移动端广告落地页建站建议，说明首屏速度、按钮位置、表单长度、图片大小和内容可读性如何影响转化。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>建站</category>
       <dc:language>zh-CN</dc:language>

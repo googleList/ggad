@@ -1,5 +1,11 @@
 # SEO Follow-Up: October 28, 2026
 
+## Existing Remarketing Guide Batch
+
+Previous stored-index evidence57d984e is progress; freshfetch0ahead/behind/publicmarker matched. Current GSCcomparablewindowstillthroughOctober25, no repeatedpoll. ExistingremarketingGET200/source lacks Observation/Targeting/expansion scope andoverbroadlyforbids personaldata inanysource. Actualpublicinstructionalqueries/5officialGoogleaudience-policy sources support correction, not volume/US-HKdemand from absentpage rows. RetainapprovedprimarySimplifiedservice/setup/tracking/AdRank/SEOtitle andUS-HKlocalizations.
+
+SameURL/title/H1/September11publication;4readinesschecks/6boundaryrows/3originalhypotheticalcases/4records, Google-vsMeta andcurrentasof100activeguidancewithnetwork/list caveats, permittedCustomerMatchinterface versus ordinaryURL/tagparameters. No newprice/qualification/clientresult/service/account/legalguarantee. Originalbuilt-in cover56147B/thumbnail8848B,description/date/alt/Article-sharing/card/feed/sitemaptarget+hub aligned;noCSS/runtime.136localtests(oneWindowsskip),66HTML64sitemap0errors-warnings/schema-policy-performance/46RSSpass;6article+6hubcases/0errors-overflow/actualSEMpage6journey/phone-desktopshotschecked. Scoped64pagegraph0orphans0unreachabledepth3,target2sources17outlinksdepth2;157publicfilesbeforemarkeroutsideGit. Localhelperstopped, no browserrestart/relaxedassertion. [Brief](editorial/2026-10-28-remarketing/brief.md) recordskeywords/three titlecandidates/outline/officialsources/fullimageprompt/assets/review/checks. SourceCI/production/separatehumanreview pending, no newmeasurement/crawl/account/edge/outreachclaim.
+
 ## New Stored Indexing Evidence
 
 Fresh fetch matches bedb7d8ed3ad71f67f220ecd53358cf48f6eaced, previous turn is progress through genuine SEOtitle acceptance/push/verifieddeployment. Original user GSC24hour tab left unchanged; separate temporary review tab used, no account switching. [Snapshot](search-console/2026-10-28-tracking-indexed.json) and [validator](search-console/2026-10-28-validate.cjs) preserve actual visible data, not an API/CSV export.

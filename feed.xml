@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 15:50:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 07:42:29 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>再营销广告基础：适合什么时候做</title>
+      <link>https://shumaojs.com/articles/remarketing-basics.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/remarketing-basics.html</guid>
+      <description>Google Ads 再营销如何判断是否适合？核对受众资格、搜索广告观察与定位、优化型定位和排除范围，用三种假设情境说明人群规模与数据使用边界。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Remarketing</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>SEO 标题和描述怎么写更适合外贸网站</title>
       <link>https://shumaojs.com/articles/seo-title-meta-basics.html</link>
@@ -347,15 +356,6 @@
       <description>外贸网站 SEO 内容集群规划方法，围绕产品词、场景词、采购问题、地区需求和内部链接搭建内容体系。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>SEO</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>再营销广告基础：适合什么时候做</title>
-      <link>https://shumaojs.com/articles/remarketing-basics.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/remarketing-basics.html</guid>
-      <description>再营销广告基础教程，介绍适合时机、人群分层、素材策略、频次控制和投放注意事项。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Remarketing</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

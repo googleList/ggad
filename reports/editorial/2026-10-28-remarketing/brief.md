@@ -34,6 +34,10 @@ Built-in image generation; inspected conceptual blank group cards/acrylic divide
 
 Sharp resize/compression only. Saved `C:/Users/Administrator/Desktop/ggad-pages-cache-fix/assets/articles/remarketing-audience-boundaries-v1.jpg`1200x675/56147B and `C:/Users/Administrator/Desktop/ggad-pages-cache-fix/assets/articles/remarketing-audience-boundaries-thumb-v1.webp`480x270/8848B. New sibling assets; mobilepicture under600px/fixed16:9/dimensions/alt; Article/OG/Twitter/list align. No added runtime/CSS or remote imagery.
 
+## Genuine Owner Acceptance
+
+Owner separately answered "内容符合，可保留" on2026-10-28 to this d08083a revision's delivered question: four readiness checks, six scope boundaries, three hypothetical cases/review/current as-of eligibility caveats. Recorded real human feedback, not AI-inferred or inherited. Keep publicbody/cover/title/URL/publication/modification unchanged. No account/tag/listupload/legal/price/results permission; PMax and other pending reviews remain separate. Earlier pending checkpoints below are historical. Evidence commit e3eeced21354f9b5b836230d73ca0ebac6c99336 already verified Pages40653417057success/fullmarker matched before this reply. New acceptance record is semantic progress, not a recursive deployment-proof change.
+
 ## Verified Production Release
 
 Source d08083a9ea2df2b35ec7742ef7666b72c483d12b pushed; [Pages40652860610](https://github.com/googleList/ggad/actions/runs/40652860610)/job122696812744success. Actual136CItests/allOK(noCI skip),66HTML64sitemap0errors-warnings/schema-performance0errors,158publicfiles; publicmarker matched fullSHA. [Article](production/browser.json)07:53:50.517Z+[hub](production/hub/browser.json)07:54:26.330Z:6+6cases pass/0errors-overflow,SEMpage6journey/keyboardtable/sevenanchors/menu/noJS/loaded16:9cover. PhonepublicnoJScases screenshot inspected. Live sitemaparticle+hubOctober28/RSS46originalSeptember11publication/newdescription confirmed. No needed livehelper/checksession or restart/relaxedassertion.

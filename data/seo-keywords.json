@@ -1,6 +1,6 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
@@ -11,11 +11,11 @@
       "intent": "informational",
       "priority": "secondary-existing-page-quality",
       "targetUrl": "https://shumaojs.com/articles/seo-title-meta-basics.html",
-      "releaseReview": {"sourceCommit": "f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6", "deployment": "Pages40536374721/job122302625121success,133CItestsOK/fullmarker matched,6productionarticle+6hubcases pass", "humanReviewRequestedAt": "2026-10-28", "humanReview": "pending; separate question actually delivered, no inherited approval", "note": "Verification crossed local midnight; preserve actualOctober27substantive modification and originalSeptember11publication"},
+      "releaseReview": {"sourceCommit": "f4c3e6b81092a541a09b4196c2c8ad97f7ffe8e6", "deployment": "Pages40536374721/job122302625121success,133CItestsOK/fullmarker matched,6productionarticle+6hubcases pass", "humanReviewRequestedAt": "2026-10-28", "humanReviewConfirmedAt": "2026-10-28", "humanReview": "accepted; owner separately answered 内容符合，可保留 for this revision only", "note": "Retain actualOctober27substantive modification and originalSeptember11publication; approval alone does not change public content/date or authorize account changes"},
       "primaryKeywords": ["SEO 标题怎么写", "meta description 怎么写"],
       "supportingKeywords": ["Google 标题被改写", "SEO 标题和 H1", "搜索结果摘要", "外贸网站 SEO 标题"],
-      "evidence": {"reviewedAt": "2026-10-27", "snapshot": "reports/search-console/2026-10-27-performance-follow-up.json", "method": "Existing page1globalimpression/0clicks/average9 in both overlapping7day/current28day windows, not independent samples or localized demand. Publichowto/title-rewrite results validate intent shape only; broad谷歌排名 search mixed. Source/publicGET confirmed no practical examples and generic CTR advice. Official title/snippet/multilingual/GSC docs support existing-page improvement, not newURL or title test.", "googleSearchVolume": null, "countryDemandVerified": false, "editorialBrief": "reports/editorial/2026-10-27-seo-title/brief.md", "humanReviewStatus": "pending separately; no inherited setup, AdRank, monthly or service approval"},
-      "contentActions": ["保留原标题H1网址和9月11日发布日期，服务页与刚确认教程保持稳定", "补六类文字边界、四种原创假设页面示例、三种改写排查、五项发布检查及四项同口径记录", "原创配图与压缩缩略图对齐列表和分享元数据，产品例子不代表本站商城，不新增商家标记", "查询语言与国家分开分析，保留美港本地化；等待单独人工审阅和更晚证据，不把一次展示或假设数字当作成果"]
+      "evidence": {"reviewedAt": "2026-10-27", "snapshot": "reports/search-console/2026-10-27-performance-follow-up.json", "method": "Existing page1globalimpression/0clicks/average9 in both overlapping7day/current28day windows, not independent samples or localized demand. Publichowto/title-rewrite results validate intent shape only; broad谷歌排名 search mixed. Source/publicGET confirmed no practical examples and generic CTR advice. Official title/snippet/multilingual/GSC docs support existing-page improvement, not newURL or title test.", "googleSearchVolume": null, "countryDemandVerified": false, "editorialBrief": "reports/editorial/2026-10-27-seo-title/brief.md", "humanReviewStatus": "owner separately confirmed2026-10-28: 内容符合，可保留. Covers f4c3e6b sixfields/fourhypotheticalexamples/threecases/matchedreview/CTRarithmetic only; not PMax, actual product sales, account action or ranking outcome"},
+      "contentActions": ["本篇已单独人工确认，保留当前正文、原标题H1网址、9月11日发布日期及10月27日实际修改时间", "保留六类文字边界、四种原创假设示例、三种改写排查、五项发布检查及四项同口径记录", "保留原创配图与压缩缩略图，产品例子不代表本站商城，不新增商家标记", "等待更晚可比查询网页地区设备及抓取证据，不重复审阅或立即改写；不把一次展示或假设数字当作成果，PMax认可不继承"]
     },
     {
       "cluster": "谷歌广告类型与 PMax 上线准备",

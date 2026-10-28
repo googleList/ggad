@@ -13,3 +13,9 @@ Separate owner question deliveredOctober28, pending only for this revision. Prio
 Latest genuine GSC still throughOctober25, not a newly readOctober28period. SEOtitle1globalimpression0clicksaverage9 inoverlapping7/28days is one observation, not two independent samples, volume/stable rank or CTRtest evidence. Earlier exact谷歌代投8/1service/CN7SG1 remains, no causal credit to later revisions. GA4resource unidentified/fieldCWV unknown; absentaccess not zero visits/enquiries. Existing scopedHTTPauthorization/GA4resource dependencies not re-requested; no account/index/edge/registry/outreach operation.
 
 Await genuine feedback and a later settled query/page/country/device/crawl period before further rewrites/title tests. No duplicate synonym page, repeat indexing request or inherited human approval.1000dailyGoogleorganicvisits remains an unachieved/unverified stretch goal, not a guarantee;90daygoal active.
+
+## Separate Owner Confirmation Received
+
+Owner genuinely answered "内容符合，可保留" onOctober28 to the SEOtitleguide's own f4c3e6b question. Recorded acceptance for sixfields/fourhypotheticalexamples/threecases/matchedreview/CTRarithmetic only. Retain body, cover, title/H1, originalpublication andactualOctober27modification; no publicsource/date changed solely for acceptance. Setup priorapproval retained separately; PMax andotherpendingquestions not inherited. Earlier pending notes above remain historical.
+
+Before this reply, records32ba00489ad16d2f44e85f107f7a00a6e93f79a9 verified via Pages40537486925success and matchingpublicmarker. This records-only owneracceptance will be committed/pushed and finalmarker checked externally, not recursivelyproofcommitted. No newGSC/GA4/CWV/index/edge/account/outreach/gain claim; next action latermeasurement, not repeatreview or rewrite.

@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Oct 2026 13:21:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 14:10:36 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谷歌排名怎么提升？自然搜索 SEO 排查与优化指南</title>
+      <link>https://shumaojs.com/articles/google-seo-ranking-guide.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-seo-ranking-guide.html</guid>
+      <description>谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。</description>
+      <pubDate>Thu, 29 Oct 2026 14:10:36 +0000</pubDate>
+      <category>SEO</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>建站时如何减少移动端广告流量流失</title>
       <link>https://shumaojs.com/articles/website-speed-mobile.html</link>

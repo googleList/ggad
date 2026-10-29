@@ -1,0 +1,627 @@
+{
+  "checkedAt": "2026-10-29T14:13:00.961Z",
+  "base": "http://127.0.0.1:8816/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南 | 昆明振润达商贸有限公司",
+      "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+        "description": "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "image": "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-10-29T22:10:36+08:00",
+        "dateModified": "2026-10-29T22:10:36+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+      "modified": "2026-10-29T22:10:36+08:00",
+      "descriptions": [
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8816/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "access",
+        "indexability",
+        "canonical",
+        "intent",
+        "content",
+        "snippet",
+        "links",
+        "experience"
+      ],
+      "caseRows": [
+        "not-indexed",
+        "weak-visibility",
+        "ctr-with-mix",
+        "click-no-enquiry"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#intent-boundary",
+        "#before-ranking",
+        "#seo-diagnosis",
+        "#page-example",
+        "#ranking-cases",
+        "#measurement",
+        "#pitfalls",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-s3romk",
+        "intent-boundary",
+        "before-ranking",
+        "seo-diagnosis",
+        "diagnosis-caption",
+        "page-example",
+        "ranking-cases",
+        "measurement",
+        "pitfalls",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/seo-title-meta-basics.html#writing-examples",
+        "/articles/website-speed-mobile.html#diagnosis",
+        "/articles/seo-course-learning-path.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true,
+      "homeJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南 | 昆明振润达商贸有限公司",
+      "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+        "description": "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "image": "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-10-29T22:10:36+08:00",
+        "dateModified": "2026-10-29T22:10:36+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+      "modified": "2026-10-29T22:10:36+08:00",
+      "descriptions": [
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8816/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "access",
+        "indexability",
+        "canonical",
+        "intent",
+        "content",
+        "snippet",
+        "links",
+        "experience"
+      ],
+      "caseRows": [
+        "not-indexed",
+        "weak-visibility",
+        "ctr-with-mix",
+        "click-no-enquiry"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#intent-boundary",
+        "#before-ranking",
+        "#seo-diagnosis",
+        "#page-example",
+        "#ranking-cases",
+        "#measurement",
+        "#pitfalls",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-0pj6cn",
+        "intent-boundary",
+        "before-ranking",
+        "seo-diagnosis",
+        "diagnosis-caption",
+        "page-example",
+        "ranking-cases",
+        "measurement",
+        "pitfalls",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/seo-title-meta-basics.html#writing-examples",
+        "/articles/website-speed-mobile.html#diagnosis",
+        "/articles/seo-course-learning-path.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true,
+      "homeJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南 | 昆明振润达商贸有限公司",
+      "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+        "description": "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "image": "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-10-29T22:10:36+08:00",
+        "dateModified": "2026-10-29T22:10:36+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+      "modified": "2026-10-29T22:10:36+08:00",
+      "descriptions": [
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8816/assets/articles/organic-seo-ranking-plan-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "access",
+        "indexability",
+        "canonical",
+        "intent",
+        "content",
+        "snippet",
+        "links",
+        "experience"
+      ],
+      "caseRows": [
+        "not-indexed",
+        "weak-visibility",
+        "ctr-with-mix",
+        "click-no-enquiry"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#intent-boundary",
+        "#before-ranking",
+        "#seo-diagnosis",
+        "#page-example",
+        "#ranking-cases",
+        "#measurement",
+        "#pitfalls",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-m95e9u",
+        "intent-boundary",
+        "before-ranking",
+        "seo-diagnosis",
+        "diagnosis-caption",
+        "page-example",
+        "ranking-cases",
+        "measurement",
+        "pitfalls",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/seo-title-meta-basics.html#writing-examples",
+        "/articles/website-speed-mobile.html#diagnosis",
+        "/articles/seo-course-learning-path.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true,
+      "homeJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南 | 昆明振润达商贸有限公司",
+      "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+        "description": "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "image": "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-10-29T22:10:36+08:00",
+        "dateModified": "2026-10-29T22:10:36+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+      "modified": "2026-10-29T22:10:36+08:00",
+      "descriptions": [
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8816/assets/articles/organic-seo-ranking-plan-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "access",
+        "indexability",
+        "canonical",
+        "intent",
+        "content",
+        "snippet",
+        "links",
+        "experience"
+      ],
+      "caseRows": [
+        "not-indexed",
+        "weak-visibility",
+        "ctr-with-mix",
+        "click-no-enquiry"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#intent-boundary",
+        "#before-ranking",
+        "#seo-diagnosis",
+        "#page-example",
+        "#ranking-cases",
+        "#measurement",
+        "#pitfalls",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-2n4if7",
+        "intent-boundary",
+        "before-ranking",
+        "seo-diagnosis",
+        "diagnosis-caption",
+        "page-example",
+        "ranking-cases",
+        "measurement",
+        "pitfalls",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/seo-title-meta-basics.html#writing-examples",
+        "/articles/website-speed-mobile.html#diagnosis",
+        "/articles/seo-course-learning-path.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true,
+      "homeJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南 | 昆明振润达商贸有限公司",
+      "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+        "description": "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "image": "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-10-29T22:10:36+08:00",
+        "dateModified": "2026-10-29T22:10:36+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+      "modified": "2026-10-29T22:10:36+08:00",
+      "descriptions": [
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8816/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "access",
+        "indexability",
+        "canonical",
+        "intent",
+        "content",
+        "snippet",
+        "links",
+        "experience"
+      ],
+      "caseRows": [
+        "not-indexed",
+        "weak-visibility",
+        "ctr-with-mix",
+        "click-no-enquiry"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#intent-boundary",
+        "#before-ranking",
+        "#seo-diagnosis",
+        "#page-example",
+        "#ranking-cases",
+        "#measurement",
+        "#pitfalls",
+        "#next-step"
+      ],
+      "ids": [
+        "intent-boundary",
+        "before-ranking",
+        "seo-diagnosis",
+        "diagnosis-caption",
+        "page-example",
+        "ranking-cases",
+        "measurement",
+        "pitfalls",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/seo-title-meta-basics.html#writing-examples",
+        "/articles/website-speed-mobile.html#diagnosis",
+        "/articles/seo-course-learning-path.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true,
+      "homeJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南 | 昆明振润达商贸有限公司",
+      "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+        "description": "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "image": "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEO",
+        "datePublished": "2026-10-29T22:10:36+08:00",
+        "dateModified": "2026-10-29T22:10:36+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+      "modified": "2026-10-29T22:10:36+08:00",
+      "descriptions": [
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。",
+        "谷歌自然排名怎么做？从抓取、收录、规范网址到搜索意图与内容，用八项排查、四种假设情境和同口径记录安排 SEO 优先级，分清自然搜索与广告排名。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg",
+        "https://shumaojs.com/assets/articles/organic-seo-ranking-plan-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8816/assets/articles/organic-seo-ranking-plan-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "access",
+        "indexability",
+        "canonical",
+        "intent",
+        "content",
+        "snippet",
+        "links",
+        "experience"
+      ],
+      "caseRows": [
+        "not-indexed",
+        "weak-visibility",
+        "ctr-with-mix",
+        "click-no-enquiry"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#intent-boundary",
+        "#before-ranking",
+        "#seo-diagnosis",
+        "#page-example",
+        "#ranking-cases",
+        "#measurement",
+        "#pitfalls",
+        "#next-step"
+      ],
+      "ids": [
+        "intent-boundary",
+        "before-ranking",
+        "seo-diagnosis",
+        "diagnosis-caption",
+        "page-example",
+        "ranking-cases",
+        "measurement",
+        "pitfalls",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-guide.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/seo-title-meta-basics.html#writing-examples",
+        "/articles/website-speed-mobile.html#diagnosis",
+        "/articles/seo-course-learning-path.html",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true,
+      "homeJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

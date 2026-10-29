@@ -4,18 +4,81 @@
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
+  "prioritySeedQueries": ["谷歌代投", "谷歌开户", "谷歌排名", "谷歌广告"],
+  "intentConfirmation": {"confirmedAt":"2026-10-28","query":"谷歌排名","ownerReply":"重点做自然搜索 SEO 排名","targetIntent":"organic-seo","plannerReply":"暂时没有，先用现有证据研究","googleSearchVolume":null,"seoDifficulty":null,"articleHumanReview":"not inherited from intent answer"},
   "clusters": [
     {
+      "cluster": "谷歌自然搜索 SEO 排名",
+      "language": "zh-Hans",
+      "intent": "informational",
+      "priority": "primary",
+      "targetUrl": "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+      "primaryKeywords": [
+        "谷歌排名",
+        "谷歌自然排名",
+        "谷歌 SEO 排名"
+      ],
+      "supportingKeywords": [
+        "谷歌排名怎么提升",
+        "Google 自然搜索优化",
+        "谷歌收录与排名区别",
+        "网站 SEO 排查"
+      ],
+      "evidence": {
+        "reviewedAt": "2026-10-28",
+        "ownerIntentConfirmation": "重点做自然搜索 SEO 排名",
+        "plannerAvailability": "暂时没有，先用现有证据研究",
+        "method": "Explicit owner intent plus public mixed broad/qualified organicSERP types and official technical/helpfulcontent/GSC/paid-organic guidance. Existing SEO pages are narrow title/cluster/learning guides; this original diagnostic pillar has a distinct overview task and links them. Not validated marketvolume, measured rankings or new commercialSEO service.",
+        "googleSearchVolume": null,
+        "seoDifficulty": null,
+        "countryDemandScaleVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-28-organic-seo/brief.md",
+        "humanReviewStatus": "pending; new article is not covered by mobile guide or intent confirmation"
+      },
+      "contentActions": [
+        "原创自然SEO主指南：八项排查、四种假设情境、产品类目教程分工及四项复盘记录",
+        "保留现有AdRank广告位置教程和美港本地化，不删除或取消收录；不新增未经确认SEO收费或保证",
+        "原创封面、静态内链、列表SEO分类、RSS和sitemap同步；单独等待正文人工审阅与后续抓取数据"
+      ]
+    },
+    {
       "cluster": "移动端落地页速度与咨询路径",
-      "releaseReview": {"sourceCommit":"7b08e4baa52382f31643726b538751bd6c031216","deployment":"Pages40696747580/job122845440537success,144CItestsallOK/fullmarker;6productionarticle+6hubcases0errors-overflow/websitepage1journey","humanReviewRequestedAt":"2026-10-28","humanReview":"pending; separate question actually delivered after verified production","scope":"three metrics/data scope/PSI missingINPexception, six conditional diagnoses, three hypothetical cases and four records; no actualfieldCWV/account/consent/clientresults approval"},
+      "releaseReview": {
+        "sourceCommit": "7b08e4baa52382f31643726b538751bd6c031216",
+        "deployment": "Pages40696747580/job122845440537success,144CItestsallOK/fullmarker;6productionarticle+6hubcases0errors-overflow/websitepage1journey",
+        "humanReviewRequestedAt": "2026-10-28",
+        "humanReview": "accepted; owner separately answered 内容符合，可保留 for7b08e4baa52382f31643726b538751bd6c031216 only",
+        "scope": "three metrics/data scope/PSI missingINPexception, six conditional diagnoses, three hypothetical cases and four records; no actualfieldCWV/account/consent/clientresults approval",
+        "humanReviewConfirmedAt": "2026-10-28"
+      },
       "language": "zh-Hans",
       "intent": "informational-commercial",
       "priority": "secondary-existing-page-quality",
       "targetUrl": "https://shumaojs.com/articles/website-speed-mobile.html",
-      "primaryKeywords": ["移动端落地页优化", "网站速度优化"],
-      "supportingKeywords": ["LCP INP CLS 区别", "手机表单提交失败", "落地页图片加载慢"],
-      "evidence": {"reviewedAt":"2026-10-28","method":"Existing source/publicGET200 has sound general advice but no metric scope/data caveats/conditional diagnosis or worked cases. Official WebVitals/PSI/LCP/INP/CLS sources support original existing-guide expansion. Latest actual28day1impression0clicksposition10/prior1at8, absent7dayrow notzero demand or US/HKqueryvolume. No newGSCperiod/PSI/GA4/edge/index action.","googleSearchVolume":null,"countryDemandVerified":false,"editorialBrief":"reports/editorial/2026-10-28-mobile-performance/brief.md","humanReviewStatus":"pending separately after verified production; prior service/tracking/handover/remarketing/SEOtitle approvals not inherited"},
-      "contentActions": ["保留原标题H1网址与9月11日发布日，升级现有教程，不新增同义页", "三项指标、PSI数据例外、六种排查、三种原创假设情境和四项复盘记录；不虚构本站实测或客户案例", "原创封面与列表分享元数据对齐，原CTA不变；不把提分当成真实用户达标或新业务承诺", "独立人工审阅后按更晚数据复盘，主商业服务及美港本地化保持稳定"]
+      "primaryKeywords": [
+        "移动端落地页优化",
+        "网站速度优化"
+      ],
+      "supportingKeywords": [
+        "LCP INP CLS 区别",
+        "手机表单提交失败",
+        "落地页图片加载慢"
+      ],
+      "evidence": {
+        "reviewedAt": "2026-10-28",
+        "method": "Existing source/publicGET200 has sound general advice but no metric scope/data caveats/conditional diagnosis or worked cases. Official WebVitals/PSI/LCP/INP/CLS sources support original existing-guide expansion. Latest actual28day1impression0clicksposition10/prior1at8, absent7dayrow notzero demand or US/HKqueryvolume. No newGSCperiod/PSI/GA4/edge/index action.",
+        "googleSearchVolume": null,
+        "countryDemandVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-28-mobile-performance/brief.md",
+        "humanReviewStatus": "Owner separately confirmed2026-10-28: 内容符合，可保留. Retain public body, title, URL, original publication and actualmodification date. No actualfieldCWV/account/tag/consent/results or otherarticle approval."
+      },
+      "contentActions": [
+        "保留原标题H1网址与9月11日发布日，升级现有教程，不新增同义页",
+        "三项指标、PSI数据例外、六种排查、三种原创假设情境和四项复盘记录；不虚构本站实测或客户案例",
+        "原创封面与列表分享元数据对齐，原CTA不变；不把提分当成真实用户达标或新业务承诺",
+        "独立人工审阅后按更晚数据复盘，主商业服务及美港本地化保持稳定",
+        "本篇已于10月28日单独人工确认可保留，保留正文与原有修改时间；不继承其他文章或账户操作认可"
+      ]
     },
     {
       "cluster": "内容集群与关键词页面映射",
@@ -110,20 +173,91 @@
       "intent": "commercial",
       "priority": "primary",
       "targetUrl": "https://shumaojs.com/google-ads.html",
-      "primaryKeywords": ["谷歌代投", "谷歌广告代投"],
-      "supportingKeywords": ["Google Ads 代运营", "谷歌广告投放管理", "谷歌广告优化"],
+      "primaryKeywords": [
+        "谷歌代投",
+        "谷歌广告代投"
+      ],
+      "supportingKeywords": [
+        "Google Ads 代运营",
+        "谷歌广告投放管理",
+        "谷歌广告优化",
+        "谷歌广告管理",
+        "Google Ads 优化",
+        "Google Ads 投放咨询",
+        "外贸谷歌推广",
+        "Google 搜索广告管理",
+        "Google Ads 投放服务"
+      ],
       "evidence": {
-        "reviewedAt": "2026-10-27",
-        "method": "Actual authorized GSC UI October19-25versus12-18:46/41impressions,1/0clicks. Exact谷歌代投8impressions/1click/3.6 directly maps togoogle-ads.html; query-country CN7/1,SG1/0, directCN+query page7/1 confirmed. Actual noncomparisondailytable reports clickOctober25PT, not inferredrollingdifference. September28-October25versusAugust31-September27:248/3impressions,1/1clicks,39queries31countries39pagesread. US/HK country totals are separate, not exactquerymarketvalidation. Prior6/0throughOctober24 retained historicalsnapshot. No stable rank, CTRexperiment, marketvolume, qualified enquiry, API-final or release-effect claim. No Wizard subscription retry or actual account action.",
-        "performanceSnapshot": "reports/search-console/2026-10-27-performance-follow-up.json",
+        "reviewedAt": "2026-10-28",
+        "method": "Latest genuine authorized GSC UI throughOctober26: exact谷歌代投11impressions/1click/average4, directly maps toservicepage; actualUS+query+page2impressions0clicks/6.5 andHK+query+page1/0/2. Country-specific sparse observedexposure, not marketdemandscale, stable ranking, SEOdifficulty or qualifiedenquiries. HistoricalOctober27snapshot retained; no fresh measurement or releaseeffect claimed.",
+        "performanceSnapshot": "reports/search-console/2026-10-28-performance-follow-up.json",
         "historical28DaySnapshot": "reports/search-console/2026-10-26-keyword-window.json",
-        "adjacentWeekFollowUp": {"snapshot": "reports/search-console/2026-10-26-weekly-market-follow-up.json", "period": "2026-10-18 through2026-10-24 versusOctober11-17", "directJointFilter": {"country": "US", "query": "google ads代运营", "page": "https://shumaojs.com/articles.html", "currentImpressions": 1, "previousImpressions": 0, "clicksBoth": 0, "currentPosition": 8, "previousPosition": null}, "meaning": "One directly observed US mixedSimplified query/page signal, not USvolume/stablerank, precise谷歌代投market validation or permission for a new landingpage. Earlier no-new7day sentence describes the initial28day checkpoint, superseded only by this separate genuine7day followup."},
+        "adjacentWeekFollowUp": {
+          "snapshot": "reports/search-console/2026-10-26-weekly-market-follow-up.json",
+          "period": "2026-10-18 through2026-10-24 versusOctober11-17",
+          "directJointFilter": {
+            "country": "US",
+            "query": "google ads代运营",
+            "page": "https://shumaojs.com/articles.html",
+            "currentImpressions": 1,
+            "previousImpressions": 0,
+            "clicksBoth": 0,
+            "currentPosition": 8,
+            "previousPosition": null
+          },
+          "meaning": "One directly observed US mixedSimplified query/page signal, not USvolume/stablerank, precise谷歌代投market validation or permission for a new landingpage. Earlier no-new7day sentence describes the initial28day checkpoint, superseded only by this separate genuine7day followup."
+        },
         "googleSearchVolume": null,
         "countryDemandVerified": false,
         "editorialBrief": "reports/editorial/2026-10-24-service-scope/brief.md",
-        "humanReviewStatus": "owner confirmed on 2026-10-24: 说明符合实际业务. Applies to setup/management/diagnostic scope, separate fee confirmation and handover explanation only; not unspecified prices, other articles or results"
+        "humanReviewStatus": "owner confirmed on 2026-10-24: 说明符合实际业务. Applies to setup/management/diagnostic scope, separate fee confirmation and handover explanation only; not unspecified prices, other articles or results",
+        "historicalObservedSnapshot": {
+          "reviewedAt": "2026-10-27",
+          "performanceSnapshot": "reports/search-console/2026-10-27-performance-follow-up.json",
+          "method": "Actual authorized GSC UI October19-25versus12-18:46/41impressions,1/0clicks. Exact谷歌代投8impressions/1click/3.6 directly maps togoogle-ads.html; query-country CN7/1,SG1/0, directCN+query page7/1 confirmed. Actual noncomparisondailytable reports clickOctober25PT, not inferredrollingdifference. September28-October25versusAugust31-September27:248/3impressions,1/1clicks,39queries31countries39pagesread. US/HK country totals are separate, not exactquerymarketvalidation. Prior6/0throughOctober24 retained historicalsnapshot. No stable rank, CTRexperiment, marketvolume, qualified enquiry, API-final or release-effect claim. No Wizard subscription retry or actual account action."
+        }
       },
-      "contentActions": ["保留已确认服务页标题、网址和范围；8次展示1次点击样本仍不足以测试标题或证明稳定排名", "直接联合筛选已确认谷歌代投中国7次展示1点击对应服务页，按日表为10月25日PT；新加坡1展示0点击，不等同美国香港需求或有效询盘", "优先解决已有HTTP200证据且本周仍出现2次展示的HTTP首页协议统一依赖；等待具体授权和登录，不反复催问或新建同义页", "其他简体目标词未出现在可见查询不等于零需求；保持美国英语和香港繁体页面，等待更晚可比周期及真实询盘测量，不虚构套餐、搜索量或发布因果"]
+      "contentActions": [
+        "保留已确认服务页正文、标题、网址和服务范围；合并同一服务网址的重复规划记录，不新增页面或改动收费承诺",
+        "最新直接联合筛选确认美国2展示0点击、香港1展示0点击对应谷歌代投与服务页；仅为稀疏可见信号，不是市场搜索量或稳定排名",
+        "查询语言与地区分开分析；其他简体目标词未出现在可见查询不等于零需求；等待更晚可比数据，不执行小样本标题实验",
+        "谷歌排名按站主确认分配给自然SEO主指南；本服务页继续聚焦谷歌代投与广告管理，不新增未经确认的SEO套餐"
+      ],
+      "observedSearchSignal": {
+        "reviewedAt": "2026-10-28",
+        "snapshot": "reports/search-console/2026-10-28-performance-follow-up.json",
+        "query": "谷歌代投",
+        "dates": [
+          "2026-10-20",
+          "2026-10-26",
+          "2026-10-13",
+          "2026-10-19"
+        ],
+        "queryImpressions": 11,
+        "queryClicks": 1,
+        "queryAveragePosition": 4,
+        "directCountryQueryPage": [
+          {
+            "country": "US",
+            "page": "https://shumaojs.com/google-ads.html",
+            "impressions": 2,
+            "clicks": 0,
+            "averagePosition": 6.5
+          },
+          {
+            "country": "HK",
+            "page": "https://shumaojs.com/google-ads.html",
+            "impressions": 1,
+            "clicks": 0,
+            "averagePosition": 2
+          }
+        ],
+        "observedCountryQueryPageSignal": true,
+        "countryDemandScaleVerified": false,
+        "googleSearchVolume": null,
+        "decision": "PrimarySimplified term is observed in both targetmarkets via actualjointfilters, not language-country inference. Sparse exposure not qualifieddemand or stable rank. Preserve approved existingservice/title/URL/contextual links, no duplicatepage or CTRexperiment; waitlatercomparablemeasurement. Otherprimaryqueries absentnotzero demand; no newaccount/GA4/edge/index action or causalreleasegain."
+      }
     },
     {
       "cluster": "谷歌广告开户流程",
@@ -149,14 +283,36 @@
       "intent": "informational",
       "priority": "primary",
       "targetUrl": "https://shumaojs.com/articles/google-search-ads-guide.html",
-      "primaryKeywords": ["谷歌排名", "谷歌广告排名"],
-      "supportingKeywords": ["Google Ads 广告位置", "广告评级 Ad Rank", "谷歌广告首页展示"],
-      "contentActions": ["保留原标题H1网址与9月11日发布日期，纠正旧Ads平均排名和顶部广告必在自然结果上方的过时说明", "六项评级因素与质量得分边界、三种同口径教学比例、四种条件排查和四项复盘记录，使用现有原创图，不新增同义薄页", "站主已单独确认本篇修订可保留；保留正文及原有修改时间，不继承其他文章认可或视为账户操作授权", "不承诺首页或第一名，不把自然GSC平均排名或少量展示当作Ads评级或市场搜索量"],
-      "accuracyReview": {"reviewedAt": "2026-10-26", "brief": "reports/editorial/2026-10-26-ad-rank/brief.md", "humanReview": "Owner separately confirmed October26: 内容符合，可保留. Six AdRank factors, top-placement definitions, three hypothetical ratios and four conditional diagnosis rows of80fe13e; no account, budget, results or other-article approval.", "demand": "Exact 谷歌排名 not present among39visible queries, not zero market demand. Revision justified by verifiable source defects, not CTR experiment or claimed volume."},
+      "primaryKeywords": [
+        "谷歌广告排名",
+        "谷歌搜索广告排名"
+      ],
+      "supportingKeywords": [
+        "Google Ads 广告位置",
+        "广告评级 Ad Rank",
+        "谷歌广告首页展示"
+      ],
+      "contentActions": [
+        "保留原标题H1网址与9月11日发布日期，纠正旧Ads平均排名和顶部广告必在自然结果上方的过时说明",
+        "六项评级因素与质量得分边界、三种同口径教学比例、四种条件排查和四项复盘记录，使用现有原创图，不新增同义薄页",
+        "站主已单独确认本篇修订可保留；保留正文及原有修改时间，不继承其他文章认可或视为账户操作授权",
+        "不承诺首页或第一名，不把自然GSC平均排名或少量展示当作Ads评级或市场搜索量"
+      ],
+      "accuracyReview": {
+        "reviewedAt": "2026-10-26",
+        "brief": "reports/editorial/2026-10-26-ad-rank/brief.md",
+        "humanReview": "Owner separately confirmed October26: 内容符合，可保留. Six AdRank factors, top-placement definitions, three hypothetical ratios and four conditional diagnosis rows of80fe13e; no account, budget, results or other-article approval.",
+        "demand": "Exact 谷歌排名 not present among39visible queries, not zero market demand. Revision justified by verifiable source defects, not CTR experiment or claimed volume."
+      },
       "linkIntentReview": {
         "reviewedAt": "2026-10-25",
         "evidence": "reports/recovery-links/2026-10-25/audit.md",
         "scope": "Five contextual labels and nested404 recovery; not new keyword volume, a new article or a measured ranking improvement"
+      },
+      "intentDecision": {
+        "confirmedAt": "2026-10-28",
+        "ownerReply": "重点做自然搜索 SEO 排名",
+        "decision": "Generic谷歌排名 seed maps to naturalSEO pillar; retain this approved AdRank tutorial, title/body/dates/URL and paid-specific qualifiers, not deletion or deindexing."
       }
     },
     {
@@ -165,9 +321,20 @@
       "intent": "informational-commercial",
       "priority": "primary",
       "targetUrl": "https://shumaojs.com/articles.html",
-      "primaryKeywords": ["谷歌广告", "Google Ads 教程"],
-      "supportingKeywords": ["谷歌广告怎么投", "谷歌广告费用", "谷歌广告关键词"],
-      "contentActions": ["文章列表首屏优先呈现简体中文开户、排名、费用和关键词内容", "保留全部47篇文章、原有分页和静态链接，为SEO、SEM、建站、GEO补充不同的主题说明", "分类仍是同一列表的筛选，不虚构独立类目网址；不声称新描述会直接提升排名"]
+      "primaryKeywords": [
+        "谷歌广告",
+        "Google Ads 教程"
+      ],
+      "supportingKeywords": [
+        "谷歌广告怎么投",
+        "谷歌广告费用",
+        "谷歌广告关键词"
+      ],
+      "contentActions": [
+        "文章列表首屏同时明确自然SEO排名与广告排名的区别，保留简体开户、费用及关键词内容",
+        "保留全部既有文章、两个评估工具、分页与静态链接，为SEO、SEM、建站、GEO保留不同主题说明",
+        "分类仍是同一列表的筛选，不虚构独立类目网址；不声称新描述会直接提升排名"
+      ]
     },
     {
       "cluster": "谷歌广告费用与有效询盘预算",
@@ -321,16 +488,7 @@
       "accuracyReview": {"reviewedAt": "2026-10-26", "brief": "reports/editorial/2026-10-26-reporting-dates/brief.md", "finding": "Source review verified date-basis ambiguity after7/3querysignal putexistingguide onreviewlist. Addinteraction/conversion/uploaddistinction and four-eventexample/fourchecks, retainingtitle/H1/URL/pub. Not CTRexperiment, newpage or measuredgain.", "humanReview": "Owner separately confirmed2026-10-27: 内容符合，可保留. HK three date meanings, four-event cross-month example and four reconciliation checks in98ab166; no inherited US/SEM approval or actual conversion upload/account implementation."},
       "contentActions": ["保留現有標題H1網址與9月29日發布日，不因7次展示改標題或新增同義頁", "修正同月資料直接對齊的日期口徑缺口，加入四事件跨月示例及四項核對，沿用自有原創概念圖", "本篇已於2026年10月27日獨立獲確認可保留；維持正文及修改日期，等候更晚周期，不視為帳戶操作或其他文章批准"]
     },
-    {
-      "cluster": "Google Ads 广告管理",
-      "observedSearchSignal": {"reviewedAt":"2026-10-28","snapshot":"reports/search-console/2026-10-28-performance-follow-up.json","query":"谷歌代投","dates":["2026-10-20","2026-10-26","2026-10-13","2026-10-19"],"queryImpressions":11,"queryClicks":1,"queryAveragePosition":4,"directCountryQueryPage":[{"country":"US","page":"https://shumaojs.com/google-ads.html","impressions":2,"clicks":0,"averagePosition":6.5},{"country":"HK","page":"https://shumaojs.com/google-ads.html","impressions":1,"clicks":0,"averagePosition":2}],"observedCountryQueryPageSignal":true,"countryDemandScaleVerified":false,"googleSearchVolume":null,"decision":"PrimarySimplified term is observed in both targetmarkets via actualjointfilters, not language-country inference. Sparse exposure not qualifieddemand or stable rank. Preserve approved existingservice/title/URL/contextual links, no duplicatepage or CTRexperiment; waitlatercomparablemeasurement. Otherprimaryqueries absentnotzero demand; no newaccount/GA4/edge/index action or causalreleasegain."},
-      "intent": "commercial",
-      "priority": "high",
-      "targetUrl": "https://shumaojs.com/google-ads.html",
-      "primaryKeywords": ["谷歌广告管理", "Google Ads 代运营", "Google Ads 优化", "Google Ads 投放咨询"],
-      "supportingKeywords": ["外贸谷歌推广", "Google 搜索广告管理", "谷歌广告优化", "Google Ads 投放服务"],
-      "contentActions": ["服务页首屏明确广告管理与客户自有账户边界", "增加搜索广告、PMax、购物广告等广告类型说明", "从相关文章持续内链到服务页"]
-    },
+
     {
       "cluster": "多平台广告代投",
       "language": "zh-Hans",

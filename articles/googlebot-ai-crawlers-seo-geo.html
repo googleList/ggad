@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响 | 昆明振润达商贸有限公司</title>
-  <meta name="description" content="Googlebot、网络爬虫和 AI 爬虫基础教程，说明它们如何发现、抓取、索引网站内容，以及对 SEO、GEO 和广告落地页的影响。">
+  <meta name="description" content="Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html">
   <meta property="og:title" content="Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响 | 昆明振润达商贸有限公司">
-  <meta property="og:description" content="Googlebot、网络爬虫和 AI 爬虫基础教程，说明它们如何发现、抓取、索引网站内容，以及对 SEO、GEO 和广告落地页的影响。">
+  <meta property="og:description" content="Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html">
-  <meta property="og:image" content="https://shumaojs.com/assets/og-cover.png">
+  <meta property="og:image" content="https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响 | 昆明振润达商贸有限公司">
-  <meta name="twitter:description" content="Googlebot、网络爬虫和 AI 爬虫基础教程，说明它们如何发现、抓取、索引网站内容，以及对 SEO、GEO 和广告落地页的影响。">
-  <meta name="twitter:image" content="https://shumaojs.com/assets/og-cover.png">
+  <meta name="twitter:description" content="Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。">
+  <meta name="twitter:image" content="https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg">
   <meta name="theme-color" content="#2f5fa7">
   <link rel="icon" href="../favicon.ico" sizes="any">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
@@ -28,12 +28,12 @@
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
-  "description": "Googlebot、网络爬虫和 AI 爬虫基础教程，说明它们如何发现、抓取、索引网站内容，以及对 SEO、GEO 和广告落地页的影响。",
-  "image": "https://shumaojs.com/assets/og-cover.png",
+  "description": "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+  "image": "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
   "inLanguage": "zh-CN",
   "articleSection": "GEO",
   "datePublished": "2026-09-11",
-  "dateModified": "2026-09-14",
+  "dateModified": "2026-10-29T22:21:37+08:00",
   "mainEntityOfPage": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
   "author": {
     "@type": "Organization",
@@ -109,72 +109,42 @@
   <main class="legal-content article-detail">
     <p class="label">GEO</p>
     <h1>Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响</h1>
-    <p class="legal-updated">最后更新：2026-09-11。本文为原创基础教程，适合正在做外贸网站、独立站、SEO、SEM 和 GEO 内容优化的团队阅读。</p>
-
-    <section>
-      <h2>Googlebot 是什么</h2>
-      <p>Googlebot 是 Google 用来访问网页的自动程序。它会发现网址、读取页面内容、理解页面主题，再把符合条件的页面放入搜索索引。只有页面能被抓取和索引，才有机会出现在 Google 搜索结果中。</p>
-      <p>对企业网站来说，Googlebot 能否顺利访问页面，直接影响产品页、服务页、文章页和广告落地页的搜索可见度。</p>
+    <p class="legal-updated">更新于 <time datetime="2026-10-29T22:21:37+08:00">2026 年 10 月 29 日</time>。爬虫能访问页面，不代表页面已收录、获得排名或被 AI 引用。先分清请求用途和控制范围，再判断该检查正文、索引指令还是访问规则；本文没有修改你的网站、广告账户或防火墙。</p>
+    <picture><source media="(max-width: 600px)" srcset="../assets/articles/crawler-control-scope-thumb-v1.webp" type="image/webp"><img class="article-cover" src="../assets/articles/crawler-control-scope-v1.jpg" alt="分别带有放大镜、齿轮和文档符号的三色资料夹，表示不同抓取用途的概念图" width="1200" height="675" fetchpriority="high" decoding="async"></picture>
+    <nav aria-label="爬虫与控制边界目录"><ul><li><a href="#bot-basics">先分清阶段</a></li><li><a href="#bot-roles">三类用途</a></li><li><a href="#control-scope">六项控制边界</a></li><li><a href="#verify-request">验证请求</a></li><li><a href="#cases">四种情境</a></li><li><a href="#review-records">复盘记录</a></li><li><a href="#next-step">下一步</a></li></ul></nav>
+    <section id="bot-basics"><h2>Googlebot 负责抓取，不等于“来过就收录”</h2><p>Googlebot 是 Google 搜索使用的抓取工具。发现网址、请求页面、呈现与分析内容、编入索引以及搜索时展示，是相关但不同的环节。日志中出现一次成功请求，最多能帮助确认那次访问，不能证明索引系统已接纳页面，更不能证明它会获得某个关键词的固定名次。</p><p>先看真实问题在哪一层：网址是否能访问，主要内容是否可读取，是否允许索引，Google 选择的规范网址是否符合预期，最后才讨论查询展示和点击。自然排名的整体排查见<a href="google-seo-ranking-guide.html#seo-diagnosis">谷歌自然搜索 SEO 指南</a>。提交 sitemap 主要帮助发现网址，不是保证收录的开关。</p></section>
+    <section id="bot-roles"><h2>Googlebot、AdsBot、Google-Extended 分别管什么</h2><p>以下按 2026 年 10 月 29 日核对的官方说明整理。产品令牌不一定对应一个单独的 HTTP 请求身份，不能把名称带有 Google 的请求全部当成同一种爬虫。</p>
+      <div class="article-table-wrap" role="region" aria-labelledby="roles-caption" tabindex="0"><table class="article-table"><caption id="roles-caption">搜索、广告检查与特定 AI 用途的区别</caption><thead><tr><th scope="col">名称</th><th scope="col">主要范围</th><th scope="col">排查时不要混淆</th></tr></thead><tbody>
+        <tr data-crawler-role="googlebot"><th scope="row">Googlebot</th><td>Google 搜索相关内容的抓取；常见抓取工具的自动抓取遵守适用的 robots.txt 规则</td><td>抓取成功不等于已索引，也不等于广告最终网址检查成功</td></tr>
+        <tr data-crawler-role="adsbot"><th scope="row">AdsBot-Google 与 AdsBot-Google-Mobile</th><td>Google Ads 网页广告质量检查，属于特殊情况抓取工具</td><td>官方列明它们忽略 robots.txt 的全局 <code>*</code> 组，需检查相应特定令牌；仍不能据此推断能绕过服务器访问限制</td></tr>
+        <tr data-crawler-role="extended"><th scope="row">Google-Extended</th><td>独立产品令牌，管理官方列出的部分 Gemini 模型训练及 Gemini/Vertex AI 建立依据用途</td><td>没有单独的 HTTP User-Agent；不影响网站列入 Google 搜索，也不是搜索排名信号</td></tr>
+      </tbody></table></div>
+      <p>前两类具体范围参见<a href="https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers" target="_blank" rel="noopener noreferrer">常见抓取工具</a>与<a href="https://developers.google.com/crawling/docs/crawlers-fetchers/google-special-case-crawlers" target="_blank" rel="noopener noreferrer">特殊情况抓取工具</a>。Google-Extended 不应被简化成“所有 Google AI 的总开关”，也不能据此推断其他公司的 AI 抓取规则。</p>
+      <p>对于 Google 搜索中的 AI Overviews 和 AI Mode，官方<a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer">AI 功能与网站说明</a>指出：作为支持链接的页面需已索引且有资格在搜索中显示摘要，仍遵循搜索技术要求；符合条件不保证展示。没有必须新增的 AI 文本文件或专用 schema。搜索 AI 功能的抓取与摘要控制，不能用 Google-Extended 的许可直接替代。</p></section>
+    <section id="control-scope"><h2>六项控制边界：访问、索引和摘要不能互相替代</h2><p>下表解释控制的用途，不是让你把六项都加到网站。对希望自然搜索展示的公开内容，误加限制反而可能阻断目标。任何实际修改前，先保存当前配置和预期影响范围。</p>
+      <div class="article-table-wrap" role="region" aria-labelledby="controls-caption" tabindex="0"><table class="article-table"><caption id="controls-caption">抓取、索引与摘要控制的适用范围</caption><thead><tr><th scope="col">控制</th><th scope="col">主要目的</th><th scope="col">关键边界</th></tr></thead><tbody>
+        <tr data-crawler-control="robots"><th scope="row">robots.txt</th><td>向遵守规则的爬虫表达路径抓取偏好</td><td>不是访问认证，也不保证网址从结果中消失；还需匹配实际抓取工具令牌、主机和路径</td></tr>
+        <tr data-crawler-control="noindex"><th scope="row">noindex</th><td>通过页面 meta 或响应头表达不在搜索结果中显示的指令</td><td>Google 必须能抓取并读取指令；被 robots.txt 或访问故障挡住时，不能假定它已生效</td></tr>
+        <tr data-crawler-control="nosnippet"><th scope="row">nosnippet</th><td>限制该页搜索文本摘要和视频预览</td><td>不是整页取消索引；Google 也将它用于限制页面内容作为 AI Overviews/AI Mode 的直接输入</td></tr>
+        <tr data-crawler-control="max-snippet"><th scope="row">max-snippet</th><td>限制自动提取的文字摘要字符数</td><td><code>0</code> 等同 nosnippet，<code>-1</code> 由 Google 选择长度；另行许可或结构化提供内容等情况有例外，不能当成通用版权或保密开关</td></tr>
+        <tr data-crawler-control="data-nosnippet"><th scope="row">data-nosnippet</th><td>排除指定部分文字用于搜索摘要</td><td>用于有效 HTML 的 span、div、section；布尔属性写成 false 仍表示存在，不是关闭；不等于取消索引或保护私密资料</td></tr>
+        <tr data-crawler-control="access"><th scope="row">访问认证与权限</th><td>保护不应公开的实际资源</td><td>私密内容应使用身份验证和访问权限，不依赖 robots.txt、自定义 AI 文件或摘要限制来保密</td></tr>
+      </tbody></table></div>
+      <p>细节与例外以<a href="https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag" target="_blank" rel="noopener noreferrer">robots meta 与摘要指令规范</a>为准。<a href="https://developers.google.com/search/docs/crawling-indexing/block-indexing" target="_blank" rel="noopener noreferrer">noindex 说明</a>专门提醒不要同时阻止读取指令；<a href="https://developers.google.com/search/docs/crawling-indexing/robots/intro" target="_blank" rel="noopener noreferrer">robots.txt 简介</a>也区分抓取偏好与保护私密资料。这里只解释 Google 的范围，不替其他平台作同样承诺。</p></section>
+    <section id="verify-request"><h2>日志写着 Googlebot，怎样确认是真的</h2><p>User-Agent 可以伪造。不要只凭字符串就放宽安全规则或认定 Google 抓取量上升。按<a href="https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests" target="_blank" rel="noopener noreferrer">官方请求验证方法</a>，可把实际来源 IP 与对应类别的官方 IP 范围核对，或对日志 IP 做反向 DNS，再对得到的官方域名做正向解析，核对是否返回原 IP。</p><p>常见抓取工具、特殊情况抓取工具及用户触发的提取工具有不同类别与验证范围。应按实际类别、完整域名边界与当前官方列表判断，而不是看到域名任意位置包含“google”就通过，也不要把一组旧 IP 永久写死。记录仅保留排查需要的信息，不公开包含客户参数或个人数据的原始日志。</p><p>响应 403、验证码或挑战页时，先确认是谁、请求哪个最终网址、命中哪条规则，再讨论最小范围修复。不要全面关闭 WAF，也不要向平台爬虫和正常用户提供不同业务内容；验证来源不是规避审核的办法。</p></section>
+    <section id="cases"><h2>四种假设情境：怎样决定下一步</h2><p>以下是假设教学记录，不是本站真实日志、客户案例、收录实测或 AI 引用成果。</p>
+      <article data-crawler-case="blocked-noindex"><h3>一：加了 noindex，却仍看到旧网址</h3><p>先核对实际页面与响应头，再看 robots.txt 和访问状态是否阻止 Google 读取新指令，以及存储抓取时间是否早于修改。不能只重复加标签；确认指令可被读取后等待后续处理，也不承诺即时从结果消失。私密资源先用真实访问控制保护。</p></article>
+      <article data-crawler-case="extended-search"><h3>二：限制了 Google-Extended，搜索 AI 仍出现相关内容</h3><p>先区分你看到的是搜索 AI 功能还是其他产品，以及规则适用范围。Google-Extended 不是搜索 AI 的统一退出方式；有摘要限制需求时核对搜索控制、读取到的 HTML 和后续抓取，不机械扩大成屏蔽全部 Googlebot。</p></article>
+      <article data-crawler-case="claimed-bot"><h3>三：日志自称 Googlebot，但返回 403</h3><p>先按 IP 类别或双向 DNS 验证来源，再保存对应路径、时间、状态及规则。若不是已验证的来源，不应为字符串放行；若确为目标抓取请求，则在获授权后检查最小必要的规则范围。没有实际日志就写待核实，不宣称防火墙已经修复。</p></article>
+      <article data-crawler-case="ads-only"><h3>四：自然搜索能找到页面，广告检查却失败</h3><p>分别核对广告最终网址、移动路径、特定 AdsBot 规则和服务器响应。自然结果存在不证明广告系统能正常访问当前目的页，也不保证广告政策审核通过。广告承接信息可按<a href="landing-page-checklist.html">落地页验收清单</a>检查，不用 SEO 索引状态替代广告诊断。</p></article>
     </section>
-
-    <section>
-      <h2>网络爬虫通常怎么工作</h2>
-      <p>多数搜索爬虫会经过三个步骤：发现、抓取、索引。发现是找到网址，抓取是读取页面，索引是判断页面内容是否值得进入搜索数据库。</p>
-      <ul>
-        <li><strong>发现：</strong>通过站内链接、外部链接、站点地图和已知网址找到新页面。</li>
-        <li><strong>抓取：</strong>下载 HTML、图片信息、脚本资源和页面结构。</li>
-        <li><strong>索引：</strong>分析主题、质量、重复度、语言、移动端体验和页面信任信号。</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>AI 爬虫和 Googlebot 有什么区别</h2>
-      <p>Googlebot 主要服务于 Google 搜索索引。AI 爬虫则可能来自不同 AI 平台，用于理解公开网页、补充回答来源或帮助模型生成摘要。它们都需要能读取页面，但关注点不完全相同。</p>
-      <p>SEO 更关注搜索引擎排名和点击，GEO 更关注内容是否容易被 AI 系统理解、摘取和引用。清楚的标题、稳定的实体信息、FAQ、结构化内容和可访问页面，对两者都有帮助。</p>
-    </section>
-
-    <section>
-      <h2>爬虫会怎样影响 SEO 和 GEO</h2>
-      <p>如果网站结构混乱、重要页面没有内部链接、移动端内容缺失、robots.txt 阻止抓取，搜索引擎和 AI 系统都可能看不到关键内容。页面写得再好，只要不能被读取，就很难带来搜索流量。</p>
-      <p>反过来，清楚的网站架构、稳定的页面标题、可索引的文章内容和一致的公司信息，会帮助搜索系统更快判断页面主题，也更适合被 AI 摘要理解。</p>
-    </section>
-
-    <section>
-      <h2>网站应该怎么优化爬虫访问</h2>
-      <ul>
-        <li>为核心页面建立清楚的导航和内部链接。</li>
-        <li>提交站点地图，并确保重要页面返回正常状态码。</li>
-        <li>避免把正文内容完全放在难以读取的脚本渲染里。</li>
-        <li>让手机端和桌面端展示一致的主要内容。</li>
-        <li>给图片写清楚的 alt 文本，帮助图片内容被理解。</li>
-        <li>定期检查 404、重复标题、空页面和加载过慢的问题。</li>
-        <li>在公司页、服务页、联系页和文章页保持主体信息一致。</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>广告落地页也需要考虑爬虫</h2>
-      <p>很多人只把爬虫优化当成 SEO 工作，其实广告落地页也需要可读、可信和结构清楚。页面上应该说明服务内容、公司主体、联系方式、隐私政策、服务条款和真实业务边界。</p>
-      <p>当页面信息清楚、加载稳定、移动端体验正常时，用户和平台系统都更容易理解你提供的服务，也更利于后续投放复盘。</p>
-    </section>
-
-    <section>
-      <h2>常见问题</h2>
-      <ul>
-        <li><strong>只提交 Sitemap 就够了吗？</strong>不够。Sitemap 能帮助发现网址，但页面质量、内部链接和索引条件仍然重要。</li>
-        <li><strong>AI 爬虫一定会访问我的网站吗？</strong>不一定。不同平台有自己的抓取规则，公开可访问和结构清楚的页面更容易被理解。</li>
-        <li><strong>GEO 是不是代替 SEO？</strong>不是。GEO 更像是在 SEO 基础上补充 AI 搜索可读性和实体信息一致性。</li>
-        <li><strong>新文章发布后多久收录？</strong>没有固定时间。网站权重、更新频率、内部链接、页面质量和抓取频率都会影响速度。</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>我们的建议</h2>
-      <p>如果你正在做外贸网站或广告投放，不要只关注页面视觉。先确保页面能被抓取、能被理解、能清楚说明业务，再考虑关键词、广告素材和预算放大。</p>
-      <p>昆明振润达商贸有限公司提供 SEO、SEM、GEO、落地页检查和多平台广告管理咨询。我们基于客户真实业务资料提供建议，不销售或代持广告账户。</p>
-    </section>
-
-    <section class="legal-cta" aria-label="咨询 SEO 和 GEO 页面检查">
+    <section id="review-records"><h2>四项复盘记录，避免把“允许访问”写成“优化成功”</h2><ol data-crawler-review>
+      <li><strong>网址与证据时间。</strong>记录协议、主机、路径、最终响应、正文与响应头；区分线上已部署、URL 检查的存储结果和实时测试，不把旧抓取当成新版本已处理。</li>
+      <li><strong>控制与授权范围。</strong>记录目标产品、具体令牌、页面或目录、修改前后差异及回退方法。权限、CDN 与 robots 是不同层，不擅自改变实际业务允许范围。</li>
+      <li><strong>结果分层。</strong>分别记录请求验证、抓取、索引、查询展示与实际点击。AI 引用需要对应可核实记录；没有明确拆分证据，不把全部自然流量写成 AI 流量。</li>
+      <li><strong>下一步条件。</strong>发现误挡先查路径与规则，信息缺失补可核对内容；未确认故障时保留现状。等待后续抓取和同口径数据，不为追求更新频率反复改指令、日期和网址。</li>
+    </ol><p>公开页面还应有清楚的<a href="seo-title-meta-basics.html">标题与描述</a>以及<a href="seo-content-cluster.html#page-map">相关页面入口</a>，但结构化信息、FAQ 或 llms.txt 都不能替代抓取与索引条件，也不保证引用、收录或自然排名。</p></section>
+    <section id="next-step" class="legal-cta" aria-label="咨询 SEO 和 GEO 页面检查">
       <h2>需要检查网站是否适合 SEO/GEO 和广告投放？</h2>
       <p>发送网站地址、目标市场和业务类型，我们可以先检查页面结构、主体信息、索引基础和广告落地页透明度。</p>
       <div class="legal-actions">

@@ -1,0 +1,597 @@
+{
+  "checkedAt": "2026-10-29T14:26:04.823Z",
+  "base": "http://127.0.0.1:8817/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响 | 昆明振润达商贸有限公司",
+      "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+        "description": "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "image": "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-29T22:21:37+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+      "modified": "2026-10-29T22:21:37+08:00",
+      "descriptions": [
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8817/assets/articles/crawler-control-scope-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "robots",
+        "noindex",
+        "nosnippet",
+        "max-snippet",
+        "data-nosnippet",
+        "access"
+      ],
+      "caseRows": [
+        "blocked-noindex",
+        "extended-search",
+        "claimed-bot",
+        "ads-only"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#bot-basics",
+        "#bot-roles",
+        "#control-scope",
+        "#verify-request",
+        "#cases",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-26o4e3",
+        "bot-basics",
+        "bot-roles",
+        "roles-caption",
+        "control-scope",
+        "controls-caption",
+        "verify-request",
+        "cases",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/landing-page-checklist.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响 | 昆明振润达商贸有限公司",
+      "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+        "description": "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "image": "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-29T22:21:37+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+      "modified": "2026-10-29T22:21:37+08:00",
+      "descriptions": [
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8817/assets/articles/crawler-control-scope-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "robots",
+        "noindex",
+        "nosnippet",
+        "max-snippet",
+        "data-nosnippet",
+        "access"
+      ],
+      "caseRows": [
+        "blocked-noindex",
+        "extended-search",
+        "claimed-bot",
+        "ads-only"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#bot-basics",
+        "#bot-roles",
+        "#control-scope",
+        "#verify-request",
+        "#cases",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-9lwbjd",
+        "bot-basics",
+        "bot-roles",
+        "roles-caption",
+        "control-scope",
+        "controls-caption",
+        "verify-request",
+        "cases",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/landing-page-checklist.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响 | 昆明振润达商贸有限公司",
+      "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+        "description": "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "image": "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-29T22:21:37+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+      "modified": "2026-10-29T22:21:37+08:00",
+      "descriptions": [
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8817/assets/articles/crawler-control-scope-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "robots",
+        "noindex",
+        "nosnippet",
+        "max-snippet",
+        "data-nosnippet",
+        "access"
+      ],
+      "caseRows": [
+        "blocked-noindex",
+        "extended-search",
+        "claimed-bot",
+        "ads-only"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#bot-basics",
+        "#bot-roles",
+        "#control-scope",
+        "#verify-request",
+        "#cases",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-qmzs3h",
+        "bot-basics",
+        "bot-roles",
+        "roles-caption",
+        "control-scope",
+        "controls-caption",
+        "verify-request",
+        "cases",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/landing-page-checklist.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响 | 昆明振润达商贸有限公司",
+      "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+        "description": "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "image": "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-29T22:21:37+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+      "modified": "2026-10-29T22:21:37+08:00",
+      "descriptions": [
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8817/assets/articles/crawler-control-scope-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "robots",
+        "noindex",
+        "nosnippet",
+        "max-snippet",
+        "data-nosnippet",
+        "access"
+      ],
+      "caseRows": [
+        "blocked-noindex",
+        "extended-search",
+        "claimed-bot",
+        "ads-only"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#bot-basics",
+        "#bot-roles",
+        "#control-scope",
+        "#verify-request",
+        "#cases",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-soaka5",
+        "bot-basics",
+        "bot-roles",
+        "roles-caption",
+        "control-scope",
+        "controls-caption",
+        "verify-request",
+        "cases",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/landing-page-checklist.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": 1,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响 | 昆明振润达商贸有限公司",
+      "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+        "description": "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "image": "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-29T22:21:37+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+      "modified": "2026-10-29T22:21:37+08:00",
+      "descriptions": [
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8817/assets/articles/crawler-control-scope-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "robots",
+        "noindex",
+        "nosnippet",
+        "max-snippet",
+        "data-nosnippet",
+        "access"
+      ],
+      "caseRows": [
+        "blocked-noindex",
+        "extended-search",
+        "claimed-bot",
+        "ads-only"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#bot-basics",
+        "#bot-roles",
+        "#control-scope",
+        "#verify-request",
+        "#cases",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "bot-basics",
+        "bot-roles",
+        "roles-caption",
+        "control-scope",
+        "controls-caption",
+        "verify-request",
+        "cases",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/landing-page-checklist.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响 | 昆明振润达商贸有限公司",
+      "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响",
+        "description": "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "image": "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-29T22:21:37+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+      "modified": "2026-10-29T22:21:37+08:00",
+      "descriptions": [
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。",
+        "Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg",
+        "https://shumaojs.com/assets/articles/crawler-control-scope-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8817/assets/articles/crawler-control-scope-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "diagnosisRows": [
+        "robots",
+        "noindex",
+        "nosnippet",
+        "max-snippet",
+        "data-nosnippet",
+        "access"
+      ],
+      "caseRows": [
+        "blocked-noindex",
+        "extended-search",
+        "claimed-bot",
+        "ads-only"
+      ],
+      "reviewRecords": 4,
+      "anchors": [
+        "#bot-basics",
+        "#bot-roles",
+        "#control-scope",
+        "#verify-request",
+        "#cases",
+        "#review-records",
+        "#next-step"
+      ],
+      "ids": [
+        "bot-basics",
+        "bot-roles",
+        "roles-caption",
+        "control-scope",
+        "controls-caption",
+        "verify-request",
+        "cases",
+        "review-records",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/landing-page-checklist.html",
+        "/articles/seo-title-meta-basics.html",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingPage": null,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

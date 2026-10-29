@@ -1,12 +1,43 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
   "prioritySeedQueries": ["谷歌代投", "谷歌开户", "谷歌排名", "谷歌广告"],
   "intentConfirmation": {"confirmedAt":"2026-10-28","query":"谷歌排名","ownerReply":"重点做自然搜索 SEO 排名","targetIntent":"organic-seo","plannerReply":"暂时没有，先用现有证据研究","googleSearchVolume":null,"seoDifficulty":null,"articleHumanReview":"not inherited from intent answer"},
   "clusters": [
+    {
+      "cluster": "Googlebot 与搜索及 AI 控制边界",
+      "language": "zh-Hans",
+      "intent": "informational",
+      "priority": "secondary-existing-page-accuracy",
+      "targetUrl": "https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html",
+      "primaryKeywords": [
+        "Googlebot 是什么",
+        "Google-Extended 与 Googlebot 区别"
+      ],
+      "supportingKeywords": [
+        "robots.txt 与 noindex 区别",
+        "AdsBot 抓取检查",
+        "Google AI 搜索摘要控制",
+        "验证 Googlebot"
+      ],
+      "evidence": {
+        "reviewedAt": "2026-10-29",
+        "method": "Source and publicGET200 confirm genericcrawl-index conflation, absent Extended/AdsBot/controls/verification/cases and genericshareimage. Officialcommon/specialcrawler/AIfeatures/robotsintro/meta/noindex/verification sources support existingpage accuracy correction. PublicSERP validates topicshape only; latestactualGSCthroughOctober26 not repolled.",
+        "googleSearchVolume": null,
+        "seoDifficulty": null,
+        "countryDemandScaleVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-29-crawler-controls/brief.md",
+        "humanReviewStatus": "pending separately, not inherited from organicintent/mobile/otherguide"
+      },
+      "contentActions": [
+        "保留原标题H1网址、GEO分类和9月11日发布日期；修订三类用途、六项控制、验证步骤、四种假设情境和四项复盘",
+        "原创封面同步列表/分享元数据/RSS和该页sitemap日期，链接自然SEO主指南；不新增薄页或商家标记",
+        "只改文章，不改实际robots/CDN/WAF/账户/摘要权限，待独立人工审稿和后续可比证据"
+      ]
+    },
     {
       "cluster": "谷歌自然搜索 SEO 排名",
       "language": "zh-Hans",

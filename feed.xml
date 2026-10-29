@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 14:10:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 14:21:37 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响</title>
+      <link>https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html</guid>
+      <description>Googlebot、AdsBot 与 Google-Extended 有什么不同？用六项控制边界、请求验证步骤和四种假设情境，分清抓取、收录、搜索摘要与 AI 用途，避免误挡重要页面。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>GEO</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>谷歌排名怎么提升？自然搜索 SEO 排查与优化指南</title>
       <link>https://shumaojs.com/articles/google-seo-ranking-guide.html</link>
@@ -417,15 +426,6 @@
       <link>https://shumaojs.com/articles/llms-txt-ai-search-guide.html</link>
       <guid isPermaLink="true">https://shumaojs.com/articles/llms-txt-ai-search-guide.html</guid>
       <description>llms.txt 完整教程，说明 llms.txt 是什么、和 robots.txt 及 sitemap.xml 的区别、适合哪些网站、怎么撰写、怎么上线，以及它对 GEO 和 AI 搜索优化的帮助。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>GEO</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响</title>
-      <link>https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html</guid>
-      <description>Googlebot、网络爬虫和 AI 爬虫基础教程，说明它们如何发现、抓取、索引网站内容，以及对 SEO、GEO 和广告落地页的影响。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>GEO</category>
       <dc:language>zh-CN</dc:language>

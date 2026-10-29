@@ -30,7 +30,8 @@
         "seoDifficulty": null,
         "countryDemandScaleVerified": false,
         "editorialBrief": "reports/editorial/2026-10-29-crawler-controls/brief.md",
-        "humanReviewStatus": "pending separately, not inherited from organicintent/mobile/otherguide"
+        "humanReviewStatus": "pending; own question actuallydeliveredOctober29 after verified000f8f2release/6productionarticle+6hubcases. Not inheritedorganicintent/mobile/otherguide.",
+        "release": {"sourceCommit":"000f8f24ab1310a53e59f3609c1a668693c3ef35","pagesRun":40892017186,"job":123511080055,"ciTests":165,"publicFiles":168,"markerMatched":true}
       },
       "contentActions": [
         "保留原标题H1网址、GEO分类和9月11日发布日期；修订三类用途、六项控制、验证步骤、四种假设情境和四项复盘",

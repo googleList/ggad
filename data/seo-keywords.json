@@ -33,7 +33,8 @@
         "seoDifficulty": null,
         "countryDemandScaleVerified": false,
         "editorialBrief": "reports/editorial/2026-10-28-organic-seo/brief.md",
-        "humanReviewStatus": "pending; new article is not covered by mobile guide or intent confirmation"
+        "humanReviewStatus": "pending; own question actually delivered2026-10-29 after verified d44835b release/6productionarticle+6hubcases. Not inherited from mobile guide or keyword intent answer",
+        "release": {"sourceCommit":"d44835b294716c02903f8b0b9c8997ebce989eba","pagesRun":40889572858,"job":123502384134,"ciTests":161,"publicFiles":166,"markerMatched":true}
       },
       "contentActions": [
         "原创自然SEO主指南：八项排查、四种假设情境、产品类目教程分工及四项复盘记录",

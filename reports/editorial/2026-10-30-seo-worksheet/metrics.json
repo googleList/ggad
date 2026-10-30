@@ -1,0 +1,45 @@
+{
+  "recordedAt": "2026-10-30T10:07:55.555Z",
+  "sourceRevision": "3c4ed51718b190cd0cba18b89c3f93b506926340",
+  "performance": {
+    "newPrivateRead": false,
+    "latestGenuineSnapshot": "reports/search-console/2026-10-29-official-comparison.json",
+    "dataThrough": "2026-10-27",
+    "googleKeywordVolume": null,
+    "seoDifficulty": null,
+    "ga4OrganicSessions": null,
+    "qualifiedEnquiries": null,
+    "fieldCoreWebVitals": null,
+    "releaseAttributedTrafficGain": null,
+    "note": "Do not reuse old exposures as this resource's results, infer country from language, or treat unavailable data as zero. No repeated same-window private data request or exhausted PageSpeed API retry."
+  },
+  "resource": {
+    "rows": 8,
+    "columns": 15,
+    "bytes": 3161,
+    "sha256": "2c71ddd1a9b689ac89fff2654a405216c1096d4df3b25f0a065bfb645ddaf4c3",
+    "utf8Bom": true,
+    "crlfRecords": 9,
+    "formulas": 0,
+    "humanReview": "pending; no inherited approval",
+    "trackedDownloads": null,
+    "note": "Six browser test downloads are release QA actions, not user engagement, analytics conversions, enquiries or ranking improvement."
+  },
+  "quality": {
+    "ciTests": 179,
+    "ciSkipped": 0,
+    "localSkipped": 1,
+    "productionCases": 6,
+    "productionExactDownloads": 6,
+    "pageErrors": 0,
+    "documentOverflow": 0,
+    "publicArtifactFilesIncludingMarker": 169,
+    "htmlPages": 67,
+    "sitemapPages": 65,
+    "articles": 47,
+    "hubItems": 49,
+    "rssItems": 47,
+    "tools": 2,
+    "orphans": 0
+  }
+}

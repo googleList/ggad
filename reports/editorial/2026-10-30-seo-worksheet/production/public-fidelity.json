@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-30T10:07:55.555Z",
+  "expectedRevision": "3c4ed51718b190cd0cba18b89c3f93b506926340",
+  "publicRevision": "3c4ed51718b190cd0cba18b89c3f93b506926340",
+  "results": [
+    {
+      "path": "articles/google-seo-ranking-guide.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 20794,
+      "comparison": "newline-normalized text",
+      "matchesSource": true,
+      "sha256": "b974b69e9d24dd8083b137e5fff8694fb8a71ecb928bd2173adfc811771aa04b"
+    },
+    {
+      "path": "assets/resources/organic-seo-audit-worksheet-v1.csv",
+      "status": 200,
+      "contentType": "text/csv; charset=utf-8",
+      "bytes": 3161,
+      "comparison": "exact bytes",
+      "matchesSource": true,
+      "sha256": "2c71ddd1a9b689ac89fff2654a405216c1096d4df3b25f0a065bfb645ddaf4c3"
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "bytes": 12781,
+      "comparison": "newline-normalized text",
+      "matchesSource": true,
+      "sha256": "538d3c226cfb148de152d03bcc5668421fcb8da6a450f611edd4b8da5ed59ddc"
+    },
+    {
+      "path": "feed.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "bytes": 28894,
+      "comparison": "newline-normalized text",
+      "matchesSource": true,
+      "sha256": "574a6d03f08f2d0fb40cbe231d7a6db6dfe1d66f211161c7f383e0c18ac81daa"
+    }
+  ]
+}

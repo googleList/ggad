@@ -1,0 +1,142 @@
+{
+  "reviewedAt": "2026-10-30",
+  "method": "ExistingofficialCSVthroughOctober27 + onepublicquerybatch + primarydocs + actualsourceaudit. Topic-shape validation only, notGooglelocalizedtop10 or searchvolume.",
+  "sourcesExcluded": "Competitorpricing/certification/firstpage/onehour/guarantees andirrelevantPDF/mirrors not adopted or copied.",
+  "topics": [
+    {
+      "seed": "谷歌开户",
+      "googleSearchVolume": null,
+      "seoDifficulty": null,
+      "USMarketDemandScaleVerified": false,
+      "HKMarketDemandScaleVerified": false,
+      "queryLanguage": "zh-Hans",
+      "geographySeparateFromLanguage": true,
+      "titleCandidatesAreNotABTest": true,
+      "intent": "Google Ads account preparation and billing, not account resale or generic personal Google login",
+      "target": "articles/google-ads-basics.html",
+      "anchors": [
+        "preparation",
+        "setup",
+        "location",
+        "verification",
+        "costs",
+        "first-review"
+      ],
+      "candidateQueries": [
+        "谷歌广告开户资料",
+        "谷歌开户费用",
+        "Google Ads 自主开户",
+        "美国投放 账单地区",
+        "香港投放 Google Ads 开户"
+      ],
+      "titleCandidates": [
+        "谷歌广告开户流程：账户准备与投放入门",
+        "谷歌开户需要哪些资料？账单、验证与权限清单",
+        "谷歌开户费用怎么分？广告费与服务费核对清单"
+      ],
+      "outline": [
+        "先区分注册、广告客户验证与广告审核",
+        "核对业务/网址/付款主体资料",
+        "按真实条件确认账单地区、币种与可用支付",
+        "账户权限和结束合作交接",
+        "分清服务费、媒体费及后台款项提示",
+        "以证据复盘首轮投放，不按固定天数改预算"
+      ],
+      "sources": [
+        "https://support.google.com/google-ads/answer/6366720?hl=zh-Hans",
+        "https://support.google.com/google-ads/answer/1704418?hl=zh-Hans"
+      ],
+      "observedEvidence": "PublicqualifiedSERP contains procedural, fee andagencyservice pages. Existing acceptedguide already haspreparation/setup/location/verification/costs/first-review. Exactseedabsentlatestreportablequeries notzerodemand.",
+      "publishAction": "preserve-reviewed-guide",
+      "updateTrigger": "A verified official process change, actual owner correction, or later repeated query+page evidence exposing a concrete unanswered question.",
+      "thumbnailPlan": "Retain existing original account-setup-readiness cover; no newimage needed forresearch-onlybatch.",
+      "humanReview": "Existing44794c6scope accepted; candidates/newbusinesspromises notapproved."
+    },
+    {
+      "seed": "谷歌排名",
+      "googleSearchVolume": null,
+      "seoDifficulty": null,
+      "USMarketDemandScaleVerified": false,
+      "HKMarketDemandScaleVerified": false,
+      "queryLanguage": "zh-Hans",
+      "geographySeparateFromLanguage": true,
+      "titleCandidatesAreNotABTest": true,
+      "intent": "Owner-confirmed natural search SEO target; paid-qualified Ad Rank queries remain a distinct route",
+      "target": "articles/google-seo-ranking-guide.html",
+      "anchors": [
+        "intent-boundary",
+        "seo-diagnosis",
+        "page-example",
+        "measurement"
+      ],
+      "candidateQueries": [
+        "谷歌自然排名怎么提升",
+        "谷歌 SEO 排名",
+        "网站收录后没有排名",
+        "Google SEO 页面优化"
+      ],
+      "titleCandidates": [
+        "谷歌排名怎么提升？自然搜索 SEO 排查与优化指南",
+        "谷歌自然排名优化：从收录到页面匹配的检查顺序",
+        "Google SEO 排名怎么看？证据与复盘清单"
+      ],
+      "outline": [
+        "区别自然搜索与付费位置",
+        "可访问/抓取/索引/展示/点击/询盘分层",
+        "按八项证据排查，不将清单当权重",
+        "产品类目/详情/教程的独立任务",
+        "用假设例子解释CTR分母与查询组合",
+        "保留同口径版本和地区记录"
+      ],
+      "sources": [
+        "https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=zh-cn"
+      ],
+      "observedEvidence": "Owner explicitly chose organicSEO. PublicqualifiedSERP contains officialSEOguide/tutorial/ranking-information types, not measuredUS/HKrankorvolume. Existingpillar deployedOctober29 afterlatestGSCcutoffOctober27.",
+      "publishAction": "await-independent-human-review",
+      "updateTrigger": "Own reviewer feedback or a verified fact defect; do not immediately rewrite newpillar due to absentqueryrows.",
+      "thumbnailPlan": "Retain original organic-seo-ranking-plan cover; no duplicate image or page.",
+      "humanReview": "OwnquestionOctober29stillpending, not inherited fromcrawler/mobileacceptance."
+    },
+    {
+      "seed": "谷歌广告",
+      "googleSearchVolume": null,
+      "seoDifficulty": null,
+      "USMarketDemandScaleVerified": false,
+      "HKMarketDemandScaleVerified": false,
+      "queryLanguage": "zh-Hans",
+      "geographySeparateFromLanguage": true,
+      "titleCandidatesAreNotABTest": true,
+      "intent": "Broad educational starting point routed by question; commercial management stays google-ads.html",
+      "target": "articles.html",
+      "anchors": [],
+      "candidateQueries": [
+        "谷歌广告怎么投",
+        "Google Ads 入门",
+        "谷歌广告预算怎么定",
+        "谷歌广告费用组成",
+        "谷歌广告与 SEO 区别"
+      ],
+      "titleCandidates": [
+        "谷歌代投、开户与 SEO 排名指南",
+        "谷歌广告入门：开户、预算与询盘追踪阅读指南",
+        "Google Ads 怎么投？按准备、设置和复盘阅读"
+      ],
+      "outline": [
+        "先选开户/代投/自然SEO任务",
+        "媒体预算与服务范围分开",
+        "关键词及搜索词教程入口",
+        "落地页与真实转化入口",
+        "单独提供广告位置与自然排名路径",
+        "SEO/SEM/建站/GEO分类与US/HK文章保留"
+      ],
+      "sources": [
+        "https://support.google.com/google-ads/answer/2375454?hl=zh-Hans"
+      ],
+      "observedEvidence": "Actualhubtitle/H1/CollectionPage/sharemetadata still said only广告排名 despitevisibleorganicguide/category. This is semantic alignment withowner intent, notCTRoptimization on4globalpageimpressions.",
+      "publishAction": "align-existing-hub-labels",
+      "updateTrigger": "This scopedlabelalignment isexecutednow; future substantivearticlechanges require distinct evidence/review.",
+      "thumbnailPlan": "No hero ornewcover; existing49cards remainwiththeir currentassets.",
+      "humanReview": "No newprices/cases/serviceguarantees; existingarticleapproval states unchanged."
+    }
+  ]
+}

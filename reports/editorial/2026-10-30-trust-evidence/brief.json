@@ -1,0 +1,39 @@
+{
+  "preparedAt": "2026-10-30",
+  "targetUrl": "https://shumaojs.com/articles/website-trust-pages.html",
+  "category": "建站",
+  "priorityLanguage": "zh-Hans",
+  "geographicAudiences": ["US", "HK"],
+  "primaryIntent": "Evaluate whether an advertising service website's business information is evidenced and consistent, not obtain an approval workaround.",
+  "candidateQueries": ["谷歌广告落地页审核要求", "谷歌代投服务信息核对", "广告网站信任页面", "Google Ads 网站公司信息"],
+  "googleSearchVolume": null,
+  "seoDifficulty": null,
+  "localizedMarketDemandVerified": false,
+  "research": {
+    "queries": ["谷歌广告 落地页 审核 公司信息 隐私政策", "Google Ads misrepresentation destination business information fees third party policy"],
+    "resultShape": "Policy, destination and data-disclosure questions surfaced; not a localized US/HK Google top-ten or keyword-volume study.",
+    "excluded": "Unofficial policy mirrors, other advertising platforms, forum claims and merchant-only checklists are not factual authorities or copied source text.",
+    "lastGscSnapshot": "reports/search-console/2026-10-29-official-comparison.json",
+    "dataThrough": "2026-10-27",
+    "priorityReason": "Existing checklist lacked evidence/unknown states and examples, had no original cover/native TOC; visible modification and sitemap dates differed. Existing cost guide already covers its core arithmetic and fee intent, so keep it unchanged."
+  },
+  "titleCandidates": ["广告投放站点必须补齐哪些信任页面", "谷歌广告网站信息怎么核对？主体、服务与费用清单", "广告落地页如何建立信任？从页面入口到业务证据"],
+  "selectedTitle": "广告投放站点必须补齐哪些信任页面",
+  "titleDecision": "Retain established title/URL; intro explicitly rejects fixed page-count or approval guarantees. Other candidates are drafts, not additional pages or a CTR test.",
+  "outline": ["Page existence versus actual business evidence versus policy result", "Six evidence fields and suggested locations", "Ad-to-page-to-quote-to-delivery checks", "Four hypothetical conditional diagnoses", "Four review records with unknown outcomes", "Different business models and actual navigation questions", "Existing company/contact/privacy/terms and service scope next steps"],
+  "sources": ["https://support.google.com/adspolicy/answer/6020955?hl=zh-Hans", "https://support.google.com/adspolicy/answer/6368661?hl=en", "https://support.google.com/adspolicy/answer/6086450?hl=zh-Hans", "https://support.google.com/adspolicy/answer/6020956?hl=zh-Hans"],
+  "originalPublication": "2026-09-11",
+  "substantiveModification": "2026-10-30T18:14:15+08:00",
+  "humanReviewScope": "This trust-page revision only; independent from every accepted article and actual account or legal review.",
+  "image": {
+    "method": "built-in image_gen; original conceptual still life, no real document or endorsement",
+    "source": "C:/Users/Administrator/.codex/generated_images/019ed496-55b8-7f00-b4a9-ff2aff163df3/exec-58ee3a53-536d-4e5d-9c6d-b76007fe7b35.png",
+    "cover": "assets/articles/site-trust-evidence-v1.jpg",
+    "coverDimensions": [1200, 675],
+    "thumbnail": "assets/articles/site-trust-evidence-thumb-v1.webp",
+    "thumbnailDimensions": [480, 270],
+    "alt": "放大镜与三份无品牌文件，示意交叉核对网站业务信息的原创概念图",
+    "prompt": "Original horizontal 16:9 professional editorial still life: bright white work surface, three unbranded folders, glass magnifier over blank abstract checklist lines, blue binder clip, small green tab and coral divider. Crisp paper texture and soft daylight. Blue/white with restrained green/coral. Clearly visible, balanced for article and thumbnail. No readable text, numbers, logo, license, approval stamp, badge, people, fake website or watermark. Concept is evidence comparison, not certification.",
+    "derivatives": "Sharp resized/encoded the original to versioned JPEG and WebP; no existing photo overwritten."
+  }
+}

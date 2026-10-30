@@ -8,6 +8,25 @@
   "intentConfirmation": {"confirmedAt":"2026-10-28","query":"谷歌排名","ownerReply":"重点做自然搜索 SEO 排名","targetIntent":"organic-seo","plannerReply":"暂时没有，先用现有证据研究","googleSearchVolume":null,"seoDifficulty":null,"articleHumanReview":"not inherited from intent answer"},
   "clusters": [
     {
+      "cluster": "广告网站业务证据与信息一致性",
+      "language": "zh-Hans",
+      "intent": "informational",
+      "priority": "secondary-existing-page-accuracy",
+      "targetUrl": "https://shumaojs.com/articles/website-trust-pages.html",
+      "primaryKeywords": ["广告网站信任页面", "谷歌代投服务信息核对"],
+      "supportingKeywords": ["Google Ads 网站公司信息", "广告网站费用披露", "广告落地页信息一致性"],
+      "evidence": {
+        "reviewedAt": "2026-10-30",
+        "method": "Existing generic page-list guide lacks evidence states/examples and original cover, with visible/schema versus sitemap modification mismatch. Actual public query searches show policy/destination/disclosure question types; primary Google policy pages support evidence-boundary corrections. Not a localized US/HK volume or ranking study; broad functional landing-page intent remains mapped to the accepted landing checklist.",
+        "googleSearchVolume": null,
+        "seoDifficulty": null,
+        "countryDemandScaleVerified": false,
+        "editorialBrief": "reports/editorial/2026-10-30-trust-evidence/brief.md",
+        "humanReviewStatus": "Independent review pending; cannot inherit crawler, service or other article acceptance."
+      },
+      "contentActions": ["Retain URL/title/September11 publication and website category; add six evidence checks, four conditional hypothetical cases, four review records and original responsive cover", "Separate business evidence from page count, actual delivery, verification, policy outcome and legal conclusions; no restored unconfirmed registration fields", "Keep accepted cost, landing, handover, service and localized articles stable; no new service fees, credentials, client outcomes, account actions or approval guarantees"]
+    },
+    {
       "cluster": "Googlebot 与搜索及 AI 控制边界",
       "language": "zh-Hans",
       "intent": "informational",

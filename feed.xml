@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Oct 2026 14:21:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 10:14:15 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>广告投放站点必须补齐哪些信任页面</title>
+      <link>https://shumaojs.com/articles/website-trust-pages.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/website-trust-pages.html</guid>
+      <description>用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>建站</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>Googlebot 是什么？网络爬虫和 AI 爬虫对 SEO/GEO 的影响</title>
       <link>https://shumaojs.com/articles/googlebot-ai-crawlers-seo-geo.html</link>
@@ -366,15 +375,6 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <category>Google Ads 帳戶管理</category>
       <dc:language>zh-Hant-HK</dc:language>
-    </item>
-    <item>
-      <title>广告投放站点必须补齐哪些信任页面</title>
-      <link>https://shumaojs.com/articles/website-trust-pages.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/website-trust-pages.html</guid>
-      <description>广告投放建站基础清单，说明公司介绍、联系页面、隐私政策、服务条款、退款说明和案例页面为什么重要。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>建站</category>
-      <dc:language>zh-CN</dc:language>
     </item>
     <item>
       <title>Meta 广告素材测试从哪些角度开始</title>

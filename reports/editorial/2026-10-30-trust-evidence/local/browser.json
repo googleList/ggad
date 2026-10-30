@@ -1,0 +1,615 @@
+{
+  "checkedAt": "2026-10-30T10:20:30.449Z",
+  "base": "http://127.0.0.1:8808/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "广告投放站点必须补齐哪些信任页面 | 昆明振润达商贸有限公司",
+      "headline": "广告投放站点必须补齐哪些信任页面",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "广告投放站点必须补齐哪些信任页面",
+        "description": "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "image": "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:14:15+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-trust-pages.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-trust-pages.html",
+      "modified": "2026-10-30T18:14:15+08:00",
+      "descriptions": [
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8808/assets/articles/site-trust-evidence-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "rows": [
+        "identity",
+        "scope",
+        "fees",
+        "contact",
+        "data",
+        "claims"
+      ],
+      "cases": [
+        "identity-mismatch",
+        "fee-mismatch",
+        "data-mismatch",
+        "verification-not-policy"
+      ],
+      "journey": 4,
+      "review": 4,
+      "anchors": [
+        "#trust-boundary",
+        "#evidence-checks",
+        "#consistency",
+        "#trust-cases",
+        "#review-records",
+        "#questions",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-0yesaa",
+        "trust-boundary",
+        "evidence-checks",
+        "trust-evidence-caption",
+        "consistency",
+        "trust-cases",
+        "review-records",
+        "questions",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-cost-guide.html#management-fees",
+        "/articles/landing-page-checklist.html#preflight",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/company.html",
+        "/contact.html",
+        "/privacy.html",
+        "/terms.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "广告投放站点必须补齐哪些信任页面 | 昆明振润达商贸有限公司",
+      "headline": "广告投放站点必须补齐哪些信任页面",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "广告投放站点必须补齐哪些信任页面",
+        "description": "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "image": "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:14:15+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-trust-pages.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-trust-pages.html",
+      "modified": "2026-10-30T18:14:15+08:00",
+      "descriptions": [
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8808/assets/articles/site-trust-evidence-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "rows": [
+        "identity",
+        "scope",
+        "fees",
+        "contact",
+        "data",
+        "claims"
+      ],
+      "cases": [
+        "identity-mismatch",
+        "fee-mismatch",
+        "data-mismatch",
+        "verification-not-policy"
+      ],
+      "journey": 4,
+      "review": 4,
+      "anchors": [
+        "#trust-boundary",
+        "#evidence-checks",
+        "#consistency",
+        "#trust-cases",
+        "#review-records",
+        "#questions",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-larw1d",
+        "trust-boundary",
+        "evidence-checks",
+        "trust-evidence-caption",
+        "consistency",
+        "trust-cases",
+        "review-records",
+        "questions",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-cost-guide.html#management-fees",
+        "/articles/landing-page-checklist.html#preflight",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/company.html",
+        "/contact.html",
+        "/privacy.html",
+        "/terms.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "广告投放站点必须补齐哪些信任页面 | 昆明振润达商贸有限公司",
+      "headline": "广告投放站点必须补齐哪些信任页面",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "广告投放站点必须补齐哪些信任页面",
+        "description": "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "image": "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:14:15+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-trust-pages.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-trust-pages.html",
+      "modified": "2026-10-30T18:14:15+08:00",
+      "descriptions": [
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8808/assets/articles/site-trust-evidence-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "rows": [
+        "identity",
+        "scope",
+        "fees",
+        "contact",
+        "data",
+        "claims"
+      ],
+      "cases": [
+        "identity-mismatch",
+        "fee-mismatch",
+        "data-mismatch",
+        "verification-not-policy"
+      ],
+      "journey": 4,
+      "review": 4,
+      "anchors": [
+        "#trust-boundary",
+        "#evidence-checks",
+        "#consistency",
+        "#trust-cases",
+        "#review-records",
+        "#questions",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-sbuy8i",
+        "trust-boundary",
+        "evidence-checks",
+        "trust-evidence-caption",
+        "consistency",
+        "trust-cases",
+        "review-records",
+        "questions",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-cost-guide.html#management-fees",
+        "/articles/landing-page-checklist.html#preflight",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/company.html",
+        "/contact.html",
+        "/privacy.html",
+        "/terms.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "广告投放站点必须补齐哪些信任页面 | 昆明振润达商贸有限公司",
+      "headline": "广告投放站点必须补齐哪些信任页面",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "广告投放站点必须补齐哪些信任页面",
+        "description": "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "image": "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:14:15+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-trust-pages.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-trust-pages.html",
+      "modified": "2026-10-30T18:14:15+08:00",
+      "descriptions": [
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8808/assets/articles/site-trust-evidence-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "rows": [
+        "identity",
+        "scope",
+        "fees",
+        "contact",
+        "data",
+        "claims"
+      ],
+      "cases": [
+        "identity-mismatch",
+        "fee-mismatch",
+        "data-mismatch",
+        "verification-not-policy"
+      ],
+      "journey": 4,
+      "review": 4,
+      "anchors": [
+        "#trust-boundary",
+        "#evidence-checks",
+        "#consistency",
+        "#trust-cases",
+        "#review-records",
+        "#questions",
+        "#next-step"
+      ],
+      "ids": [
+        "site-nav-1",
+        "nav-menu-1oejzx",
+        "trust-boundary",
+        "evidence-checks",
+        "trust-evidence-caption",
+        "consistency",
+        "trust-cases",
+        "review-records",
+        "questions",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-cost-guide.html#management-fees",
+        "/articles/landing-page-checklist.html#preflight",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/company.html",
+        "/contact.html",
+        "/privacy.html",
+        "/terms.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "广告投放站点必须补齐哪些信任页面 | 昆明振润达商贸有限公司",
+      "headline": "广告投放站点必须补齐哪些信任页面",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "广告投放站点必须补齐哪些信任页面",
+        "description": "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "image": "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:14:15+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-trust-pages.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-trust-pages.html",
+      "modified": "2026-10-30T18:14:15+08:00",
+      "descriptions": [
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8808/assets/articles/site-trust-evidence-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "rows": [
+        "identity",
+        "scope",
+        "fees",
+        "contact",
+        "data",
+        "claims"
+      ],
+      "cases": [
+        "identity-mismatch",
+        "fee-mismatch",
+        "data-mismatch",
+        "verification-not-policy"
+      ],
+      "journey": 4,
+      "review": 4,
+      "anchors": [
+        "#trust-boundary",
+        "#evidence-checks",
+        "#consistency",
+        "#trust-cases",
+        "#review-records",
+        "#questions",
+        "#next-step"
+      ],
+      "ids": [
+        "trust-boundary",
+        "evidence-checks",
+        "trust-evidence-caption",
+        "consistency",
+        "trust-cases",
+        "review-records",
+        "questions",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-cost-guide.html#management-fees",
+        "/articles/landing-page-checklist.html#preflight",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/company.html",
+        "/contact.html",
+        "/privacy.html",
+        "/terms.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "广告投放站点必须补齐哪些信任页面 | 昆明振润达商贸有限公司",
+      "headline": "广告投放站点必须补齐哪些信任页面",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "广告投放站点必须补齐哪些信任页面",
+        "description": "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "image": "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "建站",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:14:15+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/website-trust-pages.html",
+        "author": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "@id": "https://shumaojs.com/#organization"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "昆明振润达商贸有限公司",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          },
+          "@id": "https://shumaojs.com/#organization",
+          "url": "https://shumaojs.com/company.html"
+        }
+      },
+      "canonical": "https://shumaojs.com/articles/website-trust-pages.html",
+      "modified": "2026-10-30T18:14:15+08:00",
+      "descriptions": [
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。",
+        "用六项证据核对经营主体、服务范围、费用、联系渠道、数据处理和效果声明，结合四种假设情境检查广告落地页信息一致性，避免把补齐页面当作过审保证。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg",
+        "https://shumaojs.com/assets/articles/site-trust-evidence-v1.jpg"
+      ],
+      "cover": {
+        "src": "http://127.0.0.1:8808/assets/articles/site-trust-evidence-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "rows": [
+        "identity",
+        "scope",
+        "fees",
+        "contact",
+        "data",
+        "claims"
+      ],
+      "cases": [
+        "identity-mismatch",
+        "fee-mismatch",
+        "data-mismatch",
+        "verification-not-policy"
+      ],
+      "journey": 4,
+      "review": 4,
+      "anchors": [
+        "#trust-boundary",
+        "#evidence-checks",
+        "#consistency",
+        "#trust-cases",
+        "#review-records",
+        "#questions",
+        "#next-step"
+      ],
+      "ids": [
+        "trust-boundary",
+        "evidence-checks",
+        "trust-evidence-caption",
+        "consistency",
+        "trust-cases",
+        "review-records",
+        "questions",
+        "next-step"
+      ],
+      "links": [
+        "/articles/google-search-ads-cost-guide.html#management-fees",
+        "/articles/landing-page-checklist.html#preflight",
+        "/articles/sem-landing-tracking.html#acceptance-cases",
+        "/company.html",
+        "/contact.html",
+        "/privacy.html",
+        "/terms.html",
+        "/google-ads.html#service-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

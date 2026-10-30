@@ -1,0 +1,39 @@
+{
+  "preparedAt": "2026-10-30",
+  "targetUrl": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+  "category": "GEO",
+  "language": "zh-Hans",
+  "audiences": ["US", "HK"],
+  "candidateQueries": ["llms.txt 是什么", "llms.txt Google 排名", "llms.txt robots sitemap 区别", "llms.txt 怎么写"],
+  "googleSearchVolume": null,
+  "seoDifficulty": null,
+  "localizedDemandScaleVerified": false,
+  "research": {
+    "publicQuery": "llms.txt Google AI 搜索 需要吗 sitemap robots 区别",
+    "interpretation": "Definition, file comparison and actual support questions surfaced. No localized Google US/HK top-ten, volume, difficulty or traffic forecast.",
+    "priorityEvidence": "Actual old title called the proposal an AI search index file; text implied broad AI visibility benefits and root-only discovery, omitted current proposal v2/product distinctions and concrete evidence. Root directory retained obsolete AdRank title and repeated keyword block. Dates differed across visible/schema/sitemap. These are source defects, not inferred search demand.",
+    "excluded": "Forum anecdotes, unofficial mirrors, SEO guarantees and vendor broad claims are not technical authorities. Mintlify documentation used only for its own file-generation feature, not universal search-platform adoption.",
+    "gscSnapshot": "reports/search-console/2026-10-29-official-comparison.json",
+    "dataThrough": "2026-10-27",
+    "privateRead": false
+  },
+  "titleCandidates": ["llms.txt 是什么？作用、写法与 Google 搜索边界", "llms.txt 要做吗？提案、工具支持与维护检查", "llms.txt 与 robots、sitemap 有什么区别？"],
+  "selectedTitle": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+  "titleReason": "Correct misleading search-index implication, retain definition intent and existing URL. Not a CTR experiment, competitor rewrite or new synonym page.",
+  "outline": ["Proposal versus product support versus Google Search", "Six file/access/outcome boundaries", "Original public-site directory example", "Six publishing and maintenance checks", "Four hypothetical conditional diagnoses", "Four levels of observation with unknown outcomes", "Existing organic SEO and crawler next steps"],
+  "sources": ["https://llmstxt.org/", "https://llmstxt.org/changes.html", "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=zh-cn", "https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=zh-cn", "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview?hl=zh-cn", "https://www.mintlify.com/docs/ai/llmstxt"],
+  "originalPublication": "2026-09-11",
+  "substantiveModifiedAt": "2026-10-30T18:32:42+08:00",
+  "humanReviewScope": "This llms.txt article revision only; no inherited crawler, trust, service, organic-pillar or actual account approval.",
+  "image": {
+    "method": "built-in image_gen original conceptual still life",
+    "source": "C:/Users/Administrator/.codex/generated_images/019ed496-55b8-7f00-b4a9-ff2aff163df3/exec-c25a3815-35aa-4513-8425-ebe8bd563a79.png",
+    "cover": "assets/articles/llms-reading-guide-v1.jpg",
+    "coverDimensions": [1200, 675],
+    "thumbnail": "assets/articles/llms-reading-guide-thumb-v1.webp",
+    "thumbnailDimensions": [480, 270],
+    "prompt": "Create an original horizontal 16:9 editorial bitmap for a practical Chinese article about llms.txt as an optional reading guide, not a search-ranking mechanism. Professional conceptual studio still life: an open unbranded white reference booklet with a single cobalt-blue bookmark, a few separate loose abstract lined pages to the side, and small mint-green and coral page tabs. A clean bright cool-white tabletop and soft daylight. Crisp paper textures, tangible physical objects and a balanced wide composition with the full booklet clearly visible, suitable for a 480x270 thumbnail. The concept is a concise guide pointing to underlying documents. No text or letters, no numbers, no file extensions, no logos, no screens, no circuit board, no robots, no certificates, no approval stamps, no badges, no glowing elements, no decorative gradients. Do not suggest official endorsement, automatic AI citation, or performance results.",
+    "alt": "蓝色书签、打开的参考册与独立纸页，示意目录和详细内容的原创概念图",
+    "derivatives": "Sharp size/encoding only, new versioned JPEG and WebP; source and existing assets retained."
+  }
+}

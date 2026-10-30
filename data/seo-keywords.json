@@ -8,6 +8,17 @@
   "intentConfirmation": {"confirmedAt":"2026-10-28","query":"谷歌排名","ownerReply":"重点做自然搜索 SEO 排名","targetIntent":"organic-seo","plannerReply":"暂时没有，先用现有证据研究","googleSearchVolume":null,"seoDifficulty":null,"articleHumanReview":"not inherited from intent answer"},
   "clusters": [
     {
+      "cluster": "llms.txt 提案、工具支持与搜索边界",
+      "language": "zh-Hans",
+      "intent": "informational",
+      "priority": "secondary-existing-page-accuracy",
+      "targetUrl": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "primaryKeywords": ["llms.txt 是什么", "llms.txt 怎么写"],
+      "supportingKeywords": ["llms.txt Google 排名", "llms.txt robots sitemap 区别", "llms.txt v2"],
+      "evidence": {"reviewedAt":"2026-10-30","method":"Actual existing index-file/generalAIvisibility claims andstale directory labels versus primaryproposalv2/GoogleSearchscope. Publicquery validates definition/comparison/support intent only; no localizedUS-HKvolume or release-outcome inference.","googleSearchVolume":null,"seoDifficulty":null,"countryDemandScaleVerified":false,"editorialBrief":"reports/editorial/2026-10-30-llms-boundaries/brief.md","humanReviewStatus":"Independent revision review pending; no inherited crawler/trust/service/organic approval."},
+      "contentActions": ["SameURL/GEO/September11publication; correct misleadingtitle, actual substantive modifiedtime, sixboundaries/fourhypotheticalcases/fourrecords andoriginalresponsivecover", "Repair actualroot directory currentlabels andkeywordrepetition without inventing Markdowncopies, opening permissions or claiming AI platformuse", "Retain naturalSEO primary intent and commercial代投/setup pages; novolume/rank/referral/lead claim oraccountaction"]
+    },
+    {
       "cluster": "广告网站业务证据与信息一致性",
       "language": "zh-Hans",
       "intent": "informational",

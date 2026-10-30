@@ -251,6 +251,10 @@ def aggregate(rows: list[dict]) -> list[dict]:
     return sorted(priorities, key=lambda item: (-item["opportunityScore"], -item["impressions"]))
 
 
+def markdown_cell(value: str) -> str:
+    return re.sub(r"[\r\n\t]+", " ", value).replace("|", "\\|")
+
+
 def render_markdown(result: dict) -> str:
     lines = [
         "# Search Console Query Priorities",
@@ -272,9 +276,9 @@ def render_markdown(result: dict) -> str:
         lines.append("| # | Theme | Country | Query | Page | Clicks | Impressions | CTR | Position | Score | Recommended action |")
         lines.append("|---:|---|:---:|---|---|---:|---:|---:|---:|---:|---|")
         for index, item in enumerate(simplified[:50], start=1):
-            query = item["query"].replace("|", "\\|")
-            page = item["page"].replace("|", "\\|")
-            action = item["recommendedAction"].replace("|", "\\|")
+            query = markdown_cell(item["query"])
+            page = markdown_cell(item["page"])
+            action = markdown_cell(item["recommendedAction"])
             lines.append(
                 f"| {index} | {item['simplifiedTheme']} | {item['market']} | {query} | {page} | {item['clicks']:g} | "
                 f"{item['impressions']:g} | {item['ctr']:.2%} | {item['position']:.2f} | {item['opportunityScore']:.4f} | {action} |"
@@ -287,8 +291,8 @@ def render_markdown(result: dict) -> str:
         lines.append("| # | Focus | Country | Query | Page | Clicks | Impressions | CTR | Position | Score |")
         lines.append("|---:|---|:---:|---|---|---:|---:|---:|---:|---:|")
         for index, item in enumerate(result["priorities"][:100], start=1):
-            query = item["query"].replace("|", "\\|")
-            page = item["page"].replace("|", "\\|")
+            query = markdown_cell(item["query"])
+            page = markdown_cell(item["page"])
             lines.append(
                 f"| {index} | {item['simplifiedTheme'] or 'Other'} | {item['market']} | {query} | {page} | {item['clicks']:g} | "
                 f"{item['impressions']:g} | {item['ctr']:.2%} | {item['position']:.2f} | {item['opportunityScore']:.4f} |"

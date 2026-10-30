@@ -29,8 +29,7 @@ Mapped pages with fewer than 100 impressions receive an observe-first action. Th
 | 7 | Other | UNASSIGNED | adwords management cost | (not supplied) | 0 | 4 | 0.00% | 43.75 | 1.0461 |
 | 8 | Other | UNASSIGNED | 點擊收費廣告 | (not supplied) | 0 | 1 | 0.00% | 14.00 | 0.8664 |
 | 9 | Other | UNASSIGNED | google ads audit | (not supplied) | 0 | 18 | 0.00% | 95.50 | 0.7361 |
-| 10 | Other | UNASSIGNED | site:support.google.com/google-ads "enhanced conversions for leads" 
-"qualified" | (not supplied) | 0 | 1 | 0.00% | 5.00 | 0.6931 |
+| 10 | Other | UNASSIGNED | site:support.google.com/google-ads "enhanced conversions for leads"  "qualified" | (not supplied) | 0 | 1 | 0.00% | 5.00 | 0.6931 |
 | 11 | Other | UNASSIGNED | "enhanced conversions for leads" "qualified" site:support.google.com | (not supplied) | 0 | 1 | 0.00% | 6.00 | 0.6931 |
 | 12 | Other | UNASSIGNED | google廣告代理公司 | (not supplied) | 0 | 1 | 0.00% | 9.00 | 0.6931 |
 | 13 | Other | UNASSIGNED | 強化轉換 | (not supplied) | 0 | 1 | 0.00% | 10.00 | 0.6931 |

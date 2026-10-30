@@ -3,7 +3,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from scripts.prioritize_search_console import header_map, read_rows, aggregate
+from scripts.prioritize_search_console import header_map, read_rows, aggregate, markdown_cell, render_markdown
 
 ROOT = Path(__file__).parents[1]
 
@@ -60,6 +60,17 @@ class OfficialComparisonTests(unittest.TestCase):
     def test_simple_export_compatibility(self):
         fields = header_map(["query", "page", "country", "clicks", "impressions", "ctr", "position"])
         self.assertEqual(len(fields), 7)
+
+    def test_multiline_query_does_not_break_markdown_rows(self):
+        query = "site:example.com \nquoted\tquery | sample"
+        self.assertEqual(markdown_cell(query), "site:example.com  quoted query \\| sample")
+        row = {"market": "UNASSIGNED", "query": query, "page": "", "clicks": 0,
+               "impressions": 1, "ctr": 0, "position": 5, "source": "queries.csv"}
+        result = {"generatedAt": "2026-10-30", "notes": [], "priorities": aggregate([row])}
+        report = render_markdown(result)
+        self.assertEqual(sum(line.startswith("| 1 |") for line in report.splitlines()), 1)
+        self.assertNotIn("\nquoted", report)
+        self.assertEqual(row["query"], query)
 
 
 if __name__ == "__main__":

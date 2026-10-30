@@ -1,0 +1,4816 @@
+{
+  "schemaVersion": 1,
+  "property": "sc-domain:shumaojs.com",
+  "asOfDatePT": "2026-10-30",
+  "sourceSnapshot": "2026-10-29-official-comparison.json",
+  "sourceObservedDateAsRecorded": "2026-10-29",
+  "inputEvidenceFingerprint": "6208cf6884183d7932a88ff890674a0fbd981a988c74ad64bdbc814d10dcde30",
+  "inputEvidenceChangedSinceBaseline": null,
+  "performsAccountRead": false,
+  "windowsCombined": false,
+  "tablesJoined": false,
+  "windows": {
+    "weekly": {
+      "dates": {
+        "current": [
+          "2026-10-21",
+          "2026-10-27"
+        ],
+        "previous": [
+          "2026-10-14",
+          "2026-10-20"
+        ]
+      },
+      "freshness": {
+        "dataThrough": "2026-10-27",
+        "dataAgeDays": 3,
+        "expectedThroughByPolicy": "2026-10-27",
+        "status": "matches_lag_policy",
+        "isApiFinalnessProof": false
+      },
+      "archive": "reports/search-console/2026-10-29-exports/weekly.zip",
+      "sha256": "73424759eafbac5dd64548225849c71759fd4ddd3cbb9466dbb0005e9e797991",
+      "filters": {
+        "搜索类型": "网页（基于文本）",
+        "日期": "过去 7 天"
+      },
+      "tables": {
+        "query": {
+          "sourceFile": "查询数.csv",
+          "rows": [
+            {
+              "value": "谷歌代投",
+              "current": {
+                "clicks": 1,
+                "impressions": 13,
+                "reportedCtrPercent": 7.69,
+                "ctrFromCountsPercent": 7.6923076923076925,
+                "averagePosition": 3.54,
+                "reportedAveragePosition": 3.54
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 1,
+                "impressions": 13,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads 報告",
+              "current": {
+                "clicks": 0,
+                "impressions": 7,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 22.43,
+                "reportedAveragePosition": 22.43
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 28.5,
+                "reportedAveragePosition": 28.5
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -6.07
+              }
+            },
+            {
+              "value": "google ads代运营",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 59.0,
+                "reportedAveragePosition": 59.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google display ads hong kong",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 33.5,
+                "reportedAveragePosition": 33.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 33.0,
+                "reportedAveragePosition": 33.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 0.5
+              }
+            },
+            {
+              "value": "adwords audit hong kong",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 50.5,
+                "reportedAveragePosition": 50.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 27.0,
+                "reportedAveragePosition": 27.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 23.5
+              }
+            },
+            {
+              "value": "香港google廣告公司",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 62.5,
+                "reportedAveragePosition": 62.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 65.5,
+                "reportedAveragePosition": 65.5
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -3.0
+              }
+            },
+            {
+              "value": "search ads evaluation form",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 3.0,
+                "reportedAveragePosition": 3.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 8,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 5.75,
+                "reportedAveragePosition": 5.75
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -7,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -2.75
+              }
+            },
+            {
+              "value": "google ads agency oversight consultant",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 55.0,
+                "reportedAveragePosition": 55.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google 廣告收費",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 59.0,
+                "reportedAveragePosition": 59.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 60.0,
+                "reportedAveragePosition": 60.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -1.0
+              }
+            },
+            {
+              "value": "adwords hk",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 96.0,
+                "reportedAveragePosition": 96.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads management cost",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 91.0,
+                "reportedAveragePosition": 91.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads management account audit checklist",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 96.0,
+                "reportedAveragePosition": 96.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            }
+          ],
+          "reportedRowTotalsNotPropertyTotals": {
+            "current": {
+              "clicks": 1,
+              "impressions": 33,
+              "ctrFromCountsPercent": 3.0303030303030303
+            },
+            "previous": {
+              "clicks": 0,
+              "impressions": 22,
+              "ctrFromCountsPercent": 0.0
+            }
+          },
+          "scope": "Independent table; no query/page/country/device join is available."
+        },
+        "page": {
+          "sourceFile": "网页.csv",
+          "rows": [
+            {
+              "value": "https://shumaojs.com/google-ads.html",
+              "current": {
+                "clicks": 1,
+                "impressions": 15,
+                "reportedCtrPercent": 6.67,
+                "ctrFromCountsPercent": 6.666666666666667,
+                "averagePosition": 4.4,
+                "reportedAveragePosition": 4.4
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.0,
+                "reportedAveragePosition": 10.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 1,
+                "impressions": 13,
+                "ctrFromCountsPercent": 6.666666666666667,
+                "averagePosition": -5.6
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 8,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 20.88,
+                "reportedAveragePosition": 20.88
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 28.5,
+                "reportedAveragePosition": 28.5
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 4,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -7.62
+              }
+            },
+            {
+              "value": "https://shumaojs.com/google-ads-agency-checklist-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 17.0,
+                "reportedAveragePosition": 17.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 8,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 5.75,
+                "reportedAveragePosition": 5.75
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -4,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 11.25
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 46.0,
+                "reportedAveragePosition": 46.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 4,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/google-ads-agency-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 69.0,
+                "reportedAveragePosition": 69.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 57.0,
+                "reportedAveragePosition": 57.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 12.0
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 5.0,
+                "reportedAveragePosition": 5.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "http://shumaojs.com/",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 1.0,
+                "reportedAveragePosition": 1.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-conversion-tracking-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 3.5,
+                "reportedAveragePosition": 3.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/performance-max-basics.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 18.0,
+                "reportedAveragePosition": 18.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -12.0
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-landing-page-checklist-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.5,
+                "reportedAveragePosition": 6.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 87.0,
+                "reportedAveragePosition": 87.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -80.5
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/meta-creative-testing.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.5,
+                "reportedAveragePosition": 6.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-search-ads-guide.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 9.5,
+                "reportedAveragePosition": 9.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-basics.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 17.5,
+                "reportedAveragePosition": 17.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-landing-page-checklist-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 33.5,
+                "reportedAveragePosition": 33.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 33.0,
+                "reportedAveragePosition": 33.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 0.5
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 50.5,
+                "reportedAveragePosition": 50.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 27.0,
+                "reportedAveragePosition": 27.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 23.5
+              }
+            },
+            {
+              "value": "https://shumaojs.com/facebook-ads.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 2.0,
+                "reportedAveragePosition": 2.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/google-ads-management-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 3.0,
+                "reportedAveragePosition": 3.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 96.0,
+                "reportedAveragePosition": 96.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -2,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -90.0
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-management-cost-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 91.0,
+                "reportedAveragePosition": 91.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -2,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -85.0
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 8.0,
+                "reportedAveragePosition": 8.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/x-ads.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 8.0,
+                "reportedAveragePosition": 8.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 44.0,
+                "reportedAveragePosition": 44.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -36.0
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 9.0,
+                "reportedAveragePosition": 9.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-cost-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 59.0,
+                "reportedAveragePosition": 59.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 60.0,
+                "reportedAveragePosition": 60.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -1.0
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-account-ownership-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.0,
+                "reportedAveragePosition": 10.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.0,
+                "reportedAveragePosition": 10.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-account-access-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 11.0,
+                "reportedAveragePosition": 11.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            }
+          ],
+          "reportedRowTotalsNotPropertyTotals": {
+            "current": {
+              "clicks": 1,
+              "impressions": 67,
+              "ctrFromCountsPercent": 1.4925373134328357
+            },
+            "previous": {
+              "clicks": 0,
+              "impressions": 33,
+              "ctrFromCountsPercent": 0.0
+            }
+          },
+          "scope": "Independent table; no query/page/country/device join is available."
+        },
+        "country": {
+          "sourceFile": "国家_地区.csv",
+          "rows": [
+            {
+              "value": "中国",
+              "current": {
+                "clicks": 1,
+                "impressions": 9,
+                "reportedCtrPercent": 11.11,
+                "ctrFromCountsPercent": 11.11111111111111,
+                "averagePosition": 3.33,
+                "reportedAveragePosition": 3.33
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 21.33,
+                "reportedAveragePosition": 21.33
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 1,
+                "impressions": 6,
+                "ctrFromCountsPercent": 11.11111111111111,
+                "averagePosition": -18.0
+              }
+            },
+            {
+              "value": "中国香港",
+              "current": {
+                "clicks": 0,
+                "impressions": 19,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 34.63,
+                "reportedAveragePosition": 34.63
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 10,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 38.6,
+                "reportedAveragePosition": 38.6
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 9,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -3.97
+              }
+            },
+            {
+              "value": "美国",
+              "current": {
+                "clicks": 0,
+                "impressions": 10,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.7,
+                "reportedAveragePosition": 10.7
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 15,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 41.13,
+                "reportedAveragePosition": 41.13
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -5,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -30.43
+              }
+            },
+            {
+              "value": "新加坡",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 1.0,
+                "reportedAveragePosition": 1.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "瑞典",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 2.0,
+                "reportedAveragePosition": 2.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "新西兰",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 4.0,
+                "reportedAveragePosition": 4.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "芬兰",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "法国",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 17.0,
+                "reportedAveragePosition": 17.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -11.0
+              }
+            },
+            {
+              "value": "巴西",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 8.0,
+                "reportedAveragePosition": 8.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "巴拿马",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 9.0,
+                "reportedAveragePosition": 9.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "约旦",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 69.0,
+                "reportedAveragePosition": 69.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "澳大利亚",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 100.0,
+                "reportedAveragePosition": 100.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "澳门",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.0,
+                "reportedAveragePosition": 10.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "越南",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 18.0,
+                "reportedAveragePosition": 18.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "孟加拉",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 87.0,
+                "reportedAveragePosition": 87.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            }
+          ],
+          "reportedRowTotalsNotPropertyTotals": {
+            "current": {
+              "clicks": 1,
+              "impressions": 48,
+              "ctrFromCountsPercent": 2.083333333333333
+            },
+            "previous": {
+              "clicks": 0,
+              "impressions": 32,
+              "ctrFromCountsPercent": 0.0
+            }
+          },
+          "scope": "Independent table; no query/page/country/device join is available."
+        },
+        "device": {
+          "sourceFile": "设备.csv",
+          "rows": [
+            {
+              "value": "桌面",
+              "current": {
+                "clicks": 1,
+                "impressions": 35,
+                "reportedCtrPercent": 2.86,
+                "ctrFromCountsPercent": 2.857142857142857,
+                "averagePosition": 16.83,
+                "reportedAveragePosition": 16.83
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 24,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 39.71,
+                "reportedAveragePosition": 39.71
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 1,
+                "impressions": 11,
+                "ctrFromCountsPercent": 2.857142857142857,
+                "averagePosition": -22.88
+              }
+            },
+            {
+              "value": "移动设备",
+              "current": {
+                "clicks": 0,
+                "impressions": 13,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 31.69,
+                "reportedAveragePosition": 31.69
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 7,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 26.57,
+                "reportedAveragePosition": 26.57
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 6,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 5.12
+              }
+            },
+            {
+              "value": "平板电脑",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 60.0,
+                "reportedAveragePosition": 60.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            }
+          ],
+          "reportedRowTotalsNotPropertyTotals": {
+            "current": {
+              "clicks": 1,
+              "impressions": 48,
+              "ctrFromCountsPercent": 2.083333333333333
+            },
+            "previous": {
+              "clicks": 0,
+              "impressions": 32,
+              "ctrFromCountsPercent": 0.0
+            }
+          },
+          "scope": "Independent table; no query/page/country/device join is available."
+        }
+      },
+      "otherTables": [
+        {
+          "file": "搜索结果呈现.csv",
+          "rowCount": 0,
+          "status": "outside_comparison_scope_not_zero"
+        }
+      ],
+      "propertyUi": {
+        "current": {
+          "clicks": 1,
+          "impressions": 48,
+          "reportedCtrPercent": 2.1,
+          "ctrFromCountsPercent": 2.0833333333333335,
+          "averagePosition": 20.9,
+          "reportedAveragePosition": 20.9
+        },
+        "previous": {
+          "clicks": 0,
+          "impressions": 32,
+          "reportedCtrPercent": 0.0,
+          "ctrFromCountsPercent": 0.0,
+          "averagePosition": 37.5,
+          "reportedAveragePosition": 37.5
+        },
+        "changeCurrentMinusPrevious": {
+          "clicks": 1,
+          "impressions": 16,
+          "ctrFromCountsPercent": 2.0833333333333335,
+          "averagePosition": -16.6
+        },
+        "source": "Previously observed visible UI cards; average position and exported CTR can be rounded. Not table sums."
+      },
+      "exactSeeds": [
+        {
+          "query": "谷歌代投",
+          "rowPresent": true,
+          "metrics": {
+            "value": "谷歌代投",
+            "current": {
+              "clicks": 1,
+              "impressions": 13,
+              "reportedCtrPercent": 7.69,
+              "ctrFromCountsPercent": 7.6923076923076925,
+              "averagePosition": 3.54,
+              "reportedAveragePosition": 3.54
+            },
+            "previous": {
+              "clicks": 0,
+              "impressions": 0,
+              "reportedCtrPercent": 0.0,
+              "ctrFromCountsPercent": null,
+              "averagePosition": null,
+              "reportedAveragePosition": 0.0
+            },
+            "changeCurrentMinusPrevious": {
+              "clicks": 1,
+              "impressions": 13,
+              "ctrFromCountsPercent": null,
+              "averagePosition": null
+            }
+          },
+          "jointPageCountryDevice": null,
+          "marketSearchVolume": null
+        },
+        {
+          "query": "谷歌开户",
+          "rowPresent": false,
+          "metrics": null,
+          "jointPageCountryDevice": null,
+          "marketSearchVolume": null
+        },
+        {
+          "query": "谷歌排名",
+          "rowPresent": false,
+          "metrics": null,
+          "jointPageCountryDevice": null,
+          "marketSearchVolume": null
+        },
+        {
+          "query": "谷歌广告",
+          "rowPresent": false,
+          "metrics": null,
+          "jointPageCountryDevice": null,
+          "marketSearchVolume": null
+        }
+      ],
+      "targetMarketsAllQueries": {
+        "US": {
+          "value": "美国",
+          "current": {
+            "clicks": 0,
+            "impressions": 10,
+            "reportedCtrPercent": 0.0,
+            "ctrFromCountsPercent": 0.0,
+            "averagePosition": 10.7,
+            "reportedAveragePosition": 10.7
+          },
+          "previous": {
+            "clicks": 0,
+            "impressions": 15,
+            "reportedCtrPercent": 0.0,
+            "ctrFromCountsPercent": 0.0,
+            "averagePosition": 41.13,
+            "reportedAveragePosition": 41.13
+          },
+          "changeCurrentMinusPrevious": {
+            "clicks": 0,
+            "impressions": -5,
+            "ctrFromCountsPercent": 0.0,
+            "averagePosition": -30.43
+          }
+        },
+        "HK": {
+          "value": "中国香港",
+          "current": {
+            "clicks": 0,
+            "impressions": 19,
+            "reportedCtrPercent": 0.0,
+            "ctrFromCountsPercent": 0.0,
+            "averagePosition": 34.63,
+            "reportedAveragePosition": 34.63
+          },
+          "previous": {
+            "clicks": 0,
+            "impressions": 10,
+            "reportedCtrPercent": 0.0,
+            "ctrFromCountsPercent": 0.0,
+            "averagePosition": 38.6,
+            "reportedAveragePosition": 38.6
+          },
+          "changeCurrentMinusPrevious": {
+            "clicks": 0,
+            "impressions": 9,
+            "ctrFromCountsPercent": 0.0,
+            "averagePosition": -3.97
+          }
+        }
+      }
+    },
+    "monthly": {
+      "dates": {
+        "current": [
+          "2026-09-30",
+          "2026-10-27"
+        ],
+        "previous": [
+          "2026-09-02",
+          "2026-09-29"
+        ]
+      },
+      "freshness": {
+        "dataThrough": "2026-10-27",
+        "dataAgeDays": 3,
+        "expectedThroughByPolicy": "2026-10-27",
+        "status": "matches_lag_policy",
+        "isApiFinalnessProof": false
+      },
+      "archive": "reports/search-console/2026-10-29-exports/monthly.zip",
+      "sha256": "b0c7025229dad53b0a6eaafa4ac586f73172cbfb923359643bef6eab4317baf9",
+      "filters": {
+        "搜索类型": "网页（基于文本）",
+        "日期": "过去 28 天"
+      },
+      "tables": {
+        "query": {
+          "sourceFile": "查询数.csv",
+          "rows": [
+            {
+              "value": "谷歌代投",
+              "current": {
+                "clicks": 1,
+                "impressions": 13,
+                "reportedCtrPercent": 7.69,
+                "ctrFromCountsPercent": 7.6923076923076925,
+                "averagePosition": 3.54,
+                "reportedAveragePosition": 3.54
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 1,
+                "impressions": 13,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "search ads evaluation form",
+              "current": {
+                "clicks": 0,
+                "impressions": 25,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.4,
+                "reportedAveragePosition": 6.4
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 25,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads 報告",
+              "current": {
+                "clicks": 0,
+                "impressions": 21,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 37.9,
+                "reportedAveragePosition": 37.9
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 21,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google 廣告收費",
+              "current": {
+                "clicks": 0,
+                "impressions": 19,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 44.32,
+                "reportedAveragePosition": 44.32
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 19,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads audit",
+              "current": {
+                "clicks": 0,
+                "impressions": 18,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 95.5,
+                "reportedAveragePosition": 95.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 18,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads audit checklist",
+              "current": {
+                "clicks": 0,
+                "impressions": 14,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 96.0,
+                "reportedAveragePosition": 96.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 14,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads account audit",
+              "current": {
+                "clicks": 0,
+                "impressions": 12,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 93.42,
+                "reportedAveragePosition": 93.42
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 12,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "adwords audit hong kong",
+              "current": {
+                "clicks": 0,
+                "impressions": 10,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 66.8,
+                "reportedAveragePosition": 66.8
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 10,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads management pricing",
+              "current": {
+                "clicks": 0,
+                "impressions": 10,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 95.4,
+                "reportedAveragePosition": 95.4
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 10,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads management cost",
+              "current": {
+                "clicks": 0,
+                "impressions": 9,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 78.56,
+                "reportedAveragePosition": 78.56
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 9,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "香港google廣告公司",
+              "current": {
+                "clicks": 0,
+                "impressions": 7,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 68.57,
+                "reportedAveragePosition": 68.57
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 7,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads audit nyc",
+              "current": {
+                "clicks": 0,
+                "impressions": 7,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 76.43,
+                "reportedAveragePosition": 76.43
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 7,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "auditing google",
+              "current": {
+                "clicks": 0,
+                "impressions": 7,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 86.14,
+                "reportedAveragePosition": 86.14
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 7,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google display ads hong kong",
+              "current": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 34.75,
+                "reportedAveragePosition": 34.75
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 4,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "adwords management cost",
+              "current": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 43.75,
+                "reportedAveragePosition": 43.75
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 4,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "audit google ads account",
+              "current": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 97.5,
+                "reportedAveragePosition": 97.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 4,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads代运营",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 59.0,
+                "reportedAveragePosition": 59.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google 廣告 費用",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 68.67,
+                "reportedAveragePosition": 68.67
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "how can an advertiser set up enhanced conversions for leads",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 3.0,
+                "reportedAveragePosition": 3.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "著陸頁優化",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 8.5,
+                "reportedAveragePosition": 8.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads enterprise audit",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 90.5,
+                "reportedAveragePosition": 90.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google search ads audit",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 98.0,
+                "reportedAveragePosition": 98.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "site:support.google.com/google-ads \"enhanced conversions for leads\" \n\"qualified\"",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 5.0,
+                "reportedAveragePosition": 5.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "\"enhanced conversions for leads\" \"qualified\" site:support.google.com",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google廣告代理公司",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 9.0,
+                "reportedAveragePosition": 9.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "強化轉換",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.0,
+                "reportedAveragePosition": 10.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "點擊收費廣告",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 14.0,
+                "reportedAveragePosition": 14.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "first user google ads account name",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 23.0,
+                "reportedAveragePosition": 23.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google 廣告價錢",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 27.0,
+                "reportedAveragePosition": 27.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads hk",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 28.0,
+                "reportedAveragePosition": 28.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google 廣告收 費",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 54.0,
+                "reportedAveragePosition": 54.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads agency oversight consultant",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 55.0,
+                "reportedAveragePosition": 55.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "uncategorized search terms",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 67.0,
+                "reportedAveragePosition": 67.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "reporting google ads",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 78.0,
+                "reportedAveragePosition": 78.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads audit chicago",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 90.0,
+                "reportedAveragePosition": 90.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "adwords hk",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 96.0,
+                "reportedAveragePosition": 96.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads account audit checklist",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 96.0,
+                "reportedAveragePosition": 96.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ads management account audit checklist",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 96.0,
+                "reportedAveragePosition": 96.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "audit google ads",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 97.0,
+                "reportedAveragePosition": 97.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google ad audit",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 97.0,
+                "reportedAveragePosition": 97.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "google adwords audit",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 97.0,
+                "reportedAveragePosition": 97.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            }
+          ],
+          "reportedRowTotalsNotPropertyTotals": {
+            "current": {
+              "clicks": 1,
+              "impressions": 217,
+              "ctrFromCountsPercent": 0.4608294930875576
+            },
+            "previous": {
+              "clicks": 0,
+              "impressions": 0,
+              "ctrFromCountsPercent": null
+            }
+          },
+          "scope": "Independent table; no query/page/country/device join is available."
+        },
+        "page": {
+          "sourceFile": "网页.csv",
+          "rows": [
+            {
+              "value": "https://shumaojs.com/google-ads.html",
+              "current": {
+                "clicks": 1,
+                "impressions": 18,
+                "reportedCtrPercent": 5.56,
+                "ctrFromCountsPercent": 5.555555555555555,
+                "averagePosition": 5.11,
+                "reportedAveragePosition": 5.11
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 1,
+                "impressions": 18,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-account-audit-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 84,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 90.17,
+                "reportedAveragePosition": 90.17
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 84,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/google-ads-agency-checklist-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 29,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 8.03,
+                "reportedAveragePosition": 8.03
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 29,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-cost-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 26,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 46.42,
+                "reportedAveragePosition": 46.42
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 26,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-management-cost-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 24,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 76.75,
+                "reportedAveragePosition": 76.75
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 24,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-monthly-reporting-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 23,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 35.48,
+                "reportedAveragePosition": 35.48
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 23,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/google-ads-agency-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 11,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 63.55,
+                "reportedAveragePosition": 63.55
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 11,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-account-audit-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 10,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 66.8,
+                "reportedAveragePosition": 66.8
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 10,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 6,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 3.5,
+                "reportedAveragePosition": 3.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 6,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 6,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 22.67,
+                "reportedAveragePosition": 22.67
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 6,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-landing-page-checklist-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 6,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 26.0,
+                "reportedAveragePosition": 26.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 6,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-conversion-tracking-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 5,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 5,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-landing-page-checklist-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 5,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 23.4,
+                "reportedAveragePosition": 23.4
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 5,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/",
+              "current": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 4.0,
+                "reportedAveragePosition": 4.0
+              },
+              "previous": {
+                "clicks": 1,
+                "impressions": 3,
+                "reportedCtrPercent": 33.33,
+                "ctrFromCountsPercent": 33.333333333333336,
+                "averagePosition": 2.33,
+                "reportedAveragePosition": 2.33
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": -1,
+                "impressions": 1,
+                "ctrFromCountsPercent": -33.333333333333336,
+                "averagePosition": 1.67
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-account-ownership-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 12.75,
+                "reportedAveragePosition": 12.75
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 4,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 46.0,
+                "reportedAveragePosition": 46.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 4,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/google-ads-management-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 5.67,
+                "reportedAveragePosition": 5.67
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 7.0,
+                "reportedAveragePosition": 7.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -1.33
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/performance-max-basics.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.0,
+                "reportedAveragePosition": 10.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-enhanced-conversions-leads-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.33,
+                "reportedAveragePosition": 10.33
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/x-ads.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 18.67,
+                "reportedAveragePosition": 18.67
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 4.0,
+                "reportedAveragePosition": 4.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 14.67
+              }
+            },
+            {
+              "value": "http://shumaojs.com/",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 1.0,
+                "reportedAveragePosition": 1.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/facebook-ads.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 3.5,
+                "reportedAveragePosition": 3.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 5.0,
+                "reportedAveragePosition": 5.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -1.5
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/meta-creative-testing.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.5,
+                "reportedAveragePosition": 6.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-search-keywords.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 8.5,
+                "reportedAveragePosition": 8.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 2.5
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-search-ads-guide.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 9.5,
+                "reportedAveragePosition": 9.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-basics.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 17.5,
+                "reportedAveragePosition": 17.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/nav.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 2.0,
+                "reportedAveragePosition": 2.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 2.0,
+                "reportedAveragePosition": 2.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 0.0
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-bidding-budget-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 3.0,
+                "reportedAveragePosition": 3.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/contact.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 3.0,
+                "reportedAveragePosition": 3.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 3.0,
+                "reportedAveragePosition": 3.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 0.0
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/performance-max-lead-generation-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/managed-ads.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 7.0,
+                "reportedAveragePosition": 7.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-vs-meta-ads-guide.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 8.0,
+                "reportedAveragePosition": 8.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.0,
+                "reportedAveragePosition": 10.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": -2.0
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/seo-title-meta-basics.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 9.0,
+                "reportedAveragePosition": 9.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/google-ads-agency-checklist-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 9.0,
+                "reportedAveragePosition": 9.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.0,
+                "reportedAveragePosition": 10.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/website-speed-mobile.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.0,
+                "reportedAveragePosition": 10.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 8.0,
+                "reportedAveragePosition": 8.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 2.0
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-account-access-hong-kong.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 11.0,
+                "reportedAveragePosition": 11.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/google-ads-search-terms-negative-keywords-usa.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 67.0,
+                "reportedAveragePosition": 67.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "https://shumaojs.com/articles/geo-brand-entity-pages.html",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 9.0,
+                "reportedAveragePosition": 9.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            }
+          ],
+          "reportedRowTotalsNotPropertyTotals": {
+            "current": {
+              "clicks": 1,
+              "impressions": 301,
+              "ctrFromCountsPercent": 0.33222591362126247
+            },
+            "previous": {
+              "clicks": 1,
+              "impressions": 12,
+              "ctrFromCountsPercent": 8.333333333333332
+            }
+          },
+          "scope": "Independent table; no query/page/country/device join is available."
+        },
+        "country": {
+          "sourceFile": "国家_地区.csv",
+          "rows": [
+            {
+              "value": "中国",
+              "current": {
+                "clicks": 1,
+                "impressions": 12,
+                "reportedCtrPercent": 8.33,
+                "ctrFromCountsPercent": 8.333333333333334,
+                "averagePosition": 7.83,
+                "reportedAveragePosition": 7.83
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 1,
+                "impressions": 12,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "美国",
+              "current": {
+                "clicks": 0,
+                "impressions": 123,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 60.2,
+                "reportedAveragePosition": 60.2
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 1.0,
+                "reportedAveragePosition": 1.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 122,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 59.2
+              }
+            },
+            {
+              "value": "中国香港",
+              "current": {
+                "clicks": 0,
+                "impressions": 73,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 45.74,
+                "reportedAveragePosition": 45.74
+              },
+              "previous": {
+                "clicks": 1,
+                "impressions": 1,
+                "reportedCtrPercent": 100.0,
+                "ctrFromCountsPercent": 100.0,
+                "averagePosition": 1.0,
+                "reportedAveragePosition": 1.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": -1,
+                "impressions": 72,
+                "ctrFromCountsPercent": -100.0,
+                "averagePosition": 44.74
+              }
+            },
+            {
+              "value": "加拿大",
+              "current": {
+                "clicks": 0,
+                "impressions": 8,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 78.5,
+                "reportedAveragePosition": 78.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 8,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "奥地利",
+              "current": {
+                "clicks": 0,
+                "impressions": 6,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 91.5,
+                "reportedAveragePosition": 91.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 6,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "巴西",
+              "current": {
+                "clicks": 0,
+                "impressions": 4,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 7.75,
+                "reportedAveragePosition": 7.75
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 4,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "法国",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 11.0,
+                "reportedAveragePosition": 11.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "俄罗斯",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 65.33,
+                "reportedAveragePosition": 65.33
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "英国",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 81.67,
+                "reportedAveragePosition": 81.67
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "爱尔兰",
+              "current": {
+                "clicks": 0,
+                "impressions": 3,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 95.67,
+                "reportedAveragePosition": 95.67
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 3,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "新加坡",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 1.0,
+                "reportedAveragePosition": 1.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "瑞典",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 34.5,
+                "reportedAveragePosition": 34.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "孟加拉",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 48.5,
+                "reportedAveragePosition": 48.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "巴基斯坦",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 51.0,
+                "reportedAveragePosition": 51.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "德国",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 92.5,
+                "reportedAveragePosition": 92.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "瑞士",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 94.0,
+                "reportedAveragePosition": 94.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "哥伦比亚",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 2.0,
+                "reportedAveragePosition": 2.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "印度",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 2.0,
+                "reportedAveragePosition": 2.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "新西兰",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 4.0,
+                "reportedAveragePosition": 4.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "印度尼西亚",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 5.0,
+                "reportedAveragePosition": 5.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "芬兰",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 6.0,
+                "reportedAveragePosition": 6.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "巴拿马",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 9.0,
+                "reportedAveragePosition": 9.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "澳门",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 10.0,
+                "reportedAveragePosition": 10.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "越南",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 18.0,
+                "reportedAveragePosition": 18.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "沙特阿拉伯",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 39.0,
+                "reportedAveragePosition": 39.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "波兰",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 46.0,
+                "reportedAveragePosition": 46.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "匈牙利",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 48.0,
+                "reportedAveragePosition": 48.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "约旦",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 69.0,
+                "reportedAveragePosition": 69.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "罗马尼亚",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 98.0,
+                "reportedAveragePosition": 98.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "澳大利亚",
+              "current": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 100.0,
+                "reportedAveragePosition": 100.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "韩国",
+              "current": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 1,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 5.0,
+                "reportedAveragePosition": 5.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": -1,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            }
+          ],
+          "reportedRowTotalsNotPropertyTotals": {
+            "current": {
+              "clicks": 1,
+              "impressions": 264,
+              "ctrFromCountsPercent": 0.3787878787878788
+            },
+            "previous": {
+              "clicks": 1,
+              "impressions": 3,
+              "ctrFromCountsPercent": 33.33333333333333
+            }
+          },
+          "scope": "Independent table; no query/page/country/device join is available."
+        },
+        "device": {
+          "sourceFile": "设备.csv",
+          "rows": [
+            {
+              "value": "桌面",
+              "current": {
+                "clicks": 1,
+                "impressions": 203,
+                "reportedCtrPercent": 0.49,
+                "ctrFromCountsPercent": 0.49261083743842365,
+                "averagePosition": 52.17,
+                "reportedAveragePosition": 52.17
+              },
+              "previous": {
+                "clicks": 1,
+                "impressions": 3,
+                "reportedCtrPercent": 33.33,
+                "ctrFromCountsPercent": 33.333333333333336,
+                "averagePosition": 2.33,
+                "reportedAveragePosition": 2.33
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 200,
+                "ctrFromCountsPercent": -32.840722495894916,
+                "averagePosition": 49.84
+              }
+            },
+            {
+              "value": "移动设备",
+              "current": {
+                "clicks": 0,
+                "impressions": 59,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 55.08,
+                "reportedAveragePosition": 55.08
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 59,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            },
+            {
+              "value": "平板电脑",
+              "current": {
+                "clicks": 0,
+                "impressions": 2,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": 0.0,
+                "averagePosition": 32.5,
+                "reportedAveragePosition": 32.5
+              },
+              "previous": {
+                "clicks": 0,
+                "impressions": 0,
+                "reportedCtrPercent": 0.0,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null,
+                "reportedAveragePosition": 0.0
+              },
+              "changeCurrentMinusPrevious": {
+                "clicks": 0,
+                "impressions": 2,
+                "ctrFromCountsPercent": null,
+                "averagePosition": null
+              }
+            }
+          ],
+          "reportedRowTotalsNotPropertyTotals": {
+            "current": {
+              "clicks": 1,
+              "impressions": 264,
+              "ctrFromCountsPercent": 0.3787878787878788
+            },
+            "previous": {
+              "clicks": 1,
+              "impressions": 3,
+              "ctrFromCountsPercent": 33.33333333333333
+            }
+          },
+          "scope": "Independent table; no query/page/country/device join is available."
+        }
+      },
+      "otherTables": [
+        {
+          "file": "搜索结果呈现.csv",
+          "rowCount": 0,
+          "status": "outside_comparison_scope_not_zero"
+        }
+      ],
+      "propertyUi": {
+        "current": {
+          "clicks": 1,
+          "impressions": 264,
+          "reportedCtrPercent": 0.4,
+          "ctrFromCountsPercent": 0.3787878787878788,
+          "averagePosition": 52.7,
+          "reportedAveragePosition": 52.7
+        },
+        "previous": {
+          "clicks": 1,
+          "impressions": 3,
+          "reportedCtrPercent": 33.3,
+          "ctrFromCountsPercent": 33.333333333333336,
+          "averagePosition": 2.3,
+          "reportedAveragePosition": 2.3
+        },
+        "changeCurrentMinusPrevious": {
+          "clicks": 0,
+          "impressions": 261,
+          "ctrFromCountsPercent": -32.95454545454546,
+          "averagePosition": 50.4
+        },
+        "source": "Previously observed visible UI cards; average position and exported CTR can be rounded. Not table sums."
+      },
+      "exactSeeds": [
+        {
+          "query": "谷歌代投",
+          "rowPresent": true,
+          "metrics": {
+            "value": "谷歌代投",
+            "current": {
+              "clicks": 1,
+              "impressions": 13,
+              "reportedCtrPercent": 7.69,
+              "ctrFromCountsPercent": 7.6923076923076925,
+              "averagePosition": 3.54,
+              "reportedAveragePosition": 3.54
+            },
+            "previous": {
+              "clicks": 0,
+              "impressions": 0,
+              "reportedCtrPercent": 0.0,
+              "ctrFromCountsPercent": null,
+              "averagePosition": null,
+              "reportedAveragePosition": 0.0
+            },
+            "changeCurrentMinusPrevious": {
+              "clicks": 1,
+              "impressions": 13,
+              "ctrFromCountsPercent": null,
+              "averagePosition": null
+            }
+          },
+          "jointPageCountryDevice": null,
+          "marketSearchVolume": null
+        },
+        {
+          "query": "谷歌开户",
+          "rowPresent": false,
+          "metrics": null,
+          "jointPageCountryDevice": null,
+          "marketSearchVolume": null
+        },
+        {
+          "query": "谷歌排名",
+          "rowPresent": false,
+          "metrics": null,
+          "jointPageCountryDevice": null,
+          "marketSearchVolume": null
+        },
+        {
+          "query": "谷歌广告",
+          "rowPresent": false,
+          "metrics": null,
+          "jointPageCountryDevice": null,
+          "marketSearchVolume": null
+        }
+      ],
+      "targetMarketsAllQueries": {
+        "US": {
+          "value": "美国",
+          "current": {
+            "clicks": 0,
+            "impressions": 123,
+            "reportedCtrPercent": 0.0,
+            "ctrFromCountsPercent": 0.0,
+            "averagePosition": 60.2,
+            "reportedAveragePosition": 60.2
+          },
+          "previous": {
+            "clicks": 0,
+            "impressions": 1,
+            "reportedCtrPercent": 0.0,
+            "ctrFromCountsPercent": 0.0,
+            "averagePosition": 1.0,
+            "reportedAveragePosition": 1.0
+          },
+          "changeCurrentMinusPrevious": {
+            "clicks": 0,
+            "impressions": 122,
+            "ctrFromCountsPercent": 0.0,
+            "averagePosition": 59.2
+          }
+        },
+        "HK": {
+          "value": "中国香港",
+          "current": {
+            "clicks": 0,
+            "impressions": 73,
+            "reportedCtrPercent": 0.0,
+            "ctrFromCountsPercent": 0.0,
+            "averagePosition": 45.74,
+            "reportedAveragePosition": 45.74
+          },
+          "previous": {
+            "clicks": 1,
+            "impressions": 1,
+            "reportedCtrPercent": 100.0,
+            "ctrFromCountsPercent": 100.0,
+            "averagePosition": 1.0,
+            "reportedAveragePosition": 1.0
+          },
+          "changeCurrentMinusPrevious": {
+            "clicks": -1,
+            "impressions": 72,
+            "ctrFromCountsPercent": -100.0,
+            "averagePosition": 44.74
+          }
+        }
+      }
+    }
+  },
+  "editorialGate": {
+    "minimumRowImpressionsForInvestigation": 100,
+    "isStatisticalSignificanceThreshold": false,
+    "candidateSeedsForInvestigationNotAutomaticEdits": [],
+    "action": "observe_only_small_or_missing_seed_rows",
+    "automaticContentEditsAuthorized": false
+  },
+  "unknownOutcomes": {
+    "keywordSearchVolume": null,
+    "seoDifficulty": null,
+    "organicVisits": null,
+    "qualifiedEnquiries": null,
+    "fieldCoreWebVitals": null,
+    "releaseAttributedGrowth": null
+  },
+  "limits": [
+    "Existing exports are reprocessed, not a new Google account read. A new report timestamp does not advance the data period.",
+    "Separate weekly and monthly windows overlap; never add them together or join the independent dimension tables.",
+    "Missing rows remain absent/null, not zero demand. Exported zeros can also represent unavailable UI values; zero-impression CTR/position are undefined, not rank zero.",
+    "Property/UI totals differ from reported-row sums through aggregation, privacy and truncation; no forced reconciliation or query-country attribution.",
+    "As-of date and lag policy use the PT report calendar, not the machine's timezone. Lag matching does not prove complete/final API data.",
+    "Clicks are not sessions, customers or enquiries; small samples, mixed queries and a tiny prior baseline do not establish causal growth or a title-test winner."
+  ],
+  "methodSources": [
+    "https://support.google.com/webmasters/answer/7576553?hl=en",
+    "https://support.google.com/webmasters/answer/17010575",
+    "https://support.google.com/webmasters/answer/17011259"
+  ]
+}

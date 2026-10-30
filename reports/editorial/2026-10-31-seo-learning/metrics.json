@@ -1,0 +1,13 @@
+{
+  "recordedOn":"2026-10-31",
+  "sourceRevision":"8d5cc892566671a63528d60292c0cb78e0aed894",
+  "gscSource":"reports/search-console/2026-10-29-official-comparison.json",
+  "gscDataThrough":"2026-10-27",
+  "newPrivateRead":false,
+  "newExport":false,
+  "gap":"UI inventory available but property AX/DOM reads timed out; no hidden endpoint/profile or subscription bypass",
+  "technical":{"ciTests":216,"publicFiles":174,"articleBrowserCases":6,"hubBrowserCases":6,"pageErrors":0,"overflow":0,"resources":6,"learningTasks":4,"courseEvidenceChecks":4,"orphans":0},
+  "searchVolume":null,"naturalVisits":null,"qualifiedEnquiries":null,"fieldCoreWebVitals":null,"rankingGain":null,
+  "humanReview":{"status":"pending","questionDeliveredOn":"2026-10-31","inheritedApproval":false},
+  "targetDailyOrganicVisits":1000,"targetAchieved":false
+}

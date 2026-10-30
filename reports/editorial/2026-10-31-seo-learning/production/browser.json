@@ -1,0 +1,61 @@
+{
+  "checkedAt": "2026-10-30T23:55:44.514Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "resources": 6,
+      "tasks": 4,
+      "evidenceChecks": 4,
+      "anchors": 3,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "resources": 6,
+      "tasks": 4,
+      "evidenceChecks": 4,
+      "anchors": 3,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "resources": 6,
+      "tasks": 4,
+      "evidenceChecks": 4,
+      "anchors": 3,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "resources": 6,
+      "tasks": 4,
+      "evidenceChecks": 4,
+      "anchors": 3,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "resources": 6,
+      "tasks": 4,
+      "evidenceChecks": 4,
+      "anchors": 3,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "resources": 6,
+      "tasks": 4,
+      "evidenceChecks": 4,
+      "anchors": 3,
+      "overflow": false
+    }
+  ],
+  "pageErrors": []
+}

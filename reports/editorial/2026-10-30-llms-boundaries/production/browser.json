@@ -1,0 +1,596 @@
+{
+  "checkedAt": "2026-10-30T10:43:36.458Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "title": "llms.txt 是什么？作用、写法与 Google 搜索边界 | 昆明振润达商贸有限公司",
+      "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+      "canonical": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+        "description": "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "image": "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:32:42+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "modified": "2026-10-30T18:32:42+08:00",
+      "descriptions": [
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "boundaries": [
+        "proposal",
+        "robots",
+        "sitemap",
+        "access",
+        "full-file",
+        "outcome"
+      ],
+      "cases": [
+        "search-goal",
+        "blocked-target",
+        "stale-version",
+        "large-bundle"
+      ],
+      "checks": 6,
+      "review": 4,
+      "ids": [
+        "site-nav-1",
+        "nav-menu-gxtk4u",
+        "scope",
+        "file-boundaries",
+        "llms-boundary-caption",
+        "example",
+        "release-checks",
+        "situations",
+        "measurement",
+        "next-step"
+      ],
+      "anchors": [
+        "#scope",
+        "#file-boundaries",
+        "#example",
+        "#release-checks",
+        "#situations",
+        "#measurement",
+        "#next-step"
+      ],
+      "links": [
+        "/llms.txt",
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/googlebot-ai-crawlers-seo-geo.html#control-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "directory": {
+        "status": 200,
+        "contentMatchesSource": true,
+        "linkedPublicPages": 20
+      },
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 768,
+      "javaScriptEnabled": true,
+      "title": "llms.txt 是什么？作用、写法与 Google 搜索边界 | 昆明振润达商贸有限公司",
+      "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+      "canonical": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+        "description": "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "image": "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:32:42+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "modified": "2026-10-30T18:32:42+08:00",
+      "descriptions": [
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "boundaries": [
+        "proposal",
+        "robots",
+        "sitemap",
+        "access",
+        "full-file",
+        "outcome"
+      ],
+      "cases": [
+        "search-goal",
+        "blocked-target",
+        "stale-version",
+        "large-bundle"
+      ],
+      "checks": 6,
+      "review": 4,
+      "ids": [
+        "site-nav-1",
+        "nav-menu-7v7s8s",
+        "scope",
+        "file-boundaries",
+        "llms-boundary-caption",
+        "example",
+        "release-checks",
+        "situations",
+        "measurement",
+        "next-step"
+      ],
+      "anchors": [
+        "#scope",
+        "#file-boundaries",
+        "#example",
+        "#release-checks",
+        "#situations",
+        "#measurement",
+        "#next-step"
+      ],
+      "links": [
+        "/llms.txt",
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/googlebot-ai-crawlers-seo-geo.html#control-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": true,
+      "title": "llms.txt 是什么？作用、写法与 Google 搜索边界 | 昆明振润达商贸有限公司",
+      "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+      "canonical": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+        "description": "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "image": "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:32:42+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "modified": "2026-10-30T18:32:42+08:00",
+      "descriptions": [
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/llms-reading-guide-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "boundaries": [
+        "proposal",
+        "robots",
+        "sitemap",
+        "access",
+        "full-file",
+        "outcome"
+      ],
+      "cases": [
+        "search-goal",
+        "blocked-target",
+        "stale-version",
+        "large-bundle"
+      ],
+      "checks": 6,
+      "review": 4,
+      "ids": [
+        "site-nav-1",
+        "nav-menu-hg3f7v",
+        "scope",
+        "file-boundaries",
+        "llms-boundary-caption",
+        "example",
+        "release-checks",
+        "situations",
+        "measurement",
+        "next-step"
+      ],
+      "anchors": [
+        "#scope",
+        "#file-boundaries",
+        "#example",
+        "#release-checks",
+        "#situations",
+        "#measurement",
+        "#next-step"
+      ],
+      "links": [
+        "/llms.txt",
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/googlebot-ai-crawlers-seo-geo.html#control-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 320,
+      "javaScriptEnabled": true,
+      "title": "llms.txt 是什么？作用、写法与 Google 搜索边界 | 昆明振润达商贸有限公司",
+      "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+      "canonical": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+        "description": "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "image": "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:32:42+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "modified": "2026-10-30T18:32:42+08:00",
+      "descriptions": [
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/llms-reading-guide-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "boundaries": [
+        "proposal",
+        "robots",
+        "sitemap",
+        "access",
+        "full-file",
+        "outcome"
+      ],
+      "cases": [
+        "search-goal",
+        "blocked-target",
+        "stale-version",
+        "large-bundle"
+      ],
+      "checks": 6,
+      "review": 4,
+      "ids": [
+        "site-nav-1",
+        "nav-menu-nulkam",
+        "scope",
+        "file-boundaries",
+        "llms-boundary-caption",
+        "example",
+        "release-checks",
+        "situations",
+        "measurement",
+        "next-step"
+      ],
+      "anchors": [
+        "#scope",
+        "#file-boundaries",
+        "#example",
+        "#release-checks",
+        "#situations",
+        "#measurement",
+        "#next-step"
+      ],
+      "links": [
+        "/llms.txt",
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/googlebot-ai-crawlers-seo-geo.html#control-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "title": "llms.txt 是什么？作用、写法与 Google 搜索边界 | 昆明振润达商贸有限公司",
+      "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+      "canonical": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+        "description": "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "image": "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:32:42+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "modified": "2026-10-30T18:32:42+08:00",
+      "descriptions": [
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "boundaries": [
+        "proposal",
+        "robots",
+        "sitemap",
+        "access",
+        "full-file",
+        "outcome"
+      ],
+      "cases": [
+        "search-goal",
+        "blocked-target",
+        "stale-version",
+        "large-bundle"
+      ],
+      "checks": 6,
+      "review": 4,
+      "ids": [
+        "scope",
+        "file-boundaries",
+        "llms-boundary-caption",
+        "example",
+        "release-checks",
+        "situations",
+        "measurement",
+        "next-step"
+      ],
+      "anchors": [
+        "#scope",
+        "#file-boundaries",
+        "#example",
+        "#release-checks",
+        "#situations",
+        "#measurement",
+        "#next-step"
+      ],
+      "links": [
+        "/llms.txt",
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/googlebot-ai-crawlers-seo-geo.html#control-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    },
+    {
+      "width": 390,
+      "javaScriptEnabled": false,
+      "title": "llms.txt 是什么？作用、写法与 Google 搜索边界 | 昆明振润达商贸有限公司",
+      "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+      "canonical": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "llms.txt 是什么？作用、写法与 Google 搜索边界",
+        "description": "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "image": "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "GEO",
+        "datePublished": "2026-09-11",
+        "dateModified": "2026-10-30T18:32:42+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "modified": "2026-10-30T18:32:42+08:00",
+      "descriptions": [
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。",
+        "区分 llms.txt 提案、Google 搜索要求与实际工具支持，了解目录示例、六项作用边界、四种假设排查和维护记录，不把文件上线当作 AI 引用或排名提升。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg",
+        "https://shumaojs.com/assets/articles/llms-reading-guide-v1.jpg"
+      ],
+      "cover": {
+        "src": "https://shumaojs.com/assets/articles/llms-reading-guide-thumb-v1.webp",
+        "loaded": true,
+        "ratio": 1.7777777777777777
+      },
+      "boundaries": [
+        "proposal",
+        "robots",
+        "sitemap",
+        "access",
+        "full-file",
+        "outcome"
+      ],
+      "cases": [
+        "search-goal",
+        "blocked-target",
+        "stale-version",
+        "large-bundle"
+      ],
+      "checks": 6,
+      "review": 4,
+      "ids": [
+        "scope",
+        "file-boundaries",
+        "llms-boundary-caption",
+        "example",
+        "release-checks",
+        "situations",
+        "measurement",
+        "next-step"
+      ],
+      "anchors": [
+        "#scope",
+        "#file-boundaries",
+        "#example",
+        "#release-checks",
+        "#situations",
+        "#measurement",
+        "#next-step"
+      ],
+      "links": [
+        "/llms.txt",
+        "/articles/google-seo-ranking-guide.html#seo-diagnosis",
+        "/articles/seo-content-cluster.html#page-map",
+        "/articles/googlebot-ai-crawlers-seo-geo.html#control-scope",
+        "/articles.html"
+      ],
+      "overflow": false,
+      "listingJourneyPassed": true
+    }
+  ],
+  "pageErrors": []
+}

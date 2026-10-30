@@ -1,0 +1,53 @@
+{
+  "recordedAt": "2026-10-30T10:43:56.303Z",
+  "contentRevision": "7726f928185fab82d62cf705bbfc3fe84b5397bb",
+  "performanceEvidence": {
+    "newPrivateRead": false,
+    "gscSnapshot": "reports/search-console/2026-10-29-official-comparison.json",
+    "dataThrough": "2026-10-27",
+    "googleKeywordVolume": null,
+    "seoDifficulty": null,
+    "localizedMarketDemandScale": null,
+    "verifiedAiFileUse": null,
+    "verifiedAiCitations": null,
+    "aiReferredVisits": null,
+    "ga4OrganicVisits": null,
+    "qualifiedEnquiries": null,
+    "fieldCoreWebVitals": null,
+    "releaseAttributedGrowth": null,
+    "note": "No new performance period, private account access, AI platform citation test or production crawler identity log. Own browser QA requests are not customer usage or evidence of AI adoption. Optional connector subscription block not retried without changed access evidence."
+  },
+  "quality": {
+    "ciTests": 190,
+    "ciSkipped": 0,
+    "localSkipped": 1,
+    "htmlPages": 67,
+    "sitemapPages": 65,
+    "articles": 47,
+    "hubItems": 49,
+    "rssItems": 47,
+    "webApplicationTools": 2,
+    "publicFilesIncludingMarker": 173,
+    "orphans": 0,
+    "articleBrowserCases": 6,
+    "hubBrowserCases": 6,
+    "pageErrors": 0,
+    "documentOverflow": 0,
+    "directoryLinkedPageGet200": 20,
+    "publicTextMatches": 5,
+    "publicImageExactMatches": 2
+  },
+  "editorial": {
+    "boundaryRows": 6,
+    "releaseChecks": 6,
+    "hypotheticalCases": 4,
+    "evidenceLevels": 4,
+    "originalPublication": "2026-09-11",
+    "substantiveModification": "2026-10-30T18:32:42+08:00",
+    "originalCoverBytes": 61461,
+    "originalThumbnailBytes": 10836,
+    "servedDirectoryBytes": 3586,
+    "humanReviewRequestedAt": "2026-10-30",
+    "humanReviewStatus": "pending; separate question actually delivered, no answer received"
+  }
+}

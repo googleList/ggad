@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-30T10:43:56.303Z",
+  "expectedRevision": "7726f928185fab82d62cf705bbfc3fe84b5397bb",
+  "publicRevision": "7726f928185fab82d62cf705bbfc3fe84b5397bb",
+  "results": [
+    {
+      "path": "articles/llms-txt-ai-search-guide.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 17491,
+      "comparison": "newline-normalized text",
+      "matchesSource": true,
+      "sha256": "5259e537b179d4b854096dbadb311d1af422bad744716bb4bdddc1a43ba42891"
+    },
+    {
+      "path": "articles.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 64308,
+      "comparison": "newline-normalized text",
+      "matchesSource": true,
+      "sha256": "92eb1c4a4231fcf45bfba239e972fdbe908a2b13bf51aef6b382df97b6d3ad4c"
+    },
+    {
+      "path": "llms.txt",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 3586,
+      "comparison": "newline-normalized text",
+      "matchesSource": true,
+      "sha256": "3fa457f769a619eb9b4bfbff0d5a4e422d8536716ac3a64f9bcced74a1ea9e81"
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "bytes": 12781,
+      "comparison": "newline-normalized text",
+      "matchesSource": true,
+      "sha256": "d7894ac95046cdb6c7e48d61104b8be40180743af2a2fadfe329dedc999b1963"
+    },
+    {
+      "path": "feed.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "bytes": 28947,
+      "comparison": "newline-normalized text",
+      "matchesSource": true,
+      "sha256": "3db2eff82e396a59e55bf9bfb0f7a88bfbfa8b2cd99f2e6ad36223fac6ba26db"
+    },
+    {
+      "path": "assets/articles/llms-reading-guide-v1.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 61461,
+      "comparison": "exact bytes",
+      "matchesSource": true,
+      "sha256": "ce2998426a608522d994468593be54a493cdfdadd9d673e28ca16cda8a8944a4"
+    },
+    {
+      "path": "assets/articles/llms-reading-guide-thumb-v1.webp",
+      "status": 200,
+      "contentType": "image/webp",
+      "bytes": 10836,
+      "comparison": "exact bytes",
+      "matchesSource": true,
+      "sha256": "a4226e9b4f479ba633e2a56d51a72c648a5a314010c16cb4322b7786ce21bda2"
+    }
+  ]
+}

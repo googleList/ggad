@@ -13,5 +13,6 @@
   "latestGscDataThrough":"2026-10-27",
   "organicVisits":null,
   "qualifiedEnquiries":null,
-  "deployment":"pending exact-source CI and production verification"
+  "deployment":{"status":"verified","sourceCommit":"b5429e0e65f35773048961c66c1681618536a182","firstSourceCommit":"24f2f08d3b9e49fe0784bb5cdea0db7848015f18","run":41085847432,"job":124166688509,"conclusion":"success","ciTests":212,"ciSkipped":0,"publicFilesWithMarker":174,"fullMarkerMatched":true,"markerCheckedAt":"2026-10-30T16:06:40.5317843Z","reportWebsiteStatus":404,"productionBrowser":"production/browser.json","productionCases":10,"productionHub":"production-hub/browser.json","productionHubCases":6,"fidelityRequests":14,"normalClientSourceMatches":10,"userAgentReplaySourceMatches":4},
+  "edgeObservation":{"client":"PowerShell Invoke-WebRequest","htmlDirectMatch":false,"observed":"Four HTML responses contained an extra module script from static.cloudflareinsights.com/beacon.min.js/ near the footer. Initial nav diff began at character38395, source38415 versus response38782 characters.","replay":"Playwright API default requests and a replay of the observed PowerShell User-Agent returned direct normalized source equality; the User-Agent alone did not reproduce injection.","interpretation":"Response-dependent edge transformation observed, not an agent-authored source change or proof of when/who enabled analytics. No actual Cloudflare configuration, token use, GA4 access, analytics measurements or privacy conclusions."}
 }

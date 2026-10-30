@@ -1,0 +1,214 @@
+{
+  "checkedAt": "2026-10-30T16:07:45.289Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "mode": "javascript",
+      "anchors": 17,
+      "deepLinkReload": true,
+      "tabReload": true,
+      "backForward": true,
+      "keyboard": true,
+      "hashChange": true,
+      "malformedHash": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "mode": "javascript",
+      "anchors": 17,
+      "deepLinkReload": true,
+      "tabReload": true,
+      "backForward": true,
+      "keyboard": true,
+      "hashChange": true,
+      "malformedHash": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mode": "javascript",
+      "anchors": 17,
+      "deepLinkReload": true,
+      "tabReload": true,
+      "backForward": true,
+      "keyboard": true,
+      "hashChange": true,
+      "malformedHash": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "mode": "javascript",
+      "anchors": 17,
+      "deepLinkReload": true,
+      "tabReload": true,
+      "backForward": true,
+      "keyboard": true,
+      "hashChange": true,
+      "malformedHash": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "mode": "no-javascript",
+      "visiblePanels": 2,
+      "standardLinks": 106,
+      "nativeAnchors": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mode": "no-javascript",
+      "visiblePanels": 2,
+      "standardLinks": 106,
+      "nativeAnchors": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "mode": "tool-script-blocked",
+      "visiblePanels": 2,
+      "standardLinks": 106,
+      "nativeAnchors": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mode": "tool-script-blocked",
+      "visiblePanels": 2,
+      "standardLinks": 106,
+      "nativeAnchors": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mode": "local-file",
+      "deepLink": true,
+      "tabReload": true
+    },
+    {
+      "width": 390,
+      "mode": "normal-motion",
+      "targetTop": 161.546875,
+      "stickyBottom": 145,
+      "anchorUnobscured": true
+    }
+  ],
+  "pageErrors": [],
+  "fidelity": [
+    {
+      "path": "nav.html",
+      "client": "default",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "styles.css?v=tools-20261030",
+      "client": "default",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "site-v20260930.js?v=tools-20261030",
+      "client": "default",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "assets/tool-navigation-v1.js",
+      "client": "default",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "index.html",
+      "client": "default",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "google-ads.html",
+      "client": "default",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "articles.html",
+      "client": "default",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "llms.txt",
+      "client": "default",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "feed.xml",
+      "client": "default",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "sitemap.xml",
+      "client": "default",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "nav.html",
+      "client": "powershell-user-agent-replay",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "index.html",
+      "client": "powershell-user-agent-replay",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "google-ads.html",
+      "client": "powershell-user-agent-replay",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    },
+    {
+      "path": "articles.html",
+      "client": "powershell-user-agent-replay",
+      "status": 200,
+      "directNormalizedMatch": true,
+      "sourceMatchesExceptObservedEdgeScript": true,
+      "observedEdgeScripts": []
+    }
+  ]
+}

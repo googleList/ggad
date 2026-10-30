@@ -1,0 +1,18 @@
+{
+  "recordedOn": "2026-10-31",
+  "batchStartedOn": "2026-10-30",
+  "markets": ["US", "HK"],
+  "priorityQueries": ["谷歌代投", "谷歌开户", "谷歌排名", "谷歌广告"],
+  "rankingIntent": "organic SEO; existing paid AdRank guide retained",
+  "gsc": {"source":"reports/search-console/2026-10-29-official-comparison.json","dataThrough":"2026-10-27","newRead":false,"newPeriod":false,"weeklyPropertyImpressions":48,"weeklyPropertyClicks":1,"monthlyPropertyImpressions":264,"monthlyPropertyClicks":1,"overlappingWindowsSummed":false,"interpretation":"Historical source totals only. Not visits, US/HK joint-query demand, or an outcome of this later technical release."},
+  "verifiedTechnicalEvidence": {"ciTests":212,"unitTestsAdded":5,"toolsBrowserCases":10,"hubBrowserCases":6,"localSharedChecks":81,"existingAnchorsExercisedPerJsCase":17,"fallbackStandardVisibleLinks":106,"pageErrors":0,"documentOverflow":0,"sourceResponsesCompared":14,"sourceRevision":"b5429e0e65f35773048961c66c1681618536a182"},
+  "searchVolume": null,
+  "organicVisits": null,
+  "qualifiedEnquiries": null,
+  "fieldCoreWebVitals": null,
+  "rankingChangeAttributedToRelease": null,
+  "newExternalLinks": null,
+  "dailyOrganicTarget":1000,
+  "targetAchieved":false,
+  "humanReviewUpdate":{"article":"articles/llms-txt-ai-search-guide.html","ownerReply":"内容符合，可保留","confirmedOn":"2026-10-30","status":"accepted; this article revision only"}
+}

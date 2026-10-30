@@ -140,7 +140,43 @@ async function main() {
     results.push({ width: 390, mode: "normal-motion", ...anchorLayout, anchorUnobscured: true });
     await motionContext.close();
     assert.deepEqual(errors, []);
-    const evidence = { checkedAt: new Date().toISOString(), base: base.href, results, pageErrors: errors };
+    const fidelity = [];
+    const auditContext = await browser.newContext();
+    const auditPage = await auditContext.newPage();
+    const requests = ["nav.html", "styles.css?v=tools-20261030", "site-v20260930.js?v=tools-20261030",
+      "assets/tool-navigation-v1.js", "index.html", "google-ads.html", "articles.html", "llms.txt", "feed.xml", "sitemap.xml"]
+      .map((relative) => ({ relative, client: "default" }));
+    requests.push(...["nav.html", "index.html", "google-ads.html", "articles.html"].map((relative) => ({ relative, client: "powershell-user-agent-replay" })));
+    for (const { relative, client } of requests) {
+      const options = client === "default" ? {} : { headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Microsoft Windows 10.0.26200; zh-CN) PowerShell/7.6.5",
+      } };
+      const response = await auditContext.request.get(new URL(relative, base).href, options);
+      assert.equal(response.status(), 200);
+      const original = (await response.text()).replaceAll("\r\n", "\n");
+      const local = fs.readFileSync(path.resolve(__dirname, "..", relative.split("?")[0]), "utf8").replaceAll("\r\n", "\n");
+      let compared = original;
+      const edgeScripts = [];
+      if (relative.endsWith(".html") && compared !== local) {
+        const injected = await auditPage.evaluate((html) => {
+          const doc = new DOMParser().parseFromString(html, "text/html");
+          return [...doc.querySelectorAll('script[type="module"][src]')].filter((script) => {
+            const url = new URL(script.getAttribute("src"), location.href);
+            return url.origin === "https://static.cloudflareinsights.com" && url.pathname.startsWith("/beacon.min.js/");
+          }).map((script) => ({ serialized: script.outerHTML, origin: new URL(script.src).origin,
+            pathname: new URL(script.src).pathname, attributes: [...script.attributes].map((attr) => attr.name) }));
+        }, compared);
+        assert.equal(injected.length, 1, "Unexpected HTML transformation needs separate review");
+        assert.ok(compared.includes(injected[0].serialized), "Edge script serialization does not exactly match response");
+        compared = compared.replace(injected[0].serialized, "");
+        edgeScripts.push({ origin: injected[0].origin, pathname: injected[0].pathname, attributes: injected[0].attributes });
+      }
+      assert.equal(compared, local, `Unexpected production/source difference in ${relative}`);
+      fidelity.push({ path: relative, client, status: response.status(), directNormalizedMatch: original === local,
+        sourceMatchesExceptObservedEdgeScript: compared === local, observedEdgeScripts: edgeScripts });
+    }
+    await auditContext.close();
+    const evidence = { checkedAt: new Date().toISOString(), base: base.href, results, pageErrors: errors, fidelity };
     fs.writeFileSync(path.join(output, "browser.json"), JSON.stringify(evidence, null, 2) + "\n");
     console.log(JSON.stringify(evidence));
   } finally {

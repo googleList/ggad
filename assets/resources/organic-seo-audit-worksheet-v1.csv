@@ -1,0 +1,9 @@
+﻿检查项代码,检查项,目标网址,检查时间与时区,需核对证据,判断状态,证据记录,条件式动作,负责人,版本与上线时间,复盘口径与日期,复盘结果,下次触发条件,边界说明,官方说明
+access,访问与响应,,,最终网址、跳转链、HTTP 状态、手机主内容,未检查,,发现错误响应、循环跳转或主内容不可用时，先修对应路径,,,,未知,,浏览器访问正常不证明所有抓取正常；HTTP 200 也不保证收录,https://developers.google.com/search/docs/essentials/technical?hl=zh-cn
+indexability,可抓取与可索引,,,线上 robots.txt、页面与响应头指令、URL 检查状态及抓取时间,未检查,,确认公开用途且存在误挡或误设 noindex 后，再纠正对应规则,,,,未知,,CDN 可能改写线上 robots；抓取允许不等于索引允许；请求受理不等于收录,https://developers.google.com/search/docs/essentials/technical?hl=zh-cn
+canonical,规范网址,,,协议、主机名、参数版本、声明与 Google 选定规范网址,未检查,,确认重复版本或错误声明后，再统一跳转、内链和 sitemap 信号,,,,未知,,canonical 不是强制指令；不把所有页面指向首页,https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls?hl=zh-cn
+intent,搜索意图,,,用户问题、查询语言、搜索地区、结果页面类型与本页任务,未检查,,确认概念说明与询价任务等错配后，再调整既有页面分工,,,,未知,,查询语言不等于国家；缺失查询行不等于零需求；不据此虚构搜索量,https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=zh-cn
+content,内容与可信证据,,,未解决的问题、可核对资料、原创示例、官方事实来源,未检查,,发现遗漏、错误或步骤无法执行时，再补真实证据及限制,,,,未知,,字数或新日期不是质量证明；假设示例不当成客户案例,https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=zh-cn
+snippet,标题与摘要,,,当前 title、H1、搜索呈现、同口径点击及展示,未检查,,标题与正文不符或用途不清楚时，再记录修订及观察条件,,,,未知,,Google 不保证原样显示；CTR 比较需同时核对查询、页面、国家、设备和日期,https://developers.google.com/search/docs/appearance/title-link?hl=zh-cn
+links,内部链接与外部提及,,,类目到详情路径、孤立页、锚文本、失效链接与可核实提及,未检查,,重要页面难以找到或链接失效时，先修真实阅读路径,,,,未知,,数量不是质量；不购买操纵排名的链接或伪造推荐,https://developers.google.com/search/docs/crawling-indexing/links-crawlable?hl=zh-cn
+experience,移动使用与性能,,,设备及视口、复现步骤、可取得的实验室与真实用户数据,未检查,,菜单遮挡、图片变形、交互或表单失败时，修复后重测,,,,未知,,实验室评分不等于真实用户指标；下载和按钮点击不等于询盘或排名提升,https://developers.google.com/search/docs/appearance/page-experience?hl=zh-cn

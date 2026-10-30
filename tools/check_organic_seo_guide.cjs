@@ -97,6 +97,15 @@ async function main() {
           assert.equal(await toggle.getAttribute("aria-expanded"), "false");
         }
       }
+      const downloadEvent = page.waitForEvent("download");
+      await page.locator("[data-seo-worksheet-download]").click();
+      const download = await downloadEvent;
+      assert.equal(download.suggestedFilename(), "organic-seo-audit-worksheet-v1.csv");
+      const bytes = fs.readFileSync(await download.path());
+      assert.deepEqual([...bytes.subarray(0, 3)], [239, 187, 191], "Chinese CSV must retain its UTF-8 BOM");
+      assert.deepEqual(bytes, fs.readFileSync("assets/resources/organic-seo-audit-worksheet-v1.csv"));
+      content.worksheetDownload = { name: download.suggestedFilename(), bytes: bytes.length,
+        sha256: require("node:crypto").createHash("sha256").update(bytes).digest("hex"), matchesLocal: true };
       if (width === 1440 && javaScriptEnabled) {
         for (const target of content.links) assert.equal((await context.request.get(new URL(target, base).href)).status(), 200, target);
       }
@@ -108,6 +117,8 @@ async function main() {
         await page.screenshot({ path: path.join(output, `article-${suffix}.png`) });
         await page.locator('main nav a[href="#seo-diagnosis"]').click();
         await page.screenshot({ path: path.join(output, `diagnosis-${suffix}.png`) });
+        await page.locator("[data-seo-worksheet-download]").scrollIntoViewIfNeeded();
+        await page.screenshot({ path: path.join(output, `download-${suffix}.png`) });
       }
       assert.equal((await page.goto(new URL("articles.html", base).href, { waitUntil: "domcontentloaded" })).status(), 200);
       await stylesheetReady(page);

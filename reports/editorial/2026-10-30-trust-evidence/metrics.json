@@ -1,0 +1,50 @@
+{
+  "recordedAt": "2026-10-30T10:24:27.027Z",
+  "contentRevision": "596bb15f399b4d552aa81fcfedc4f45e43620f73",
+  "performanceEvidence": {
+    "newPrivateRead": false,
+    "latestGscSnapshot": "reports/search-console/2026-10-29-official-comparison.json",
+    "dataThrough": "2026-10-27",
+    "googleKeywordSearchVolume": null,
+    "seoDifficulty": null,
+    "localizedDemandScale": null,
+    "ga4OrganicVisits": null,
+    "qualifiedEnquiries": null,
+    "fieldCoreWebVitals": null,
+    "releaseAttributedGrowth": null,
+    "note": "No fresh private account read or exhausted PageSpeed retry. Existing exposures predate this revision. Language is not country; missing rows are not zero demand. No new organic visits or ranking outcome is claimed."
+  },
+  "quality": {
+    "ciTests": 184,
+    "ciSkipped": 0,
+    "localSkipped": 1,
+    "htmlPages": 67,
+    "sitemapPages": 65,
+    "articles": 47,
+    "hubItems": 49,
+    "rssItems": 47,
+    "webApplicationTools": 2,
+    "publicFilesIncludingMarker": 171,
+    "orphans": 0,
+    "articleBrowserCases": 6,
+    "hubBrowserCases": 6,
+    "pageErrors": 0,
+    "documentOverflow": 0,
+    "publicTextMatches": 4,
+    "publicImageExactMatches": 2
+  },
+  "editorial": {
+    "evidenceChecks": 6,
+    "hypotheticalCases": 4,
+    "reviewRecords": 4,
+    "originalPublicationPreserved": "2026-09-11",
+    "substantiveModifiedAt": "2026-10-30T18:14:15+08:00",
+    "originalCoverBytes": 72266,
+    "originalThumbnailBytes": 13624,
+    "humanReviewRequestedAt": "2026-10-30",
+    "humanReviewStatus": "pending; question actually delivered, no answer yet",
+    "policyOrLegalComplianceCertified": false,
+    "adApprovalOrAccountRecoveryVerified": false,
+    "note": "Browser test passes and review-question delivery do not establish true business credentials, current legal compliance, ad approval, account recovery or inherited human acceptance."
+  }
+}

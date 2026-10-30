@@ -1,0 +1,15 @@
+# Verified Trust Evidence Revision
+
+Content source596bb15f399b4d552aa81fcfedc4f45e43620f73 non-force pushed to main. Pages https://github.com/googleList/ggad/actions/runs/41040230287, job124010930106 success. Actual logs confirm all184Ubuntu tests OK, all existing publication gates, 171 staged public files including revision marker. Full live source marker matched.
+
+Production article six cases checked2026-10-30T10:24:27.027Z; hub six checked10:23:28.896Z. Desktop1440/tablet768/mobile390/small320 JS and1440/390 no-JS pass metadata/date/cover, seven native anchor offsets, four-case/six-evidence/four-review markers, keyboard table scroll, mobile menu and actual hub route. Internal target GET200 and declared fragment existence checked. No page errors/document overflow. Production phone article and desktop evidence screenshots inspected, original cover rendered correctly.
+
+First production article attempt reached four JS passes then no-JS stylesheet wait timed out: the wait used requestAnimationFrame polling while page scripts were disabled. Replaced the checker helper with the established explicit DOM polling pattern, as already done for keyboard scrolling, then reran the same deployed content successfully. This was a verifier change, not a website-runtime fix or a claimed production defect. Final follow-up includes this checker correction with records; it does not change website text/images again.
+
+Public fidelity10:23:47.695Z confirms article, hub, sitemap and feed HTTP200 with newline-normalized equality to source. Both original image derivatives HTTP200 and exact byte match: JPEG72266B SHA2567d97a745e4a50fcbd9dc408a4d6b4006597a7104faf4d56040f69287f05b2c70; WebP13624B SHA2561ae8e41d9ce463cce8297bff66336dc774042d3cef0d46b5c8d8458cd468b9e1. See production/public-fidelity.json. Reports/plans/tests stay outside public artifact.
+
+Retained existing title/H1/URL/website category and real September11 publication. Only this substantive article gets an actual new modification time, aligned visible/schema/sitemap/card and deterministic RSS. Original full prompt/source/derivative paths in brief.json. No extra page, merchant schema, new fee/refund/qualification/case result, unconfirmed company code or account/edge/analytics/action added. Cost/landing/handover/accepted articles and US/HK localizations remain stable.
+
+This article's own review question actually deliveredOctober30 after verification; response pending. Tool delivery acceptance is not owner approval. Earlier crawler acceptance and organic SEO/worksheet pending reviews remain separate. Official factual AI review is not a legal compliance finding or diagnosis of historical account suspension. No fresh GSC data/keyword volume/GA4 visits/enquiries/fieldCWV or release-attributed results. The daily1000organic sprint remains unverified/unachieved; goal active.
+
+Next: genuine independent feedback or later comparable query/page/country/device evidence, not immediate title churn or another synonymous page. Final records/checker commit will be pushed once, its CI and public full marker checked externally, and no recursive proof-only commit made.

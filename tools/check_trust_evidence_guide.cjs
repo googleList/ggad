@@ -8,7 +8,11 @@ assert.ok(output, "Provide an evidence directory");
 const articlePath = "articles/website-trust-pages.html";
 
 async function stylesheetReady(page) {
-  await page.waitForFunction(() => [...document.styleSheets].some(s => s.href && new URL(s.href).pathname.endsWith("/styles.css")));
+  for (let attempt = 0; attempt < 100; attempt += 1) {
+    if (await page.evaluate(() => [...document.styleSheets].some(s => s.href && new URL(s.href).pathname.endsWith("/styles.css")))) return;
+    await new Promise(resolve => setTimeout(resolve, 50));
+  }
+  throw new Error("Site stylesheet did not become ready");
 }
 
 async function main() {

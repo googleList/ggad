@@ -23,7 +23,8 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="styles.css">
-  <script src="site-v20260930.js" defer></script>
+  <script src="site-v20260930.js?v=tools-20261030" defer></script>
+  <script src="assets/tool-navigation-v1.js" defer></script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -104,7 +105,7 @@
         </div>
 
         <div class="tool-columns" data-tool-tabs>
-      <div class="tool-column tool-column-ai is-active" id="panel-ai-tools" role="tabpanel" aria-labelledby="tab-ai-tools" data-tool-panel="ai">
+      <div class="tool-column tool-column-ai is-active" id="panel-ai-tools" role="tabpanel" tabindex="0" aria-labelledby="tab-ai-tools" data-tool-panel="ai">
         <div class="tool-column-head">
           <span>AI Tools</span>
           <h2>AI 工具</h2>
@@ -266,7 +267,7 @@
         </section>
       </div>
 
-      <div class="tool-column tool-column-standard" id="panel-standard-tools" role="tabpanel" aria-labelledby="tab-standard-tools" data-tool-panel="standard" hidden>
+      <div class="tool-column tool-column-standard" id="panel-standard-tools" role="tabpanel" tabindex="0" aria-labelledby="tab-standard-tools" data-tool-panel="standard">
         <div class="tool-column-head">
           <span>Standard Tools</span>
           <h2>常规工具</h2>

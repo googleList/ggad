@@ -1,0 +1,17 @@
+{
+  "preparedAt": "2026-10-30",
+  "sourceBaseline": "2c1ee1bed8eac883b5fc23da7739bb2d0bbe053d",
+  "localUnitTests": {"run":212,"result":"OK","skipped":1,"skipReason":"Windows symlink permission; existing test"},
+  "newUnitTests": 5,
+  "quality": {"html":67,"sitemap":65,"seoErrors":0,"seoWarnings":0,"structuredDataErrors":0,"contentPolicy":"passed","performanceBudget":"passed","discoveryCoverage":"passed","rssItems":47,"rssCheck":"current","sharedJsSyntax":"passed"},
+  "internalLinks": {"pages":65,"orphans":0,"maxDepth":3,"singleInlinkHistorical":1,"report":"internal-links.json"},
+  "artifact": {"publicFilesBeforeMarker":173,"builder":"scripts/build_public_site.py","privateReportsExcluded":true},
+  "browser": {"toolDirectory":"local/browser.json","cases":10,"jsWidths":[1440,768,390,320],"anchorsPerJsCase":17,"noJsWidths":[1440,390],"blockedToolScriptWidths":[1440,390],"fallbackStandardVisibleLinks":106,"localFile":true,"normalMotionMobile":true,"articleHub":"local-hub/browser.json","hubCases":6,"sharedRegression":"local-shared/results.json","sharedChecks":81,"pageErrors":0,"documentOverflow":0},
+  "assetBytesNormalized": {"sharedJs":15025,"toolJs":3184,"css":56194,"previousSharedJs":16918,"previousCss":56011},
+  "payloadInterpretation":"Shared handler bytes decrease on other pages; the tool page now has one additional request and 1291 more total normalized script bytes. This is a functional repair, not a measured page-speed, field-CWV, ranking or enquiry improvement.",
+  "newAccountRead":false,
+  "latestGscDataThrough":"2026-10-27",
+  "organicVisits":null,
+  "qualifiedEnquiries":null,
+  "deployment":"pending exact-source CI and production verification"
+}

@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-10-30T15:56:08.063Z",
+  "base": "http://127.0.0.1:8791/",
+  "results": [
+    {
+      "width": 1440,
+      "mode": "javascript",
+      "anchors": 17,
+      "deepLinkReload": true,
+      "tabReload": true,
+      "backForward": true,
+      "keyboard": true,
+      "hashChange": true,
+      "malformedHash": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "mode": "javascript",
+      "anchors": 17,
+      "deepLinkReload": true,
+      "tabReload": true,
+      "backForward": true,
+      "keyboard": true,
+      "hashChange": true,
+      "malformedHash": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mode": "javascript",
+      "anchors": 17,
+      "deepLinkReload": true,
+      "tabReload": true,
+      "backForward": true,
+      "keyboard": true,
+      "hashChange": true,
+      "malformedHash": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "mode": "javascript",
+      "anchors": 17,
+      "deepLinkReload": true,
+      "tabReload": true,
+      "backForward": true,
+      "keyboard": true,
+      "hashChange": true,
+      "malformedHash": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "mode": "no-javascript",
+      "visiblePanels": 2,
+      "standardLinks": 106,
+      "nativeAnchors": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mode": "no-javascript",
+      "visiblePanels": 2,
+      "standardLinks": 106,
+      "nativeAnchors": true,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "mode": "tool-script-blocked",
+      "visiblePanels": 2,
+      "standardLinks": 106,
+      "nativeAnchors": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mode": "tool-script-blocked",
+      "visiblePanels": 2,
+      "standardLinks": 106,
+      "nativeAnchors": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "mode": "local-file",
+      "deepLink": true,
+      "tabReload": true
+    },
+    {
+      "width": 390,
+      "mode": "normal-motion",
+      "targetTop": 161.546875,
+      "stickyBottom": 145,
+      "anchorUnobscured": true
+    }
+  ],
+  "pageErrors": []
+}

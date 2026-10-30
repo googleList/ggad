@@ -25,6 +25,7 @@
   "originalPublication": "2026-09-11",
   "substantiveModifiedAt": "2026-10-30T18:32:42+08:00",
   "humanReviewScope": "This llms.txt article revision only; no inherited crawler, trust, service, organic-pillar or actual account approval.",
+  "humanReview": {"status":"accepted","confirmedAt":"2026-10-30","ownerReply":"内容符合，可保留","scope":"Six file boundaries, six maintenance checks, four hypothetical situations and four evidence levels in this revision only; no account or crawl-policy authorization."},
   "image": {
     "method": "built-in image_gen original conceptual still life",
     "source": "C:/Users/Administrator/.codex/generated_images/019ed496-55b8-7f00-b4a9-ff2aff163df3/exec-c25a3815-35aa-4513-8425-ebe8bd563a79.png",

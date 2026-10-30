@@ -298,67 +298,6 @@ if (articleCards.length) {
   document.documentElement.classList.add("article-index-ready");
 }
 
-const toolTabButtons = document.querySelectorAll("[data-tool-tab]");
-const toolTabPanels = document.querySelectorAll("[data-tool-panel]");
-const toolSideLinks = document.querySelectorAll("[data-tool-jump]");
-
-const setActiveToolSideLink = (hash) => {
-  toolSideLinks.forEach((link) => {
-    link.classList.toggle("is-active", link.getAttribute("href") === hash);
-  });
-};
-
-const showToolPanel = (target) => {
-  toolTabButtons.forEach((button) => {
-    const isActive = button.dataset.toolTab === target;
-    button.classList.toggle("is-active", isActive);
-    button.setAttribute("aria-selected", String(isActive));
-  });
-
-  toolTabPanels.forEach((panel) => {
-    const isActive = panel.dataset.toolPanel === target;
-    panel.classList.toggle("is-active", isActive);
-    panel.hidden = !isActive;
-  });
-};
-
-if (toolTabButtons.length && toolTabPanels.length) {
-  toolTabButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      showToolPanel(button.dataset.toolTab || "ai");
-    });
-  });
-}
-
-if (toolSideLinks.length) {
-  toolSideLinks.forEach((link) => {
-    link.addEventListener("click", (event) => {
-      event.preventDefault();
-      const targetPanel = link.dataset.toolJump || "ai";
-      const hash = link.getAttribute("href") || "";
-      const target = hash ? document.querySelector(hash) : null;
-
-      showToolPanel(targetPanel);
-      setActiveToolSideLink(hash);
-
-      if (target) {
-        window.requestAnimationFrame(() => {
-          target.scrollIntoView({ behavior: "smooth", block: "start" });
-          history.replaceState(null, "", hash);
-        });
-      }
-    });
-  });
-
-  const initialSideLink = Array.from(toolSideLinks).find(
-    (link) => link.getAttribute("href") === window.location.hash
-  );
-  if (initialSideLink) {
-    showToolPanel(initialSideLink.dataset.toolJump || "ai");
-    setActiveToolSideLink(window.location.hash);
-  }
-}
-
 const navDropdowns = document.querySelectorAll(".nav-dropdown");
 
 const closeResponsiveHeaders = () => {

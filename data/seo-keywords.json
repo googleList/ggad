@@ -1,6 +1,6 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
@@ -30,7 +30,7 @@
         "seoDifficulty": null,
         "countryDemandScaleVerified": false,
         "editorialBrief": "reports/editorial/2026-10-29-crawler-controls/brief.md",
-        "humanReviewStatus": "pending; own question actuallydeliveredOctober29 after verified000f8f2release/6productionarticle+6hubcases. Not inheritedorganicintent/mobile/otherguide.",
+        "humanReviewStatus": "accepted; owner separately answered 内容符合，可保留 on2026-10-29 for000f8f2 three roles/six controls/requestverification/four cases only. Retain body/date/assets; not organicguide or actualedge/account permission.",
         "release": {"sourceCommit":"000f8f24ab1310a53e59f3609c1a668693c3ef35","pagesRun":40892017186,"job":123511080055,"ciTests":165,"publicFiles":168,"markerMatched":true}
       },
       "contentActions": [
@@ -202,6 +202,7 @@
     },
     {
       "cluster": "谷歌广告代投与管理",
+      "latestObservedSearchSignal": {"observedAt":"2026-10-29","snapshot":"reports/search-console/2026-10-29-official-comparison.json","query":"谷歌代投","dates":["2026-10-21","2026-10-27","2026-10-14","2026-10-20"],"impressions":13,"clicks":1,"ctrPercentFromCsv":7.69,"averagePositionFromCsv":3.54,"queryCountryFromVisibleUI":[{"country":"CN","impressions":8,"clicks":1},{"country":"SG","impressions":2,"clicks":0},{"country":"US","impressions":2,"clicks":0},{"country":"HK","impressions":1,"clicks":0}],"queryPageFromVisibleUI":"https://shumaojs.com/google-ads.html","freshCountryQueryPageJointFilter":false,"countryDemandScaleVerified":false,"googleSearchVolume":null,"decision":"Keep approvedservice/title/URL;13impressions notCTRtest/stablerank/marketvolume/qualifiedlead. October28directjointUS-HKviews remainseparatehistory, notcurrenttriple. Missingotherexactseedsnotzerodemand; organicrankingintent andlocalizations retained."},
       "language": "zh-Hans",
       "intent": "commercial",
       "priority": "primary",

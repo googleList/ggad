@@ -23,8 +23,8 @@ DEFAULT_REPORT = ROOT / "reports" / "search-console-priorities.md"
 MIN_CONTENT_REVIEW_IMPRESSIONS = 100
 
 ALIASES = {
-    "query": {"query", "queries", "top queries", "search query", "查询", "查詢", "搜索查询", "搜尋查詢", "关键字", "關鍵字"},
-    "page": {"page", "pages", "top pages", "landing page", "页面", "網頁", "网页", "到达网页", "到達網頁"},
+    "query": {"query", "queries", "top queries", "search query", "查询", "查詢", "搜索查询", "搜尋查詢", "关键字", "關鍵字", "热门查询"},
+    "page": {"page", "pages", "top pages", "landing page", "页面", "網頁", "网页", "到达网页", "到達網頁", "排名靠前的网页"},
     "country": {"country", "countries", "country/region", "国家/地区", "國家/地區", "地区", "地區"},
     "clicks": {"clicks", "click", "点击次数", "點擊次數", "点击", "點擊"},
     "impressions": {"impressions", "impression", "展示次数", "曝光次数", "曝光次數", "展示"},
@@ -70,12 +70,30 @@ def normalize_header(value: str) -> str:
     return re.sub(r"\s+", " ", value.strip().lower().replace("_", " "))
 
 
-def header_map(fieldnames: Iterable[str] | None) -> dict[str, str]:
+def header_map(fieldnames: Iterable[str] | None, comparison_period: str = "current") -> dict[str, str]:
+    if comparison_period not in {"current", "previous"}:
+        raise ValueError("Unknown comparison period")
+    names = list(fieldnames or [])
+    metric_keys = {"clicks", "impressions", "ctr", "position"}
+    pattern = re.compile(r"^(过去|先前)\s+(\d+)\s+天\s+(.+)$")
+    windows = {match.group(2) for raw in names if (match := pattern.match(normalize_header(raw)))}
+    if len(windows) > 1:
+        raise ValueError("Mixed comparison window lengths")
     mapped: dict[str, str] = {}
-    for raw in fieldnames or []:
+    for raw in names:
         normalized = normalize_header(raw)
+        match = pattern.match(normalized)
+        if match:
+            selected = "过去" if comparison_period == "current" else "先前"
+            if match.group(1) != selected:
+                continue
+            normalized = match.group(3)
         for canonical, aliases in ALIASES.items():
             if normalized in aliases:
+                if canonical in metric_keys and not match and (windows or comparison_period == "previous"):
+                    continue
+                if canonical in mapped:
+                    raise ValueError(f"Ambiguous {canonical} columns")
                 mapped[canonical] = raw
                 break
     return mapped
@@ -149,13 +167,17 @@ def simplified_query_theme(query: str) -> str:
     return ""
 
 
-def read_rows(paths: list[Path]) -> tuple[list[dict], list[str]]:
+def read_rows(paths: list[Path], comparison_period: str = "current") -> tuple[list[dict], list[str]]:
     rows: list[dict] = []
     notes: list[str] = []
     for path in paths:
         with path.open("r", encoding="utf-8-sig", newline="") as handle:
             reader = csv.DictReader(handle)
-            fields = header_map(reader.fieldnames)
+            try:
+                fields = header_map(reader.fieldnames, comparison_period)
+            except ValueError as error:
+                notes.append(f"Skipped {path.name}: {error}.")
+                continue
             required = {"clicks", "impressions", "ctr", "position"}
             missing = sorted(required - fields.keys())
             if missing:
@@ -282,6 +304,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("inputs", nargs="*", type=Path, help="Search Console CSV files. Defaults to data/search-console/*.csv")
     parser.add_argument("--json-output", type=Path, default=DEFAULT_JSON)
     parser.add_argument("--report-output", type=Path, default=DEFAULT_REPORT)
+    parser.add_argument("--comparison-period", choices=["current", "previous"], default="current",
+                        help="Select one period from Chinese comparison exports; never combine both periods.")
     return parser.parse_args()
 
 
@@ -294,11 +318,13 @@ def main() -> int:
         print("Add an export with clicks, impressions, CTR, position, and a query or page column.")
         return 0
 
-    rows, notes = read_rows(paths)
+    rows, notes = read_rows(paths, args.comparison_period)
+    notes.insert(0, f"Selected comparison period: {args.comparison_period}. Supply one non-overlapping date window per run.")
     priorities = aggregate(rows)
     result = {
         "generatedAt": date.today().isoformat(),
         "sourceFiles": [path.name for path in paths],
+        "comparisonPeriod": args.comparison_period,
         "notes": notes,
         "method": "log1p(impressions) * position-band weight * (1 - min(CTR, 25%))",
         "reviewPolicy": {

@@ -1,0 +1,634 @@
+{
+  "generatedAt": "2026-10-30",
+  "sourceFiles": [
+    "查询数.csv"
+  ],
+  "comparisonPeriod": "current",
+  "notes": [
+    "Selected comparison period: current. Supply one non-overlapping date window per run.",
+    "Read 41 rows from 查询数.csv."
+  ],
+  "method": "log1p(impressions) * position-band weight * (1 - min(CTR, 25%))",
+  "reviewPolicy": {
+    "minimumMappedRowImpressions": 100,
+    "isStatisticalSignificanceThreshold": false,
+    "countryPrecedence": "explicit country, then filename only if country missing"
+  },
+  "priorities": [
+    {
+      "market": "UNASSIGNED",
+      "query": "search ads evaluation form",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 25.0,
+      "ctr": 0.0,
+      "position": 6.4,
+      "opportunityScore": 3.2581,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "谷歌代投",
+      "simplifiedTheme": "谷歌代投",
+      "page": "(not supplied)",
+      "clicks": 1.0,
+      "impressions": 13.0,
+      "ctr": 0.076923,
+      "position": 3.54,
+      "opportunityScore": 2.4361,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads 報告",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 21.0,
+      "ctr": 0.0,
+      "position": 37.9,
+      "opportunityScore": 2.0092,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google 廣告收費",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 19.0,
+      "ctr": 0.0,
+      "position": 44.32,
+      "opportunityScore": 1.9472,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "著陸頁優化",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 2.0,
+      "ctr": 0.0,
+      "position": 8.5,
+      "opportunityScore": 1.0986,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google display ads hong kong",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 4.0,
+      "ctr": 0.0,
+      "position": 34.75,
+      "opportunityScore": 1.0461,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "adwords management cost",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 4.0,
+      "ctr": 0.0,
+      "position": 43.75,
+      "opportunityScore": 1.0461,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "點擊收費廣告",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 14.0,
+      "opportunityScore": 0.8664,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads audit",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 18.0,
+      "ctr": 0.0,
+      "position": 95.5,
+      "opportunityScore": 0.7361,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "site:support.google.com/google-ads \"enhanced conversions for leads\" \n\"qualified\"",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 5.0,
+      "opportunityScore": 0.6931,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "\"enhanced conversions for leads\" \"qualified\" site:support.google.com",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 6.0,
+      "opportunityScore": 0.6931,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google廣告代理公司",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 9.0,
+      "opportunityScore": 0.6931,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "強化轉換",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 10.0,
+      "opportunityScore": 0.6931,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads audit checklist",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 14.0,
+      "ctr": 0.0,
+      "position": 96.0,
+      "opportunityScore": 0.677,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads account audit",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 12.0,
+      "ctr": 0.0,
+      "position": 93.42,
+      "opportunityScore": 0.6412,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "adwords audit hong kong",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 10.0,
+      "ctr": 0.0,
+      "position": 66.8,
+      "opportunityScore": 0.5995,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads management pricing",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 10.0,
+      "ctr": 0.0,
+      "position": 95.4,
+      "opportunityScore": 0.5995,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads management cost",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 9.0,
+      "ctr": 0.0,
+      "position": 78.56,
+      "opportunityScore": 0.5756,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "香港google廣告公司",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 7.0,
+      "ctr": 0.0,
+      "position": 68.57,
+      "opportunityScore": 0.5199,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads audit nyc",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 7.0,
+      "ctr": 0.0,
+      "position": 76.43,
+      "opportunityScore": 0.5199,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "auditing google",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 7.0,
+      "ctr": 0.0,
+      "position": 86.14,
+      "opportunityScore": 0.5199,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "first user google ads account name",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 23.0,
+      "opportunityScore": 0.4505,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google 廣告價錢",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 27.0,
+      "opportunityScore": 0.4505,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads hk",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 28.0,
+      "opportunityScore": 0.4505,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "audit google ads account",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 4.0,
+      "ctr": 0.0,
+      "position": 97.5,
+      "opportunityScore": 0.4024,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads代运营",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 3.0,
+      "ctr": 0.0,
+      "position": 59.0,
+      "opportunityScore": 0.3466,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google 廣告 費用",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 3.0,
+      "ctr": 0.0,
+      "position": 68.67,
+      "opportunityScore": 0.3466,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "how can an advertiser set up enhanced conversions for leads",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 2.0,
+      "ctr": 0.0,
+      "position": 3.0,
+      "opportunityScore": 0.2747,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads enterprise audit",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 2.0,
+      "ctr": 0.0,
+      "position": 90.5,
+      "opportunityScore": 0.2747,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google search ads audit",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 2.0,
+      "ctr": 0.0,
+      "position": 98.0,
+      "opportunityScore": 0.2747,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google 廣告收 費",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 54.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads agency oversight consultant",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 55.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "uncategorized search terms",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 67.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "reporting google ads",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 78.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads audit chicago",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 90.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "adwords hk",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 96.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads account audit checklist",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 96.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads management account audit checklist",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 96.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "audit google ads",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 97.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ad audit",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 97.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google adwords audit",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 97.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-10-30",
+  "sourceFiles": [
+    "查询数.csv"
+  ],
+  "comparisonPeriod": "previous",
+  "notes": [
+    "Selected comparison period: previous. Supply one non-overlapping date window per run.",
+    "Read 8 rows from 查询数.csv."
+  ],
+  "method": "log1p(impressions) * position-band weight * (1 - min(CTR, 25%))",
+  "reviewPolicy": {
+    "minimumMappedRowImpressions": 100,
+    "isStatisticalSignificanceThreshold": false,
+    "countryPrecedence": "explicit country, then filename only if country missing"
+  },
+  "priorities": [
+    {
+      "market": "UNASSIGNED",
+      "query": "search ads evaluation form",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 8.0,
+      "ctr": 0.0,
+      "position": 5.75,
+      "opportunityScore": 2.1972,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads 報告",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 4.0,
+      "ctr": 0.0,
+      "position": 28.5,
+      "opportunityScore": 1.0461,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "adwords audit hong kong",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 2.0,
+      "ctr": 0.0,
+      "position": 27.0,
+      "opportunityScore": 0.7141,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google display ads hong kong",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 33.0,
+      "opportunityScore": 0.4505,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads management cost",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 3.0,
+      "ctr": 0.0,
+      "position": 91.0,
+      "opportunityScore": 0.3466,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "香港google廣告公司",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 2.0,
+      "ctr": 0.0,
+      "position": 65.5,
+      "opportunityScore": 0.2747,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google 廣告收費",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 60.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    },
+    {
+      "market": "UNASSIGNED",
+      "query": "google ads management account audit checklist",
+      "simplifiedTheme": "",
+      "page": "(not supplied)",
+      "clicks": 0.0,
+      "impressions": 1.0,
+      "ctr": 0.0,
+      "position": 96.0,
+      "opportunityScore": 0.1733,
+      "recommendedAction": "Map the query to one canonical target page before editing content.",
+      "sources": [
+        "查询数.csv"
+      ]
+    }
+  ]
+}

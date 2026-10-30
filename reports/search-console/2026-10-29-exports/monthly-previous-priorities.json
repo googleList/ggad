@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-10-30",
+  "sourceFiles": [
+    "查询数.csv"
+  ],
+  "comparisonPeriod": "previous",
+  "notes": [
+    "Selected comparison period: previous. Supply one non-overlapping date window per run.",
+    "Read 0 rows from 查询数.csv."
+  ],
+  "method": "log1p(impressions) * position-band weight * (1 - min(CTR, 25%))",
+  "reviewPolicy": {
+    "minimumMappedRowImpressions": 100,
+    "isStatisticalSignificanceThreshold": false,
+    "countryPrecedence": "explicit country, then filename only if country missing"
+  },
+  "priorities": []
+}

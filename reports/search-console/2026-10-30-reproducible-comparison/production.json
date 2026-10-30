@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-10-30T11:08:28.735Z",
+  "expectedRevision": "b4d8b0d760745d2823b39b1a2d60fd9acb4d91e5",
+  "publicRevision": "b4d8b0d760745d2823b39b1a2d60fd9acb4d91e5",
+  "websiteContentChanged": false,
+  "results": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matchesUnchangedSource": true,
+      "comparison": "newline-normalized text",
+      "sha256": "aaa7e6dc2d325de321243b82ba72c1b061c7b57cdbb6597f8069cef2680b729f"
+    },
+    {
+      "path": "google-ads.html",
+      "status": 200,
+      "matchesUnchangedSource": true,
+      "comparison": "newline-normalized text",
+      "sha256": "dde41e661b3f3e05b333baf5a4b9abab1c8bb24507a08f7b1e4a7044482d724e"
+    },
+    {
+      "path": "articles.html",
+      "status": 200,
+      "matchesUnchangedSource": true,
+      "comparison": "newline-normalized text",
+      "sha256": "92eb1c4a4231fcf45bfba239e972fdbe908a2b13bf51aef6b382df97b6d3ad4c"
+    },
+    {
+      "path": "llms.txt",
+      "status": 200,
+      "matchesUnchangedSource": true,
+      "comparison": "newline-normalized text",
+      "sha256": "3fa457f769a619eb9b4bfbff0d5a4e422d8536716ac3a64f9bcced74a1ea9e81"
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "matchesUnchangedSource": true,
+      "comparison": "newline-normalized text",
+      "sha256": "d7894ac95046cdb6c7e48d61104b8be40180743af2a2fadfe329dedc999b1963"
+    },
+    {
+      "path": "feed.xml",
+      "status": 200,
+      "matchesUnchangedSource": true,
+      "comparison": "newline-normalized text",
+      "sha256": "3db2eff82e396a59e55bf9bfb0f7a88bfbfa8b2cd99f2e6ad36223fac6ba26db"
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "matchesUnchangedSource": true,
+      "comparison": "newline-normalized text",
+      "sha256": "0dbb978cb15331cb94156e570161e53b195e6911da20275a958abb1e9eaf62e0"
+    },
+    {
+      "path": "site-v20260930.js",
+      "status": 200,
+      "matchesUnchangedSource": true,
+      "comparison": "newline-normalized text",
+      "sha256": "6ba87dfd40a0824b81df17a5f494796941b08e3055da7d090332ca0cad641104"
+    }
+  ],
+  "excludedReport": {
+    "path": "reports/search-console/2026-10-30-reproducible-comparison/comparison.json",
+    "status": 404
+  }
+}

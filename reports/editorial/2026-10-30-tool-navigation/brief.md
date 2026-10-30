@@ -17,7 +17,7 @@ These are observed usability/discovery defects, not proof they caused rankings, 
 - Preserve directory title, description, all tool destinations, 17 category anchors, two-column desktop shell, mobile menu, and existing AI/regular categories.
 - Publish both panels in source HTML. Hide inert tabs until the dedicated script is initialized. Both panels remain available with no JavaScript or if the new script is blocked.
 - Move the old directory-only handler out of the shared script into assets/tool-navigation-v1.js, requested only by nav.html. The existing asset builder publishes assets; no new application framework, dependency or public planning data.
-- The directory requests a versioned shared-script URL so browsers do not reuse its old, duplicate tool handlers during rollout. Other pages retain their existing asset URL and behavior.
+- The directory requests versioned shared-script and stylesheet URLs so browsers do not reuse old duplicate tool handlers, inert-tab display rules or mobile anchor offsets during rollout. Other pages retain their existing asset URL and behavior.
 - Synchronize selected panel, aria-selected, roving tabindex, sidebar aria-current, fragment URL and back/forward. Preserve native sidebar anchor history and modified-click behavior. Add Left/Right/Home/End tab keys and focusable panels.
 - Safely ignore malformed/unknown fragments; direct known category/panel URLs remain valid.
 - Do not update article titles, bodies, RSS, sitemap dates, publication dates, covers, robots, analytics, account settings, company registration or external profiles.

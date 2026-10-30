@@ -51,6 +51,7 @@ class ToolNavigationTests(unittest.TestCase):
         self.assertEqual(len(matches), 1)
         self.assertIn("defer", matches[0])
         self.assertIn('src="site-v20260930.js?v=tools-20261030"', self.html)
+        self.assertIn('href="styles.css?v=tools-20261030"', self.html)
         self.assertTrue((ROOT / script).is_file())
         for page in [*(ROOT.glob("*.html")), *(ROOT / "articles").glob("*.html")]:
             if page.name != "nav.html":

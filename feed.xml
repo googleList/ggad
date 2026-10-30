@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 10:32:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 23:51:47 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SEO 课程怎么选？2026 年自学路径和资源清单</title>
+      <link>https://shumaojs.com/articles/seo-course-learning-path.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/seo-course-learning-path.html</guid>
+      <description>SEO 课程和自学资源选择指南，说明技术 SEO、内容 SEO、站外信任、数据分析、GEO/AEO 学习路径，以及企业和外贸团队如何选择适合自己的 SEO 课程。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEO</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>llms.txt 是什么？作用、写法与 Google 搜索边界</title>
       <link>https://shumaojs.com/articles/llms-txt-ai-search-guide.html</link>
@@ -419,15 +428,6 @@
       <description>Facebook 线索广告投放准备清单，介绍表单字段、线索质量、自动回复、销售跟进和隐私说明。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>Lead Ads</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>SEO 课程怎么选？2026 年自学路径和资源清单</title>
-      <link>https://shumaojs.com/articles/seo-course-learning-path.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/seo-course-learning-path.html</guid>
-      <description>SEO 课程和自学资源选择指南，说明技术 SEO、内容 SEO、站外信任、数据分析、GEO/AEO 学习路径，以及企业和外贸团队如何选择适合自己的 SEO 课程。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEO</category>
       <dc:language>zh-CN</dc:language>
     </item>
   </channel>

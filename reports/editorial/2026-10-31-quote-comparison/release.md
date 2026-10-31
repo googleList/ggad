@@ -18,4 +18,10 @@ Append one educational section to existing Simplified cost guide; retain title/H
 
 Resumed November1: fetched latest main and verified live43d52f3 baseline; prepared batch remained staged and had not been committed/deployed. Re-ran228 local tests successfully (one Windows skip). Original October31 content modification and evidence timestamps retained, not freshened to the resume date.
 
-Pending source commit, CI and exact public-marker/production checks. Independent new-tool owner question not yet delivered; prior cost-body and other article reviews remain separate. Passing arithmetic or UI tests is not human approval, policy certification or evidence of SEO gains.1,000 natural visits/day remains unknown/unachieved, not measured by this batch.
+Source94bc091e4e4a964180167f75aae68946dd3d545f deployed November1 local date: Pages41219788867/job124591769901 completed successfully. Actual Ubuntu logs show all228 tests OK and178 public files; full live deployment marker matched. Two new scoped static assets returned200 with normalized source SHA256 matches, recorded at2026-10-31T16:31:20.912Z. Editorial brief website path404.
+
+Production: seven utility cases at2026-10-31T16:28:41.373Z; four existing cost cases; ten directory scenarios (including explicit local-file fallback scenario, not all remote-only); six hub cases at2026-10-31T16:30:58.082Z. Zero page errors/overflow. Existing primaryservice/index/feed/sitemap fidelity checks in directory harness pass for sampled clients, not a universal edge/analytics claim.
+
+Own new-tool review question delivered November1 after production verification. Owner genuinely answered **内容符合，可保留**. Accepted only for added comparison/formulas/default example/exclusions in94bc091; old cost-body and all other article pending reviews remain independent. No actual quote, fee commitment or account operation approved by this answer.
+
+Final records-only follow-up stores these results and genuine acceptance; its CI/live marker will be verified externally without recursive proof commits. Keep accepted utility stable until later feedback or evidence.1,000 natural visits/day remains unknown/unachieved, not measured by this batch.

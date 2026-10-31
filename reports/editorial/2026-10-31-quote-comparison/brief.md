@@ -37,3 +37,7 @@ AI-assisted factual, calculation, boundary and accessibility checks documented i
 ## Verification Plan
 
 Four focused Python tests invoke actual Node arithmetic assertions and validate honest inert source state, no input transmission/persistence API, scope/date/feed/discovery. Browser desktop/tablet/mobile, default/hybrid, invalid/zero/fractional months, currency/reset/Enter, JS-off and script-blocked fallback. Existing full cost, hub and tools navigation checks plus site/link/performance/public-artifact gates. Commit/push, verify actual CI/live marker/production utility, then record results and deliver own review question. No 1,000 visits/day achievement or causal traffic claim.
+
+## Genuine Human Feedback
+
+November1 after verified production94bc091: owner independently answered **内容符合，可保留** to the new-tool/formula/default-example review question. This accepts only the added utility scope; prior cost-body, US/HK handover and other pending article questions do not inherit acceptance. Preserve the current utility and original guide body/title/URL/publication/cover; no actual pricing, billing or account authorization is implied.

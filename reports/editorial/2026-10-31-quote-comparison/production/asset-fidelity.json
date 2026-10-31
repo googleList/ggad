@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-31T16:31:20.912Z",
+  "results": [
+    {
+      "path": "assets/quote-comparison-v1.js",
+      "status": 200,
+      "normalizedSha256": "15b9894819c59d020a5aeac9f5c6fb20554c1390b0f1ab8aa595ac9783021528",
+      "sourceSha256": "15b9894819c59d020a5aeac9f5c6fb20554c1390b0f1ab8aa595ac9783021528",
+      "matches": true
+    },
+    {
+      "path": "assets/quote-comparison-v1.css",
+      "status": 200,
+      "normalizedSha256": "fe2ad619a21b4f868ef26ad5a25d9273e06eb14f6a0af3406ac45a850edc53e0",
+      "sourceSha256": "fe2ad619a21b4f868ef26ad5a25d9273e06eb14f6a0af3406ac45a850edc53e0",
+      "matches": true
+    }
+  ]
+}

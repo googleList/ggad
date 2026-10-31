@@ -11,5 +11,5 @@
   "newOutreachActions":false,
   "humanReview":"pending for local draft; no invented named author or publisher acceptance",
   "keywordVolume":null,"organicVisits":null,"referralVisits":null,"acquiredLinks":null,
-  "release":"exact source CI and public marker pending"
+  "release":{"sourceRevision":"bc540c4b76eccdec0c3eab11064de00deed8e086","run":41147998620,"job":124377513502,"conclusion":"success","ciTests":220,"ciSkipped":0,"publicFilesWithMarker":174,"fullMarkerMatched":true,"checkedAt":"2026-10-31T00:04:04.4623417Z","researchWebsiteStatus":404,"draftWebsiteStatus":404,"publicSourceDiffEmpty":true}
 }

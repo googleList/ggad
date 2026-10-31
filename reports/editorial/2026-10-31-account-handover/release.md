@@ -17,4 +17,10 @@ Two existing localized educational pages, one original shared concept cover with
 
 ## Deployment And Human Review
 
-Pending source commit and exact Pages/production verification. US and HK human confirmations independently pending; questions not yet delivered. AI checks and passing tests do not constitute human acceptance or proof of account control, uninterrupted handoff, rankings, visits or enquiries. Data remains the prior genuinely acquired throughOctober28 window, not a new measurement read for this content batch.
+Source revision `dad666ec159291ec78ea6bf2bb72171d8f069eb3` deployed successfully: Pages run `41151235151`, job `124387991013`. Actual Ubuntu job logs show all224 tests OK, quality gates pass and176 public files including revision marker. Public `deployment.json` matched the full revision.
+
+Production article verification: `2026-10-31T00:39:09.099Z`, 14 cases, zero page errors or overflow. Hub verification: `2026-10-31T00:39:29.971Z`, six cases, original category/pagination/fallback contracts pass. Both cover files returned200 and exact source SHA256 matches at `2026-10-31T00:40:28.079Z`; editorial brief website path404. Image provenance remains in brief; no private raw account screenshots included.
+
+Separate US and HK human-review questions were actually delivered October31 after source/production verification. Both answers remain pending. AI checks and passing tests do not constitute human acceptance or proof of account control, uninterrupted handoff, rankings, visits or enquiries. Data remains the prior genuinely acquired throughOctober28 window, not a new measurement read for this content batch.
+
+Final follow-up records these results only; its CI and live marker will be checked externally without recursive proof commits. Preserve approved primary service/setup, current titles/URLs/dates/assets and independent pending reviews, await actual feedback or later evidence instead of immediately rewriting.

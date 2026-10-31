@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-31T00:40:28.079Z",
+  "results": [
+    {
+      "path": "assets/articles/account-handover-controls-v1.jpg",
+      "status": 200,
+      "bytes": 74787,
+      "sha256": "4fcdd547c2511d9d206eebd5aabc71bad2125b42a23ca7f533704c8e80c7fad0",
+      "sourceSha256": "4fcdd547c2511d9d206eebd5aabc71bad2125b42a23ca7f533704c8e80c7fad0",
+      "matches": true
+    },
+    {
+      "path": "assets/articles/account-handover-controls-thumb-v1.webp",
+      "status": 200,
+      "bytes": 20848,
+      "sha256": "23d2615c7f081a92c8d492b8228f9038a6968ce3a158cdd4cb8a52bc28ba5d0d",
+      "sourceSha256": "23d2615c7f081a92c8d492b8228f9038a6968ce3a158cdd4cb8a52bc28ba5d0d",
+      "matches": true
+    }
+  ]
+}

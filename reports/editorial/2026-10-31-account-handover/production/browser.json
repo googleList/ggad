@@ -1,0 +1,357 @@
+{
+  "checkedAt": "2026-10-31T00:39:09.099Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "guide": "google-ads-account-ownership-usa.html",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "naturalWidth": 1200,
+        "renderedWidth": 920,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-ownership-usa.html",
+      "width": 768,
+      "javaScriptEnabled": true,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "naturalWidth": 1200,
+        "renderedWidth": 732,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-ownership-usa.html",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-thumb-v1.webp",
+        "naturalWidth": 354,
+        "renderedWidth": 340,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 640
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-ownership-usa.html",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "dpr": 2,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "naturalWidth": 353,
+        "renderedWidth": 340,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-ownership-usa.html",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-thumb-v1.webp",
+        "naturalWidth": 284,
+        "renderedWidth": 276,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 640
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-ownership-usa.html",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "naturalWidth": 1200,
+        "renderedWidth": 920,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-ownership-usa.html",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-thumb-v1.webp",
+        "naturalWidth": 354,
+        "renderedWidth": 340,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 640
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-access-hong-kong.html",
+      "width": 1440,
+      "javaScriptEnabled": true,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "naturalWidth": 1200,
+        "renderedWidth": 920,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-access-hong-kong.html",
+      "width": 768,
+      "javaScriptEnabled": true,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "naturalWidth": 1200,
+        "renderedWidth": 732,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-access-hong-kong.html",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-thumb-v1.webp",
+        "naturalWidth": 354,
+        "renderedWidth": 340,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 640
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-access-hong-kong.html",
+      "width": 390,
+      "javaScriptEnabled": true,
+      "dpr": 2,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "naturalWidth": 353,
+        "renderedWidth": 340,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-access-hong-kong.html",
+      "width": 320,
+      "javaScriptEnabled": true,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-thumb-v1.webp",
+        "naturalWidth": 284,
+        "renderedWidth": 276,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 640
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-access-hong-kong.html",
+      "width": 1440,
+      "javaScriptEnabled": false,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "naturalWidth": 1200,
+        "renderedWidth": 920,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    },
+    {
+      "guide": "google-ads-account-access-hong-kong.html",
+      "width": 390,
+      "javaScriptEnabled": false,
+      "dpr": 1,
+      "published": "2026-09-28",
+      "modified": "2026-10-31T08:29:37+08:00",
+      "visibleDate": "2026-10-31T08:29:37+08:00",
+      "images": [
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg",
+        "https://shumaojs.com/assets/articles/account-handover-controls-v1.jpg"
+      ],
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/account-handover-controls-thumb-v1.webp",
+        "naturalWidth": 354,
+        "renderedWidth": 340,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 640
+      },
+      "overflow": false,
+      "checks": 6,
+      "examples": 3,
+      "records": 4
+    }
+  ],
+  "pageErrors": []
+}

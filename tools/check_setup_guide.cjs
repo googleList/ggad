@@ -3,6 +3,7 @@ const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || "playwright");
+const sharp = require(process.env.SHARP_MODULE || "sharp");
 
 const base = new URL(process.argv[2] || "http://127.0.0.1:8765/");
 const output = process.argv[3] || path.join(os.tmpdir(), "shumao-setup-guide-check");
@@ -13,8 +14,8 @@ async function main() {
   const results = [];
   const errors = [];
   try {
-    for (const [width, javaScriptEnabled] of [[1440, true], [768, true], [390, true], [320, true], [1440, false], [390, false]]) {
-      const context = await browser.newContext({ viewport: { width, height: 900 }, javaScriptEnabled, reducedMotion: "reduce" });
+    for (const [width, javaScriptEnabled, dpr] of [[1440, true, 1], [768, true, 1], [390, true, 1], [320, true, 1], [1440, false, 1], [390, false, 1], [390, true, 2]]) {
+      const context = await browser.newContext({ viewport: { width, height: 900 }, javaScriptEnabled, deviceScaleFactor:dpr, reducedMotion: "reduce" });
       const page = await context.newPage();
       page.setDefaultTimeout(15000);
       page.setDefaultNavigationTimeout(45000);
@@ -37,6 +38,7 @@ async function main() {
           socialImages: [article.image, document.querySelector('meta[property="og:image"]').content,
             document.querySelector('meta[name="twitter:image"]').content],
           image: { src: main.querySelector(".article-cover").currentSrc,
+            renderedWidth:main.querySelector(".article-cover").getBoundingClientRect().width,
             loaded: main.querySelector(".article-cover").naturalWidth > 0,
             ratio: main.querySelector(".article-cover").getBoundingClientRect().width / main.querySelector(".article-cover").getBoundingClientRect().height },
           checks: [...main.querySelectorAll("[data-setup-check]")].map((node) => node.dataset.setupCheck),
@@ -55,7 +57,7 @@ async function main() {
       assert.equal(content.title, content.headline);
       assert.equal(content.title, "谷歌广告开户流程：账户准备与投放入门");
       assert.equal(content.canonical, "https://shumaojs.com/articles/google-ads-basics.html");
-      assert.equal(content.modified, "2026-10-27T15:41:01+08:00");
+      assert.equal(content.modified, "2026-11-01T01:18:00+08:00");
       assert.equal(content.visibleModified, content.modified);
       assert.equal(content.published, "2026-09-11");
       assert.equal(content.setupSteps, 6);
@@ -67,7 +69,11 @@ async function main() {
       assert.equal(new Set(content.socialImages).size, 1);
       assert.ok(content.socialImages[0].endsWith("account-setup-readiness-v1.jpg"));
       assert.equal(content.image.loaded, true);
-      assert.ok(content.image.src.endsWith(width <= 600 ? "readiness-thumb-v1.webp" : "readiness-v1.jpg"));
+      assert.ok(content.image.src.endsWith(width <= 600 && dpr === 1 ? "readiness-thumb-v1.webp" : "readiness-v1.jpg"));
+      const imageResponse=await context.request.get(content.image.src);
+      assert.equal(imageResponse.status(),200);
+      content.image.decodedWidth=(await sharp(await imageResponse.body()).metadata()).width;
+      assert.ok(content.image.decodedWidth>=content.image.renderedWidth*dpr*0.95,JSON.stringify({width,dpr,image:content.image}));
       assert.ok(Math.abs(content.image.ratio - 16 / 9) < 0.01);
       assert.equal(content.overflow, false);
       assert.equal(new Set(content.ids).size, content.ids.length);
@@ -115,7 +121,7 @@ async function main() {
       }
       await page.evaluate(() => scrollTo(0, 0));
       if (width === 1440 || width === 390) {
-        const suffix = `${width}-${javaScriptEnabled ? "js" : "nojs"}`;
+        const suffix = `${width}-${javaScriptEnabled ? "js" : "nojs"}-dpr${dpr}`;
         await page.screenshot({ path: path.join(output, `guide-${suffix}.png`) });
         await page.locator('main nav a[href="#first-review"]').click();
         await page.screenshot({ path: path.join(output, `checklist-${suffix}.png`) });
@@ -126,13 +132,13 @@ async function main() {
       if (javaScriptEnabled) await page.locator('[data-article-category-button][data-article-category="sem"]').click();
       const card = page.locator("[data-article-card]").filter({ has: page.locator('h3 a[href="articles/google-ads-basics.html"]') });
       assert.equal(await card.isVisible(), true);
-      assert.ok((await card.locator("small").textContent()).startsWith("2026-10-27"));
+      assert.ok((await card.locator("small").textContent()).startsWith("2026-11-01"));
       await card.locator("img").scrollIntoViewIfNeeded();
       await card.locator("img").evaluate((image) => image.decode());
       assert.ok((await card.locator("img").getAttribute("src")).endsWith("account-setup-readiness-thumb-v1.webp"));
       await card.locator("h3 a").click();
       assert.equal(new URL(page.url()).pathname, "/articles/google-ads-basics.html");
-      results.push({ width, javaScriptEnabled, ...content, tableKeyboardScrollPassed: width <= 390 ? true : null, listingJourneyPassed: true, passed: true });
+      results.push({ width, dpr, javaScriptEnabled, ...content, tableKeyboardScrollPassed: width <= 390 ? true : null, listingJourneyPassed: true, passed: true });
       console.log(`Passed ${width}px/${javaScriptEnabled ? "JS" : "noJS"} guide content, anchors, tables, image and listing journey`);
       await context.close();
     }

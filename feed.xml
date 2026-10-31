@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 17:18:00 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谷歌广告开户流程：账户准备与投放入门</title>
+      <link>https://shumaojs.com/articles/google-ads-basics.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-basics.html</guid>
+      <description>按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Google Ads Guide</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>谷歌广告不展示怎么办？Google Ads 排查清单</title>
       <link>https://shumaojs.com/articles/google-ads-not-showing.html</link>
@@ -131,15 +140,6 @@
       <description>PMax 投放前先核对目标、地区、素材组、受众信号和网址扩展。六项控制边界、三种假设情境与复盘记录，分清商品数据和页面 Feed，不把自动化当作效果保证。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>Performance Max</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>谷歌广告开户流程：账户准备与投放入门</title>
-      <link>https://shumaojs.com/articles/google-ads-basics.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-basics.html</guid>
-      <description>按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Google Ads Guide</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

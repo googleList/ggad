@@ -1,0 +1,16 @@
+{
+  "baselineRevision": "7248f7a0e5582de3d869e576d8b730237a38f67a",
+  "article": "articles/google-ads-basics.html",
+  "method": "Exact source from the known section opening to its closing section, UTF-8 SHA256 with CRLF normalized to LF. Captured before this edit; not a generalized HTML or semantic-equivalence validator.",
+  "humanApprovalScope": "Only first-review and review-examples were genuinely accepted October27 for44794c6. Preserving other section bytes does not assert their human approval. New structural edit remains independent.",
+  "sections": {
+    "preparation": "ce76332e684b7eb8bb244ef61f016add79072a3131ef85069ab0c004955461aa",
+    "setup": "8a44b07f0c8118ea8d42161ab4ad20d1468be3e45ec32ee10648129b01c39cef",
+    "location": "7daeb2047d0f56df0e862b2af9ce10cac89f0f0cd98505e8d078a7807cd139e7",
+    "verification": "2c8d859ba7bc60c52c840a109283c79082d3c9a935deb35a4cb8831ef25b28df",
+    "costs": "3cedf8284a2b32fb8a13fce5f1ad9aa02d6c3ca9f6cac7afffd8ccb11f05d572",
+    "troubleshooting": "682cda28257ac7f596b79b45c6cabe9f3b59642f034366663c01ea85399f7a6b",
+    "first-review": "14a451e93558a6ca0afa24cc4c6ee0cc7073cb49cc91768ac8ab485bcd42f8b2",
+    "review-examples": "705f2b34749e6c0c989963aefecec91bdc916d7709ee4c38001cd7bbfdee1e11"
+  }
+}

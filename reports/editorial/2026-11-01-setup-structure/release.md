@@ -1,0 +1,13 @@
+# Setup guide structure cleanup: release evidence
+
+## Local verification
+
+Prepared from baseline7248f7a. Same article title/H1/URL/canonical/descriptions/September11firstpublication and original images. Removed five generic blocks that interrupted the procedural flow; retained definition and paid-versus-organic separation in a short lead with two distinct internal routes. Eight anchored sections hash-match pre-edit source after LF normalization, including all previously human-accepted first-review/examples. Their approval is not extended to new editorial work. No new account, fees, recovery, industry-fit or results promise.
+
+Three focused regression tests plus existing suite:236 tests OK, one Windows permissions skip. Eight exact protected-section hashes validated. SEO68HTML/66sitemap zero errors/warnings; structured-data, policy, performance, discovery, RSS and setup-JS syntax passed.48Articles50hubitems48RSS/66sitemap retained; list priority/order/categories unchanged. Core article modification/visibledate/sitemap updated for the real structural edit; RSS original publication remains September11, no fake republication. Unverified17minute estimate replaced with topic label.
+
+Local article seven cases completed2026-10-31T17:21:32.033Z (full timestamp in local/browser.json):1440/768/390/320JS,1440/390noJS and390DPR2. Actual title/dates/images/descriptions, eight anchors, six preparation rows/six steps, five checks/three examples/fourrecords, both keyboard-scrollable tables, mobile menu, main internal200destinations and SEMpage1 card journey passed. Zero errors/overflow. Existing six-case hub traversal completed17:22:18.146Z, all categories/pagination/static delayed-CSSnoJS/images passed. PhoneDPR2 top screenshot inspected; original cover remains clear and16:9.
+
+Actual public baseline phone at17:19:01.953Z had340CSSpx cover but480decoded pixels atDPR2 requiring680. New local phoneDPR2 selects existing1200pxJPEG; phoneDPR1 still selects480pxWebP, desktop1200px. No image generated, overwritten or resized; same alt/social/schema image. Larger retina response is deliberate pixel coverage, not a compressed-byte/LCP/INP/fieldCWV improvement claim. No claim all possible devices are covered by seven cases.
+
+Scoped links66pages,zeroorphans,onehistoricalsingle-inlink,maxdepth3. Public stage180files before marker, excludes research/tests/reports. CSS/runtime/assets unchanged. Local HTTP server stopped after testing. No new GSC/GA4/search-volume/ranking/visits/enquiry evidence; no actual Ads/GA4/edge/index/outreach operation. Source commit, CI and production verification follow separately, not presumed from local success.

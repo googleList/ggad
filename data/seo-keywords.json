@@ -1,12 +1,23 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
   "prioritySeedQueries": ["谷歌代投", "谷歌开户", "谷歌排名", "谷歌广告"],
   "intentConfirmation": {"confirmedAt":"2026-10-28","query":"谷歌排名","ownerReply":"重点做自然搜索 SEO 排名","targetIntent":"organic-seo","plannerReply":"暂时没有，先用现有证据研究","googleSearchVolume":null,"seoDifficulty":null,"articleHumanReview":"not inherited from intent answer"},
   "clusters": [
+    {
+      "cluster": "谷歌搜索广告不展示排查",
+      "language": "zh-Hans",
+      "intent": "post-setup informational troubleshooting; not setup resale or organic SEO rank",
+      "priority": "one evidence-backed coverage gap; not measured volume or automatic priority uplift",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-not-showing.html",
+      "primaryKeywords": ["谷歌广告不展示", "谷歌广告搜不到"],
+      "supportingKeywords": ["Google Ads 零展示", "广告预览及诊断", "谷歌开户后广告没有展示"],
+      "evidence": {"reviewedAt":"2026-11-01","method":"Actual setup FAQ and AdRank eligibility-row coverage gap plus qualified public topic-shape search and seven primary Google references. No direct GSC demand for this term, localizedUS-HKGoogleSERP, new private read orvolume claim.","googleSearchVolume":null,"seoDifficulty":null,"countryDemandScaleVerified":false,"editorialBrief":"reports/editorial/2026-11-01-search-delivery/brief.md","humanReviewStatus":"pending independently; request after production verification, not inherited from accepted setup/AdRank/quote tool"},
+      "contentActions": ["One original SEM article with four symptoms/seven checks/four hypothetical cases/four records/three hypothetical logs; no synonym batch", "Original responsive cover, matching metadata/sitemap/RSS/hub and two contextual inbound links; preserve existing primary titles/dates/localizations", "No actual account changes, recovery-time promises, credentials/fees/results, traffic orranking claims; evaluate later evidence before expansion"]
+    },
     {
       "cluster": "Google Ads 代理商交接依赖与账户控制",
       "language": "en-US",

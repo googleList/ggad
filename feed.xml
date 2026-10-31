@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 00:45:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 17:00:00 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谷歌广告不展示怎么办？Google Ads 排查清单</title>
+      <link>https://shumaojs.com/articles/google-ads-not-showing.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-not-showing.html</guid>
+      <description>自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。</description>
+      <pubDate>Sat, 31 Oct 2026 17:00:00 +0000</pubDate>
+      <category>SEM</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>Google 搜索广告费用怎么算？预算、点击和服务费说明</title>
       <link>https://shumaojs.com/articles/google-search-ads-cost-guide.html</link>

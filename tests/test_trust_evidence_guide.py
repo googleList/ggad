@@ -66,7 +66,7 @@ class TrustEvidenceGuideTests(unittest.TestCase):
             self.assertIn(name, self.source)
         hub = (ROOT / "articles.html").read_text(encoding="utf-8")
         parsed = parse_index(hub)
-        self.assertEqual(len(parsed.cards), 49)
+        self.assertEqual(sum(c["href"] == PATH for c in parsed.cards), 1)
         card = next(c for c in parsed.cards if c["href"] == PATH)
         self.assertIn(("data-article-category", "website"), card["attrs"])
         source = hub[card["start"]:card["end"]]

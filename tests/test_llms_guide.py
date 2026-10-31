@@ -68,7 +68,7 @@ class LlmsGuideTests(unittest.TestCase):
         self.assertIn('datetime="' + self.article["dateModified"] + '"', self.source)
         hub = (ROOT / "articles.html").read_text(encoding="utf-8")
         cards = parse_index(hub).cards
-        self.assertEqual(len(cards), 49)
+        self.assertEqual(sum(c["href"] == PATH for c in cards), 1)
         card = next(c for c in cards if c["href"] == PATH)
         self.assertEqual(card["name"], TITLE)
         self.assertIn(("data-article-category", "geo"), card["attrs"])

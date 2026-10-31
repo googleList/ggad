@@ -1,0 +1,75 @@
+{
+  "reviewedAt":"2026-10-31",
+  "site":"https://shumaojs.com/",
+  "authorization":{"research":true,"localDrafts":true,"sendMessages":false,"createProfiles":false,"uploadDrafts":false,"acceptAgreements":false,"purchaseLinks":false},
+  "metrics":{"newGscRead":false,"lastGscLinksObservation":"2026-10-23","reportedExternalLinksThen":0,"liveExternalLinkCount":null,"newAcquiredLinks":null,"referralVisits":null,"organicVisits":null},
+  "candidates":[
+    {
+      "id":"ecomcrew",
+      "name":"EcomCrew",
+      "officialDomain":"www.ecomcrew.com",
+      "sources":["https://www.ecomcrew.com/wp-content/uploads/2023/05/EcomCrew-Editorial-Guidelines-for-Guest-Posts-1.pdf","https://www.ecomcrew.com/"],
+      "evidence":"Official PDF describes original, initially exclusive educational contributions for ecommerce readers, editorial approval, document/image/bio requirements, limited promotional linking and disclosure. Homepage has current ecommerce coverage. Neither proves current unsolicited intake or AI-assistance acceptance.",
+      "sourceAgeCaution":"PDF path is May2023; accessible October31 does not establish a revised policy date or current intake.",
+      "status":"conditional_candidate_pending_current_rules_author_identity_and_owner_authorization",
+      "readyForContact":false,
+      "priority":"first conditional candidate, not approved outreach",
+      "impactEvidence":"Audience topic fit is evidenced; US/HK readership shares, traffic, ranking value and acceptance likelihood unknown.",
+      "effort":"medium; new exclusive English draft and human author input required",
+      "risk":"medium; stale-intake, authorship, AI and exclusivity checks unresolved",
+      "unverified":["current editor/contact route","unsolicited intake open","AI-assisted planning policy","specific topic acceptance","cost or free submission","published link attributes","US/HK audience share"],
+      "requiredBeforeContact":["owner authorizes this recipient and inquiry","owner approves public sender identity/contact","confirm current intake and AI policy without misrepresenting authorship"],
+      "requiredBeforeSubmission":["human practitioner owns and substantively writes/reviews the new piece","editor approves scope and disclosure","exclusive unpublished copy, not translation of existing site article","owner authorizes document upload/sharing and any agreement separately","only permitted images/data; no client secrets or invented results"],
+      "assetReference":"https://shumaojs.com/articles/google-ads-monthly-reporting-usa.html#cohort-example",
+      "assetPurpose":"Background reference only; do not submit existing text, promise backlink placement or treat a hypothetical example as a client case.",
+      "proposedTitles":["One Lead, Two Months: A Measurement Checklist for Ecommerce Teams","Before Comparing Ad Platforms, Align Your Reporting Dates","How to Review Cross-Month Advertising Reports Without Double-Counting Customers"],
+      "proposedOutline":["Define the reporting decision, not a success claim","Separate interaction, conversion and upload dates","Create a new clearly hypothetical timeline without copying the existing article","Distinguish customer counts from stage events and platform-specific reporting","Give a source-backed reconciliation worksheet with explicit unknowns","List assumptions and what cannot be compared across platforms","End with reader checks, no service CTA or required link"],
+      "thumbnailPlan":"No image commissioned or uploaded. After acceptance, create a new unbranded date-ledger concept or permitted diagram; no platform logo, certification, dashboard imitation or client-result imagery. Confirm publisher AI-image policy first.",
+      "editorialReview":"AI-assisted outline/local correspondence draft only; human authorship and publisher acceptance unconfirmed"
+    },
+    {
+      "id":"search-engine-land",
+      "name":"Search Engine Land",
+      "officialDomain":"searchengineland.com",
+      "sources":["https://searchengineland.com/contact"],
+      "evidence":"Contributor opportunities are invite-only and unsolicited contributor pitches are not accepted. The same page separately describes feature/news-source inquiries with evidence requirements; that is not an open guest-author route.",
+      "status":"excluded_from_unsolicited_contributor_outreach",
+      "readyForContact":false,
+      "priority":"do not pitch a guest article",
+      "unverified":["any current invitation or project-specific call","newsworthiness of an actual original finding"],
+      "next":"Only reassess a genuine relevant editorial call or substantive original evidence; do not relabel link outreach as breaking news. Sponsored options are not authorized."
+    },
+    {
+      "id":"search-engine-journal",
+      "name":"Search Engine Journal",
+      "officialDomain":"www.searchenginejournal.com",
+      "sources":["https://www.searchenginejournal.com/writers-guidelines-for-search-engine-journal/"],
+      "evidence":"Invitation-only contribution, exclusive original work, contributor agreement and no entirely AI-generated articles. Self-serving links may be removed or qualified; accepting a tutorial on our own site is not contributor eligibility.",
+      "status":"deferred_no_invitation_or_qualified_human_author",
+      "readyForContact":false,
+      "priority":"do not cold-submit an AI draft or republish site copy",
+      "unverified":["editor invitation","named human author eligibility","acceptance of the actual writing process"],
+      "next":"No agreement, upload, promotional insert or contact without separate owner authorization and valid editorial invitation."
+    },
+    {
+      "id":"ahrefs",
+      "name":"Ahrefs",
+      "officialDomain":"ahrefs.com",
+      "sources":["https://ahrefs.com/seo/link-building"],
+      "evidence":"Its general link-building guide mentions occasional guest contributions; this is not a verified open intake, application policy or promise of a link.",
+      "status":"deferred_current_submission_process_unverified",
+      "readyForContact":false,
+      "priority":"research only, no guessed editor email",
+      "unverified":["current intake","author criteria","AI rules","submission route","link terms"],
+      "next":"Wait for an official current opportunity and distinctive human-backed material; do not scrape contacts or claim approval."
+    }
+  ],
+  "excludedDiscoveries":[
+    {"url":"https://searchengineland.home.blog/write-for-us/","reason":"Different registrable domain from searchengineland.com; not treated as the official publication or contacted. No malware/crime finding is asserted."},
+    {"url":"https://searchenginereports.net/write-for-us","reason":"Search snippet found, direct source could not be opened by the web tool; no verified current submission route added."},
+    {"url":"https://www.marketing-interactive.com/","reason":"Search results did not establish a current relevant contributor intake; no reviewed Hong Kong outreach route claimed."}
+  ],
+  "marketGap":"No verified Hong Kong/Simplified Chinese editorial route in this batch. English ecommerce fit does not establish US location or Hong Kong readership.",
+  "policySource":"https://developers.google.com/search/docs/essentials/spam-policies?hl=en#link-spam",
+  "next":"Owner may review the conditional inquiry, but no send is authorized. Recheck only when contact is actually authorized or a genuine new opportunity appears; avoid repetitive discovery and paid ranking links."
+}

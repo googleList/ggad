@@ -1,0 +1,15 @@
+{
+  "recordedOn":"2026-10-31",
+  "baselineRevision":"2c3d08bcad76dee89668e39386bc1cd6b9fcf7ee",
+  "localTests":{"run":220,"added":4,"result":"OK","skipped":1,"skipReason":"existing Windows symlink permission test"},
+  "gates":{"html":67,"sitemap":65,"seoErrors":0,"seoWarnings":0,"schemaErrors":0,"policy":"passed","performance":"passed","discovery":"passed","rssItems":47},
+  "links":{"pages":65,"orphans":0,"maxDepth":3,"historicalSingleInlinkPages":1},
+  "artifact":{"publicFilesBeforeMarker":173,"researchAndDraftsExcluded":true},
+  "newPublicPageOrAsset":false,
+  "newBrowserMatrix":false,
+  "newPrivateAnalyticsRead":false,
+  "newOutreachActions":false,
+  "humanReview":"pending for local draft; no invented named author or publisher acceptance",
+  "keywordVolume":null,"organicVisits":null,"referralVisits":null,"acquiredLinks":null,
+  "release":"exact source CI and public marker pending"
+}

@@ -1,0 +1,20 @@
+.quote-comparison { margin: 20px 0; padding: 22px; border: 1px solid #b6c9df; border-radius: 6px; background: #f5f9ff; }
+.quote-comparison fieldset { min-width: 0; margin: 0; padding: 0; border: 0; }
+.quote-comparison legend { padding: 0 0 12px; font-size: 18px; font-weight: 750; }
+.quote-common, .quote-offers, .quote-offer-fields { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 16px; }
+.quote-common { grid-template-columns: repeat(3, minmax(0,1fr)); margin-bottom: 22px; }
+.quote-offers { align-items: start; gap: 26px; }
+.quote-offer-fields { gap: 14px; }
+.quote-comparison label { display: grid; min-width: 0; gap: 6px; font-size: 14px; font-weight: 750; }
+.quote-comparison input, .quote-comparison select { width: 100%; min-width: 0; min-height: 44px; border: 1px solid #91abc9; border-radius: 4px; padding: 9px; color: #16334b; background: #fff; font: inherit; }
+.quote-comparison input:focus, .quote-comparison select:focus { outline: 3px solid #bfdbfe; outline-offset: 1px; }
+.quote-comparison .quote-mode { grid-column: 1 / -1; }
+.quote-comparison [hidden] { display: none !important; }
+.quote-comparison [aria-invalid="true"] { border-color: #a52d3b; }
+.quote-comparison [data-quote-error] { color: #a52d3b; font-weight: 700; }
+.quote-comparison table { width: 100%; border-collapse: collapse; margin: 24px 0 10px; font-size: 14px; table-layout: fixed; }
+.quote-comparison th, .quote-comparison td { padding: 11px 7px; text-align: right; border-bottom: 1px solid #c6d6e8; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.quote-comparison th:first-child { text-align: left; width: 40%; }
+.quote-comparison output { font-weight: 700; }
+.quote-comparison button { margin-top: 18px; min-height: 44px; }
+@media(max-width:620px) { .quote-comparison { padding: 16px; } .quote-common, .quote-offers { grid-template-columns: 1fr; } .quote-offers { gap: 24px; } .quote-comparison th,.quote-comparison td { padding: 10px 4px; font-size: 13px; } }

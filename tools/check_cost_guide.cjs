@@ -43,7 +43,7 @@ async function main() {
       });
       assert.equal(content.headline, content.schemaHeadline);
       assert.equal(content.published, "2026-09-11");
-      assert.equal(content.modified, "2026-10-24T00:20:55+08:00");
+      assert.equal(content.modified, "2026-10-31T08:45:37+08:00");
       assert.equal(content.visibleModified, content.modified);
       assert.equal(content.cover.loaded, true);
       assert.ok(content.cover.src.endsWith(width <= 600 ? "thumb-v1.webp" : "leads-v1.jpg"));
@@ -57,7 +57,7 @@ async function main() {
         assert.equal(clicks, Math.ceil(20 / 0.03 / rate));
         assert.equal(budget, clicks * 2);
       }
-      assert.equal(content.anchors.length, 5);
+      assert.equal(content.anchors.length, 6);
       for (const href of content.anchors) {
         assert.ok(content.ids.includes(href.slice(1)));
         await page.locator(`main nav a[href="${href}"]`).click();
@@ -93,7 +93,7 @@ async function main() {
         const image = document.querySelector('img[src*="ads-budget-qualified-leads-thumb"]');
         return image?.complete && image.naturalWidth === 480;
       });
-      assert.ok((await card.locator("small").innerText()).startsWith("2026-10-24"));
+      assert.ok((await card.locator("small").innerText()).startsWith("2026-10-31"));
       if (width === 1440 || width === 390) {
         await page.screenshot({ path: path.join(output, `listing-${width}.png`) });
       }

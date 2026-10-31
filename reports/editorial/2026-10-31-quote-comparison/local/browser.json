@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-31T00:55:19.015Z",
+  "base": "http://127.0.0.1:8804/",
+  "results": [
+    {
+      "width": 1440,
+      "mode": "js",
+      "overflow": false,
+      "defaultAndHybridChecked": true,
+      "fallbackChecked": false
+    },
+    {
+      "width": 768,
+      "mode": "js",
+      "overflow": false,
+      "defaultAndHybridChecked": true,
+      "fallbackChecked": false
+    },
+    {
+      "width": 390,
+      "mode": "js",
+      "overflow": false,
+      "defaultAndHybridChecked": true,
+      "fallbackChecked": false
+    },
+    {
+      "width": 320,
+      "mode": "js",
+      "overflow": false,
+      "defaultAndHybridChecked": true,
+      "fallbackChecked": false
+    },
+    {
+      "width": 1440,
+      "mode": "nojs",
+      "overflow": false,
+      "defaultAndHybridChecked": false,
+      "fallbackChecked": true
+    },
+    {
+      "width": 390,
+      "mode": "nojs",
+      "overflow": false,
+      "defaultAndHybridChecked": false,
+      "fallbackChecked": true
+    },
+    {
+      "width": 390,
+      "mode": "blocked",
+      "overflow": false,
+      "defaultAndHybridChecked": false,
+      "fallbackChecked": true
+    }
+  ],
+  "pageErrors": []
+}

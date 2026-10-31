@@ -1,0 +1,25 @@
+{
+  "observedDate": "2026-11-01",
+  "recordedDate": "2026-11-01",
+  "property": "sc-domain:shumaojs.com",
+  "method": "Fresh authorized browser-tab visible UI and official CSV downloads; subsequent comparison script is offline. Absolute period fields reopened after application. No private account identifiers retained. Download actions completed despite observation timeouts; resulting local archives independently inspected.",
+  "asOfPtDateAtAcquisition": "2026-10-31",
+  "weekly": {
+    "dates": ["2026-10-23", "2026-10-29", "2026-10-16", "2026-10-22"],
+    "propertyMetricsFromVisibleUI": {"clicks": [1, 0], "impressions": [66, 33], "ctrPercent": [1.5, 0], "averagePosition": [20.8, 24.7]},
+    "archive": "reports/search-console/2026-11-01-exports/weekly.zip",
+    "sha256": "8dbe465f1e06e514b80051e212e08f0a84a77de5f41a8eab5cf72f2e60bd6f3d"
+  },
+  "monthly": {
+    "dates": ["2026-10-02", "2026-10-29", "2026-09-04", "2026-10-01"],
+    "propertyMetricsFromVisibleUI": {"clicks": [1, 1], "impressions": [281, 15], "ctrPercent": [0.4, 6.7], "averagePosition": [48.5, 51.1]},
+    "archive": "reports/search-console/2026-11-01-exports/monthly.zip",
+    "sha256": "5a0e0edde80a4fd4149f16fa0d675471c7b5e2bf1f622b93cf75022d5399d8d1"
+  },
+  "limitations": [
+    "Local date November 1, PT date October 31. Through October 29 is only two days old under unchanged three-day lag, recent_edge_not_assumed_final.",
+    "Property cards are rounded UI values; query, page, country and device exports are independent dimensions. No fresh filtered query-country/page joins acquired this run.",
+    "Weekly and monthly windows overlap previous observations; do not sum windows, infer daily changes by subtraction or treat as independent experiments.",
+    "No search volume, GA4 organic sessions, enquiries, field Core Web Vitals or API finalness flag obtained."
+  ]
+}

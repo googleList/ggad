@@ -5,8 +5,26 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 30 Oct 2026 23:51:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 00:29:37 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who should own your Google Ads account?</title>
+      <link>https://shumaojs.com/articles/google-ads-account-ownership-usa.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-account-ownership-usa.html</guid>
+      <description>A practical guide to account ownership, manager access, billing profiles, data control, security, and agency handoffs.</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Google Ads Governance</category>
+      <dc:language>en-US</dc:language>
+    </item>
+    <item>
+      <title>香港 Google Ads 帳戶權限及付款資料指南</title>
+      <link>https://shumaojs.com/articles/google-ads-account-access-hong-kong.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-account-access-hong-kong.html</guid>
+      <description>分清管理員、經理帳戶、帳戶擁有權、付款資料、數據控制、保安及代理商交接。</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Google Ads 帳戶管理</category>
+      <dc:language>zh-Hant-HK</dc:language>
+    </item>
     <item>
       <title>SEO 课程怎么选？2026 年自学路径和资源清单</title>
       <link>https://shumaojs.com/articles/seo-course-learning-path.html</link>
@@ -374,24 +392,6 @@
       <description>香港廣告主適用的著陸頁審核框架，涵蓋繁英訊息、信任、手機體驗、WhatsApp、電話、表單、追蹤及查詢品質。</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
       <category>SEM</category>
-      <dc:language>zh-Hant-HK</dc:language>
-    </item>
-    <item>
-      <title>Who should own your Google Ads account?</title>
-      <link>https://shumaojs.com/articles/google-ads-account-ownership-usa.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-account-ownership-usa.html</guid>
-      <description>A practical guide to account ownership, manager access, billing profiles, data control, security, and agency handoffs.</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Google Ads Governance</category>
-      <dc:language>en-US</dc:language>
-    </item>
-    <item>
-      <title>香港 Google Ads 帳戶權限及付款資料指南</title>
-      <link>https://shumaojs.com/articles/google-ads-account-access-hong-kong.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-account-access-hong-kong.html</guid>
-      <description>分清管理員、經理帳戶、帳戶擁有權、付款資料、數據控制、保安及代理商交接。</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Google Ads 帳戶管理</category>
       <dc:language>zh-Hant-HK</dc:language>
     </item>
     <item>

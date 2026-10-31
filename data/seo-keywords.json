@@ -1,12 +1,24 @@
 {
   "domain": "https://shumaojs.com/",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "primaryQueryLanguage": "zh-Hans",
   "secondaryLocalizedAudiences": ["en-US", "zh-Hant-HK"],
   "note": "以简体中文搜索意图为主要内容优先级，语言与用户所在地分开分析。以下优先级是页面映射，不是搜索量预测；仅使用真实 Search Console 导出或可核实的界面快照调整查询、点击、展示、CTR、排名和国家优先级。10 月 24 日各批次的复核证据分别记录在对应主题，不把页面改动当作新增需求或排名数据。",
   "prioritySeedQueries": ["谷歌代投", "谷歌开户", "谷歌排名", "谷歌广告"],
   "intentConfirmation": {"confirmedAt":"2026-10-28","query":"谷歌排名","ownerReply":"重点做自然搜索 SEO 排名","targetIntent":"organic-seo","plannerReply":"暂时没有，先用现有证据研究","googleSearchVolume":null,"seoDifficulty":null,"articleHumanReview":"not inherited from intent answer"},
   "clusters": [
+    {
+      "cluster": "Google Ads 代理商交接依赖与账户控制",
+      "language": "en-US",
+      "intent": "implementation-stage informational",
+      "priority": "secondary-existing-page-accuracy",
+      "targetUrl": "https://shumaojs.com/articles/google-ads-account-ownership-usa.html",
+      "localizedAlternative": {"language":"zh-Hant-HK","targetUrl":"https://shumaojs.com/articles/google-ads-account-access-hong-kong.html"},
+      "primaryKeywords": ["Google Ads account ownership", "Google Ads 帳戶權限"],
+      "supportingKeywords": ["Google Ads agency handover", "取消經理帳戶連結", "付款經理", "跨帳戶轉換交接"],
+      "evidence": {"reviewedAt":"2026-10-31","method":"Actual generic handoff source omission versus seven primary Google references and public topic-shape searches; not localized volume. October31 exports through28 have sparse independent page observations, not query-country demand or a CTR experiment.","googleSearchVolume":null,"seoDifficulty":null,"countryDemandScaleVerified":false,"editorialBrief":"reports/editorial/2026-10-31-account-handover/brief.md","humanReviewStatus":"US and HK separate owner reviews pending; not inherited from service/setup/monthly/llms approvals"},
+      "contentActions": ["Same URLs, H1/titles, September28 publication and reciprocal alternates; six checks, three hypothetical cases and four records per locale", "Original shared conceptual responsive cover, contextual primary and local tracking/report links, matching modification/card/sitemap/RSS", "No actual access, billing, conversion, audience, security or account change; preserve Simplified primary service and accepted setup guide"]
+    },
     {
       "cluster": "llms.txt 提案、工具支持与搜索边界",
       "language": "zh-Hans",
@@ -15,7 +27,7 @@
       "targetUrl": "https://shumaojs.com/articles/llms-txt-ai-search-guide.html",
       "primaryKeywords": ["llms.txt 是什么", "llms.txt 怎么写"],
       "supportingKeywords": ["llms.txt Google 排名", "llms.txt robots sitemap 区别", "llms.txt v2"],
-      "evidence": {"reviewedAt":"2026-10-30","method":"Actual existing index-file/generalAIvisibility claims andstale directory labels versus primaryproposalv2/GoogleSearchscope. Publicquery validates definition/comparison/support intent only; no localizedUS-HKvolume or release-outcome inference.","googleSearchVolume":null,"seoDifficulty":null,"countryDemandScaleVerified":false,"editorialBrief":"reports/editorial/2026-10-30-llms-boundaries/brief.md","humanReviewStatus":"Own revision question actually delivered October30 after verified production; answer pending, no inherited crawler/trust/service/organic approval."},
+      "evidence": {"reviewedAt":"2026-10-30","method":"Actual existing index-file/generalAIvisibility claims andstale directory labels versus primaryproposalv2/GoogleSearchscope. Publicquery validates definition/comparison/support intent only; no localizedUS-HKvolume or release-outcome inference.","googleSearchVolume":null,"seoDifficulty":null,"countryDemandScaleVerified":false,"editorialBrief":"reports/editorial/2026-10-30-llms-boundaries/brief.md","humanReviewStatus":"Accepted independently: owner answered 内容符合，可保留 for7726f92 scope only; state already recorded October30. Preserve guide and dates, no inherited trust/service/organic/SEOlearning or account approval."},
       "contentActions": ["SameURL/GEO/September11publication; correct misleadingtitle, actual substantive modifiedtime, sixboundaries/fourhypotheticalcases/fourrecords andoriginalresponsivecover", "Repair actualroot directory currentlabels andkeywordrepetition without inventing Markdowncopies, opening permissions or claiming AI platformuse", "Retain naturalSEO primary intent and commercial代投/setup pages; novolume/rank/referral/lead claim oraccountaction"]
     },
     {

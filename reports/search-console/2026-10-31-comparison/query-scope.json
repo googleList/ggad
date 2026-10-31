@@ -1,0 +1,26 @@
+{
+  "observedDate": "2026-10-31",
+  "property": "sc-domain:shumaojs.com",
+  "method": "Authorized visible native UI, exact query filter manually selected and typed. Screenshots verified applied filter, current/prior cards, page table and all four country rows. No raw private app screenshots retained in public repository.",
+  "dates": ["2026-10-01", "2026-10-28", "2026-09-03", "2026-09-30"],
+  "query": "谷歌代投",
+  "match": "exact",
+  "propertyUi": {"clicks": [1, 0], "impressions": [20, 0], "ctrPercent": [5, 0], "averagePosition": [3.2, null]},
+  "queryFilteredPages": [
+    {"url": "https://shumaojs.com/google-ads.html", "clicks": [1, 0], "impressions": [20, 0]}
+  ],
+  "queryFilteredCountries": [
+    {"country": "CN", "clicks": [1, 0], "impressions": [8, 0]},
+    {"country": "HK", "clicks": [0, 0], "impressions": [7, 0]},
+    {"country": "SG", "clicks": [0, 0], "impressions": [3, 0]},
+    {"country": "US", "clicks": [0, 0], "impressions": [2, 0]}
+  ],
+  "jointQueryPageCountryDevice": null,
+  "limitations": [
+    "Page and country views were separately conditioned on exact query; no simultaneous country-plus-page-plus-device filter was read.",
+    "Current and previous absolute periods inherited the independently verified applied 28-day comparison. No zero-impression position is interpreted as rank zero.",
+    "These are observed sparse site exposures, not market search volumes, stable rankings, customers, sessions or release-attributed outcomes.",
+    "The same 20 current impressions also occur in the overlapping weekly export; never add the two periods."
+  ],
+  "incidentalUiHandling": "One stale AX index selected google ads audit checklist instead of intended query. Screenshot identified mismatch; filter was removed before explicit exact-query entry. No values from that incidental view used for target-query attribution. Finally removed target-query filter; overall report left available, original unrelated property tab untouched."
+}

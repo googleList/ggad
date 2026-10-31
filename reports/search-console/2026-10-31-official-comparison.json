@@ -1,0 +1,25 @@
+{
+  "observedDate": "2026-10-31",
+  "recordedDate": "2026-10-31",
+  "property": "sc-domain:shumaojs.com",
+  "method": "Fresh authorized native visible UI acquisition and official CSV downloads, not API. Four absolute date fields reopened after applied comparisons. CSV filters retain relative labels. No account identifiers or private chat retained. The comparison script itself subsequently operates offline.",
+  "asOfPtDateAtAcquisition": "2026-10-30",
+  "weekly": {
+    "dates": ["2026-10-22", "2026-10-28", "2026-10-15", "2026-10-21"],
+    "propertyMetricsFromVisibleUI": {"clicks": [1, 0], "impressions": [64, 28], "ctrPercent": [1.6, 0], "averagePosition": [19.7, 33]},
+    "archive": "reports/search-console/2026-10-31-exports/weekly.zip",
+    "sha256": "cd81cd751a25e0d7ca44ec89a7ce42d9b7cf1213029872f424441586935f5b89"
+  },
+  "monthly": {
+    "dates": ["2026-10-01", "2026-10-28", "2026-09-03", "2026-09-30"],
+    "propertyMetricsFromVisibleUI": {"clicks": [1, 1], "impressions": [279, 6], "ctrPercent": [0.4, 16.7], "averagePosition": [50.6, 12.7]},
+    "archive": "reports/search-console/2026-10-31-exports/monthly.zip",
+    "sha256": "968d27e0c2514527e51f8e730360c5f68aa2c6c3853e77de0f822785f367f803"
+  },
+  "limitations": [
+    "PT date was October 30 at download despite local October 31. Through October 28 is recent edge under unchanged three-day lag; not assumed final.",
+    "Property cards are visible UI rounded values. Export dimension tables are independent, not joined or forced to reconcile.",
+    "Weekly and monthly periods overlap. New windows overlap earlier observations, not independent experiments.",
+    "No GA4 sessions, enquiries, search volumes, finalness flag or field Core Web Vitals obtained."
+  ]
+}

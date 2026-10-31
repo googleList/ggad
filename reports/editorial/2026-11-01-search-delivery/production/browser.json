@@ -1,0 +1,525 @@
+{
+  "checkedAt": "2026-10-31T17:12:30.917Z",
+  "base": "https://shumaojs.com/",
+  "results": [
+    {
+      "width": 1440,
+      "deviceScaleFactor": 1,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告不展示怎么办？Google Ads 排查清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告不展示怎么办？Google Ads 排查清单",
+        "description": "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "image": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-11-01T01:00:00+08:00",
+        "dateModified": "2026-11-01T01:00:00+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-not-showing.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "visibleDate": "2026-11-01T01:00:00+08:00",
+      "descriptions": [
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg"
+      ],
+      "canonical": "https://shumaojs.com/articles/google-ads-not-showing.html",
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "renderedWidth": 920,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "anchors": [
+        "#symptom",
+        "#checks",
+        "#preview",
+        "#examples",
+        "#evidence-log",
+        "#questions"
+      ],
+      "localLinks": [
+        "https://shumaojs.com/articles/landing-page-checklist.html",
+        "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "https://shumaojs.com/articles/google-search-ads-guide.html#placement-metrics",
+        "https://shumaojs.com/articles/google-budget-pacing.html",
+        "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+        "https://shumaojs.com/articles/google-ads-basics.html",
+        "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+        "https://shumaojs.com/google-ads.html#service-scope",
+        "https://shumaojs.com/articles.html"
+      ],
+      "listingJourney": true,
+      "mobileMenuChecked": false
+    },
+    {
+      "width": 768,
+      "deviceScaleFactor": 1,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告不展示怎么办？Google Ads 排查清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告不展示怎么办？Google Ads 排查清单",
+        "description": "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "image": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-11-01T01:00:00+08:00",
+        "dateModified": "2026-11-01T01:00:00+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-not-showing.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "visibleDate": "2026-11-01T01:00:00+08:00",
+      "descriptions": [
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg"
+      ],
+      "canonical": "https://shumaojs.com/articles/google-ads-not-showing.html",
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "renderedWidth": 732,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "anchors": [
+        "#symptom",
+        "#checks",
+        "#preview",
+        "#examples",
+        "#evidence-log",
+        "#questions"
+      ],
+      "localLinks": [
+        "https://shumaojs.com/articles/landing-page-checklist.html",
+        "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "https://shumaojs.com/articles/google-search-ads-guide.html#placement-metrics",
+        "https://shumaojs.com/articles/google-budget-pacing.html",
+        "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+        "https://shumaojs.com/articles/google-ads-basics.html",
+        "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+        "https://shumaojs.com/google-ads.html#service-scope",
+        "https://shumaojs.com/articles.html"
+      ],
+      "listingJourney": true,
+      "mobileMenuChecked": false
+    },
+    {
+      "width": 390,
+      "deviceScaleFactor": 1,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告不展示怎么办？Google Ads 排查清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告不展示怎么办？Google Ads 排查清单",
+        "description": "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "image": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-11-01T01:00:00+08:00",
+        "dateModified": "2026-11-01T01:00:00+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-not-showing.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "visibleDate": "2026-11-01T01:00:00+08:00",
+      "descriptions": [
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg"
+      ],
+      "canonical": "https://shumaojs.com/articles/google-ads-not-showing.html",
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-thumb-v1.webp",
+        "renderedWidth": 340,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 640
+      },
+      "overflow": false,
+      "anchors": [
+        "#symptom",
+        "#checks",
+        "#preview",
+        "#examples",
+        "#evidence-log",
+        "#questions"
+      ],
+      "localLinks": [
+        "https://shumaojs.com/articles/landing-page-checklist.html",
+        "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "https://shumaojs.com/articles/google-search-ads-guide.html#placement-metrics",
+        "https://shumaojs.com/articles/google-budget-pacing.html",
+        "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+        "https://shumaojs.com/articles/google-ads-basics.html",
+        "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+        "https://shumaojs.com/google-ads.html#service-scope",
+        "https://shumaojs.com/articles.html"
+      ],
+      "listingJourney": true,
+      "mobileMenuChecked": true
+    },
+    {
+      "width": 320,
+      "deviceScaleFactor": 1,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告不展示怎么办？Google Ads 排查清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告不展示怎么办？Google Ads 排查清单",
+        "description": "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "image": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-11-01T01:00:00+08:00",
+        "dateModified": "2026-11-01T01:00:00+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-not-showing.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "visibleDate": "2026-11-01T01:00:00+08:00",
+      "descriptions": [
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg"
+      ],
+      "canonical": "https://shumaojs.com/articles/google-ads-not-showing.html",
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-thumb-v1.webp",
+        "renderedWidth": 276,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 640
+      },
+      "overflow": false,
+      "anchors": [
+        "#symptom",
+        "#checks",
+        "#preview",
+        "#examples",
+        "#evidence-log",
+        "#questions"
+      ],
+      "localLinks": [
+        "https://shumaojs.com/articles/landing-page-checklist.html",
+        "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "https://shumaojs.com/articles/google-search-ads-guide.html#placement-metrics",
+        "https://shumaojs.com/articles/google-budget-pacing.html",
+        "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+        "https://shumaojs.com/articles/google-ads-basics.html",
+        "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+        "https://shumaojs.com/google-ads.html#service-scope",
+        "https://shumaojs.com/articles.html"
+      ],
+      "listingJourney": true,
+      "mobileMenuChecked": true
+    },
+    {
+      "width": 390,
+      "deviceScaleFactor": 2,
+      "javaScriptEnabled": true,
+      "title": "谷歌广告不展示怎么办？Google Ads 排查清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告不展示怎么办？Google Ads 排查清单",
+        "description": "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "image": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-11-01T01:00:00+08:00",
+        "dateModified": "2026-11-01T01:00:00+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-not-showing.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "visibleDate": "2026-11-01T01:00:00+08:00",
+      "descriptions": [
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg"
+      ],
+      "canonical": "https://shumaojs.com/articles/google-ads-not-showing.html",
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "renderedWidth": 340,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "anchors": [
+        "#symptom",
+        "#checks",
+        "#preview",
+        "#examples",
+        "#evidence-log",
+        "#questions"
+      ],
+      "localLinks": [
+        "https://shumaojs.com/articles/landing-page-checklist.html",
+        "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "https://shumaojs.com/articles/google-search-ads-guide.html#placement-metrics",
+        "https://shumaojs.com/articles/google-budget-pacing.html",
+        "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+        "https://shumaojs.com/articles/google-ads-basics.html",
+        "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+        "https://shumaojs.com/google-ads.html#service-scope",
+        "https://shumaojs.com/articles.html"
+      ],
+      "listingJourney": true,
+      "mobileMenuChecked": true
+    },
+    {
+      "width": 1440,
+      "deviceScaleFactor": 1,
+      "javaScriptEnabled": false,
+      "title": "谷歌广告不展示怎么办？Google Ads 排查清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告不展示怎么办？Google Ads 排查清单",
+        "description": "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "image": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-11-01T01:00:00+08:00",
+        "dateModified": "2026-11-01T01:00:00+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-not-showing.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "visibleDate": "2026-11-01T01:00:00+08:00",
+      "descriptions": [
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg"
+      ],
+      "canonical": "https://shumaojs.com/articles/google-ads-not-showing.html",
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "renderedWidth": 920,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 1200
+      },
+      "overflow": false,
+      "anchors": [
+        "#symptom",
+        "#checks",
+        "#preview",
+        "#examples",
+        "#evidence-log",
+        "#questions"
+      ],
+      "localLinks": [
+        "https://shumaojs.com/articles/landing-page-checklist.html",
+        "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "https://shumaojs.com/articles/google-search-ads-guide.html#placement-metrics",
+        "https://shumaojs.com/articles/google-budget-pacing.html",
+        "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+        "https://shumaojs.com/articles/google-ads-basics.html",
+        "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+        "https://shumaojs.com/google-ads.html#service-scope",
+        "https://shumaojs.com/articles.html"
+      ],
+      "listingJourney": true,
+      "mobileMenuChecked": false
+    },
+    {
+      "width": 390,
+      "deviceScaleFactor": 1,
+      "javaScriptEnabled": false,
+      "title": "谷歌广告不展示怎么办？Google Ads 排查清单",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "谷歌广告不展示怎么办？Google Ads 排查清单",
+        "description": "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "image": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "inLanguage": "zh-CN",
+        "articleSection": "SEM",
+        "datePublished": "2026-11-01T01:00:00+08:00",
+        "dateModified": "2026-11-01T01:00:00+08:00",
+        "mainEntityOfPage": "https://shumaojs.com/articles/google-ads-not-showing.html",
+        "author": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "@id": "https://shumaojs.com/#organization",
+          "name": "昆明振润达商贸有限公司",
+          "url": "https://shumaojs.com/company.html",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://shumaojs.com/assets/logo.svg"
+          }
+        }
+      },
+      "visibleDate": "2026-11-01T01:00:00+08:00",
+      "descriptions": [
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。",
+        "自己搜不到广告，不一定是零展示。按七项清单检查 Google 搜索广告的报表、状态、审核、关键词、定位和出价，用四个假设情境确定下一步，保留可复查的排查记录。"
+      ],
+      "images": [
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg",
+        "https://shumaojs.com/assets/articles/search-delivery-diagnosis-v1.jpg"
+      ],
+      "canonical": "https://shumaojs.com/articles/google-ads-not-showing.html",
+      "image": {
+        "src": "https://shumaojs.com/assets/articles/search-delivery-diagnosis-thumb-v1.webp",
+        "renderedWidth": 340,
+        "ratio": 1.7777777777777777,
+        "decodedWidth": 640
+      },
+      "overflow": false,
+      "anchors": [
+        "#symptom",
+        "#checks",
+        "#preview",
+        "#examples",
+        "#evidence-log",
+        "#questions"
+      ],
+      "localLinks": [
+        "https://shumaojs.com/articles/landing-page-checklist.html",
+        "https://shumaojs.com/articles/google-seo-ranking-guide.html",
+        "https://shumaojs.com/articles/google-search-ads-guide.html#placement-metrics",
+        "https://shumaojs.com/articles/google-budget-pacing.html",
+        "https://shumaojs.com/articles/sem-keyword-match-guide.html",
+        "https://shumaojs.com/articles/google-ads-basics.html",
+        "https://shumaojs.com/articles/google-ads-responsive-search-ads.html",
+        "https://shumaojs.com/google-ads.html#service-scope",
+        "https://shumaojs.com/articles.html"
+      ],
+      "listingJourney": true,
+      "mobileMenuChecked": false
+    }
+  ],
+  "pageErrors": []
+}

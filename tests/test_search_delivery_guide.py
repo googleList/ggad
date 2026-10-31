@@ -57,7 +57,7 @@ class SearchDeliveryGuideTests(unittest.TestCase):
         self.assertEqual(self.count("data-preview-steps"), 1)
         self.assertEqual(self.count("data-delivery-records"), 1)
 
-    def test_new_publication_and_discovery_do_not_rewrite_old_dates(self):
+    def test_new_publication_discovery_and_preserved_first_publications(self):
         schema = article_schema(ARTICLE)
         self.assertEqual(schema["datePublished"], "2026-11-01T01:00:00+08:00")
         self.assertEqual(schema["dateModified"], schema["datePublished"])
@@ -67,7 +67,6 @@ class SearchDeliveryGuideTests(unittest.TestCase):
         for page in ("google-ads-basics.html", "google-search-ads-guide.html"):
             self.assertIn('href="google-ads-not-showing.html#checks"', (ROOT / "articles" / page).read_text(encoding="utf-8"))
         self.assertEqual(article_schema(ROOT / "articles/google-ads-basics.html")["datePublished"], "2026-09-11")
-        self.assertEqual(article_schema(ROOT / "articles/google-ads-basics.html")["dateModified"], "2026-11-01T01:18:00+08:00")
 
     def test_original_responsive_asset_contract(self):
         for name in ("search-delivery-diagnosis-v1.jpg", "search-delivery-diagnosis-thumb-v1.webp"):

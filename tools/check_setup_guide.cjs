@@ -17,13 +17,20 @@ async function main() {
     for (const [width, javaScriptEnabled, dpr] of [[1440, true, 1], [768, true, 1], [390, true, 1], [320, true, 1], [1440, false, 1], [390, false, 1], [390, true, 2]]) {
       const context = await browser.newContext({ viewport: { width, height: 900 }, javaScriptEnabled, deviceScaleFactor:dpr, reducedMotion: "reduce" });
       const page = await context.newPage();
+      const delayedCssRegression=width===390&&!javaScriptEnabled;
+      if(delayedCssRegression) await page.route("**/styles.css", async route=>{
+        await new Promise(resolve=>setTimeout(resolve,1500));
+        await route.continue();
+      });
       page.setDefaultTimeout(15000);
       page.setDefaultNavigationTimeout(45000);
       page.on("pageerror", (error) => errors.push(`${width}px: ${error.message}`));
       const response = await page.goto(new URL("articles/google-ads-basics.html", base).href,
         { waitUntil: "domcontentloaded" });
       assert.equal(response.status(), 200);
+      await page.waitForLoadState("load");
       await page.locator(".article-cover").evaluate((image) => image.decode());
+      assert.equal(await page.evaluate(()=>[...document.styleSheets].some(s=>s.href?.endsWith("/styles.css")&&s.cssRules.length>0)),true);
       const content = await page.evaluate(() => {
         const main = document.querySelector("main");
         const article = [...document.querySelectorAll('script[type="application/ld+json"]')]
@@ -138,7 +145,7 @@ async function main() {
       assert.ok((await card.locator("img").getAttribute("src")).endsWith("account-setup-readiness-thumb-v1.webp"));
       await card.locator("h3 a").click();
       assert.equal(new URL(page.url()).pathname, "/articles/google-ads-basics.html");
-      results.push({ width, dpr, javaScriptEnabled, ...content, tableKeyboardScrollPassed: width <= 390 ? true : null, listingJourneyPassed: true, passed: true });
+      results.push({ width, dpr, javaScriptEnabled, delayedCssRegression, ...content, tableKeyboardScrollPassed: width <= 390 ? true : null, listingJourneyPassed: true, passed: true });
       console.log(`Passed ${width}px/${javaScriptEnabled ? "JS" : "noJS"} guide content, anchors, tables, image and listing journey`);
       await context.close();
     }

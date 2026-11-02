@@ -1,8 +1,16 @@
 {
-  "generatedAt": "2026-10-27T15:43:20.320Z",
+  "generatedAt": "2026-11-02T07:50:11.752Z",
   "sourcesChecked": 6,
   "sourcesAvailable": 5,
   "items": [
+    {
+      "title": "The Ultimate Guide to PPC Acronyms",
+      "url": "https://ppchero.com/the-ultimate-guide-to-ppc-acronyms/",
+      "source": "PPC Hero",
+      "publishedAt": "2026-10-29T10:23:59.000Z",
+      "category": "广告投放",
+      "summary": "From CPC to CTR, crack the code of PPC acronyms and get to grips with the jargon every advertiser should know."
+    },
     {
       "title": "6 Common (But Killer) Google Ads Optimization Mistakes",
       "url": "https://www.wordstream.com/blog/google-ads-optimization-mistakes",
@@ -237,6 +245,7 @@
     }
   ],
   "topicIdeas": [
+    "广告投放：The Ultimate Guide to PPC Acronyms",
     "转化与落地页：6 Common (But Killer) Google Ads Optimization Mistakes",
     "广告投放：AI Won’t Save You Time. Not at First. A PPC Experts AI Journey",
     "转化与落地页：Task Automation Tips, AI-Build Landing Pages, and Industry News",
@@ -253,7 +262,6 @@
     "转化与落地页：Landing Page Best Practices: When to Trust Them and When to Question Them",
     "Meta / Facebook：YouTube Performance Analysis, Facebook Ads Changes, and Industry News",
     "搜索广告：Proving the Value of Paid Search With Incrementality Testing",
-    "搜索广告：Make AI Max work for your business with new testing and planning tools.",
-    "Google Ads：Google Ads Target Bid Strategy Changes: What Changed in August 2026 and What to Do Now"
+    "搜索广告：Make AI Max work for your business with new testing and planning tools."
   ]
 }

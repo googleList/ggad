@@ -1,8 +1,32 @@
 {
-  "generatedAt": "2026-11-02T07:50:11.752Z",
+  "generatedAt": "2026-11-09T08:13:09.569Z",
   "sourcesChecked": 6,
   "sourcesAvailable": 5,
   "items": [
+    {
+      "title": "The 2026 Holiday PPC Guide for B2B SaaS: Plan for January Pipeline, Not December Leads",
+      "url": "https://ppchero.com/the-2026-holiday-ppc-guide-for-b2b-saas/",
+      "source": "PPC Hero",
+      "publishedAt": "2026-11-03T16:42:57.000Z",
+      "category": "广告投放",
+      "summary": "Cheap December leads rarely become January pipeline. Here's how B2B SaaS teams should plan holiday PPC budgets, CRM signals and bidding for qualified demand."
+    },
+    {
+      "title": "Meta Ads Testing, YouTube Analysis, and Industry News",
+      "url": "https://www.socialmediaexaminer.com/meta-ads-testing-youtube-analysis-and-industry-news/",
+      "source": "Social Media Examiner",
+      "publishedAt": "2026-11-03T10:30:00.000Z",
+      "category": "Meta / Facebook",
+      "summary": "Here’s a recap of the most important insights, trends, and updates you need to know about today! Catch up in minutes and go into the rest of the week prepared. In today’s edition:"
+    },
+    {
+      "title": "6 Hidden Settings to Check in Your Google Ads Account Right Now!",
+      "url": "https://www.wordstream.com/blog/hidden-google-ads-settings",
+      "source": "WordStream",
+      "publishedAt": "2026-11-02T17:13:12.000Z",
+      "category": "Google Ads",
+      "summary": "These less-obvious Google Ads settings may be hurting your campaign performance."
+    },
     {
       "title": "The Ultimate Guide to PPC Acronyms",
       "url": "https://ppchero.com/the-ultimate-guide-to-ppc-acronyms/",
@@ -245,6 +269,9 @@
     }
   ],
   "topicIdeas": [
+    "广告投放：The 2026 Holiday PPC Guide for B2B SaaS: Plan for January Pipeline, Not December Leads",
+    "Meta / Facebook：Meta Ads Testing, YouTube Analysis, and Industry News",
+    "Google Ads：6 Hidden Settings to Check in Your Google Ads Account Right Now!",
     "广告投放：The Ultimate Guide to PPC Acronyms",
     "转化与落地页：6 Common (But Killer) Google Ads Optimization Mistakes",
     "广告投放：AI Won’t Save You Time. Not at First. A PPC Experts AI Journey",
@@ -259,9 +286,6 @@
     "Google Ads：Guide your campaign spending with new priority and allocation features",
     "转化与落地页：Beyond Search: Winning Local Customers on Display & Demand Gen",
     "转化与落地页：AI Landing Pages: From Project Plan to Published Page",
-    "转化与落地页：Landing Page Best Practices: When to Trust Them and When to Question Them",
-    "Meta / Facebook：YouTube Performance Analysis, Facebook Ads Changes, and Industry News",
-    "搜索广告：Proving the Value of Paid Search With Incrementality Testing",
-    "搜索广告：Make AI Max work for your business with new testing and planning tools."
+    "转化与落地页：Landing Page Best Practices: When to Trust Them and When to Question Them"
   ]
 }

@@ -24,4 +24,10 @@ Initial system Chrome launch exited before a page opened; tests succeeded with i
 2. Obtain exclusion example URLs before diagnosing current intended pages; do not restore old storefront/account pages, bulk301home, or request validation without evidence.
 3. Retain reviewed content and dates, wait independent pending human replies. No further responsive-image expansion without a measured defect; no new similar thin pages or title churn from small aggregate counts.
 
+## Release result
+
+Source27c8873fa94ba80063965d27ee64d2027a36600f pushed non-force to main. Pages42586220471/job129056586476 success: all237Ubuntu testsOK, validation gates passed,181publicfiles including marker. Full live40character marker matched2026-11-09T08:30:07.6241297Z; repository report URL returned404 as intended.
+
+Production25cases finished2026-11-09T08:30:03.527Z, reports/performance/2026-11-09-cover-density/production/browser.json: zeroerrors/overflow, correct16:9/decodedcoverage/CSS/canonical, five protected semanticHTML hashes match baseline in all cases. Ordinary390/DPR1 keeps480px,390/DPR2 selects1200px. These checks establish deployed image behavior only, not fresh search/GA4/fieldCWV evidence. Final records-only followup can be verified externally without a recursive evidence-commit loop. Local helper server stopped; no running test sessions remain.
+
 No Ads/GA4/Cloudflare setting, form submission, index request, outbound message, directory profile or link purchase occurred.

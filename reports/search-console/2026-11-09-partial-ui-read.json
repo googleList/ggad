@@ -1,0 +1,50 @@
+{
+  "observedDate": "2026-11-09",
+  "property": "sc-domain:shumaojs.com",
+  "method": "Authorized visible browser tab and rendered DOM only; partial acquisition, not API or CSV",
+  "weekly": {
+    "dates": ["2026-11-01", "2026-11-07", "2026-10-25", "2026-10-31"],
+    "absoluteDatesReopenedAfterApply": true,
+    "propertyMetricsFromVisibleUI": {"clicks": [0, 1], "impressions": [72, 66], "ctrPercent": [0, 1.5], "averagePosition": [24.9, 23.1]},
+    "completeQueryRows": null,
+    "pageRows": null,
+    "countryRows": null,
+    "deviceRows": null,
+    "officialCsvObtained": false,
+    "freshness": "recent edge, not assumed final"
+  },
+  "monthly": null,
+  "initialViewContextOnly": {
+    "dates": ["2026-08-08", "2026-11-07"],
+    "clicks": 4,
+    "impressions": 399,
+    "ctrPercent": 1,
+    "averagePosition": 43.3,
+    "visibleTopQuery": {"query":"谷歌代投","clicks":1,"impressions":34},
+    "limitation": "Initial longer-range chart and first visible rows, not seven/28day data or a complete query export. Never join its query to weekly totals."
+  },
+  "indexing": {
+    "uiUpdatedDate": "2026-11-06",
+    "scope": "所有已知网页",
+    "indexed": 55,
+    "notIndexed": 48,
+    "reasons": {"notFound404":20,"alternateWithProperCanonical":9,"discoveredNotIndexed":13,"crawledNotIndexed":6,"redirected":0},
+    "exampleUrls": null,
+    "limitation": "All known URLs may include legacy and protocol variants; not a census of the current66sitemapURLs. No URL-level diagnosis, recovery/redirect/indexing request or validation started."
+  },
+  "acquisitionFailure": {
+    "csvDownloadWaitTimedOut": true,
+    "matchingDownloadedFileFound": false,
+    "subsequentTabReadTimedOut": true,
+    "reportScopeChangedToWeeklyComparison": true,
+    "newAccountSettingsOrIndexingAction": false,
+    "userOwnedTabClosed": false,
+    "privateEndpointOrProfileFallbackUsed": false
+  },
+  "limits": [
+    "UI cards are rounded, not stable keyword ranks or GA4 sessions. No claim of sampling/finality beyond visible evidence.",
+    "Newer range than prior October29snapshot, but prior rolling observations still overlap the present comparison period. No release attribution or independent experimental claim.",
+    "Exact target keyword performance and US/HK allocation remain unknown for this weekly window; absent acquisition is not zero demand.",
+    "No new GA4, search volume, enquiries or field Core Web Vitals. Do not process this partial snapshot as the two-archive comparison pipeline input."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "observedDate": "2026-11-01",
+  "targetSite": "https://shumaojs.com/",
+  "baselineRevision": "17e7abce29a5c9fa3bda4830360aa916871b6ad4",
+  "previousReadinessSnapshot": "reports/analytics/2026-10-27-readiness.json",
+  "connector": {
+    "tool": "list_ga4_properties",
+    "attempts": 1,
+    "outcome": "payment_required",
+    "reason": "subscription_required",
+    "propertyListReturned": false,
+    "next": "Do not retry this connector until its subscription state changes. No purchase, reconnect or permission expansion performed. Free official UI or owner exports remain alternatives."
+  },
+  "officialUi": {
+    "method": "Fresh authorized browser-tab rendered UI read, not native app automation or hidden endpoints",
+    "observedUrl": "https://analytics.google.com/analytics/web/provision/#/provision",
+    "visibleHeading": "欢迎使用 Google Analytics",
+    "visibleActionNotUsed": "开始衡量",
+    "targetResourceIdentified": false,
+    "targetResourceExistsInOtherAccounts": null,
+    "domainStreamBindingVerified": false,
+    "temporaryAgentTabClosed": true,
+    "userOwnedTabsChanged": false
+  },
+  "localSourceScope": {
+    "files": ["index.html", "google-ads.html", "site-v20260930.js", "privacy.html"],
+    "observation": "No matching GA4 measurement ID, gtag, GTM or Google Analytics script strings found in these selected local files. This is not a rendered all-site or edge/server-side tracking audit and does not prove no measurement exists.",
+    "placeholderTrackingAdded": false
+  },
+  "googleOrganicSessions7Days": null,
+  "googleOrganicSessions28Days": null,
+  "qualifiedEnquiries": null,
+  "goalProgressVerified": false,
+  "conclusion": "Measurement resource/access gap remains unresolved. Unknown is not zero traffic, zero demand or proof the owner lacks a property elsewhere. Existing request for the correct GA4 resource remains pending; no duplicate question sent.",
+  "latestGscEvidence": {
+    "snapshot": "reports/search-console/2026-11-01-official-comparison.json",
+    "dataThrough": "2026-10-29",
+    "newGscReadThisRun": false,
+    "limitation": "GSC clicks are not GA4 sessions or received qualified leads. Recent-edge/overlapping window limitations remain unchanged."
+  },
+  "actionsNotTaken": ["subscription purchase", "account creation", "terms acceptance", "account switching", "new permissions", "property or stream changes", "tag installation", "event configuration", "ad changes", "private API or browser-profile access"],
+  "report": "reports/analytics/2026-11-01-measurement-handoff.md"
+}

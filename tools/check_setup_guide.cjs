@@ -2,6 +2,7 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
+const crypto = require("node:crypto");
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || "playwright");
 const sharp = require(process.env.SHARP_MODULE || "sharp");
 
@@ -10,6 +11,7 @@ const output = process.argv[3] || path.join(os.tmpdir(), "shumao-setup-guide-che
 
 async function main() {
   fs.mkdirSync(output, { recursive: true });
+  const protectedSections = JSON.parse(fs.readFileSync(path.join(__dirname, "../reports/editorial/2026-11-01-setup-structure/protected-sections.json"), "utf8")).sections;
   const browser = await chromium.launch({ headless: true, executablePath: process.env.CHROME_PATH });
   const results = [];
   const errors = [];
@@ -28,6 +30,15 @@ async function main() {
       const response = await page.goto(new URL("articles/google-ads-basics.html", base).href,
         { waitUntil: "domcontentloaded" });
       assert.equal(response.status(), 200);
+      const source = (await response.text()).replace(/\r\n/g, "\n");
+      const protectedMatches = {};
+      for (const [id, expected] of Object.entries(protectedSections)) {
+        const start = source.indexOf(`<section id="${id}">`);
+        const end = source.indexOf("</section>", start);
+        assert.ok(start >= 0 && end > start, id);
+        protectedMatches[id] = crypto.createHash("sha256").update(source.slice(start, end + "</section>".length)).digest("hex") === expected;
+        assert.equal(protectedMatches[id], true, `Protected section changed: ${id}`);
+      }
       await page.waitForLoadState("load");
       await page.locator(".article-cover").evaluate((image) => image.decode());
       assert.equal(await page.evaluate(()=>[...document.styleSheets].some(s=>s.href?.endsWith("/styles.css")&&s.cssRules.length>0)),true);
@@ -152,7 +163,7 @@ async function main() {
       assert.ok((await card.locator("img").getAttribute("src")).endsWith("account-setup-readiness-thumb-v1.webp"));
       await card.locator("h3 a").click();
       assert.equal(new URL(page.url()).pathname, "/articles/google-ads-basics.html");
-      results.push({ width, dpr, javaScriptEnabled, delayedCssRegression, ...content, tableKeyboardScrollPassed: width <= 390 ? true : null, listingJourneyPassed: true, passed: true });
+      results.push({ width, dpr, javaScriptEnabled, delayedCssRegression, ...content, protectedMatches, tableKeyboardScrollPassed: width <= 390 ? true : null, listingJourneyPassed: true, passed: true });
       console.log(`Passed ${width}px/${javaScriptEnabled ? "JS" : "noJS"} guide content, anchors, tables, image and listing journey`);
       await context.close();
     }

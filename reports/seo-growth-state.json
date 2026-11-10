@@ -66,8 +66,10 @@
     "evidence": "Actualcoveragegap andownerpriorverification-versus-suspensionquestion plus current4officialpolicyhelps. OriginalAdminPolicyAccountnavigation recheckedstillcorrect, not altered. Publicqueryshape notUS-HKvolume/rankproof",
     "status": "source deployed and production verified; checker/evidence followup",
     "sourceRevision": "5d624a78ce4d64cfd861a182846a95ba0f35383e",
-    "humanReview": "New supplement pending independently; own focused question actually delivered November10 after release. Prior acceptedfirstreview/structure scopes retained, not inherited",
+    "humanReview": "Accepted independently November10 for newverification-triage6states/3hypotheticalexamples/reviewrecord only. Earlier8section approvals retained; not inherited byotherpendingarticles or actualaccount/material/appeal actions",
     "humanReviewRequestedOn": "2026-11-10",
+    "humanReviewConfirmedOn": "2026-11-10",
+    "ownerReply": "内容符合，可保留",
     "production": {
       "run": 42775890135,
       "job": 129694177242,
@@ -89,7 +91,7 @@
     "validation": "241localtestsOK(oneWindowsskip),8priorsectionhashes retained,7guide+6hub browserchecks andSEO/schema/policy/performance/discovery/RSS/JS/link/stage gates",
     "organicVisits": null,
     "goalProgressVerified": false,
-    "next": "Complete and verify release, obtain own newsection review. Preserve accepted oldsections. Existing GSC/GA4/export gaps remain; no repeatedprivatepolls, pricing/certification/appealguarantees, documentcollection, realaccount/material/index/edge/outreach action."
+    "next": "Preserve nowindependentlyaccepted supplement and original8sections/title/dates/cover, no repeat review request or immediate rewrite. Existing GSC/GA4/export gaps andotherindependentpendingreviews remain; wait realnew evidence. No repeatedprivatepolls, pricing/certification/appealguarantees, documentcollection, realaccount/material/index/edge/outreach action."
   },
   "latestGscUiAttempt": {
     "observedOn": "2026-11-10",

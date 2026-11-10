@@ -8,8 +8,9 @@ assert.ok(output, "Provide an evidence directory");
 const articlePath = "articles/seo-content-cluster.html";
 
 async function stylesheetReady(page) {
+  await page.waitForLoadState("load");
   for (let attempt = 0; attempt < 100; attempt += 1) {
-    if (await page.evaluate(() => [...document.styleSheets].some(sheet => sheet.href && new URL(sheet.href).pathname.endsWith("/styles.css")))) return true;
+    if (await page.evaluate(() => [...document.styleSheets].some(sheet => sheet.href && new URL(sheet.href).pathname.endsWith("/styles.css") && sheet.cssRules.length > 0))) return true;
     await new Promise(resolve => setTimeout(resolve, 50));
   }
   throw new Error("Site stylesheet did not become ready");
@@ -40,6 +41,7 @@ async function main() {
           images: [schema.image, document.querySelector('meta[property="og:image"]').content, document.querySelector('meta[name="twitter:image"]').content],
           cover: { src: image.currentSrc, loaded: image.naturalWidth > 0, ratio: image.getBoundingClientRect().width / image.getBoundingClientRect().height },
           mapRows: [...main.querySelectorAll("[data-cluster-map]")].map(n => n.dataset.clusterMap),
+          rankRoutes: Object.fromEntries(["organic-seo", "ad-rank"].map(key => [key, main.querySelector(`[data-cluster-map="${key}"] a`)?.getAttribute("href")])),
           decisions: [...main.querySelectorAll("[data-cluster-decision]")].map(n => n.dataset.clusterDecision),
           evidenceChecks: main.querySelectorAll("[data-cluster-evidence] > li").length,
           reviewRecords: main.querySelectorAll("[data-cluster-review] > li").length,
@@ -53,7 +55,7 @@ async function main() {
       assert.equal(content.schema.headline, content.headline);
       assert.equal(content.canonical, "https://shumaojs.com/" + articlePath);
       assert.equal(content.schema.datePublished, "2026-09-11");
-      assert.equal(content.modified, "2026-10-28T16:08:24+08:00");
+      assert.equal(content.modified, "2026-11-09T16:34:08+08:00");
       assert.equal(content.schema.dateModified, content.modified);
       assert.equal(new Set(content.descriptions).size, 1);
       assert.equal(new Set(content.images).size, 1);
@@ -61,7 +63,8 @@ async function main() {
       assert.ok(content.cover.loaded);
       assert.ok(content.cover.src.endsWith(width <= 600 ? "map-thumb-v1.webp" : "map-v1.jpg"));
       assert.ok(Math.abs(content.cover.ratio - 16 / 9) < 0.01);
-      assert.deepEqual(content.mapRows, ["management", "setup", "ad-rank", "seo-title", "keywords", "learning"]);
+      assert.deepEqual(content.mapRows, ["management", "setup", "organic-seo", "ad-rank", "seo-title", "keywords", "learning"]);
+      assert.deepEqual(content.rankRoutes, { "organic-seo": "google-seo-ranking-guide.html#seo-diagnosis", "ad-rank": "google-search-ads-guide.html" });
       assert.deepEqual(content.decisions, ["improve", "separate", "verify-duplicate"]);
       assert.equal(content.evidenceChecks, 4);
       assert.equal(content.reviewRecords, 4);
@@ -121,6 +124,18 @@ async function main() {
         await page.locator('main nav a[href="#page-map"]').click();
         await page.screenshot({ path: path.join(output, `map-${suffix}.png`) });
       }
+      for (const [key, target] of Object.entries(content.rankRoutes)) {
+        await page.locator(`[data-cluster-map="${key}"] a`).click();
+        await page.waitForLoadState("load");
+        assert.equal(new URL(page.url()).pathname, new URL(target, new URL(articlePath, base)).pathname);
+        if (key === "organic-seo") {
+          assert.equal(new URL(page.url()).hash, "#seo-diagnosis");
+          assert.ok((await page.locator("h1").textContent()).includes("自然搜索 SEO"));
+          assert.equal(await page.locator("#seo-diagnosis").count(), 1);
+        }
+        await page.goBack({ waitUntil: "load" });
+      }
+      content.separateRankJourneysPassed = true;
       assert.equal((await page.goto(new URL("articles.html", base).href, { waitUntil: "domcontentloaded" })).status(), 200);
       await stylesheetReady(page);
       const card = page.locator("[data-article-card]").filter({ has: page.locator(`h3 a[href="${articlePath}"]`) });
@@ -137,7 +152,7 @@ async function main() {
         }
       }
       assert.ok(await card.isVisible());
-      assert.ok((await card.locator("small").textContent()).startsWith("2026-10-28"));
+      assert.ok((await card.locator("small").textContent()).startsWith("2026-11-09"));
       await card.locator("img").scrollIntoViewIfNeeded();
       await card.locator("img").evaluate(image => image.decode());
       assert.ok((await card.locator("img").getAttribute("src")).endsWith("content-cluster-map-thumb-v1.webp"));

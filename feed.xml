@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 17:18:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 08:34:08 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>外贸网站 SEO 内容集群怎么规划</title>
+      <link>https://shumaojs.com/articles/seo-content-cluster.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/seo-content-cluster.html</guid>
+      <description>用本站七类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分自然 SEO 与广告排名、拆分合并条件和同口径复盘。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>SEO</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>谷歌广告开户流程：账户准备与投放入门</title>
       <link>https://shumaojs.com/articles/google-ads-basics.html</link>
@@ -104,15 +113,6 @@
       <description>移动端广告落地页怎么排查流失？区分 LCP、INP、CLS、实验室评分与真实用户数据，用六种排查和三种假设情境核对图片、交互、布局及表单路径。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>建站</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>外贸网站 SEO 内容集群怎么规划</title>
-      <link>https://shumaojs.com/articles/seo-content-cluster.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/seo-content-cluster.html</guid>
-      <description>用本站六类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分搜索意图、拆分合并条件和同口径复盘。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>SEO</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>

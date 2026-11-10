@@ -3,7 +3,7 @@ import json
 import unittest
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 from scripts.structured_data_check import SchemaParser
 
 
@@ -41,18 +41,18 @@ class ContentClusterGuideTests(unittest.TestCase):
 
     def test_map_and_page_decisions(self):
         parser = ClusterParser(self.source)
-        self.assertEqual(parser.fields["data-cluster-map"], ["management", "setup", "ad-rank", "seo-title", "keywords", "learning"])
+        self.assertEqual(parser.fields["data-cluster-map"], ["management", "setup", "organic-seo", "ad-rank", "seo-title", "keywords", "learning"])
         self.assertEqual(parser.fields["data-cluster-decision"], ["improve", "separate", "verify-duplicate"])
 
     def test_csv_is_safe_example_and_matches_actual_pages(self):
         self.assertTrue(CSV_PATH.read_bytes().startswith(b"\xef\xbb\xbf"))
         with CSV_PATH.open(encoding="utf-8-sig", newline="") as stream:
             rows = list(csv.DictReader(stream))
-        self.assertEqual(len(rows), 6)
+        self.assertEqual(len(rows), 7)
         self.assertTrue(all(len(row) == 9 and None not in row for row in rows))
         parser = ClusterParser(self.source)
-        expected_paths = ["/" + href.removeprefix("../") if href.startswith("../") else "/articles/" + href for href in parser.map_urls]
-        self.assertEqual([urlparse(row["既有网址"]).path for row in rows], expected_paths)
+        expected_urls = [urljoin("https://shumaojs.com/articles/", href) for href in parser.map_urls]
+        self.assertEqual([row["既有网址"] for row in rows], expected_urls)
         for row in rows:
             self.assertEqual(urlparse(row["既有网址"]).netloc, "shumaojs.com")
             self.assertTrue((ROOT / urlparse(row["既有网址"]).path.lstrip("/")).is_file())
@@ -61,6 +61,18 @@ class ContentClusterGuideTests(unittest.TestCase):
             for cell in row.values():
                 self.assertFalse(cell.startswith(("=", "+", "-", "@", "\t", "\r")))
         self.assertIn('download="keyword-page-map-v1.csv"', self.source)
+
+    def test_owner_organic_intent_has_distinct_real_target_and_anchor(self):
+        with CSV_PATH.open(encoding="utf-8-sig", newline="") as stream:
+            rows = {row["候选主题"]: row for row in csv.DictReader(stream)}
+        organic = urlparse(rows["谷歌排名"]["既有网址"])
+        paid = urlparse(rows["谷歌广告排名"]["既有网址"])
+        self.assertEqual(organic.path, "/articles/google-seo-ranking-guide.html")
+        self.assertEqual(organic.fragment, "seo-diagnosis")
+        self.assertIn(f'id="{organic.fragment}"', (ROOT / organic.path.lstrip("/")).read_text(encoding="utf-8"))
+        self.assertEqual(paid.path, "/articles/google-search-ads-guide.html")
+        self.assertNotEqual(organic.path, paid.path)
+        self.assertIn("不能只凭“排名”两个字决定页面", self.source)
 
     def test_no_automatic_merge_or_measured_result_claim(self):
         for phrase in ["不足以证明关键词内耗", "本教程不会执行删除、301 或 noindex", "不是客户成功案例",
@@ -75,7 +87,7 @@ class ContentClusterGuideTests(unittest.TestCase):
         article = next(json.loads(block) for block in parser.blocks if json.loads(block).get("@type") == "Article")
         self.assertEqual(article["headline"], "外贸网站 SEO 内容集群怎么规划")
         self.assertEqual(article["datePublished"], "2026-09-11")
-        self.assertEqual(article["dateModified"], "2026-10-28T16:08:24+08:00")
+        self.assertEqual(article["dateModified"], "2026-11-09T16:34:08+08:00")
         self.assertIn('datetime="' + article["dateModified"] + '"', self.source)
         self.assertTrue(article["image"].endswith("content-cluster-map-v1.jpg"))
         self.assertIn("content-cluster-map-thumb-v1.webp", (ROOT / "articles.html").read_text(encoding="utf-8"))

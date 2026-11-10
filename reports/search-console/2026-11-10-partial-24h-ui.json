@@ -1,0 +1,52 @@
+{
+  "property": "sc-domain:shumaojs.com",
+  "observedOn": "2026-11-10",
+  "recordedAt": "2026-11-10T07:20:01Z",
+  "method": "Authorized existing official Search Console tab, rendered AX only; no connector/private endpoint/browser profile access",
+  "status": "partial 24hour read only; date-switch observation timeout and same-tab recovery timeout",
+  "lastVerifiedReport": {
+    "searchType": "Web (text)",
+    "timeRange": "24 hours",
+    "granularity": "hour",
+    "chartDateLabels": ["2026-11-09", "2026-11-10"],
+    "uiLastUpdated": "25 hours ago",
+    "clicks": 0,
+    "impressions": 10,
+    "displayedCtrPercent": 0,
+    "displayedAveragePosition": 40.1,
+    "freshness": "Unknown/incomplete; rolling hourly window and stale-update label, not a settled daily or weekly series",
+    "visibleQueryRows": [
+      {"query": "google 廣告收費", "clicks": 0, "impressions": 2},
+      {"query": "轉換追蹤", "clicks": 0, "impressions": 1},
+      {"query": "google ads 報告", "clicks": 0, "impressions": 1},
+      {"query": "adwords audit hong kong", "clicks": 0, "impressions": 1},
+      {"query": "關鍵字比對", "clicks": 0, "impressions": 1}
+    ],
+    "tablePagination": "1-5 of 5 visible reported query rows",
+    "rowCompleteness": "Reported rows are not all demand; do not force row sums to match chart totals or infer missing Simplified seeds have zero demand",
+    "countryRows": null,
+    "pageRows": null,
+    "deviceRows": null,
+    "queryCountryPageJoin": null
+  },
+  "overviewRead": {
+    "indexed": 55,
+    "notIndexed": 48,
+    "asOfDate": null,
+    "scope": "Overview/all-known URLs; no fresh coverage update date or excluded example URLs read",
+    "coreWebVitals": "No data shown for mobile or desktop",
+    "productSnippets": {"valid": 0, "invalid": 0},
+    "merchantListings": {"valid": 0, "invalid": 0},
+    "limits": "Overview counters do not establish current sitemap inclusion, field CWV scores, fresh indexing transitions or every historical issue resolved"
+  },
+  "weeklyComparison": null,
+  "monthlyComparison": null,
+  "officialExportDownloaded": false,
+  "dateSwitchResultVerified": false,
+  "browserEndState": "User-owned tab left open; last subsequent UI state unreadable. CUA outcome summarized once",
+  "organicVisits": null,
+  "qualifiedEnquiries": null,
+  "marketSearchVolume": null,
+  "causalRankingGainVerified": false,
+  "decision": "Preserve published Simplified service/setup/organic and paid-ranking routes and US-HK localizations. Wait for existing official7/28comparison export request or genuinely usable rendered detail. Do not sum overlapping24h/week windows, fabricate market joins, title-test or publish near-duplicates from sparse rows. No repeated same-handle retries, paid connector, account/index/edge changes or old question duplication."
+}

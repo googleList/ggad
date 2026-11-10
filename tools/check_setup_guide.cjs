@@ -49,6 +49,8 @@ async function main() {
             loaded: main.querySelector(".article-cover").naturalWidth > 0,
             ratio: main.querySelector(".article-cover").getBoundingClientRect().width / main.querySelector(".article-cover").getBoundingClientRect().height },
           checks: [...main.querySelectorAll("[data-setup-check]")].map((node) => node.dataset.setupCheck),
+          verificationStates: [...main.querySelectorAll("[data-verification-state]")].map(node => node.dataset.verificationState),
+          verificationExamples: [...main.querySelectorAll("[data-verification-example]")].map(node => node.dataset.verificationExample),
           examples: [...main.querySelectorAll("[data-setup-example]")].map((node) => node.dataset.setupExample),
           reviewRecords: main.querySelectorAll("[data-setup-review-records] > li").length,
           ids: [...main.querySelectorAll("[id]")].map((node) => node.id),
@@ -64,12 +66,14 @@ async function main() {
       assert.equal(content.title, content.headline);
       assert.equal(content.title, "谷歌广告开户流程：账户准备与投放入门");
       assert.equal(content.canonical, "https://shumaojs.com/articles/google-ads-basics.html");
-      assert.equal(content.modified, "2026-11-01T01:18:00+08:00");
+      assert.equal(content.modified, "2026-11-10T15:25:30+08:00");
       assert.equal(content.visibleModified, content.modified);
       assert.equal(content.published, "2026-09-11");
       assert.equal(content.setupSteps, 6);
       assert.equal(content.preparationRows, 6);
       assert.deepEqual(content.checks, ["delivery", "measurement", "intent", "maturity", "economics"]);
+      assert.deepEqual(content.verificationStates, ["required", "review", "documents", "relationships", "paused", "suspended"]);
+      assert.deepEqual(content.verificationExamples, ["name", "agency", "policy"]);
       assert.deepEqual(content.examples, ["failure", "irrelevant", "unknown"]);
       assert.equal(content.reviewRecords, 4);
       assert.equal(new Set(content.descriptions).size, 1);
@@ -84,7 +88,7 @@ async function main() {
       assert.ok(Math.abs(content.image.ratio - 16 / 9) < 0.01);
       assert.equal(content.overflow, false);
       assert.equal(new Set(content.ids).size, content.ids.length);
-      assert.equal(content.anchors.length, 8);
+      assert.equal(content.anchors.length, 9);
       for (const href of content.anchors) {
         assert.ok(content.ids.includes(href.slice(1)));
         await page.locator(`main nav a[href="${href}"]`).click();
@@ -96,7 +100,7 @@ async function main() {
         }, href);
       }
       if (width <= 390) {
-        for (const name of ["Google Ads 开户与首次投放准备清单", "首次投放的五项证据与下一步"]) {
+        for (const name of ["Google Ads 开户与首次投放准备清单", "六种广告客户验证通知与核对步骤", "首次投放的五项证据与下一步"]) {
           const region = page.getByRole("region", { name, exact: true });
           await region.scrollIntoViewIfNeeded();
           assert.equal(await region.evaluate((node) => node.scrollWidth > node.clientWidth), true);
@@ -128,10 +132,13 @@ async function main() {
       }
       await page.evaluate(() => scrollTo(0, 0));
       if (width === 1440 || width === 390) {
+        await page.evaluate(() => document.querySelectorAll(".article-table-wrap").forEach(node => { node.scrollLeft = 0; }));
         const suffix = `${width}-${javaScriptEnabled ? "js" : "nojs"}-dpr${dpr}`;
         await page.screenshot({ path: path.join(output, `guide-${suffix}.png`) });
         await page.locator('main nav a[href="#first-review"]').click();
         await page.screenshot({ path: path.join(output, `checklist-${suffix}.png`) });
+        await page.locator('main nav a[href="#verification-triage"]').click();
+        await page.screenshot({ path: path.join(output, `verification-${suffix}.png`) });
         await page.locator('main nav a[href="#review-examples"]').click();
         await page.screenshot({ path: path.join(output, `examples-${suffix}.png`) });
       }
@@ -139,7 +146,7 @@ async function main() {
       if (javaScriptEnabled) await page.locator('[data-article-category-button][data-article-category="sem"]').click();
       const card = page.locator("[data-article-card]").filter({ has: page.locator('h3 a[href="articles/google-ads-basics.html"]') });
       assert.equal(await card.isVisible(), true);
-      assert.ok((await card.locator("small").textContent()).startsWith("2026-11-01"));
+      assert.ok((await card.locator("small").textContent()).startsWith("2026-11-10"));
       await card.locator("img").scrollIntoViewIfNeeded();
       await card.locator("img").evaluate((image) => image.decode());
       assert.ok((await card.locator("img").getAttribute("src")).endsWith("account-setup-readiness-thumb-v1.webp"));

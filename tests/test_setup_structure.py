@@ -32,7 +32,7 @@ class SetupStructureTests(unittest.TestCase):
     def test_truthful_dates_and_existing_responsive_image(self):
         schema = article_schema(ROOT / "articles/google-ads-basics.html")
         self.assertEqual(schema["datePublished"], "2026-09-11")
-        self.assertEqual(schema["dateModified"], "2026-11-01T01:18:00+08:00")
+        self.assertEqual(schema["dateModified"], "2026-11-10T15:25:30+08:00")
         self.assertIn('datetime="' + schema["dateModified"] + '"', self.source)
         self.assertIn("account-setup-readiness-thumb-v1.webp 480w", self.source)
         self.assertIn("account-setup-readiness-v1.jpg 1200w", self.source)

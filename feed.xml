@@ -5,8 +5,17 @@
     <link>https://shumaojs.com/articles.html</link>
     <description>Google Ads、SEM、SEO、建站、GEO、转化追踪与广告管理文章。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 09 Nov 2026 08:34:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 07:25:30 +0000</lastBuildDate>
     <atom:link href="https://shumaojs.com/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>谷歌广告开户流程：账户准备与投放入门</title>
+      <link>https://shumaojs.com/articles/google-ads-basics.html</link>
+      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-basics.html</guid>
+      <description>按资料清单和六步流程准备谷歌广告开户，分清账单、权限与费用；按六种验证通知核对文件、业务关系和账户状态，再用首轮检查安排投放，不承诺验证或解封结果。</description>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <category>Google Ads Guide</category>
+      <dc:language>zh-CN</dc:language>
+    </item>
     <item>
       <title>外贸网站 SEO 内容集群怎么规划</title>
       <link>https://shumaojs.com/articles/seo-content-cluster.html</link>
@@ -14,15 +23,6 @@
       <description>用本站七类页面分工和可下载 CSV 映射工作表，规划外贸网站的服务、产品、类目与支持文章；区分自然 SEO 与广告排名、拆分合并条件和同口径复盘。</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <category>SEO</category>
-      <dc:language>zh-CN</dc:language>
-    </item>
-    <item>
-      <title>谷歌广告开户流程：账户准备与投放入门</title>
-      <link>https://shumaojs.com/articles/google-ads-basics.html</link>
-      <guid isPermaLink="true">https://shumaojs.com/articles/google-ads-basics.html</guid>
-      <description>按资料清单和六步流程准备谷歌广告开户，分清账单地区、验证、权限与费用。用五项首轮检查和三种假设情境判断下一步，不按固定天数否词或放大预算。</description>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Google Ads Guide</category>
       <dc:language>zh-CN</dc:language>
     </item>
     <item>
